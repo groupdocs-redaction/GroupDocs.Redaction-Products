@@ -19,11 +19,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Redaction On Premise APIs Include"
-      link: "/redaction"
+      link: "/redaction/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/redaction/net"
+        - link: "/redaction/net/"
           img_alt: "GroupDocs.Redaction for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
           product: "GroupDocs.Redaction for"
@@ -31,7 +31,7 @@ apis:
           content: "On Premise .NET API to hide or remove the content and metadata from your personal documents."
 
         # api_product loop
-        - link: "/redaction/java"
+        - link: "/redaction/java/"
           img_alt: "GroupDocs.Redaction for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
           product: "GroupDocs.Redaction for"

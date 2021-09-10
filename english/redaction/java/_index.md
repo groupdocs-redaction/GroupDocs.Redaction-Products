@@ -238,7 +238,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
           product: "GroupDocs.Redaction"
           platform: ".NET"
-          link: "/redaction/net"
+          link: "/redaction/net/"
 
 ############################# Back to top ###############################
 back_to_top:

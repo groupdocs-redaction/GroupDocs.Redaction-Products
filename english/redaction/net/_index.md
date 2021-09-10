@@ -241,7 +241,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
           product: "GroupDocs.Redaction"
           platform: "Java"
-          link: "/redaction/java"
+          link: "/redaction/java/"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -10,7 +10,7 @@ head_description: "Remove, redact or hide metadata and text content in MS Office
 
 ############################# Header ############################
 title: "Redaction Solution to Secure Classified Info"
-description: "‎Hide or remove private information from Microsoft Office documents, spreadsheets, presentations, PDF and images.‎"
+description: "Hide or remove private information from Microsoft Office documents, spreadsheets, presentations, PDF and images."
 
 ############################# APIs ###############################
 apis:

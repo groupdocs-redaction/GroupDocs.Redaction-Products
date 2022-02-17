@@ -15,7 +15,7 @@ head_description: "Java document redaction API – Hide personal data from PDF, 
 
 ############################# Header ############################
 title: "Redact Private Information via Java API"
-description: "Exclude or hide personal information & metadata from documents, worksheets, presentations, PDF and raster image files using Java redaction API.‎‎"
+description: "Exclude or hide personal information & metadata from documents, worksheets, presentations, PDF and raster image files using Java redaction API."
 button:
     enable: true
 

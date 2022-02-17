@@ -15,7 +15,7 @@ head_description: "Document redaction API for .NET. Redact, hide or remove sensi
 
 ############################# Header ############################
 title: "Secure Classified Data via Redaction API"
-description: "‎Redact, hide or remove sensitive content & metadata from documents, worksheets, presentations, PDF and raster image files using .NET API.‎‎"
+description: "‎Redact, hide or remove sensitive content & metadata from documents, worksheets, presentations, PDF and raster image files using .NET API."
 button:
     enable: true
 
@@ -60,7 +60,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Redaction for .NET is an API library that helps you erase sensitive and classified data from ‎various file formats, such as, Microsoft Word, Excel, PowerPoint and PDF. Our Redaction API’s single ‎format-independent interface supports redaction of various types, e.g., text redaction, metadata ‎redaction, annotation redaction, and tabular document redaction. GroupDocs.Redaction for .NET API ‎also allows you to redact password protected files. You are allowed to save the document in its original ‎format as well as create a sanitized PDF document with raster images of original pages.‎‎
+      GroupDocs.Redaction for .NET is an API library that helps you erase sensitive and classified data from ‎various file formats, such as, Microsoft Word, Excel, PowerPoint and PDF. Our Redaction API’s single ‎format-independent interface supports redaction of various types, e.g., text redaction, metadata ‎redaction, annotation redaction, and tabular document redaction. GroupDocs.Redaction for .NET API ‎also allows you to redact password protected files. You are allowed to save the document in its original ‎format as well as create a sanitized PDF document with raster images of original pages.
     tabs:
       enable: true
       
@@ -214,7 +214,7 @@ features:
         content: |
           GroupDocs.Redaction for .NET API grants you complete control over how you want to hide or erase ‎your important classified information from supported document. To use our Redaction API is pretty ‎simple and straight forward.  
 
-          In following example, we load a supported document, redact out any ‎text, matching "2 digits, space or nothing, 2 digits, again space and 6 digits" (such as 12 34 567890) with a blue color box using ‎C#. Once that is done, it saves the document in its original format by renaming it with an added suffix ‎‎“_Redacted”:‎
+          In following example, we load a supported document, redact out any ‎text, matching "2 digits, space or nothing, 2 digits, again space and 6 digits" (such as 12 34 567890) with a blue color box using ‎C#. Once that is done, it saves the document in its original format by renaming it with an added suffix “_Redacted”:‎
 
           ```cs
           // Create an instance of Redactor class

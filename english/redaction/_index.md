@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Redaction On Premise APIs Include"
+    - title: "GroupDocs.Redaction High Code APIs Include"
       link: "/redaction/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/redaction/net/"
@@ -39,9 +39,9 @@ apis:
           content: "On Premise Java APIs to remove or hide text from content and metadata of supported file formats."
 
     # api loop
-    - title: "GroupDocs.Redaction Cross Platform Apps Include"
+    - title: "GroupDocs.Redaction No Code Apps Include"
       link: "https://products.groupdocs.app/redaction"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/redaction/total"

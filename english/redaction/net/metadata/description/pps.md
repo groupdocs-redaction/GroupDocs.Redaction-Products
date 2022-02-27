@@ -10,7 +10,7 @@ head_title: "Metadata Redactions from Documents in C#"
 head_description: "Redact sensitive metadata in C# by applying filters for documents of different formats"
 
 ############################# Header ############################
-title: "Redact description Metadata from PPS Document in C#"
+title: "Redact Description Metadata from PPS Document in C#"
 description: "GroupDocs.Redactions API allows to search and then update or remove any confidential data from metadata of a document."
 
 ######################### Download Button #######################
@@ -28,7 +28,7 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Redact description from PPS Document"
+    - title_left: "Redact Description from PPS Document"
       content_left: |
         Following code allows you to search and redact sensitive data from a PPS document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. - it will leave the regular expressions matches undone in all metadata items, except “Company” property:
         
@@ -39,8 +39,8 @@ steps:
         * Set scope for redaction by setting filter, e.g. Use MetadataFilter.Description in below code 
         * Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
         
-      gisthash: "9718d29035590c729114d50e69aa49b0"
-      gistfile: "RedactMetadata.cs"
+      gisthash: "15e3f0329c4e24c0f77f785b87753e0d"
+      gistfile: "RedactDescriptionMetadata.cs"
 
     - title_left: "Remove PPS Metadata in C#"
       content_left: |

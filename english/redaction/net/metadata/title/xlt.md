@@ -10,7 +10,7 @@ head_title: "Metadata Redactions from Documents in C#"
 head_description: "Redact sensitive metadata in C# by applying filters for documents of different formats"
 
 ############################# Header ############################
-title: "Redact title Metadata from XLT Document in C#"
+title: "Redact Title Metadata from XLT Document in C#"
 description: "GroupDocs.Redactions API allows to search and then update or remove any confidential data from metadata of a document."
 
 ######################### Download Button #######################
@@ -28,7 +28,7 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Redact title from XLT Document"
+    - title_left: "Redact Title from XLT Document"
       content_left: |
         Following code allows you to search and redact sensitive data from a XLT document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. - it will leave the regular expressions matches undone in all metadata items, except “Company” property:
         
@@ -39,8 +39,8 @@ steps:
         * Set scope for redaction by setting filter, e.g. Use MetadataFilter.Title in below code 
         * Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
         
-      gisthash: "9718d29035590c729114d50e69aa49b0"
-      gistfile: "RedactMetadata.cs"
+      gisthash: "78fca6b6facd4e3ea79038d7abcb092f"
+      gistfile: "RedactTitleMetadata.cs"
 
     - title_left: "Remove XLT Metadata in C#"
       content_left: |

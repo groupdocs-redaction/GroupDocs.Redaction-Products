@@ -53,8 +53,8 @@ steps:
         * Set scope for redaction by setting filter, e.g. Use MetadataFilter.Createdtime in below code 
         * Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
         
-      gisthash: "9718d29035590c729114d50e69aa49b0"
-      gistfile: "RedactMetadata.cs"
+      gisthash: "4bc023c912c5eb34b1490c159a35a6ea"
+      gistfile: "RedactCreatedTimeMetadata.cs"
 
     - title_left: "System Requirements"
       content_left: |

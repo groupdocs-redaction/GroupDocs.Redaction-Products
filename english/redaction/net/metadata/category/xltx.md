@@ -39,8 +39,8 @@ steps:
         * Set scope for redaction by setting filter, e.g. Use MetadataFilter.Category in below code 
         * Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
         
-      gisthash: "9718d29035590c729114d50e69aa49b0"
-      gistfile: "RedactMetadata.cs"
+      gisthash: "852b461c316559151cb6075b4ecde2ce"
+      gistfile: "RedactCategoryMetadata.cs"
 
     - title_left: "Remove XLTX Metadata in C#"
       content_left: |

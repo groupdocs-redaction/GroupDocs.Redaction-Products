@@ -10,7 +10,7 @@ head_title: "Redact Sensitive Metadata from Documents in C#"
 head_description: "Apply metadata redaction by applying filters for documents of different formats"
 
 ############################# Header ############################
-title: "Redact author Name from DOTX Metadata in C#"
+title: "Redact Author Name from DOTX Metadata in C#"
 description: "GroupDocs.Redactions provides a flexible API that allows to search & replace/remove any metadata property using filters."
 
 ######################### Download Button #######################
@@ -40,7 +40,7 @@ steps:
         * Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
         
       gisthash: "9718d29035590c729114d50e69aa49b0"
-      gistfile: "RedactMetadata.cs"
+      gistfile: "RedactAuthorMetadata.cs"
 
     - title_left: "Remove DOTX Metadata in C#"
       content_left: |

@@ -28,7 +28,7 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Redact subject from DOCM Document"
+    - title_left: "Redact Subject from DOCM Document"
       content_left: |
         Following code allows you to search and redact sensitive data from a DOCM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. - it will leave the regular expressions matches undone in all metadata items, except “Company” property:
         
@@ -39,8 +39,8 @@ steps:
         * Set scope for redaction by setting filter, e.g. Use MetadataFilter.Subject in below code 
         * Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
         
-      gisthash: "9718d29035590c729114d50e69aa49b0"
-      gistfile: "RedactMetadata.cs"
+      gisthash: "fe7bf28f64f61d748d50026fbc1350fe"
+      gistfile: "RedactSubjectMetadata.cs"
 
     - title_left: "Remove DOCM Metadata in C#"
       content_left: |

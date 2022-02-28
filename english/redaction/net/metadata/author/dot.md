@@ -30,7 +30,7 @@ steps:
     block:
     - title_left: "Redact DOT Metadata in C#"
       content_left: |
-        Following code allows you to search and redact sensitive data from a DOT document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. - it will leave the regular expressions matches undone in all metadata items, except “Company” property:
+        Following code allows you to search and redact sensitive data from a DOT document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Author. - it will leave the regular expressions matches undone in all metadata items, except “Author” property:
         
       title_right: "How to Redact DOT Metadata"
       content_right: |

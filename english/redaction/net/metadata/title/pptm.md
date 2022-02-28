@@ -30,7 +30,7 @@ steps:
     block:
     - title_left: "Redact Title from PPTM Document"
       content_left: |
-        Following code allows you to search and redact sensitive data from a PPTM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. - it will leave the regular expressions matches undone in all metadata items, except “Company” property:
+        Following code allows you to search and redact sensitive data from a PPTM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Title. - it will leave the regular expressions matches undone in all metadata items, except “Title” property:
         
       title_right: "How to Redact PPTM Metadata"
       content_right: |

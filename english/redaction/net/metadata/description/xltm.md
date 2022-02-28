@@ -30,7 +30,7 @@ steps:
     block:
     - title_left: "Redact Description from XLTM Document"
       content_left: |
-        Following code allows you to search and redact sensitive data from a XLTM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. - it will leave the regular expressions matches undone in all metadata items, except “Company” property:
+        Following code allows you to search and redact sensitive data from a XLTM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Description. - it will leave the regular expressions matches undone in all metadata items, except “Description” property:
         
       title_right: "How to Redact XLTM Metadata"
       content_right: |

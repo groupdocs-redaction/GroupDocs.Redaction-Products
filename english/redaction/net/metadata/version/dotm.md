@@ -30,7 +30,7 @@ steps:
     block:
     - title_left: "Redact Version of DOTM File in C#"
       content_left: |
-        Following code allows you to search and redact sensitive data from a DOTM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. - it will leave the regular expressions matches undone in all metadata items, except “Company” property:
+        Following code allows you to search and redact sensitive data from a DOTM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Version. - it will leave the regular expressions matches undone in all metadata items, except “Version” property:
         
       title_right: "How to Redact DOTM Metadata"
       content_right: |

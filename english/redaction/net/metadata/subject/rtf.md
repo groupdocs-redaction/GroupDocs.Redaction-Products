@@ -30,7 +30,7 @@ steps:
     block:
     - title_left: "Redact Subject from RTF Document"
       content_left: |
-        Following code allows you to search and redact sensitive data from a RTF document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. - it will leave the regular expressions matches undone in all metadata items, except “Company” property:
+        Following code allows you to search and redact sensitive data from a RTF document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Subject. - it will leave the regular expressions matches undone in all metadata items, except “Subject” property:
         
       title_right: "How to Redact RTF Metadata"
       content_right: |

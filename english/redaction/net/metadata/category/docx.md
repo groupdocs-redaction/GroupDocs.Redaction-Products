@@ -30,7 +30,7 @@ steps:
     block:
     - title_left: "Redact DOCX Metadata in C#"
       content_left: |
-        Following code allows you to search and redact sensitive data from a DOCX document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. - it will leave the regular expressions matches undone in all metadata items, except “Company” property:
+        Following code allows you to search and redact sensitive data from a DOCX document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Category. - it will leave the regular expressions matches undone in all metadata items, except “Category” property:
         
       title_right: "How to Redact DOCX Metadata"
       content_right: |

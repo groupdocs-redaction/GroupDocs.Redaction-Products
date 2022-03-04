@@ -30,7 +30,6 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Redact XLTX Metadata"
     - title_left: "Updating Description Metadata"
       content_left: |
         Following code allows you to search and redact sensitive data from a XLTX document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Description. It will leave the regular expressions matches undone in all metadata items, except “Description” property:

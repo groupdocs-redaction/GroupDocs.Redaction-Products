@@ -30,7 +30,6 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Redact POT Metadata"
     - title_left: "Updating Subject Metadata"
       content_left: |
         Following code allows you to search and redact sensitive data from a POT document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Subject. It will leave the regular expressions matches undone in all metadata items, except “Subject” property:

@@ -8,8 +8,8 @@ ad_headline: "Redact Metadata | java_Camel"
 ad_description: "Redact Company Name from DOTX Metadata in Java"
 
 ############################# Head ############################
-head_title: "Redact Sensitive Metadata from Documents in Java"
-head_description: "Apply metadata redaction by applying filters for documents of different formats"
+head_title: "Metadata Redaction From DOTX Document in Java"
+head_description: "Easily search, replace, remove or edit metadata of various document types by applying filters to choose specific metadata properties using GroupDocs.Redactions API for Java."
 
 ############################# Header ############################
 title: "Metadata Redaction From DOTX Document in Java"
@@ -48,7 +48,7 @@ steps:
       content_left: |
         You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a DOTX document.The example below blanks out all properties of the document:
         
-      title_right: "How to Erase DOTX Metadata"
+      title_right: "How to Erase Company Metadata"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload DOTX file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to remove metadata of the document
@@ -64,7 +64,7 @@ steps:
         * Operating Systems: Microsoft Windows, Linux, MacOS
         * Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         * Java Runtime Environment: J2SE 6.0 and above
-        * Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo)
+        * Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)
         
       title_right: "Why Use GroupDocs.Redaction"
       content_right: |

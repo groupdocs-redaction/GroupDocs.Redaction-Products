@@ -8,8 +8,8 @@ ad_headline: "Redact Metadata | java_Camel"
 ad_description: "Redact Description Metadata from a PPSX File in Java"
 
 ############################# Head ############################
-head_title: "Redact Sensitive Metadata from Documents in Java"
-head_description: "Apply metadata redaction by applying filters for documents of different formats"
+head_title: "Redact Description Metadata from a PPSX File in Java"
+head_description: "GroupDocs.Redactions provides a flexible API that allows to search & replace/remove any metadata property using filters."
 
 ############################# Header ############################
 title: "Redact Description Metadata from a PPSX File in Java"
@@ -64,7 +64,7 @@ steps:
         * Operating Systems: Microsoft Windows, Linux, MacOS
         * Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         * Java Runtime Environment: J2SE 6.0 and above
-        * Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo)
+        * Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)
         
       title_right: "Why Use GroupDocs.Redaction?"
       content_right: |

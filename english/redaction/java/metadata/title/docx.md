@@ -8,11 +8,11 @@ ad_headline: "Redact Metadata | java_Camel"
 ad_description: "Redact Title from DOCX Metadata in Java"
 
 ############################# Head ############################
-head_title: "Redact Sensitive Metadata from Documents in Java"
-head_description: "Apply metadata redaction by applying filters for documents of different formats"
+head_title: "Redact Title from DOCX File in Java Using GroupDocs.Redaction API"
+head_description: "GroupDocs.Redaction is a powerful sanitization API that enables you to remove or edit confidential information from over 30 document types."
 
 ############################# Header ############################
-title: "Redact Title Metadata from DOCX Document in Java"
+title: "Redact Title from DOCX File in Java Using GroupDocs.Redaction API"
 description: "GroupDocs.Redaction is a powerful sanitization API that enables you to remove or edit confidential information from over 30 document types."
 
 ######################### Download Button #######################
@@ -24,13 +24,13 @@ about:
     enable: true
     title: "What is Metadata Redaction?"
     content: |
-        Saving the document in an original format requires deleting or redacting its metadata to remove all confidential data. For these purposes GroupDocs.Redaction provides metadata redaction API. GroupDocs.Redaction API allows to either save redacted documents in PDF, transform all pages into raster images or save redacted document in its original format for further editing. All the file formats including PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others have some metadata properties. These properties include author name, category, company name, comments, creation time, last updated and many more.There are also some hidden data associated with the files which can be viewed using various tools and techniques. With GroupDocs.Redaction API you can apply metadata redactions to any of these metadata properties. You can change or delete them by filtering the metadata you want. In this guide we will explain how you can redact Title metadata from DOCX document in Java.
+        Saving the document in an original format requires deleting or redacting its metadata to remove all confidential data. For these purposes GroupDocs.Redaction provides metadata redaction API. GroupDocs.Redaction API allows to either save redacted documents in PDF, transform all pages into raster images or save redacted document in its original format for further editing. All the file formats including PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others have some metadata properties. These properties include author name, category, company name, comments, creation time, last updated and many more.There are also some hidden data associated with the files which can be viewed using various tools and techniques. With GroupDocs.Redaction API you can apply metadata redactions to any of these metadata properties. You can change or delete them by filtering the metadata you want. In this guide we will explain how you can redact Title from DOCX file in Java rsing GroupDocs.Redaction API.
 
 ############################# content ############################
 steps:
     enable: true
     block:
-    - title_left: "Redact DOCX Metadata in Java"
+    - title_left: "Redact Title Metadata in Java"
       content_left: |
         Following code allows you to search and redact sensitive data from a DOCX document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Title. It will leave the regular expressions matches undone in all metadata items, except “Title” property:
         
@@ -64,7 +64,7 @@ steps:
         * Operating Systems: Microsoft Windows, Linux, MacOS
         * Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         * Java Runtime Environment: J2SE 6.0 and above
-        * Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo)
+        * Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)
         
       title_right: "Why Use GroupDocs.Redaction"
       content_right: |

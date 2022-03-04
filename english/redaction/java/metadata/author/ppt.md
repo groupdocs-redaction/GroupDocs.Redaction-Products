@@ -8,11 +8,11 @@ ad_headline: "Redact Metadata | java_Camel"
 ad_description: "Redact Author Name from PPT Metadata in Java"
 
 ############################# Head ############################
-head_title: "Redact Sensitive Metadata from Documents in Java"
-head_description: "Apply metadata redaction by applying filters for documents of different formats"
+head_title: "Remove OR Update Author Name from PPT Metadata in Java"
+head_description: "GroupDocs.Redactions provides a flexible API that allows to search & replace/remove any metadata property using filters."
 
 ############################# Header ############################
-title: "Redact Author Name from PPT Metadata in Java"
+title: "Remove OR Update Author Name From PPT Metadata In Java"
 description: "GroupDocs.Redactions provides a flexible API that allows to search & replace/remove any metadata property using filters."
 
 ######################### Download Button #######################
@@ -44,7 +44,7 @@ steps:
       gisthash: "e3926608f913f15d261b194084c179dd"
       gistfile: "RedactAuthorMetadata.java"
 
-    - title_left: "Remove PPT Metadata in Java"
+    - title_left: "Remove Author Metadata in Java"
       content_left: |
         You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a PPT document.The example below blanks out all properties of the document:
         
@@ -64,7 +64,7 @@ steps:
         * Operating Systems: Microsoft Windows, Linux, MacOS
         * Development Environment: NetBeans, Intellij IDEA, Eclipse etc
         * Java Runtime Environment: J2SE 6.0 and above
-        * Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo)
+        * Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)
         
       title_right: "Why Use GroupDocs.Redaction"
       content_right: |

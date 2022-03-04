@@ -34,12 +34,12 @@ steps:
       content_left: |
         Following code allows you to search and redact sensitive data from a DOTM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Createdtime. It will leave the regular expressions matches undone in all metadata items, except “Createdtime” property:
         
-      title_right: "Steps to Redact Metadata"
+      title_right: "Steps to Redact Createdtime Metadata"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload DOTM file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to find and replace sensitive data from document's metadata
         * Set scope for redaction by setting filter, e.g. Use MetadataFilters.Createdtime in below code 
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "e773562949d4e6c0db09be86f79e4ced"
       gistfile: "RedactCreatedtimeMetadata.java"
@@ -53,7 +53,7 @@ steps:
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload DOTM file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to remove metadata of the document
         * Set scope for redaction by setting filter, e.g. Replace MetadataFilter.All with MetadataFilter.Createdtime in below code
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "84586804ee996134fd12f2061f989fd5"
       gistfile: "CleanMetadata.java"

@@ -39,7 +39,7 @@ steps:
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload XLTM file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to find and replace sensitive data from document's metadata
         * Set scope for redaction by setting filter, e.g. Use MetadataFilters.Category in below code 
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "480e989781148cd44a7aa8823887ae21"
       gistfile: "RedactCategoryMetadata.java"
@@ -48,12 +48,12 @@ steps:
       content_left: |
         You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a XLTM document.The example below blanks out all properties of the document:
         
-      title_right: "Erase XLTM Metadata"
+      title_right: "Erase Category Metadata from XLTM File "
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload XLTM file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to remove metadata of the document
         * Set scope for redaction by setting filter, e.g. Replace MetadataFilter.All with MetadataFilter.Category in below code
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "84586804ee996134fd12f2061f989fd5"
       gistfile: "CleanMetadata.java"

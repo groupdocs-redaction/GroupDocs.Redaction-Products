@@ -30,7 +30,7 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Updating Description Metadata"
+    - title_left: "Updating Description Metadata Field"
       content_left: |
         Following code allows you to search and redact sensitive data from a BMP document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Description. It will leave the regular expressions matches undone in all metadata items, except “Description” property:
         
@@ -39,7 +39,7 @@ steps:
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload BMP file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to find and replace sensitive data from document's metadata
         * Set scope for redaction by setting filter, e.g. Use MetadataFilters.Description in below code 
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "9faf1affc732aa746e8d34ca813621b2"
       gistfile: "RedactDescriptionrMetadata.java"
@@ -48,12 +48,12 @@ steps:
       content_left: |
         You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a BMP document.The example below blanks out all properties of the document:
         
-      title_right: "Remove BMP Metadata"
+      title_right: "Remove BMP Metadata Field"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload BMP file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to remove metadata of the document
         * Set scope for redaction by setting filter, e.g. Replace MetadataFilter.All with MetadataFilter.Description in below code
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "84586804ee996134fd12f2061f989fd5"
       gistfile: "CleanMetadata.java"

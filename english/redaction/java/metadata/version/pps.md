@@ -39,7 +39,7 @@ steps:
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload PPS file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to find and replace sensitive data from document's metadata
         * Set scope for redaction by setting filter, e.g. Use MetadataFilters.Version in below code 
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "aef660cb45245aebaae5c5eaa8054769"
       gistfile: "RedactVersionMetadata.java"
@@ -48,12 +48,12 @@ steps:
       content_left: |
         You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a PPS document.The example below blanks out all properties of the document:
         
-      title_right: "Erase Version Metadata"
+      title_right: "How to Erase Version Metadata"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload PPS file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to remove metadata of the document
         * Set scope for redaction by setting filter, e.g. Replace MetadataFilter.All with MetadataFilter.Version in below code
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "84586804ee996134fd12f2061f989fd5"
       gistfile: "CleanMetadata.java"

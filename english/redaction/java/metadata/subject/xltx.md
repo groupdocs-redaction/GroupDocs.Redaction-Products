@@ -30,16 +30,16 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Updating Subject Metadata"
+    - title_left: "Updating Subject Metadata in Java"
       content_left: |
         Following code allows you to search and redact sensitive data from a XLTX document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Subject. It will leave the regular expressions matches undone in all metadata items, except “Subject” property:
         
-      title_right: "How to Redact in Java"
+      title_right: "How to Redact XLTX Metadata"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload XLTX file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to find and replace sensitive data from document's metadata
         * Set scope for redaction by setting filter, e.g. Use MetadataFilters.Subject in below code 
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "f38d8b4c0acad38e154dc7f64018e51e"
       gistfile: "RedactSubjectMetadata.java"
@@ -48,12 +48,12 @@ steps:
       content_left: |
         You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a XLTX document.The example below blanks out all properties of the document:
         
-      title_right: "Remove XLTX Metadata"
+      title_right: "Remove XLTX Metadata Via GroupDocs.Redaction"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload XLTX file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to remove metadata of the document
         * Set scope for redaction by setting filter, e.g. Replace MetadataFilter.All with MetadataFilter.Subject in below code
-        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
         
       gisthash: "84586804ee996134fd12f2061f989fd5"
       gistfile: "CleanMetadata.java"

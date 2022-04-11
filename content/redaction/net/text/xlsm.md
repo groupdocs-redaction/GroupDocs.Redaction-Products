@@ -29,7 +29,7 @@ steps:
     enable: true
     title_left: "Redact Exact Text from XLSM via C#"
     content_left: |
-        [GroupDocs.Redaction](https://products.groupdocs.com/redaction/net) makes it easy for .NET developers to add XLSM file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](/redaction/net/) makes it easy for .NET developers to add XLSM file redaction feature with a few easy steps.
 
         *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load XLSM file
         *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text

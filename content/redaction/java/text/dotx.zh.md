@@ -2,15 +2,15 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "zh/redaction/java/text/dotm/"
-otherformats: PDF DOC DOT DOCX DOCM DOTX RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
+path: "zh/redaction/java/text/dotx/"
+otherformats: PDF DOC DOT DOCX DOCM DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
-head_title: "通过 Java 中的精确短语/正则表达式编辑 DOTM 文本"
+head_title: "通过 Java 中的精确短语/正则表达式编辑 DOTX 文本"
 head_description: "GroupDocs.Redactions Java API 使开发人员能够通过 Java 中的精确短语或正则表达式编辑 PDF DOCX RTF XLSX CSV PPT PPTX 和图像中的文本"
 
 ############################# Header ############################
-title: "如何使用 Java 编辑、隐藏或删除 DOTM 文件中的文本"
+title: "如何使用 Java 编辑、隐藏或删除 DOTX 文件中的文本"
 description: "GroupDocs.Redactions Java API 允许编辑、隐藏或删除文字处理文档、工作表、演示文稿、PDF 和图像中的敏感文本。"
 
 ######################### Download Button #######################
@@ -28,13 +28,13 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "在 Java 中编辑 DOTM 精确短语"
+    - title_left: "在 Java 中编辑 DOTX 精确短语"
       content_left: |
         GroupDocs.Redaction 允许轻松地从您的文档中编辑敏感或私人性质的数据。 最流行的编辑案例是从文档中删除文本。 
 
         以下代码可用于通过精确短语将文本编辑应用于文档的特定部分。 它允许用户用个人（或任何豁免代码）替换个人确切短语“Michal Clark”，
 
-      title_right: "从 DOTM 中删除敏感数据"
+      title_right: "从 DOTX 中删除敏感数据"
       content_right: |
         * 创建 [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) 类的实例并上传 sherazam_xxx4 文件
         * 使用 ExactPhraseRedaction 类的新实例调用 Redactor.apply 方法
@@ -44,7 +44,7 @@ steps:
       gisthash: "3202859fc19b5dfd14e8f073b70a18f8"
       gistfile: "redact_exact_phrase.java"
       
-    - title_left: "DOTM 中区分大小写的文本编辑"
+    - title_left: "DOTX 中区分大小写的文本编辑"
       content_left: |
         以下示例使用户能够执行精确的区分大小写的编辑，以删除或隐藏文档中的特定文本块。 默认情况下，搜索精确相位不区分大小写。 
         
@@ -58,7 +58,7 @@ steps:
       gisthash: "a43e3ce358f93df92373b5441bc579fb"
       gistfile: "case_sensitive_redaction.java"
 
-    - title_left: "通过颜色框编辑 DOTM 中的文本"
+    - title_left: "通过颜色框编辑 DOTX 中的文本"
       content_left: |
         除了删除编辑文本或在其中放置字符串之外，还可以在编辑文本上放置颜色框。 在这种情况下，匹配的文本将被删除，并且一个彩色矩形将放置在已编辑的文本上。
     

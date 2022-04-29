@@ -38,7 +38,7 @@ steps:
       content_right: |
         * 创建 [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) 类的实例并上传 sherazam_xxx4 文件
         * 使用 ExactPhraseRedaction 类的新实例调用 Redactor.apply 方法
-        * 使用 [ExactPhraseRedaction] 的对象调用 redactor.save 方法(https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
+        * 使用对象调用 redactor.save 方法 [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
         * 调用 redactor.save 方法保存更改
 
       gisthash: "3202859fc19b5dfd14e8f073b70a18f8"
@@ -52,7 +52,7 @@ steps:
       content_right: |
         * 创建 [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) 类的实例并上传 sherazam_xxx4 文件
         * 使用 ExactPhraseRedaction 类的新实例调用 Redactor.apply 方法
-        * 使用 [ExactPhraseRedaction] 的对象调用 redactor.save 方法(https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
+        * 使用对象调用 redactor.save 方法 [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
         * 调用 redactor.save 方法保存更改
         
       gisthash: "a43e3ce358f93df92373b5441bc579fb"
@@ -66,7 +66,7 @@ steps:
       content_right: |
         * 创建 [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) 类的实例并上传 sherazam_xxx4 文件
         * 使用 ExactPhraseRedaction 类的新实例调用 Redactor.apply 方法
-        * 使用 [ExactPhraseRedaction] 的对象调用 redactor.save 方法(https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
+        * 使用对象调用 redactor.save 方法 [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
         * 调用 redactor.save 方法保存更改 
         
       gisthash: "6d83e791388b6834a372dc90f4b455f6"
@@ -91,10 +91,6 @@ steps:
 demos:
     enable: true
         
-
-about_formats:
-    enable: true
-
 
 more_formats:
     enable: true

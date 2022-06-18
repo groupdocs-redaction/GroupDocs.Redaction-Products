@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "fr/redaction/java/text/potm/"
-otherformats: PPSX PPTM RTF PDF XLS PPSM POT POTM DOCX CSV PPTX XLSM 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM 
 
 ############################# Head ############################
 head_title: "Редактировать текст POTM с помощью точной фразы/регулярного выражения в Java"

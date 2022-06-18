@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "de/redaction/java/text/pot/"
-otherformats: RTF POT PPTM CSV DOCM XLT DOTM PPTX XLS PPSM PPSX XLSM 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Schwärzen Sie POT Text über exakte Phrase/regulären Ausdruck in Java"

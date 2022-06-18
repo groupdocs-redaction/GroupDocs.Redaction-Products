@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ja/redaction/java/text/dotx/"
-otherformats: XLS XLT PPTM DOCM DOTX DOTM XLSM XLSX DOCX PPSX POTM PPTX 
+otherformats: PDF DOC DOT DOCX DOCM DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Javaでの正確なフレーズ/正規表現によるDOTX テキストの編集"

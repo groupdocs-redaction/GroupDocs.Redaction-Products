@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ru/redaction/java/text/csv/"
-otherformats: PPT POT PPTX DOT RTF DOTM PPSX DOCM DOTX POTM XLS PPSM 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Редактировать текст CSV с помощью точной фразы/регулярного выражения в Java"

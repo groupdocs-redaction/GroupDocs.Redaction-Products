@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ru/redaction/java/text/docm/"
-otherformats: PPSX DOCM PPSM XLT POT PDF PPTM XLSX CSV DOT RTF PPTX 
+otherformats: PDF DOC DOT DOCX DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Редактировать текст DOCM с помощью точной фразы/регулярного выражения в Java"

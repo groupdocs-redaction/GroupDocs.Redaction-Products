@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "fr/redaction/java/text/rtf/"
-otherformats: RTF XLT PPTM POTM DOT PPSX PPSM XLSX DOC CSV PPTX DOCX 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Редактировать текст RTF с помощью точной фразы/регулярного выражения в Java"

@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "de/redaction/java/text/ppt/"
-otherformats: DOT DOC PPT PPSX XLT XLS DOTM PPTM DOCM XLSX POTM DOCX 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Schwärzen Sie PPT Text über exakte Phrase/regulären Ausdruck in Java"

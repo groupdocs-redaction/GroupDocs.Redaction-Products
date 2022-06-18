@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "de/redaction/java/text/pptx/"
-otherformats: POTM XLSX PPTX RTF PPSX DOTX PDF DOCM XLSM PPSM DOCX PPTM 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Schwärzen Sie PPTX Text über exakte Phrase/regulären Ausdruck in Java"

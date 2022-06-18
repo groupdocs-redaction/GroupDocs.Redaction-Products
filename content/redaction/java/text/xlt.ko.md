@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ko/redaction/java/text/xlt/"
-otherformats: DOTX XLSX PPSX PPTX PDF DOCM PPSM POTM RTF XLSM PPTM XLT 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Java 의 정확한 구문/정규 표현식을 통해 XLT 텍스트 수정"

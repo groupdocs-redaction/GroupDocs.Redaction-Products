@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ru/redaction/java/text/pptx/"
-otherformats: POTM XLSX PPTX RTF PPSX DOTX PDF DOCM XLSM PPSM DOCX PPTM 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Редактировать текст PPTX с помощью точной фразы/регулярного выражения в Java"

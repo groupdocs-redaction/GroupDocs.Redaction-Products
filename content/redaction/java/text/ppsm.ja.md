@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ja/redaction/java/text/ppsm/"
-otherformats: PPTX PPSX DOC RTF PPSM CSV DOTX DOCM XLT XLSX XLSM DOTM 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM POTM 
 
 ############################# Head ############################
 head_title: "Javaでの正確なフレーズ/正規表現によるPPSM テキストの編集"

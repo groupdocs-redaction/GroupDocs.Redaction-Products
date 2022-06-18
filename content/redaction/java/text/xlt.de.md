@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "de/redaction/java/text/xlt/"
-otherformats: DOTX XLSX PPSX PPTX PDF DOCM PPSM POTM RTF XLSM PPTM XLT 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Schwärzen Sie XLT Text über exakte Phrase/regulären Ausdruck in Java"

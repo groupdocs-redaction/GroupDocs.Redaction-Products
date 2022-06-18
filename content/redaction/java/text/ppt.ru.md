@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ru/redaction/java/text/ppt/"
-otherformats: DOT DOC PPT PPSX XLT XLS DOTM PPTM DOCM XLSX POTM DOCX 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Редактировать текст PPT с помощью точной фразы/регулярного выражения в Java"

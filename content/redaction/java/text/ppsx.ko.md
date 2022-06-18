@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ko/redaction/java/text/ppsx/"
-otherformats: DOCM PDF PPSX DOTX CSV RTF PPTM XLS XLSM XLT DOCX POT 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Java 의 정확한 구문/정규 표현식을 통해 PPSX 텍스트 수정"

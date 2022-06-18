@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ru/redaction/java/text/dot/"
-otherformats: POT PPSM DOCX POTM XLS XLT PPSX PPTM DOTM PDF DOCM PPTX 
+otherformats: PDF DOC DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Редактировать текст DOT с помощью точной фразы/регулярного выражения в Java"

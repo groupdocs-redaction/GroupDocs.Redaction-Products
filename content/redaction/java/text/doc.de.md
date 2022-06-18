@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "de/redaction/java/text/doc/"
-otherformats: CSV RTF POTM PPTM PPSX DOTM DOCX XLT PPSM DOTX PDF DOCM 
+otherformats: PDF DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Schwärzen Sie DOC Text über exakte Phrase/regulären Ausdruck in Java"

@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ja/redaction/java/text/pdf/"
-otherformats: DOCM XLSX CSV PPT POTM DOTX PPTX XLSM PPSM RTF PDF PPTM 
+otherformats: DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Javaでの正確なフレーズ/正規表現によるPDF テキストの編集"

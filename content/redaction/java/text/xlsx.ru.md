@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ru/redaction/java/text/xlsx/"
-otherformats: DOCM DOCX RTF XLS DOTM POT PPTM PPSX DOTX XLSM PPTX PPSM 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Редактировать текст XLSX с помощью точной фразы/регулярного выражения в Java"

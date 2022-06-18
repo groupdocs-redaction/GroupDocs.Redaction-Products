@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ko/redaction/java/text/dotx/"
-otherformats: XLS XLT PPTM DOCM DOTX DOTM XLSM XLSX DOCX PPSX POTM PPTX 
+otherformats: PDF DOC DOT DOCX DOCM DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Java 의 정확한 구문/정규 표현식을 통해 DOTX 텍스트 수정"

@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "de/redaction/java/text/csv/"
-otherformats: PPT POT PPTX DOT RTF DOTM PPSX DOCM DOTX POTM XLS PPSM 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Schwärzen Sie CSV Text über exakte Phrase/regulären Ausdruck in Java"

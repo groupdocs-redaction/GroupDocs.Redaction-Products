@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ko/redaction/java/text/ppt/"
-otherformats: DOT DOC PPT PPSX XLT XLS DOTM PPTM DOCM XLSX POTM DOCX 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Java 의 정확한 구문/정규 표현식을 통해 PPT 텍스트 수정"

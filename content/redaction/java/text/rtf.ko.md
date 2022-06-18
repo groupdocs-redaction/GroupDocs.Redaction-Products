@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "ko/redaction/java/text/rtf/"
-otherformats: RTF XLT PPTM POTM DOT PPSX PPSM XLSX DOC CSV PPTX DOCX 
+otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
 
 ############################# Head ############################
 head_title: "Java 의 정확한 구문/정규 표현식을 통해 RTF 텍스트 수정"

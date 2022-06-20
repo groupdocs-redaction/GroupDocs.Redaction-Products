@@ -30,8 +30,8 @@ steps:
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)クラスのインスタンスを作成し、DOTファイルをアップロードします
         * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)クラスのインスタンスを作成して、ドキュメントのメタデータから機密データを検索して置換します
-        *フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilter.Companyを使用します 
-        * [MetadataSearchRedaction](https：//apireference.groupdocs。 com / redaction / net / groupdocs.redaction.redactions / metadatasearchredaction)
+        * フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilter.Companyを使用します 
+        * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
         
       gisthash: "28e28d1f0f09bbb1286cd97b95b22712"
       gistfile: "RedactCompanyMetadata.cs"
@@ -44,8 +44,8 @@ steps:
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)クラスのインスタンスを作成し、DOTファイルをアップロードします
         * [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)のインスタンスを作成して、ドキュメントのメタデータを削除します
-        *フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilter.AllをMetadataFilter.Companyに置き換えます 
-        * [MetadataSearchRedaction](https：//apireference.groupdocs。 com / redaction / net / groupdocs.redaction.redactions / metadatasearchredaction)
+        * フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilter.AllをMetadataFilter.Companyに置き換えます 
+        * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
         
       gisthash: "cef91d8d8f160aaf560218d1abd520e2"
       gistfile: "CleanMetadata.cs"

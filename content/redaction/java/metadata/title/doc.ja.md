@@ -32,7 +32,7 @@ steps:
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor)クラスのインスタンスを作成し、DOCファイルをアップロードします
         * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)クラスのインスタンスを作成して、ドキュメントのメタデータから機密データを検索して置換します
-        *フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilters.Titleを使用します 
+        * フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilters.Titleを使用します 
         * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)のオブジェクトを使用してsaveメソッドを呼び出します
         
       gisthash: "c23f466bec11e0405e2a3e74be681d09"
@@ -46,7 +46,7 @@ steps:
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor)クラスのインスタンスを作成し、DOCファイルをアップロードします
         * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)クラスのインスタンスを作成して、ドキュメントのメタデータを削除します
-        *フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilter.AllをMetadataFilter.Titleに置き換えます
+        * フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilter.AllをMetadataFilter.Titleに置き換えます
         * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)のオブジェクトを使用してsaveメソッドを呼び出します
         
       gisthash: "84586804ee996134fd12f2061f989fd5"
@@ -55,18 +55,18 @@ steps:
     - title_left: "システム要求"
       content_left: |
         GroupDocs.Redaction for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/redaction/java/system-requirements)にアクセスしてください。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。 ：
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：NetBeans、Intellij IDEA、Eclipseなど
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
         * Javaランタイム環境：J2SE6.0以降
         * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)から最新バージョンのGroupDocs.RedactionforJavaを入手してください。
         
       title_right: "GroupDocs.Redactionを使用する理由"
       content_right: |
-        *ユーザーがカスタムドキュメント形式と編集の種類を追加できるようにする
-        *機密情報を削除するために追加のソフトウェアは必要ありません
-        *ページ範囲レンダリングドキュメントをPDFとして設定する機能
-        *さまざまな種類のメタデータを編集する簡単な方法：作成者名、バージョン、タイトル、件名、説明など
-        *ドキュメント情報の抽出-ファイルタイプ、ページ数など。
+        * ユーザーがカスタムドキュメント形式と編集の種類を追加できるようにする
+        * 機密情報を削除するために追加のソフトウェアは必要ありません
+        * ページ範囲レンダリングドキュメントをPDFとして設定する機能
+        * さまざまな種類のメタデータを編集する簡単な方法：作成者名、バージョン、タイトル、件名、説明など
+        * ドキュメント情報の抽出-ファイルタイプ、ページ数など。
 
 demos:
     enable: true

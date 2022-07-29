@@ -3,7 +3,7 @@ layout: "auto-gen-gist"
 draft: false
 path: "redaction/java/metadata/subject/xlsx"
 otherformats: PDF DOC DOT DOCX DOCM RTF XLSX XLSM XLTX XLTM XLS XLT PPTX PPT PPSX POT PPS PPTM 
-ad_headline: "メタデータの編集|java_Camel"
+ad_headline: "メタデータの編集|Java"
 ad_description: "JavaのXLSXファイルからサブジェクトメタデータを編集する"
 
 head_title: "JavaでXLSXファイルからサブジェクトメタデータを編集する"
@@ -17,7 +17,7 @@ button:
 
 about:
     enable: true
-    title: "GroupDocs.RedactionforJavaについて"
+    title: "GroupDocs.Redaction for Javaについて"
     content: |
         墨消しとは、電子文書から不要な情報や機密情報を削除することです。 PDF、DOC、DOCX、PPT、PPTX、XLS、XLSXなどを含むすべてのファイル形式には、いくつかのメタデータプロパティがあります。これらのプロパティには、作成者名、カテゴリ、会社名、コメント、作成時間、最終更新日などが含まれます。不要なメタデータフィールドを完全に削除する必要がある場合や、値を更新したい場合があります。さまざまなツールや手法を使用して表示できるファイルに関連付けられた隠しデータもいくつかあります。このデータに誰もアクセスしたくない場合が多くあります。 GroupDocs.Redaction APIを使用すると、これらのメタデータプロパティのいずれかにメタデータ編集を適用できます。必要なメタデータをフィルタリングすることで、それらを変更または削除できます。このガイドでは、JavaのXLSXメタデータからサブジェクト名を編集する方法について説明します。
 
@@ -58,7 +58,7 @@ steps:
         * オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
         * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)から最新バージョンのGroupDocs.RedactionforJavaを入手してください。
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)から最新バージョンのGroupDocs.Redaction for Javaを入手してください。
         
       title_right: "GroupDocs.Redactionを使用する理由"
       content_right: |

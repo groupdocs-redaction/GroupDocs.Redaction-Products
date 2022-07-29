@@ -3,7 +3,7 @@ layout: "auto-gen-gist"
 draft: false
 path: "redaction/java/metadata/company/xlt"
 otherformats: PDF DOC DOT DOCX DOCM RTF XLSX XLSM XLTX XLTM XLS XLT PPTX PPT PPSX POT PPS PPTM 
-ad_headline: "メタデータの編集|java_Camel"
+ad_headline: "メタデータの編集|Java"
 ad_description: "JavaのXLTメタデータから会社名を編集する"
 
 head_title: "JavaでのXLTドキュメントからのメタデータ編集"
@@ -58,7 +58,7 @@ steps:
         * オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
         * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)から最新バージョンのGroupDocs.RedactionforJavaを入手してください。
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)から最新バージョンのGroupDocs.Redaction for Javaを入手してください。
         
       title_right: "GroupDocs.Redactionを使用する理由"
       content_right: |

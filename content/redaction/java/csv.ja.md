@@ -72,7 +72,7 @@ steps:
         * オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
         * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)から最新バージョンのGroupDocs.RedactionforJavaを入手してください。
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)から最新バージョンのGroupDocs.Redaction for Javaを入手してください。
         
       title_right: "GroupDocs.Redactionを使用する理由"
       content_right: |

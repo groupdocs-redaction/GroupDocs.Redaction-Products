@@ -4,7 +4,7 @@ layout: "auto-gen-gist"
 draft: false
 path: "redaction/java/metadata/description/xlsx"
 otherformats: PDF DOC DOT DOCX DOCM RTF XLSX XLSM XLTX XLTM XLS XLT PPTX PPT PPSX POT PPS PPTM 
-ad_headline: "Redact Metadata | java_Camel"
+ad_headline: "Redact Metadata | Java"
 ad_description: "Redact Description Metadata from a XLSX File in Java"
 
 ############################# Head ############################

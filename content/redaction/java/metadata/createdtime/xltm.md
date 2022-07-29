@@ -4,7 +4,7 @@ layout: "auto-gen-gist"
 draft: false
 path: "redaction/java/metadata/createdtime/xltm"
 otherformats: PDF DOC DOT DOCX DOCM RTF XLSX XLSM XLTX XLTM XLS XLT PPTX PPT PPSX POT PPS PPTM 
-ad_headline: "Redact Metadata | java_Camel"
+ad_headline: "Redact Metadata | Java"
 ad_description: "Metadata Redaction From XLTM Document in Java"
 
 ############################# Head ############################

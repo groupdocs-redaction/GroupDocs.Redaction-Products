@@ -11,11 +11,11 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: "C# .NET Redaction API | Hide Private Text from PDF Word Excel Images"
-head_description: "Document redaction API for .NET. Redact, hide or remove sensitive content from PDF, Microsoft Word, Excel, ‎presentations, & raster images."
+head_description: "Document redaction API for .NET. Redact, hide or remove sensitive content from PDF, Microsoft Word, Excel, presentations, & raster images."
 
 ############################# Header ############################
 title: "Secure Classified Data via Redaction API"
-description: "‎Redact, hide or remove sensitive content & metadata from documents, worksheets, presentations, PDF and raster image files using .NET API."
+description: "Redact, hide or remove sensitive content & metadata from documents, worksheets, presentations, PDF and raster image files using .NET API."
 button:
     enable: true
 
@@ -60,7 +60,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Redaction for .NET is an API library that helps you erase sensitive and classified data from ‎various file formats, such as, Microsoft Word, Excel, PowerPoint and PDF. Our Redaction API’s single ‎format-independent interface supports redaction of various types, e.g., text redaction, metadata ‎redaction, annotation redaction, and tabular document redaction. GroupDocs.Redaction for .NET API ‎also allows you to redact password protected files. You are allowed to save the document in its original ‎format as well as create a sanitized PDF document with raster images of original pages.
+      GroupDocs.Redaction for .NET is an API library that helps you erase sensitive and classified data from various file formats, such as, Microsoft Word, Excel, PowerPoint and PDF. Our Redaction API’s single format-independent interface supports redaction of various types, e.g., text redaction, metadata redaction, annotation redaction, and tabular document redaction. GroupDocs.Redaction for .NET API also allows you to redact password protected files. You are allowed to save the document in its original format as well as create a sanitized PDF document with raster images of original pages.
     tabs:
       enable: true
       
@@ -101,7 +101,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Redaction for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Redaction for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -178,7 +178,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Search & remove sensitive data from the annotation text‎"
+        content: "Search & remove sensitive data from the annotation text"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -212,18 +212,18 @@ features:
       # more_feature_loop
       - title: "Redact your Classified Data with Ease & Control"
         content: |
-          GroupDocs.Redaction for .NET API grants you complete control over how you want to hide or erase ‎your important classified information from supported document. To use our Redaction API is pretty ‎simple and straight forward.  
+          GroupDocs.Redaction for .NET API grants you complete control over how you want to hide or erase your important classified information from supported document. To use our Redaction API is pretty simple and straight forward.  
 
-          In following example, we load a supported document, redact out any ‎text, matching "2 digits, space or nothing, 2 digits, again space and 6 digits" (such as 12 34 567890) with a blue color box using ‎C#. Once that is done, it saves the document in its original format by renaming it with an added suffix “_Redacted”:‎
+          In following example, we load a supported document, redact out any text, matching "2 digits, space or nothing, 2 digits, again space and 6 digits" (such as 12 34 567890) with a blue color box using C#. Once that is done, it saves the document in its original format by renaming it with an added suffix “_Redacted”:
 
           ```cs
           // Create an instance of Redactor class
           using (Redactor redactor = new Redactor("sample.docx"))
-          {‎
+          {
             // Apply redaction
             redactor.Apply(new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", new ReplacementOptions(System.Drawing.Color.Blue)));
             redactor.Save();
-          ‎}‎
+          }
           ```
 
 ############################# Support ############################

@@ -60,7 +60,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Redaction for Java API lets developers remove sensitive data from ‎popular file formats like Microsoft Word, Excel, PowerPoint, PDF and images so it can be used and distributed, but still protect confidential information too. The redaction library offers a single ‎format-independent interface to redact any type of classified information including social security numbers, medical information, financial, proprietary, legal or even trade details through text, metadata ‎and annotation redaction types. It allows you to save the document in its original format and create a sanitized PDF document with raster images of original pages.
+      GroupDocs.Redaction for Java API lets developers remove sensitive data from popular file formats like Microsoft Word, Excel, PowerPoint, PDF and images so it can be used and distributed, but still protect confidential information too. The redaction library offers a single format-independent interface to redact any type of classified information including social security numbers, medical information, financial, proprietary, legal or even trade details through text, metadata and annotation redaction types. It allows you to save the document in its original format and create a sanitized PDF document with raster images of original pages.
     tabs:
       enable: true     
       
@@ -101,7 +101,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Redaction for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Redaction for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -173,7 +173,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Use textual (exemption codes) or graphic (colored rectangles) redactions‎"
+        content: "Use textual (exemption codes) or graphic (colored rectangles) redactions"
 
       # feature loop
       - icon: "fas fa-location-arrow"

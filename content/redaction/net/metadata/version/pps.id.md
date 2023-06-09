@@ -1,24 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
+############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "redaction/net/metadata/version/pps"
-otherformats: PDF DOC DOT DOCX DOCM RTF XLSX XLSM XLTX XLTM XLS XLT PPTX PPT PPSX POT PPS PPTM 
+path: "id/redaction/net/metadata/version/pps"
+otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 
+
+############################# Head ############################
 head_title: "Pengeditan Metadata dari Dokumen di C#"
 head_description: "Redaksi metadata sensitif dalam C# dengan menerapkan filter untuk dokumen dengan format berbeda"
 
+############################# Header ############################
 title: "Redact Versi Metadata File PPS di C#"
 description: "GroupDocs.Redactions API memungkinkan untuk mencari dan kemudian memperbarui atau menghapus data rahasia apa pun dari metadata dokumen."
 
+######################### Download Button #######################
 button:
     enable: true
 
+############################# About ############################
 about:
     enable: true
     title: "Apa itu Metadata Redaksi?"
     content: |
         Sebagian besar orang prihatin dengan redaksi teks dokumen. Tetapi redaksi metadata sama pentingnya. Metadata adalah data tersembunyi dari sebuah dokumen yang dapat berisi informasi rahasia yang mungkin tidak ingin Anda bagikan dengan orang lain. Redaksi metadata mengacu pada penghapusan informasi yang tidak diinginkan atau rahasia dari dokumen elektronik. Metadata dokumen meliputi nama penulis, kategori, nama perusahaan, komentar, waktu pembuatan, terakhir diperbarui dan banyak lagi. Terkadang Anda perlu menghapus sepenuhnya bidang metadata yang tidak diinginkan atau Anda mungkin ingin memperbarui nilainya. Dengan GroupDocs.Redaction API Anda dapat menerapkan redaksi metadata ke salah satu properti metadata ini. Anda dapat mengubah atau menghapusnya dengan memfilter metadata yang Anda inginkan. Dalam panduan ini kami akan menjelaskan bagaimana Anda dapat menyunting versi metadata file PPS di C#.
 
+############################# content ############################
 steps:
     enable: true
     block:
@@ -26,6 +47,7 @@ steps:
       content_left: |
         Kode berikut memungkinkan Anda untuk mencari dan menyunting data sensitif dari dokumen PPS. Anda dapat mengatur ruang lingkup untuk redaksi dengan mengatur filter, mis. ke MetadataFilter.Version. - itu akan membiarkan kecocokan ekspresi reguler dibatalkan di semua item metadata, kecuali properti "Versi":
         
+
       title_right: "Cara Redact PPS Metadata"
       content_right: |
         * Buat instance kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) & unggah file PPS
@@ -38,7 +60,8 @@ steps:
 
     - title_left: "Hapus PPS Metadata di C#"
       content_left: |
-        Anda dapat mengganti semua atau metadata tertentu dalam dokumen dengan nilai kosong (kosong atau minimal) menggunakan kelas EraseMetadataRedaction. Kode berikut menunjukkan bagaimana Anda dapat memfilter dan kemudian menghapus properti metadata dari dokumen PPS. Contoh di bawah ini mengosongkan semua properti dokumen:
+        Anda dapat mengganti semua atau metadata tertentu dalam dokumen dengan nilai kosong (kosong atau minimal) menggunakan kelas EraseMetadataRedaction. Kode berikut menunjukkan bagaimana Anda dapat memfilter dan kemudian menghapus properti metadata dari dokumen DOCX. Contoh di bawah ini mengosongkan semua properti dokumen:
+        
         
       title_right: "Hapus PPS Metadata"
       content_right: |
@@ -59,18 +82,19 @@ steps:
         Instal dari baris perintah sebagai ```nuget install GroupDocs.Redaction``` atau melalui Package Manager Console dari Visual Studio dengan ```Install-Package GroupDocs.Redaction```. 
         Atau, dapatkan penginstal MSI offline atau DLL dalam file ZIP dari [downloads](https://downloads.groupdocs.com/redaction/net), dan rujuk di project Anda secara manual.
 
+############################# Demos ############################
 demos:
     enable: true
-        
 
+############################# About Formats ############################
 about_formats:
     enable: true
 
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

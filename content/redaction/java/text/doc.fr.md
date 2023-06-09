@@ -1,101 +1,116 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "fr/redaction/java/text/doc/"
-otherformats: PDF DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM 
+path: "fr/redaction/java/text/doc"
+otherformats: CSV DOCM DOCX DOT DOTM DOTX PDF POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Редактировать текст DOC с помощью точной фразы/регулярного выражения в Java"
-head_description: "API GroupDocs.Redactions Java позволяет разработчикам редактировать текст из PDF, DOC, DOCX, RTF, XLSX, CSV, PPT, PPTX и изображений с помощью точной фразы или регулярного выражения в Java."
+head_title: "Modifier le texte DOC avec une phrase exacte/expression régulière en Java"
+head_description: "L'API Java GroupDocs.Redaction permet aux développeurs de modifier du texte à partir de PDF, DOC, DOCX, RTF, XLSX, CSV, PPT, PPTX et des images avec une phrase exacte ou une expression régulière en Java."
 
 ############################# Header ############################
-title: "Как отредактировать, скрыть или удалить текст из файлов DOC с помощью Java"
-description: "Java API GroupDocs.Redactions позволяет редактировать, скрывать или удалять конфиденциальный текст из текстовых документов, рабочих листов, презентаций, PDF-файлов и изображений."
+title: "Comment modifier, masquer ou supprimer du texte des fichiers DOC à l'aide de Java"
+description: "L'API Java GroupDocs.Redactions vous permet de modifier, de masquer ou de supprimer du texte sensible dans des documents texte, des feuilles de calcul, des présentations, des fichiers PDF et des images."
 
-######################### Download Button #######################
+################### SubMenu/Download Button #####################
 button:
     enable: true
 
 ############################# About ############################
 about:
     enable: true
-    title: "Что такое редактирование текста?"
+    title: "Qu'est-ce que l'édition de texte?"
     content: |
-       Редактирование текста — это процесс удаления конфиденциального или нежелательного текста или информации из цифровых документов, при этом остальная часть документа или параграфа, содержащего его, остается нетронутой. Редактирование помогает пользователям, а также организациям защитить свою конфиденциальную информацию, скрывая или удаляя ее без возможности восстановления. С помощью Java API GroupDocs.Redaction пользователи теперь могут редактировать, скрывать или удалять конфиденциальный текст из текстовых документов, рабочих листов, презентаций, файлов PDF и растровых изображений. API предоставляет широкий спектр возможностей и методов для редактирования частной информации в документах. Он поддерживает поиск и редактирование с использованием точного соответствия или регулярных выражений, использование текстовых (коды исключений) или графических (цветные прямоугольники) исправлений и многое другое. Так почему бы не попробовать автоматизировать процесс редактирования документов, загрузив API и изучив его основные и расширенные функции.
+        L'édition de texte est le processus de suppression du texte ou des informations sensibles ou indésirables des documents numériques tout en laissant intact le reste du document ou du paragraphe le contenant. L'édition aide les utilisateurs ainsi que les organisations à protéger leurs informations sensibles en les masquant ou en les supprimant définitivement. Avec l'API Java GroupDocs.Redaction, les utilisateurs peuvent désormais modifier, masquer ou supprimer du texte sensible dans des documents texte, des feuilles de calcul, des présentations, des fichiers PDF et des bitmaps. L'API fournit un large éventail de fonctionnalités et de méthodes pour modifier les informations privées dans les documents. Il prend en charge la recherche et l'édition à l'aide de correspondances exactes ou d'expressions régulières, à l'aide de correctifs textuels (codes d'exception) ou graphiques (cases colorées), etc. Alors pourquoi ne pas essayer d'automatiser votre processus d'édition de documents en téléchargeant l'API et en découvrant ses fonctionnalités de base et avancées.
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
     block:
-    - title_left: "Редактировать DOC точную фразу в Java"
+    - title_left: "Modifier la phrase exacte DOC en Java"
       content_left: |
-        GroupDocs.Redaction позволяет легко редактировать данные конфиденциального или частного характера из ваших документов. Самый популярный случай редактирования — удаление текста из документа.
+        GroupDocs.Redaction facilite la modification des données sensibles ou privées de vos documents. Le cas d'édition le plus courant consiste à supprimer du texte d'un document. 
 
-        Следующий код можно использовать для применения текстового редактирования к определенной части документа с помощью точной фразы. Это позволяет пользователям заменять личную точную фразу «Михал Кларк» личным (или любым кодом исключения).
+        Le code suivant peut être utilisé pour appliquer l'édition de texte à une partie spécifique d'un document avec une phrase exacte. Cela permet aux utilisateurs de remplacer l'expression exacte personnelle "Michal Clark" par une expression personnelle (ou tout code d'exclusion).
 
-      title_right: "Удалить конфиденциальные данные из DOC"
+      title_right: "Supprimer les données sensibles de DOC"
       content_right: |
-        * Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) и загрузите файл DOC
-        * Вызвать метод Redactor.apply с новым экземпляром класса ExactPhraseRedaction.
-        * Вызвать метод redactor.save с объектом [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
-        * Вызвать метод redactor.save для сохранения изменений
+        * Créer une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) et chargez le fichier DOC
+        * Appelez la méthode Redactor.apply avec une nouvelle instance de la classe ExactPhraseRedaction.
+        * Appelez la méthode redactor.save sur l'objet [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
+        * Appelez la méthode redactor.save pour enregistrer les modifications 
 
       gisthash: "3202859fc19b5dfd14e8f073b70a18f8"
       gistfile: "redact_exact_phrase.java"
       
-    - title_left: "Редактирование текста с учетом регистра в DOC"
+    - title_left: "Édition de texte sensible à la casse dans DOC"
       content_left: |
-        В следующем примере пользователи могут выполнить точную фазу редактирования с учетом регистра, чтобы удалить или скрыть определенный фрагмент текста внутри документа. По умолчанию при поиске точной фазы не учитывается регистр.
+        Dans l'exemple suivant, les utilisateurs peuvent effectuer une phase d'édition précise sensible à la casse pour supprimer ou masquer un morceau de texte spécifique dans un document. Par défaut, la recherche de phase exacte est insensible à la casse. 
         
-      title_right: "Выполнение редактирования с учетом регистра через Java"
+      title_right: "Effectuer une édition sensible à la casse via Java"
       content_right: |
-        * Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) и загрузите файл DOC
-        * Вызвать метод Redactor.apply с новым экземпляром класса ExactPhraseRedaction.
-        * Вызвать метод redactor.save с объектом [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
-        * Вызвать метод redactor.save для сохранения изменений 
+        * Créer une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) et chargez le fichier DOC
+        * Appelez la méthode Redactor.apply avec une nouvelle instance de la classe ExactPhraseRedaction.
+        * Appelez la méthode redactor.save sur l'objet [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
+        * Appelez la méthode redactor.save pour enregistrer les modifications 
         
       gisthash: "a43e3ce358f93df92373b5441bc579fb"
       gistfile: "case_sensitive_redaction.java"
 
-    - title_left: "Редактировать текст в DOC с помощью Color Box"
+    - title_left: "Modifier le texte dans DOC avec Color Box"
       content_left: |
-        Вместо того, чтобы удалять отредактированный текст или помещать туда строку, также можно поместить цветную рамку над отредактированным текстом. В этом случае совпадающий текст будет удален, а поверх отредактированного текста будет помещен цветной прямоугольник.
+        Au lieu de supprimer le texte modifié ou d'y mettre une ligne, vous pouvez également placer une bordure colorée sur le texte modifié. Dans ce cas, le texte correspondant sera supprimé et un rectangle de couleur sera placé sur le texte modifié.
         
-      title_right: "Используйте Color Box для удаления текста в Java"
+      title_right: "Utiliser la boîte de couleur pour supprimer du texte en Java"
       content_right: |
-        * Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) и загрузите файл DOC
-        * Вызвать метод Redactor.apply с новым экземпляром класса ExactPhraseRedaction.
-        * Вызвать метод redactor.save с объектом [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
-        * Вызвать метод redactor.save для сохранения изменений
+        * Créer une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) et chargez le fichier DOC
+        * Appelez la méthode Redactor.apply avec une nouvelle instance de la classe ExactPhraseRedaction.
+        * Appelez la méthode redactor.save sur l'objet [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)
+        * Appelez la méthode redactor.save pour enregistrer les modifications 
         
       gisthash: "6d83e791388b6834a372dc90f4b455f6"
       gistfile: "redact_text_using_color_box.java"
 
-    - title_left: "Системные Требования"
+    - title_left: "Configuration requise"
       content_left: |
-       API GroupDocs.Redaction для Java поддерживаются на всех основных платформах и операционных системах. Чтобы ознакомиться с полным руководством по системным требованиям, посетите [системные требования](https://docs.groupdocs.com/redaction/java/system-requirements). Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия. :
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среда разработки: NetBeans, Intellij IDEA, Eclipse и т. д.
-        * Среда выполнения Java: J2SE 6.0 и выше
-        * Получите последнюю версию GroupDocs.Redaction для Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)
+        Les API Java GroupDocs.Redaction sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Pour un guide complet sur la configuration système requise, consultez [configuration système requise](https://docs.groupdocs.com/redaction/java/system-requirements). Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système :
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnement de développement : NetBeans, Intellij IDEA, Eclipse, etc.
+        * Exécution Java : J2SE 6.0 et supérieur
+        * Obtenez le dernier GroupDocs.Redaction pour Java à partir de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)
         
-      title_right: "Зачем использовать GroupDocs.Redaction"
+      title_right: "Pourquoi utiliser GroupDocs.Redaction"
       content_right: |
-        * Разрешить пользователям добавлять пользовательские форматы документов и типы редакций
-        * Для удаления конфиденциальной информации не требуется дополнительное программное обеспечение.
-        * Возможность установить документ рендеринга диапазона страниц в формате PDF
-        * Простой способ редактирования различных типов метаданных: имя автора, версия, название, тема, описание и многое другое.
-         Извлечение информации о документе — тип файла, количество страниц и т. д.
+        * Autoriser les utilisateurs à ajouter des formats de document personnalisés et des types de révision
+        * Aucun logiciel supplémentaire n'est requis pour supprimer les informations sensibles.
+        * Option pour définir le document de rendu de plage de pages au format PDF
+        * Un moyen simple de modifier différents types de métadonnées : nom de l'auteur, version, titre, sujet, description, etc.
+        * Récupérer des informations sur le document - type de fichier, nombre de pages, etc.
 
+############################# Demos ############################
 demos:
     enable: true
-        
 
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

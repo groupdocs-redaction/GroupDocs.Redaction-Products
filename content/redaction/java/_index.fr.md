@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for Java"
-        image: "/border/groupdocs-redaction-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
         product: "GroupDocs.Redaction"
         platform: "Java"
 
@@ -56,19 +56,19 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Aperçu ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       L'API GroupDocs.Redaction pour Java permet aux développeurs de supprimer les données sensibles des formats de fichiers courants tels que Microsoft Word, Excel, PowerPoint, PDF et les images afin qu'elles puissent être utilisées et distribuées, tout en protégeant également les informations confidentielles. La bibliothèque de rédaction offre une interface unique indépendante du format pour rédiger tout type d'informations classifiées, y compris les numéros de sécurité sociale, les informations médicales, les détails financiers, propriétaires, juridiques ou même commerciaux par le biais de textes, de métadonnées et de types de rédaction d'annotations. Il vous permet d'enregistrer le document dans son format d'origine et de créer un document PDF aseptisé avec des images raster des pages d'origine.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          Voici un aperçu de GroupDocs.Redaction pour Java :
-
+          Voici un aperçu de GroupDocs.Redaction pour Java:
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -84,7 +84,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Redaction pour Java prend en charge les [formats de fichier de document] suivants (https://docs.groupdocs.com/redaction/java/supported-document-formats/) :
+          GroupDocs.Redaction pour Java prend en charge les [formats de fichier de document] suivants (https://docs.groupdocs.com/redaction/java/supported-document-formats/):
 
         right:
           enable: true
@@ -110,10 +110,10 @@ overview:
             - icon: "fab fa-windows"
               title: "Systèmes d'exploitation"
               content: |
-                * Bureau Microsoft Windows
-                * Serveur Microsoft Windows
+                * Microsoft Windows Desktop
+                * Microsoft Windows Server
                 * Linux
-                * Mac OS
+                * MacOS
 
             # table loop
             - icon: "fas fa-code"
@@ -129,15 +129,16 @@ overview:
               title: "Environnements de développement"
               content: |
                 * NetBeans
-                * IDÉE IntelliJ
-                * Éclipse
+                * IntelliJ IDEA
+                * Eclipse
+
             # table loop
             - icon: "fas fa-tools"
               title: "Outil d'automatisation de construction"
               content: |
                 * Maven
 
-############################# Caractéristiques ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Redaction for Java Caractéristiques"
@@ -195,15 +196,16 @@ features:
       - icon: "fas fa-file-word"
         content: "Masquer les images intégrées dans les documents PDF, Word et de présentation"
 
-    more_feature :
+    more_feature:
       # more_feature_loop
       - title: "Assurez la confidentialité en caviardant vos données classifiées"
         content: |
-          La bibliothèque GroupDocs.Redaction pour Java permet aux développeurs de rédiger du texte et des images à partir de documents pris en charge en utilisant une variété de types de rédaction. L'utilisation de notre API de rédaction est simple et directe.
+          La bibliothèque GroupDocs.Redaction pour Java permet aux développeurs de rédiger du texte et des images à partir de documents pris en charge en utilisant une variété de types de rédaction. L'utilisation de notre API de rédaction est simple et directe.  
 
           L'exemple de code suivant utilise un document tabulaire tel qu'une feuille de calcul Microsoft Excel où l'étendue de la rédaction peut être limitée à une feuille de calcul et/ou une colonne spécifique. Il utilise des filtres pour masquer la deuxième colonne avec des e-mails sur une feuille de calcul "Clients", en laissant tous les autres e-mails intacts dans le document.
-          
+
           ```java
+          // Créer une instance de la classe Redactor
           final Redactor redactor  = new Redactor("sample.xlsx");
           try
           {
@@ -211,6 +213,7 @@ features:
               filter.setColumnIndex(1);
               filter.setWorkSheetName("Customers");
               Pattern expression = Pattern.compile("^\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$");
+              // Appliquer la rédaction
               RedactorChangeLog result = redactor.apply(new CellColumnRedaction(filter, expression, new ReplacementOptions("[customer email]")));
               if (result.getStatus() != RedactionStatus.Failed)
               {
@@ -234,11 +237,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for .NET"
-          image: "/border/groupdocs-redaction-net.svg"
+        - img_alt: "GroupDocs.Redaction for Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
           product: "GroupDocs.Redaction"
-          platform: ".NET"
-          link: "/redaction/net/"
+          platform: "Java"
+          link: "/redaction/java/"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for Java"
-        image: "/border/groupdocs-redaction-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
         product: "GroupDocs.Redaction"
         platform: "Java"
 
@@ -56,19 +56,19 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       GroupDocs.Redaction for Java API 允许开发人员从 Microsoft Word、Excel、PowerPoint、PDF 和图像等流行文件格式中删除敏感数据，以便可以使用和分发，但仍然可以保护机密信息。编校库提供了一个独立于格式的单一界面，可以通过文本、元数据和注释编校类型编校任何类型的分类信息，包括社会保险号、医疗信息、财务、专有、法律甚至贸易细节。它允许您以原始格式保存文档，并使用原始页面的光栅图像创建经过净化的 PDF 文档。
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          以下是 Java 的 GroupDocs.Redaction 的概述：
-
+           以下是 Java 的 GroupDocs.Redaction 的概述：
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -131,13 +131,14 @@ overview:
                 * NetBeans
                 * IntelliJ IDEA
                 * Eclipse
+
             # table loop
             - icon: "fas fa-tools"
               title: "构建自动化工具"
               content: |
                 * Maven
 
-############################# 特征 ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Redaction for Java 特征"
@@ -199,11 +200,12 @@ features:
       # more_feature_loop
       - title: "通过编辑您的机密数据确保隐私"
         content: |
-          GroupDocs.Redaction for Java 库使开发人员能够通过使用各种编校类型从受支持的文档中编校文本和图像。使用我们的 Redaction API 非常简单直接。
+          GroupDocs.Redaction for Java 库使开发人员能够通过使用各种编校类型从受支持的文档中编校文本和图像。使用我们的 Redaction API 非常简单直接。  
 
           以下代码示例使用表格文档（例如 Microsoft Excel 电子表格），其中编辑范围可以限制为特定的工作表和/或列。它使用过滤器在工作表“客户”上用电子邮件编辑第二列，使文档中的所有其他电子邮件保持不变。
-          
+
           ```java
+          // 创建一个 Redactor 类的实例
           final Redactor redactor  = new Redactor("sample.xlsx");
           try
           {
@@ -211,6 +213,7 @@ features:
               filter.setColumnIndex(1);
               filter.setWorkSheetName("Customers");
               Pattern expression = Pattern.compile("^\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$");
+              // 应用编辑
               RedactorChangeLog result = redactor.apply(new CellColumnRedaction(filter, expression, new ReplacementOptions("[customer email]")));
               if (result.getStatus() != RedactionStatus.Failed)
               {
@@ -234,11 +237,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for .NET"
-          image: "/border/groupdocs-redaction-net.svg"
+        - img_alt: "GroupDocs.Redaction for Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
           product: "GroupDocs.Redaction"
-          platform: ".NET"
-          link: "/redaction/net/"
+          platform: "Java"
+          link: "/redaction/java/"
 
 ############################# Back to top ###############################
 back_to_top:

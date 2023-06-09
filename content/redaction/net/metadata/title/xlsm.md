@@ -1,9 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
 path: "redaction/net/metadata/title/xlsm"
-otherformats: PDF DOC DOT DOCX DOCM RTF XLSX XLSM XLTX XLTM XLS XLT PPTX PPT PPSX POT PPS PPTM 
+otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSX XLT XLTM XLTX  
+
 
 ############################# Head ############################
 head_title: "Metadata Redactions from Documents in C#"
@@ -30,13 +45,14 @@ steps:
     block:
     - title_left: "Redact Title from XLSM Document"
       content_left: |
-        Following code allows you to search and redact sensitive data from a XLSM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Title. - it will leave the regular expressions matches undone in all metadata items, except “Title” property:
+        Following code allows you to search and redact sensitive data from a XLSM document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Title. It will leave the regular expressions matches undone in all metadata items, except "Title" property:
         
+
       title_right: "How to Redact XLSM Metadata"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & upload XLSM file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) class to find and replace sensitive data from document's metadata
-        * Set scope for redaction by setting filter, e.g. Use MetadataFilter.Title in below code 
+        * Set scope for redaction by setting filter, e.g. Use MetadataFilter.Title in below code
         * Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
         
       gisthash: "78fca6b6facd4e3ea79038d7abcb092f"
@@ -45,6 +61,7 @@ steps:
     - title_left: "Remove XLSM Metadata in C#"
       content_left: |
         You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a XLSM document.The example below blanks out all properties of the document:
+        
         
       title_right: "Erase XLSM Metadata"
       content_right: |
@@ -65,18 +82,19 @@ steps:
         Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
         Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.
 
+############################# Demos ############################
 demos:
     enable: true
-        
 
+############################# About Formats ############################
 about_formats:
     enable: true
 
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

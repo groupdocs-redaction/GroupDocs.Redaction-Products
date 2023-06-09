@@ -1,19 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "ru/redaction/net/text"
-otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM 
+path: "ru/redaction/net/text/potm"
+otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX PDF POT PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Редактируйте конфиденциальную информацию из документов через .NET Core"
+head_title: "Редактируйте конфиденциальную информацию из документов POTM через .NET Core"
 head_description: "Применяйте редактирование текста с использованием точной фразы или регулярного выражения для документов разных форматов."
 
 ############################# Header ############################
 title: "Редактировать файлы POTM с помощью C# в приложениях .NET Core"
-description: "Поиск и замена текста в документах, электронных таблицах и презентациях Office и OpenOffice, а также potm_ UPPER в Windows, Linux и macOS"
+description: "Поиск и замена текста в документах, электронных таблицах и презентациях Office и OpenOffice, а также POTM в Windows, Linux и macOS"
 
-######################### Download Button #######################
+################### SubMenu/Download Button #####################
 button:
     enable: true
 
@@ -24,39 +38,39 @@ about:
     content: |
         Единый независимый от формата интерфейс для редактирования конфиденциальной и секретной информации из документов и изображений PDF, Word, Excel, PowerPoint, включая возможность изменения метаданных и удаления комментариев. С помощью инструмента GroupDocs.Redaction вы можете отредактировать текст и сохранить отредактированный документ в формате PDF, преобразовав все страницы в растровые изображения или сохранить документ в исходном формате для дальнейшего редактирования.
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
     block:
     - title_left: "Редактировать точный текст из POTM с помощью C#"
       content_left: |
-        [GroupDocs.Redaction](/redaction/net/) позволяет разработчикам .NET добавить функцию редактирования файлов POTM, выполнив несколько простых действий.
+        [GroupDocs.Redaction](ru//redaction/net/) позволяет разработчикам .NET добавить функцию редактирования файлов DOCX, выполнив несколько простых действий. 
 
-        * Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) и загрузите файл POTM
+        * Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) и загрузите файл POTM 
         * Создайте экземпляр класса [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) для поиска и замены текста.
         * Вызов метода [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) с объектом ExactPhraseRedaction
 
       title_right: "Начните работу с Redaction API"
       content_right: |
         Установите из командной строки как ```nuget install GroupDocs.Redaction``` или через консоль диспетчера пакетов Visual Studio с помощью ```Install-Package GroupDocs.Redaction```.
-         Кроме того, вы можете получить автономный установщик MSI или DLL-файлы в ZIP-файле из [загрузок](https://downloads.groupdocs.com/redaction/net) и указать их в своем проекте вручную.  
-        
+        Кроме того, вы можете получить автономный установщик MSI или DLL-файлы в ZIP-файле из [загрузок](https://downloads.groupdocs.com/redaction/net) и указать их в своем проекте вручную.
+
       code: |
         ```cs
-        using (Redactor redactor = new Redactor(@"sample.csv"))
+        using (Redactor redactor = new Redactor(@"sample.potm"))
         {
         	redactor.Apply(new ExactPhraseRedaction("John Doe", new ReplacementOptions("[personal]")));
         	redactor.Save();
         }
         ```
-
+      
     - title_left: "Системные Требования"
       content_left: |
-       API GroupDocs.Redaction для .NET поддерживаются на всех основных платформах и операционных системах. Полное руководство по системным требованиям можно найти на странице [системные требования](https://docs.groupdocs.com/redaction/net/system-requirements/). Перед выполнением приведенного ниже кода убедитесь, что на вашем компьютере установлены следующие предварительные компоненты. система:
+        API GroupDocs.Redaction для .NET поддерживаются на всех основных платформах и операционных системах. Полное руководство по системным требованиям можно найти на странице [системные требования](https://docs.groupdocs.com/redaction/net/system-requirements/). Перед выполнением приведенного ниже кода убедитесь, что на вашем компьютере установлены следующие предварительные компоненты. система:
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среда разработки: Visual Studio, Xamarin, MonoDevelop и т. д.
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию API GroupDocs.Assembly .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/)
+        * Получите последнюю версию API GroupDocs.Redaction .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/)
         
       title_right: "Зачем использовать GroupDocs.Redaction"
       content_right: |
@@ -67,14 +81,15 @@ steps:
         * Извлечение информации о документе — тип файла, количество страниц и т. д.
         * Полная поддержка нескольких форматов данных
 
+############################# Demos ############################
 demos:
     enable: true
-        
 
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

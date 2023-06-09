@@ -1,9 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
 path: "redaction/java/metadata/company/xls"
-otherformats: PDF DOC DOT DOCX DOCM RTF XLSX XLSM XLTX XLTM XLS XLT PPTX PPT PPSX POT PPS PPTM 
+otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLSM XLSX XLT XLTM XLTX  
 ad_headline: "Redact Metadata | Java"
 ad_description: "Redact Company Name from XLS Metadata in Java"
 
@@ -32,28 +46,28 @@ steps:
     block:
     - title_left: "Redact Metadata of XLS File"
       content_left: |
-        Following code allows you to search and redact sensitive data from a XLS document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. It will leave the regular expressions matches undone in all metadata items, except “Company” property:
-        
+        Following code allows you to search and redact sensitive data from a XLS document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Company. It will leave the regular expressions matches undone in all metadata items, except "Company" property: 
+
       title_right: "Steps to Redact Metadata"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload XLS file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to find and replace sensitive data from document's metadata
-        * Set scope for redaction by setting filter, e.g. Use MetadataFilters.Company in below code 
-        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
-        
+        * Set scope for redaction by setting filter, e.g. Use MetadataFilters.Company in below code
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) 
+
       gisthash: "5b04349a19f1627145ab6a9f8f0f5fc0"
       gistfile: "RedactCompanyMetadata.java"
-
+      
     - title_left: "Remove XLS Metadata in Java"
       content_left: |
-        You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a XLS document.The example below blanks out all properties of the document:
+        You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a XLS document.The example below blanks out all properties of the document: 
         
       title_right: "How to Erase Company Metadata"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload XLS file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to remove metadata of the document
         * Set scope for redaction by setting filter, e.g. Replace MetadataFilter.All with MetadataFilter.Company in below code
-        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) 
         
       gisthash: "84586804ee996134fd12f2061f989fd5"
       gistfile: "CleanMetadata.java"
@@ -73,19 +87,22 @@ steps:
         * Ability to set page range rendering document as PDF
         * Easy way to redact different types of metadata: author name, version, title, subject, description and many more
         * Document information extraction - file type, page count etc.
-
-demos:
-    enable: true
         
 
+
+############################# Demos ############################
+demos:
+    enable: true
+
+############################# About Formats ############################
 about_formats:
     enable: true
 
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

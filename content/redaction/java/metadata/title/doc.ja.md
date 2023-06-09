@@ -1,53 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
+############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "redaction/java/metadata/title/doc"
-otherformats: PDF DOC DOT DOCX DOCM RTF XLSX XLSM XLTX XLTM XLS XLT PPTX PPT PPSX POT PPS PPTM 
-ad_headline: "メタデータの編集|Java"
+path: "ja/redaction/java/metadata/title/doc"
+otherformats: BMP DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
+ad_headline: "メタデータの編集 | Java"
 ad_description: "JavaのDOCメタデータからタイトルを編集"
 
+############################# Head ############################
 head_title: "GroupDocs.RedactionAPIを使用してJavaでDOCファイルからタイトルを編集する"
 head_description: "GroupDocs.Redactionは、30を超えるドキュメントタイプから機密情報を削除または編集できる強力なサニタイズAPIです。"
 
+############################# Header ############################
 title: "GroupDocs.RedactionAPIを使用してJavaでDOCファイルからタイトルを編集する"
 description: "GroupDocs.Redactionは、30を超えるドキュメントタイプから機密情報を削除または編集できる強力なサニタイズAPIです。"
 
+######################### Download Button #######################
 button:
     enable: true
 
+############################# About ############################
 about:
     enable: true
     title: "メタデータ編集とは何ですか？"
     content: |
-        ドキュメントを元の形式で保存するには、メタデータを削除または編集して、すべての機密データを削除する必要があります。これらの目的のために、GroupDocs.Redactionはメタデータ編集APIを提供します。 GroupDocs.Redaction APIを使用すると、編集済みドキュメントをPDFで保存するか、すべてのページをラスターイメージに変換するか、編集済みドキュメントを元の形式で保存してさらに編集することができます。 PDF、DOC、DOCX、PPT、PPTX、XLS、XLSXなどを含むすべてのファイル形式には、いくつかのメタデータプロパティがあります。これらのプロパティには、作成者名、カテゴリ、会社名、コメント、作成時間、最終更新日などが含まれます。また、さまざまなツールや手法を使用して表示できるファイルに関連付けられた非表示のデータもあります。 GroupDocs.Redaction APIを使用すると、これらのメタデータプロパティのいずれかにメタデータ編集を適用できます。必要なメタデータをフィルタリングすることで、それらを変更または削除できます。このガイドでは、Java rsingGroupDocs.RedactionAPIのDOCファイルからタイトルを編集する方法について説明します。
+        ドキュメントを元の形式で保存するには、メタデータを削除または編集して、すべての機密データを削除する必要があります。これらの目的のために、GroupDocs.Redactionはメタデータ編集APIを提供します。 GroupDocs.Redaction APIを使用すると、編集済みドキュメントをPDFで保存するか、すべてのページをラスターイメージに変換するか、編集済みドキュメントを元の形式で保存してさらに編集することができます。 PDF、DOC、DOCX、PPT、PPTX、XLS、XLSXなどを含むすべてのファイル形式には、いくつかのメタデータプロパティがあります。これらのプロパティには、作成者名、カテゴリ、会社名、コメント、作成時間、最終更新日などが含まれます。また、さまざまなツールや手法を使用して表示できるファイルに関連付けられた非表示のデータもあります。 GroupDocs.Redaction APIを使用すると、これらのメタデータプロパティのいずれかにメタデータ編集を適用できます。必要なメタデータをフィルタリングすることで、それらを変更または削除できます。このチュートリアルでは、GroupDocs.Redaction APIを使用してJavaでDOCファイルのヘッダーを編集する方法について説明します。
 
+############################# content ############################
 steps:
     enable: true
     block:
     - title_left: "Javaでタイトルメタデータを編集する"
       content_left: |
-        次のコードを使用すると、DOCドキュメントから機密データを検索して編集できます。フィルタを設定することで、編集の範囲を設定できます。 MetadataFilter.Titleに。 「Title」プロパティを除くすべてのメタデータアイテムで、正規表現の一致が取り消されたままになります。
-        
+        次のコードを使用すると、DOCドキュメントから機密データを検索して編集できます。フィルタを設定することで、編集の範囲を設定できます。 MetadataFilter.Titleに。 「Title」プロパティを除くすべてのメタデータアイテムで、正規表現の一致が取り消されたままになります。 
+
       title_right: "DOCメタデータを編集する方法"
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor)クラスのインスタンスを作成し、DOCファイルをアップロードします
         * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)クラスのインスタンスを作成して、ドキュメントのメタデータから機密データを検索して置換します
-        * フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilters.Titleを使用します 
-        * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)のオブジェクトを使用してsaveメソッドを呼び出します
-        
+        * フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilters.Titleを使用します
+        * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)のオブジェクトを使用してsaveメソッドを呼び出します 
+
       gisthash: "c23f466bec11e0405e2a3e74be681d09"
       gistfile: "RedactTitleMetadata.java"
-
+      
     - title_left: "JavaでDOCメタデータを削除する"
       content_left: |
-        EraseMetadataRedactionクラスを使用して、ドキュメント内のすべてまたは特定のメタデータを空の（空白または最小の）値に置き換えることができます。次のコードは、DOCドキュメントからメタデータプロパティをフィルタリングして削除する方法を示しています。次の例では、ドキュメントのすべてのプロパティが空白になっています。
+        EraseMetadataRedactionクラスを使用して、ドキュメント内のすべてまたは特定のメタデータを空の（空白または最小の）値に置き換えることができます。次のコードは、DOCドキュメントからメタデータプロパティをフィルタリングして削除する方法を示しています。次の例では、ドキュメントのすべてのプロパティが空白になっています。 
         
       title_right: "DOCファイルからタイトルメタデータを消去する"
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor)クラスのインスタンスを作成し、DOCファイルをアップロードします
         * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)クラスのインスタンスを作成して、ドキュメントのメタデータを削除します
         * フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilter.AllをMetadataFilter.Titleに置き換えます
-        * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)のオブジェクトを使用してsaveメソッドを呼び出します
+        * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)のオブジェクトを使用してsaveメソッドを呼び出します 
         
       gisthash: "84586804ee996134fd12f2061f989fd5"
       gistfile: "CleanMetadata.java"
@@ -67,19 +87,22 @@ steps:
         * ページ範囲レンダリングドキュメントをPDFとして設定する機能
         * さまざまな種類のメタデータを編集する簡単な方法：作成者名、バージョン、タイトル、件名、説明など
         * ドキュメント情報の抽出-ファイルタイプ、ページ数など。
-
-demos:
-    enable: true
         
 
+
+############################# Demos ############################
+demos:
+    enable: true
+
+############################# About Formats ############################
 about_formats:
     enable: true
 
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

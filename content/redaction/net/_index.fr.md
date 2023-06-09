@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for .NET"
-        image: "/border/groupdocs-redaction-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
         product: "GroupDocs.Redaction"
         platform: ".NET"
 
@@ -56,7 +56,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Aperçu ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -67,7 +67,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Voici un aperçu de GroupDocs.Redaction pour .NET :
+          Voici un aperçu de GroupDocs.Redaction pour .NET:
       
         right:
           enable: true
@@ -84,7 +84,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Redaction pour .NET prend en charge les [formats de fichier de document] suivants (https://docs.groupdocs.com/redaction/net/supported-document-formats/) :
+          GroupDocs.Redaction pour .NET prend en charge les [formats de fichier de document] suivants (https://docs.groupdocs.com/redaction/net/supported-document-formats/):
 
         right:
           enable: true
@@ -92,11 +92,11 @@ overview:
             # table loop
             - title: "Caviarder le texte, les métadonnées et les commentaires"
               content: |
-                * **Word** : DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF
-                * **Excel** : XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV
-                * **PowerPoint** : PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM
-                * **Mise en page fixe** : PDF
-                * **Images tramées** : JPG, BMP, PNG, GIF, TIFF
+                * **Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF
+                * **Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV
+                * **PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM
+                * **Mise en page fixe**: PDF
+                * **Images tramées**: JPG, BMP, PNG, GIF, TIFF
 
       ## TAB THREE ##
       tab_three:
@@ -110,9 +110,9 @@ overview:
             - icon: "fab fa-windows"
               title: "Systèmes d'exploitation"
               content: |
-                * Bureau Windows
-                * Serveur Windows
-                * windows Azure
+                * Windows Desktop
+                * Windows Server
+                * Windows Azure
                 * Linux
 
             # table loop
@@ -120,7 +120,7 @@ overview:
               title: "Cadres pris en charge"
               content: |
                 * .NET Framework 2.0 ou supérieur
-                * Norme .NET 2.0
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
@@ -142,7 +142,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# Caractéristiques ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Redaction for .NET Caractéristiques"
@@ -208,15 +208,16 @@ features:
       - icon: "fas fa-print"
         content: "Enregistrer une politique de masquage en tant que fichier XML"
 
-    more_feature :
+    more_feature:
       # more_feature_loop
       - title: "Caviardez vos données classifiées avec facilité et contrôle"
         content: |
-          L'API GroupDocs.Redaction pour .NET vous permet de contrôler totalement la manière dont vous souhaitez masquer ou effacer vos informations classifiées importantes du document pris en charge. Utiliser notre API de rédaction est assez simple et direct.
+          L'API GroupDocs.Redaction pour .NET vous permet de contrôler totalement la manière dont vous souhaitez masquer ou effacer vos informations classifiées importantes du document pris en charge. Utiliser notre API de rédaction est assez simple et direct.  
 
           Dans l'exemple suivant, nous chargeons un document pris en charge, supprimons tout texte, correspondant à "2 chiffres, espace ou rien, 2 chiffres, encore un espace et 6 chiffres" (tel que 12 34 567890) avec une boîte de couleur bleue en utilisant C#. Une fois cela fait, il enregistre le document dans son format d'origine en le renommant avec un suffixe ajouté "_Redacted":
 
           ```cs
+          // Créer une instance de la classe Redactor
           using (Redactor redactor = new Redactor("sample.docx"))
           {
             // Appliquer la rédaction
@@ -236,11 +237,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for Java"
-          image: "/border/groupdocs-redaction-java.svg"
+        - img_alt: "GroupDocs.Redaction for .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
           product: "GroupDocs.Redaction"
-          platform: "Java"
-          link: "/redaction/java/"
+          platform: ".NET"
+          link: "/redaction/net/"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for .NET"
-        image: "/border/groupdocs-redaction-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
         product: "GroupDocs.Redaction"
         platform: ".NET"
 
@@ -56,7 +56,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Überblick ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -120,7 +120,7 @@ overview:
               title: "Unterstützte Frameworks"
               content: |
                 * .NET Framework 2.0 oder höher
-                * .NET-Standard 2.0
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
@@ -142,7 +142,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# Merkmale ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Redaction for .NET Merkmale"
@@ -212,11 +212,12 @@ features:
       # more_feature_loop
       - title: "Schwärzen Sie Ihre klassifizierten Daten mit Leichtigkeit und Kontrolle"
         content: |
-          GroupDocs.Redaction for .NET API gibt Ihnen die vollständige Kontrolle darüber, wie Sie Ihre wichtigen klassifizierten Informationen aus unterstützten Dokumenten verbergen oder löschen möchten. Die Verwendung unserer Schwärzungs-API ist ziemlich einfach und unkompliziert.
+          GroupDocs.Redaction for .NET API gibt Ihnen die vollständige Kontrolle darüber, wie Sie Ihre wichtigen klassifizierten Informationen aus unterstützten Dokumenten verbergen oder löschen möchten. Die Verwendung unserer Schwärzungs-API ist ziemlich einfach und unkompliziert.  
 
           Im folgenden Beispiel laden wir ein unterstütztes Dokument, schwärzen jeglichen Text und gleichen „2 Ziffern, Leerzeichen oder nichts, 2 Ziffern, wieder Leerzeichen und 6 Ziffern“ (z. B. 12 34 567890) mit einem blauen Farbfeld unter Verwendung von C# ab. Sobald dies erledigt ist, speichert es das Dokument in seinem ursprünglichen Format, indem es mit einem hinzugefügten Suffix „_Redacted“: umbenannt wird
 
           ```cs
+          // Erstellen Sie eine Instanz der Redactor-Klasse
           using (Redactor redactor = new Redactor("sample.docx"))
           {
             // Schwärzung anwenden
@@ -236,11 +237,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for Java"
-          image: "/border/groupdocs-redaction-java.svg"
+        - img_alt: "GroupDocs.Redaction for .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
           product: "GroupDocs.Redaction"
-          platform: "Java"
-          link: "/redaction/java/"
+          platform: ".NET"
+          link: "/redaction/net/"
 
 ############################# Back to top ###############################
 back_to_top:

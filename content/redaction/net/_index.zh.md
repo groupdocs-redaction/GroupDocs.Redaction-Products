@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for .NET"
-        image: "/border/groupdocs-redaction-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
         product: "GroupDocs.Redaction"
         platform: ".NET"
 
@@ -56,7 +56,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -95,8 +95,8 @@ overview:
                 * **Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF
                 * **Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV
                 * **PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM
-                * **固定布局**：PDF
-                * **光栅图像**：JPG、BMP、PNG、GIF、TIFF
+                * **固定布局**: PDF
+                * **光栅图像**: JPG, BMP, PNG, GIF, TIFF
 
       ## TAB THREE ##
       tab_three:
@@ -120,7 +120,7 @@ overview:
               title: "支持的框架"
               content: |
                 * .NET Framework 2.0 或更高版本
-                * .NET 标准 2.0
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
@@ -142,7 +142,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# 特征 ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Redaction for .NET 特征"
@@ -197,6 +197,10 @@ features:
         content: "在转换为 PDF 时指定页面范围和 PDF 合规级别"
 
       # feature loop
+      - icon: "fas fa-file-word"
+        content: "編輯或刪除圖像文件中的 EXIF 元數據"
+
+      # feature loop
       - icon: "fas fa-envelope"
         content: "编辑 PDF、Word 和演示文稿文档中的嵌入图像"
 
@@ -208,7 +212,7 @@ features:
       # more_feature_loop
       - title: "轻松控制地编辑您的分类数据"
         content: |
-          GroupDocs.Redaction for .NET API 让您可以完全控制如何从受支持的文档中隐藏或删除重要的分类信息。使用我们的 Redaction API 非常简单直接。
+          GroupDocs.Redaction for .NET API 让您可以完全控制如何从受支持的文档中隐藏或删除重要的分类信息。使用我们的 Redaction API 非常简单直接。  
 
           在下面的示例中，我们加载一个支持的文档，删除任何文本，使用 C# 匹配“2 位，空格或无，2 位，再次空格和 6 位”（例如 12 34 567890）和蓝色框。完成后，它会通过添加后缀“_Redacted”来重命名文档，以原始格式保存文档：
 
@@ -233,11 +237,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for Java"
-          image: "/border/groupdocs-redaction-java.svg"
+        - img_alt: "GroupDocs.Redaction for .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
           product: "GroupDocs.Redaction"
-          platform: "Java"
-          link: "/redaction/java/"
+          platform: ".NET"
+          link: "/redaction/net/"
 
 ############################# Back to top ###############################
 back_to_top:

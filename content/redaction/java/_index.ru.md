@@ -11,11 +11,11 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "API редактирования Java | Скрыть конфиденциальные данные из PDF Word Excel Image"
-head_description: "API редактирования документов Java — скройте личные данные из презентаций PDF, Word, Excel, PowerPoint и растровых изображений с помощью различных типов редактирования.."
+head_description: "API редактирования документов Java — скройте личные данные из презентаций PDF, Word, Excel, PowerPoint и растровых изображений с помощью различных типов редактирования."
 
 ############################# Header ############################
 title: "Редактировать личную информацию через Java API"
-description: "Исключите или скройте личную информацию и метаданные из документов, рабочих листов, презентаций, файлов PDF и растровых изображений с помощью API редактирования Java.."
+description: "Исключите или скройте личную информацию и метаданные из документов, рабочих листов, презентаций, файлов PDF и растровых изображений с помощью API редактирования Java."
 button:
     enable: true
 
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for Java"
-        image: "/border/groupdocs-redaction-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
         product: "GroupDocs.Redaction"
         platform: "Java"
 
@@ -41,7 +41,7 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Поддержка"
 
             # button loop
             - link: "https://products.groupdocs.app/redaction"
@@ -56,19 +56,19 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Обзор ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       API GroupDocs.Redaction для Java позволяет разработчикам удалять конфиденциальные данные из файлов популярных форматов, таких как Microsoft Word, Excel, PowerPoint, PDF и изображений, чтобы их можно было использовать и распространять, но при этом защищать конфиденциальную информацию. Библиотека редактирования предлагает единый независимый от формата интерфейс для редактирования любого типа секретной информации, включая номера социального страхования, медицинскую информацию, финансовую, частную, юридическую или даже торговую информацию с помощью текста, метаданных и типов редактирования аннотаций. Он позволяет сохранить документ в исходном формате и создать очищенный PDF-документ с растровыми изображениями исходных страниц.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Ниже приводится обзор GroupDocs.Redaction для Java:
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -110,9 +110,9 @@ overview:
             - icon: "fab fa-windows"
               title: "Операционные системы"
               content: |
-                * Рабочий стол Microsoft Windows
-                * Сервер Microsoft Windows
-                * линукс
+                * Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
                 * MacOS
 
             # table loop
@@ -129,18 +129,19 @@ overview:
               title: "Среды разработки"
               content: |
                 * NetBeans
-                * IntelliJ ИДЕЯ
-                * Затмение
+                * IntelliJ IDEA
+                * Eclipse
+
             # table loop
             - icon: "fas fa-tools"
               title: "Инструмент автоматизации сборки"
               content: |
-                * Мавен
+                * Maven
 
-############################# Функции ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Redaction for Java Функции"
+    title: "Функции GroupDocs.Redaction for Java"
 
     feature:
       # feature loop
@@ -195,15 +196,16 @@ features:
       - icon: "fas fa-file-word"
         content: "Редактируйте встроенные изображения в документах PDF, Word и презентациях"
 
-    больше_функций:
+    more_feature:
       # more_feature_loop
       - title: "Обеспечьте конфиденциальность, отредактировав свои секретные данные"
         content: |
-          Библиотека GroupDocs.Redaction для Java позволяет разработчикам редактировать текст и изображения из поддерживаемых документов, используя различные типы редактирования. Использовать наш Redaction API просто и понятно.
+          Библиотека GroupDocs.Redaction для Java позволяет разработчикам редактировать текст и изображения из поддерживаемых документов, используя различные типы редактирования. Использовать наш Redaction API просто и понятно.  
 
-          В следующем примере кода используется табличный документ, например электронная таблица Microsoft Excel, где область редактирования может быть ограничена определенным рабочим листом и/или столбцом. Он использует фильтры для редактирования второго столбца с электронными письмами на листе «Клиенты», оставляя все остальные электронные письма нетронутыми в документе.
-          
+          В следующем примере кода используется табличный документ, например электронная таблица Microsoft Excel, где область редактирования может быть ограничена определенным рабочим листом и/или столбцом. Он использует фильтры для редактирования второго столбца с электронными письмами на листе "Клиенты", оставляя все остальные электронные письма нетронутыми в документе.
+
           ```java
+          // Создать экземпляр класса Redactor
           final Redactor redactor  = new Redactor("sample.xlsx");
           try
           {
@@ -211,6 +213,7 @@ features:
               filter.setColumnIndex(1);
               filter.setWorkSheetName("Customers");
               Pattern expression = Pattern.compile("^\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$");
+              // Применить редактирование
               RedactorChangeLog result = redactor.apply(new CellColumnRedaction(filter, expression, new ReplacementOptions("[customer email]")));
               if (result.getStatus() != RedactionStatus.Failed)
               {
@@ -234,11 +237,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for .NET"
-          image: "/border/groupdocs-redaction-net.svg"
+        - img_alt: "GroupDocs.Redaction for Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
           product: "GroupDocs.Redaction"
-          platform: ".NET"
-          link: "/redaction/net/"
+          platform: "Java"
+          link: "/redaction/java/"
 
 ############################# Back to top ###############################
 back_to_top:

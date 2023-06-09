@@ -1,9 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "ko/redaction/net/metadata /pptx/"
-otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT  PPS POT PPSX PPTM PPSM POTM JPEG TIFF PNG BMP GIF 
+path: "ko/redaction/net/metadata/pptx"
+otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
+
 
 ############################# Head ############################
 head_title: ".NET의 PDF, DOCX, PPT, PPTX, XLS, XLSX에 메타데이터 수정 적용"
@@ -28,33 +43,31 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Java의 PPTX 문서에서 메타데이터를 정리하는 방법"
+    - title_left: "C#의 PPTX 문서에서 메타데이터를 정리하는 방법"
       content_left: |
-       .NET용 GroupDocs.Redaction은 프로그래머가 필터를 사용하거나 정규 표현식으로 검색하여 널리 사용되는 수많은 문서 유형에서 분류된 정보를 수정, 숨기거나 대체할 수 있는 강력한 API입니다.
-
-       다음 .NET 코드 예제에서는 메타데이터 수정을 적용하여 문서의 모든 또는 특정 메타데이터를 비어 있거나 최소값으로 바꾸는 방법을 보여줍니다.
+        .NET용 GroupDocs.Redaction은 프로그래머가 필터를 사용하거나 정규 표현식으로 검색하여 널리 사용되는 수많은 문서 유형에서 분류된 정보를 수정, 숨기거나 대체할 수 있는 강력한 API입니다.
+        다음 .NET 코드 예제에서는 메타데이터 수정을 적용하여 문서의 모든 또는 특정 메타데이터를 비어 있거나 최소값으로 바꾸는 방법을 보여줍니다.
 
       title_right: "PPTX 파일에 메타데이터 수정 적용"
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) 클래스의 인스턴스 생성
-        * [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)의 EraseMetadataRedaction 객체로 redactor.Apply 메소드 호출
-        * redactor.save 메소드를 호출하여 문서를 "*_Redacted.*" 파일에 원본 형식으로 저장
-
+        * [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)의 EraseMetadataRedaction 객체로 Redactor.Apply 메소드 호출
+        * Redactor.Save 메소드를 호출하여 문서를 "*_Redacted.*" 파일에 원본 형식으로 저장
+        
       gisthash: "8f1bc20dff33c9a45c01a9e251555bf1"
       gistfile: "how_to_clean_metadata_dotnet.cs"
-      
+
     - title_left: ".NET을 통해 PPTX 파일에서 메타데이터 수정"
       content_left: |
         GroupDocs.Redaction .NET API를 사용하면 외부 종속성 없이 몇 줄의 코드로 문서 자동화 및 보고 작업을 포함할 수 있으므로 개발자의 작업이 쉬워집니다.
-        
         다음 C# .NET 코드 예제는 소프트웨어 개발자가 몇 줄의 코드로 문서의 메타데이터에서 중요한 데이터를 제거하는 방법을 보여줍니다.
         
       title_right: "PPTX 파일의 메타데이터 수정"
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) 클래스의 인스턴스 생성
-        * [MetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metataredaction) 호출
-        * redaction.Filte 메서드 호출
-        * redactor.save 메소드를 호출하여 문서를 "*_Redacted.*" 파일에 원본 형식으로 저장
+        * [MetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metataredaction) 클래스의 인스턴스 생성
+        * [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) 메서드 호출 
+        * Redactor.Save 메소드를 호출하여 문서를 "*_Redacted.*" 파일에 원본 형식으로 저장
         
       gisthash: "8dee499186930d60909dffa54579c9f4"
       gistfile: "how_to_redact_metadata_dotnet.cs"
@@ -76,14 +89,16 @@ steps:
         * 문서 정보 추출 - 파일 형식, 페이지 수 등
         * 여러 데이터 형식에 대한 완벽한 지원
 
+
+############################# Demos ############################
 demos:
     enable: true
-        
 
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

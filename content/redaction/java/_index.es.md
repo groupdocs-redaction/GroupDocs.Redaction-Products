@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for Java"
-        image: "/border/groupdocs-redaction-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
         product: "GroupDocs.Redaction"
         platform: "Java"
 
@@ -56,19 +56,19 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Visión de conjunto ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       GroupDocs.Redaction for Java API permite a los desarrolladores eliminar datos confidenciales de formatos de archivo populares como Microsoft Word, Excel, PowerPoint, PDF e imágenes para que puedan usarse y distribuirse, pero aún así proteger la información confidencial. La biblioteca de redacción ofrece una única interfaz independiente del formato para redactar cualquier tipo de información clasificada, incluidos números de seguridad social, información médica, detalles financieros, de propiedad, legales o incluso comerciales a través de texto, metadatos y tipos de redacción de anotaciones. Le permite guardar el documento en su formato original y crear un documento PDF desinfectado con imágenes rasterizadas de las páginas originales.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           A continuación se muestra una descripción general de GroupDocs.Redaction para Java:
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -79,7 +79,7 @@ overview:
             * Redactar anotación
             * Redactar documento tabular
             * Redactar archivos protegidos
-            * personalización
+            * Personalización
       
       ## TAB TWO ##
       tab_two:
@@ -131,13 +131,14 @@ overview:
                 * NetBeans
                 * IntelliJ IDEA
                 * Eclipse
+
             # table loop
             - icon: "fas fa-tools"
               title: "Herramienta de automatización de compilación"
               content: |
                 * Maven
 
-############################# Características ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Redaction for Java Características"
@@ -199,11 +200,12 @@ features:
       # more_feature_loop
       - title: "Asegure la privacidad al redactar sus datos clasificados"
         content: |
-          La biblioteca GroupDocs.Redaction para Java permite a los desarrolladores redactar texto e imágenes de documentos admitidos empleando una variedad de tipos de redacción. Usar nuestra Redaction API es simple y directo.
+          La biblioteca GroupDocs.Redaction para Java permite a los desarrolladores redactar texto e imágenes de documentos admitidos empleando una variedad de tipos de redacción. Usar nuestra Redaction API es simple y directo.  
 
           El siguiente ejemplo de código usa un documento tabular, como una hoja de cálculo de Microsoft Excel, donde el alcance de la redacción se puede limitar a una hoja de trabajo y/o columna específica. Utiliza filtros para redactar la segunda columna con correos electrónicos en una hoja de trabajo "Clientes", dejando intactos todos los demás correos electrónicos en el documento.
-          
+
           ```java
+          // Cree una instancia de la clase Redactor
           final Redactor redactor  = new Redactor("sample.xlsx");
           try
           {
@@ -211,6 +213,7 @@ features:
               filter.setColumnIndex(1);
               filter.setWorkSheetName("Customers");
               Pattern expression = Pattern.compile("^\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$");
+              // Aplicar redacción
               RedactorChangeLog result = redactor.apply(new CellColumnRedaction(filter, expression, new ReplacementOptions("[customer email]")));
               if (result.getStatus() != RedactionStatus.Failed)
               {
@@ -234,11 +237,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for .NET"
-          image: "/border/groupdocs-redaction-net.svg"
+        - img_alt: "GroupDocs.Redaction for Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
           product: "GroupDocs.Redaction"
-          platform: ".NET"
-          link: "/redaction/net/"
+          platform: "Java"
+          link: "/redaction/java/"
 
 ############################# Back to top ###############################
 back_to_top:

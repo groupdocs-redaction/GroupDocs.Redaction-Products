@@ -1,0 +1,85 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Redact Sensitive Metadata from {{EXT}} Documents in {{ProgLang}}",
+    "description": "Apply metadata redaction by applying filters for documents of different formats"
+  },
+  "header": {
+    "title": "Redact Author Name from {{EXT}} Metadata in {{ProgLang}}",
+    "description": "GroupDocs.Redactions provides a flexible API that allows to search & replace/remove any metadata property using filters."
+  },
+  "about": {
+    "title": "What is Metadata Redaction?",
+    "h1": "Redaction refers to the removal of unwanted or confidential information from electronic documents. All the file formats including PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others have some metadata properties. These properties include author name, category, company name, comments, creation time, last updated and many more. Sometimes you need to completely delete unwanted metadata fields or you might want to update their values. There are also some hidden data associated with the files which can be viewed using various tools and techniques. There are many cases when you don't want this data to be accessed by anyone. With GroupDocs.Redaction API you can apply metadata redactions to any of these metadata properties. You can change or delete them by filtering the metadata you want. In this guide we will explain how you can redact author name from {{EXT}} metadata in {{ProgLang}}.",
+  },
+  "metadata": {
+    "name": "author",
+    "filter": "Author",
+    "example": "RedactAuthorMetadata.cs",
+    "hash": "9718d29035590c729114d50e69aa49b0"
+  },
+  "blocks": {
+    "example1" : {
+      "title_left": "Redact {{EXT}} Metadata in {{ProgLang}}",
+      "content_left": {
+        "description": "",
+        "step_1": "Following code allows you to search and redact sensitive data from a {{EXT}} document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Author. - it will leave the regular expressions matches undone in all metadata items, except \"Author\" property:",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "How to Redact {{EXT}} Metadata",
+      "content_right": {
+        "description": "",
+        "step_1": "Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & upload {{EXT}} file",
+        "step_2": "Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) class to find and replace sensitive data from document's metadata",
+        "step_3": "Set scope for redaction by setting filter, e.g. Use MetadataFilter.Author in below code",
+        "step_4": "Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "9718d29035590c729114d50e69aa49b0",
+        "file": "RedactAuthorMetadata.cs"
+      }
+    },
+    "example2" : {
+      "title_left": "Remove {{EXT}} Metadata in {{ProgLang}}",
+      "content_left": {
+        "description": "",
+        "step_1": "You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a {{EXT}} document.The example below blanks out all properties of the document:",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "Erase {{EXT}} Metadata",
+      "content_right": {
+        "description": "",
+        "step_1": "Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & upload {{EXT}} file",
+        "step_2": "Create an instance of [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) to remove metadata of the document",
+        "step_3": "Set scope for redaction by setting filter, e.g. Replace MetadataFilter.All with MetadataFilter.Author in below code",
+        "step_4": "Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "cef91d8d8f160aaf560218d1abd520e2",
+        "file": "CleanMetadata.cs"
+      }
+    },
+    "requirements" : {
+      "title_left": "System Requirements",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET supports any 32-bit or 64-bit operating system where .NET platform is installed. It does not require any external software or third party tool to be installed. For complete system requirements guide, please visit [system requirements](https://docs.groupdocs.com/redaction/net/system-requirements)",
+        "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+        "step_2": "Development Environment: NetBeans, Intellij IDEA, Eclipse etc",
+        "step_3": "Java Runtime Environment: J2SE 6.0 and above",
+        "step_4": "Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Installation Instructions",
+      "content_right": {
+        "description": "",
+        "step_1": "Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. ",
+        "step_2": "Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.",
+        "step_3": "",
+        "step_4": "",
+        "step_5": ""
+      }
+    }
+  },
+  "about_formats": "true"
+}

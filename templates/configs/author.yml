@@ -1,0 +1,16 @@
+inherits: products.yml
+
+dimensions: 
+- alias: ext
+  values: ["bmp", "doc", "docm", "docx", "dot", "dotm", "dotx", "pdf", "pot", "potm", "pps", "ppsm", "ppsx", "ppt", "pptm", "pptx", "rtf", "xls", "xlsm", "xlsx", "xlt", "xltm", "xltx"]
+
+generationRules:
+  exclude:
+##    - ext[bmp, gif, jpeg, png, tiff]
+  include:
+##  - ext[odt]
+    - lang[en, ja, id, ru]  
+
+dictionaries: [ "..\\data\\author_{product}.{lang}.json", "..\\data\\author_{product}.json", "..\\data\\metadata_otherformats.json" ]
+
+outputPath: "{product}\\metadata\\author\\{ext}.{lang}.md"

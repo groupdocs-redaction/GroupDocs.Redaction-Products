@@ -1,0 +1,51 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "Document Redaction Solution | On Premise APIs & Free App",
+    "description": "Remove, redact or hide metadata and text content in MS Office Word documents, Excel spreadsheets, PowerPoint presentations, PDF and image file formats."
+  },
+  "header": {
+    "title": "Redaction Solution to Secure Classified Info",
+    "description": "Hide or remove private information from Microsoft Office documents, spreadsheets, presentations, PDF and images."
+  },
+  "apis": {
+    "code" : {
+      "title": "GroupDocs.Redaction High Code APIs Include",
+      "label": "View All High Code APIs",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction for",
+        "content": "On Premise .NET API to hide or remove the content and metadata from your personal documents."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction for",
+        "content": "On Premise Java APIs to remove or hide text from content and metadata of supported file formats."
+      }
+    },
+    "apps" : {
+      "title": "GroupDocs.Redaction No Code Apps Include",
+      "label": "View All No Code Apps",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_redaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Single app to redact sensitive information from Word, Excel, PowerPoint, PDF and many other types of documents."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Redact information from Word documents using any web browser."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Expunge content from your PDF documents online for free."
+      }
+    }
+  }
+}

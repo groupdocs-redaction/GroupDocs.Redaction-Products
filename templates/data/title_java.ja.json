@@ -1,0 +1,81 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "GroupDocs.RedactionAPIを使用して{{ProgLang}}で{{EXT}}ファイルからタイトルを編集する",
+    "description": "GroupDocs.Redactionは、30を超えるドキュメントタイプから機密情報を削除または編集できる強力なサニタイズAPIです。",
+    "ad_headline": "メタデータの編集 | Java",
+    "ad_description": "{{ProgLang}}の{{EXT}}メタデータからタイトルを編集"
+  },
+  "header": {
+    "title": "GroupDocs.RedactionAPIを使用して{{ProgLang}}で{{EXT}}ファイルからタイトルを編集する",
+    "description": "GroupDocs.Redactionは、30を超えるドキュメントタイプから機密情報を削除または編集できる強力なサニタイズAPIです。"
+  },
+  "about": {
+    "title": "メタデータ編集とは何ですか？",
+    "h1": "ドキュメントを元の形式で保存するには、メタデータを削除または編集して、すべての機密データを削除する必要があります。これらの目的のために、GroupDocs.Redactionはメタデータ編集APIを提供します。 GroupDocs.Redaction APIを使用すると、編集済みドキュメントをPDFで保存するか、すべてのページをラスターイメージに変換するか、編集済みドキュメントを元の形式で保存してさらに編集することができます。 PDF、DOC、DOCX、PPT、PPTX、XLS、XLSXなどを含むすべてのファイル形式には、いくつかのメタデータプロパティがあります。これらのプロパティには、作成者名、カテゴリ、会社名、コメント、作成時間、最終更新日などが含まれます。また、さまざまなツールや手法を使用して表示できるファイルに関連付けられた非表示のデータもあります。 GroupDocs.Redaction APIを使用すると、これらのメタデータプロパティのいずれかにメタデータ編集を適用できます。必要なメタデータをフィルタリングすることで、それらを変更または削除できます。このチュートリアルでは、GroupDocs.Redaction APIを使用して{{ProgLang}}で{{EXT}}ファイルのヘッダーを編集する方法について説明します。",
+  },
+  "blocks": {
+    "example1" : {
+      "title_left": "{{ProgLang}}でタイトルメタデータを編集する",
+      "content_left": {
+        "description": "",
+        "step_1": "次のコードを使用すると、{{EXT}}ドキュメントから機密データを検索して編集できます。フィルタを設定することで、編集の範囲を設定できます。 MetadataFilter.Titleに。 「Title」プロパティを除くすべてのメタデータアイテムで、正規表現の一致が取り消されたままになります。",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "{{EXT}}メタデータを編集する方法",
+      "content_right": {
+        "description": "",
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor)クラスのインスタンスを作成し、{{EXT}}ファイルをアップロードします",
+        "step_2": "[MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)クラスのインスタンスを作成して、ドキュメントのメタデータから機密データを検索して置換します",
+        "step_3": "フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilters.Titleを使用します",
+        "step_4": "[MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)のオブジェクトを使用してsaveメソッドを呼び出します"
+      },
+      "gist": {
+        "hash": "c23f466bec11e0405e2a3e74be681d09",
+        "file": "RedactTitleMetadata.java"
+      }
+    },
+    "example2" : {
+      "title_left": "{{ProgLang}}で{{EXT}}メタデータを削除する",
+      "content_left": {
+        "description": "",
+        "step_1": "EraseMetadataRedactionクラスを使用して、ドキュメント内のすべてまたは特定のメタデータを空の（空白または最小の）値に置き換えることができます。次のコードは、{{EXT}}ドキュメントからメタデータプロパティをフィルタリングして削除する方法を示しています。次の例では、ドキュメントのすべてのプロパティが空白になっています。",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "{{EXT}}ファイルからタイトルメタデータを消去する",
+      "content_right": {
+        "description": "",
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor)クラスのインスタンスを作成し、{{EXT}}ファイルをアップロードします",
+        "step_2": "[MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)クラスのインスタンスを作成して、ドキュメントのメタデータを削除します",
+        "step_3": "フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilter.AllをMetadataFilter.Titleに置き換えます",
+        "step_4": "[MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)のオブジェクトを使用してsaveメソッドを呼び出します"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements" : {
+      "title_left": "システム要求",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/redaction/java/system-requirements)にアクセスしてください。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。 ：",
+        "step_1": "オペレーティングシステム：Microsoft Windows、Linux、MacOS",
+        "step_2": "開発環境：NetBeans、Intellij IDEA、Eclipseなど",
+        "step_3": "Javaランタイム環境：J2SE6.0以降",
+        "step_4": "[Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)から最新バージョンのGroupDocs.Redaction for Javaを入手してください。"
+      },
+      "title_right": "GroupDocs.Redactionを使用する理由",
+      "content_right": {
+        "description": "",
+        "step_1": "ユーザーがカスタムドキュメント形式と編集の種類を追加できるようにする",
+        "step_2": "機密情報を削除するために追加のソフトウェアは必要ありません",
+        "step_3": "ページ範囲レンダリングドキュメントをPDFとして設定する機能",
+        "step_4": "さまざまな種類のメタデータを編集する簡単な方法：作成者名、バージョン、タイトル、件名、説明など",
+        "step_5": "ドキュメント情報の抽出-ファイルタイプ、ページ数など。"
+      }
+    }
+  },
+  "about_formats": "true"
+}

@@ -1,0 +1,110 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "C# .NET Redaksi API | Sembunyikan Teks Pribadi dari Gambar PDF Word Excel",
+    "description": "API redaksi dokumen untuk .NET. Redaksi, sembunyikan, atau hapus konten sensitif dari PDF, Microsoft Word, Excel, presentasi, & gambar raster."
+  },
+  "header": {
+    "title": "Amankan Data Rahasia melalui Redaction API",
+    "description": "Redaksi, sembunyikan, atau hapus konten & metadata sensitif dari dokumen, lembar kerja, presentasi, PDF, dan file gambar raster menggunakan .NET API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Ringkasan",
+      "button_text_2": "Fitur",
+      "button_text_3": "Mendukung",
+      "button_text_4": "Demo Langsung",
+      "button_text_5": "Harga"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction untuk .NET adalah pustaka API yang membantu Anda menghapus data sensitif dan rahasia dari berbagai format file, seperti Microsoft Word, Excel, PowerPoint, dan PDF. Antarmuka format-independen tunggal Redaction API kami mendukung redaksi dari berbagai jenis, misalnya, redaksi teks, redaksi metadata, redaksi anotasi, dan redaksi dokumen tabular. GroupDocs.Redaction untuk .NET API juga memungkinkan Anda untuk menyunting file yang dilindungi kata sandi. Anda diizinkan untuk menyimpan dokumen dalam format aslinya serta membuat dokumen PDF yang disanitasi dengan gambar raster dari halaman asli.",
+    "one" : {
+      "description": "Berikut ini adalah ikhtisar GroupDocs.Redaction untuk {{ProductName}}:",
+      "content": {
+        "title": "Ringkasan",
+        "step_1": "Redaksi Teks",
+        "step_2": "Redaksi Metadata",
+        "step_3": "Redaksi Anotasi",
+        "step_4": "Redact Tabular Document",
+        "step_5": "Redact File yang Dilindungi",
+        "step_6": "Kustomisasi"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction untuk .NET mendukung [format file dokumen](https://docs.groupdocs.com/redaction/net/supported-document-formats/ berikut):",
+      "content": {
+        "title": "Redact Teks, Metadata & Komentar",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Tata Letak Tetap**: PDF",
+        "step_5": "**Gambar Raster**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction untuk .NET mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Sistem operasi",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux",
+          },
+          "row2": {
+            "title": "Kerangka yang Didukung",
+            "data": "* .NET Framework 2.0 atau lebih tinggi
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-box",
+            "title": "Manajer Paket",
+            "data": "* NuGet",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Lingkungan Pengembangan",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction untuk Fitur {{ProductName}}",
+    "feature1": "Lakukan pencarian peka huruf besar/kecil untuk redaksi frasa yang tepat",
+    "feature2": "Gunakan kotak warna untuk menyembunyikan teks yang diedit alih-alih penggantian string",
+    "feature3": "Cari & edit teks apa pun menggunakan pencarian ekspresi reguler",
+    "feature4": "Filter semua atau kombinasi apa pun dari informasi metadata rahasia dokumen",
+    "feature5": "Hapus informasi metadata lengkap dari dokumen tertentu dengan cepat",
+    "feature6": "Tetapkan cakupan redaksi ke lembar kerja dan/atau kolom tertentu di Excel",
+    "feature7": "Hapus semua atau komentar tertentu dan anotasi lain dari dokumen",
+    "feature8": "Cari & hapus data sensitif dari teks anotasi",
+    "feature9": "Kemampuan untuk bekerja dengan format & redaksi Anda sendiri",
+    "feature10": "Dukungan untuk format gambar raster dan redaksi wilayah gambar",
+    "feature11": "Tentukan satu set aturan redaksi (kebijakan) dalam file XML",
+    "feature12": "Tentukan Rentang Halaman dan Tingkat Kepatuhan PDF saat Konversi ke PDF",
+    "feature13": "Edit atau Hapus Metadata EXIF dari File Gambar",
+    "feature14": "Redact Gambar Tersemat di dalam Dokumen PDF, Word & Presentasi",
+    "feature15": "Simpan Kebijakan Redaksi sebagai File XML"
+  },
+  "more_features": {
+    "title": "Redaksi Data Rahasia Anda dengan Kemudahan & Kontrol",
+    "content": "GroupDocs.Redaction untuk .NET API memberi Anda kendali penuh atas bagaimana Anda ingin menyembunyikan atau menghapus informasi rahasia penting Anda dari dokumen yang didukung. Untuk menggunakan Redaction API kami cukup sederhana dan mudah.",
+    "example": {
+      "description": "Dalam contoh berikut, kami memuat dokumen yang didukung, menyunting teks apa pun, mencocokkan \"2 digit, spasi atau tidak sama sekali, 2 digit, spasi lagi, dan 6 digit\" (seperti 12 34 567890) dengan kotak warna biru menggunakan C#. Setelah selesai, ia menyimpan dokumen dalam format aslinya dengan mengganti namanya dengan akhiran tambahan \"_Redacted\":",
+      "comment_init": "Buat instance kelas Redactor",
+      "comment_apply": "Terapkan redaksi"
+    }
+  },
+  "solutions": "GroupDocs.Redaction menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
+}

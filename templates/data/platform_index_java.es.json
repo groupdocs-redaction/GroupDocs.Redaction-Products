@@ -1,0 +1,106 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "API de redacción de Java | Ocultar datos confidenciales de PDF Word Excel Image",
+    "description": "API de redacción de documentos de Java: oculte datos personales de PDF, Word, Excel, presentaciones de PowerPoint e imágenes rasterizadas a través de varios tipos de redacción."
+  },
+  "header": {
+    "title": "Redactar información privada a través de la API de Java",
+    "description": "Excluya u oculte información personal y metadatos de documentos, hojas de trabajo, presentaciones, PDF y archivos de imágenes ráster utilizando la API de redacción de Java."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Visión de conjunto",
+      "button_text_2": "Características",
+      "button_text_3": "Support",
+      "button_text_4": "Live Demo",
+      "button_text_5": "Precios"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API permite a los desarrolladores eliminar datos confidenciales de formatos de archivo populares como Microsoft Word, Excel, PowerPoint, PDF e imágenes para que puedan usarse y distribuirse, pero aún así proteger la información confidencial. La biblioteca de redacción ofrece una única interfaz independiente del formato para redactar cualquier tipo de información clasificada, incluidos números de seguridad social, información médica, detalles financieros, de propiedad, legales o incluso comerciales a través de texto, metadatos y tipos de redacción de anotaciones. Le permite guardar el documento en su formato original y crear un documento PDF desinfectado con imágenes rasterizadas de las páginas originales.",
+    "one" : {
+      "description": "A continuación se muestra una descripción general de GroupDocs.Redaction para {{ProductName}}:",
+      "content": {
+        "title": "Visión de conjunto",
+        "step_1": "Redactar texto",
+        "step_2": "Redactar metadatos",
+        "step_3": "Redactar anotación",
+        "step_4": "Redactar documento tabular",
+        "step_5": "Redactar archivos protegidos",
+        "step_6": "Personalización"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction para Java admite los siguientes [formatos de archivo de documento] (https://docs.groupdocs.com/redaction/java/supported-document-formats/):",
+      "content": {
+        "title": "Redactar texto, Metadata & Comments",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Fixed Layout**: PDF",
+        "step_5": "**Raster Images**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction for Java apoya siguiendo Sistemas operativos, Frameworks y Gestores de Paquetes:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Sistemas operativos",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * MacOS",
+          },
+          "row2": {
+            "title": "Marcos compatibles",
+            "data": "* Java 7 (1.7) y superior"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-cogs",
+            "title": "Entornos de desarrollo",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Eclipse",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Herramienta de automatización de compilación",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} Características",
+    "feature1": "Buscar y redactar coincidencias exactas de una cadena de búsqueda",
+    "feature2": "Controle el proceso de redacción y omita coincidencias específicas",
+    "feature3": "Ubicar y redactar usando expresiones regulares",
+    "feature4": "Compatibilidad integrada con formatos Office y PDF",
+    "feature5": "Borrar metadatos o redactar valores de metadatos",
+    "feature6": "Limite las redacciones a hojas de trabajo y columnas específicas",
+    "feature7": "Eliminar anotaciones o redactar sus textos",
+    "feature8": "Use redacciones textuales (códigos de exención) o gráficas (rectángulos de colores)",
+    "feature9": "Guarde el documento en su formato original o como PDF con imágenes rasterizadas de las páginas originales",
+    "feature10": "Compatibilidad con formatos de imágenes de trama y redacciones de regiones de imágenes",
+    "feature11": "Interfaz de integración para implementar redacción y formatos personalizados",
+    "feature12": "Editar o eliminar metadatos EXIF ​​de archivos de imagen",
+    "feature13": "Redactar imágenes incrustadas dentro de los documentos PDF, Word y Presentation",
+    "feature14": "",
+    "feature15": ""
+  },
+  "more_features": {
+    "title": "Asegure la privacidad al redactar sus datos clasificados",
+    "content": "La biblioteca GroupDocs.Redaction para Java permite a los desarrolladores redactar texto e imágenes de documentos admitidos empleando una variedad de tipos de redacción. Usar nuestra Redaction API es simple y directo.",
+    "example": {
+      "description": "El siguiente ejemplo de código usa un documento tabular, como una hoja de cálculo de Microsoft Excel, donde el alcance de la redacción se puede limitar a una hoja de trabajo y/o columna específica. Utiliza filtros para redactar la segunda columna con correos electrónicos en una hoja de trabajo \"Clientes\", dejando intactos todos los demás correos electrónicos en el documento.",
+      "comment_init": "Cree una instancia de la clase Redactor",
+      "comment_apply": "Aplicar redacción"
+    }
+  },
+  "solutions": "GroupDocs.Redaction ofrece API de visualización de documentos para otros entornos de desarrollo populares"
+}

@@ -1,0 +1,110 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "C# .NET 编辑 API |从 PDF Word Excel 图像中隐藏私人文本",
+    "description": ".NET 的文档编辑 API。编辑、隐藏或删除 PDF、Microsoft Word、Excel、演示文稿和光栅图像中的敏感内容."
+  },
+  "header": {
+    "title": "通过编辑 API 保护机密数据",
+    "description": "使用 .NET API 编辑、隐藏或删除文档、工作表、演示文稿、PDF 和光栅图像文件中的敏感内容和元数据."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "概述",
+      "button_text_2": "特征",
+      "button_text_3": "Support",
+      "button_text_4": "Live Demo",
+      "button_text_5": "价钱"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET 是一个 API 库，可帮助您从各种文件格式（例如 Microsoft Word、Excel、PowerPoint 和 PDF）中删除敏感和分类数据。我们的编校 API 的单一格式独立接口支持各种类型的编校，例如文本编校、元数据编校、注释编校和表格文档编校。 GroupDocs.Redaction for .NET API 还允许您编辑受密码保护的文件。您可以将文档保存为原始格式，并使用原始页面的光栅图像创建经过净化的 PDF 文档。",
+    "one" : {
+      "description": "以下是 {{ProductName}} 的 GroupDocs.Redaction 的概述：",
+      "content": {
+        "title": "概述",
+        "step_1": "编辑文本",
+        "step_2": "编辑元数据",
+        "step_3": "编辑注释",
+        "step_4": "编辑表格文档",
+        "step_5": "编辑受保护的文件",
+        "step_6": "定制"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction for .NET 支持以下 [文档文件格式](https://docs.groupdocs.com/redaction/net/supported-document-formats/)：",
+      "content": {
+        "title": "编辑文本, Metadata & Comments",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**固定布局**: PDF",
+        "step_5": "**光栅图像**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction for .NET 支持以下操作系统、框架和包管理器:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "操作系统",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux",
+          },
+          "row2": {
+            "title": "支持的框架",
+            "data": "* .NET Framework 2.0 或更高版本
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-box",
+            "title": "包管理器",
+            "data": "* NuGet",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "开发环境",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} 特征",
+    "feature1": "执行区分大小写的搜索，以查找准确的短语编辑",
+    "feature2": "使用颜色框隐藏编辑文本而不是字符串替换",
+    "feature3": "使用正则表达式搜索查找和编辑任何文本",
+    "feature4": "过滤文档的分类元数据信息的全部或任意组合",
+    "feature5": "快速擦除特定文档的完整元数据信息",
+    "feature6": "将编辑范围设置为 Excel 中的特定工作表和/或列",
+    "feature7": "从文档中删除所有或特定的评论和其他注释",
+    "feature8": "从注释文本中搜索和删除敏感数据",
+    "feature9": "能够使用您自己的格式和编辑",
+    "feature10": "支持光栅图像格式和图像区域编辑",
+    "feature11": "在 XML 文件中指定一组编辑规则（策略）",
+    "feature12": "在转换为 PDF 时指定页面范围和 PDF 合规级别",
+    "feature13": "編輯或刪除圖像文件中的 EXIF 元數據",
+    "feature14": "编辑 PDF、Word 和演示文稿文档中的嵌入图像",
+    "feature15": "将编辑策略另存为 XML 文件"
+  },
+  "more_features": {
+    "title": "轻松控制地编辑您的分类数据",
+    "content": "GroupDocs.Redaction for .NET API 让您可以完全控制如何从受支持的文档中隐藏或删除重要的分类信息。使用我们的 Redaction API 非常简单直接。",
+    "example": {
+      "description": "在下面的示例中，我们加载一个支持的文档，删除任何文本，使用 C# 匹配“2 位，空格或无，2 位，再次空格和 6 位”（例如 12 34 567890）和蓝色框。完成后，它会通过添加后缀“_Redacted”来重命名文档，以原始格式保存文档：",
+      "comment_init": "创建一个 Redactor 类的实例",
+      "comment_apply": "应用编辑"
+    }
+  },
+  "solutions": "GroupDocs.Redaction 为其他流行的开发环境提供文档查看 API"
+}

@@ -1,0 +1,79 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Редактирование метаданных из документов на {{ProgLang}}",
+    "description": "Редактируйте конфиденциальные метаданные в {{ProgLang}}, применяя фильтры для документов разных форматов."
+  },
+  "header": {
+    "title": "Редактировать метаданные заголовка из документа {{EXT}} в {{ProgLang}}",
+    "description": "API GroupDocs.Redactions позволяет искать, а затем обновлять или удалять любые конфиденциальные данные из метаданных документа."
+  },
+  "about": {
+    "title": "Что такое редактирование метаданных?",
+    "h1": "В основном людей интересует редактирование текста документа. Но редактирование метаданных не менее важно. Метаданные — это скрытые данные документа, которые могут содержать конфиденциальную информацию, которой вы, возможно, не захотите делиться с другими. Редактирование метаданных относится к удалению нежелательной или конфиденциальной информации из электронных документов. Метаданные документа включают имя автора, категорию, название компании, комментарии, время создания, дату последнего обновления и многое другое. Иногда вам нужно полностью удалить ненужные поля метаданных или обновить их значения. С помощью API GroupDocs.Redaction вы можете применять исправления метаданных к любому из этих свойств метаданных. Вы можете изменить или удалить их, отфильтровав нужные метаданные. В этом руководстве мы объясним, как вы можете редактировать метаданные заголовка из документа {{EXT}} в {{ProgLang}}.",
+  },
+  "blocks": {
+    "example1" : {
+      "title_left": "Редактировать заголовок из документа {{EXT}}",
+      "content_left": {
+        "description": "",
+        "step_1": "Следующий код позволяет вам искать и редактировать конфиденциальные данные из документа {{EXT}}. Вы можете установить область редактирования, установив фильтр, например. в MetadataFilter.Title. Это оставит не выполненными совпадения регулярных выражений во всех элементах метаданных, кроме свойства \"Заголовок\":",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "Как редактировать метаданные {{EXT}}",
+      "content_right": {
+        "description": "",
+        "step_1": "Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) и загрузите файл {{EXT}}.",
+        "step_2": "Создайте экземпляр класса [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) для поиска и замены конфиденциальных данных из метаданных документа.",
+        "step_3": "Установите область редактирования, установив фильтр. Например, используйте MetadataFilters.Title в приведенном ниже коде.",
+        "step_4": "Вызов метода [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) с объектом [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "78fca6b6facd4e3ea79038d7abcb092f",
+        "file": "RedactTitleMetadata.cs"
+      }
+    },
+    "example2" : {
+      "title_left": "Удалить метаданные {{EXT}} в {{ProgLang}}",
+      "content_left": {
+        "description": "",
+        "step_1": "Вы можете заменить все или определенные метаданные в документе пустыми (пустыми или минимальными) значениями, используя класс EraseMetadataRedaction. Следующий код показывает, как вы можете отфильтровать, а затем удалить свойство метаданных из документа {{EXT}}. В приведенном ниже примере все свойства документа пусты:",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "Удалить метаданные {{EXT}}",
+      "content_right": {
+        "description": "",
+        "step_1": "Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) и загрузите файл {{EXT}}.",
+        "step_2": "Создайте экземпляр [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction), чтобы удалить метаданные документа.",
+        "step_3": "Установите область редактирования, установив фильтр, например. Замените MetadataFilter.All на MetadataFilter.Title в приведенном ниже коде.",
+        "step_4": "Вызов метода [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) с объектом [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "cef91d8d8f160aaf560218d1abd520e2",
+        "file": "CleanMetadata.cs"
+      }
+    },
+    "requirements" : {
+      "title_left": "Системные требования",
+      "content_left": {
+        "description": "GroupDocs.Redaction для .NET поддерживает любую 32-битную или 64-битную операционную систему, в которой установлена платформа .NET. Он не требует установки какого-либо внешнего программного обеспечения или сторонних инструментов. Полное руководство по системным требованиям можно найти на странице [системные требования](https://docs.groupdocs.com/redaction/net/system-requirements).",
+        "step_1": "",
+        "step_2": "",
+        "step_3": "",
+        "step_4": ""
+      },
+      "title_right": "инструкции по установке",
+      "content_right": {
+        "description": "",
+        "step_1": "Установите из командной строки как ```nuget install GroupDocs.Redaction``` или через консоль диспетчера пакетов Visual Studio с помощью ```Install-Package GroupDocs.Redaction```.",
+        "step_2": "Кроме того, вы можете получить автономный установщик MSI или DLL-файлы в ZIP-файле из [загрузок](https://downloads.groupdocs.com/redaction/net) и указать их в своем проекте вручную.",
+        "step_3": "",
+        "step_4": "",
+        "step_5": ""
+      }
+    }
+  },
+  "about_formats": "true"
+}

@@ -1,0 +1,13 @@
+dimensions: 
+- alias: lang
+  values: ["en", "de", "fr", "es", "id", "ru", "zh"]
+
+generationRules:
+  exclude:
+##    - ext[bmp, gif, jpeg, png, tiff]
+  include:
+##  - ext[odt]  
+
+dictionaries: [ "..\\data\\index.{lang}.json", "..\\data\\otherformats.json" ]
+
+outputPath: "_index.{lang}.md"

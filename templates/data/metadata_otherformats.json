@@ -1,0 +1,31 @@
+{
+  "otherformats": {
+    "bmp": "doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "doc": "bmp docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "docm": "bmp doc docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "docx": "bmp doc docm dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "dot": "bmp doc docm docx dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "dotm": "bmp doc docm docx dot dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "dotx": "bmp doc docm docx dot dotm gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "gif": "bmp doc docm docx dot dotm dotx jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "jpeg": "bmp doc docm docx dot dotm dotx gif pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "pdf": "bmp doc docm docx dot dotm dotx gif jpeg png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "png": "bmp doc docm docx dot dotm dotx gif jpeg pdf pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "pot": "bmp doc docm docx dot dotm dotx gif jpeg pdf png potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "potm": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "pps": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "ppsm": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "ppsx": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "ppt": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx pptm pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "pptm": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptx rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "pptx": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm rtf tiff xls xlsm xlsx xlt xltm xltx",
+    "rtf": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx tiff xls xlsm xlsx xlt xltm xltx",
+    "tiff": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "xls": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xlsm xlsx xlt xltm xltx",
+    "xlsm": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsx xlt xltm xltx",
+    "xlsx": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlt xltm xltx",
+    "xlt": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xltm xltx",
+    "xltm": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltx",
+    "xltx": "bmp doc docm docx dot dotm dotx gif jpeg pdf png pot potm pps ppsm ppsx ppt pptm pptx rtf tiff xls xlsm xlsx xlt xltm"
+  }
+}

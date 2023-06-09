@@ -1,0 +1,1 @@
+<% if (eq ("{layout}") "autogen") %><% include "_simple_{product}.md" %><% else %><% include "_block_{product}.md" %><% end %>

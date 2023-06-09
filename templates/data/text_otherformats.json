@@ -1,0 +1,27 @@
+{
+  "otherformats": {
+    "csv": "doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "doc": "csv docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "docm": "csv doc docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "docx": "csv doc docm dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "dot": "csv doc docm docx dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "dotm": "csv doc docm docx dot dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "dotx": "csv doc docm docx dot dotm pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "pdf": "csv doc docm docx dot dotm dotx pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "pot": "csv doc docm docx dot dotm dotx pdf potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "potm": "csv doc docm docx dot dotm dotx pdf pot pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "pps": "csv doc docm docx dot dotm dotx pdf pot potm ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "ppsm": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "ppsx": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppt pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "ppt": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx pptm pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "pptm": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptx rtf xls xlsm xlsx xlt xltm xltx",
+    "pptx": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm rtf xls xlsm xlsx xlt xltm xltx",
+    "rtf": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx xls xlsm xlsx xlt xltm xltx",
+    "xls": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xlsm xlsx xlt xltm xltx",
+    "xlsm": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsx xlt xltm xltx",
+    "xlsx": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlt xltm xltx",
+    "xlt": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xltm xltx",
+    "xltm": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltx",
+    "xltx": "csv doc docm docx dot dotm dotx pdf pot potm pps ppsm ppsx ppt pptm pptx rtf xls xlsm xlsx xlt xltm"
+  }
+}

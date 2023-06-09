@@ -1,0 +1,101 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Redact {{EXT}} Text via Exact Phrase/Regular Expression in Java",
+    "description": "GroupDocs.Redactions Java API enables developers to redact text from PDF DOC DOCX RTF XLSX CSV PPT PPTX & images via exact phrase or regular expression in Java"
+  },
+  "header": {
+    "title": "How to Redact, Hide or Remove Text from {{EXT}} Files using Java",
+    "description": "GroupDocs.Redactions Java API allows to redact, hide or remove sensitive text from word processing documents, worksheets, presentations, PDFs & images."
+  },
+  "about": {
+    "title": "What is Text Redaction?",
+    "h1": "Text Redaction is the process of removing the confidential or unwanted text or information from digital documents while leaving intact the rest of the document or paragraph containing it. Redaction helps users as well as organization to protect their sensitive information by hiding or permanently removing them.   Using GroupDocs.Redaction Java API users can now redact, hide or remove sensitive text from word processing documents, worksheets, presentations, PDF and raster image files. The API provides a wide range of options and methods for the redaction of private information in the documents. It supports search and redact using exact match or regular expressions,  Use textual (exemption codes) or graphical (colored rectangles) redactions and many more. So why not give it a try and automate your document redaction process by downloading the API and explore its basic and advanced features. ",
+    "h2": "{{ProductFullName}} API is a right choice for corporate solutions which needs file combining features. These APIs are well supported on all major operating systems and platforms including {{Runtime}}"
+  },
+  "blocks": {
+    "example1" : {
+      "title_left": "Redact {{EXT}} Exact Phrase in Java",
+      "content_left": {
+        "description": "",
+        "step_1": "GroupDocs.Redaction allows to easily redact data of sensitive or private nature from your documents. The most popular redaction case is to remove a text from a document.",
+        "step_2": "The following code can be used to apply textual redaction to a particular part of a document via exact phrase. It allows users to replace personal exact phrase \"Michal Clark\" with personal (or any exemption code),",
+        "step_3": ""
+      },
+      "title_right": "Remove Sensitive Data from {{EXT}}",
+      "content_right": {
+        "description": "",
+        "step_1": "Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload {{EXT}} file",
+        "step_2": "Call Redactor.apply method with new instance of ExactPhraseRedaction class",
+        "step_3": "Call redactor.save method with object of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Call redactor.save method to save the changes"
+      },
+      "gist": {
+        "hash": "3202859fc19b5dfd14e8f073b70a18f8",
+        "file": "redact_exact_phrase.java"
+      }
+    },
+    "example2" : {
+      "title_left": "Case Sensitive Text Redaction in {{EXT}}",
+      "content_left": {
+        "description": "",
+        "step_1": "The following example enables users to perform exact phrase case-sensitive redaction to remove or hide a particular chuck of text inside a document. By default, search for exact phrase is case insensitive.",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "Perform Case Sensitive Redaction via Java",
+      "content_right": {
+        "description": "",
+        "step_1": "Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload {{EXT}} file",
+        "step_2": "Call Redactor.apply method with new instance of ExactPhraseRedaction class",
+        "step_3": "Call redactor.save method with object of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Call redactor.save method to save the changes"
+      },
+      "gist": {
+        "hash": "a43e3ce358f93df92373b5441bc579fb",
+        "file": "case_sensitive_redaction.java"
+      }
+    },
+    "example3" : {
+      "title_left": "Redact Text in {{EXT}} via Color Box",
+      "content_left": {
+        "description": "",
+        "step_1": "Instead of removing a redacted text or placing a string over there, it is also possible to put color box over the redacted text. In this case the matched text will be removed and a colored rectangle will be placed over redacted text.",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "Use Color Box to Remove Text in Java",
+      "content_right": {
+        "description": "",
+        "step_1": "Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload {{EXT}} file",
+        "step_2": "Call Redactor.apply method with new instance of ExactPhraseRedaction class",
+        "step_3": "Call redactor.save method with object of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Call redactor.save method to save the changes"
+      },
+      "gist": {
+        "hash": "6d83e791388b6834a372dc90f4b455f6",
+        "file": "redact_text_using_color_box.java"
+      }
+    },
+    "requirements" : {
+      "title_left": "System Requirements",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java APIs are supported on all major platforms and operating systems. For complete system requirements guide, please visit [system requirements](https://docs.groupdocs.com/redaction/java/system-requirements) Before executing the code below, please make sure that you have the following prerequisites installled on your system:",
+        "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+        "step_2": "Development Environment: NetBeans, Intellij IDEA, Eclipse etc",
+        "step_3": "Java Runtime Environment: J2SE 6.0 and above",
+        "step_4": "Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Why Use GroupDocs.Redaction",
+      "content_right": {
+        "description": "",
+        "step_1": "Allow users to add custom document formats and types of redactions",
+        "step_2": "No additional software is required to remove sensitive information",
+        "step_3": "Ability to set page range rendering document as PDF",
+        "step_4": "Easy way to redact different types of metadata: author name, version, title, subject, description and many more",
+        "step_5": "Document information extraction - file type, page count etc."
+      }
+    }
+  },
+  "about_formats": "true"
+}

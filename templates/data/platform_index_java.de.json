@@ -1,0 +1,106 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "Java-Schwärzungs-API | Verstecken Sie vertrauliche Daten aus PDF Word Excel Image",
+    "description": "API zum Schwärzen von Java-Dokumenten – Verstecken Sie persönliche Daten aus PDF-, Word-, Excel-, PowerPoint-Präsentationen und Rasterbildern durch verschiedene Schwärzungstypen."
+  },
+  "header": {
+    "title": "Schwärzen Sie private Informationen über die Java-API",
+    "description": "Schließen oder verbergen Sie persönliche Informationen und Metadaten aus Dokumenten, Arbeitsblättern, Präsentationen, PDF- und Rasterbilddateien mithilfe der Java-Schwärzungs-API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Überblick",
+      "button_text_2": "Merkmale",
+      "button_text_3": "Support",
+      "button_text_4": "Live Demo",
+      "button_text_5": "Preisgestaltung"
+    }
+  },
+  "tabs": {
+    "overview": "Mit GroupDocs.Redaction for Java API können Entwickler vertrauliche Daten aus gängigen Dateiformaten wie Microsoft Word, Excel, PowerPoint, PDF und Bildern entfernen, damit sie verwendet und verteilt werden können, aber dennoch vertrauliche Informationen schützen. Die Schwärzungsbibliothek bietet eine einzige, formatunabhängige Schnittstelle, um jede Art von klassifizierten Informationen zu schwärzen, einschließlich Sozialversicherungsnummern, medizinische Informationen, finanzielle, proprietäre, rechtliche oder sogar Handelsdetails durch Text-, Metadaten- und Anmerkungsschwärzungstypen. Sie können das Dokument in seinem Originalformat speichern und ein bereinigtes PDF-Dokument mit Rasterbildern der Originalseiten erstellen.",
+    "one" : {
+      "description": "Nachfolgend finden Sie eine Übersicht über GroupDocs.Redaction für {{ProductName}}:",
+      "content": {
+        "title": "Überblick",
+        "step_1": "Text schwärzen",
+        "step_2": "Metadaten schwärzen",
+        "step_3": "Anmerkung schwärzen",
+        "step_4": "Tabellarisches Dokument schwärzen",
+        "step_5": "Geschützte Dateien schwärzen",
+        "step_6": "Anpassung"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction für Java unterstützt die folgenden [Dokumentdateiformate](https://docs.groupdocs.com/redaction/java/supported-document-formats/):",
+      "content": {
+        "title": "Text schwärzen, Metadata & Comments",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Festes Layout**: PDF",
+        "step_5": "**Rasterbilder**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction for Java unterstützt das Folgen Betriebssysteme, Frameworks & Paketmanager:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Betriebssysteme",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * MacOS",
+          },
+          "row2": {
+            "title": "Unterstützte Frameworks",
+            "data": "* Java 7 (1.7) und höher"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-cogs",
+            "title": "Entwicklungsumgebungen",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Eclipse",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Build-Automatisierungstool",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} Merkmale",
+    "feature1": "Suchen und schwärzen Sie exakte Übereinstimmungen einer Suchzeichenfolge",
+    "feature2": "Kontrollieren Sie den Redaktionsprozess und überspringen Sie bestimmte Übereinstimmungen",
+    "feature3": "Lokalisieren und redigieren Sie mit regulären Ausdrücken",
+    "feature4": "Integrierte Unterstützung für Office-Formate und PDF",
+    "feature5": "Löschen Sie Metadaten oder redigieren Sie Metadatenwerte",
+    "feature6": "Beschränken Sie Schwärzungen auf bestimmte Arbeitsblätter und Spalten",
+    "feature7": "Entfernen Sie Anmerkungen oder redigieren Sie deren Texte",
+    "feature8": "Verwenden Sie textuelle (Ausnahmecodes) oder grafische (farbige Rechtecke) Schwärzungen",
+    "feature9": "Speichern Sie das Dokument im Originalformat oder als PDF mit Rasterbildern der Originalseiten",
+    "feature10": "Unterstützung für Rasterbildformate und Schwärzungen von Bildbereichen",
+    "feature11": "Integrationsschnittstelle zur Implementierung benutzerdefinierter Schwärzungen und Formate",
+    "feature12": "EXIF-Metadaten aus Bilddateien bearbeiten oder entfernen",
+    "feature13": "Schwärzen Sie eingebettete Bilder in PDF-, Word- und Präsentationsdokumenten",
+    "feature14": "",
+    "feature15": ""
+  },
+  "more_features": {
+    "title": "Stellen Sie den Datenschutz sicher, indem Sie Ihre klassifizierten Daten schwärzen",
+    "content": "Die GroupDocs.Redaction for Java-Bibliothek ermöglicht es Entwicklern, Text und Bilder aus unterstützten Dokumenten zu schwärzen, indem sie eine Vielzahl von Schwärzungstypen verwenden. Die Verwendung unserer Schwärzungs-API ist einfach und unkompliziert.",
+    "example": {
+      "description": "Das folgende Codebeispiel verwendet ein tabellarisches Dokument, z. B. eine Microsoft Excel-Tabelle, bei der der Umfang der Schwärzung auf ein bestimmtes Arbeitsblatt und/oder eine bestimmte Spalte beschränkt werden kann. Es verwendet Filter, um die zweite Spalte mit E-Mails auf einem Arbeitsblatt \"Kunden\" zu schwärzen, wobei alle anderen E-Mails im Dokument unberührt bleiben.",
+      "comment_init": "Erstellen Sie eine Instanz der Redactor-Klasse",
+      "comment_apply": "Schwärzung anwenden"
+    }
+  },
+  "solutions": "GroupDocs.Redaction bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
+}

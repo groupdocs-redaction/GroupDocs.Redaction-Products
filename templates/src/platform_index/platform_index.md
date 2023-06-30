@@ -10,6 +10,10 @@
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
 <% set "LogoUrl" (dict "products.{product}.logo_url") %>
 <% set "OtherFormats" (upper (dict "otherformats.{ext}")) %>
+<% set "ProductName_other" (dict "products_other.{product}.name") %>
+<% set "ProductFullName_other" (dict "products_other.{product}.fullName") %>
+<% set "LogoUrl_other" (dict "products_other.{product}.logo_url") %>
+<% set "ProductCode_other" (dict "products_other.{product}.code") %>
 ---
 ############################# Static ############################
 layout: "product"
@@ -234,11 +238,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "<% get "ProductFullName" %>"
-          image: "<% get "LogoUrl" %>"
+        - img_alt: "<% get "ProductFullName_other" %>"
+          image: "<% get "LogoUrl_other" %>"
           product: "GroupDocs.Redaction"
-          platform: "<% get "ProductName" %>"
-          link: "/redaction/<% get "ProductCode" %>/"
+          platform: "<% get "ProductName_other" %>"
+          link: "/redaction/<% get "ProductCode_other" %>/"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Res.Translator/1.0.0": {
         "dependencies": {
+          "AWSSDK.Core": "3.7.101",
+          "AWSSDK.Translate": "3.7.100.28",
           "CommandLineParser": "2.8.0",
           "Newtonsoft.Json": "13.0.1",
           "Res.Core": "1.0.0",
@@ -15,6 +17,25 @@
         },
         "runtime": {
           "Res.Translator.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.101": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.101.0"
+          }
+        }
+      },
+      "AWSSDK.Translate/3.7.100.28": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.101"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Translate.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.28"
+          }
         }
       },
       "CommandLineParser/2.8.0": {
@@ -68,6 +89,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.101": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VArrp8MkHFe45d6NlPn+3CCZN4kBsmRVDv8FtbGMt6QdVQ4iEPYLY7f0hMJgXY8siUYEIsBoMNU/Tw9YI3SJCg==",
+      "path": "awssdk.core/3.7.101",
+      "hashPath": "awssdk.core.3.7.101.nupkg.sha512"
+    },
+    "AWSSDK.Translate/3.7.100.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qsbw+MWeFQtr/oeWOFng1OXzRMcYh1K1jOPbDrIxOH/b6shYdxMs0VU9F4eR8nXmjk6DJOCGGBqhguICfTDzng==",
+      "path": "awssdk.translate/3.7.100.28",
+      "hashPath": "awssdk.translate.3.7.100.28.nupkg.sha512"
     },
     "CommandLineParser/2.8.0": {
       "type": "package",

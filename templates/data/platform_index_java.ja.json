@@ -1,0 +1,104 @@
+{
+  "layout": "製品",
+  "head": {
+    "title": "Java リダクション API | PDF Word Excel 画像から機密データを非表示にする",
+    "description": "Java 文書編集 API — さまざまな編集タイプを使用して、PDF、Word、Excel、PowerPoint のプレゼンテーションやラスター画像から個人データを非表示にします。"
+  },
+  "header": {
+    "title": "Java API を使用して個人情報を編集する",
+    "description": "Java redaction APIを使用して、ドキュメント、ワークシート、プレゼンテーション、PDF、およびラスターイメージファイルから個人情報とメタデータを除外または非表示にします。"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "概要",
+      "button_text_2": "機能",
+      "button_text_3": "サポート",
+      "button_text_4": "ライブデモ",
+      "button_text_5": "価格設定"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API を使用すると、開発者は Microsoft Word、Excel、PowerPoint、PDF などの一般的なファイル形式や画像から機密データを削除して、使用および配布できるようにすると同時に、機密情報も保護できます。編集ライブラリは、形式に依存しない単一のインターフェースを備えており、社会保障番号、医療情報、財務、財務、財務、財務、法務、さらには取引の詳細など、あらゆる種類の機密情報をテキスト、メタデータ、注釈の編集タイプを通じて編集できます。文書を元の形式で保存し、元のページのラスター画像を含むサニタイズされた PDF 文書を作成できます。",
+    "one": {
+      "description": "{{ProductName}} の GroupDocs.Redaction の概要は次のとおりです。",
+      "content": {
+        "title": "概要",
+        "step_1": "テキストを編集",
+        "step_2": "メタデータを編集",
+        "step_3": "注釈を編集",
+        "step_4": "表形式文書の編集",
+        "step_5": "保護対象ファイルの編集",
+        "step_6": "カスタマイズ"
+      }
+    },
+    "two": {
+      "description": "{{ProductName}} の GroupDocs.Redaction は次の [ドキュメントファイル形式](https://docs.groupdocs.com/redaction//supported-document-formats/{{ProductCode}}) をサポートしています。",
+      "content": {
+        "title": "テキスト、メタデータ、コメントの編集",
+        "step_1": "**Word**: DOC、DOCX、DOT、ODT、DOTX、DOCM、DOTM、RTF",
+        "step_2": "**Excel**: XLS、XLSX、XLT、XLTX、XLSM、XLTM、CSV",
+        "step_3": "**PowerPoint**: PPT、PPTX、PPS、PPSX、POTX、PPTM、PPSM、POTM",
+        "step_4": "**固定レイアウト**: PDF",
+        "step_5": "**ラスターイメージ**: JPG、BMP、PNG、GIF、TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} は、以下のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています。",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "オペレーティングシステム",
+            "data": "* マイクロソフト Windows Desktop
+                * マイクロソフト Windows Server
+                * Linux
+                * Mac は"
+          },
+          "row2": {
+            "title": "サポート対象フレームワーク",
+            "data": "* Java 7 (1.7) 以上"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "ファストファンコグ",
+            "title": "開発環境",
+            "data": "* NetBeans
+                * IntelliJ アイディア
+                * エクリプス"
+          },
+          "row2": {
+            "icon": "高速ファンツール",
+            "title": "ビルド・オートメーション・ツール",
+            "data": "* メイヴン"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductName}} 機能の場合は GroupDocs.Redaction",
+    "feature1": "検索文字列と完全に一致するものを検索して編集",
+    "feature2": "編集プロセスを制御し、特定のマッチをスキップできます",
+    "feature3": "正規表現による検索と編集",
+    "feature4": "オフィスフォーマットと PDF の組み込みサポート",
+    "feature5": "メタデータを消去するか、メタデータ値を編集する",
+    "feature6": "編集対象を特定のワークシートと列に限定する",
+    "feature7": "注釈を削除するか、テキストを編集する",
+    "feature8": "テキスト (免除コード) またはグラフィック (色付きの長方形) による編集を使用する",
+    "feature9": "文書を元の形式で、または元のページのラスターイメージと一緒に PDF として保存します",
+    "feature10": "ラスター画像形式と画像領域編集のサポート",
+    "feature11": "カスタム編集とフォーマットを実装するための統合インターフェイス",
+    "feature12": "EXIF メタデータの編集または画像ファイルからの削除",
+    "feature13": "PDF、Word、およびプレゼンテーションドキュメント内の埋め込み画像を編集"
+  },
+  "more_features": {
+    "title": "機密データを編集してプライバシーを確保する",
+    "content": "{{ProductFullName}} ライブラリを使用すると、開発者はさまざまな編集タイプを使用して、サポートされているドキュメントのテキストや画像を編集できます。当社のリダクション API の使い方はシンプルで分かりやすいです。",
+    "example": {
+      "description": "次のコード例では、Microsoft Excel スプレッドシートなどの表形式の文書を使用しています。この文書では、編集の範囲を特定のワークシートや列に限定できます。フィルターを使用して、ワークシート「Customers」の電子メールを含む 2 番目の列を絞り込み、文書内の他のすべての電子メールはそのままにします。",
+      "comment_init": "Redactor クラスのインスタンスを作成する",
+      "comment_apply": "編集を適用"
+    }
+  },
+  "solutions": "GroupDocs.Redaction は、他の一般的な開発環境向けのドキュメント表示 API を提供しています"
+}

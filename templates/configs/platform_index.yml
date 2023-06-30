@@ -9,7 +9,7 @@ generationRules:
 ##    - ext[bmp, gif, jpeg, png, tiff]
   include:
 ##  - ext[odt]
-  - lang[en, de, es, fr, id, ru, zh]  
+  - lang[en, de, es, fr, id, ru, zh, ko, ja]  
 
 dictionaries: [ "..\\data\\platform_index_{product}.{lang}.json", "..\\data\\platform_index_{product}.json", "..\\data\\otherformats.json" ]
 

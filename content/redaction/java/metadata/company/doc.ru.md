@@ -1,26 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "ru/redaction/java/metadata/company/doc"
 otherformats: BMP DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "Редактировать метаданные | Java"
 ad_description: "Исправить название компании из метаданных DOC в Java"
-
 ############################# Head ############################
 head_title: "Редактирование метаданных из документа DOC в Java"
 head_description: "Легко ищите, заменяйте, удаляйте или редактируйте метаданные различных типов документов, применяя фильтры для выбора конкретных свойств метаданных с помощью API GroupDocs.Redactions для Java."
@@ -89,15 +75,12 @@ steps:
         * Извлечение информации о документе — тип файла, количество страниц и т. д.
         
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

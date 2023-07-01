@@ -1,0 +1,72 @@
+{
+  "layout": "auto-gengist",
+  "head": {
+    "title": "Titel redigeren uit {{EXT}} -bestand in {{ProgLang}} met behulp van de GroupDocs.Redaction API",
+    "description": "GroupDocs.Redaction is een krachtige ontsmettings-API waarmee u vertrouwelijke informatie uit meer dan 30 documenttypen kunt verwijderen of bewerken.",
+    "ad_headline": "Metagegevens redigeren | Java",
+    "ad_description": "Titel redigeren op basis van {{EXT}} metagegevens in Java"
+  },
+  "header": {
+    "title": "Titel redigeren uit {{EXT}} -bestand in {{ProgLang}} met behulp van de GroupDocs.Redaction API",
+    "description": "GroupDocs.Redaction is een krachtige ontsmettings-API waarmee u vertrouwelijke informatie uit meer dan 30 documenttypen kunt verwijderen of bewerken."
+  },
+  "about": {
+    "title": "Wat is het redigeren van metagegevens?",
+    "h1": "Om het document in een originele indeling op te slaan, moeten de metagegevens worden verwijderd of geredigeerd om alle vertrouwelijke gegevens te verwijderen. Voor deze doeleinden biedt GroupDocs.Redaction een API voor het redigeren van metagegevens. De GroupDocs.Redaction API maakt het mogelijk om geredigeerde documenten op te slaan in PDF, alle pagina's om te zetten in rasterafbeeldingen of geredigeerde documenten in het oorspronkelijke formaat op te slaan voor verdere bewerking. Alle bestandsindelingen, waaronder PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX en andere, hebben enkele metagegevenseigenschappen. Deze eigenschappen omvatten auteursnaam, categorie, bedrijfsnaam, opmerkingen, aanmaaktijd, laatst bijgewerkt en nog veel meer. Er zijn ook enkele verborgen gegevens gekoppeld aan de bestanden die kunnen worden bekeken met behulp van verschillende tools en technieken. Met de GroupDocs.Redaction API kun je metagegevensredacties toepassen op elk van deze metagegevenseigenschappen. Je kunt ze wijzigen of verwijderen door de gewenste metagegevens te filteren. In deze handleiding leggen we uit hoe je een titel kunt redigeren uit een {{EXT}} bestand in {{ProgLang}} met behulp van de GroupDocs.Redaction API."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Metagegevens van titels redigeren in {{ProgLang}}",
+      "content_left": {
+        "step_1": "Met de volgende code kunt u gevoelige gegevens in een {{EXT}} -document doorzoeken en redigeren. U kunt het bereik voor de redactie instellen door een filter in te stellen, bijvoorbeeld op MetadataFilter.title. De overeenkomsten met reguliere expressies blijven in alle metagegevensitems ongedaan, met uitzondering van de eigenschap „Title”:"
+      },
+      "title_right": "Hoe redigeer je {{EXT}} metagegevens",
+      "content_right": {
+        "step_1": "Maak een exemplaar van de klasse [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) en upload het {{EXT}} -bestand",
+        "step_2": "Maak een exemplaar van de klasse [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) om gevoelige gegevens uit de metagegevens van het document te zoeken en te vervangen",
+        "step_3": "Stel het bereik voor redactie in door een filter in te stellen, bijvoorbeeld gebruik MetadataFilters.title in onderstaande code",
+        "step_4": "Opslagmethode aanroepen met het object van [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "c23f466bec11e0405e2a3e74be681d09",
+        "file": "RedactTitleMetadata.java"
+      }
+    },
+    "example2": {
+      "title_left": "{{EXT}} metagegevens verwijderen in {{ProgLang}}",
+      "content_left": {
+        "step_1": "U kunt alle of specifieke metagegevens in het document vervangen door lege (lege of minimale) waarden met behulp van de klasse ErasemetaDataRedAction. De volgende code laat zien hoe je een metagegevenseigenschap kunt filteren en vervolgens kunt verwijderen uit een {{EXT}} document. In het onderstaande voorbeeld worden alle eigenschappen van het document leeg gemaakt:"
+      },
+      "title_right": "Titelmetagegevens uit het {{EXT}} -bestand wissen",
+      "content_right": {
+        "step_1": "Maak een exemplaar van de klasse [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) en upload het {{EXT}} -bestand",
+        "step_2": "Maak een exemplaar van de klasse [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) om de metagegevens van het document te verwijderen",
+        "step_3": "Stel het bereik voor redactie in door een filter in te stellen, bijvoorbeeld Vervang Metadatafilter.ALL door Metadatafilter.title in onderstaande code",
+        "step_4": "Opslagmethode aanroepen met het object van [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Systeemvereisten",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Ga voor een volledige handleiding met systeemvereisten naar [systeemvereisten](https://docs.groupdocs.com/redaction/java/system-requirements) Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd:",
+        "step_1": "Besturingssystemen: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Ontwikkelingsomgeving: NetBeans, Intellij IDEA, Eclipse enz",
+        "step_3": "Java Runtime-omgeving: J2SE 6.0 en hoger",
+        "step_4": "Download de laatste versie van GroupDocs.Redaction for Java van [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Waarom GroupDocs.Redaction gebruiken",
+      "content_right": {
+        "step_1": "Gebruikers toestaan aangepaste documentformaten en soorten redacties toe te voegen",
+        "step_2": "Er is geen aanvullende software nodig om gevoelige informatie te verwijderen",
+        "step_3": "Mogelijkheid om het weergavedocument voor paginabereik in te stellen als PDF",
+        "step_4": "Eenvoudige manier om verschillende soorten metagegevens te redigeren: auteursnaam, versie, titel, onderwerp, beschrijving en nog veel meer",
+        "step_5": "Extractie van documentinformatie - bestandstype, aantal pagina's, enz."
+      }
+    }
+  },
+  "about_formats": "waar"
+}

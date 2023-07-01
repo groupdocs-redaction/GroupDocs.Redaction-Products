@@ -1,0 +1,67 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Redakcie metadát z dokumentov v {{ProgLang}}",
+    "description": "Redigujte citlivé metadáta v {{ProgLang}} použitím filtrov pre dokumenty rôznych formátov"
+  },
+  "header": {
+    "title": "Redigovať verziu metaúdajov súboru {{EXT}} v {{ProgLang}}",
+    "description": "GroupDocs.Redaction s API umožňuje vyhľadávať a následne aktualizovať alebo odstrániť akékoľvek dôverné údaje z metaúdajov dokumentu."
+  },
+  "about": {
+    "title": "Čo je redigovanie metadát?",
+    "h1": "Väčšinou sa ľudia zaoberajú redakciou textu dokumentu. Rovnako dôležitá je aj redigácia metadát. Metaúdaje sú skryté údaje dokumentu, ktoré môžu obsahovať dôverné informácie, ktoré možno nebudete chcieť zdieľať s ostatnými. Redakcia metaúdajov sa týka odstránenia nechcených alebo dôverných informácií z elektronických dokumentov. Metaúdaje dokumentu zahŕňajú meno autora, kategóriu, názov spoločnosti, komentáre, čas vytvorenia, poslednú aktualizáciu a mnoho ďalších. Niekedy je potrebné úplne odstrániť nežiaduce polia metaúdajov alebo možno budete chcieť aktualizovať ich hodnoty. Pomocou GroupDocs.Redaction API môžete použiť redigovanie metaúdajov na ktorúkoľvek z týchto vlastností metaúdajov. Môžete ich zmeniť alebo odstrániť filtrovaním požadovaných metaúdajov. V tejto príručke vám vysvetlíme, ako môžete redigovať verziu metaúdajov súboru {{EXT}} v {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redigovať verziu súboru {{EXT}} v {{ProgLang}}",
+      "content_left": {
+        "step_1": "Nasledujúci kód umožňuje vyhľadávať a redigovať citlivé údaje z dokumentu {{EXT}}. Rozsah redigovania môžete nastaviť nastavením filtra, napr. na MetadataFilter.version. Zhody regulárnych výrazov ponechá nedokončené vo všetkých položkách metaúdajov okrem vlastnosti „Verzia“:"
+      },
+      "title_right": "Ako redigovať {{EXT}} metaúdaje",
+      "content_right": {
+        "step_1": "Vytvorte inštanciu súboru [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & upload {{EXT}}",
+        "step_2": "Vytvorte inštanciu triedy [MetaData SearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) na vyhľadanie a nahradenie citlivých údajov z metaúdajov dokumentu",
+        "step_3": "Nastavte priestor pre redigovanie nastavením filtra, napr. Použite MetaKatafilter.version v nižšie uvedenom kóde",
+        "step_4": "Zavolajte metódu [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) s objektom [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "8f1996554c2bb9abf77d09315497308a",
+        "file": "RedactVersionMetadata.cs"
+      }
+    },
+    "example2": {
+      "title_left": "Odstrániť {{EXT}} metaúdaje v {{ProgLang}}",
+      "content_left": {
+        "step_1": "Všetky alebo konkrétne metaúdaje v dokumente môžete nahradiť prázdnymi (prázdnymi alebo minimálnymi) hodnotami pomocou triedy EraseMetaData Action. Nasledujúci kód ukazuje, ako môžete filtrovať a potom odstrániť vlastnosť metaúdajov z dokumentu {{EXT}}. Nižšie uvedený príklad vymaže všetky vlastnosti dokumentu:"
+      },
+      "title_right": "Vymazať {{EXT}} Metaúdaje",
+      "content_right": {
+        "step_1": "Vytvorte inštanciu súboru [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & upload {{EXT}}",
+        "step_2": "Vytvorte inštanciu [EraseMetaDataredAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) na odstránenie metaúdajov dokumentu",
+        "step_3": "Nastavte priestor pre redigovanie nastavením filtra, napr. Nahradiť MetadataFilter.all pomocou MetadaTafilter.version v nižšie uvedenom kóde",
+        "step_4": "Zavolajte metódu [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) s objektom [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "cef91d8d8f160aaf560218d1abd520e2",
+        "file": "CleanMetadata.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "Požiadavky na systém",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET podporuje akýkoľvek 32-bitový alebo 64-bitový operačný systém, na ktorom je nainštalovaná platforma .NET. Nevyžaduje inštaláciu externého softvéru alebo nástroja tretích strán. Kompletnú príručku systémovými požiadavkami nájdete na stránke [systémové požiadavky](https://docs.groupdocs.com/redaction/net/system-requirements)",
+        "step_1": "Operačné systémy: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Vývojové prostredie: NetBeans, Intellij IDEA, Eclipse atď",
+        "step_3": "Java Runtime prostredie: J2SE 6.0 a vyššie",
+        "step_4": "Získajte najnovšiu verziu GroupDocs.Redaction for Java z [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Pokyny na inštaláciu",
+      "content_right": {
+        "step_1": "Nainštalujte z príkazového riadku ako ```nuget install GroupDocs.Redaction ```alebo cez konzolu správcu balíkov Visual Studio pomocou ```Install-Package GroupDocs.Redaction```. ",
+        "step_2": "Prípadne môžete získať offline inštalátor MSI alebo DLL v súbore ZIP z [download](https://downloads.groupdocs.com/redaction/net) a manuálne ho odkazujte vo svojom projekte."
+      }
+    }
+  },
+  "about_formats": "pravdivý"
+}

@@ -1,26 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "redaction/java/metadata/subject/docx"
 otherformats: BMP DOC DOCM DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "Redact Metadata | Java"
 ad_description: "Redact Subject Metadata from a DOCX File in Java"
-
 ############################# Head ############################
 head_title: "Redact Subject Metadata from a DOCX File in Java"
 head_description: "GroupDocs.Redactions provides a flexible API that allows to search & replace/remove any metadata property using filters."
@@ -89,15 +75,12 @@ steps:
         * Document information extraction - file type, page count etc.
         
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

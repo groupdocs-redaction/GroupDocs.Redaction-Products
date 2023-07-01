@@ -1,24 +1,10 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "id/redaction/net/metadata/category/xltm"
 otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTX  
-
 
 ############################# Head ############################
 head_title: "Redact Metadata Sensitif dari Dokumen di C#"
@@ -53,8 +39,7 @@ steps:
         * Buat instance kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) & unggah file XLTM
         * Buat instance kelas [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) untuk menemukan dan mengganti data sensitif dari metadata dokumen
         * Tetapkan cakupan untuk redaksi dengan menyetel filter, mis. Gunakan MetadataFilter.Category dalam kode di bawah ini 
-        * Panggil metode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) dengan objek [MetadataSearchRedaction](https://apireference.groupdocs. com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
-        
+        * Panggil metode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) dengan objek [MetadataSearchRedaction](https://apireference.groupdocs. com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)        
       gisthash: "852b461c316559151cb6075b4ecde2ce"
       gistfile: "RedactCategoryMetadata.cs"
 
@@ -85,11 +70,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

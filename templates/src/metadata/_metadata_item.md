@@ -12,7 +12,7 @@
 <% if (eq (get "lang") "en") %><% set "slash_lang" ("") %><% else %><% set "slash_lang" (concat (get "lang") "/" ) %><% end %>
 ---
 ############################# Static ############################
-layout: "<% "{layout}" %>"
+layout: "auto-gen-gist" 
 draft: false
 path: "<% get "slash_lang" %>redaction/<% get "ProductCode" %>/metadata<% get "PropertyUrl" %>/<% get "ext" %>"
 otherformats: <% get "OtherFormats" %>  

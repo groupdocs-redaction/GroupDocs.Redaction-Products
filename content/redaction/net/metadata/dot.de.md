@@ -1,24 +1,10 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "de/redaction/net/metadata/dot"
 otherformats: BMP DOC DOCM DOCX DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
-
 
 ############################# Head ############################
 head_title: "Wenden Sie Metadaten-Schwärzungen auf PDF, DOCX, PPT, PPTX, XLS, XLSX in .NET an"
@@ -52,8 +38,7 @@ steps:
       content_right: |
         * Erstellen Sie eine Instanz der Klasse [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor).
         * Rufen Sie die redactor.Apply-Methode mit dem EraseMetadataRedaction-Objekt von [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) auf
-        * Rufen Sie die Methode redactor.save auf, um das Dokument im Originalformat in der Datei "*_Redacted.*" zu speichern
-        
+        * Rufen Sie die Methode redactor.save auf, um das Dokument im Originalformat in der Datei "*_Redacted.*" zu speichern        
       gisthash: "8f1bc20dff33c9a45c01a9e251555bf1"
       gistfile: "how_to_clean_metadata_dotnet.cs"
 
@@ -89,11 +74,9 @@ steps:
         * Extraktion von Dokumentinformationen - Dateityp, Seitenzahl usw.
         * Volle Unterstützung für mehrere Datenformate
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

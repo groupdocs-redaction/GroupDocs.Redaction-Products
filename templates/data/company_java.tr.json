@@ -1,0 +1,72 @@
+{
+  "layout": "oto-gen-gist",
+  "head": {
+    "title": "{{ProgLang}} içindeki {{EXT}} Belgeden Meta Veri Redaksiyonu",
+    "description": "{{ProgLang}} için GroupDocs.Redaction s API'sini kullanarak belirli meta veri özelliklerini seçmek için filtreler uygulayarak çeşitli belge türlerinin meta verilerini kolayca arayın, değiştirin, kaldırın veya düzenleyin.",
+    "ad_headline": "Meta Verileri Redact | {{ProgLang}}",
+    "ad_description": "{{ProgLang}} içindeki {{EXT}} Meta Verilerden Şirket Adını Redakt Etme"
+  },
+  "header": {
+    "title": "{{ProgLang}} içindeki {{EXT}} Belgeden Meta Veri Redaksiyonu",
+    "description": "{{ProgLang}} için GroupDocs.Redaction s API'sini kullanarak belirli meta veri özelliklerini seçmek için filtreler uygulayarak çeşitli belge türlerinin meta verilerini kolayca arayın, değiştirin, kaldırın veya düzenleyin."
+  },
+  "about": {
+    "title": "Meta Veri Redaksiyonu'nu Kullanmaya Başlarken",
+    "h1": "Bazen istenmeyen meta veri alanlarını tamamen silmeniz gerekir veya değerlerini güncellemek isteyebilirsiniz. Çeşitli araçlar ve teknikler kullanılarak görüntülenebilen dosyalarla ilişkili gizli veriler de vardır. Bu verilerin kimsenin erişebilmesini istemediğiniz birçok durum vardır. Redaksiyon, istenmeyen veya gizli bilgilerin çeşitli belgelerden kaldırılması anlamına gelir. PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX ve diğerleri dahil olmak üzere tüm dosya biçimleri belirli meta veri yapılarına sahiptir. Meta veri özellikleri arasında yazar adı, kategori, şirket adı, yorumlar, oluşturma zamanı ve son güncelleme vb. GroupDocs.Redaction API ile bu meta veri alanlarından herhangi birine meta veri redaksiyonu uygulayabilirsiniz. İstediğiniz meta verileri filtreleyerek bunları değiştirebilir veya silebilirsiniz. Bu kılavuzda {{ProgLang}} içindeki {{EXT}} belgesinden meta veri redaksiyonunu nasıl uygulayabileceğinizi açıklayacağız."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "{{EXT}} Dosyasının Meta Verilerini Redakt Et",
+      "content_left": {
+        "step_1": "Aşağıdaki kod, {{EXT}} belgedeki hassas verileri aramanıza ve çıkarmanıza olanak tanır. Filtreyi ayarlayarak redaksiyon kapsamını ayarlayabilirsiniz, örneğin MetadataFilter.company. “Şirket” özelliği hariç, tüm meta veri öğelerinde normal ifadelerin eşleşmelerini geri bırakacaktır:"
+      },
+      "title_right": "Meta Verileri Redakt Etme Adımları",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) sınıfının bir örneğini oluşturun ve {{EXT}} dosyasını yükleyin",
+        "step_2": "Belgenin meta verilerinden hassas verileri bulmak ve değiştirmek için [MetadatasEarchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) sınıfının bir örneğini oluşturun",
+        "step_3": "Filtreyi ayarlayarak redaksiyon kapsamını ayarlayın, örn. Aşağıdaki kodda MetadataFilters.company kullanın",
+        "step_4": "[MetadatasEarchRedAction] nesnesiyle kaydetme yöntemini çağırın (https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "5b04349a19f1627145ab6a9f8f0f5fc0",
+        "file": "RedactCompanyMetadata.java dosyası"
+      }
+    },
+    "example2": {
+      "title_left": "{{ProgLang}} içindeki {{EXT}} Meta Verileri Kaldır",
+      "content_left": {
+        "step_1": "EraseMetadatareDaction sınıfını kullanarak belgedeki tüm veya belirli meta verileri boş (boş veya minimal) değerlerle değiştirebilirsiniz. Aşağıdaki kod, bir meta veri özelliğinin bir {{EXT}} belgesinden nasıl filtreleyip kaldırılabileceğini gösterir. Aşağıdaki örnek, belgenin tüm özelliklerini boşa çıkarır:"
+      },
+      "title_right": "Şirket Meta Verileri Nasıl Silinebilir",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) sınıfının bir örneğini oluşturun ve {{EXT}} dosyasını yükleyin",
+        "step_2": "Belgenin meta verilerini kaldırmak için [MetadatasEarchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) sınıfının bir örneğini oluşturun",
+        "step_3": "Filtreyi ayarlayarak redaksiyon kapsamını ayarlayın, örn. MetadataFilter.all'i aşağıdaki kodda MetadataFilter.company ile değiştirin",
+        "step_4": "[MetadatasEarchRedAction] nesnesiyle kaydetme yöntemini çağırın (https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java dosyası"
+      }
+    },
+    "requirements": {
+      "title_left": "Sistem Gereksinimleri",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API'ler tüm büyük platformlarda ve işletim sistemlerinde desteklenir. Sistem gereksinimleri kılavuzunun tamamı için lütfen [sistem gereksinimleri] sayfasını ziyaret edin (https://docs.groupdocs.com/redaction/java/system-requirements) Aşağıdaki kodu çalıştırmadan önce, sisteminizde aşağıdaki ön koşulların yüklü olduğundan emin olun:",
+        "step_1": "İşletim Sistemleri: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Geliştirme Ortamı: NetBeans, Intellij IDEA, Eclipse vb",
+        "step_3": "Java Çalışma Zamanı Ortamı: J2SE 6.0 ve üzeri",
+        "step_4": "[Maven] 'den GroupDocs.Redaction for Java 'in en son sürümünü edinin (https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Neden GroupDocs.Redaction Kullanmalısınız",
+      "content_right": {
+        "step_1": "Kullanıcıların özel belge biçimleri ve redaksiyon türleri eklemelerine izin ver",
+        "step_2": "Hassas bilgileri kaldırmak için ek bir yazılıma gerek yoktur",
+        "step_3": "Sayfa aralığı oluşturma belgesini PDF olarak ayarlayabilme",
+        "step_4": "Farklı meta veri türlerini yeniden düzenlemenin kolay yolu: yazar adı, sürümü, başlığı, konusu, açıklaması ve daha fazlası",
+        "step_5": "Belge bilgisi çıkarma - dosya türü, sayfa sayısı vb."
+      }
+    }
+  },
+  "about_formats": "doğru"
+}

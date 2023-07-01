@@ -1,20 +1,6 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "autogen"
+layout: "auto-gen-gist"
 draft: false
 path: "redaction/net/text/docm"
 otherformats: CSV DOC DOCX DOT DOTM DOTX PDF POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
@@ -66,11 +52,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

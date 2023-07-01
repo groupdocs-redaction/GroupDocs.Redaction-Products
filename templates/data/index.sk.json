@@ -1,0 +1,51 @@
+{
+  "layout": "výrobok",
+  "head": {
+    "title": "Riešenie redigácie dokumentov | Priame rozhrania API a bezplatná aplikácia",
+    "description": "Odstráňte, redigujte alebo skryte metaúdaje a textový obsah v dokumentoch MS Office Word, tabuľkách Excel, PowerPoint prezentáciách, PDF a formátoch obrazových súborov."
+  },
+  "header": {
+    "title": "Riešenie redigovanie na zabezpečenie utajovaných informácií",
+    "description": "Skryť alebo odstrániť súkromné informácie z Microsoft Office dokumentov, tabuliek, prezentácií, PDF a obrázkov."
+  },
+  "apis": {
+    "code": {
+      "title": "GroupDocs.Redaction High Code API Zahrnúť",
+      "label": "Zobraziť všetky High Code API",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction pre",
+        "content": "On Premise .NET API na skrytie alebo odstránenie obsahu a metaúdajov z vašich osobných dokumentov."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction pre",
+        "content": "On Premise Java API na odstránenie alebo skrytie textu z obsahu a metaúdajov podporovaných formátov súborov."
+      }
+    },
+    "apps": {
+      "title": "GroupDocs.Redaction No Code Aplikácie Zahŕňajú",
+      "label": "Zobraziť všetky No Code Aplikácie",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/asposeredaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Jedna aplikácia na redigovanie citlivých informácií z Word, Excel, PowerPoint, PDF a mnohých ďalších typov dokumentov."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocswords-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Redigujte informácie z Word dokumentov pomocou ľubovoľného webového prehliadača."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocspdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Vymaž obsah z vašich PDF dokumentov online zadarmo."
+      }
+    }
+  }
+}

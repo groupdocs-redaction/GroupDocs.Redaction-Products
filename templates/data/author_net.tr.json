@@ -1,0 +1,73 @@
+{
+  "layout": "oto-gen-gist",
+  "head": {
+    "title": "{{ProgLang}} içindeki {{EXT}} Belgelerinden Hassas Meta Verileri Redakt Etme",
+    "description": "Farklı biçimlerdeki belgeler için filtreler uygulayarak meta veri redaksiyonu uygulayın"
+  },
+  "header": {
+    "title": "{{ProgLang}} içindeki {{EXT}} Meta Verilerden Yazar Adını Redakt Edin",
+    "description": "GroupDocs.Redaction s, filtreleri kullanarak herhangi bir meta veri özelliğini aramanıza ve değiştirmeye/kaldırmanıza olanak tanıyan esnek bir API sağlar."
+  },
+  "about": {
+    "title": "Meta Veri Redaksiyonu nedir?",
+    "h1": "Redaksiyon, istenmeyen veya gizli bilgilerin elektronik belgelerden kaldırılmasını ifade eder. PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX ve diğerleri dahil olmak üzere tüm dosya biçimleri bazı meta veri özelliklerine sahiptir. Bu özellikler yazar adı, kategori, şirket adı, yorumlar, oluşturma zamanı, son güncelleme ve çok daha fazlasını içerir. Bazen istenmeyen meta veri alanlarını tamamen silmeniz gerekir veya değerlerini güncellemek isteyebilirsiniz. Çeşitli araçlar ve teknikler kullanılarak görüntülenebilir dosyalar ile ilişkili bazı gizli veriler de vardır. Bu verilere hiç kimse tarafından erişilmesini istemediğiniz birçok durum vardır. GroupDocs.Redaction API ile bu meta veri özelliklerinden herhangi birine meta veri redaksiyonları uygulayabilirsiniz. İstediğiniz meta verileri filtreleyerek bunları değiştirebilir veya silebilirsiniz. Bu kılavuzda, {{ProgLang}} içindeki {{EXT}} meta verilerinden yazar adını nasıl çıkarabileceğinizi açıklayacağız."
+  },
+  "metadata": {
+    "name": "yazar",
+    "filter": "Yazar",
+    "example": "RedactAuthorMetadata.cs dosyası",
+    "hash": "9718d29035590c729114d50e69aa49b0"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "{{ProgLang}} içindeki Meta Verileri Redact {{EXT}}",
+      "content_left": {
+        "step_1": "Aşağıdaki kod, {{EXT}} belgedeki hassas verileri aramanıza ve çıkarmanıza olanak tanır. Filtreyi ayarlayarak redaksiyon kapsamını ayarlayabilirsiniz, örn. Metadatafilter.Author. - “Author” özelliği hariç tüm meta veri öğelerinde normal ifadeler eşleşmelerini geri bırakacaktır:"
+      },
+      "title_right": "{{EXT}} Meta Veriler Nasıl Redakte Edilir",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) sınıfının bir örneğini oluşturun ve {{EXT}} dosyasını yükleyin",
+        "step_2": "Belgenin meta verilerinden hassas verileri bulmak ve değiştirmek için [MetadatasEarchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) sınıfının bir örneğini oluşturun",
+        "step_3": "Filtreyi ayarlayarak redaksiyon kapsamını ayarlayın, örn. Aşağıdaki kodda MetadataFilter.author kullanın",
+        "step_4": "[MetadatasEarchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) nesnesiyle [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) yöntemini çağırın"
+      },
+      "gist": {
+        "hash": "9718d29035590c729114d50e69aa49b0",
+        "file": "RedactAuthorMetadata.cs dosyası"
+      }
+    },
+    "example2": {
+      "title_left": "{{ProgLang}} içindeki {{EXT}} Meta Verileri Kaldır",
+      "content_left": {
+        "step_1": "EraseMetadatareDaction sınıfını kullanarak belgedeki tüm veya belirli meta verileri boş (boş veya minimal) değerlerle değiştirebilirsiniz. Aşağıdaki kod, bir meta veri özelliğinin bir {{EXT}} belgesinden nasıl filtreleyip kaldırılabileceğini gösterir. Aşağıdaki örnek, belgenin tüm özelliklerini boşa çıkarır:"
+      },
+      "title_right": "{{EXT}} Meta Verileri Sil",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) sınıfının bir örneğini oluşturun ve {{EXT}} dosyasını yükleyin",
+        "step_2": "Belgenin meta verilerini kaldırmak için [EraseMetadataredAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) örneğini oluşturun",
+        "step_3": "Filtreyi ayarlayarak redaksiyon kapsamını ayarlayın, örn. MetadataFilter.all'i aşağıdaki kodda MetadataFilter.AUTHOR ile değiştirin",
+        "step_4": "[MetadatasEarchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) nesnesiyle [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) yöntemini çağırın"
+      },
+      "gist": {
+        "hash": "cef91d8d8f160aaf560218d1abd520e2",
+        "file": "CleanMetadata.cs dosyası"
+      }
+    },
+    "requirements": {
+      "title_left": "Sistem Gereksinimleri",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET .NET platformunun kurulu olduğu 32 bit veya 64 bit işletim sistemlerini destekler. Yüklenecek herhangi bir harici yazılım veya üçüncü taraf aracı gerektirmez. Sistem gereksinimleri kılavuzunun tamamı için lütfen [sistem gereksinimleri] sayfasını ziyaret edin (https://docs.groupdocs.com/redaction/net/system-requirements)",
+        "step_1": "İşletim Sistemleri: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Geliştirme Ortamı: NetBeans, Intellij IDEA, Eclipse vb",
+        "step_3": "Java Çalışma Zamanı Ortamı: J2SE 6.0 ve üzeri",
+        "step_4": "[Maven] 'den GroupDocs.Redaction for Java 'in en son sürümünü edinin (https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Kurulum Talimatları",
+      "content_right": {
+        "step_1": "Komut satırından ````nuget install GroupDocs.Redaction ````` veya ```Install-Package GroupDocs.Redaction``` ``ile Visual Studio'nun Paket Yöneticisi Konsolu aracılığıyla yükleyin. ",
+        "step_2": "Alternatif olarak, çevrimdışı MSI yükleyicisini veya DLL'leri [downloads](https://downloads.groupdocs.com/redaction/net) adresinden ZIP dosyasına alın ve projenizde manuel olarak referans alın."
+      }
+    }
+  },
+  "about_formats": "doğru"
+}

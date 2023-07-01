@@ -1,24 +1,10 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "fr/redaction/net/metadata/doc"
 otherformats: BMP DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
-
 
 ############################# Head ############################
 head_title: "Appliquer les suppressions de métadonnées aux PDF, DOCX, PPT, PPTX, XLS, XLSX dans .NET"
@@ -52,8 +38,7 @@ steps:
       content_right: |
         * Créer une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)
         * Appelez la méthode Redactor.Apply avec l'objet EraseMetadataRedaction de [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)
-        * Appelez la méthode Redactor.Save pour enregistrer le document dans le fichier "*_Redacted.*" au format d'origine
-        
+        * Appelez la méthode Redactor.Save pour enregistrer le document dans le fichier "*_Redacted.*" au format d'origine        
       gisthash: "8f1bc20dff33c9a45c01a9e251555bf1"
       gistfile: "how_to_clean_metadata_dotnet.cs"
 
@@ -89,11 +74,9 @@ steps:
         * Extraction d'informations sur les documents - type de fichier, nombre de pages, etc.
         * Prise en charge complète de plusieurs formats de données
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

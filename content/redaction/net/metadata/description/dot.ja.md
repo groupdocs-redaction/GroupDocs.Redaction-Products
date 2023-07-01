@@ -1,24 +1,10 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "ja/redaction/net/metadata/description/dot"
 otherformats: BMP DOC DOCM DOCX DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
-
 
 ############################# Head ############################
 head_title: "C#のドキュメントからのメタデータ編集"
@@ -53,8 +39,7 @@ steps:
         * [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)クラスのインスタンスを作成し、DOTファイルをアップロードします
         * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)クラスのインスタンスを作成して、ドキュメントのメタデータから機密データを検索して置換します
         * フィルターを設定して編集の範囲を設定します。以下のコードでMetadataFilter.Descriptionを使用します
-        * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
-        
+        * [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)        
       gisthash: "15e3f0329c4e24c0f77f785b87753e0d"
       gistfile: "RedactDescriptionMetadata.cs"
 
@@ -85,11 +70,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

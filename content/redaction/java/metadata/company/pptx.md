@@ -1,26 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "redaction/java/metadata/company/pptx"
 otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "Redact Metadata | Java"
 ad_description: "Redact Company Name from PPTX Metadata in Java"
-
 ############################# Head ############################
 head_title: "Metadata Redaction From PPTX Document in Java"
 head_description: "Easily search, replace, remove or edit metadata of various document types by applying filters to choose specific metadata properties using GroupDocs.Redactions API for Java."
@@ -89,15 +75,12 @@ steps:
         * Document information extraction - file type, page count etc.
         
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

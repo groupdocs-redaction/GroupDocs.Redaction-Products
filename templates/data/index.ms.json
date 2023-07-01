@@ -1,0 +1,51 @@
+{
+  "layout": "hasil",
+  "head": {
+    "title": "Penyelesaian Redaksi Dokumen | API Di Premis & Aplikasi Percuma",
+    "description": "Alih keluar, redact atau sembunyikan metadata dan kandungan teks dalam MS Office Word dokumen, Excel hamparan, PowerPoint persembahan, PDF dan format fail imej."
+  },
+  "header": {
+    "title": "Penyelesaian Redaction untuk Menjamin Maklumat Terklasifikasi",
+    "description": "Sembunyikan atau alih keluar maklumat peribadi daripada Microsoft Office dokumen, hamparan, persembahan, PDF dan imej."
+  },
+  "apis": {
+    "code": {
+      "title": "GroupDocs.Redaction High Code API Termasuk",
+      "label": "Lihat Semua High Code API",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction untuk",
+        "content": "Pada Premis .NET API untuk menyembunyikan atau mengalih keluar kandungan dan metadata daripada dokumen peribadi anda."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction untuk",
+        "content": "Pada Premis Java API untuk mengalih keluar atau menyembunyikan teks daripada kandungan dan metadata format fail yang disokong."
+      }
+    },
+    "apps": {
+      "title": "GroupDocs.Redaction No Code Apps Termasuk",
+      "label": "Lihat Semua No Code Apps",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/asposeredaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Aplikasi tunggal untuk menyunting maklumat sensitif dari Word, Excel, PowerPoint, PDF dan banyak jenis dokumen lain."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocswords-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Sunting maklumat dari Word dokumen menggunakan mana-mana penyemak imbas web."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocspdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Luangkan kandungan daripada dokumen PDF anda dalam talian secara percuma."
+      }
+    }
+  }
+}

@@ -1,24 +1,10 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "ko/redaction/net/metadata/ppt"
 otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
-
 
 ############################# Head ############################
 head_title: ".NET의 PDF, DOCX, PPT, PPTX, XLS, XLSX에 메타데이터 수정 적용"
@@ -52,8 +38,7 @@ steps:
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) 클래스의 인스턴스 생성
         * [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)의 EraseMetadataRedaction 객체로 Redactor.Apply 메소드 호출
-        * Redactor.Save 메소드를 호출하여 문서를 "*_Redacted.*" 파일에 원본 형식으로 저장
-        
+        * Redactor.Save 메소드를 호출하여 문서를 "*_Redacted.*" 파일에 원본 형식으로 저장        
       gisthash: "8f1bc20dff33c9a45c01a9e251555bf1"
       gistfile: "how_to_clean_metadata_dotnet.cs"
 
@@ -89,11 +74,9 @@ steps:
         * 문서 정보 추출 - 파일 형식, 페이지 수 등
         * 여러 데이터 형식에 대한 완벽한 지원
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

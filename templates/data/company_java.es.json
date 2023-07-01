@@ -1,0 +1,72 @@
+{
+  "layout": "autogen-gist",
+  "head": {
+    "title": "Redacción de metadatos del documento {{EXT}} en {{ProgLang}}",
+    "description": "Busque, reemplace, elimine o edite fácilmente metadatos de varios tipos de documentos mediante la aplicación de filtros para elegir propiedades de metadatos específicas mediante la API de GroupDocs.Redaction para {{ProgLang}}.",
+    "ad_headline": "Redactar metadatos | {{ProgLang}}",
+    "ad_description": "Redactar el nombre de la empresa de los metadatos de {{EXT}} en {{ProgLang}}"
+  },
+  "header": {
+    "title": "Redacción de metadatos del documento {{EXT}} en {{ProgLang}}",
+    "description": "Busque, reemplace, elimine o edite fácilmente metadatos de varios tipos de documentos mediante la aplicación de filtros para elegir propiedades de metadatos específicas mediante la API de GroupDocs.Redaction para {{ProgLang}}."
+  },
+  "about": {
+    "title": "Introducción a la redacción de metadatos",
+    "h1": "A veces es necesario eliminar por completo los campos de metadatos no deseados o puede que desee actualizar sus valores. También hay datos ocultos asociados a los archivos que se pueden ver con diversas herramientas y técnicas. Hay muchas situaciones en las que no desea que nadie pueda acceder a estos datos. La redacción significa la eliminación de información confidencial o no deseada de varios documentos. Todos los formatos de archivo, incluidos PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX y otros, tienen estructuras de metadatos específicas. Las propiedades de los metadatos incluyen el nombre del autor, la categoría, el nombre de la empresa, los comentarios, la hora de creación y la última actualización, etc. Con la API GroupDocs.Redaction puede aplicar la redacción de metadatos a cualquiera de estos campos de metadatos. Puede cambiarlos o eliminarlos filtrando los metadatos que desee. En esta guía, explicaremos cómo puedes aplicar la redacción de metadatos del documento {{EXT}} en {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redactar los metadatos del archivo {{EXT}}",
+      "content_left": {
+        "step_1": "El siguiente código te permite buscar y eliminar datos confidenciales de un documento {{EXT}}. Puede establecer el alcance de la redacción configurando un filtro, por ejemplo, en MetadataFilter.company. Dejará sin efecto las coincidencias de las expresiones regulares en todos los elementos de metadatos, excepto en la propiedad «Empresa»:"
+      },
+      "title_right": "Pasos para redactar los metadatos",
+      "content_right": {
+        "step_1": "Crea una instancia de la clase [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) y sube el archivo {{EXT}}",
+        "step_2": "Cree una instancia de la clase [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) para buscar y reemplazar datos confidenciales de los metadatos del documento",
+        "step_3": "Establezca el alcance de la redacción configurando el filtro, por ejemplo, use MetadataFilters.company en el siguiente código",
+        "step_4": "Llame al método save con el objeto de [MetadataSearchredAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "5b04349a19f1627145ab6a9f8f0f5fc0",
+        "file": "RedactCompanyMetadata.java"
+      }
+    },
+    "example2": {
+      "title_left": "Eliminar {{EXT}} metadatos en {{ProgLang}}",
+      "content_left": {
+        "step_1": "Puede reemplazar todos o algunos metadatos específicos del documento por valores vacíos (en blanco o mínimos) mediante la clase EraseMetaDataRedAction. El siguiente código muestra cómo puede filtrar y, a continuación, eliminar una propiedad de metadatos de un documento {{EXT}}. En el ejemplo siguiente se omiten todas las propiedades del documento:"
+      },
+      "title_right": "Cómo borrar los metadatos de la empresa",
+      "content_right": {
+        "step_1": "Crea una instancia de la clase [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) y sube el archivo {{EXT}}",
+        "step_2": "Crea una instancia de la clase [MetadataSearchredAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) para eliminar los metadatos del documento",
+        "step_3": "Establezca el alcance de la redacción configurando el filtro, por ejemplo, reemplace MetadataFilter.all por MetadataFilter.company en el siguiente código",
+        "step_4": "Llame al método save con el objeto de [MetadataSearchredAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Requerimientos del sistema",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java Las API son compatibles con las principales plataformas y sistemas operativos. Para obtener una guía completa de los requisitos del sistema, visita [requisitos del sistema](https://docs.groupdocs.com/redaction/java/system-requirements). Antes de ejecutar el código que aparece a continuación, asegúrate de tener los siguientes requisitos previos instalados en tu sistema:",
+        "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Entorno de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.",
+        "step_3": "Java Entorno de ejecución: J2SE 6.0 y superior",
+        "step_4": "Obtén la versión más reciente de GroupDocs.Redaction for Java en [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Por qué usar GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Permita a los usuarios añadir formatos de documentos personalizados y tipos de redacciones",
+        "step_2": "No se requiere ningún software adicional para eliminar la información confidencial",
+        "step_3": "Posibilidad de configurar el documento de representación por rango de páginas como PDF",
+        "step_4": "Una forma sencilla de redactar diferentes tipos de metadatos: nombre del autor, versión, título, tema, descripción y muchos más",
+        "step_5": "Extracción de información del documento: tipo de archivo, recuento de páginas, etc."
+      }
+    }
+  },
+  "about_formats": "cierto"
+}

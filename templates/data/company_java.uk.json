@@ -1,0 +1,72 @@
+{
+  "layout": "автоген-гіст",
+  "head": {
+    "title": "Редагування метаданих з документа {{EXT}} в {{ProgLang}}",
+    "description": "Легко шукайте, замінюйте, видаляйте або редагуйте метадані різних типів документів, застосовуючи фільтри для вибору певних властивостей метаданих за допомогою API GroupDocs.Redaction s для {{ProgLang}}.",
+    "ad_headline": "Редагувати метадані | {{ProgLang}}",
+    "ad_description": "Відредагувати назву компанії з {{EXT}} метаданих у {{ProgLang}}"
+  },
+  "header": {
+    "title": "Редагування метаданих з документа {{EXT}} в {{ProgLang}}",
+    "description": "Легко шукайте, замінюйте, видаляйте або редагуйте метадані різних типів документів, застосовуючи фільтри для вибору певних властивостей метаданих за допомогою API GroupDocs.Redaction s для {{ProgLang}}."
+  },
+  "about": {
+    "title": "Початок роботи з редагування метаданих",
+    "h1": "Іноді вам потрібно повністю видалити небажані поля метаданих або ви можете оновити їх значення. Також є приховані дані, пов'язані з файлами, які можна переглянути за допомогою різних інструментів і прийомів. Є багато ситуацій, коли ви не хочете, щоб ці дані були доступні нікому. Редакування означає видалення небажаної або конфіденційної інформації з різних документів. Усі формати файлів, включаючи PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX та інші, мають специфічні структури метаданих. Властивості метаданих включають ім'я автора, категорію, назву компанії, коментарі, час створення та останнє оновлення тощо. За допомогою API GroupDocs.Redaction ви можете застосувати редагування метаданих до будь-якого з цих полів метаданих. Ви можете змінити або видалити їх, відфільтрувавши потрібні метадані. У цьому посібнику ми пояснимо, як можна застосувати редагування метаданих з документа {{EXT}} у {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Редагування метаданих файлу {{EXT}}",
+      "content_left": {
+        "step_1": "Наступний код дозволяє шукати та редагувати конфіденційні дані з документа {{EXT}}. Ви можете встановити область редагування, встановивши фільтр, наприклад, MetadataFilter.company. Він залишить збіги регулярних виразів скасованими у всіх елементах метаданих, крім властивості «Компанія»:"
+      },
+      "title_right": "Кроки для редагування метаданих",
+      "content_right": {
+        "step_1": "Створіть екземпляр класу [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) та завантажте файл {{EXT}}",
+        "step_2": "Створіть екземпляр класу [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction), щоб знайти та замінити конфіденційні дані з метаданих документа",
+        "step_3": "Встановіть область редагування, встановивши фільтр, наприклад, Використовуйте MetadataFilters.Company у коді нижче",
+        "step_4": "Виклик методу збереження за допомогою об'єкта [MetadataRechredaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "5б04349а19ф1627145аб6а9ф8ф0ф5ф0",
+        "file": "RedactCompanyMetadata.java"
+      }
+    },
+    "example2": {
+      "title_left": "Видалити метадані {{EXT}} в {{ProgLang}}",
+      "content_left": {
+        "step_1": "Ви можете замінити всі або певні метадані в документі порожніми (порожніми або мінімальними) значеннями за допомогою класу EraseMetaDataRedAction. Наступний код показує, як ви можете фільтрувати, а потім вилучати властивість метаданих з документа {{EXT}}. Приклад нижче видаляє всі властивості документа:"
+      },
+      "title_right": "Як стерти метадані компанії",
+      "content_right": {
+        "step_1": "Створіть екземпляр класу [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) та завантажте файл {{EXT}}",
+        "step_2": "Створіть екземпляр класу [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) для видалення метаданих документа",
+        "step_3": "Встановіть область редагування, встановивши фільтр, наприклад Замініть MetadataFilter.all на MetadataFilter.Company в коді нижче",
+        "step_4": "Виклик методу збереження за допомогою об'єкта [MetadataRechredaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804е996134 фд12ф2061ф989фд5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Системні вимоги",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API підтримуються на всіх основних платформах і операційних системах. Щоб отримати повний посібник з системних вимог, відвідайте [системні вимоги](https://docs.groupdocs.com/redaction/java/system-requirements) Перш ніж виконувати код нижче, переконайтеся, що у вашій системі встановлені такі передумови:",
+        "step_1": "Операційні системи: Майкрософт Windows, Linux, Mac ОС",
+        "step_2": "Середовище розробки: NetBeans, Intellij IDEA, Eclipse тощо",
+        "step_3": "Java Середовище виконання: J2SE 6.0 і вище",
+        "step_4": "Отримайте останню версію GroupDocs.Redaction for Java з [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Навіщо використовувати GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Дозволити користувачам додавати власні формати документів та типи редагування",
+        "step_2": "Для видалення конфіденційної інформації не потрібно додаткове програмне забезпечення",
+        "step_3": "Можливість встановити діапазон візуалізації документа як PDF",
+        "step_4": "Простий спосіб редагувати різні типи метаданих: ім'я автора, версія, назва, тема, опис та багато іншого",
+        "step_5": "Вилучення інформації про документ - тип файлу, кількість сторінок тощо."
+      }
+    }
+  },
+  "about_formats": "істинний"
+}

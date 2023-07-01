@@ -1,26 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "ru/redaction/java/metadata/author/pptm"
 otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "Редактировать метаданные | Java"
 ad_description: "Исправить имя автора из метаданных PPTM в Java"
-
 ############################# Head ############################
 head_title: "Удалить ИЛИ обновить имя автора из метаданных PPTM в Java"
 head_description: "GroupDocs.Redactions предоставляет гибкий API, который позволяет искать и заменять/удалять любое свойство метаданных с помощью фильтров."
@@ -89,15 +75,12 @@ steps:
         * Извлечение информации о документе — тип файла, количество страниц и т. д.
         
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

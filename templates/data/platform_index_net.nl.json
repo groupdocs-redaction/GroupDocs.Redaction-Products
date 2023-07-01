@@ -1,0 +1,110 @@
+{
+  "layout": "artikel",
+  "head": {
+    "title": "C# .NET Redactie-API | Privétekst verbergen in PDF Word Excel afbeeldingen",
+    "description": "API voor het redigeren van documenten voor .NET. Redigeer, verberg of verwijder gevoelige inhoud uit PDF, Microsoft Word, Excel, presentaties en rasterafbeeldingen."
+  },
+  "header": {
+    "title": "Geclassificeerde gegevens beveiligen via de Redactie-API",
+    "description": "Redigeer, verberg of verwijder gevoelige inhoud en metagegevens uit documenten, werkbladen, presentaties, PDF en rasterafbeeldingsbestanden met behulp van de .NET API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Overzicht",
+      "button_text_2": "Kenmerken",
+      "button_text_3": "Ondersteuning",
+      "button_text_4": "Live demo",
+      "button_text_5": "Prijsstelling"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET is een API-bibliotheek waarmee je gevoelige en geheime gegevens kunt wissen uit verschillende bestandsindelingen, zoals Microsoft Word, Excel, PowerPoint en PDF. De interface van onze redactie-API ondersteunt verschillende soorten redactie, zoals tekstredactie, redactie van metagegevens, redactie van annotaties en redactie van documenten in tabelvorm. Met de GroupDocs.Redaction for .NET API kunt u ook bestanden redigeren die met een wachtwoord zijn beveiligd. Je mag het document in de oorspronkelijke indeling opslaan en een opgeschoond PDF document maken met rasterafbeeldingen van originele pagina's.",
+    "one": {
+      "description": "Hieronder volgt een overzicht van GroupDocs.Redaction voor {{ProductName}}:",
+      "content": {
+        "title": "Overzicht",
+        "step_1": "Tekst redigeren",
+        "step_2": "Metagegevens redigeren",
+        "step_3": "Annotatie redigeren",
+        "step_4": "Document in tabelvorm redigeren",
+        "step_5": "Beveiligde bestanden redigeren",
+        "step_6": "Aanpassing"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction for {{ProductName}} ondersteunt de volgende [bestandsindelingen voor documenten](https://docs.groupdocs.com/redaction//supported-document-formats/{{ProductCode}}):",
+      "content": {
+        "title": "Tekst, metagegevens en opmerkingen redigeren",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Vaste indeling**: PDF",
+        "step_5": "**Rasterafbeeldingen**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Besturingssystemen",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux"
+          },
+          "row2": {
+            "title": "Ondersteunde frameworks",
+            "data": "* .NET Framework 2.0 of hoger
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "snelle faxbox",
+            "title": "Pakketbeheerder",
+            "data": "* NuGet"
+          },
+          "row2": {
+            "icon": "snelle fa-tools",
+            "title": "Ontwikkelomgevingen",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction voor {{ProductName}} functies",
+    "feature1": "Voer een hoofdlettergevoelige zoekopdracht uit voor de exacte redactie van woordgroepen",
+    "feature2": "Gebruik een kleurvak om geredigeerde tekst te verbergen in plaats van een tekenreeks te vervangen",
+    "feature3": "Lokaliseer en redigeer elke tekst met behulp van de zoekfunctie voor reguliere expressies",
+    "feature4": "Alle of een combinatie van de gerubriceerde metagegevens van het document filteren",
+    "feature5": "Snel volledige metadata-informatie van een specifiek document wissen",
+    "feature6": "Stel het bereik van de redactie in op een specifiek werkblad en/of kolom in Excel",
+    "feature7": "Alle of specifieke opmerkingen en andere annotaties uit het document verwijderen",
+    "feature8": "Zoek en verwijder gevoelige gegevens uit de annotatietekst",
+    "feature9": "Mogelijkheid om met je eigen formaten en redacties te werken",
+    "feature10": "Ondersteuning voor rasterafbeeldingsformaten en redacties van afbeeldingsgebieden",
+    "feature11": "Specificeer een set redactieregels (beleid) in een XML-bestand",
+    "feature12": "Geef het paginabereik en het conformiteitsniveau van PDF op tijdens de conversie naar PDF",
+    "feature13": "EXIF metagegevens uit afbeeldingsbestanden bewerken of verwijderen",
+    "feature14": "Ingebedde afbeeldingen in de PDF, Word en presentatiedocumenten redigeren",
+    "feature15": "Een redactiebeleid opslaan als een XML-bestand"
+  },
+  "more_features": {
+    "title": "Redigeer uw geheime gegevens met gemak en controle",
+    "content": "De {{ProductFullName}} API geeft je volledige controle over hoe je je belangrijke geheime informatie wilt verbergen of wissen in een ondersteund document. Het gebruik van onze Redactie-API is vrij eenvoudig en ongecompliceerd.",
+    "example": {
+      "description": "In het volgende voorbeeld laden we een ondersteund document, redigeren we elke tekst, waarbij we „2 cijfers, spatie of niets, 2 cijfers, opnieuw spatie en 6 cijfers” (zoals 12 34 567890) vergelijken met een blauw kleurvak met {{ProgLang}}. Zodra dat is gebeurd, slaat het het document op in de oorspronkelijke indeling door het te hernoemen met een toegevoegd achtervoegsel „Redacted”:",
+      "comment_init": "Maak een instantie van de Redactor-klasse",
+      "comment_apply": "Redactie toepassen"
+    }
+  },
+  "solutions": "GroupDocs.Redaction biedt API's voor het bekijken van documenten voor andere populaire ontwikkelomgevingen"
+}

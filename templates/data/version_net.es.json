@@ -1,0 +1,67 @@
+{
+  "layout": "autogen-gist",
+  "head": {
+    "title": "Redacciones de metadatos de documentos en {{ProgLang}}",
+    "description": "Redacte metadatos confidenciales en {{ProgLang}} mediante la aplicación de filtros para documentos de diferentes formatos"
+  },
+  "header": {
+    "title": "Redacte la versión de los metadatos del archivo {{EXT}} en {{ProgLang}}",
+    "description": "La API de GroupDocs.Redaction permite buscar y, a continuación, actualizar o eliminar cualquier dato confidencial de los metadatos de un documento."
+  },
+  "about": {
+    "title": "¿Qué es la redacción de metadatos?",
+    "h1": "La mayoría de las personas se preocupan por la redacción del texto de un documento. Pero la redacción de metadatos es igual de importante. Los metadatos son los datos ocultos de un documento que pueden contener información confidencial que quizás no quieras compartir con otros. La redacción de metadatos se refiere a la eliminación de información confidencial o no deseada de los documentos electrónicos. Los metadatos de un documento incluyen el nombre del autor, la categoría, el nombre de la empresa, los comentarios, la hora de creación, la última actualización y muchos más. A veces es necesario eliminar por completo los campos de metadatos no deseados o puede que desee actualizar sus valores. Con la API GroupDocs.Redaction puedes aplicar redacciones de metadatos a cualquiera de estas propiedades de metadatos. Puede cambiarlas o eliminarlas filtrando los metadatos que desee. En esta guía, explicaremos cómo puedes redactar la versión de los metadatos del archivo {{EXT}} en {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redactar versión del archivo {{EXT}} en {{ProgLang}}",
+      "content_left": {
+        "step_1": "El siguiente código te permite buscar y eliminar datos confidenciales de un documento {{EXT}}. Puedes establecer el alcance de la redacción configurando un filtro, por ejemplo, en MetadataFilter.VERSION. Dejará sin efecto las coincidencias de las expresiones regulares en todos los elementos de metadatos, excepto en la propiedad «Version»:"
+      },
+      "title_right": "Cómo redactar los metadatos de {{EXT}}",
+      "content_right": {
+        "step_1": "Crea una instancia de la clase [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) y sube el archivo {{EXT}}",
+        "step_2": "Cree una instancia de la clase [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) para buscar y reemplazar datos confidenciales de los metadatos del documento",
+        "step_3": "Establezca el alcance de la redacción configurando el filtro, por ejemplo, use MetadataFilter.VERSION en el siguiente código",
+        "step_4": "Llama al método [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) con el objeto de [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "8f1996554c2bb9abf77d09315497308a",
+        "file": "RedactVersionMetadata.cs"
+      }
+    },
+    "example2": {
+      "title_left": "Eliminar {{EXT}} metadatos en {{ProgLang}}",
+      "content_left": {
+        "step_1": "Puede reemplazar todos o algunos metadatos específicos del documento por valores vacíos (en blanco o mínimos) mediante la clase EraseMetaDataRedAction. El siguiente código muestra cómo puede filtrar y, a continuación, eliminar una propiedad de metadatos de un documento {{EXT}}. En el ejemplo siguiente se omiten todas las propiedades del documento:"
+      },
+      "title_right": "Borrar {{EXT}} metadatos",
+      "content_right": {
+        "step_1": "Crea una instancia de la clase [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) y sube el archivo {{EXT}}",
+        "step_2": "Crea una instancia de [EraseMetaDataRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) para eliminar los metadatos del documento",
+        "step_3": "Establezca el alcance de la redacción configurando el filtro, por ejemplo, reemplace MetadataFilter.all por MetadataFilter.VERSION en el siguiente código",
+        "step_4": "Llama al método [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) con el objeto de [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "cef91d8d8f160aaf560218d1abd520e2",
+        "file": "CleanMetadata.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "Requerimientos del sistema",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET admite cualquier sistema operativo de 32 o 64 bits en el que esté instalada la plataforma .NET. No requiere la instalación de ningún software externo ni de ninguna herramienta de terceros. Para obtener una guía completa de requisitos del sistema, visite [requisitos del sistema](https://docs.groupdocs.com/redaction/net/system-requirements)",
+        "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Entorno de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.",
+        "step_3": "Java Entorno de ejecución: J2SE 6.0 y superior",
+        "step_4": "Obtén la versión más reciente de GroupDocs.Redaction for Java en [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Instrucciones de instalación",
+      "content_right": {
+        "step_1": "Instale desde la línea de comandos como ``nuget install GroupDocs.Redaction ```o mediante la consola del administrador de paquetes de Visual Studio con ``Install-Package GroupDocs.Redaction```. ",
+        "step_2": "También puedes obtener el instalador MSI sin conexión o las DLL en un archivo ZIP en [downloads](https://downloads.groupdocs.com/redaction/net) y hacer referencia a ellos manualmente en tu proyecto."
+      }
+    }
+  },
+  "about_formats": "cierto"
+}

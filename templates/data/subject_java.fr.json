@@ -1,0 +1,72 @@
+{
+  "layout": "auto-génération",
+  "head": {
+    "title": "Rédiger les métadonnées du sujet à partir d'un fichier {{EXT}} dans {{ProgLang}}",
+    "description": "GroupDocs.Redaction s fournit une API flexible qui permet de rechercher et de remplacer/supprimer toute propriété de métadonnées à l'aide de filtres.",
+    "ad_headline": "Rédiger les métadonnées | Java",
+    "ad_description": "Rédiger les métadonnées du sujet à partir d'un fichier {{EXT}} dans Java"
+  },
+  "header": {
+    "title": "Rédiger les métadonnées du sujet à partir d'un fichier {{EXT}} dans {{ProgLang}}",
+    "description": "GroupDocs.Redaction s fournit une API flexible qui permet de rechercher et de remplacer/supprimer toute propriété de métadonnées à l'aide de filtres."
+  },
+  "about": {
+    "title": "Environ GroupDocs.Redaction pour {{ProgLang}}",
+    "h1": "La rédaction fait référence à la suppression d'informations indésirables ou confidentielles dans des documents électroniques. Tous les formats de fichiers, y compris PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX et d'autres possèdent certaines propriétés de métadonnées. Ces propriétés incluent le nom de l'auteur, la catégorie, le nom de l'entreprise, les commentaires, l'heure de création, la dernière mise à jour, etc. Parfois, vous devez supprimer complètement les champs de métadonnées indésirables ou mettre à jour leurs valeurs. Il existe également des données cachées associées aux fichiers qui peuvent être visualisées à l'aide de divers outils et techniques. Dans de nombreux cas, vous ne souhaitez pas que quiconque accède à ces données. Avec l'API GroupDocs.Redaction, vous pouvez appliquer des rédactions de métadonnées à n'importe laquelle de ces propriétés de métadonnées. Vous pouvez les modifier ou les supprimer en filtrant les métadonnées souhaitées. Dans ce guide, nous allons expliquer comment supprimer un sujet à partir des métadonnées {{EXT}} dans {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Mise à jour des métadonnées du sujet dans {{ProgLang}}",
+      "content_left": {
+        "step_1": "Le code suivant vous permet de rechercher et de supprimer des données sensibles à partir d'un document {{EXT}}. Vous pouvez définir l'étendue de la rédaction en définissant le filtre, par exemple sur MetadataFilter.Subject. Les correspondances des expressions régulières seront annulées dans tous les éléments de métadonnées, à l'exception de la propriété « Subject » :"
+      },
+      "title_right": "Comment rédiger {{EXT}} métadonnées",
+      "content_right": {
+        "step_1": "Créez une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) et téléchargez le fichier {{EXT}}",
+        "step_2": "Créez une instance de la classe [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) pour rechercher et remplacer les données sensibles des métadonnées du document",
+        "step_3": "Définissez l'étendue de la rédaction en définissant un filtre, par exemple, utilisez MetadataFilters.Subject dans le code ci-dessous",
+        "step_4": "Appelez la méthode de sauvegarde avec l'objet [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "f38d8b4c0acad38e154dc7f64018e51e",
+        "file": "RedactSubjectMetadata.java"
+      }
+    },
+    "example2": {
+      "title_left": "Effacer un champ de métadonnées dans {{ProgLang}}",
+      "content_left": {
+        "step_1": "Vous pouvez remplacer toutes les métadonnées ou certaines d'entre elles dans le document par des valeurs vides (vides ou minimales) à l'aide de la classe ErasemetadataRedaction. Le code suivant montre comment filtrer puis supprimer une propriété de métadonnées d'un document {{EXT}}. L'exemple ci-dessous masque toutes les propriétés du document :"
+      },
+      "title_right": "Supprimer {{EXT}} métadonnées via GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Créez une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) et téléchargez le fichier {{EXT}}",
+        "step_2": "Créez une instance de la classe [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) pour supprimer les métadonnées du document",
+        "step_3": "Définissez l'étendue de la rédaction en définissant un filtre, par exemple, remplacez MetadataFilter.ALL par MetadataFilter.Subject dans le code ci-dessous",
+        "step_4": "Appelez la méthode de sauvegarde avec l'objet [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Exigences du système",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java Les API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Pour obtenir le guide complet de la configuration requise, rendez-vous sur [configuration requise](https://docs.groupdocs.com/redaction/java/system-requirements) Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système :",
+        "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, Mac OS",
+        "step_2": "Environnement de développement : NetBeans, Intellij IDEA, Eclipse, etc.",
+        "step_3": "Java Environnement d'exécution : J2SE 6.0 et versions ultérieures",
+        "step_4": "Téléchargez la dernière version de GroupDocs.Redaction for Java sur [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Pourquoi utiliser GroupDocs.Redaction ?",
+      "content_right": {
+        "step_1": "Permettre aux utilisateurs d'ajouter des formats de documents personnalisés et des types de rédactions",
+        "step_2": "Un moyen simple de rédiger différents types de métadonnées : nom de l'auteur, version, titre, sujet, description et bien d'autres",
+        "step_3": "Possibilité de définir le document de rendu par plage de pages comme PDF",
+        "step_4": "Aucun logiciel supplémentaire n'est requis pour supprimer les informations sensibles",
+        "step_5": "Extraction d'informations sur les documents : type de fichier, nombre de pages, etc."
+      }
+    }
+  },
+  "about_formats": "vrai"
+}

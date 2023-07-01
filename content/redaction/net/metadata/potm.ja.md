@@ -1,24 +1,10 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "ja/redaction/net/metadata/potm"
 otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
-
 
 ############################# Head ############################
 head_title: ".NETのPDF、DOCX、PPT、PPTX、XLS、XLSXにメタデータ編集を適用する"
@@ -52,8 +38,7 @@ steps:
       content_right: |
         * [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) クラスのインスタンスを作成します
         * [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) のEraseMetadataRedactionオブジェクトを使用してredactor.Applyメソッドを呼び出します。
-        * Redactor.Save メソッドを呼び出して、ドキュメントを元の形式で「*_Redacted。*」ファイルに保存します
-        
+        * Redactor.Save メソッドを呼び出して、ドキュメントを元の形式で「*_Redacted。*」ファイルに保存します        
       gisthash: "8f1bc20dff33c9a45c01a9e251555bf1"
       gistfile: "how_to_clean_metadata_dotnet.cs"
 
@@ -89,11 +74,9 @@ steps:
         * ドキュメント情報の抽出-ファイルタイプ、ページ数など。
         * 複数のデータ形式の完全なサポート
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

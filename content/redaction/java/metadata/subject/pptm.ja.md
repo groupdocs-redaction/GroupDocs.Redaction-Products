@@ -1,26 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "ja/redaction/java/metadata/subject/pptm"
 otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "メタデータの編集 | Java"
 ad_description: "JavaのPPTMファイルからサブジェクトメタデータを編集する"
-
 ############################# Head ############################
 head_title: "JavaでPPTMファイルからサブジェクトメタデータを編集する"
 head_description: "GroupDocs.Redactionsは、フィルターを使用してメタデータプロパティを検索および置換/削除できる柔軟なAPIを提供します."
@@ -89,15 +75,12 @@ steps:
         * ドキュメント情報の抽出-ファイルタイプ、ページ数など。
         
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

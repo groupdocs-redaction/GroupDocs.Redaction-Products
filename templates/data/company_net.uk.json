@@ -1,0 +1,67 @@
+{
+  "layout": "автоген-гіст",
+  "head": {
+    "title": "Редагування чутливих метаданих з {{EXT}} документів у {{ProgLang}}",
+    "description": "Застосовуйте редагування метаданих, застосовуючи фільтри для документів різних форматів"
+  },
+  "header": {
+    "title": "Відредагувати назву компанії з {{EXT}} метаданих у {{ProgLang}}",
+    "description": "GroupDocs.Redaction s надає гнучкий API, який дозволяє шукати та замінювати/видаляти будь-яку властивість метаданих за допомогою фільтрів."
+  },
+  "about": {
+    "title": "Що таке Редагування метаданих?",
+    "h1": "Під редакцією розуміється видалення небажаної або конфіденційної інформації з електронних документів. Усі формати файлів, включаючи PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX та інші, мають певні властивості метаданих. Ці властивості включають ім'я автора, категорію, назву компанії, коментарі, час створення, останнє оновлення та багато іншого. Іноді вам потрібно повністю видалити небажані поля метаданих або ви можете оновити їх значення. Також є деякі приховані дані, пов'язані з файлами, які можна переглянути за допомогою різних інструментів і методів. Є багато випадків, коли ви не хочете, щоб ці дані були доступні комусь. За допомогою API GroupDocs.Redaction ви можете застосувати редагування метаданих до будь-якої з цих властивостей метаданих. Ви можете змінити або видалити їх, відфільтрувавши потрібні метадані. У цьому посібнику ми пояснимо, як ви можете відредагувати назву компанії з метаданих {{EXT}} у {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Редагувати {{EXT}} Метадані в {{ProgLang}}",
+      "content_left": {
+        "step_1": "Наступний код дозволяє шукати та редагувати конфіденційні дані з документа {{EXT}}. Ви можете встановити область редагування, встановивши фільтр, наприклад, на MetadataFilter.Company. - це залишить збіги регулярних виразів скасованими у всіх елементах метаданих, крім властивості «Компанія»:"
+      },
+      "title_right": "Як редагувати метадані {{EXT}}",
+      "content_right": {
+        "step_1": "Створіть екземпляр класу [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) та завантажте файл {{EXT}}",
+        "step_2": "Створіть екземпляр класу [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction), щоб знайти та замінити конфіденційні дані з метаданих документа",
+        "step_3": "Встановіть область редагування, встановивши фільтр, наприклад, Використовуйте MetadataFilter.Company у коді нижче",
+        "step_4": "Викличте метод [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) з об'єктом [MetadataRechRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "28е28д1ф0ф09ббб1286кд97б 95б22712",
+        "file": "RedactCompanyMetadata.cs"
+      }
+    },
+    "example2": {
+      "title_left": "Видалити метадані {{EXT}} в {{ProgLang}}",
+      "content_left": {
+        "step_1": "Ви можете замінити всі або певні метадані в документі порожніми (порожніми або мінімальними) значеннями за допомогою класу EraseMetaDataRedAction. Наступний код показує, як ви можете фільтрувати, а потім вилучати властивість метаданих з документа {{EXT}}. Приклад нижче видаляє всі властивості документа:"
+      },
+      "title_right": "Стерти {{EXT}} Метадані",
+      "content_right": {
+        "step_1": "Створіть екземпляр класу [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) та завантажте файл {{EXT}}",
+        "step_2": "Створіть екземпляр [EraseMetadataredAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction), щоб видалити метадані документа",
+        "step_3": "Встановіть область редагування, встановивши фільтр, наприклад Замініть MetadataFilter.all на MetadataFilter.Company в коді нижче",
+        "step_4": "Викличте метод [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) з об'єктом [MetadataRechRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "цеф91д8д8ф160ааф560218д1абд520е2",
+        "file": "CleanMetadata.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "Системні вимоги",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET підтримує будь-яку 32-розрядну або 64-розрядну операційну систему, де встановлена платформа .NET. Для цього не потрібно встановлювати будь-яке зовнішнє програмне забезпечення або сторонній інструмент. Щоб отримати повний посібник з системних вимог, відвідайте [системні вимоги](https://docs.groupdocs.com/redaction/net/system-requirements)",
+        "step_1": "Операційні системи: Майкрософт Windows, Linux, Mac ОС",
+        "step_2": "Середовище розробки: NetBeans, Intellij IDEA, Eclipse тощо",
+        "step_3": "Java Середовище виконання: J2SE 6.0 і вище",
+        "step_4": "Отримайте останню версію GroupDocs.Redaction for Java з [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Інструкція по установці",
+      "content_right": {
+        "step_1": "Встановити з командного рядка як ```nuget install GroupDocs.Redaction ```або через консоль диспетчера пакетів Visual Studio з ````Install-Package GroupDocs.Redaction ````. ",
+        "step_2": "Крім того, отримайте автономний інсталятор MSI або DLL у файлі ZIP з [downloads](https://downloads.groupdocs.com/redaction/net) та посилайтеся на нього у своєму проекті вручну."
+      }
+    }
+  },
+  "about_formats": "істинний"
+}

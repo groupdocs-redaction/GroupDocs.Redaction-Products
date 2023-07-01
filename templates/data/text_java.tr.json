@@ -1,0 +1,89 @@
+{
+  "layout": "oto-gen-gist",
+  "head": {
+    "title": "{{EXT}} 'de Tam Deyim/Düzenli İfade yoluyla {{EXT}} Metni Redakt",
+    "description": "GroupDocs.Redaction s Java API, geliştiricilerin PDF DOC DOCX RTF XLSX CSV PPT PPTX ve görüntülerden Java içindeki tam ifade veya düzenli ifade yoluyla metni yeniden düzenlemesine olanak tanır"
+  },
+  "header": {
+    "title": "Java kullanarak {{EXT}} Dosyalarından Metin Nasıl Redakte Edact Edilir, Gizlenir veya Kaldırılır",
+    "description": "GroupDocs.Redaction s Java API, kelime işlem belgelerinden, çalışma sayfalarından, sunumlardan, PDF s ve resimlerden hassas metni redakte etmeye, gizlemeye veya kaldırmaya izin verir."
+  },
+  "about": {
+    "title": "Metin Redaksiyonu nedir?",
+    "h1": "Metin Redaksiyonu, gizli veya istenmeyen metin veya bilgilerin dijital belgelerden kaldırılması ve onu içeren belgenin veya paragrafın geri kalanını bozulmadan bırakma işlemidir. Redaksiyon, kullanıcıların yanı sıra kuruluşun da hassas bilgilerini gizleyerek veya kalıcı olarak kaldırarak korumalarına yardımcı olur. GroupDocs.Redaction Java API kullanıcıları artık kelime işlem belgelerinden, çalışma sayfalarından, sunulardan, PDF ve raster görüntü dosyalarından hassas metinleri redakte edebilir, gizleyebilir veya kaldırabilir. API, belgelerdeki özel bilgilerin yeniden düzenlenmesi için çok çeşitli seçenekler ve yöntemler sunar. Tam eşleme veya normal ifadeler kullanarak arama ve redaksiyonu destekler, Metinsel (muafiyet kodları) veya grafiksel (renkli dikdörtgenler) redaksiyonları ve daha fazlasını kullanın. Öyleyse neden API'yi indirerek ve temel ve gelişmiş özelliklerini keşfederek belge redaksiyon sürecinizi otomatikleştirmeyi denemiyorsunuz? ",
+    "h2": "{{ProductFullName}} API, dosya birleştirme özelliklerine ihtiyaç duyan kurumsal çözümler için doğru seçimdir. Bu API'ler {{Runtime}} dahil olmak üzere tüm büyük işletim sistemlerinde ve platformlarda iyi desteklenir"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redact {{EXT}} Java içindeki Tam İfade",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction Belgelerinizden hassas veya özel nitelikteki verileri kolayca redakte etmenizi sağlar. En popüler redaksiyon durumu, bir belgeden bir metni kaldırmaktır.",
+        "step_2": "Aşağıdaki kod, tam ifade yoluyla bir belgenin belirli bir bölümüne metin redaksiyonu uygulamak için kullanılabilir. Kullanıcıların kişisel “Michal Clark” ifadesini kişisel (veya herhangi bir muafiyet kodu) ile değiştirmelerine olanak tanır,"
+      },
+      "title_right": "{{EXT}} 'den Hassas Verileri Kaldır",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) sınıfının bir örneğini oluşturun ve {{EXT}} dosyasını yükleyin",
+        "step_2": "ExactPhraseredAction sınıfının yeni örneğiyle Redactor.apply yöntemini çağırın",
+        "step_3": "[ExactPhraseredAction] nesnesi ile redactor.save yöntemini çağırın (https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Değişiklikleri kaydetmek için redactor.save yöntemini çağırın"
+      },
+      "gist": {
+        "hash": "3202859fc19b5dfd14e8f073b70a18f8",
+        "file": "redactexactphrase.java dosyası"
+      }
+    },
+    "example2": {
+      "title_left": "{{EXT}} 'de Büyük/Büyük/Büyük/küçük harf Duyarlı Metin Redaksiyonu",
+      "content_left": {
+        "step_1": "Aşağıdaki örnek, kullanıcıların bir belge içindeki belirli bir metin parçasını kaldırmak veya gizlemek için tam kelime öbeği büyük/küçük harfe duyarlı redaksiyon gerçekleştirmesine olanak tanır. Varsayılan olarak, tam kelime öbeği araması büyük/küçük harfe duyarsızdır."
+      },
+      "title_right": "Java üzerinden Büyük/Büyük/küçük harfe duyarlı Redaksiyon gerçekleştirin",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) sınıfının bir örneğini oluşturun ve {{EXT}} dosyasını yükleyin",
+        "step_2": "ExactPhraseredAction sınıfının yeni örneğiyle Redactor.apply yöntemini çağırın",
+        "step_3": "[ExactPhraseredAction] nesnesi ile redactor.save yöntemini çağırın (https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Değişiklikleri kaydetmek için redactor.save yöntemini çağırın"
+      },
+      "gist": {
+        "hash": "a43e3ce358f93df92373b5441bc579fb",
+        "file": "casesensitiveredaction.java dosyası"
+      }
+    },
+    "example3": {
+      "title_left": "Renk Kutusu aracılığıyla {{EXT}} içindeki Metni Redakt",
+      "content_left": {
+        "step_1": "Redakte bir metni kaldırmak veya oraya bir dize yerleştirmek yerine, düzeltilmiş metnin üzerine renk kutusu koymak da mümkündür. Bu durumda eşleşen metin kaldırılacak ve düzeltilmiş metnin üzerine renkli bir dikdörtgen yerleştirilecektir."
+      },
+      "title_right": "Java içindeki Metni Kaldırmak için Renk Kutusunu Kullanın",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) sınıfının bir örneğini oluşturun ve {{EXT}} dosyasını yükleyin",
+        "step_2": "ExactPhraseredAction sınıfının yeni örneğiyle Redactor.apply yöntemini çağırın",
+        "step_3": "[ExactPhraseredAction] nesnesi ile redactor.save yöntemini çağırın (https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Değişiklikleri kaydetmek için redactor.save yöntemini çağırın"
+      },
+      "gist": {
+        "hash": "6d83e791388b6834a372dc90f4b455f6",
+        "file": "redacttextusingcolorbox.java dosyası"
+      }
+    },
+    "requirements": {
+      "title_left": "Sistem Gereksinimleri",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API'ler tüm büyük platformlarda ve işletim sistemlerinde desteklenir. Sistem gereksinimleri kılavuzunun tamamı için lütfen [sistem gereksinimleri] sayfasını ziyaret edin (https://docs.groupdocs.com/redaction/java/system-requirements) Aşağıdaki kodu çalıştırmadan önce, sisteminizde aşağıdaki ön koşulların yüklü olduğundan emin olun:",
+        "step_1": "İşletim Sistemleri: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Geliştirme Ortamı: NetBeans, Intellij IDEA, Eclipse vb",
+        "step_3": "Java Çalışma Zamanı Ortamı: J2SE 6.0 ve üzeri",
+        "step_4": "[Maven] 'den GroupDocs.Redaction for Java 'in en son sürümünü edinin (https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Neden GroupDocs.Redaction Kullanmalısınız",
+      "content_right": {
+        "step_1": "Kullanıcıların özel belge biçimleri ve redaksiyon türleri eklemelerine izin ver",
+        "step_2": "Hassas bilgileri kaldırmak için ek bir yazılıma gerek yoktur",
+        "step_3": "Sayfa aralığı oluşturma belgesini PDF olarak ayarlayabilme",
+        "step_4": "Farklı meta veri türlerini yeniden düzenlemenin kolay yolu: yazar adı, sürümü, başlığı, konusu, açıklaması ve daha fazlası",
+        "step_5": "Belge bilgisi çıkarma - dosya türü, sayfa sayısı vb."
+      }
+    }
+  },
+  "about_formats": "doğru"
+}

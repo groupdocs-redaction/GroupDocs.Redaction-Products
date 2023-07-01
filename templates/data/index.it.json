@@ -1,0 +1,51 @@
+{
+  "layout": "prodotto",
+  "head": {
+    "title": "Soluzione per la redazione dei documenti | API on-premise e app gratuita",
+    "description": "Rimuovi, modifica o nascondi i metadati e il contenuto di testo in MS Office Word documenti, Excel fogli di calcolo, PowerPoint presentazioni, PDF e formati di file di immagine."
+  },
+  "header": {
+    "title": "Soluzione di redazione per proteggere le informazioni classificate",
+    "description": "Nascondi o rimuovi informazioni private da Microsoft Office documenti, fogli di calcolo, presentazioni, PDF e immagini."
+  },
+  "apis": {
+    "code": {
+      "title": "Le API GroupDocs.Redaction High Code includono",
+      "label": "Visualizza tutte le High Code API",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction per",
+        "content": "API .NET on premise per nascondere o rimuovere il contenuto e i metadati dai tuoi documenti personali."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction per",
+        "content": "API Java locali per rimuovere o nascondere il testo dai contenuti e dai metadati dei formati di file supportati."
+      }
+    },
+    "apps": {
+      "title": "GroupDocs.Redaction No Code Le app includono",
+      "label": "Visualizza tutte le No Code app",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/asposeredaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Un'unica app per oscurare informazioni sensibili da Word, Excel, PowerPoint, PDF e molti altri tipi di documenti."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocswords-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Oscura le informazioni da Word documenti utilizzando qualsiasi browser web."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocspdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Evita i contenuti dai tuoi PDF documenti online gratuitamente."
+      }
+    }
+  }
+}

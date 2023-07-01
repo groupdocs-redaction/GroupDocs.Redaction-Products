@@ -1,26 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "ja/redaction/java/metadata/createdtime/ppsx"
 otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "メタデータの編集 | Java"
 ad_description: "JavaのPPSXドキュメントからのメタデータ編集"
-
 ############################# Head ############################
 head_title: "JavaでのPPSXドキュメントからのメタデータ編集"
 head_description: "GroupDocs.Redactions API for Javaを使用してフィルターを適用し、特定のメタデータプロパティを選択することで、さまざまなドキュメントタイプのメタデータを簡単に検索、置換、削除、または編集できます。"
@@ -89,15 +75,12 @@ steps:
         * ドキュメント情報の抽出-ファイルタイプ、ページ数など。
         
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

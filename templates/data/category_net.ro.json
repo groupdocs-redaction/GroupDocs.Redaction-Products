@@ -1,0 +1,67 @@
+{
+  "layout": "autogen-gist",
+  "head": {
+    "title": "Redactează metadate sensibile din {{EXT}} documente în {{ProgLang}}",
+    "description": "Aplicați redactarea metadatelor aplicând filtre pentru documente de diferite formate"
+  },
+  "header": {
+    "title": "Redactă categoria Nume din {{EXT}} Metadate în {{ProgLang}}",
+    "description": "GroupDocs.Redaction s oferă un API flexibil care permite căutarea și înlocuirea/eliminarea oricărei proprietăți de metadate folosind filtre."
+  },
+  "about": {
+    "title": "Ce este redactarea metadatelor?",
+    "h1": "Redactarea se referă la eliminarea informațiilor nedorite sau confidențiale din documentele electronice. Toate formatele de fișiere, inclusiv PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX și altele au unele proprietăți de metadate. Aceste proprietăți includ numele autorului, categoria, numele companiei, comentariile, timpul de creare, ultima actualizare și multe altele. Uneori trebuie să ștergeți complet câmpurile de metadate nedorite sau poate doriți să le actualizați valorile. Există, de asemenea, unele date ascunse asociate fișierelor care pot fi vizualizate folosind diferite instrumente și tehnici. Există multe cazuri în care nu doriți ca aceste date să fie accesate de nimeni. Cu API GroupDocs.Redaction puteți aplica redacții de metadate la oricare dintre aceste proprietăți de metadate. Puteți să le modificați sau să le ștergeți filtrând metadatele dorite. În acest ghid vă vom explica cum puteți redacta numele categoriei din {{EXT}} metadate în {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redact {{EXT}} metadate în {{ProgLang}}",
+      "content_left": {
+        "step_1": "Codul următor vă permite să căutați și să redactați date sensibile dintr-un document {{EXT}}. Puteți seta domeniul de redactare setând filtrul, de exemplu la MetadataFilter.category. - va lăsa nefăcute potrivirile expresiilor regulate în toate elementele de metadate, cu excepția proprietății „Categorie”:"
+      },
+      "title_right": "Cum să redactezi metadatele {{EXT}}",
+      "content_right": {
+        "step_1": "Creați o instanță a clasei [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) și încărcați fișierul {{EXT}}",
+        "step_2": "Creați o instanță a clasei [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) pentru a găsi și înlocui datele sensibile din metadatele documentului",
+        "step_3": "Setați domeniul de redactare prin setarea filtrului, de exemplu Utilizați MetadataFilter.category în codul de mai jos",
+        "step_4": "Apelați metoda [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) cu obiectul [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "852b461c316559151cb6075b4ecde2ce",
+        "file": "RedactCategoryMetadata.cs"
+      }
+    },
+    "example2": {
+      "title_left": "Eliminați {{EXT}} metadate în {{ProgLang}}",
+      "content_left": {
+        "step_1": "Puteți înlocui toate metadatele sau anumite metadate din document cu valori goale (necompletate sau minime) utilizând clasa EraseMetadataredAction. Următorul cod arată cum puteți filtra și apoi elimina o proprietate de metadate dintr-un document {{EXT}}. Exemplul de mai jos șterge toate proprietățile documentului:"
+      },
+      "title_right": "Șterge metadatele {{EXT}}",
+      "content_right": {
+        "step_1": "Creați o instanță a clasei [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) și încărcați fișierul {{EXT}}",
+        "step_2": "Creați o instanță de [EraseMetadataredAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) pentru a elimina metadatele documentului",
+        "step_3": "Setați domeniul de redactare prin setarea filtrului, de exemplu Înlocuiți metadatafilter.all cu metadatafilter.category în codul de mai jos",
+        "step_4": "Apelați metoda [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) cu obiectul [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "cef91d8d8f160aaf560218d1abd520e2",
+        "file": "CleanMetadata.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "Cerințe de sistem",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET suportă orice sistem de operare pe 32 de biți sau pe 64 de biți unde este instalată platforma .NET. Nu necesită instalarea niciunui software extern sau a unui instrument terț. Pentru ghidul complet al cerințelor de sistem, vă rugăm să vizitați [cerințe de sistem](https://docs.groupdocs.com/redaction/net/system-requirements)",
+        "step_1": "Sisteme de operare: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Mediu de dezvoltare: NetBeans, Intellij IDEA, Eclipse etc",
+        "step_3": "Java Mediu de rulare: J2SE 6.0 și versiuni ulterioare",
+        "step_4": "Obțineți cea mai recentă versiune a GroupDocs.Redaction for Java de la [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Instrucțiuni de instalare",
+      "content_right": {
+        "step_1": "Instalați din linia de comandă ca ```nuget install GroupDocs.Redaction ```sau prin Package Manager Console din Visual Studio cu ```Install-Package GroupDocs.Redaction```. ",
+        "step_2": "Alternativ, obțineți programul de instalare MSI offline sau DLL-urile într-un fișier ZIP din [descărcări](https://downloads.groupdocs.com/redaction/net) și trimiteți-l manual în proiectul dvs."
+      }
+    }
+  },
+  "about_formats": "adevărat"
+}

@@ -1,26 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "redaction/java/metadata/version/pptm"
 otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "Redact Metadata | Java"
 ad_description: "Redact Version from PPTM Metadata in Java"
-
 ############################# Head ############################
 head_title: "Redact Version Metadata from PPTM Document in Java"
 head_description: "GroupDocs.Redaction is a powerful sanitization API that enables you to remove or edit confidential information from over 30 document types."
@@ -89,15 +75,12 @@ steps:
         * Document information extraction - file type, page count etc.
         
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

@@ -1,0 +1,110 @@
+{
+  "layout": "produs",
+  "head": {
+    "title": "C# .NET Redaction API | Ascunde textul privat din PDF Word Excel Imagini",
+    "description": "API-ul de redactare a documentelor pentru .NET. Redactați, ascundeți sau eliminați conținut sensibil din PDF, Microsoft Word, Excel, prezentări și imagini raster."
+  },
+  "header": {
+    "title": "Securizați datele clasificate prin API Redaction",
+    "description": "Redactați, ascundeți sau eliminați conținutul sensibil și metadatele din documente, foi de lucru, prezentări, PDF și fișiere imagine raster utilizând API .NET."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Prezentare generală",
+      "button_text_2": "Caracteristici",
+      "button_text_3": "Suport",
+      "button_text_4": "Demo live",
+      "button_text_5": "Prețuri"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET este o bibliotecă API care vă ajută să ștergeți date sensibile și clasificate din diferite formate de fișiere, cum ar fi Microsoft Word, Excel, PowerPoint și PDF. Interfața unică independentă de format a API-ului nostru Redaction acceptă redactarea de diferite tipuri, de exemplu, redactarea textului, redactarea metadatelor, redactarea adnotărilor și redactarea documentelor tabelare. GroupDocs.Redaction for .NET API vă permite, de asemenea, să redactați fișiere protejate prin parolă. Aveți permisiunea de a salva documentul în formatul său original, precum și de a crea un document igienizat PDF cu imagini raster ale paginilor originale.",
+    "one": {
+      "description": "Mai jos este o prezentare generală a GroupDocs.Redaction pentru {{ProductName}}:",
+      "content": {
+        "title": "Prezentare generală",
+        "step_1": "Redactă text",
+        "step_2": "Redactă metadate",
+        "step_3": "Redact Adnotare",
+        "step_4": "Redact document tabelar",
+        "step_5": "Redactă fișiere protejate",
+        "step_6": "Personalizare"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction pentru {{ProductName}} suportă următoarele [formate de fișiere de documente](https://docs.groupdocs.com/redaction//supported-document-formats/) :{{ProductCode}}",
+      "content": {
+        "title": "Redactează text, metadate și comentarii",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Aspect fix**: PDF",
+        "step_5": "**Imagini raster**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction pentru {{ProductName}} suportă următoarele sisteme de operare, cadre și manageri de pachete:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Sisteme de operare",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux"
+          },
+          "row2": {
+            "title": "Cadre acceptate",
+            "data": "* .NET Framework 2.0 sau mai mare
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-box",
+            "title": "Manager de pachete",
+            "data": "* NuGet"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Medii de dezvoltare",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction pentru {{ProductName}} Caracteristici",
+    "feature1": "Efectuați o căutare sensibilă la majuscule și minuscule pentru redactarea exactă a expresiei",
+    "feature2": "Utilizați caseta de culoare pentru a ascunde textul redactat în loc de înlocuirea șirului",
+    "feature3": "Localizați și redactează orice text folosind căutarea regulată a expresiilor",
+    "feature4": "Filtrați toate sau orice combinație de informații clasificate ale metadatelor din document",
+    "feature5": "Ștergeți rapid informațiile complete de metadate ale unui anumit document",
+    "feature6": "Setați un domeniu de redactare la o anumită foaie de lucru și/sau coloană în Excel",
+    "feature7": "Eliminați toate sau anumite comentarii și alte adnotări din document",
+    "feature8": "Căutați și eliminați date sensibile din textul adnotării",
+    "feature9": "Abilitatea de a lucra cu propriile formate și redacții",
+    "feature10": "Suport pentru formatele de imagine raster și redacțiile regiunii imaginii",
+    "feature11": "Specificați un set de reguli de redactare (politică) în fișierul XML",
+    "feature12": "Specificați intervalul de pagini și nivelul de conformitate PDF în timpul conversiei la PDF",
+    "feature13": "Editarea sau ştergerea metadatelor EXIF din fişierele imagine",
+    "feature14": "Redactează imagini încorporate în PDF, Word & Documente de prezentare",
+    "feature15": "Salvarea unei politici de redactare ca fișier XML"
+  },
+  "more_features": {
+    "title": "Redactați datele dvs. clasificate cu ușurință și control",
+    "content": "{{ProductFullName}} API vă oferă control complet asupra modului în care doriți să ascundeți sau să ștergeți informațiile clasificate importante din documentul acceptat. Utilizarea API-ului nostru Redaction este destul de simplă și directă.",
+    "example": {
+      "description": "În exemplul următor, încărcăm un document acceptat, redactăm orice text, potrivind „2 cifre, spațiu sau nimic, 2 cifre, din nou spațiu și 6 cifre” (cum ar fi 12 34 567890) cu o casetă de culoare albastră folosind {{ProgLang}}. Odată făcut acest lucru, salvează documentul în formatul său original, redenumindu-l cu un sufix adăugat „Redactat”:",
+      "comment_init": "Creați o instanță a clasei Redactor",
+      "comment_apply": "Aplicați redactarea"
+    }
+  },
+  "solutions": "GroupDocs.Redaction oferă API-uri de vizualizare a documentelor pentru alte medii de dezvoltare populare"
+}

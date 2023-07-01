@@ -1,0 +1,104 @@
+{
+  "layout": "produkts",
+  "head": {
+    "title": "Java Redakcijas API | Slēpt sensitīvus datus no PDF Word Excel Attēls",
+    "description": "Java dokumentu redakcijas API — Paslēpt personas datus no PDF, Word, Excel, PowerPoint prezentācijas un rastra attēlus, izmantojot dažādus redakcijas veidus."
+  },
+  "header": {
+    "title": "Realizē privāto informāciju, izmantojot Java API",
+    "description": "Izslēdziet vai paslēpiet personisko informāciju un metadatus no dokumentiem, darblapām, prezentācijām, PDF un rastra attēlu failiem, izmantojot Java redakcijas API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Pārskats",
+      "button_text_2": "Features",
+      "button_text_3": "Atbalsts",
+      "button_text_4": "Live Demo",
+      "button_text_5": "Cenu noteikšana"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API ļauj izstrādātājiem noņemt sensitīvus datus no populāriem failu formātiem, piemēram, Microsoft Word, Excel, PowerPoint, PDF un attēliem, lai tos varētu izmantot un izplatīt, bet joprojām aizsargā konfidenciālu informāciju. Redakcijas bibliotēka piedāvā vienotu formāta neatkarīgu saskarni, lai rediģētu jebkāda veida klasificētu informāciju, tostarp sociālā nodrošinājuma numurus, medicīnisko informāciju, finanšu, patentētu, juridisku vai pat tirdzniecības informāciju, izmantojot tekstu, metadatus un anotāciju redakcijas veidus. Tas ļauj saglabāt dokumentu tā sākotnējā formātā un izveidot dezinficētu PDF dokumentu ar oriģinālo lapu rastra attēliem.",
+    "one": {
+      "description": "Tālāk ir sniegts pārskats par GroupDocs.Redaction par {{ProductName}}:",
+      "content": {
+        "title": "Pārskats",
+        "step_1": "Realizēt tekstu",
+        "step_2": "Reģēt metadatus",
+        "step_3": "Realizēt anotāciju",
+        "step_4": "Redakts tabulveida dokuments",
+        "step_5": "Realizēt aizsargātus failus",
+        "step_6": "Pielāgošana"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction {{ProductName}} atbalsta šādus [dokumentu failu formātus](https://docs.groupdocs.com/redaction//supported-document-formats/) :{{ProductCode}}",
+      "content": {
+        "title": "Realizēt tekstu, metadatus un komentārus",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Fiksēts izkārtojums**: PDF",
+        "step_5": "**Rastra attēli**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction {{ProductName}} atbalsta šādas operētājsistēmas, ietvarus un pakešu pārvaldniekus:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Operētājsistēmas",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * Mac OS"
+          },
+          "row2": {
+            "title": "Atbalstītās sistēmas",
+            "data": "* Java 7 (1.7.) un augstāk"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-zobratus",
+            "title": "Attīstības vide",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Eclipse"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Veidot automatizācijas rīku",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction {{ProductName}} funkcijām",
+    "feature1": "Meklējiet un rediģējiet precīzas meklēšanas virknes atbilstības",
+    "feature2": "Kontrolēt redakcijas procesu un izlaist konkrētas atbilstības",
+    "feature3": "Atrodiet un rediģējiet, izmantojot regulārās izteiksmes",
+    "feature4": "Iebūvēts atbalsts biroja formātiem un PDF",
+    "feature5": "Iztīrīt metadatus vai rediģēt metadatu vērtības",
+    "feature6": "Redakcijas ierobežojums noteiktām darblapām un kolonnām",
+    "feature7": "Noņemt anotācijas vai rediģēt to tekstus",
+    "feature8": "Teksta (izņēmuma kodu) vai grafisko (krāsainu taisnstūru) redakcijas izmantošana",
+    "feature9": "Saglabājiet dokumentu tā sākotnējā formātā vai kā PDF ar oriģinālo lapu rastra attēliem",
+    "feature10": "Atbalsts rastra attēlu formātiem un attēlu reģionu redakcijām",
+    "feature11": "Integrācijas interfeiss pielāgotas redakcijas un formātu ieviešanai",
+    "feature12": "Rediģēt vai noņemt EXIF metadatus no attēla failiem",
+    "feature13": "Redakt iegultos attēlus iekšā PDF, Word & prezentācijas dokumentos"
+  },
+  "more_features": {
+    "title": "Privātuma nodrošināšanai, redakcijā savus klasificētos datus",
+    "content": "{{ProductFullName}} bibliotēka ļauj izstrādātājiem rediģēt tekstu un attēlus no atbalstītajiem dokumentiem, izmantojot dažādus redakcijas veidus. Lai izmantotu mūsu Redaction API ir vienkārša un taisni uz priekšu.",
+    "example": {
+      "description": "Šajā koda piemērā tiek izmantots tabulveida dokuments, piemēram, Microsoft Excel izklājlapa, kurā redakcijas tvērumu var ierobežot līdz noteiktai darblapai un/vai kolonnai. Tas izmanto filtrus, lai rediģētu otro kolonnu ar e-pasta ziņojumiem darblapā “Klienti”, atstājot visus pārējos e-pasta ziņojumus dokumentā neskartu.",
+      "comment_init": "Redaktora klases instances izveide",
+      "comment_apply": "Lietot redakciju"
+    }
+  },
+  "solutions": "GroupDocs.Redaction piedāvā dokumentu apskates API citām populārām izstrādes vidēm"
+}

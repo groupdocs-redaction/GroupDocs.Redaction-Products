@@ -1,0 +1,51 @@
+{
+  "layout": "artikel",
+  "head": {
+    "title": "Oplossing voor het redigeren van documenten | API's op locatie en gratis app",
+    "description": "Metagegevens en tekstinhoud verwijderen, redigeren of verbergen in MS Office Word documenten, Excel spreadsheets, PowerPoint presentaties, PDF en afbeeldingsbestandsindelingen."
+  },
+  "header": {
+    "title": "Redactie-oplossing om geheime informatie te beveiligen",
+    "description": "Verberg of verwijder privégegevens uit Microsoft Office documenten, spreadsheets, presentaties, PDF en afbeeldingen."
+  },
+  "apis": {
+    "code": {
+      "title": "GroupDocs.Redaction High Code API's bevatten",
+      "label": "Bekijk alle High Code API's",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction voor",
+        "content": "On-premise .NET API om de inhoud en metagegevens van je persoonlijke documenten te verbergen of te verwijderen."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction voor",
+        "content": "On-premise Java API's om tekst uit inhoud en metagegevens van ondersteunde bestandsindelingen te verwijderen of te verbergen."
+      }
+    },
+    "apps": {
+      "title": "GroupDocs.Redaction No Code Apps omvatten",
+      "label": "Bekijk alle No Code Apps",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/asposeredaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Eén app voor het redigeren van gevoelige informatie uit Word, Excel, PowerPoint, PDF en vele andere soorten documenten."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocswords-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Redigeer informatie uit Word -documenten met elke webbrowser."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocspdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Verwijder gratis online inhoud uit je PDF -documenten."
+      }
+    }
+  }
+}

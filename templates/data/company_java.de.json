@@ -1,0 +1,72 @@
+{
+  "layout": "Auto-Gen-Gist",
+  "head": {
+    "title": "Bearbeitung von Metadaten aus {{EXT}} -Dokument in {{ProgLang}}",
+    "description": "Suchen, ersetzen, entfernen oder bearbeiten Sie mühelos Metadaten verschiedener Dokumenttypen, indem Sie mithilfe der GroupDocs.Redaction -API für {{ProgLang}} Filter anwenden, um bestimmte Metadateneigenschaften auszuwählen.",
+    "ad_headline": "Metadaten redigieren | {{ProgLang}}",
+    "ad_description": "Firmenname aus {{EXT}} Metadaten in {{ProgLang}} redigieren"
+  },
+  "header": {
+    "title": "Bearbeitung von Metadaten aus {{EXT}} -Dokument in {{ProgLang}}",
+    "description": "Suchen, ersetzen, entfernen oder bearbeiten Sie mühelos Metadaten verschiedener Dokumenttypen, indem Sie mithilfe der GroupDocs.Redaction -API für {{ProgLang}} Filter anwenden, um bestimmte Metadateneigenschaften auszuwählen."
+  },
+  "about": {
+    "title": "Erste Schritte mit der Bearbeitung von Metadaten",
+    "h1": "Manchmal müssen Sie unerwünschte Metadatenfelder vollständig löschen oder ihre Werte aktualisieren. Es gibt auch versteckte Daten, die mit Dateien verknüpft sind und mit verschiedenen Tools und Techniken angezeigt werden können. Es gibt viele Situationen, in denen Sie nicht möchten, dass diese Daten für irgendjemanden zugänglich sind. Schwärzung bedeutet das Entfernen unerwünschter oder vertraulicher Informationen aus verschiedenen Dokumenten. Alle Dateiformate, einschließlich PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX und andere, haben spezifische Metadatenstrukturen. Zu den Metadateneigenschaften gehören Autorenname, Kategorie, Firmenname, Kommentare, Erstellungszeit und letzte Aktualisierung usw. Mit der GroupDocs.Redaction -API können Sie die Metadatenschwärzung auf jedes dieser Metadatenfelder anwenden. Sie können sie ändern oder löschen, indem Sie die gewünschten Metadaten filtern. In diesem Handbuch erklären wir, wie Sie die Metadatenschwärzung aus dem Dokument {{EXT}} in {{ProgLang}} anwenden können."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Metadaten der Datei {{EXT}} redigieren",
+      "content_left": {
+        "step_1": "Mit dem folgenden Code können Sie vertrauliche Daten in einem {{EXT}} -Dokument suchen und redigieren. Sie können den Umfang der Schwärzung festlegen, indem Sie den Filter setzen, z. B. auf MetadataFilter.company. Die Treffer mit regulären Ausdrücken werden in allen Metadatenelementen außer der Eigenschaft „Company“ rückgängig gemacht:"
+      },
+      "title_right": "Schritte zum Redigieren von Metadaten",
+      "content_right": {
+        "step_1": "Erstellen Sie eine Instanz der Klasse [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) und laden Sie die Datei {{EXT}} hoch",
+        "step_2": "Erstellen Sie eine Instanz der Klasse [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction), um vertrauliche Daten aus den Metadaten des Dokuments zu finden und zu ersetzen",
+        "step_3": "Legen Sie den Umfang für die Schwärzung fest, indem Sie den Filter festlegen, z. B. Verwenden Sie MetadataFilters.company im folgenden Code",
+        "step_4": "Rufen Sie die Speichermethode mit dem Objekt von [MetadataSearchRedAction] auf (https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "5b04349a19f1627145ab6a9f8f0f5fc0",
+        "file": "RedactCompanyMetadata.java"
+      }
+    },
+    "example2": {
+      "title_left": "{{EXT}} Metadaten in {{ProgLang}} entfernen",
+      "content_left": {
+        "step_1": "Mithilfe der EraseMetaDataRedAction-Klasse können Sie alle oder bestimmte Metadaten im Dokument durch leere (leere oder minimale) Werte ersetzen. Der folgende Code zeigt, wie Sie eine Metadateneigenschaft aus einem {{EXT}} -Dokument filtern und anschließend entfernen können. Im folgenden Beispiel werden alle Eigenschaften des Dokuments ausgeblendet:"
+      },
+      "title_right": "So löschen Sie Unternehmensmetadaten",
+      "content_right": {
+        "step_1": "Erstellen Sie eine Instanz der Klasse [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) und laden Sie die Datei {{EXT}} hoch",
+        "step_2": "Erstellen Sie eine Instanz der Klasse [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction), um Metadaten des Dokuments zu entfernen",
+        "step_3": "Legen Sie den Umfang für die Schwärzung fest, indem Sie den Filter festlegen, z. B. Ersetzen Sie MetadataFilter.all durch MetadataFilter.company im folgenden Code",
+        "step_4": "Rufen Sie die Speichermethode mit dem Objekt von [MetadataSearchRedAction] auf (https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Systemanforderungen",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Den vollständigen Leitfaden zu den Systemanforderungen finden Sie unter [Systemanforderungen](https://docs.groupdocs.com/redaction/java/system-requirements) Bevor Sie den folgenden Code ausführen, stellen Sie sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind:",
+        "step_1": "Betriebssysteme: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Entwicklungsumgebung: NetBeans, Intellij IDEA, Eclipse usw.",
+        "step_3": "Java Laufzeitumgebung: J2SE 6.0 und höher",
+        "step_4": "Hol dir die neueste Version von GroupDocs.Redaction for Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Warum GroupDocs.Redaction verwenden",
+      "content_right": {
+        "step_1": "Erlauben Sie Benutzern, benutzerdefinierte Dokumentformate und Arten von Schwärzungen hinzuzufügen",
+        "step_2": "Es ist keine zusätzliche Software erforderlich, um vertrauliche Informationen zu entfernen",
+        "step_3": "Möglichkeit, das Dokument zum Rendern des Seitenbereichs als PDF festzulegen",
+        "step_4": "Einfache Möglichkeit, verschiedene Arten von Metadaten zu redigieren: Autorenname, Version, Titel, Betreff, Beschreibung und vieles mehr",
+        "step_5": "Extraktion von Dokumentinformationen — Dateityp, Seitenanzahl usw."
+      }
+    }
+  },
+  "about_formats": "wahr"
+}

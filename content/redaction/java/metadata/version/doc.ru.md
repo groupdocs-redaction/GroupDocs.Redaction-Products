@@ -1,26 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "ru/redaction/java/metadata/version/doc"
 otherformats: BMP DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "Редактировать метаданные | Java"
 ad_description: "Редактировать версию из метаданных DOC в Java"
-
 ############################# Head ############################
 head_title: "Редактировать метаданные версии из документа DOC в Java"
 head_description: "GroupDocs.Redaction — это мощный API-интерфейс очистки, который позволяет удалять или редактировать конфиденциальную информацию из более чем 30 типов документов."
@@ -89,15 +75,12 @@ steps:
         * Извлечение информации о документе — тип файла, количество страниц и т. д.
         
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

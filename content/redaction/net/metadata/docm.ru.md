@@ -1,24 +1,10 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "ru/redaction/net/metadata/docm"
 otherformats: BMP DOC DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
-
 
 ############################# Head ############################
 head_title: "Применение редактирования метаданных к PDF, DOCX, PPT, PPTX, XLS, XLSX в .NET"
@@ -52,8 +38,7 @@ steps:
       content_right: |
         * Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor).
         * Метод вызова redactor.Apply с объектом EraseMetadataRedaction [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)
-        * Вызвать метод redactor.save для сохранения документа в файл "*_Redacted.*" в исходном формате.
-        
+        * Вызвать метод redactor.save для сохранения документа в файл "*_Redacted.*" в исходном формате.        
       gisthash: "8f1bc20dff33c9a45c01a9e251555bf1"
       gistfile: "how_to_clean_metadata_dotnet.cs"
 
@@ -89,11 +74,9 @@ steps:
         * Извлечение информации о документе — тип файла, количество страниц и т. д.
         * Полная поддержка нескольких форматов данных
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

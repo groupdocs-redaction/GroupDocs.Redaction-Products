@@ -1,0 +1,102 @@
+{
+  "layout": "hasil",
+  "head": {
+    "title": "Java Redaction API | Sembunyikan data sensitif dari PDF Word Excel Imej",
+    "description": "Java API redaksi dokumen - Sembunyikan data peribadi dari PDF, Word, Excel, PowerPoint persembahan & imej raster melalui pelbagai jenis redaksi."
+  },
+  "header": {
+    "title": "Redact Maklumat Peribadi melalui Java API",
+    "description": "Kecualikan atau sembunyikan maklumat peribadi & metadata daripada dokumen, lembaran kerja, persembahan, PDF dan fail imej raster menggunakan Java redaction API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Gambaran Keseluruhan",
+      "button_text_2": "Ciri-ciri",
+      "button_text_3": "Sokongan",
+      "button_text_4": "Demo Live",
+      "button_text_5": "Harga"
+    }
+  },
+  "tabs": {
+    "overview": "API GroupDocs.Redaction for Java membolehkan pemaju membuang data sensitif daripada format fail popular seperti Microsoft Word, Excel, PowerPoint, PDF dan imej supaya ia boleh digunakan dan diedarkan, tetapi masih melindungi maklumat sulit juga. Perpustakaan redaksi menawarkan antara muka bebas format tunggal untuk menyunting sebarang jenis maklumat rahsia termasuk nombor keselamatan sosial, maklumat perubatan, butiran kewangan, proprietari, undang-undang atau bahkan perdagangan melalui teks, metadata dan jenis redaksi anotasi. Ia membolehkan anda menyimpan dokumen dalam format asalnya dan membuat dokumen PDF yang dibersihkan dengan imej raster halaman asal.",
+    "one": {
+      "description": "Berikut adalah gambaran keseluruhan GroupDocs.Redaction untuk {{ProductName}}:",
+      "content": {
+        "title": "Gambaran Keseluruhan",
+        "step_1": "Teks Redact",
+        "step_2": "Redact Metadata",
+        "step_3": "Redact Anotasi",
+        "step_4": "Dokumen Jadual Redact",
+        "step_5": "Redact Fail Dilindungi",
+        "step_6": "Penyesuaian"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction untuk {{ProductName}} menyokong berikut [format fail dokumen](https://docs.groupdocs.com/redaction//supported-document-formats/{{ProductCode}}):",
+      "content": {
+        "title": "Redact Teks, Metadata & Komen",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_4": "**Layout Tetap**: PDF",
+        "step_5": "**Imej Raster**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction untuk {{ProductName}} menyokong Sistem Operasi, Rangka Kerja & Pengurus Pakej berikut:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Sistem Operasi",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * Mac"
+          },
+          "row2": {
+            "title": "Rangka Kerja yang Disokong",
+            "data": "* Java 7 (1.7) dan ke atas"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-cogs",
+            "title": "Persekitaran Pembangunan",
+            "data": "* NetBeans
+                * IDEA IntelliJ
+                * Gerhana"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Membina Alat Automasi",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction untuk {{ProductName}} Ciri-ciri",
+    "feature1": "Cari dan redact padanan tepat rentetan carian",
+    "feature2": "Kawal proses redaksi dan langkau padanan tertentu",
+    "feature3": "Cari dan redact menggunakan ungkapan biasa",
+    "feature4": "Sokongan terbina dalam untuk format pejabat dan PDF",
+    "feature5": "Hapuskan metadata atau redact nilai metadata",
+    "feature6": "Hadkan redaksi pada lembaran kerja dan lajur tertentu",
+    "feature7": "Keluarkan anotasi atau redact teks mereka",
+    "feature8": "Gunakan redaksi teks (kod pengecualian) atau grafik (segi empat tepat berwarna)",
+    "feature9": "Simpan dokumen dalam format asalnya atau sebagai PDF dengan imej raster halaman asal",
+    "feature10": "Sokongan untuk format imej raster dan redaksi rantau imej",
+    "feature11": "Antara muka integrasi untuk melaksanakan redaksi dan format tersuai",
+    "feature12": "Edit atau Alih Keluar Metadata EXIF daripada Fail Imej",
+    "feature13": "Redact Embedded Images di dalam PDF, Word & Dokumen Pembentangan"
+  },
+  "more_features": {
+    "title": "Pastikan Privasi dengan Redacting Data Dikelaskan anda",
+    "content": "Perpustakaan {{ProductFullName}} memberi kuasa kepada pembangun untuk menyunting teks dan gambar dari dokumen yang disokong dengan menggunakan pelbagai jenis redaksi. Untuk menggunakan API Redaction kami adalah mudah dan lurus ke hadapan.",
+    "example": {
+      "description": "Contoh kod berikut menggunakan dokumen jadual seperti hamparan Microsoft Excel di mana skop redaksi boleh dihadkan kepada lembaran kerja dan/atau lajur tertentu. Ia menggunakan penapis untuk menyunting lajur kedua dengan e-mel pada lembaran kerja “Pelanggan”, meninggalkan semua e-mel lain yang tidak disentuh dalam dokumen.",
+      "comment_init": "Buat contoh kelas Redactor",
+      "comment_apply": "Sapukan redaksi"
+    }
+  },
+  "solutions": "GroupDocs.Redaction menawarkan API tontonan dokumen untuk persekitaran pembangunan popular yang lain"
+}

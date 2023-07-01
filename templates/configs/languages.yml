@@ -1,5 +1,5 @@
 dimensions: 
 - alias: lang
-  values: [en, de, es, fr, id, ja, ko, ru, zh] 
+  values: [en, de, es, fr, id, ja, ko, ru, zh, it, nl, ro, sk, sl, hi, tr, uk, lv, ms] 
 ##  values: [en, ru] ## UNCOMMENT FOR TESTING
 ##  values: [en, de, ex, fr, id, ja, ko, ru, zh]

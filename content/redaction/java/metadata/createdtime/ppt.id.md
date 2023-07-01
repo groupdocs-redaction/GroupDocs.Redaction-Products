@@ -1,26 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "id/redaction/java/metadata/createdtime/ppt"
 otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "Sunting Metadata | java_Camel"
 ad_description: ""
-
 ############################# Head ############################
 head_title: "Redaksi Metadata Dari PPT Dokumen di Java"
 head_description: "Cari, ganti, hapus, atau edit metadata dari berbagai jenis dokumen dengan mudah dengan menerapkan filter untuk memilih properti metadata tertentu menggunakan GroupDocs.Redactions API untuk Java."
@@ -89,15 +75,12 @@ steps:
         * Ekstraksi informasi dokumen - jenis file, jumlah halaman, dll.
         
 
-
 ############################# Demos ############################
 demos:
     enable: true
-
 ############################# About Formats ############################
 about_formats:
     enable: true
-
 ############################# More Formats ############################
 more_formats:
     enable: true

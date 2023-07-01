@@ -1,0 +1,51 @@
+{
+  "layout": "produkt",
+  "head": {
+    "title": "Rešitev za redakcijo dokumentov | Na predpostavki API-jev in brezplačna aplikacija",
+    "description": "Odstranite, uredite ali skrijete metapodatke in vsebino besedila v dokumentih MS Office Word, preglednicah Excel, predstavitvah PowerPoint, PDF in formatih slikovnih datotek."
+  },
+  "header": {
+    "title": "Rešitev za redakcijo za varno tajnih informacij",
+    "description": "Skrij ali odstrani zasebne podatke iz dokumentov Microsoft Office, preglednic, predstavitev, PDF in slik."
+  },
+  "apis": {
+    "code": {
+      "title": "GroupDocs.Redaction High Code API-ji Vključi",
+      "label": "Prikaži vse API-je High Code",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction za",
+        "content": "V predpostavki .NET API za skrivanje ali odstranitev vsebine in metapodatkov iz osebnih dokumentov."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction za",
+        "content": "V vmesnikih Java API-jev želite odstraniti ali skriti besedilo iz vsebine in metapodatkov podprtih formatov datotek."
+      }
+    },
+    "apps": {
+      "title": "GroupDocs.Redaction No Code Aplikacije vključujejo",
+      "label": "Oglejte si vse No Code Aplikacije",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/asposeredaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Posamezna aplikacija za redakcijo občutljivih informacij iz Word, Excel, PowerPoint, PDF in mnogih drugih vrst dokumentov."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocswords-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Redaktirate podatke iz dokumentov Word z uporabo katerega koli spletnega brskalnika."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocspdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Brezplačno izpišite vsebino iz dokumentov PDF na spletu."
+      }
+    }
+  }
+}

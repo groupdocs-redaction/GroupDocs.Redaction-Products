@@ -1,0 +1,110 @@
+{
+  "layout": "prodotto",
+  "head": {
+    "title": "API di redazione C# .NET | Nascondi testo privato da PDF Word Excel immagini",
+    "description": "API di redazione dei documenti per .NET. Modifica, nascondi o rimuovi contenuti sensibili da PDF, Microsoft Word, Excel, presentazioni e immagini raster."
+  },
+  "header": {
+    "title": "Proteggi i dati classificati tramite l'API di redazione",
+    "description": "Modifica, nascondi o rimuovi contenuti e metadati sensibili da documenti, fogli di lavoro, presentazioni, PDF e file di immagini raster utilizzando l'API .NET."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Panoramica",
+      "button_text_2": "Caratteristiche",
+      "button_text_3": "Supporto",
+      "button_text_4": "Dimostrazione dal vivo",
+      "button_text_5": "Prezzi"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET è una libreria API che consente di cancellare dati sensibili e classificati da vari formati di file, come Microsoft Word, Excel, PowerPoint e PDF. L'unica interfaccia indipendente dal formato della nostra API di redazione supporta la redazione di vari tipi, ad esempio la redazione del testo, la redazione dei metadati, la redazione delle annotazioni e la redazione di documenti tabulari. L'API GroupDocs.Redaction for .NET consente inoltre di oscurare i file protetti da password. Puoi salvare il documento nel suo formato originale e creare un documento PDF igienizzato con immagini raster delle pagine originali.",
+    "one": {
+      "description": "Di seguito è riportata una panoramica di GroupDocs.Redaction per {{ProductName}}:",
+      "content": {
+        "title": "Panoramica",
+        "step_1": "Redigere testo",
+        "step_2": "Redigere i metadati",
+        "step_3": "Redigere annotazione",
+        "step_4": "Redigere un documento tabulare",
+        "step_5": "Oscurare i file protetti",
+        "step_6": "Personalizzazione"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction per {{ProductName}} supporta i seguenti [formati di file di documento](https://docs.groupdocs.com/redaction//supported-document-formats/{{ProductCode}}):",
+      "content": {
+        "title": "Redigere testo, metadati e commenti",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Layout fisso**: PDF",
+        "step_5": "**Immagini raster**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} supporta i seguenti sistemi operativi, framework e gestori di pacchetti:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Sistemi operativi",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux"
+          },
+          "row2": {
+            "title": "Framework supportati",
+            "data": "* .NET Framework 2.0 o superiore
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fax box veloce",
+            "title": "Gestore pacchetti",
+            "data": "* NuGet"
+          },
+          "row2": {
+            "icon": "fa-tools veloci",
+            "title": "Ambienti di sviluppo",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction per {{ProductName}} Caratteristiche",
+    "feature1": "Esegui una ricerca con distinzione tra maiuscole e minuscole per la redazione esatta",
+    "feature2": "Usa la casella di colore per nascondere il testo redatto invece della sostituzione delle stringhe",
+    "feature3": "Individua e oscura qualsiasi testo utilizzando la ricerca con espressioni regolari",
+    "feature4": "Filtra tutte o una combinazione di informazioni classificate sui metadati del documento",
+    "feature5": "Cancella rapidamente le informazioni complete sui metadati di un documento specifico",
+    "feature6": "Imposta l'ambito della redazione su un foglio di lavoro e/o una colonna specifici in Excel",
+    "feature7": "Rimuovi tutti o specifici commenti e altre annotazioni dal documento",
+    "feature8": "Cerca e rimuovi dati sensibili dal testo dell'annotazione",
+    "feature9": "Capacità di lavorare con i propri formati e redazioni",
+    "feature10": "Supporto per formati di immagini raster e redazioni di regioni di immagini",
+    "feature11": "Specificare una serie di regole di redazione (policy) nel file XML",
+    "feature12": "Specifica l'intervallo di pagine e il livello di conformità PDF durante la conversione a PDF",
+    "feature13": "Modifica o elimina EXIF metadati dai file di immagine",
+    "feature14": "Oscura le immagini incorporate nei PDF, Word e nei documenti di presentazione",
+    "feature15": "Salvare una politica di redazione come file XML"
+  },
+  "more_features": {
+    "title": "Redigete i vostri dati classificati con facilità e controllo",
+    "content": "L'API {{ProductFullName}} ti garantisce il controllo completo su come nascondere o cancellare le tue importanti informazioni classificate dal documento supportato. Usare la nostra API di redazione è piuttosto semplice e diretto.",
+    "example": {
+      "description": "Nel seguente esempio, carichiamo un documento supportato, cancelliamo qualsiasi testo, abbinando «2 cifre, spazio o niente, 2 cifre, ancora spazio e 6 cifre» (ad esempio 12 34 567890) con una casella di colore blu utilizzando {{ProgLang}}. Fatto ciò, salva il documento nel suo formato originale rinominandolo con l'aggiunta del suffisso «Redacted»:",
+      "comment_init": "Crea un'istanza della classe Redactor",
+      "comment_apply": "Applica la redazione"
+    }
+  },
+  "solutions": "GroupDocs.Redaction offre API per la visualizzazione di documenti per altri ambienti di sviluppo diffusi"
+}

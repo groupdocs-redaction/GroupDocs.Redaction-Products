@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Bewerk gevoelige informatie uit {{EXT}}-documenten via .NET Core",
+    "description": "Pas tekstredactie toe met behulp van exacte zin of reguliere expressie voor documenten van verschillende formaten"
+  },
+  "header": {
+    "title": "Bewerk {{EXT}} bestanden via {{ProgLang}} in .NET Core-apps",
+    "description": "Zoek en vervang tekst in Office- en OpenOffice-documenten, -spreadsheets en -presentaties en in {{EXT}} op Windows, Linux en macOS"
+  },
+  "about": {
+    "title": "Documentredactie voor .NET API",
+    "h1": "Eén formaat-onafhankelijke interface voor het redigeren van gevoelige en geheime informatie uit de PDF, Word, Excel, PowerPoint documenten en afbeeldingen, inclusief de mogelijkheid om metadata te wijzigen en opmerkingen te verwijderen. Met de tool {{ProductFullName}} kunt u tekst redigeren en geredigeerde documenten opslaan in PDF, alle pagina's transformeren in rasterafbeeldingen of het document in zijn oorspronkelijke formaat behouden voor verdere bewerking."
+  },
+  "steps": {
+    "title_left": "Bewerk exacte tekst van {{EXT}} via {{ProgLang}}",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) maakt het gemakkelijk voor {{ProductName}} ontwikkelaars om {{EXT}} de functie voor het redigeren van bestanden toe te voegen in een paar eenvoudige stappen.",
+      "step_1": "Maak een instantie van [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) klasse & laad {{EXT}} bestand",
+      "step_2": "Maak een instantie van de klasse [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) om de tekst te zoeken en te vervangen",
+      "step_3": "Roep de methode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) aan met object van ExactPhraseRedaction"
+    },
+    "title_right": "Aan de slag met Redaction API",
+    "content_right": {
+      "description": "{{ProductFullName}} API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Installeer vanaf de opdrachtregel als ```nuget install GroupDocs.Redaction``` of via Package Manager Console van Visual Studio met ```Install-Package GroupDocs.Redaction```.",
+      "step_2": "U kunt ook het offline MSI-installatieprogramma of de DLL's in een ZIP-bestand downloaden van [downloads](https://downloads.groupdocs.com/redaction/net) en er handmatig naar verwijzen in uw project."
+    }
+  },
+  "about_formats": "true"
+}

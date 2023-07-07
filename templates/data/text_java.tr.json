@@ -1,5 +1,5 @@
 {
-  "layout": "oto-gen-gist",
+  "layout": "auto-gen-gist",
   "head": {
     "title": "{{EXT}} 'de Tam Deyim/Düzenli İfade yoluyla {{EXT}} Metni Redakt",
     "description": "GroupDocs.Redaction s Java API, geliştiricilerin PDF DOC DOCX RTF XLSX CSV PPT PPTX ve görüntülerden Java içindeki tam ifade veya düzenli ifade yoluyla metni yeniden düzenlemesine olanak tanır"
@@ -85,5 +85,5 @@
       }
     }
   },
-  "about_formats": "doğru"
+  "about_formats": "false"
 }

@@ -1,5 +1,5 @@
 {
-  "layout": "auto-gen intipati",
+  "layout": "auto-gen-gist",
   "head": {
     "title": "Redact {{EXT}} Teks melalui Frasa Tepat /Ungkapan Biasa dalam Java",
     "description": "GroupDocs.Redaction s Java API membolehkan pemaju menyunting teks dari PDF DOC DOCX RTF XLSX CSV PPT PPTX & imej melalui frasa tepat atau ungkapan biasa dalam Java"
@@ -85,5 +85,5 @@
       }
     }
   },
-  "about_formats": "betul"
+  "about_formats": "false"
 }

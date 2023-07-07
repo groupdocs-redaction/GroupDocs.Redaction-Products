@@ -1,5 +1,5 @@
 {
-  "layout": "ऑटो-जेन-जिस्ट",
+  "layout": "auto-gen-gist",
   "head": {
     "title": "Java में सटीक वाक्यांश/नियमित अभिव्यक्ति के माध्यम से {{EXT}} टेक्स्ट को संपादित करें",
     "description": "GroupDocs.Redaction s Java API डेवलपर्स को PDF DOC DOCX RTF XLSX CSV PPT PPTX से टेक्स्ट और Java में सटीक वाक्यांश या नियमित अभिव्यक्ति के माध्यम से छवियों को संपादित करने में सक्षम बनाता है"
@@ -85,5 +85,5 @@
       }
     }
   },
-  "about_formats": "सच है"
+  "about_formats": "false"
 }

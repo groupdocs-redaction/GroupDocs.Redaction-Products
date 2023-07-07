@@ -1,5 +1,5 @@
 {
-  "layout": "автоген-гіст",
+  "layout": "auto-gen-gist",
   "head": {
     "title": "Редагувати текст {{EXT}} за допомогою точної фрази/регулярного виразу в Java",
     "description": "GroupDocs.Redaction s Java API дозволяє розробникам редагувати текст з PDF DOC DOCX RTF XLSX CSV PPT PPT PPTX & зображень за допомогою точної фрази або регулярного виразу в Java"
@@ -85,5 +85,5 @@
       }
     }
   },
-  "about_formats": "істинний"
+  "about_formats": "false"
 }

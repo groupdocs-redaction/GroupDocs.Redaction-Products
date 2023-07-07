@@ -1,5 +1,5 @@
 {
-  "layout": "gen-gist automatico",
+  "layout": "auto-gen-gist",
   "head": {
     "title": "Modificare {{EXT}} testo tramite frase esatta/espressione regolare in Java",
     "description": "L'API GroupDocs.Redaction s Java consente agli sviluppatori di oscurare il testo da PDF DOC DOCX RTF XLSX CSV PPT PPTX e immagini tramite una frase esatta o un'espressione regolare in Java"
@@ -85,5 +85,5 @@
       }
     }
   },
-  "about_formats": "vero"
+  "about_formats": "false"
 }

@@ -1,5 +1,5 @@
 {
-  "layout": "auto-gen-bistvo",
+  "layout": "auto-gen-gist",
   "head": {
     "title": "Redaktirate {{EXT}} Besedilo s točnim izrazom/regularnim izrazom v Java",
     "description": "GroupDocs.Redaction s Java API razvijalcem omogoča, da redigirajo besedilo iz PDF DOC DOCX RTF XLSX CSV PPT PPTX in slik prek natančne fraze ali regularnega izraza v Java"
@@ -85,5 +85,5 @@
       }
     }
   },
-  "about_formats": "resnično"
+  "about_formats": "false"
 }

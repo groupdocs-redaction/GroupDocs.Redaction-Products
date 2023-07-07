@@ -1,5 +1,5 @@
 {
-  "layout": "auto-gengist",
+  "layout": "auto-gen-gist",
   "head": {
     "title": "{{EXT}} Tekst redigeren via exacte frase/reguliere expressie in Java",
     "description": "GroupDocs.Redaction s Java API stelt ontwikkelaars in staat om tekst uit PDF DOC DOCX RTF XLSX CSV PPT PPTX en afbeeldingen te redigeren via een exacte woordgroep of reguliere expressie in Java"
@@ -85,5 +85,5 @@
       }
     }
   },
-  "about_formats": "waar"
+  "about_formats": "false"
 }

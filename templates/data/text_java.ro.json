@@ -1,5 +1,5 @@
 {
-  "layout": "autogen-gist",
+  "layout": "auto-gen-gist",
   "head": {
     "title": "Redactă {{EXT}} Textul prin frază exactă/expresie regulată în Java",
     "description": "GroupDocs.Redaction s Java API permite dezvoltatorilor să redacteze text din PDF DOC DOCX RTF XLSX CSV PPT PPTX și imagini prin expresie exactă sau expresie regulată în Java"
@@ -85,5 +85,5 @@
       }
     }
   },
-  "about_formats": "adevărat"
+  "about_formats": "false"
 }

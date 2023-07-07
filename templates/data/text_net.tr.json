@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "{{EXT}} Dokümanlardaki Hassas Bilgileri .NET Core Aracılığıyla Çıkartın",
+    "description": "Farklı biçimlerdeki belgeler için tam ifade veya normal ifade kullanarak metin redaksiyonu uygulayın"
+  },
+  "header": {
+    "title": ".NET Temel Uygulamada {{ProgLang}} aracılığıyla {{EXT}} Dosyayı Düzeltin",
+    "description": "Office ve OpenOffice Belgeleri, E-Tablolar ve Sunumların yanı sıra Windows, Linux ve macOS'ta {{EXT}}'te Metin Arayın ve Değiştirin"
+  },
+  "about": {
+    "title": ".NET API için Belge Redaksiyonu",
+    "h1": "PDF, Word, Excel, PowerPoint belgelerinden ve resimlerinden hassas ve sınıflandırılmış bilgileri yeniden düzenlemek için, meta verileri değiştirme ve yorumları kaldırma yeteneği dahil, biçimden bağımsız tek bir arayüz. {{ProductFullName}} aracıyla, metni yeniden düzenleyebilir ve düzeltilmiş belgeyi PDF içinde kaydedebilir, tüm sayfaları raster görüntülere dönüştürebilir veya daha fazla düzenleme için belgeyi orijinal biçiminde tutabilirsiniz."
+  },
+  "steps": {
+    "title_left": "{{ProgLang}} aracılığıyla {{EXT}}'ten Tam Metni Reddet",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/), {{ProductName}} geliştiricilerinin birkaç kolay adımda {{EXT}} dosya düzenleme özelliği eklemesini kolaylaştırır.",
+      "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) sınıfının bir örneğini oluşturun ve {{EXT}} dosyasını yükleyin",
+      "step_2": "Metni bulmak ve değiştirmek için [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) sınıfının bir örneğini oluşturun",
+      "step_3": "ExactPhraseRedaction nesnesiyle [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) yöntemini çağırın"
+    },
+    "title_right": "Redaksiyon API'sini Kullanmaya Başlayın",
+    "content_right": {
+      "description": "{{ProductFullName}} API'ler, tüm büyük platformlarda ve işletim sistemlerinde desteklenir. Aşağıdaki kodu çalıştırmadan önce lütfen sisteminizde aşağıdaki önkoşulların yüklü olduğundan emin olun.",
+      "step_1": "Komut satırından \"nuget install GroupDocs.Redaction\"\" olarak veya Visual Studio'nun Paket Yöneticisi Konsolu aracılığıyla \"Install-Package GroupDocs.Redaction\"\" ile yükleyin.",
+      "step_2": "Alternatif olarak, [downloads](https://downloads.groupdocs.com/redaction/net) adresinden bir ZIP dosyasındaki çevrimdışı MSI yükleyicisini veya DLL'leri edinin ve projenizde buna manuel olarak başvurun."
+    }
+  },
+  "about_formats": "true"
+}

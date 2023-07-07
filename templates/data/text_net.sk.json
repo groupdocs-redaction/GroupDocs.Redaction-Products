@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Redukujte citlivé informácie z {{EXT}} dokumentov prostredníctvom .NET Core",
+    "description": "Použite textovú úpravu pomocou presnej frázy alebo regulárneho výrazu pre dokumenty rôznych formátov"
+  },
+  "header": {
+    "title": "Úprava {{EXT}} súborov cez {{ProgLang}} v .NET Core Apps",
+    "description": "Hľadať a nahradiť text v dokumentoch, tabuľkách a prezentáciách balíka Office a OpenOffice, ako aj {{EXT}} na Windows, Linux a macOS"
+  },
+  "about": {
+    "title": "Úprava dokumentu pre .NET API",
+    "h1": "Jedno formátovo nezávislé rozhranie na redigovanie citlivých a utajovaných informácií z dokumentov a obrázkov PDF, Word, Excel, PowerPoint vrátane možnosti meniť metadáta a odstraňovať komentáre. Pomocou nástroja {{ProductFullName}} môžete redigovať text a uložiť redigovaný dokument v PDF, transformovať všetky strany na rastrové obrázky alebo ponechať dokument v pôvodnom formáte na ďalšie úpravy."
+  },
+  "steps": {
+    "title_left": "Upraviť presný text z {{EXT}} cez {{ProgLang}}",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) uľahčuje vývojárom {{ProductName}} pridanie funkcie {{EXT}} úpravy súborov pomocou niekoľkých jednoduchých krokov.",
+      "step_1": "Vytvorte inštanciu triedy [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) a načítajte súbor {{EXT}}",
+      "step_2": "Ak chcete nájsť a nahradiť text, vytvorte inštanciu triedy [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction)",
+      "step_3": "Zavolajte metódu [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) s objektom ExactPhraseRedaction"
+    },
+    "title_right": "Začnite s rozhraním Redaction API",
+    "content_right": {
+      "description": "{{ProductFullName}} Rozhrania API sú podporované na všetkých hlavných platformách a operačných systémoch. Pred spustením nižšie uvedeného kódu sa uistite, že máte vo svojom systéme nainštalované nasledujúce predpoklady.",
+      "step_1": "Nainštalujte z príkazového riadka ako ```nuget install GroupDocs.Redaction``` alebo cez konzolu Package Manager Console Visual Studio s ```Install-Package GroupDocs.Redaction```.",
+      "step_2": "Prípadne získajte offline inštalačný program MSI alebo knižnice DLL v súbore ZIP zo stránky [stiahnutia] (https://downloads.groupdocs.com/redaction/net) a uveďte ho ručne vo svojom projekte."
+    }
+  },
+  "about_formats": "true"
+}

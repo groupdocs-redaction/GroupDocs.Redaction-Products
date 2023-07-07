@@ -1,0 +1,59 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Redact {{EXT}} Text via Regular Expression in Java",
+    "description": "GroupDocs.Redactions Java API enables developers to redact text from PDF DOC DOCX RTF XLSX CSV PPT PPTX & images using regular expressions in Java"
+  },
+  "header": {
+    "title": "How to Remove Text from {{EXT}} Files using Regular Expressions and Java",
+    "description": "GroupDocs.Redactions Java API allows to redact, hide or remove sensitive text from word processing documents, worksheets, presentations, PDFs & images using regular expressions."
+  },
+  "about": {
+    "title": "What is Text Sanitization?",
+    "h1": "Text Redaction or Sanitization is the process of removing the confidential or unwanted text or information from digital documents while leaving intact the rest of the document or paragraph containing it. Redaction helps users as well as organization to protect their sensitive information by hiding or permanently removing them.   Using GroupDocs.Redaction Java API users can now redact, hide or remove sensitive text from word processing documents, worksheets, presentations, PDF and raster image files. The API provides a wide range of options and methods for the redaction of private information in the documents. It supports search and redact using regular expressions, usage of textual (exemption codes) or graphical (colored rectangles) redactions and many more. So why not give it a try and automate your document redaction process by downloading the API and explore its basic and advanced features. ",
+    "h2": "{{ProductFullName}} API is a right choice for corporate solutions which needs file combining features. These APIs are well supported on all major operating systems and platforms including {{Runtime}}"
+  },
+  "blocks": {
+    "example1" : {
+      "title_left": "Redact {{EXT}} using Regular Expressions in Java",
+      "content_left": {
+        "description": "",
+        "step_1": "GroupDocs.Redaction allows to easily redact data of sensitive or private nature from your documents. The most popular redaction case is to remove a text from a document.",
+        "step_2": "The following code can be used to apply textual redaction to a particular part of a document using regular expression. It allows users to replace all numbers, matching pattern \"AA BB CCCCCC\" with a  Blue color rectangle,",
+        "step_3": ""
+      },
+      "title_right": "Remove Sensitive Data from {{EXT}}",
+      "content_right": {
+        "description": "",
+        "step_1": "Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload {{EXT}} file",
+        "step_2": "Create an instance of [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction) class",
+        "step_3": "Call redactor.apply method with object of RegexRedaction class",
+        "step_4": "Call redactor.save method to save the changes"
+      },
+      "gist": {
+        "hash": "6dea616a14aeeff21698dc03be62a341",
+        "file": "RegularExpressionRedaction.java"
+      }
+    },
+    "requirements" : {
+      "title_left": "System Requirements",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java APIs are supported on all major platforms and operating systems. For complete system requirements guide, please visit [system requirements](https://docs.groupdocs.com/redaction/java/system-requirements) Before executing the code below, please make sure that you have the following prerequisites installled on your system:",
+        "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+        "step_2": "Development Environment: NetBeans, Intellij IDEA, Eclipse etc",
+        "step_3": "Java Runtime Environment: J2SE 6.0 and above",
+        "step_4": "Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Why Use GroupDocs.Redaction",
+      "content_right": {
+        "description": "",
+        "step_1": "Allow users to add custom document formats and types of redactions",
+        "step_2": "No additional software is required to remove sensitive information",
+        "step_3": "Ability to set page range rendering document as PDF",
+        "step_4": "Easy way to redact different types of metadata: author name, version, title, subject, description and many more",
+        "step_5": "Document information extraction - file type, page count etc."
+      }
+    }
+  },
+  "about_formats": "true"
+}

@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Redact {{EXT}} Dokumen menggunakan Ekspresi Reguler melalui .NET Core",
+    "description": "Kurangi informasi sensitif menggunakan ekspresi reguler dari dokumen dengan format berbeda"
+  },
+  "header": {
+    "title": "Bersihkan {{EXT}} File melalui {{ProgLang}} dan Ekspresi Reguler di .NET Aplikasi Inti",
+    "description": "Temukan dan hapus informasi sensitif dari Dokumen, Spreadsheet & Presentasi Office & OpenOffice serta {{EXT}} di Windows, Linux & macOS"
+  },
+  "about": {
+    "title": "Redaksi Teks Dokumen untuk .NET API",
+    "h1": "Antarmuka tunggal format-independen untuk sanitasi informasi sensitif dan rahasia dari dokumen dan gambar PDF, Word, Excel, PowerPoint, termasuk kemampuan untuk mengubah metadata dan menghapus komentar. Dengan alat {{ProductFullName}} Anda dapat menyunting informasi rahasia dan menyimpan dokumen yang telah disunting di PDF, mengubah semua halaman menjadi gambar raster atau menyimpan dokumen dalam format aslinya untuk pengeditan lebih lanjut."
+  },
+  "steps": {
+    "title_left": "Sunting Teks dari {{EXT}} menggunakan Ekspresi Reguler melalui {{ProgLang}}",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) memungkinkan pengembang {{ProductName}} menggunakan kekuatan penuh ekspresi reguler untuk menyunting file {{EXT}} dengan beberapa langkah mudah.",
+      "step_1": "Buat instance kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) & muat {{EXT}} file",
+      "step_2": "Buat instance kelas [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction) untuk menemukan dan mengganti teks",
+      "step_3": "Panggil metode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) dengan objek RegexRedaction"
+    },
+    "title_right": "Mulai dengan API Redaksi",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Instal dari baris perintah sebagai ```nuget install GroupDocs.Redaction``` atau melalui Package Manager Console Visual Studio dengan ```Install-Package GroupDocs.Redaction```.",
+      "step_2": "Atau, dapatkan penginstal MSI offline atau DLL dalam file ZIP dari [downloads](https://downloads.groupdocs.com/redaction/net), dan rujuk ke project Anda secara manual."
+    }
+  },
+  "about_formats": "true"
+}

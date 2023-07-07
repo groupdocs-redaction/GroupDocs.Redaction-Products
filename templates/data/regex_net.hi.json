@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": ".NET कोर के माध्यम से रेगुलर एक्सप्रेशन का उपयोग करके {{EXT}} दस्तावेज़ों को संशोधित करें",
+    "description": "विभिन्न प्रारूपों के दस्तावेज़ों से नियमित अभिव्यक्ति का उपयोग करके संवेदनशील जानकारी को संशोधित करें"
+  },
+  "header": {
+    "title": "{{ProgLang}} और रेगुलर एक्सप्रेशन के माध्यम से .NET कोर ऐप्स में {{EXT}} फाइलों को सेनिटाइज करें",
+    "description": "Office और OpenOffice दस्तावेज़ों, स्प्रैडशीट्स और प्रस्तुतियों के साथ-साथ Windows, Linux और macOS पर {{EXT}} से संवेदनशील जानकारी ढूंढें और हटाएं"
+  },
+  "about": {
+    "title": ".NET एपीआई के लिए दस्तावेज़ टेक्स्ट रिडक्शन",
+    "h1": "मेटाडेटा को बदलने और टिप्पणियों को हटाने की क्षमता सहित, PDF, Word, Excel, PowerPoint दस्तावेजों और छवियों से संवेदनशील और वर्गीकृत जानकारी के स्वच्छता के लिए एक एकल प्रारूप-स्वतंत्र इंटरफ़ेस। {{ProductFullName}} टूल से आप वर्गीकृत जानकारी को संशोधित कर सकते हैं और संशोधित दस्तावेज़ को PDF में सहेज सकते हैं, सभी पृष्ठों को रेखापुंज छवियों में बदल सकते हैं या आगे के संपादन के लिए दस्तावेज़ को उसके मूल प्रारूप में रख सकते हैं।"
+  },
+  "steps": {
+    "title_left": "{{ProgLang}} के माध्यम से रेगुलर एक्सप्रेशन का उपयोग करके {{EXT}} से टेक्स्ट को संपादित करें",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) {{ProductName}} डेवलपर्स को कुछ आसान चरणों के साथ {{EXT}} फ़ाइल को संशोधित करने के लिए नियमित अभिव्यक्तियों की पूरी ताकत का उपयोग करने की अनुमति देता है।",
+      "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) क्लास का एक उदाहरण बनाएं और {{EXT}} फ़ाइल लोड करें",
+      "step_2": "टेक्स्ट को ढूंढने और बदलने के लिए [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction) क्लास का एक उदाहरण बनाएं",
+      "step_3": "RegexRedaction के ऑब्जेक्ट के साथ [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) विधि को कॉल करें"
+    },
+    "title_right": "रिडक्शन एपीआई के साथ आरंभ करें",
+    "content_right": {
+      "description": "{{ProductFullName}} एपीआई सभी प्रमुख प्लेटफार्मों और ऑपरेटिंग सिस्टम पर समर्थित हैं। नीचे दिए गए कोड को निष्पादित करने से पहले, कृपया सुनिश्चित करें कि आपके सिस्टम पर निम्नलिखित आवश्यकताएँ स्थापित हैं।",
+      "step_1": "कमांड लाइन से ```nuget install GroupDocs.Redaction``` या विजुअल स्टूडियो के पैकेज मैनेजर कंसोल के माध्यम से ```इंस्टॉल-पैकेज GroupDocs.Redaction``` के साथ इंस्टॉल करें।",
+      "step_2": "वैकल्पिक रूप से, [डाउनलोड](https://downloads.groupdocs.com/redaction/net) से ZIP फ़ाइल में ऑफ़लाइन एमएसआई इंस्टॉलर या डीएलएल प्राप्त करें, और इसे अपने प्रोजेक्ट में मैन्युअल रूप से संदर्भित करें।"
+    }
+  },
+  "about_formats": "true"
+}

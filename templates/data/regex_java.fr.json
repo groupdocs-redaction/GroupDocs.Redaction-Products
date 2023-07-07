@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Masquer le texte {{EXT}} via une expression régulière dans Java",
+    "description": "L'API Java de GroupDocs.Redaction permet aux développeurs de biffer du texte de PDF DOC DOCX RTF XLSX CSV PPT PPTX et des images à l'aide d'expressions régulières dans Java"
+  },
+  "header": {
+    "title": "Comment supprimer du texte de fichiers {{EXT}} à l'aide d'expressions régulières et de Java",
+    "description": "L'API GroupDocs.Redaction de Java permet de caviarder, de masquer ou de supprimer le texte sensible des documents de traitement de texte, des feuilles de calcul, des présentations, des PDF et des images à l'aide d'expressions régulières."
+  },
+  "about": {
+    "title": "Qu'est-ce que la désinfection de texte ?",
+    "h1": "La rédaction ou la désinfection de texte est le processus de suppression du texte ou des informations confidentiels ou indésirables des documents numériques tout en laissant intact le reste du document ou du paragraphe le contenant. La rédaction aide les utilisateurs ainsi que l'organisation à protéger leurs informations sensibles en les masquant ou en les supprimant définitivement. À l'aide de l'API GroupDocs.Redaction Java, les utilisateurs peuvent désormais biffer, masquer ou supprimer le texte sensible des documents de traitement de texte, des feuilles de calcul, des présentations, PDF et des fichiers image raster. L'API fournit un large éventail d'options et de méthodes pour la suppression des informations privées dans les documents. Il prend en charge la recherche et la rédaction à l'aide d'expressions régulières, l'utilisation de rédactions textuelles (codes d'exemption) ou graphiques (rectangles colorés) et bien d'autres. Alors pourquoi ne pas essayer et automatiser votre processus de rédaction de documents en téléchargeant l'API et en explorant ses fonctionnalités de base et avancées.",
+    "h2": "{{ProductFullName}} L'API est un bon choix pour les solutions d'entreprise qui ont besoin de fonctionnalités de combinaison de fichiers. Ces API sont bien prises en charge sur tous les principaux systèmes d'exploitation et plates-formes, y compris {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Caviardez {{EXT}} à l'aide d'expressions régulières dans Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction permet de supprimer facilement des données de nature sensible ou privée de vos documents. Le cas de rédaction le plus courant consiste à supprimer un texte d'un document.",
+        "step_2": "Le code suivant peut être utilisé pour appliquer une rédaction textuelle à une partie particulière d'un document à l'aide d'une expression régulière. Il permet aux utilisateurs de remplacer tous les chiffres, en faisant correspondre le motif \"AA BB CCCCCC\" avec un rectangle de couleur bleue,"
+      },
+      "title_right": "Supprimer les données sensibles de {{EXT}}",
+      "content_right": {
+        "step_1": "Créez une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) et chargez le fichier {{EXT}}",
+        "step_2": "Créez une instance de la classe [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction)",
+        "step_3": "Appelez la méthode redactor.apply avec l'objet de la classe RegexRedaction",
+        "step_4": "Appelez la méthode redactor.save pour enregistrer les modifications"
+      },
+      "gist": {
+        "hash": "6dea616a14aeeff21698dc03be62a341",
+        "file": "RegularExpressionRedaction.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Configuration requise",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java Les API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Pour un guide complet de la configuration système requise, veuillez visiter [configuration système](https://docs.groupdocs.com/redaction/java/system-requirements) Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système :",
+        "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+        "step_2": "Environnement de développement : NetBeans, Intellij IDEA, Eclipse, etc.",
+        "step_3": "Java Environnement d'exécution : J2SE 6.0 et supérieur",
+        "step_4": "Obtenez la dernière version de GroupDocs.Redaction for Java auprès de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Pourquoi utiliser GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Autoriser les utilisateurs à ajouter des formats de document personnalisés et des types de caviardage",
+        "step_2": "Aucun logiciel supplémentaire n'est requis pour supprimer les informations sensibles",
+        "step_3": "Possibilité de définir le document de rendu de plage de pages comme PDF",
+        "step_4": "Un moyen facile de rédiger différents types de métadonnées : nom de l'auteur, version, titre, sujet, description et bien d'autres",
+        "step_5": "Extraction d'informations sur les documents - type de fichier, nombre de pages, etc."
+      }
+    }
+  },
+  "about_formats": "true"
+}

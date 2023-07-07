@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": ".NET コア経由の正規表現を使用して {{EXT}} ドキュメントを秘匿化する",
+    "description": "正規表現を使用して、さまざまな形式の文書から機密情報を編集します。"
+  },
+  "header": {
+    "title": ".NET コアアプリの {{ProgLang}} と正規表現を使用して {{EXT}} ファイルをサニタイズする",
+    "description": "Office および OpenOffice のドキュメント、スプレッドシート、プレゼンテーション、および Windows、Linux、macOS 上の {{EXT}} から機密情報を検索して削除します"
+  },
+  "about": {
+    "title": ".NET API のドキュメント テキストの秘匿化",
+    "h1": "メタデータの変更やコメントの削除機能を含む、PDF、Word、Excel、PowerPoint のドキュメントおよび画像からの機密情報や機密情報をサニタイズするための、形式に依存しない単一のインターフェイス。 {{ProductFullName}} ツールを使用すると、機密情報を編集して編集した文書を PDF に保存し、すべてのページをラスター イメージに変換したり、文書を元の形式で保存してさらに編集したりできます。"
+  },
+  "steps": {
+    "title_left": "{{ProgLang}} 経由の正規表現を使用して {{EXT}} からのテキストを秘匿化する",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) を使用すると、{{ProductName}} 開発者は正規表現の最大限の強度を使用して、いくつかの簡単な手順で {{EXT}} ファイルを秘匿化できます。",
+      "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) クラスのインスタンスを作成し、{{EXT}} ファイルをロードします",
+      "step_2": "[RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction) クラスのインスタンスを作成して、テキストを検索して置換します",
+      "step_3": "RegexRedaction のオブジェクトを使用して [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) メソッドを呼び出す"
+    },
+    "title_right": "リダクション API を使ってみる",
+    "content_right": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。",
+      "step_1": "コマンドラインから ``nuget install GroupDocs.Redaction`` としてインストールするか、Visual Studio のパッケージ マネージャー コンソールから ``Install-Package GroupDocs.Redaction`` を使用してインストールします。",
+      "step_2": "あるいは、[ダウンロード](https://downloads.groupdocs.com/redaction/net) からオフライン MSI インストーラーまたは ZIP ファイル内の DLL を取得し、プロジェクト内で手動で参照します。"
+    }
+  },
+  "about_formats": "true"
+}

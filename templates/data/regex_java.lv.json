@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Rediģēt {{EXT}} tekstu, izmantojot regulāro izteiksmi Java",
+    "description": "GroupDocs.Redactions Java API ļauj izstrādātājiem rediģēt tekstu no PDF DOC DOCX RTF XLSX CSV PPT PPTX un attēliem, izmantojot regulārās izteiksmes programmā Java"
+  },
+  "header": {
+    "title": "Kā noņemt tekstu no {{EXT}} failiem, izmantojot regulārās izteiksmes un Java",
+    "description": "GroupDocs.Redactions Java API ļauj rediģēt, paslēpt vai noņemt sensitīvu tekstu no tekstapstrādes dokumentiem, darblapām, prezentācijām, PDFs un attēliem, izmantojot regulārās izteiksmes."
+  },
+  "about": {
+    "title": "Kas ir teksta dezinfekcija?",
+    "h1": "Teksta rediģēšana vai attīrīšana ir process, kurā no digitālajiem dokumentiem tiek noņemts konfidenciāls vai nevēlams teksts vai informācija, vienlaikus atstājot neskartu pārējo dokumenta daļu vai rindkopu, kurā tas ir. Rediģēšana palīdz lietotājiem, kā arī organizācijai aizsargāt viņu sensitīvo informāciju, paslēpjot vai neatgriezeniski noņemot to. Izmantojot GroupDocs.Redaction Java API, lietotāji tagad var rediģēt, paslēpt vai noņemt sensitīvu tekstu no tekstapstrādes dokumentiem, darblapām, prezentācijām, PDF un rastra attēlu failiem. API nodrošina plašas iespējas un metodes dokumentos esošās privātās informācijas rediģēšanai. Tā atbalsta meklēšanu un rediģēšanu, izmantojot regulāras izteiksmes, teksta (atbrīvojuma kodi) vai grafisko (krāsaini taisnstūri) rediģēšanu un daudz ko citu. Tātad, kāpēc gan neizmēģināt un automatizēt dokumentu rediģēšanas procesu, lejupielādējot API un izpētot tā pamata un papildu funkcijas.",
+    "h2": "{{ProductFullName}} API ir pareizā izvēle korporatīvajiem risinājumiem, kuriem nepieciešamas failu apvienošanas funkcijas. Šīs API tiek labi atbalstītas visās lielākajās operētājsistēmās un platformās, tostarp {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Rediģēt {{EXT}}, izmantojot regulārās izteiksmes pakalpojumā Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction ļauj viegli noņemt sensitīvus vai privātus datus no jūsu dokumentiem. Populārākais rediģēšanas gadījums ir teksta noņemšana no dokumenta.",
+        "step_2": "Šo kodu var izmantot, lai lietotu teksta rediģēšanu noteiktai dokumenta daļai, izmantojot regulāro izteiksmi. Tas ļauj lietotājiem aizstāt visus skaitļus, saskaņojot modeli \"AA BB CCCCCC\" ar zilu taisnstūri,"
+      },
+      "title_right": "Noņemt sensitīvos datus no {{EXT}}",
+      "content_right": {
+        "step_1": "Izveidojiet klases [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) gadījumu un augšupielādējiet {{EXT}} failu",
+        "step_2": "Izveidojiet klases [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction) gadījumu",
+        "step_3": "Izsauciet metodi redactor.apply ar RegexRedaction klases objektu",
+        "step_4": "Lai saglabātu izmaiņas, izsauciet metodi redactor.save"
+      },
+      "gist": {
+        "hash": "6dea616a14aeeff21698dc03be62a341",
+        "file": "RegularExpressionRedaction.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Sistēmas prasības",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API tiek atbalstītas visās lielākajās platformās un operētājsistēmās. Lai iegūtu pilnu sistēmas prasību rokasgrāmatu, lūdzu, apmeklējiet [sistēmas prasības](https://docs.groupdocs.com/redaction/java/system-requirements) Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti tālāk norādītie priekšnosacījumi. :",
+        "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+        "step_2": "Izstrādes vide: NetBeans, Intellij IDEA, Eclipse utt",
+        "step_3": "Java Izpildlaika vide: J2SE 6.0 un jaunāka versija",
+        "step_4": "Iegūstiet jaunāko GroupDocs.Redaction for Java versiju no [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Kāpēc izmantot GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Ļaujiet lietotājiem pievienot pielāgotus dokumentu formātus un labojumu veidus",
+        "step_2": "Sensitīvas informācijas noņemšanai nav nepieciešama papildu programmatūra",
+        "step_3": "Iespēja iestatīt lapu diapazona renderēšanas dokumentu kā PDF",
+        "step_4": "Vienkāršs veids, kā rediģēt dažāda veida metadatus: autora vārdu, versiju, nosaukumu, tēmu, aprakstu un daudz ko citu",
+        "step_5": "Dokumentu informācijas izvilkšana - faila tips, lappušu skaits utt."
+      }
+    }
+  },
+  "about_formats": "true"
+}

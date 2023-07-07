@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Редактирование документов {{EXT}} с использованием регулярных выражений через ядро ​​.NET",
+    "description": "Исключайте конфиденциальную информацию с помощью регулярных выражений из документов разных форматов."
+  },
+  "header": {
+    "title": "Очистка файлов {{EXT}} с помощью {{ProgLang}} и регулярных выражений в основных приложениях .NET",
+    "description": "Поиск и удаление конфиденциальной информации из документов, электронных таблиц и презентаций Office и OpenOffice, а также {{EXT}} в Windows, Linux и macOS."
+  },
+  "about": {
+    "title": "Редактирование текста документа для .NET API",
+    "h1": "Единый независимый от формата интерфейс для очистки конфиденциальной и секретной информации из документов и изображений PDF, Word, Excel, PowerPoint, включая возможность изменять метаданные и удалять комментарии. С помощью инструмента {{ProductFullName}} вы можете отредактировать секретную информацию и сохранить отредактированный документ в PDF, преобразовав все страницы в растровые изображения или сохранить документ в исходном формате для дальнейшего редактирования."
+  },
+  "steps": {
+    "title_left": "Редактировать текст из {{EXT}} с помощью регулярных выражений через {{ProgLang}}",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) позволяет разработчикам {{ProductName}} использовать все возможности регулярных выражений для редактирования файла {{EXT}} с помощью нескольких простых шагов.",
+      "step_1": "Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) и загрузите файл {{EXT}}",
+      "step_2": "Создайте экземпляр класса [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction), чтобы найти и заменить текст",
+      "step_3": "Вызов метода [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) с объектом RegexRedaction"
+    },
+    "title_right": "Начните работу с Redaction API",
+    "content_right": {
+      "description": "{{ProductFullName}} API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.",
+      "step_1": "Установите из командной строки как ```nuget install GroupDocs.Redaction``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package GroupDocs.Redaction```.",
+      "step_2": "Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в файле ZIP из [загрузки](https://downloads.groupdocs.com/redaction/net) и указать его в своем проекте вручную."
+    }
+  },
+  "about_formats": "true"
+}

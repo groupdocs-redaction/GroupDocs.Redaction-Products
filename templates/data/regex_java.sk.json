@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Úprava {{EXT}} textu prostredníctvom regulárneho výrazu v Java",
+    "description": "GroupDocs.Redactions Java API umožňuje vývojárom upravovať text z PDF DOC DOCX RTF XLSX CSV PPT PPTX a obrázkov pomocou regulárnych výrazov v Java"
+  },
+  "header": {
+    "title": "Ako odstrániť text zo súborov {{EXT}} pomocou regulárnych výrazov a Java",
+    "description": "GroupDocs.Redactions Java API umožňuje redigovať, skrývať alebo odstraňovať citlivý text z dokumentov na spracovanie textu, pracovných hárkov, prezentácií, PDFs a obrázkov pomocou regulárnych výrazov."
+  },
+  "about": {
+    "title": "Čo je dezinfekcia textu?",
+    "h1": "Úprava textu alebo dezinfekcia je proces odstránenia dôverného alebo nechceného textu alebo informácií z digitálnych dokumentov, pričom zvyšok dokumentu alebo odseku, ktorý ho obsahuje, sa ponechá nedotknutý. Redakcia pomáha používateľom, ako aj organizácii chrániť ich citlivé informácie ich skrytím alebo trvalým odstránením. Používatelia rozhrania API GroupDocs.Redaction Java teraz môžu upravovať, skrývať alebo odstraňovať citlivý text z dokumentov na spracovanie textu, pracovných hárkov, prezentácií, PDF a súborov rastrových obrázkov. Rozhranie API poskytuje širokú škálu možností a metód na úpravu súkromných informácií v dokumentoch. Podporuje vyhľadávanie a redigovanie pomocou regulárnych výrazov, používanie textových (kódy výnimiek) alebo grafických (farebné obdĺžniky) redigovania a mnohé ďalšie. Prečo to teda neskúsiť a nezautomatizovať proces úpravy dokumentov stiahnutím rozhrania API a preskúmaním jeho základných a pokročilých funkcií.",
+    "h2": "{{ProductFullName}} API je správnou voľbou pre podnikové riešenia, ktoré vyžadujú funkcie kombinovania súborov. Tieto rozhrania API sú dobre podporované na všetkých hlavných operačných systémoch a platformách vrátane {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Upravte {{EXT}} pomocou regulárnych výrazov v Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction umožňuje jednoducho odstrániť údaje citlivého alebo súkromného charakteru z vašich dokumentov. Najpopulárnejším prípadom redigovania je odstránenie textu z dokumentu.",
+        "step_2": "Nasledujúci kód možno použiť na aplikáciu textovej úpravy na konkrétnu časť dokumentu pomocou regulárneho výrazu. Umožňuje používateľom nahradiť všetky čísla zodpovedajúce vzoru „AA BB CCCCCC“ modrým obdĺžnikom,"
+      },
+      "title_right": "Odstrániť citlivé údaje z {{EXT}}",
+      "content_right": {
+        "step_1": "Vytvorte inštanciu triedy [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) a nahrajte súbor {{EXT}}",
+        "step_2": "Vytvorte inštanciu triedy [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction)",
+        "step_3": "Zavolajte metódu redactor.apply s objektom triedy RegexRedaction",
+        "step_4": "Na uloženie zmien zavolajte metódu redactor.save"
+      },
+      "gist": {
+        "hash": "6dea616a14aeeff21698dc03be62a341",
+        "file": "RegularExpressionRedaction.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Požiadavky na systém",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java Rozhrania API sú podporované na všetkých hlavných platformách a operačných systémoch. Kompletnú príručku systémových požiadaviek nájdete na stránke [systémové požiadavky](https://docs.groupdocs.com/redaction/java/system-requirements) Pred spustením nižšie uvedeného kódu sa uistite, že máte vo svojom systéme nainštalované nasledujúce predpoklady :",
+        "step_1": "Operačné systémy: Microsoft Windows, Linux, MacOS",
+        "step_2": "Vývojové prostredie: NetBeans, Intellij IDEA, Eclipse atď",
+        "step_3": "Java Runtime prostredie: J2SE 6.0 a vyššie",
+        "step_4": "Získajte najnovšiu verziu aplikácie GroupDocs.Redaction for Java od [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Prečo používať GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Umožnite používateľom pridávať vlastné formáty dokumentov a typy úprav",
+        "step_2": "Na odstránenie citlivých informácií nie je potrebný žiadny ďalší softvér",
+        "step_3": "Možnosť nastaviť vykresľovací dokument rozsahu strán ako PDF",
+        "step_4": "Jednoduchý spôsob úpravy rôznych typov metadát: meno autora, verzia, názov, predmet, popis a mnoho ďalších",
+        "step_5": "Extrakcia informácií o dokumente – typ súboru, počet strán atď."
+      }
+    }
+  },
+  "about_formats": "true"
+}

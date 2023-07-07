@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Sunting Anotasi {{EXT}} melalui Ekspresi Reguler di Java",
+    "description": "GroupDocs.RedactionJava API memungkinkan pengembang menyunting anotasi dari PDF DOC DOCX RTF XLSX CSV PPT PPTX & gambar menggunakan ekspresi reguler di Java"
+  },
+  "header": {
+    "title": "Cara Menghapus Anotasi dari File {{EXT}} menggunakan Ekspresi Reguler dan Java",
+    "description": "GroupDocs.RedactionJava API memungkinkan untuk menyunting, menyembunyikan, atau menghapus komentar sensitif dari dokumen pemrosesan kata, lembar kerja, presentasi, PDF & gambar menggunakan ekspresi reguler."
+  },
+  "about": {
+    "title": "Apa itu Sanitasi Komentar?",
+    "h1": "Redaksi atau Sanitasi Teks adalah proses menghapus anotasi rahasia atau yang tidak diinginkan dari dokumen digital sambil membiarkan sisa dokumen atau paragraf yang memuatnya tetap utuh. Redaksi membantu pengguna serta organisasi untuk melindungi informasi sensitif mereka dengan menyembunyikan atau menghapusnya secara permanen. Dengan menggunakan GroupDocs.Redaction Java pengguna API kini dapat menyunting, menyembunyikan, atau menghapus teks sensitif dari dokumen pemrosesan kata, lembar kerja, presentasi, PDF, dan file gambar raster. API menyediakan berbagai opsi dan metode untuk redaksi informasi pribadi dalam dokumen. Ini mendukung pencarian dan penyuntingan menggunakan ekspresi reguler, penggunaan penyuntingan tekstual (kode pengecualian) atau grafis (persegi panjang berwarna) dan banyak lagi. Jadi mengapa tidak mencobanya dan mengotomatiskan proses penyuntingan dokumen Anda dengan mengunduh API dan menjelajahi fitur dasar dan lanjutannya.",
+    "h2": "{{ProductFullName}} API adalah pilihan yang tepat untuk solusi korporat yang membutuhkan fitur penggabungan file. API ini didukung dengan baik di semua sistem operasi dan platform utama termasuk {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redact {{EXT}} Anotasi menggunakan Regular Expressions di Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction memungkinkan untuk menyunting data sensitif atau pribadi dengan mudah dari dokumen Anda. Kasus redaksi paling populer adalah menghapus anotasi dari dokumen.",
+        "step_2": "Kode berikut dapat digunakan untuk menerapkan redaksi anotasi ke dokumen menggunakan ekspresi reguler. Itu memungkinkan pengguna untuk mengganti semua komentar, merujuk \"john\" dengan \"[dihapus]\" sebagai kode pengecualian,"
+      },
+      "title_right": "Hapus Data Sensitif dari {{EXT}} Komentar",
+      "content_right": {
+        "step_1": "Buat instance kelas [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) & upload {{EXT}} file",
+        "step_2": "Buat instance kelas [AnnotationRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/AnnotationRedaction)",
+        "step_3": "Panggil metode redactor.apply dengan objek kelas AnnotationRedaction",
+        "step_4": "Panggil metode redactor.save untuk menyimpan perubahan"
+      },
+      "gist": {
+        "hash": "75d727ec8cec6c416b307caeee59f44b",
+        "file": "AnnotationRedaction.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Persyaratan sistem",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API didukung di semua platform dan sistem operasi utama. Untuk panduan persyaratan sistem lengkap, silakan kunjungi [persyaratan sistem](https://docs.groupdocs.com/redaction/java/system-requirements) Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda :",
+        "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+        "step_2": "Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse dll",
+        "step_3": "Java Lingkungan Waktu Proses: J2SE 6.0 dan yang lebih baru",
+        "step_4": "Dapatkan versi terbaru GroupDocs.Redaction for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Bagaimana Cara Menggunakan GroupDocs.Redaction?",
+      "content_right": {
+        "step_1": "Izinkan pengguna untuk menambahkan format dokumen khusus dan jenis penyuntingan",
+        "step_2": "Tidak diperlukan perangkat lunak tambahan untuk menghapus informasi sensitif",
+        "step_3": "Kemampuan untuk menyetel dokumen rendering rentang halaman sebagai PDF",
+        "step_4": "Cara mudah untuk menyunting berbagai jenis metadata: nama penulis, versi, judul, subjek, deskripsi, dan banyak lagi",
+        "step_5": "Ekstraksi informasi dokumen - jenis file, jumlah halaman, dll."
+      }
+    }
+  },
+  "about_formats": "true"
+}

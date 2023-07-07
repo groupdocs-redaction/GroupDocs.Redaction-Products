@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Oscura annotazioni {{EXT}} tramite espressione regolare in Java",
+    "description": "GroupDocs.Redactionl'Java API consente agli sviluppatori di oscurare annotazioni da PDF DOC DOCX RTF XLSX CSV PPT PPTX e immagini utilizzando espressioni regolari in Java"
+  },
+  "header": {
+    "title": "Come rimuovere le annotazioni dai file {{EXT}} utilizzando espressioni regolari e Java",
+    "description": "GroupDocs.RedactionL'Java API consente di oscurare, nascondere o rimuovere commenti sensibili da documenti di elaborazione testi, fogli di lavoro, presentazioni, PDFe immagini utilizzando espressioni regolari."
+  },
+  "about": {
+    "title": "Cos'è la sanificazione dei commenti?",
+    "h1": "La redazione o sanificazione del testo è il processo di rimozione delle annotazioni riservate o indesiderate dai documenti digitali lasciando intatto il resto del documento o paragrafo che lo contiene. La redazione aiuta gli utenti e l'organizzazione a proteggere le proprie informazioni sensibili nascondendole o rimuovendole in modo permanente. Utilizzando GroupDocs.Redaction Java gli utenti dell'API possono ora oscurare, nascondere o rimuovere testo riservato da documenti di elaborazione testi, fogli di lavoro, presentazioni, PDF e file di immagini raster. L'API fornisce un'ampia gamma di opzioni e metodi per la redazione di informazioni private nei documenti. Supporta la ricerca e la redazione utilizzando espressioni regolari, l'uso di redazioni testuali (codici di esenzione) o grafiche (rettangoli colorati) e molto altro. Allora perché non provare ad automatizzare il processo di redazione dei documenti scaricando l'API ed esplorandone le funzionalità di base e avanzate.",
+    "h2": "{{ProductFullName}} L'API è la scelta giusta per le soluzioni aziendali che richiedono funzionalità di combinazione di file. Queste API sono ben supportate su tutti i principali sistemi operativi e piattaforme, tra cui {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Oscura annotazioni {{EXT}} utilizzando le espressioni regolari in Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction consente di oscurare facilmente dati di natura sensibile o privata dai tuoi documenti. Il caso di redazione più popolare è rimuovere un'annotazione da un documento.",
+        "step_2": "Il seguente codice può essere utilizzato per applicare la redazione delle annotazioni a un documento utilizzando un'espressione regolare. Consente agli utenti di sostituire tutti i commenti, facendo riferimento a \"john\" con un \"[redatto]\" come codice di esenzione,"
+      },
+      "title_right": "Rimuovi dati sensibili da {{EXT}} commenti",
+      "content_right": {
+        "step_1": "Crea un'istanza della classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) e carica il file {{EXT}}",
+        "step_2": "Crea un'istanza della classe [AnnotationRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/AnnotationRedaction)",
+        "step_3": "Chiama il metodo redactor.apply con l'oggetto della classe AnnotationRedaction",
+        "step_4": "Chiama il metodo redactor.save per salvare le modifiche"
+      },
+      "gist": {
+        "hash": "75d727ec8cec6c416b307caeee59f44b",
+        "file": "AnnotationDaction.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Requisiti di sistema",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java Le API sono supportate su tutte le principali piattaforme e sistemi operativi. Per una guida completa ai requisiti di sistema, visita [requisiti di sistema](https://docs.groupdocs.com/redaction/java/system-requirements) Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema :",
+        "step_1": "Sistemi operativi: Microsoft Windows, Linux, Macsistema operativo",
+        "step_2": "Ambiente di sviluppo: NetBeans, Intellij IDEA, Eclipse ecc",
+        "step_3": "Java Ambiente di runtime: J2SE 6.0 e versioni successive",
+        "step_4": "Ottieni l'ultima versione di GroupDocs.Redaction for Java da [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Come usare GroupDocs.Redaction?",
+      "content_right": {
+        "step_1": "Consenti agli utenti di aggiungere formati di documenti personalizzati e tipi di redazioni",
+        "step_2": "Non è necessario alcun software aggiuntivo per rimuovere le informazioni sensibili",
+        "step_3": "Possibilità di impostare il documento di rendering dell'intervallo di pagine come PDF",
+        "step_4": "Un modo semplice per redigere diversi tipi di metadati: nome dell'autore, versione, titolo, oggetto, descrizione e molti altri",
+        "step_5": "Estrazione delle informazioni sul documento: tipo di file, numero di pagine, ecc."
+      }
+    }
+  },
+  "about_formats": "true"
+}

@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Redactar anotaciones en documentos {{EXT}} usando expresiones regulares a través de .NET Core",
+    "description": "Redactar información confidencial en anotaciones usando expresiones regulares de documentos de diferentes formatos"
+  },
+  "header": {
+    "title": "Redactar anotaciones de archivos {{EXT}} a través de {{ProgLang}} y expresiones regulares en .NET aplicaciones principales",
+    "description": "Encuentre y elimine información confidencial de documentos, hojas de cálculo y presentaciones de Office y OpenOffice, así como {{EXT}} en Windows, Linux y macOS"
+  },
+  "about": {
+    "title": "Redacción de anotaciones de documentos para .NET API",
+    "h1": "Una única interfaz independiente del formato para la desinfección de información confidencial y clasificada de los documentos e imágenes PDF, Word, Excel, PowerPoint, incluida la capacidad de cambiar metadatos y eliminar anotaciones. Con la herramienta {{ProductFullName}} puede redactar la información clasificada y guardar el documento redactado en PDF, transformando todas las páginas en imágenes de trama o manteniendo el documento en su formato original para su posterior edición."
+  },
+  "steps": {
+    "title_left": "Redactar anotaciones de {{EXT}} usando expresiones regulares a través de {{ProgLang}}",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) permite a los desarrolladores de {{ProductName}} utilizar expresiones regulares al máximo para redactar el archivo {{EXT}} con unos sencillos pasos.",
+      "step_1": "Cree una instancia de la clase [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) y cargue el archivo {{EXT}}",
+      "step_2": "Cree una instancia de la clase [AnnotationRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/annotationredaction) para encontrar y reemplazar los comentarios.",
+      "step_3": "Llame al método [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) con objeto de AnnotationRedaction"
+    },
+    "title_right": "Cómo utilizar la API de redacción GroupDocs",
+    "content_right": {
+      "description": "{{ProductFullName}} Las API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
+      "step_1": "Instale el paquete desde la línea de comandos como ```nuget install GroupDocs.Redaction``` o a través de la Consola del administrador de paquetes de Visual Studio con ```Install-Package GroupDocs.Redaction```.",
+      "step_2": "Como alternativa, obtenga el instalador MSI sin conexión o las DLL en un archivo ZIP de [descargas](https://downloads.groupdocs.com/redaction/net) y consúltelo en su proyecto manualmente."
+    }
+  },
+  "about_formats": "true"
+}

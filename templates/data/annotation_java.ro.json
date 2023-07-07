@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Redactați {{EXT}} adnotări prin expresie regulată în Java",
+    "description": "API-ul GroupDocs.Redaction Java le permite dezvoltatorilor să redacteze adnotări din PDF DOC DOCX RTF XLSX CSV PPT PPTX și imagini folosind expresii regulate în Java"
+  },
+  "header": {
+    "title": "Cum să eliminați adnotările din fișierele {{EXT}} folosind expresii regulate și Java",
+    "description": "API-ul GroupDocs.Redaction Java permite redactarea, ascunderea sau eliminarea comentariilor sensibile din documente de procesare de text, foi de lucru, prezentări, PDF și imagini folosind expresii obișnuite."
+  },
+  "about": {
+    "title": "Ce este igienizarea comentariilor?",
+    "h1": "Redactarea sau igienizarea textului este procesul de eliminare a adnotărilor confidențiale sau nedorite din documentele digitale, lăsând intact restul documentului sau al paragrafului care îl conține. Redaction ajută utilizatorii, precum și organizația să își protejeze informațiile sensibile, ascunzându-le sau eliminându-le definitiv. Folosind GroupDocs.Redaction Java utilizatorii API-ului pot acum redacta, ascunde sau elimina text sensibil din documente de procesare de text, foi de lucru, prezentări, PDF și fișiere imagine raster. API-ul oferă o gamă largă de opțiuni și metode pentru redactarea informațiilor private din documente. Acceptă căutarea și redactarea folosind expresii regulate, utilizarea redactărilor textuale (coduri de exceptare) sau grafice (dreptunghiuri colorate) și multe altele. Așadar, de ce să nu încercați și să vă automatizați procesul de redactare a documentelor descărcând API-ul și explorați funcțiile sale de bază și avansate.",
+    "h2": "{{ProductFullName}} API-ul este o alegere potrivită pentru soluțiile corporative care necesită funcții de combinare a fișierelor. Aceste API-uri sunt bine acceptate pe toate sistemele și platformele de operare majore, inclusiv {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redactați {{EXT}} adnotări folosind expresii regulate în Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction permite eliminarea cu ușurință a datelor de natură sensibilă sau privată din documentele dvs. Cel mai popular caz de redactare este eliminarea unei adnotări dintr-un document.",
+        "step_2": "Următorul cod poate fi folosit pentru a aplica redactarea adnotărilor unui document folosind expresia regulată. Permite utilizatorilor să înlocuiască toate comentariile, făcând referire la „john” cu un „[redactat]” ca cod de exceptare,"
+      },
+      "title_right": "Eliminați datele sensibile din comentariile {{EXT}}",
+      "content_right": {
+        "step_1": "Creați o instanță a clasei [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) și încărcați fișierul {{EXT}}",
+        "step_2": "Creați o instanță a clasei [AnnotationRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/AnnotationRedaction)",
+        "step_3": "Apelați metoda redactor.apply cu obiectul clasei AnnotationRedaction",
+        "step_4": "Apelați metoda redactor.save pentru a salva modificările"
+      },
+      "gist": {
+        "hash": "75d727ec8cec6c416b307caeee59f44b",
+        "file": "AnnotationRedaction.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Cerințe de sistem",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API-urile sunt acceptate pe toate platformele și sistemele de operare majore. Pentru ghidul complet al cerințelor de sistem, vă rugăm să vizitați [cerințe de sistem](https://docs.groupdocs.com/redaction/java/system-requirements) Înainte de a executa codul de mai jos, vă rugăm să vă asigurați că aveți următoarele cerințe preliminare instalate pe sistemul dvs. :",
+        "step_1": "Sisteme de operare: Microsoft Windows, Linux, MacOS",
+        "step_2": "Mediu de dezvoltare: NetBeans, Intellij IDEA, Eclipse etc",
+        "step_3": "Java Mediu de rulare: J2SE 6.0 și versiuni ulterioare",
+        "step_4": "Obțineți cea mai recentă versiune a GroupDocs.Redaction for Java de la [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Cum se utilizează GroupDocs.Redaction?",
+      "content_right": {
+        "step_1": "Permiteți utilizatorilor să adauge formate de documente personalizate și tipuri de redactări",
+        "step_2": "Nu este necesar niciun software suplimentar pentru a elimina informațiile sensibile",
+        "step_3": "Posibilitatea de a seta documentul de randare a intervalului de pagini ca PDF",
+        "step_4": "O modalitate ușoară de a redacta diferite tipuri de metadate: numele autorului, versiunea, titlul, subiectul, descrierea și multe altele",
+        "step_5": "Extragerea informațiilor documentului - tip de fișier, număr de pagini etc."
+      }
+    }
+  },
+  "about_formats": "true"
+}

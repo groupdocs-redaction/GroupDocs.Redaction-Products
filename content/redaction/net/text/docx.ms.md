@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "ms/redaction/net/text/docx"
 otherformats: CSV DOC DOCM DOT DOTM DOTX PDF POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from DOCX Documents via .NET Core"
-head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
+head_title: "Sunting Maklumat Sensitif daripada DOCX Dokumen melalui .NET Teras"
+head_description: "Guna redaksi teks menggunakan frasa tepat atau ungkapan biasa untuk dokumen dengan format yang berbeza"
 
 ############################# Header ############################
-title: "Redact DOCX Files via C# in .NET Core Apps"
-description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as DOCX on Windows, Linux & macOS"
+title: "Redaksi DOCX Fail melalui C# dalam .NET Apl Teras"
+description: "Cari & Gantikan Teks dalam Dokumen Office & OpenOffice, Hamparan & Pembentangan serta DOCX pada Windows, Linux & macOS"
 
 ################### SubMenu/Download Button #####################
 submenu:
@@ -20,25 +20,25 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Document Redaction for .NET API"
+    title: "Penyuntingan Dokumen untuk .NET API"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        Antara muka bebas format tunggal untuk menyunting maklumat sensitif dan terperingkat daripada dokumen dan imej PDF, Word, Excel, PowerPoint, termasuk keupayaan untuk menukar metadata dan mengalih keluar ulasan. Dengan alat GroupDocs.Redaction for .NET anda boleh menyunting teks dan menyimpan dokumen yang disunting dalam PDF, mengubah semua halaman menjadi imej raster atau menyimpan dokumen dalam format asalnya untuk pengeditan selanjutnya.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Redact Exact Text from DOCX via C#"
+    title_left: "Sunting Teks Tepat daripada DOCX melalui C#"
     content_left: |
-        [GroupDocs.Redaction](ms//redaction/net/) makes it easy for .NET developers to add DOCX file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](ms//redaction/net/) memudahkan .NET pembangun menambahkan DOCX ciri redaksi fail dengan beberapa langkah mudah.
 
-        *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load DOCX file
-        *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text
-        *   Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of ExactPhraseRedaction
+        *   Buat contoh kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) & muatkan fail DOCX
+        *   Buat contoh kelas [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) untuk mencari dan menggantikan teks
+        *   Panggil kaedah [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) dengan objek ExactPhraseRedaction
         
-    title_right: "Get Started with Redaction API"
+    title_right: "Bermula dengan Redaction API"
     content_right: |
-        Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
-        Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.  
+        Pasang daripada baris arahan sebagai ```nuget install GroupDocs.Redaction``` atau melalui Package Manager Console of Visual Studio dengan ```Install-Pakej GroupDocs.Redaction```. 
+        Sebagai alternatif, dapatkan pemasang MSI luar talian atau DLL dalam fail ZIP daripada [muat turun](https://downloads.groupdocs.com/redaction/net) dan rujuknya dalam projek anda secara manual.  
         
     code: |
         ```cs

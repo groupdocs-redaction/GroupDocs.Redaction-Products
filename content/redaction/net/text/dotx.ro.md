@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "ro/redaction/net/text/dotx"
 otherformats: CSV DOC DOCM DOCX DOT DOTM PDF POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from DOTX Documents via .NET Core"
-head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
+head_title: "Redactați informațiile sensibile din DOTX documente prin .NET Core"
+head_description: "Aplicați redactarea textului folosind expresia exactă sau expresia regulată pentru documente de diferite formate"
 
 ############################# Header ############################
-title: "Redact DOTX Files via C# in .NET Core Apps"
-description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as DOTX on Windows, Linux & macOS"
+title: "Redactați fișierele DOTX prin C# în .NET Core Apps"
+description: "Căutați și înlocuiți text în documente Office și OpenOffice, foi de calcul și prezentări, precum și DOTX pe Windows, Linux și macOS"
 
 ################### SubMenu/Download Button #####################
 submenu:
@@ -20,25 +20,25 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Document Redaction for .NET API"
+    title: "Redactarea documentelor pentru API-ul .NET"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        O interfață unică independentă de format pentru redactarea informațiilor sensibile și clasificate din documentele și imaginile PDF, Word, Excel, PowerPoint, inclusiv posibilitatea de a modifica metadatele și de a elimina comentariile. Cu instrumentul GroupDocs.Redaction for .NET puteți redacta text și salva documentul redactat în PDF, transformând toate paginile în imagini raster sau păstrați documentul în formatul original pentru editare ulterioară.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Redact Exact Text from DOTX via C#"
+    title_left: "Redactați textul exact din DOTX prin C#"
     content_left: |
-        [GroupDocs.Redaction](ro//redaction/net/) makes it easy for .NET developers to add DOTX file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](ro//redaction/net/) facilitează pentru .NET dezvoltatorii să adauge DOTX funcția de redactare a fișierelor cu câțiva pași simpli.
 
-        *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load DOTX file
-        *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text
-        *   Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of ExactPhraseRedaction
+        *   Creați o instanță a clasei [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) și încărcați fișierul DOTX
+        *   Creați o instanță a clasei [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) pentru a găsi și înlocui textul
+        *   Apelați metoda [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) cu obiectul ExactPhraseRedaction
         
-    title_right: "Get Started with Redaction API"
+    title_right: "Începeți cu Redaction API"
     content_right: |
-        Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
-        Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.  
+        Instalați din linia de comandă ca ```nuget install GroupDocs.Redaction``` sau prin Consola Manager de pachete din Visual Studio cu ```Install-Package GroupDocs.Redaction```. 
+        Ca alternativă, obțineți programul de instalare MSI offline sau DLL-urile într-un fișier ZIP de la [descărcări](https://downloads.groupdocs.com/redaction/net) și faceți referire la el în proiectul dvs. manual.  
         
     code: |
         ```cs

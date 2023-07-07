@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "nl/redaction/net/text/xltx"
 otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX PDF POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from XLTX Documents via .NET Core"
-head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
+head_title: "Bewerk gevoelige informatie uit XLTX-documenten via .NET Core"
+head_description: "Pas tekstredactie toe met behulp van exacte zin of reguliere expressie voor documenten van verschillende formaten"
 
 ############################# Header ############################
-title: "Redact XLTX Files via C# in .NET Core Apps"
-description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as XLTX on Windows, Linux & macOS"
+title: "Bewerk XLTX bestanden via C# in .NET Core-apps"
+description: "Zoek en vervang tekst in Office- en OpenOffice-documenten, -spreadsheets en -presentaties en in XLTX op Windows, Linux en macOS"
 
 ################### SubMenu/Download Button #####################
 submenu:
@@ -20,25 +20,25 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Document Redaction for .NET API"
+    title: "Documentredactie voor .NET API"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        Eén formaat-onafhankelijke interface voor het redigeren van gevoelige en geheime informatie uit de PDF, Word, Excel, PowerPoint documenten en afbeeldingen, inclusief de mogelijkheid om metadata te wijzigen en opmerkingen te verwijderen. Met de tool GroupDocs.Redaction for .NET kunt u tekst redigeren en geredigeerde documenten opslaan in PDF, alle pagina's transformeren in rasterafbeeldingen of het document in zijn oorspronkelijke formaat behouden voor verdere bewerking.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Redact Exact Text from XLTX via C#"
+    title_left: "Bewerk exacte tekst van XLTX via C#"
     content_left: |
-        [GroupDocs.Redaction](nl//redaction/net/) makes it easy for .NET developers to add XLTX file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](nl//redaction/net/) maakt het gemakkelijk voor .NET ontwikkelaars om XLTX de functie voor het redigeren van bestanden toe te voegen in een paar eenvoudige stappen.
 
-        *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load XLTX file
-        *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text
-        *   Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of ExactPhraseRedaction
+        *   Maak een instantie van [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) klasse & laad XLTX bestand
+        *   Maak een instantie van de klasse [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) om de tekst te zoeken en te vervangen
+        *   Roep de methode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) aan met object van ExactPhraseRedaction
         
-    title_right: "Get Started with Redaction API"
+    title_right: "Aan de slag met Redaction API"
     content_right: |
-        Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
-        Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.  
+        Installeer vanaf de opdrachtregel als ```nuget install GroupDocs.Redaction``` of via Package Manager Console van Visual Studio met ```Install-Package GroupDocs.Redaction```. 
+        U kunt ook het offline MSI-installatieprogramma of de DLL's in een ZIP-bestand downloaden van [downloads](https://downloads.groupdocs.com/redaction/net) en er handmatig naar verwijzen in uw project.  
         
     code: |
         ```cs

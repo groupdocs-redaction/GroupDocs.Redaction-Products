@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "tr/redaction/net/text/pps"
 otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX PDF POT POTM PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from PPS Documents via .NET Core"
-head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
+head_title: "PPS Dokümanlardaki Hassas Bilgileri .NET Core Aracılığıyla Çıkartın"
+head_description: "Farklı biçimlerdeki belgeler için tam ifade veya normal ifade kullanarak metin redaksiyonu uygulayın"
 
 ############################# Header ############################
-title: "Redact PPS Files via C# in .NET Core Apps"
-description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as PPS on Windows, Linux & macOS"
+title: ".NET Temel Uygulamada C# aracılığıyla PPS Dosyayı Düzeltin"
+description: "Office ve OpenOffice Belgeleri, E-Tablolar ve Sunumların yanı sıra Windows, Linux ve macOS'ta PPS'te Metin Arayın ve Değiştirin"
 
 ################### SubMenu/Download Button #####################
 submenu:
@@ -20,25 +20,25 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Document Redaction for .NET API"
+    title: ".NET API için Belge Redaksiyonu"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        PDF, Word, Excel, PowerPoint belgelerinden ve resimlerinden hassas ve sınıflandırılmış bilgileri yeniden düzenlemek için, meta verileri değiştirme ve yorumları kaldırma yeteneği dahil, biçimden bağımsız tek bir arayüz. GroupDocs.Redaction for .NET aracıyla, metni yeniden düzenleyebilir ve düzeltilmiş belgeyi PDF içinde kaydedebilir, tüm sayfaları raster görüntülere dönüştürebilir veya daha fazla düzenleme için belgeyi orijinal biçiminde tutabilirsiniz.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Redact Exact Text from PPS via C#"
+    title_left: "C# aracılığıyla PPS'ten Tam Metni Reddet"
     content_left: |
-        [GroupDocs.Redaction](tr//redaction/net/) makes it easy for .NET developers to add PPS file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](tr//redaction/net/), .NET geliştiricilerinin birkaç kolay adımda PPS dosya düzenleme özelliği eklemesini kolaylaştırır.
 
-        *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load PPS file
-        *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text
-        *   Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of ExactPhraseRedaction
+        *   [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) sınıfının bir örneğini oluşturun ve PPS dosyasını yükleyin
+        *   Metni bulmak ve değiştirmek için [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) sınıfının bir örneğini oluşturun
+        *   ExactPhraseRedaction nesnesiyle [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) yöntemini çağırın
         
-    title_right: "Get Started with Redaction API"
+    title_right: "Redaksiyon API'sini Kullanmaya Başlayın"
     content_right: |
-        Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
-        Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.  
+        Komut satırından "nuget install GroupDocs.Redaction"" olarak veya Visual Studio'nun Paket Yöneticisi Konsolu aracılığıyla "Install-Package GroupDocs.Redaction"" ile yükleyin. 
+        Alternatif olarak, [downloads](https://downloads.groupdocs.com/redaction/net) adresinden bir ZIP dosyasındaki çevrimdışı MSI yükleyicisini veya DLL'leri edinin ve projenizde buna manuel olarak başvurun.  
         
     code: |
         ```cs

@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "hi/redaction/net/text/xltx"
 otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX PDF POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from XLTX Documents via .NET Core"
-head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
+head_title: "XLTX दस्तावेज़ों से संवेदनशील जानकारी को .NET कोर के माध्यम से संपादित करें"
+head_description: "विभिन्न प्रारूपों के दस्तावेज़ों के लिए सटीक वाक्यांश या नियमित अभिव्यक्ति का उपयोग करके टेक्स्ट संशोधन लागू करें"
 
 ############################# Header ############################
-title: "Redact XLTX Files via C# in .NET Core Apps"
-description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as XLTX on Windows, Linux & macOS"
+title: ".NET कोर ऐप्स में C# के माध्यम से XLTX फ़ाइलों को संशोधित करें"
+description: "Office और OpenOffice दस्तावेज़ों, स्प्रैडशीट्स और प्रस्तुतियों के साथ-साथ Windows, Linux और macOS पर XLTX में टेक्स्ट खोजें और बदलें"
 
 ################### SubMenu/Download Button #####################
 submenu:
@@ -20,25 +20,25 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Document Redaction for .NET API"
+    title: ".NET एपीआई के लिए दस्तावेज़ संशोधन"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        मेटाडेटा को बदलने और टिप्पणियों को हटाने की क्षमता सहित, PDF, Word, Excel, PowerPoint दस्तावेजों और छवियों से संवेदनशील और वर्गीकृत जानकारी को संशोधित करने के लिए एक एकल प्रारूप-स्वतंत्र इंटरफ़ेस। GroupDocs.Redaction for .NET टूल से आप टेक्स्ट को रिडक्ट कर सकते हैं और रिडक्टेड दस्तावेज़ को PDF में सेव कर सकते हैं, सभी पेजों को रैस्टर इमेज में बदल सकते हैं या दस्तावेज़ को आगे के संपादन के लिए उसके मूल प्रारूप में रख सकते हैं।
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Redact Exact Text from XLTX via C#"
+    title_left: "XLTX से C# तक सटीक पाठ संपादित करें"
     content_left: |
-        [GroupDocs.Redaction](hi//redaction/net/) makes it easy for .NET developers to add XLTX file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](hi//रेडेक्शन/net/) कुछ आसान चरणों के साथ .NET डेवलपर्स के लिए XLTX फ़ाइल रीडेक्शन सुविधा जोड़ना आसान बनाता है।
 
-        *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load XLTX file
-        *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text
-        *   Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of ExactPhraseRedaction
+        *   [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) क्लास का एक उदाहरण बनाएं और XLTX फ़ाइल लोड करें
+        *   टेक्स्ट को ढूंढने और बदलने के लिए [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) क्लास का एक उदाहरण बनाएं
+        *   ExactPhraseRedaction के ऑब्जेक्ट के साथ [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) विधि को कॉल करें
         
-    title_right: "Get Started with Redaction API"
+    title_right: "रिडक्शन एपीआई के साथ आरंभ करें"
     content_right: |
-        Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
-        Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.  
+        कमांड लाइन से ```nuget install GroupDocs.Redaction``` या विजुअल स्टूडियो के पैकेज मैनेजर कंसोल के माध्यम से ```इंस्टॉल-पैकेज GroupDocs.Redaction``` के साथ इंस्टॉल करें। 
+        वैकल्पिक रूप से, [डाउनलोड](https://downloads.groupdocs.com/redaction/net) से ZIP फ़ाइल में ऑफ़लाइन एमएसआई इंस्टॉलर या डीएलएल प्राप्त करें, और इसे अपने प्रोजेक्ट में मैन्युअल रूप से संदर्भित करें।  
         
     code: |
         ```cs

@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "lv/redaction/net/text/pot"
 otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX PDF POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from POT Documents via .NET Core"
-head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
+head_title: "Izņemiet sensitīvo informāciju no POT dokumentiem, izmantojot .NET Core"
+head_description: "Lietojiet teksta rediģēšanu, izmantojot precīzu frāzi vai regulāro izteiksmi dažādu formātu dokumentiem"
 
 ############################# Header ############################
-title: "Redact POT Files via C# in .NET Core Apps"
-description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as POT on Windows, Linux & macOS"
+title: "Rediģējiet POT failus, izmantojot C# .NET pamatlietotnēs"
+description: "Meklēt un aizstāt tekstu Office un OpenOffice dokumentos, izklājlapās un prezentācijās, kā arī POT operētājsistēmās Windows, Linux un macOS"
 
 ################### SubMenu/Download Button #####################
 submenu:
@@ -20,25 +20,25 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Document Redaction for .NET API"
+    title: "Dokumenta rediģēšana .NET API"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        Viena formāta neatkarīga saskarne sensitīvas un klasificētas informācijas noņemšanai no PDF, Word, Excel, PowerPoint dokumentiem un attēliem, tostarp iespēja mainīt metadatus un noņemt komentārus. Izmantojot rīku GroupDocs.Redaction for .NET, varat rediģēt tekstu un saglabāt rediģēto dokumentu mapē PDF, pārveidojot visas lapas rastra attēlos vai saglabājot dokumentu tā sākotnējā formātā turpmākai rediģēšanai.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Redact Exact Text from POT via C#"
+    title_left: "Rediģēt precīzu tekstu no POT, izmantojot C#"
     content_left: |
-        [GroupDocs.Redaction](lv//redaction/net/) makes it easy for .NET developers to add POT file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](lv//redaction/net/) ļauj .NET izstrādātājiem viegli pievienot POT failu rediģēšanas funkciju, veicot dažas vienkāršas darbības.
 
-        *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load POT file
-        *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text
-        *   Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of ExactPhraseRedaction
+        *   Izveidojiet klases [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) gadījumu un ielādējiet POT failu
+        *   Izveidojiet klases [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) instanci, lai atrastu un aizstātu tekstu
+        *   Izsauciet [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) metodi ar ExactPhraseRedaction objektu
         
-    title_right: "Get Started with Redaction API"
+    title_right: "Sāciet darbu ar Redaction API"
     content_right: |
-        Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
-        Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.  
+        Instalējiet no komandrindas kā ```nuget install GroupDocs.Redaction``` vai izmantojot Visual Studio pakotņu pārvaldnieka konsoli ar ```Install-Package GroupDocs.Redaction```. 
+        Varat arī iegūt bezsaistes MSI instalēšanas programmu vai DLL failā no [downloads](https://downloads.groupdocs.com/redaction/net) un manuāli atsaukties uz to savā projektā.  
         
     code: |
         ```cs

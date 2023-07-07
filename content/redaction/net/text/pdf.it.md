@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "it/redaction/net/text/pdf"
 otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from PDF Documents via .NET Core"
-head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
+head_title: "Oscura le informazioni sensibili dai documenti PDF tramite .NET Core"
+head_description: "Applica la redazione del testo utilizzando una frase esatta o un'espressione regolare per documenti di diversi formati"
 
 ############################# Header ############################
-title: "Redact PDF Files via C# in .NET Core Apps"
-description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as PDF on Windows, Linux & macOS"
+title: "Oscura i file PDF tramite C# nelle .NET app principali"
+description: "Cerca e sostituisci testo in documenti, fogli di lavoro e presentazioni Office e OpenOffice nonché PDF su Windows, Linux e macOS"
 
 ################### SubMenu/Download Button #####################
 submenu:
@@ -20,25 +20,25 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Document Redaction for .NET API"
+    title: "Redazione del documento per l'API .NET"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        Un'unica interfaccia indipendente dal formato per l'oscuramento di informazioni riservate e classificate da documenti e immagini PDF, Word, Excel, PowerPoint, inclusa la possibilità di modificare i metadati e rimuovere i commenti. Con lo strumento GroupDocs.Redaction for .NET puoi redigere il testo e salvare il documento redatto in PDF, trasformando tutte le pagine in immagini raster o mantenendo il documento nel suo formato originale per ulteriori modifiche.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Redact Exact Text from PDF via C#"
+    title_left: "Oscura testo esatto da PDF tramite C#"
     content_left: |
-        [GroupDocs.Redaction](it//redaction/net/) makes it easy for .NET developers to add PDF file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](it//redaction/net/) consente agli .NET sviluppatori di aggiungere facilmente PDF la funzionalità di revisione dei file con pochi semplici passaggi.
 
-        *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load PDF file
-        *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text
-        *   Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of ExactPhraseRedaction
+        *   Crea un'istanza della classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) e carica il file PDF
+        *   Crea un'istanza della classe [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) per trovare e sostituire il testo
+        *   Richiama il metodo [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) con oggetto di ExactPhraseRedaction
         
-    title_right: "Get Started with Redaction API"
+    title_right: "Inizia con l'API Redaction"
     content_right: |
-        Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
-        Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.  
+        Installa dalla riga di comando come ```nuget install GroupDocs.Redaction``` o tramite Package Manager Console di Visual Studio con ```Install-Package GroupDocs.Redaction```. 
+        In alternativa, scarica il programma di installazione MSI offline o le DLL in un file ZIP da [download](https://downloads.groupdocs.com/redaction/net) e fai riferimento a esso manualmente nel tuo progetto.  
         
     code: |
         ```cs

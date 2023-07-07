@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "uk/redaction/net/text/csv"
 otherformats: DOC DOCM DOCX DOT DOTM DOTX PDF POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from CSV Documents via .NET Core"
-head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
+head_title: "Видалення конфіденційної інформації з CSV документів через .NET Core"
+head_description: "Застосуйте редагування тексту за допомогою точної фрази або регулярного виразу для документів різних форматів"
 
 ############################# Header ############################
-title: "Redact CSV Files via C# in .NET Core Apps"
-description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as CSV on Windows, Linux & macOS"
+title: "Редагувати CSV файли за допомогою C# в .NET основних програмах"
+description: "Пошук і заміна тексту в документах Office і OpenOffice, електронних таблицях і презентаціях, а також CSV на Windows, Linux та macOS"
 
 ################### SubMenu/Download Button #####################
 submenu:
@@ -20,25 +20,25 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Document Redaction for .NET API"
+    title: "Редакція документа для API .NET"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        Єдиний незалежний від формату інтерфейс для редагування конфіденційної та секретної інформації з документів і зображень PDF, Word, Excel, PowerPoint, включаючи можливість змінювати метадані та видаляти коментарі. За допомогою інструмента GroupDocs.Redaction for .NET можна відредагувати текст і зберегти відредагований документ у PDF, перетворивши всі сторінки на растрові зображення або зберегти документ у вихідному форматі для подальшого редагування.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Redact Exact Text from CSV via C#"
+    title_left: "Відредагувати точний текст із CSV через C#"
     content_left: |
-        [GroupDocs.Redaction](uk//redaction/net/) makes it easy for .NET developers to add CSV file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](uk//redaction/net/) дозволяє розробникам .NET легко додати функцію редагування файлів CSV за кілька простих кроків.
 
-        *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load CSV file
-        *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text
-        *   Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of ExactPhraseRedaction
+        *   Створіть екземпляр класу [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) і завантажте файл CSV
+        *   Створіть екземпляр класу [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction), щоб знайти та замінити текст
+        *   Виклик методу [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) з об’єктом ExactPhraseRedaction
         
-    title_right: "Get Started with Redaction API"
+    title_right: "Початок роботи з Redaction API"
     content_right: |
-        Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
-        Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.  
+        Встановіть із командного рядка як ```nuget install GroupDocs.Redaction``` або через консоль диспетчера пакетів Visual Studio за допомогою ```Install-Package GroupDocs.Redaction```. 
+        Крім того, отримайте офлайн-інсталятор MSI або DLL у файлі ZIP із [завантажень](https://downloads.groupdocs.com/redaction/net) і посилайтеся на нього у своєму проекті вручну.  
         
     code: |
         ```cs

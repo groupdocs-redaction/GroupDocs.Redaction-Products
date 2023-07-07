@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "sl/redaction/net/text/pptm"
 otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX PDF POT POTM PPS PPSM PPSX PPT PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from PPTM Documents via .NET Core"
-head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
+head_title: "Uredite občutljive podatke iz PPTM dokumentov prek .NET Core"
+head_description: "Uporabite redigiranje besedila z uporabo natančne fraze ali regularnega izraza za dokumente različnih formatov"
 
 ############################# Header ############################
-title: "Redact PPTM Files via C# in .NET Core Apps"
-description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as PPTM on Windows, Linux & macOS"
+title: "Uredite PPTM datoteke prek C# v .NET osnovnih aplikacijah"
+description: "Iskanje in zamenjava besedila v dokumentih Office in OpenOffice, preglednicah in predstavitvah ter PPTM v Windows, Linux in macOS"
 
 ################### SubMenu/Download Button #####################
 submenu:
@@ -20,25 +20,25 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Document Redaction for .NET API"
+    title: "Redakcija dokumenta za API .NET"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        Enotni vmesnik, neodvisen od oblike, za urejanje občutljivih in zaupnih podatkov iz dokumentov in slik PDF, Word, Excel, PowerPoint, vključno z možnostjo spreminjanja metapodatkov in odstranjevanja komentarjev. Z orodjem GroupDocs.Redaction for .NET lahko redigirate besedilo in shranite redigiran dokument v PDF, tako da vse strani pretvorite v rastrske slike ali pa dokument obdržite v izvirni obliki za nadaljnje urejanje.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Redact Exact Text from PPTM via C#"
+    title_left: "Uredi natančno besedilo iz PPTM prek C#"
     content_left: |
-        [GroupDocs.Redaction](sl//redaction/net/) makes it easy for .NET developers to add PPTM file redaction feature with a few easy steps.
+        [GroupDocs.Redaction](sl//redaction/net/) razvijalcem .NET olajša dodajanje funkcije za urejanje datotek PPTM z nekaj preprostimi koraki.
 
-        *   Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) class & load PPTM file
-        *   Create an instance of [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) class to find and replace the text
-        *   Call [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) method with object of ExactPhraseRedaction
+        *   Ustvarite primerek razreda [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) in naložite datoteko PPTM
+        *   Ustvarite primerek razreda [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction), da poiščete in zamenjate besedilo
+        *   Pokličite metodo [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) z objektom ExactPhraseRedaction
         
-    title_right: "Get Started with Redaction API"
+    title_right: "Začnite uporabljati Redaction API"
     content_right: |
-        Install from command line as ```nuget install GroupDocs.Redaction``` or via Package Manager Console of Visual Studio with ```Install-Package GroupDocs.Redaction```. 
-        Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.groupdocs.com/redaction/net), and reference it in your project manually.  
+        Namestite iz ukazne vrstice kot ```nuget install GroupDocs.Redaction``` ali prek konzole upravitelja paketov Visual Studio z ```Install-Package GroupDocs.Redaction```. 
+        Druga možnost je, da dobite namestitveni program MSI brez povezave ali DLL-je v datoteki ZIP iz [prenosov](https://downloads.groupdocs.com/redaction/net) in jih ročno navedete v svojem projektu.  
         
     code: |
         ```cs

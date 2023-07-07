@@ -1,6 +1,6 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "es/redaction/net/regex/ppt"
 otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX PDF POT POTM PPS PPSM PPSX PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  

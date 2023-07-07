@@ -1,6 +1,6 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "autogen"
 draft: false
 path: "ms/redaction/net/regex/pdf"
 otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  

@@ -14,7 +14,7 @@
 <% if (eq ("{layout}") "autogen") %><% set "section_name" ("submenu") %><% else %><% set "section_name" ("button") %><% end %>
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "<% if (eq ("{layout}") "autogen") %>autogen<% else %>auto-gen-gist<% end %>"
 draft: false
 path: "<% get "slash_lang" %>redaction/<% get "ProductCode" %>/annotation/<% get "ext" %>"
 otherformats: <% get "OtherFormats" %>  

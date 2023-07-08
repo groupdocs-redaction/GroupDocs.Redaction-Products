@@ -12,14 +12,8 @@ block:
         <% "{blocks.example.content_right.step_1}" %>
         <% "{blocks.example.content_right.step_2}" %>
 
-      code: |
-        ```<% dict "products.{product}.syntax" %>
-        using (Redactor redactor = new Redactor(@"sample.<% get "ext" %>"))
-        {
-        	redactor.Apply(new ExactPhraseRedaction("John Doe", new ReplacementOptions("[personal]")));
-        	redactor.Save();
-        }
-        ```
+      gisthash: "6270f4af5c2fdfae30c6b28a4fd150a6"
+      gistfile: "ExactPhraseRedaction.cs"
       
     - title_left: "<% "{blocks.requirements.title_left}" %>"
       content_left: |

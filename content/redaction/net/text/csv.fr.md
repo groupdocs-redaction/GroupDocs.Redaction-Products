@@ -41,14 +41,8 @@ steps:
         Installez à partir de la ligne de commande en tant que ```nuget install GroupDocs.Redaction``` ou via la console du gestionnaire de packages de Visual Studio avec ```Install-Package GroupDocs.Redaction```.
         Vous pouvez également obtenir le programme d'installation MSI hors ligne ou les DLL dans un fichier ZIP à partir de [downloads](https://downloads.groupdocs.com/redaction/net) et le référencer manuellement dans votre projet.
 
-      code: |
-        ```cs
-        using (Redactor redactor = new Redactor(@"sample.csv"))
-        {
-        	redactor.Apply(new ExactPhraseRedaction("John Doe", new ReplacementOptions("[personal]")));
-        	redactor.Save();
-        }
-        ```
+      gisthash: "6270f4af5c2fdfae30c6b28a4fd150a6"
+      gistfile: "ExactPhraseRedaction.cs"
       
     - title_left: "Configuration requise"
       content_left: |

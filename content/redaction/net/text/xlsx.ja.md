@@ -41,14 +41,8 @@ steps:
         コマンドラインから```nuget install GroupDocs.Redaction```としてインストールするか、VisualStudioのPackageManagerコンソールから```Install-PackageGroupDocs.Redaction```を使用してインストールします。
         または、[ダウンロード](https://downloads.groupdocs.com/redaction/net) からオフラインMSIインストーラーまたはDLLをZIPファイルで取得し、プロジェクトで手動で参照します。
 
-      code: |
-        ```cs
-        using (Redactor redactor = new Redactor(@"sample.xlsx"))
-        {
-        	redactor.Apply(new ExactPhraseRedaction("John Doe", new ReplacementOptions("[personal]")));
-        	redactor.Save();
-        }
-        ```
+      gisthash: "6270f4af5c2fdfae30c6b28a4fd150a6"
+      gistfile: "ExactPhraseRedaction.cs"
       
     - title_left: "システム要求"
       content_left: |

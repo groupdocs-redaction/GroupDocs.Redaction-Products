@@ -41,14 +41,8 @@ steps:
         명령줄에서 ```nuget install GroupDocs.Redaction```으로 설치하거나 Visual Studio의 패키지 관리자 콘솔을 통해 ```Install-Package GroupDocs.Redaction```으로 설치합니다.
         또는 [downloads](https://downloads.groupdocs.com/redaction/net)에서 오프라인 MSI 설치 프로그램 또는 DLL을 ZIP 파일로 다운로드하고 프로젝트에서 수동으로 참조하십시오.
 
-      code: |
-        ```cs
-        using (Redactor redactor = new Redactor(@"sample.docm"))
-        {
-        	redactor.Apply(new ExactPhraseRedaction("John Doe", new ReplacementOptions("[personal]")));
-        	redactor.Save();
-        }
-        ```
+      gisthash: "6270f4af5c2fdfae30c6b28a4fd150a6"
+      gistfile: "ExactPhraseRedaction.cs"
       
     - title_left: "시스템 요구 사항"
       content_left: |

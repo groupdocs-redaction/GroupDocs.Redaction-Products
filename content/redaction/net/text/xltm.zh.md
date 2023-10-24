@@ -41,14 +41,8 @@ steps:
         从命令行安装为 ```nuget install GroupDocs.Redaction``` 或通过 Visual Studio 的包管理器控制台使用 ```Install-Package GroupDocs.Redaction```。
         或者，从 [下载](https://downloads.groupdocs.com/redaction/net) 获取 ZIP 文件中的离线 MSI 安装程序或 DLL，并在您的项目中手动引用它。
 
-      code: |
-        ```cs
-        using (Redactor redactor = new Redactor(@"sample.xltm"))
-        {
-        	redactor.Apply(new ExactPhraseRedaction("John Doe", new ReplacementOptions("[personal]")));
-        	redactor.Save();
-        }
-        ```
+      gisthash: "6270f4af5c2fdfae30c6b28a4fd150a6"
+      gistfile: "ExactPhraseRedaction.cs"
       
     - title_left: "系统要求"
       content_left: |

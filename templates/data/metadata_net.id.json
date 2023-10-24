@@ -1,0 +1,72 @@
+{
+  "layout": "auto-gen-inti",
+  "head": {
+    "title": "Terapkan Redaksi Metadata ke PDF, DOCX, PPT, PPTX, XLS, XLSX di .NET",
+    "description": "API .NET GroupDocs.Redaction memungkinkan pengembang perangkat lunak menerapkan redaksi metadata ke berbagai format file seperti PDF DOC DOCX RTF XLSX CSV PPT PPTX & gambar"
+  },
+  "header": {
+    "title": "Redaksi & Filter Metadata dari PDF, DOCX, PPT, PPTX, XLS, XLSX & Lainnya",
+    "description": "API .NET GroupDocs.Redaction memungkinkan pengembang perangkat lunak menyunting atau memfilter metadata dari berbagai format file seperti PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX dan banyak lagi yang lain"
+  },
+  "about": {
+    "title": "Apa itu Redaksi Metadata?",
+    "h1": "Metadata adalah jenis data yang memberikan informasi tentang data lain. Dengan kata lain Anda banyak menganggap metadata sebagai referensi ke data. Ini membantu untuk meringkas informasi dasar tentang data yang dapat digunakan untuk melacak dan mengelola data dengan mudah. GroupDocs.Redaction for .NET adalah API asli canggih yang memungkinkan pengembang perangkat lunak untuk menyunting informasi sensitif dan rahasia dari berbagai jenis dokumen tanpa menginstal perangkat lunak eksternal atau alat pihak ketiga apa pun. Telah memberikan dukungan untuk berbagai filter seperti penulis, perusahaan, kategori, ukuran dokumen, tanggal pembuatan, judul, LastPrinted, komentar dan sebagainya. Ini membantu pengguna untuk menerapkan redaksi metadata ke berbagai format dokumen populer seperti dokumen pengolah kata, lembar kerja, presentasi, dan file gambar raster. Pengembang juga dapat memperbarui, mengganti, atau menghapus metadata dengan menerapkan filter atau menggunakan pencarian. Selain itu, pengembang dapat dengan mudah menerapkan beberapa redaksi dalam satu panggilan. Jadi lebih baik cobalah mengotomatiskan proses redaksi dokumen dan metadata Anda dengan mengunduh API dan menjelajahi fitur dasar dan lanjutannya."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Cara Membersihkan Metadata dari Dokumen {{EXT}} di {{ProgLang}}",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction for .NET adalah API canggih yang memungkinkan pemrogram menyunting, menyembunyikan, atau mengganti informasi rahasia dari berbagai jenis dokumen populer menggunakan filter atau menelusuri dengan ekspresi reguler.",
+        "step_2": "Contoh kode berikut menunjukkan cara menerapkan redaksi metadata untuk mengganti semua atau metadata tertentu dalam dokumen dengan nilai kosong atau minimal."
+      },
+      "title_right": "Terapkan Redaksi Metadata ke File {{EXT}}",
+      "content_right": {
+        "step_1": "Buat instance kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)",
+        "step_2": "Panggil metode Redactor.Apply dengan objek EraseMetadataRedaction dari [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)",
+        "step_3": "Panggil metode Redactor.Save untuk menyimpan dokumen ke file \"*_Redacted.*\" dalam format aslinya"
+      },
+      "gist": {
+        "hash": "8f1bc20dff33c9a45c01a9e251555bf1",
+        "file": "bagaimana_to_clean_metadata_dotnet.cs"
+      }
+    },
+    "example2": {
+      "title_left": "Sunting Metadata dari File {{EXT}} melalui .NET",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction .NET API memudahkan pengembang dengan membantu mereka menyematkan otomatisasi dokumen dan tugas pelaporan hanya dengan beberapa baris kode tanpa ketergantungan eksternal apa pun.",
+        "step_2": "Contoh kode C# berikut menunjukkan bagaimana pengembang perangkat lunak dapat menghapus data sensitif dari metadata dokumen hanya dengan beberapa baris kode."
+      },
+      "title_right": "Redaksi Metadata dari {{EXT}} File",
+      "content_right": {
+        "step_1": "Buat instance kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)",
+        "step_2": "Buat instance [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)",
+        "step_3": "Hubungi [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index)",
+        "step_4": "Panggil metode Redactor.Save untuk menyimpan dokumen ke file \"*_Redacted.*\" dalam format aslinya"
+      },
+      "gist": {
+        "hash": "8dee499186930d60909dffa54579c9f4",
+        "file": "bagaimana_to_redact_metadata_dotnet.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "Persyaratan sistem",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET API didukung di semua platform dan sistem operasi utama. Untuk panduan lengkap persyaratan sistem, silakan kunjungi [persyaratan sistem](https://docs.groupdocs.com/redaction/net/system-requirements/) Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di perangkat Anda sistem:",
+        "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+        "step_2": "Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop dll",
+        "step_3": "Kerangka Kerja: .NET Kerangka Kerja, .NET Standar, .NET Inti, Mono",
+        "step_4": "Dapatkan GroupDocs.Redaction .NET API versi terbaru dari [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/)"
+      },
+      "title_right": "Mengapa Menggunakan GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Izinkan pengguna menambahkan format dokumen khusus dan jenis redaksi",
+        "step_2": "Tidak diperlukan perangkat lunak tambahan untuk menghapus informasi sensitif",
+        "step_3": "Kemampuan untuk mengatur dokumen rendering rentang halaman sebagai PDF",
+        "step_4": "Cara mudah untuk menyunting berbagai jenis metadata: nama penulis, versi, judul, subjek, deskripsi, dan banyak lagi",
+        "step_5": "Ekstraksi informasi dokumen - jenis file, jumlah halaman, dll.",
+        "step_6": "Dukungan penuh untuk berbagai format data"
+      }
+    }
+  },
+  "about_formats": "BENAR"
+}

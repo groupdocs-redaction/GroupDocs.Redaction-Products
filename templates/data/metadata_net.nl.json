@@ -1,0 +1,72 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Metagegevensredactie toepassen op PDF, DOCX, PPT, PPTX, XLS, XLSX in .NET",
+    "description": "Met de .NET API van GroupDocs.Redaction kunnen softwareontwikkelaars metadataredacties toepassen op verschillende bestandsindelingen, zoals PDF DOC DOCX RTF XLSX CSV PPT PPTX en afbeeldingen"
+  },
+  "header": {
+    "title": "Metagegevens redigeren en filteren uit PDF, DOCX, PPT, PPTX, XLS, XLSX en meer",
+    "description": "Met de .NET API van GroupDocs.Redaction kunnen softwareontwikkelaars metagegevens uit verschillende bestandsindelingen redigeren of filteren, zoals PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX en vele andere anderen"
+  },
+  "about": {
+    "title": "Wat is het redigeren van metadata?",
+    "h1": "Metadata is een soort data die informatie geeft over andere data. Met andere woorden, velen beschouwen metadata als verwijzingen naar gegevens. Het helpt bij het samenvatten van basisinformatie over gegevens, die kan worden gebruikt om gegevens eenvoudig bij te houden en te beheren. GroupDocs.Redaction for .NET is een krachtige native API waarmee softwareontwikkelaars gevoelige en geheime informatie uit verschillende documenttypen kunnen redigeren zonder externe software of tools van derden te installeren. Het biedt ondersteuning voor verschillende filters, zoals auteur, bedrijf, categorie, grootte van een document, aanmaakdatum, titel, Laatstgedrukt, opmerkingen enzovoort. Het helpt gebruikers om metadata-redacties toe te passen op verschillende populaire documentformaten, zoals tekstverwerkingsdocumenten, Excel werkbladen, presentaties, PDF en rasterafbeeldingsbestanden. Ontwikkelaars kunnen metagegevens ook bijwerken, vervangen of wissen door filters toe te passen of de zoekfunctie te gebruiken. Bovendien kunnen ontwikkelaars eenvoudig meerdere redacties in één oproep toepassen. Probeer het dus eens om het redactieproces van uw documenten en metagegevens te automatiseren door de API te downloaden en de basis- en geavanceerde functies ervan te verkennen."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Metagegevens opschonen uit {{EXT}} document in {{ProgLang}}",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction for .NET is een krachtige API waarmee programmeurs de geheime informatie uit talloze populaire documenttypen kunnen redigeren, verbergen of vervangen met behulp van filters of kunnen zoeken op reguliere expressies.",
+        "step_2": "Het volgende codevoorbeeld .NET laat zien hoe u metagegevensredactie kunt toepassen om alle of specifieke metagegevens in het document te vervangen door lege of minimale waarden."
+      },
+      "title_right": "Pas metagegevensredactie toe op {{EXT}}-bestand",
+      "content_right": {
+        "step_1": "Maak een exemplaar van de klasse [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)",
+        "step_2": "Roep de Redactor.Apply-methode aan met het EraseMetadataRedaction-object van [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataRedaction)",
+        "step_3": "Roep de Redactor.Save-methode aan om het document in het originele formaat op te slaan in het bestand \"*_Redacted.*\"."
+      },
+      "gist": {
+        "hash": "8f1bc20dff33c9a45c01a9e251555bf1",
+        "file": "how_to_clean_metadata_dotnet.cs"
+      }
+    },
+    "example2": {
+      "title_left": "Metagegevens uit {{EXT}} bestand redigeren via .NET",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction .NET API maakt het ontwikkelaars gemakkelijk door hen te helpen documentenautomatisering en rapportagetaken in te sluiten met slechts een paar regels code, zonder enige externe afhankelijkheden.",
+        "step_2": "Het volgende C# .NET-codevoorbeeld laat zien hoe softwareontwikkelaars met slechts een paar regels code gevoelige gegevens uit de metagegevens van documenten kunnen verwijderen."
+      },
+      "title_right": "Redactie van metagegevens uit {{EXT}} bestanden",
+      "content_right": {
+        "step_1": "Maak een exemplaar van de klasse [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)",
+        "step_2": "Maak een exemplaar van [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)",
+        "step_3": "Bel [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index)",
+        "step_4": "Roep de Redactor.Save-methode aan om het document in het originele formaat op te slaan in het bestand \"*_Redacted.*\"."
+      },
+      "gist": {
+        "hash": "8dee499186930d60909dffa54579c9f4",
+        "file": "how_to_redact_metadata_dotnet.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "systeem vereisten",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET API's worden ondersteund op alle grote platforms en besturingssystemen. Voor de volledige handleiding met systeemvereisten gaat u naar [systeemvereisten](https://docs.groupdocs.com/redaction/net/system-requirements/) Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw computer zijn geïnstalleerd. systeem:",
+        "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+        "step_2": "Ontwikkelomgeving: Visual Studio, Xamarin, MonoDevelop enz",
+        "step_3": "Frameworks: .NET Framework, .NET Standaard, .NET Core, Mono",
+        "step_4": "Download de nieuwste versie van GroupDocs.Redaction .NET API's van [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/)"
+      },
+      "title_right": "Waarom GroupDocs.Redaction gebruiken",
+      "content_right": {
+        "step_1": "Sta gebruikers toe aangepaste documentformaten en soorten redacties toe te voegen",
+        "step_2": "Er is geen extra software nodig om gevoelige informatie te verwijderen",
+        "step_3": "Mogelijkheid om het weergavedocument voor het paginabereik in te stellen als PDF",
+        "step_4": "Gemakkelijke manier om verschillende soorten metadata te redigeren: auteursnaam, versie, titel, onderwerp, beschrijving en nog veel meer",
+        "step_5": "Extractie van documentinformatie - bestandstype, aantal pagina's enz.",
+        "step_6": "Volledige ondersteuning voor meerdere gegevensformaten"
+      }
+    }
+  },
+  "about_formats": "WAAR"
+}

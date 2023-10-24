@@ -1,0 +1,72 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Aplicați redacții metadate la PDF, DOCX, PPT, PPTX, XLS, XLSX în .NET",
+    "description": "API-ul GroupDocs.Redaction .NET le permite dezvoltatorilor de software să aplice redactări de metadate în diferite formate de fișiere, cum ar fi PDF DOC DOCX RTF XLSX CSV PPT PPTX și imagini"
+  },
+  "header": {
+    "title": "Redactați și filtrați metadatele din PDF, DOCX, PPT, PPTX, XLS, XLSX și altele",
+    "description": "API-ul GroupDocs.Redaction .NET le permite dezvoltatorilor de software să redacteze sau să filtreze metadatele din diferite formate de fișiere, cum ar fi PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX și multe alții"
+  },
+  "about": {
+    "title": "Ce este redarea metadatelor?",
+    "h1": "Metadatele sunt un fel de date care oferă informații despre alte date. Cu alte cuvinte, mulți considerați metadate ca referințe la date. Ajută la rezumarea informațiilor de bază despre date care pot fi utilizate pentru a urmări și gestiona cu ușurință datele. GroupDocs.Redaction for .NET este un API nativ puternic care permite dezvoltatorilor de software să redacteze informații sensibile și clasificate din diferite tipuri de documente fără a instala vreun software extern sau un instrument terță parte. A oferit suport pentru diverse filtre, cum ar fi autor, companie, categorie, dimensiunea unui document, data creării, titlu, LastPrinted, comentarii și așa mai departe. Ajută utilizatorii să aplice redactări de metadate la diferite formate de documente populare, cum ar fi documente de procesare de text, foi de lucru Excel, prezentări, PDF și fișiere imagine raster. De asemenea, dezvoltatorii pot actualiza, înlocui sau șterge metadatele aplicând filtre sau folosind căutarea. În plus, dezvoltatorii pot aplica cu ușurință mai multe redactări într-un singur apel. Așa că mai bine încercați să vă automatizeze procesul de redactare a documentelor și a metadatelor, descărcând API-ul și explorați funcțiile sale de bază și avansate."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Cum să curățați metadatele din documentul {{EXT}} din {{ProgLang}}",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction for .NET este un API puternic care permite programatorilor să redacteze, să ascundă sau să înlocuiască informațiile clasificate din numeroase tipuri de documente populare folosind filtre sau căutare prin expresii regulate.",
+        "step_2": "Următorul exemplu de cod .NET arată cum să aplicați redactarea metadatelor pentru a înlocui toate metadatele sau anumite metadate din document cu valori goale sau minime."
+      },
+      "title_right": "Aplicați redarea metadatelor la fișierul {{EXT}}",
+      "content_right": {
+        "step_1": "Creați o instanță a clasei [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)",
+        "step_2": "Apelați metoda Redactor.Apply cu obiectul EraseMetadataRedaction al [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)",
+        "step_3": "Apelați metoda Redactor.Save pentru a salva documentul în fișierul „*_Redacted.*” în format original"
+      },
+      "gist": {
+        "hash": "8f1bc20dff33c9a45c01a9e251555bf1",
+        "file": "how_to_clean_metadata_dotnet.cs"
+      }
+    },
+    "example2": {
+      "title_left": "Redactați metadatele din fișierul {{EXT}} prin .NET",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction .NET API-ul facilitează viața dezvoltatorilor, ajutându-i să încorporeze automatizarea documentelor și lucrări de raportare cu doar câteva linii de cod, fără dependențe externe.",
+        "step_2": "Următorul exemplu de cod C# .NET arată cum dezvoltatorii de software pot elimina datele sensibile din metadatele documentului cu doar câteva rânduri de cod."
+      },
+      "title_right": "Redactarea metadatelor din fișiere {{EXT}}",
+      "content_right": {
+        "step_1": "Creați o instanță a clasei [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)",
+        "step_2": "Creați o instanță pentru [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)",
+        "step_3": "Apelați [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index)",
+        "step_4": "Apelați metoda Redactor.Save pentru a salva documentul în fișierul „*_Redacted.*” în format original"
+      },
+      "gist": {
+        "hash": "8dee499186930d60909dffa54579c9f4",
+        "file": "how_to_redact_metadata_dotnet.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "Cerințe de sistem",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET API-urile sunt acceptate pe toate platformele și sistemele de operare majore. Pentru un ghid complet al cerințelor de sistem, vă rugăm să vizitați [system requirements](https://docs.groupdocs.com/redaction/net/system-requirements/) Înainte de a executa codul de mai jos, vă rugăm să vă asigurați că aveți următoarele cerințe preliminare instalate pe dvs. sistem:",
+        "step_1": "Sisteme de operare: Microsoft Windows, Linux, MacOS",
+        "step_2": "Mediu de dezvoltare: Visual Studio, Xamarin, MonoDevelop etc",
+        "step_3": "Framework: .NET Framework, .NET Standard, .NET Core, Mono",
+        "step_4": "Obțineți cea mai recentă versiune a API-urilor GroupDocs.Redaction .NET de la [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/)"
+      },
+      "title_right": "De ce să folosiți GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Permiteți utilizatorilor să adauge formate de documente personalizate și tipuri de redactări",
+        "step_2": "Nu este necesar niciun software suplimentar pentru a elimina informațiile sensibile",
+        "step_3": "Posibilitatea de a seta documentul de randare a intervalului de pagini ca PDF",
+        "step_4": "O modalitate ușoară de a redacta diferite tipuri de metadate: numele autorului, versiunea, titlul, subiectul, descrierea și multe altele",
+        "step_5": "Extragerea informațiilor documentului - tip de fișier, număr de pagini etc.",
+        "step_6": "Suport complet pentru mai multe formate de date"
+      }
+    }
+  },
+  "about_formats": "Adevărat"
+}

@@ -1,0 +1,72 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Gunakan Penyuntingan Metadata pada PDF, DOCX, PPT, PPTX, XLS, XLSX dalam .NET",
+    "description": "API GroupDocs.Redactions .NET membenarkan pembangun perisian menggunakan redaksi metadata pada format fail yang berbeza seperti PDF DOC DOCX RTF XLSX CSV PPT PPTX & imej"
+  },
+  "header": {
+    "title": "Redact & Tapis Metadata daripada PDF, DOCX, PPT, PPTX, XLS, XLSX & Lagi",
+    "description": "API GroupDocs.Redactions .NET membenarkan pembangun perisian menyunting atau menapis metadata daripada pelbagai format fail seperti PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX dan banyak lagi yang lain"
+  },
+  "about": {
+    "title": "Apakah Redaksi Metadata?",
+    "h1": "Metadata ialah sejenis data yang menyediakan maklumat tentang data lain. Dengan kata lain anda ramai yang menganggap metadata sebagai rujukan kepada data. Ia membantu untuk meringkaskan maklumat asas tentang data yang boleh digunakan untuk menjejak dan mengurus data dengan mudah. GroupDocs.Redaction for .NET ialah API asli yang berkuasa yang membenarkan pembangun perisian menyunting maklumat sensitif dan terperingkat daripada pelbagai jenis dokumen tanpa memasang sebarang perisian luaran atau alat pihak ketiga. Ia telah menyediakan sokongan untuk pelbagai penapis seperti pengarang, syarikat, kategori, saiz dokumen, tarikh dibuat, tajuk, LastPrinted, komen dan sebagainya. Ia membantu pengguna untuk menggunakan redaksi metadata pada pelbagai format dokumen popular seperti dokumen pemprosesan perkataan, Excel lembaran kerja, pembentangan, PDF dan fail imej raster. Pembangun juga boleh mengemas kini, menggantikan atau memadam metadata dengan menggunakan penapis atau menggunakan carian. Selain itu, pembangun boleh menggunakan berbilang redaksi dengan mudah dalam satu panggilan. Jadi lebih baik cuba untuk mengautomasikan proses redaksi dokumen dan metadata anda dengan memuat turun API dan meneroka ciri asas dan lanjutannya."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Cara Membersihkan Metadata daripada {{EXT}} Dokumen dalam {{ProgLang}}",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction for .NET ialah API berkuasa yang membolehkan pengaturcara menyunting, menyembunyikan atau menggantikan maklumat terperingkat daripada pelbagai jenis dokumen popular menggunakan penapis atau carian mengikut ungkapan biasa.",
+        "step_2": "Contoh kod .NET berikut menunjukkan cara menggunakan redaksi metadata untuk menggantikan semua atau metadata khusus dalam dokumen dengan nilai kosong atau minimum."
+      },
+      "title_right": "Gunakan Redaksi Metadata pada Fail {{EXT}}.",
+      "content_right": {
+        "step_1": "Buat contoh kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)",
+        "step_2": "Panggil Redactor.Apply kaedah dengan EraseMetadataRedaction objek [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)",
+        "step_3": "Panggil Redactor.Save kaedah untuk menyimpan dokumen ke fail \"*_Redacted.*\" dalam format asal"
+      },
+      "gist": {
+        "hash": "8f1bc20dff33c9a45c01a9e251555bf1",
+        "file": "cara_membersihkan_metadata_dotnet.cs"
+      }
+    },
+    "example2": {
+      "title_left": "Redact Metadata daripada {{EXT}} Fail melalui .NET",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction .NET API menjadikan kehidupan pembangun mudah dengan membantu mereka membenamkan automasi dokumen dan melaporkan kerja dengan hanya beberapa baris kod tanpa sebarang kebergantungan luaran.",
+        "step_2": "Contoh kod C# .NET berikut menunjukkan cara pembangun perisian boleh mengalih keluar data sensitif daripada metadata dokumen dengan hanya beberapa baris kod."
+      },
+      "title_right": "Penyuntingan Metadata daripada {{EXT}} Fail",
+      "content_right": {
+        "step_1": "Buat contoh kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)",
+        "step_2": "Buat contoh [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)",
+        "step_3": "Panggil [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index)",
+        "step_4": "Panggil Redactor.Save kaedah untuk menyimpan dokumen ke fail \"*_Redacted.*\" dalam format asal"
+      },
+      "gist": {
+        "hash": "8dee499186930d60909dffa54579c9f4",
+        "file": "how_to_redact_metadata_dotnet.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "Keperluan Sistem",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET API disokong pada semua platform dan sistem pengendalian utama. Untuk panduan keperluan sistem yang lengkap, sila lawati [keperluan sistem](https://docs.groupdocs.com/redaction/net/system-requirements/) Sebelum melaksanakan kod di bawah, sila pastikan bahawa anda mempunyai prasyarat berikut dipasang pada anda sistem:",
+        "step_1": "Sistem Pengendalian: Microsoft Windows, Linux, MacOS",
+        "step_2": "Persekitaran Pembangunan: Visual Studio, Xamarin, MonoDevelop dsb",
+        "step_3": "Rangka Kerja: .NET Rangka Kerja, .NET Standard, .NET Teras, Mono",
+        "step_4": "Dapatkan versi terkini GroupDocs.Redaction .NET API daripada [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/)"
+      },
+      "title_right": "Mengapa Menggunakan GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Benarkan pengguna menambah format dokumen tersuai dan jenis suntingan",
+        "step_2": "Tiada perisian tambahan diperlukan untuk mengalih keluar maklumat sensitif",
+        "step_3": "Keupayaan untuk menetapkan dokumen pemaparan julat halaman sebagai PDF",
+        "step_4": "Cara mudah untuk menyunting pelbagai jenis metadata: nama pengarang, versi, tajuk, subjek, penerangan dan banyak lagi",
+        "step_5": "Pengekstrakan maklumat dokumen - jenis fail, kiraan halaman dsb.",
+        "step_6": "Sokongan penuh untuk pelbagai format data"
+      }
+    }
+  },
+  "about_formats": "benar"
+}

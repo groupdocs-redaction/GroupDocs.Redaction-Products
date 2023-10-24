@@ -1,0 +1,72 @@
+{
+  "layout": "otomatik gen özü",
+  "head": {
+    "title": ".NET'de PDF, DOCX, PPT, PPTX, XLS, XLSX'ye Meta Veri Düzenlemelerini Uygulayın",
+    "description": "GroupDocs.Redaction'nin .NET API'si, yazılım geliştiricilerin meta veri düzenlemelerini PDF DOC DOCX RTF XLSX CSV PPT PPTX ve resimler gibi farklı dosya biçimlerine uygulamasına olanak tanır"
+  },
+  "header": {
+    "title": "PDF, DOCX, PPT, PPTX, XLS, XLSX ve Daha Fazlasından Meta Verileri Çıkarın ve Filtreleyin",
+    "description": "GroupDocs.Redaction'nin .NET API'si, yazılım geliştiricilerin PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX ve daha pek çok dosya biçimindeki meta verileri çıkarmasına veya filtrelemesine olanak tanır diğerleri"
+  },
+  "about": {
+    "title": "Meta Veri Redaksiyonu Nedir?",
+    "h1": "Meta veriler, diğer veriler hakkında bilgi sağlayan bir tür veridir. Başka bir deyişle, çoğunuz meta verileri verilere referans olarak düşünüyorsunuz. Verileri kolayca takip etmek ve yönetmek için kullanılabilecek verilerle ilgili temel bilgilerin özetlenmesine yardımcı olur. GroupDocs.Redaction for .NET, yazılım geliştiricilerin herhangi bir harici yazılım veya üçüncü taraf aracı yüklemeden, çeşitli belge türlerindeki hassas ve gizli bilgileri çıkarmalarına olanak tanıyan güçlü bir yerel API'dir. Yazar, şirket, kategori, belgenin boyutu, oluşturulma tarihi, başlık, LastPrinted, yorumlar vb. gibi çeşitli filtrelere destek sağlamıştır. Kullanıcıların, kelime işlem belgeleri, Excel çalışma sayfaları, sunumlar, PDF ve taramalı görüntü dosyaları gibi çeşitli popüler belge formatlarına meta veri düzenlemeleri uygulamasına yardımcı olur. Geliştiriciler ayrıca filtreler uygulayarak veya aramayı kullanarak meta verileri güncelleyebilir, değiştirebilir veya silebilir. Üstelik geliştiriciler tek bir çağrıda birden fazla düzenlemeyi kolaylıkla uygulayabilir. Bu nedenle, API'yi indirip temel ve gelişmiş özelliklerini keşfederek belgenizi ve meta veri düzenleme sürecinizi otomatikleştirmeyi denemeniz daha iyi olur."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "{{ProgLang}}'daki {{EXT}} Belgesinden Meta Veriler Nasıl Temizlenir?",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction for .NET, programcıların filtreleri kullanarak veya normal ifadeye göre arama yaparak çok sayıda popüler belge türünden gizli bilgileri çıkarmasına, gizlemesine veya değiştirmesine olanak tanıyan güçlü bir API'dir.",
+        "step_2": "Aşağıdaki .NET kod örneği, belgedeki tüm veya belirli meta verileri boş veya minimum değerlerle değiştirmek için meta veri düzenlemesinin nasıl uygulanacağını gösterir."
+      },
+      "title_right": "{{EXT}} Dosyasına Meta Veri Düzenlemesi Uygula",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) sınıfının bir örneğini oluşturun",
+        "step_2": "[EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) EraseMetadataRedaction nesnesiyle Redactor.Apply yöntemini çağırın",
+        "step_3": "Belgeyi \"*_Redacted.*\" dosyasına orijinal formatta kaydetmek için Redactor.Save yöntemini çağırın"
+      },
+      "gist": {
+        "hash": "8f1bc20dff33c9a45c01a9e251555bf1",
+        "file": "How_to_clean_metadata_dotnet.cs"
+      }
+    },
+    "example2": {
+      "title_left": "{{EXT}} Dosyasındaki Meta Verileri .NET aracılığıyla Çıkartın",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction .NET API, geliştiricilerin belge otomasyonu ve raporlama işlerini herhangi bir dış bağımlılık olmaksızın yalnızca birkaç satır kodla yerleştirmelerine yardımcı olarak hayatlarını kolaylaştırır.",
+        "step_2": "Aşağıdaki C# .NET kod örneği, yazılım geliştiricilerin yalnızca birkaç satır kodla hassas verileri belgenin meta verilerinden nasıl kaldırabileceklerini gösterir."
+      },
+      "title_right": "{{EXT}} Dosyadan Meta Veri Düzenlemesi",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) sınıfının bir örneğini oluşturun",
+        "step_2": "Bir [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) örneğini oluşturun",
+        "step_3": "[Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) numaralı telefonu arayın",
+        "step_4": "Belgeyi \"*_Redacted.*\" dosyasına orijinal formatta kaydetmek için Redactor.Save yöntemini çağırın"
+      },
+      "gist": {
+        "hash": "8dee499186930d60909dffa54579c9f4",
+        "file": "How_to_redact_metadata_dotnet.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "sistem gereksinimleri",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET API'ler tüm önemli platformlarda ve işletim sistemlerinde desteklenir. Sistem gereksinimleri kılavuzunun tamamı için lütfen [sistem gereksinimleri](https://docs.groupdocs.com/redaction/net/system-requirements/) adresini ziyaret edin. Aşağıdaki kodu çalıştırmadan önce lütfen aşağıdaki önkoşulların cihazınızda yüklü olduğundan emin olun. sistem:",
+        "step_1": "İşletim Sistemleri: Microsoft Windows, Linux, Macİşletim Sistemi",
+        "step_2": "Geliştirme Ortamı: Visual Studio, Xamarin, MonoDevelop vb.",
+        "step_3": "Çerçeveler: .NET Çerçeve, .NET Standart, .NET Çekirdek, Mono",
+        "step_4": "GroupDocs.Redaction .NET API'lerinin en son sürümünü [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/) adresinden edinin"
+      },
+      "title_right": "Neden GroupDocs.Redaction Kullanılmalı?",
+      "content_right": {
+        "step_1": "Kullanıcıların özel belge formatları ve redaksiyon türleri eklemesine izin ver",
+        "step_2": "Hassas bilgileri kaldırmak için ek bir yazılıma gerek yoktur",
+        "step_3": "Sayfa aralığı oluşturma belgesini PDF olarak ayarlama yeteneği",
+        "step_4": "Farklı türdeki meta verileri düzenlemenin kolay yolu: yazar adı, sürüm, başlık, konu, açıklama ve çok daha fazlası",
+        "step_5": "Belge bilgilerinin çıkarılması - dosya türü, sayfa sayısı vb.",
+        "step_6": "Çoklu veri formatları için tam destek"
+      }
+    }
+  },
+  "about_formats": "doğru"
+}

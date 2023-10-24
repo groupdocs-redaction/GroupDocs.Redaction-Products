@@ -10,7 +10,7 @@ generationRules:
     - product[java]
   include:
 ##  - ext[odt]
-    - lang[en, ko, ja, fr, es, de, ru, zh]  
+    - lang[en, ko, ja, id, fr, es, de, ru, zh, it, nl, ro, sk, sl, hi, tr, uk, lv, ms]  
 
 dictionaries: [ "..\\data\\metadata_{product}.{lang}.json", "..\\data\\metadata_{product}.json", "..\\data\\metadata_otherformats.json" ]
 

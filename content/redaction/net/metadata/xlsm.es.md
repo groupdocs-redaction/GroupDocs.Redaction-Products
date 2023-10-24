@@ -1,9 +1,10 @@
+
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
-path: "es/redaction/net/metadata /xlsm/"
-otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM JPEG TIFF PNG BMP GIF 
+path: "es/redaction/net/metadata/xlsm"
+otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
 head_title: "Aplicar redacciones de metadatos a PDF, DOCX, PPT, PPTX, XLS, XLSX en .NET"
@@ -28,33 +29,30 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Cómo limpiar metadatos del documento XLSM en Java"
+    - title_left: "Cómo limpiar metadatos del documento XLSM en C#"
       content_left: |
         GroupDocs.Redaction para .NET es una potente API que permite a los programadores redactar, ocultar o reemplazar la información clasificada de numerosos tipos de documentos populares mediante filtros o búsqueda por expresión regular.
-
         El siguiente ejemplo de código .NET muestra cómo aplicar la redacción de metadatos para reemplazar todos los metadatos o metadatos específicos en el documento con valores vacíos o mínimos.
 
       title_right: "Aplicar redacción de metadatos al archivo XLSM"
       content_right: |
         * Cree una instancia de la clase [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)
-        * Llame al método redactor.Apply con el objeto EraseMetadataRedaction de [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)
-        * Llame al método redactor.save para guardar el documento en el archivo "*_Redacted.*" en formato original
-
+        * Llame al método Redactor.Apply con el objeto EraseMetadataRedaction de [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)
+        * Llame al método Redactor.Save para guardar el documento en el archivo "*_Redacted.*" en formato original        
       gisthash: "8f1bc20dff33c9a45c01a9e251555bf1"
       gistfile: "how_to_clean_metadata_dotnet.cs"
-      
+
     - title_left: "Redactar metadatos del archivo XLSM a través de .NET"
       content_left: |
         GroupDocs.Redaction .NET API facilita la vida de los desarrolladores al ayudarlos a integrar la automatización de documentos y los trabajos de generación de informes con solo un par de líneas de código sin dependencias externas.
-        
         El siguiente ejemplo de código C# .NET muestra cómo los desarrolladores de software pueden eliminar datos confidenciales de los metadatos del documento con solo un par de líneas de código.
         
       title_right: "Redacción de metadatos de archivos XLSM"
       content_right: |
         * Cree una instancia de la clase [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)
         * Llame a [MetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadataredaction)
-        * Llamar al método redaction.Filte
-        * Llame al método redactor.save para guardar el documento en el archivo "*_Redacted.*" en formato original
+        * Llame al método [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) 
+        * Llame al método Redactor.Save para guardar el documento en el archivo "*_Redacted.*" en formato original
         
       gisthash: "8dee499186930d60909dffa54579c9f4"
       gistfile: "how_to_redact_metadata_dotnet.cs"
@@ -76,14 +74,14 @@ steps:
         * Extracción de información del documento: tipo de archivo, número de páginas, etc.
         * Soporte completo para múltiples formatos de datos
 
+############################# Demos ############################
 demos:
     enable: true
-        
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

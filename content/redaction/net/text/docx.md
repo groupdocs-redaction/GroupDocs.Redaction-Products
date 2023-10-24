@@ -3,17 +3,17 @@
 layout: "autogen"
 draft: false
 path: "redaction/net/text/docx"
-otherformats: PPSM DOT DOCX POTM PPT DOTM PPSX RTF XLSM XLT PPTM DOCM  
+otherformats: CSV DOC DOCM DOT DOTM DOTX PDF POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
-head_title: "Redact Sensitive Information from Documents via .NET Core"
+head_title: "Redact Sensitive Information from DOCX Documents via .NET Core"
 head_description: "Apply text redaction using exact phrase or regular expression for documents of different formats"
 
 ############################# Header ############################
 title: "Redact DOCX Files via C# in .NET Core Apps"
 description: "Search & Replace Text in Office & OpenOffice Documents, Spreadsheets & Presentations as well as DOCX on Windows, Linux & macOS"
 
-############################# SubMenu ############################
+################### SubMenu/Download Button #####################
 submenu:
     enable: true
 
@@ -22,7 +22,7 @@ about:
     enable: true
     title: "Document Redaction for .NET API"
     content: |
-        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
+        A single format-independent interface for redacting sensitive and classified information from the PDF, Word, Excel, PowerPoint documents and images, including the ability to change metadata and remove comments. With GroupDocs.Redaction for .NET tool you can redact text and save redacted document in PDF, transforming all pages into raster images or keep the document in its original format for further editing.
 
 ############################# Steps ############################
 steps:
@@ -48,20 +48,18 @@ steps:
         	redactor.Save();
         }
         ```
-        
 
+############################# Demos ############################
 demos:
     enable: true
-        
-
+############################# About Formats ############################
 about_formats:
     enable: true
-
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

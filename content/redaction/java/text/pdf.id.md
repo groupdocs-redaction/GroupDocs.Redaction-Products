@@ -1,24 +1,30 @@
 ---
+############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "redaction/java/text/pdf"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX PPS POT PPSX PPTM PPSM POTM 
+path: "id/redaction/java/text/pdf"
+otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
+############################# Head ############################
 head_title: "Redact PDF Text melalui Exact Phrase/Regular Expression di Java"
 head_description: "GroupDocs.Redactions Java API memungkinkan pengembang untuk menyunting teks dari PDF DOC DOCX RTF XLSX CSV PPT PPTX & gambar melalui frasa yang tepat atau ekspresi reguler di Java"
 
+############################# Header ############################
 title: "Cara Redact, Sembunyikan atau Hapus Teks dari PDF File menggunakan Java"
 description: "GroupDocs.Redactions Java API memungkinkan untuk menyunting, menyembunyikan atau menghapus teks sensitif dari dokumen pengolah kata, lembar kerja, presentasi, PDF & gambar."
 
+################### SubMenu/Download Button #####################
 button:
     enable: true
 
+############################# About ############################
 about:
     enable: true
     title: "Apa itu Redaksi Teks?"
     content: |
-        Redaksi Teks adalah proses menghilangkan teks atau informasi rahasia atau yang tidak diinginkan dari dokumen digital sambil membiarkan sisa dokumen atau paragraf yang memuatnya tetap utuh. Redaksi membantu pengguna serta organisasi untuk melindungi informasi sensitif mereka dengan menyembunyikan atau menghapusnya secara permanen. Dengan menggunakan GroupDocs.Redaction, pengguna Java API kini dapat menyunting, menyembunyikan, atau menghapus teks sensitif dari dokumen pengolah kata, lembar kerja, presentasi, PDF, dan file gambar raster. API menyediakan berbagai pilihan dan metode untuk redaksi informasi pribadi dalam dokumen. Ini mendukung pencarian dan penyuntingan menggunakan pencocokan tepat atau ekspresi reguler, Gunakan redaksi tekstual (kode pengecualian) atau grafis (persegi panjang berwarna) dan banyak lagi. Jadi mengapa tidak mencobanya dan mengotomatiskan proses redaksi dokumen Anda dengan mengunduh API dan menjelajahi fitur dasar dan lanjutannya. 
+        Redaksi Teks adalah proses menghilangkan teks atau informasi rahasia atau yang tidak diinginkan dari dokumen digital sambil membiarkan sisa dokumen atau paragraf yang memuatnya tetap utuh. Redaksi membantu pengguna serta organisasi untuk melindungi informasi sensitif mereka dengan menyembunyikan atau menghapusnya secara permanen. Dengan menggunakan GroupDocs.Redaction, pengguna Java API sekarang dapat menyunting, menyembunyikan, atau menghapus teks sensitif dari dokumen pengolah kata, lembar kerja, presentasi, PDF, dan file gambar raster. API menyediakan berbagai pilihan dan metode untuk redaksi informasi pribadi dalam dokumen. Ini mendukung pencarian dan penyuntingan menggunakan pencocokan tepat atau ekspresi reguler, Gunakan redaksi tekstual (kode pengecualian) atau grafis (persegi panjang berwarna) dan banyak lagi. Jadi mengapa tidak mencobanya dan mengotomatiskan proses redaksi dokumen Anda dengan mengunduh API dan menjelajahi fitur dasar dan lanjutannya.
 
+############################# Steps ############################
 steps:
     enable: true
     block:
@@ -40,7 +46,7 @@ steps:
       
     - title_left: "Redaksi Teks Peka Huruf Besar-kecil di PDF"
       content_left: |
-        Lakukan redaksi peka huruf besar-kecil frasa yang tepat untuk menghapus atau menyembunyikan potongan teks tertentu di dalam dokumen. Secara default, penelusuran untuk frasa persis tidak peka huruf besar-kecil. 
+        Contoh berikut memungkinkan pengguna untuk melakukan redaksi peka huruf besar-kecil frasa yang tepat untuk menghapus atau menyembunyikan potongan teks tertentu di dalam dokumen. Secara default, penelusuran untuk frasa persis tidak peka huruf besar-kecil. 
         
       title_right: "Lakukan Redaksi Peka Huruf Besar-kecil melalui Java"
       content_right: |
@@ -82,18 +88,14 @@ steps:
         * Cara mudah untuk menyunting berbagai jenis metadata: nama penulis, versi, judul, subjek, deskripsi, dan banyak lagi
         * Ekstraksi informasi dokumen - jenis file, jumlah halaman, dll.
 
+############################# Demos ############################
 demos:
     enable: true
-        
-
-about_formats:
-    enable: true
-
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

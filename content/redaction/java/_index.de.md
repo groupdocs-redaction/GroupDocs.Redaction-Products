@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for Java"
-        image: "/border/groupdocs-redaction-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
         product: "GroupDocs.Redaction"
         platform: "Java"
 
@@ -56,19 +56,19 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Überblick ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
       Mit GroupDocs.Redaction for Java API können Entwickler vertrauliche Daten aus gängigen Dateiformaten wie Microsoft Word, Excel, PowerPoint, PDF und Bildern entfernen, damit sie verwendet und verteilt werden können, aber dennoch vertrauliche Informationen schützen. Die Schwärzungsbibliothek bietet eine einzige, formatunabhängige Schnittstelle, um jede Art von klassifizierten Informationen zu schwärzen, einschließlich Sozialversicherungsnummern, medizinische Informationen, finanzielle, proprietäre, rechtliche oder sogar Handelsdetails durch Text-, Metadaten- und Anmerkungsschwärzungstypen. Sie können das Dokument in seinem Originalformat speichern und ein bereinigtes PDF-Dokument mit Rasterbildern der Originalseiten erstellen.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Nachfolgend finden Sie eine Übersicht über GroupDocs.Redaction für Java:
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -131,13 +131,14 @@ overview:
                 * NetBeans
                 * IntelliJ IDEA
                 * Eclipse
+
             # table loop
             - icon: "fas fa-tools"
               title: "Build-Automatisierungstool"
               content: |
                 * Maven
 
-############################# Merkmale ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Redaction for Java Merkmale"
@@ -199,11 +200,12 @@ features:
       # more_feature_loop
       - title: "Stellen Sie den Datenschutz sicher, indem Sie Ihre klassifizierten Daten schwärzen"
         content: |
-          Die GroupDocs.Redaction for Java-Bibliothek ermöglicht es Entwicklern, Text und Bilder aus unterstützten Dokumenten zu schwärzen, indem sie eine Vielzahl von Schwärzungstypen verwenden. Die Verwendung unserer Schwärzungs-API ist einfach und unkompliziert.
+          Die GroupDocs.Redaction for Java-Bibliothek ermöglicht es Entwicklern, Text und Bilder aus unterstützten Dokumenten zu schwärzen, indem sie eine Vielzahl von Schwärzungstypen verwenden. Die Verwendung unserer Schwärzungs-API ist einfach und unkompliziert.  
 
-          Das folgende Codebeispiel verwendet ein tabellarisches Dokument, z. B. eine Microsoft Excel-Tabelle, bei der der Umfang der Schwärzung auf ein bestimmtes Arbeitsblatt und/oder eine bestimmte Spalte beschränkt werden kann. Es verwendet Filter, um die zweite Spalte mit E-Mails auf einem Arbeitsblatt „Kunden“ zu schwärzen, wobei alle anderen E-Mails im Dokument unberührt bleiben.
-          
+          Das folgende Codebeispiel verwendet ein tabellarisches Dokument, z. B. eine Microsoft Excel-Tabelle, bei der der Umfang der Schwärzung auf ein bestimmtes Arbeitsblatt und/oder eine bestimmte Spalte beschränkt werden kann. Es verwendet Filter, um die zweite Spalte mit E-Mails auf einem Arbeitsblatt "Kunden" zu schwärzen, wobei alle anderen E-Mails im Dokument unberührt bleiben.
+
           ```java
+          // Erstellen Sie eine Instanz der Redactor-Klasse
           final Redactor redactor  = new Redactor("sample.xlsx");
           try
           {
@@ -211,6 +213,7 @@ features:
               filter.setColumnIndex(1);
               filter.setWorkSheetName("Customers");
               Pattern expression = Pattern.compile("^\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$");
+              // Schwärzung anwenden
               RedactorChangeLog result = redactor.apply(new CellColumnRedaction(filter, expression, new ReplacementOptions("[customer email]")));
               if (result.getStatus() != RedactionStatus.Failed)
               {
@@ -235,7 +238,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Redaction for .NET"
-          image: "/border/groupdocs-redaction-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
           product: "GroupDocs.Redaction"
           platform: ".NET"
           link: "/redaction/net/"

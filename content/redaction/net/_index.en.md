@@ -214,7 +214,7 @@ features:
         content: |
           GroupDocs.Redaction for .NET API grants you complete control over how you want to hide or erase your important classified information from supported document. To use our Redaction API is pretty simple and straight forward.  
 
-          In following example, we load a supported document, redact out any text, matching "2 digits, space or nothing, 2 digits, again space and 6 digits" (such as 12 34 567890) with a blue color box using C#. Once that is done, it saves the document in its original format by renaming it with an added suffix “_Redacted”:
+          In following example, we load a supported document, redact out any text, matching "2 digits, space or nothing, 2 digits, again space and 6 digits" (such as 12 34 567890) with a blue color box using C#. Once that is done, it saves the document in its original format by renaming it with an added suffix "_Redacted":
 
           ```cs
           // Create an instance of Redactor class

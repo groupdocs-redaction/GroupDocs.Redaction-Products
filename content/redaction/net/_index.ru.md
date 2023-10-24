@@ -11,7 +11,7 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: "API редактирования C# .NET | Скрыть личный текст из изображений PDF Word Excel"
-head_description: "API редактирования документов для .NET. Редактируйте, скрывайте или удаляйте конфиденциальное содержимое из PDF, Microsoft Word, Excel, презентаций и растровых изображений.."
+head_description: "API редактирования документов для .NET. Редактируйте, скрывайте или удаляйте конфиденциальное содержимое из PDF, Microsoft Word, Excel, презентаций и растровых изображений."
 
 ############################# Header ############################
 title: "Защита секретных данных с помощью Redaction API"
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for .NET"
-        image: "/border/groupdocs-redaction-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
         product: "GroupDocs.Redaction"
         platform: ".NET"
 
@@ -41,7 +41,7 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Поддержка"
 
             # button loop
             - link: "https://products.groupdocs.app/redaction"
@@ -56,7 +56,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Обзор ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -101,7 +101,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Redaction for .NET поддерживает следующие Операционные системы & Менеджер пакетовs:
+          GroupDocs.Redaction for .NET поддерживает следующие Операционные системы & Менеджер пакетов:
         
         left:
           enable: true
@@ -110,17 +110,17 @@ overview:
             - icon: "fab fa-windows"
               title: "Операционные системы"
               content: |
-                * Рабочий стол Windows
-                * Windows-сервер
+                * Windows Desktop
+                * Windows Server
                 * Windows Azure
-                * линукс
+                * Linux
 
             # table loop
             - icon: "fas fa-code"
               title: "Поддерживаемые платформы"
               content: |
                 * .NET Framework 2.0 или выше
-                * .NET Стандарт 2.0
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
@@ -140,12 +140,12 @@ overview:
                 * Xamarin.Android
                 * Xamarin.IOS
                 * Xamarin.Mac
-                * МоноДевелопмент
+                * MonoDevelop
 
-############################# Функции ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Redaction for .NET Функции"
+    title: "Функции GroupDocs.Redaction for .NET"
 
     feature:
       # feature loop
@@ -208,15 +208,16 @@ features:
       - icon: "fas fa-print"
         content: "Сохранение политики редактирования в виде XML-файла"
 
-    больше_функций:
+    more_feature:
       # more_feature_loop
       - title: "Редактируйте свои секретные данные с легкостью и контролем"
         content: |
-          GroupDocs.Redaction для .NET API предоставляет вам полный контроль над тем, как вы хотите скрыть или удалить важную секретную информацию из поддерживаемого документа. Использовать наш Redaction API довольно просто и понятно.
+          GroupDocs.Redaction для .NET API предоставляет вам полный контроль над тем, как вы хотите скрыть или удалить важную секретную информацию из поддерживаемого документа. Использовать наш Redaction API довольно просто и понятно.  
 
-          В следующем примере мы загружаем поддерживаемый документ, редактируем любой текст, сопоставляя «2 цифры, пробел или ничего, 2 цифры, снова пробел и 6 цифр» (например, 12 34 567890) с синим полем, используя C#. Как только это будет сделано, он сохранит документ в исходном формате, переименовав его с добавленным суффиксом «_Redacted»:
+          В следующем примере мы загружаем поддерживаемый документ, редактируем любой текст, сопоставляя "2 цифры, пробел или ничего, 2 цифры, снова пробел и 6 цифр" (например, 12 34 567890) с синим полем, используя C#. Как только это будет сделано, он сохранит документ в исходном формате, переименовав его с добавленным суффиксом "_Redacted":
 
           ```cs
+          // Создать экземпляр класса Redactor
           using (Redactor redactor = new Redactor("sample.docx"))
           {
             // Применить редактирование
@@ -237,7 +238,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Redaction for Java"
-          image: "/border/groupdocs-redaction-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
           product: "GroupDocs.Redaction"
           platform: "Java"
           link: "/redaction/java/"

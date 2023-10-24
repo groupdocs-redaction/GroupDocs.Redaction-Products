@@ -3,7 +3,7 @@
 layout: "auto-gen-gist"
 draft: false
 path: "redaction/java/text/pdf"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX PPS POT PPSX PPTM PPSM POTM 
+otherformats: CSV DOC DOCM DOCX DOT DOTM DOTX POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
 head_title: "Redact PDF Text via Exact Phrase/Regular Expression in Java"
@@ -13,7 +13,7 @@ head_description: "GroupDocs.Redactions Java API enables developers to redact te
 title: "How to Redact, Hide or Remove Text from PDF Files using Java"
 description: "GroupDocs.Redactions Java API allows to redact, hide or remove sensitive text from word processing documents, worksheets, presentations, PDFs & images."
 
-######################### Download Button #######################
+################### SubMenu/Download Button #####################
 button:
     enable: true
 
@@ -24,7 +24,7 @@ about:
     content: |
         Text Redaction is the process of removing the confidential or unwanted text or information from digital documents while leaving intact the rest of the document or paragraph containing it. Redaction helps users as well as organization to protect their sensitive information by hiding or permanently removing them.   Using GroupDocs.Redaction Java API users can now redact, hide or remove sensitive text from word processing documents, worksheets, presentations, PDF and raster image files. The API provides a wide range of options and methods for the redaction of private information in the documents. It supports search and redact using exact match or regular expressions,  Use textual (exemption codes) or graphical (colored rectangles) redactions and many more. So why not give it a try and automate your document redaction process by downloading the API and explore its basic and advanced features. 
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
     block:
@@ -46,7 +46,7 @@ steps:
       
     - title_left: "Case Sensitive Text Redaction in PDF"
       content_left: |
-        Perform exact phrase case-sensitive redaction to remove or hide a particular chuck of text inside a document. By default, search for exact phrase is case insensitive. 
+        The following example enables users to perform exact phrase case-sensitive redaction to remove or hide a particular chuck of text inside a document. By default, search for exact phrase is case insensitive. 
         
       title_right: "Perform Case Sensitive Redaction via Java"
       content_right: |
@@ -88,18 +88,17 @@ steps:
         * Easy way to redact different types of metadata: author name, version, title, subject, description and many more
         * Document information extraction - file type, page count etc.
 
+############################# Demos ############################
 demos:
     enable: true
-        
-
+############################# About Formats ############################
 about_formats:
     enable: true
-
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

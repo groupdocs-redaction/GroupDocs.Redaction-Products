@@ -62,13 +62,13 @@ overview:
     content: |
       GroupDocs.Redaction for Java API lets developers remove sensitive data from popular file formats like Microsoft Word, Excel, PowerPoint, PDF and images so it can be used and distributed, but still protect confidential information too. The redaction library offers a single format-independent interface to redact any type of classified information including social security numbers, medical information, financial, proprietary, legal or even trade details through text, metadata and annotation redaction types. It allows you to save the document in its original format and create a sanitized PDF document with raster images of original pages.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Following is an overview of GroupDocs.Redaction for Java:
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -131,6 +131,7 @@ overview:
                 * NetBeans
                 * IntelliJ IDEA
                 * Eclipse
+
             # table loop
             - icon: "fas fa-tools"
               title: "Build Automation Tool"
@@ -202,8 +203,9 @@ features:
           GroupDocs.Redaction for Java library empowers developers to redact text and images from supported documents by employing a variety of redaction types. To use our Redaction API is simple and straight forward.  
 
           The following code example uses a tabular document such as Microsoft Excel spreadsheet where the scope of redaction can be limited to a specific worksheet and/or column. It uses filters to redact the second column with emails on a worksheet "Customers", leaving all other emails untouched in the document.
-          
+
           ```java
+          // Create an instance of Redactor class
           final Redactor redactor  = new Redactor("sample.xlsx");
           try
           {
@@ -211,6 +213,7 @@ features:
               filter.setColumnIndex(1);
               filter.setWorkSheetName("Customers");
               Pattern expression = Pattern.compile("^\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$");
+              // Apply redaction
               RedactorChangeLog result = redactor.apply(new CellColumnRedaction(filter, expression, new ReplacementOptions("[customer email]")));
               if (result.getStatus() != RedactionStatus.Failed)
               {

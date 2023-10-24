@@ -1,9 +1,10 @@
+
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
-path: "fr/redaction/net/metadata /xlt/"
-otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM JPEG TIFF PNG BMP GIF 
+path: "fr/redaction/net/metadata/xlt"
+otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLTM XLTX  
 
 ############################# Head ############################
 head_title: "Appliquer les suppressions de métadonnées aux PDF, DOCX, PPT, PPTX, XLS, XLSX dans .NET"
@@ -20,7 +21,7 @@ button:
 ############################# About ############################
 about:
     enable: true
-    title: "Qu'est-ce que la rédaction des métadonnées ?"
+    title: "Qu'est-ce que la rédaction des métadonnées?"
     content: |
         Les métadonnées sont un type de données qui fournissent des informations sur d'autres données. En d'autres termes, vous pensez souvent que les métadonnées sont des références à des données. Il aide à résumer les informations de base sur les données qui peuvent être utilisées pour suivre et gérer facilement les données. GroupDocs.Redaction pour .NET est une puissante API native qui permet aux développeurs de logiciels de supprimer des informations sensibles et classifiées de divers types de documents sans installer de logiciel externe ou d'outil tiers. Il a fourni un support pour divers filtres tels que l'auteur, la société, la catégorie, la taille d'un document, la date de création, le titre, LastPrinted, les commentaires, etc. Il aide les utilisateurs à appliquer des suppressions de métadonnées à divers formats de documents populaires tels que les documents de traitement de texte, les feuilles de calcul Excel, les présentations, les fichiers PDF et les fichiers image raster. Les développeurs peuvent également mettre à jour, remplacer ou effacer les métadonnées en appliquant des filtres ou en utilisant la recherche. De plus, les développeurs peuvent facilement appliquer plusieurs suppressions en un seul appel. Alors mieux vaut essayer d'automatiser votre processus de rédaction de documents et de métadonnées en téléchargeant l'API et en explorant ses fonctionnalités de base et avancées.
 
@@ -28,33 +29,30 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Comment nettoyer les métadonnées du document XLT en Java"
+    - title_left: "Comment nettoyer les métadonnées du document XLT en C#"
       content_left: |
         GroupDocs.Redaction pour .NET est une API puissante qui permet aux programmeurs de biffer, masquer ou remplacer les informations classifiées de nombreux types de documents populaires à l'aide de filtres ou d'une recherche par expression régulière.
-
-        L'exemple de code .NET suivant montre comment appliquer le masquage des métadonnées pour remplacer toutes les métadonnées ou des métadonnées spécifiques dans le document par des valeurs vides ou minimales. 
+        L'exemple de code .NET suivant montre comment appliquer le masquage des métadonnées pour remplacer toutes les métadonnées ou des métadonnées spécifiques dans le document par des valeurs vides ou minimales.
 
       title_right: "Appliquer la suppression des métadonnées au fichier XLT"
       content_right: |
         * Créer une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)
-        * Appelez la méthode redactor.Apply avec l'objet EraseMetadataRedaction de [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)
-        * Appelez la méthode redactor.save pour enregistrer le document dans le fichier "*_Redacted.*" au format d'origine
-
+        * Appelez la méthode Redactor.Apply avec l'objet EraseMetadataRedaction de [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)
+        * Appelez la méthode Redactor.Save pour enregistrer le document dans le fichier "*_Redacted.*" au format d'origine        
       gisthash: "8f1bc20dff33c9a45c01a9e251555bf1"
       gistfile: "how_to_clean_metadata_dotnet.cs"
-      
+
     - title_left: "Masquer les métadonnées du fichier XLT via .NET"
       content_left: |
         L'API GroupDocs.Redaction .NET facilite la vie des développeurs en les aidant à intégrer l'automatisation des documents et les tâches de création de rapports avec seulement quelques lignes de code sans aucune dépendance externe.
-        
         L'exemple de code C# .NET suivant montre comment les développeurs de logiciels peuvent supprimer des données sensibles des métadonnées d'un document avec seulement quelques lignes de code.
         
-      title_right: "Suppression des métadonnées à partir de xlt_fichiers UPPER"
+      title_right: "Suppression des métadonnées à partir de XLT fichiers UPPER"
       content_right: |
         * Créer une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor)
-        * Appelez [MetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadataredaction)
-        * Appelez la méthode redaction.Filte
-        * Appelez la méthode redactor.save pour enregistrer le document dans le fichier "*_Redacted.*" au format d'origine
+        * Créer une instance de la classe [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)
+        * Appelez la méthode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) 
+        * Appelez la méthode Redactor.Save pour enregistrer le document dans le fichier "*_Redacted.*" au format d'origine
         
       gisthash: "8dee499186930d60909dffa54579c9f4"
       gistfile: "how_to_redact_metadata_dotnet.cs"
@@ -76,14 +74,14 @@ steps:
         * Extraction d'informations sur les documents - type de fichier, nombre de pages, etc.
         * Prise en charge complète de plusieurs formats de données
 
+############################# Demos ############################
 demos:
     enable: true
-        
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

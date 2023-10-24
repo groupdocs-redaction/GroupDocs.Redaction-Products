@@ -1,12 +1,12 @@
+
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
 path: "redaction/java/metadata/category/bmp"
-otherformats: PDF DOC DOT DOCX DOCM RTF XLSX XLSM XLTX XLTM XLS XLT PPTX PPT PPSX POT PPS PPTM 
+otherformats: DOC DOCM DOCX DOT DOTM DOTX GIF JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 ad_headline: "Redact Metadata | Java"
 ad_description: "Redact Category Name from BMP Metadata in Java"
-
 ############################# Head ############################
 head_title: "Redact Category Name from BMP Metadata in Java"
 head_description: "GroupDocs.Redactions provides a flexible API that allows to search & replace/remove any metadata property using filters."
@@ -32,28 +32,28 @@ steps:
     block:
     - title_left: "Redact BMP Metadata in Java"
       content_left: |
-        Following code allows you to search and redact sensitive data from a BMP document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Category. It will leave the regular expressions matches undone in all metadata items, except “Category” property:
-        
+        Following code allows you to search and redact sensitive data from a BMP document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Category. - it will leave the regular expressions matches undone in all metadata items, except "Category" property: 
+
       title_right: "How to Redact BMP Metadata"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload BMP file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to find and replace sensitive data from document's metadata
-        * Set scope for redaction by setting filter, e.g. Use MetadataFilters.Category in below code 
-        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
-        
+        * Set scope for redaction by setting filter, e.g. Use MetadataFilters.Category in below code
+        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) 
+
       gisthash: "480e989781148cd44a7aa8823887ae21"
       gistfile: "RedactCategoryMetadata.java"
-
+      
     - title_left: "Remove BMP Metadata in Java"
       content_left: |
-        You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a BMP document.The example below blanks out all properties of the document:
+        You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a BMP document.The example below blanks out all properties of the document: 
         
-      title_right: "Erase Category Metadata from BMP File "
+      title_right: "Erase Category Metadata from BMP File"
       content_right: |
         * Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload BMP file
         * Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to remove metadata of the document
         * Set scope for redaction by setting filter, e.g. Replace MetadataFilter.All with MetadataFilter.Category in below code
-        * Call save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)
+        * Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) 
         
       gisthash: "84586804ee996134fd12f2061f989fd5"
       gistfile: "CleanMetadata.java"
@@ -73,19 +73,19 @@ steps:
         * Ability to set page range rendering document as PDF
         * Easy way to redact different types of metadata: author name, version, title, subject, description and many more
         * Document information extraction - file type, page count etc.
-
-demos:
-    enable: true
         
 
+############################# Demos ############################
+demos:
+    enable: true
+############################# About Formats ############################
 about_formats:
     enable: true
-
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

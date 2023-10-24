@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Redaction for .NET"
-        image: "/border/groupdocs-redaction-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
         product: "GroupDocs.Redaction"
         platform: ".NET"
 
@@ -56,7 +56,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/redaction/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Visión de conjunto ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -79,7 +79,7 @@ overview:
             * Redactar anotación
             * Redactar documento tabular
             * Redactar archivos protegidos
-            * personalización
+            * Personalización
       
       ## TAB TWO ##
       tab_two:
@@ -120,7 +120,7 @@ overview:
               title: "Marcos compatibles"
               content: |
                 * .NET Framework 2.0 o superior
-                * .NET estándar 2.0
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
@@ -142,7 +142,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# Características ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Redaction for .NET Características"
@@ -212,11 +212,12 @@ features:
       # more_feature_loop
       - title: "Redactar sus datos clasificados con facilidad y control"
         content: |
-          GroupDocs.Redaction para .NET API le otorga control total sobre cómo desea ocultar o borrar su información clasificada importante del documento compatible. Usar nuestra Redaction API es bastante simple y directo.
+          GroupDocs.Redaction para .NET API le otorga control total sobre cómo desea ocultar o borrar su información clasificada importante del documento compatible. Usar nuestra Redaction API es bastante simple y directo.  
 
           En el siguiente ejemplo, cargamos un documento compatible, redactamos cualquier texto, haciendo coincidir "2 dígitos, espacio o nada, 2 dígitos, nuevamente espacio y 6 dígitos" (como 12 34 567890) con un cuadro de color azul usando C#. Una vez hecho esto, guarda el documento en su formato original renombrándolo con un sufijo agregado "_Redactado":
 
           ```cs
+          // Cree una instancia de la clase Redactor
           using (Redactor redactor = new Redactor("sample.docx"))
           {
             // Aplicar redacción
@@ -237,7 +238,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Redaction for Java"
-          image: "/border/groupdocs-redaction-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
           product: "GroupDocs.Redaction"
           platform: "Java"
           link: "/redaction/java/"

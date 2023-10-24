@@ -1,9 +1,10 @@
+
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-gist" 
 draft: false
-path: "ru/redaction/net/metadata /gif/"
-otherformats: PDF DOC DOT DOCX DOCM DOTX DOTM RTF XLSX XLSM XLTX XLTM XLS XLT CSV PPT PPTX  PPS POT PPSX PPTM PPSM POTM JPEGTIFF PNG BMP 
+path: "ru/redaction/net/metadata/gif"
+otherformats: BMP DOC DOCM DOCX DOT DOTM DOTX JPEG PDF PNG POT POTM PPS PPSM PPSX PPT PPTM PPTX RTF TIFF XLS XLSM XLSX XLT XLTM XLTX  
 
 ############################# Head ############################
 head_title: "Применение редактирования метаданных к PDF, DOCX, PPT, PPTX, XLS, XLSX в .NET"
@@ -28,33 +29,30 @@ about:
 steps:
     enable: true
     block:
-    - title_left: «Как очистить метаданные из документа GIF в Java"
+    - title_left: "Как очистить метаданные из документа GIF в C#"
       content_left: |
         GroupDocs.Redaction для .NET — это мощный API, который позволяет программистам редактировать, скрывать или заменять секретную информацию из многочисленных популярных типов документов, используя фильтры или поиск по регулярному выражению.
-
         В следующем примере кода .NET показано, как применить редактирование метаданных для замены всех или определенных метаданных в документе пустыми или минимальными значениями.
 
       title_right: "Применить редактирование метаданных к файлу GIF"
       content_right: |
         * Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor).
         * Метод вызова redactor.Apply с объектом EraseMetadataRedaction [EraseMetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction)
-        * Вызвать метод redactor.save для сохранения документа в файл "*_Redacted.*" в исходном формате.
-
+        * Вызвать метод redactor.save для сохранения документа в файл "*_Redacted.*" в исходном формате.        
       gisthash: "8f1bc20dff33c9a45c01a9e251555bf1"
       gistfile: "how_to_clean_metadata_dotnet.cs"
-      
+
     - title_left: "Редактировать метаданные из файла GIF через .NET"
       content_left: |
         GroupDocs.Redaction .NET API упрощает жизнь разработчикам, помогая им встраивать автоматизацию документов и создание отчетов с помощью всего нескольких строк кода без каких-либо внешних зависимостей.
-        
         В следующем примере кода C# .NET показано, как разработчики программного обеспечения могут удалить конфиденциальные данные из метаданных документа, написав всего пару строк кода.
         
       title_right: "Редактирование метаданных из файлов GIF"
       content_right: |
         * Создайте экземпляр класса [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor).
-        * Вызовите [MetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadataredaction)
-        * Вызвать метод redaction.Filte
-        * Вызвать метод redactor.save для сохранения документа в файл "*_Redacted.*" в исходном формате.
+        * Создайте экземпляр класса [MetadataRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadataredaction)
+        * Вызвать метод [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) 
+        * Вызвать метод Redactor.Save для сохранения документа в файл "*_Redacted.*" в исходном формате.
         
       gisthash: "8dee499186930d60909dffa54579c9f4"
       gistfile: "how_to_redact_metadata_dotnet.cs"
@@ -76,14 +74,14 @@ steps:
         * Извлечение информации о документе — тип файла, количество страниц и т. д.
         * Полная поддержка нескольких форматов данных
 
+############################# Demos ############################
 demos:
     enable: true
-        
-
+############################# More Formats ############################
 more_formats:
     enable: true
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

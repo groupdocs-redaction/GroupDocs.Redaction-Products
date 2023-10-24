@@ -1,0 +1,106 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "API Redaksi Java | Sembunyikan data sensitif dari PDF Word Excel Image",
+    "description": "API redaksi dokumen Java – Sembunyikan data pribadi dari presentasi PDF, Word, Excel, PowerPoint & gambar raster melalui berbagai jenis redaksi."
+  },
+  "header": {
+    "title": "Redact Informasi Pribadi melalui Java API",
+    "description": "Kecualikan atau sembunyikan informasi & metadata pribadi dari dokumen, lembar kerja, presentasi, PDF, dan file gambar raster menggunakan API redaksi Java."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Ringkasan",
+      "button_text_2": "Fitur",
+      "button_text_3": "Mendukung",
+      "button_text_4": "Demo Langsung",
+      "button_text_5": "Harga"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API memungkinkan pengembang menghapus data sensitif dari format file populer seperti Microsoft Word, Excel, PowerPoint, PDF, dan gambar sehingga dapat digunakan dan didistribusikan, namun tetap melindungi informasi rahasia juga. Pustaka redaksi menawarkan antarmuka format-independen tunggal untuk menyunting semua jenis informasi rahasia termasuk nomor jaminan sosial, informasi medis, keuangan, kepemilikan, hukum, atau bahkan detail perdagangan melalui teks, metadata, dan jenis redaksi anotasi. Ini memungkinkan Anda untuk menyimpan dokumen dalam format aslinya dan membuat dokumen PDF yang disanitasi dengan gambar raster dari halaman asli.",
+    "one" : {
+      "description": "Berikut ini adalah ikhtisar GroupDocs.Redaction untuk {{ProductName}}:",
+      "content": {
+        "title": "Ringkasan",
+        "step_1": "Redaksi Teks",
+        "step_2": "Redaksi Metadata",
+        "step_3": "Redaksi Anotasi",
+        "step_4": "Redact Tabular Document",
+        "step_5": "Redact File yang Dilindungi",
+        "step_6": "Kustomisasi"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction untuk Java mendukung [format file dokumen](https://docs.groupdocs.com/redaction/java/supported-document-formats/ berikut):",
+      "content": {
+        "title": "Redact Teks, Metadata & Komentar",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Tata Letak Tetap**: PDF",
+        "step_5": "**Gambar Raster**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction untuk Java mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Sistem operasi",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * MacOS",
+          },
+          "row2": {
+            "title": "Kerangka yang Didukung",
+            "data": "* Java 7 (1.7) ke atas"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-cogs",
+            "title": "Lingkungan Pengembangan",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Eclipse",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Bangun Alat Otomatisasi",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction untuk Fitur {{ProductName}}",
+    "feature1": "Cari dan edit kecocokan persis dari string pencarian",
+    "feature2": "Kontrol proses redaksi dan lewati pertandingan tertentu",
+    "feature3": "Cari dan edit menggunakan ekspresi reguler",
+    "feature4": "Dukungan bawaan untuk format kantor dan PDF",
+    "feature5": "Hapus metadata atau edit nilai metadata",
+    "feature6": "Batasi redaksi pada lembar kerja dan kolom tertentu",
+    "feature7": "Hapus anotasi atau edit teksnya",
+    "feature8": "Gunakan redaksi tekstual (kode pengecualian) atau grafis (persegi panjang berwarna)",
+    "feature9": "Simpan dokumen dalam format aslinya atau sebagai PDF dengan gambar raster dari halaman asli",
+    "feature10": "Dukungan untuk format gambar raster dan redaksi wilayah gambar",
+    "feature11": "Antarmuka integrasi untuk mengimplementasikan redaksi dan format khusus",
+    "feature12": "Edit atau Hapus Metadata EXIF dari File Gambar",
+    "feature13": "Redact Gambar Tersemat di dalam Dokumen PDF, Word & Presentasi",
+    "feature14": "",
+    "feature15": ""
+  },
+  "more_features": {
+    "title": "Pastikan Privasi dengan Redacting Data Rahasia Anda",
+    "content": "GroupDocs.Redaction for Java library memberdayakan pengembang untuk menyunting teks dan gambar dari dokumen yang didukung dengan menggunakan berbagai jenis redaksi. Untuk menggunakan Redaction API kami sederhana dan mudah.",
+    "example": {
+      "description": "Contoh kode berikut menggunakan dokumen tabular seperti lembar bentang Microsoft Excel di mana ruang lingkup redaksi dapat dibatasi pada lembar kerja dan/atau kolom tertentu. Ini menggunakan filter untuk menyunting kolom kedua dengan email pada lembar kerja \"Pelanggan\", membiarkan semua email lain tidak tersentuh dalam dokumen.",
+      "comment_init": "Buat instance kelas Redactor",
+      "comment_apply": "Terapkan redaksi"
+    }
+  },
+  "solutions": "GroupDocs.Redaction menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
+}

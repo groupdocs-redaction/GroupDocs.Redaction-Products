@@ -1,0 +1,32 @@
+{
+    "products": {        
+        "net": {
+            "name": ".NET",
+            "fullName": "GroupDocs.Redaction for .NET",
+            "code": "net",
+            "progLang": "C#",
+            "srcFileExt": ".cs",
+            "syntax": "cs",
+            "devEnv": "Visual Studio",
+            "runtime": ".NET Framework, .NET Standard, .NET Core",
+            "repoName": "NuGet",
+            "repoUrl": "https://www.nuget.org/packages/groupdocs.redaction",
+            "url": "https://products.groupdocs.com/redaction/net/",
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
+        },
+        "java": {
+            "name": "Java",
+            "fullName": "GroupDocs.Redaction for Java",
+            "code": "java",
+            "progLang": "Java",
+            "srcFileExt": ".java",
+            "syntax": "java",
+            "devEnv": "NetBeans, IntelliJ IDEA, Eclipse",
+            "runtime": "J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10",
+            "repoName": "Maven",
+            "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction",
+            "url": "https://products.groupdocs.com/redaction/java/",
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
+        }
+    }
+}

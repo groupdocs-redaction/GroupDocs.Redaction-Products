@@ -1,0 +1,67 @@
+{
+  "layout": "gen-gist automatico",
+  "head": {
+    "title": "Redazioni di metadati da documenti in {{ProgLang}}",
+    "description": "Modifica i metadati sensibili in {{ProgLang}} applicando filtri per documenti di diversi formati"
+  },
+  "header": {
+    "title": "Modifica la versione dei metadati del file {{EXT}} in {{ProgLang}}",
+    "description": "L'API di GroupDocs.Redaction consente di cercare e quindi aggiornare o rimuovere qualsiasi dato riservato dai metadati di un documento."
+  },
+  "about": {
+    "title": "Cos'è la redazione dei metadati?",
+    "h1": "La maggior parte delle persone si preoccupa della redazione del testo di un documento. Ma la redazione dei metadati è altrettanto importante. I metadati sono i dati nascosti di un documento che possono contenere informazioni riservate che potresti non voler condividere con altri. La redazione dei metadati si riferisce alla rimozione di informazioni indesiderate o riservate dai documenti elettronici. I metadati di un documento includono il nome dell'autore, la categoria, il nome dell'azienda, i commenti, l'ora di creazione, l'ultimo aggiornamento e molti altri. A volte è necessario eliminare completamente i campi di metadati indesiderati o è possibile aggiornarne i valori. Con l'API GroupDocs.Redaction puoi applicare le redazioni dei metadati a qualsiasi di queste proprietà dei metadati. Puoi modificarli o eliminarli filtrando i metadati che desideri. In questa guida spiegheremo come modificare la versione dei metadati del file {{EXT}} in {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redigere la versione del file {{EXT}} in {{ProgLang}}",
+      "content_left": {
+        "step_1": "Il codice seguente consente di cercare e redigere dati sensibili da un documento {{EXT}}. È possibile impostare l'ambito di redazione impostando il filtro, ad esempio su MetadataFilter.version. Lascerà le corrispondenze delle espressioni regolari annullate in tutti gli elementi dei metadati, ad eccezione della proprietà «Versione»:"
+      },
+      "title_right": "Come oscurare i metadati {{EXT}}",
+      "content_right": {
+        "step_1": "Crea un'istanza della classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) e carica il file {{EXT}}",
+        "step_2": "Crea un'istanza della classe [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) per trovare e sostituire i dati sensibili dai metadati del documento",
+        "step_3": "Imposta l'ambito di redazione impostando il filtro, ad esempio usa MetadataFilter.version nel codice seguente",
+        "step_4": "Chiama il metodo [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) con l'oggetto di [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "8f1996554c2bb9abf77d09315497308a",
+        "file": "RedactVersionMetadata.cs"
+      }
+    },
+    "example2": {
+      "title_left": "Rimuovi {{EXT}} metadati in {{ProgLang}}",
+      "content_left": {
+        "step_1": "È possibile sostituire tutti i metadati o specifici del documento con valori vuoti (vuoti o minimi) utilizzando la classe EraseMetadataRedAction. Il codice seguente mostra come filtrare e quindi rimuovere una proprietà di metadati da un documento {{EXT}}. L'esempio seguente elimina tutte le proprietà del documento:"
+      },
+      "title_right": "Cancella i metadati {{EXT}}",
+      "content_right": {
+        "step_1": "Crea un'istanza della classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) e carica il file {{EXT}}",
+        "step_2": "Crea un'istanza di [EraseMetadataRedAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) per rimuovere i metadati del documento",
+        "step_3": "Imposta l'ambito di redazione impostando il filtro, ad esempio Sostituisci MetadataFilter.all con MetadataFilter.version nel codice seguente",
+        "step_4": "Chiama il metodo [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) con l'oggetto di [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction)"
+      },
+      "gist": {
+        "hash": "cef91d8d8f160aaf560218d1abd520e2",
+        "file": "CleanMetadata.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "Requisiti di sistema",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET supporta qualsiasi sistema operativo a 32 o 64 bit in cui è installata la piattaforma .NET. Non richiede l'installazione di alcun software esterno o strumento di terze parti. Per una guida completa ai requisiti di sistema, visita [requisiti di sistema](https://docs.groupdocs.com/redaction/net/system-requirements)",
+        "step_1": "Sistemi operativi: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Ambiente di sviluppo: NetBeans, Intellij IDEA, Eclipse ecc",
+        "step_3": "Java Ambiente di runtime: J2SE 6.0 e versioni successive",
+        "step_4": "Scarica l'ultima versione di GroupDocs.Redaction for Java da [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Istruzioni per l'installazione",
+      "content_right": {
+        "step_1": "Installa dalla riga di comando come ```nuget install GroupDocs.Redaction ```o tramite la console di gestione pacchetti di Visual Studio con ```Install-Package GroupDocs.Redaction```. ",
+        "step_2": "In alternativa, scarica il programma di installazione MSI offline o le DLL in un file ZIP da [downloads](https://downloads.groupdocs.com/redaction/net) e fai riferimento ad esso manualmente nel tuo progetto."
+      }
+    }
+  },
+  "about_formats": "vero"
+}

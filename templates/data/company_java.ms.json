@@ -1,0 +1,72 @@
+{
+  "layout": "auto-gen intipati",
+  "head": {
+    "title": "Redaksi Metadata Daripada Dokumen {{EXT}} dalam {{ProgLang}}",
+    "description": "Cari, ganti, alih keluar atau edit metadata pelbagai jenis dokumen dengan menggunakan penapis untuk memilih sifat metadata tertentu menggunakan GroupDocs.Redaction s API untuk {{ProgLang}}.",
+    "ad_headline": "Sunting Metadata | {{ProgLang}}",
+    "ad_description": "Redact Nama Syarikat dari {{EXT}} Metadata dalam {{ProgLang}}"
+  },
+  "header": {
+    "title": "Redaksi Metadata Daripada Dokumen {{EXT}} dalam {{ProgLang}}",
+    "description": "Cari, ganti, alih keluar atau edit metadata pelbagai jenis dokumen dengan menggunakan penapis untuk memilih sifat metadata tertentu menggunakan GroupDocs.Redaction s API untuk {{ProgLang}}."
+  },
+  "about": {
+    "title": "Bermula dengan Metadata Redaction",
+    "h1": "Kadang-kadang anda perlu memadamkan medan metadata yang tidak diingini sepenuhnya atau anda mungkin mahu mengemas kini nilainya. Terdapat juga data tersembunyi yang berkaitan dengan fail yang boleh dilihat menggunakan pelbagai alat dan teknik. Terdapat banyak situasi di mana anda tidak mahu data ini dapat diakses oleh sesiapa sahaja. Redaction bermaksud penyingkiran maklumat yang tidak diingini atau sulit dari pelbagai dokumen. Semua format fail termasuk PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX dan lain-lain mempunyai struktur metadata tertentu. Sifat metadata termasuk nama pengarang, kategori, nama syarikat, komen, masa penciptaan dan terakhir dikemas kini dan lain-lain Dengan GroupDocs.Redaction API anda boleh memohon redaksi metadata ke mana-mana medan metadata ini. Anda boleh menukar atau memadamnya dengan menapis metadata yang anda inginkan. Dalam panduan ini, kami akan menerangkan bagaimana anda boleh menggunakan redaksi metadata dari dokumen {{EXT}} dalam {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redact Metadata {{EXT}} Fail",
+      "content_left": {
+        "step_1": "Kod berikut membolehkan anda mencari dan menyunting data sensitif dari dokumen {{EXT}}. Anda boleh menetapkan skop untuk redaksi dengan menetapkan penapis, mis. Kepada Metadatafilter.company. Ia akan meninggalkan padanan ungkapan biasa dibatalkan dalam semua item metadata, kecuali harta “Syarikat”:"
+      },
+      "title_right": "Langkah-langkah untuk Redact Metadata",
+      "content_right": {
+        "step_1": "Buat contoh kelas [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) & muat naik fail {{EXT}}",
+        "step_2": "Buat contoh kelas [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) untuk mencari dan menggantikan data sensitif dari metadata dokumen",
+        "step_3": "Tetapkan skop untuk redaksi dengan menetapkan penapis, contohnya Gunakan Metadatafilters.company dalam kod di bawah",
+        "step_4": "Panggil kaedah simpan dengan objek [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "5b04349a19f1627145ab6a9f8f0f5fc0",
+        "file": "RedactCompanyMetadata.java"
+      }
+    },
+    "example2": {
+      "title_left": "Keluarkan Metadata {{EXT}} dalam {{ProgLang}}",
+      "content_left": {
+        "step_1": "Anda boleh menggantikan semua atau metadata tertentu dalam dokumen dengan nilai kosong (kosong atau minimum) menggunakan kelas EraseMetadataredAction. Kod berikut menunjukkan bagaimana anda boleh menapis dan kemudian mengalih keluar sifat metadata daripada dokumen {{EXT}}. Contoh di bawah mengosongkan semua sifat dokumen:"
+      },
+      "title_right": "Cara Memadam Metadata Syarikat",
+      "content_right": {
+        "step_1": "Buat contoh kelas [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) & muat naik fail {{EXT}}",
+        "step_2": "Buat contoh kelas [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) untuk membuang metadata dokumen",
+        "step_3": "Tetapkan skop untuk redaksi dengan menetapkan penapis, contohnya Gantikan Metadatafilter.all dengan metadatafilter.company dalam kod di bawah",
+        "step_4": "Panggil kaedah simpan dengan objek [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Keperluan Sistem",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API disokong pada semua platform utama dan sistem operasi. Untuk panduan keperluan sistem yang lengkap, sila lawati [keperluan sistem](https://docs.groupdocs.com/redaction/java/system-requirements) Sebelum melaksanakan kod di bawah, sila pastikan bahawa anda mempunyai prasyarat berikut yang dipasang pada sistem anda:",
+        "step_1": "Sistem Operasi: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Persekitaran Pembangunan: NetBeans, IDEA Intellij, Eclipse dan lain-lain",
+        "step_3": "Java Runtime Environment: J2SE 6.0 dan ke atas",
+        "step_4": "Dapatkan versi terbaru GroupDocs.Redaction for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Mengapa Menggunakan GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Benarkan pengguna menambah format dokumen tersuai dan jenis redaksi",
+        "step_2": "Tiada perisian tambahan diperlukan untuk mengalih keluar maklumat sensitif",
+        "step_3": "Keupayaan untuk menetapkan dokumen rendering julat halaman sebagai PDF",
+        "step_4": "Cara mudah untuk menyunting pelbagai jenis metadata: nama pengarang, versi, tajuk, subjek, perihalan dan banyak lagi",
+        "step_5": "Pengekstrakan maklumat dokumen - jenis fail, kiraan halaman dll."
+      }
+    }
+  },
+  "about_formats": "betul"
+}

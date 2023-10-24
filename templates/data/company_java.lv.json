@@ -1,0 +1,72 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Metadatu redakcija no {{EXT}} Dokumenta {{ProgLang}}",
+    "description": "Viegli meklējiet, nomainiet, noņemiet vai rediģējiet dažādu dokumentu tipu metadatus, lietojot filtrus, lai izvēlētos noteiktus metadatu rekvizītus, izmantojot GroupDocs.Redaction s API {{ProgLang}}.",
+    "ad_headline": "Reģēt metadatus | {{ProgLang}}",
+    "ad_description": "Redakt uzņēmuma nosaukumu no {{EXT}} metadatiem {{ProgLang}}"
+  },
+  "header": {
+    "title": "Metadatu redakcija no {{EXT}} Dokumenta {{ProgLang}}",
+    "description": "Viegli meklējiet, nomainiet, noņemiet vai rediģējiet dažādu dokumentu tipu metadatus, lietojot filtrus, lai izvēlētos noteiktus metadatu rekvizītus, izmantojot GroupDocs.Redaction s API {{ProgLang}}."
+  },
+  "about": {
+    "title": "Darba sākšana ar metadatu redakciju",
+    "h1": "Dažreiz jums ir pilnībā jāizdzēš nevēlamie metadatu lauki vai arī vēlaties atjaunināt to vērtības. Ir arī slēptie dati, kas saistīti ar failiem, kurus var apskatīt, izmantojot dažādus rīkus un paņēmienus. Ir daudzas situācijas, kad jūs nevēlaties, lai šie dati būtu pieejami ikvienam. Redakcijas nozīmē nevēlamas vai konfidenciālas informācijas noņemšanu no dažādiem dokumentiem. Visiem failu formātiem, tostarp PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX un citiem, ir specifiskas metadatu struktūras. Metadatu rekvizīti ietver autora vārdu, kategoriju, uzņēmuma nosaukumu, komentārus, izveides laiku un pēdējo reizi atjauninātus utt. Ar GroupDocs.Redaction API jūs varat lietot metadatu redakciju jebkuram no šiem metadatu laukiem. Varat tos mainīt vai dzēst, filtrējot vajadzīgos metadatus. Šajā rokasgrāmatā mēs paskaidrosim, kā jūs varat pieteikties metadatu redakciju no {{EXT}} dokumenta {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Realizēt {{EXT}} faila metadatus",
+      "content_left": {
+        "step_1": "Pēc koda ļauj meklēt un rediģēt sensitīvus datus no {{EXT}} dokumenta. Redakcijas jomu var iestatīt, iestatot filtru, piemēram, uz MetadaFilter.company. Tas atstās regulārās izteiksmes atbilstības atsaukt visos metadatu vienumos, izņemot “Uzņēmums” rekvizītu:"
+      },
+      "title_right": "Darbības, lai rediģētu metadatus",
+      "content_right": {
+        "step_1": "Izveidot [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) klases un augšupielādēt {{EXT}} faila instanci",
+        "step_2": "Izveidojiet [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) klases instanci, lai atrastu un aizstātu sensitīvus datus no dokumenta metadatiem",
+        "step_3": "Iestatiet redakcijas iespējas, iestatot filtru, piem., Izmantojiet metadatafilters.company zem koda",
+        "step_4": "Zvanu saglabāšanas metode ar objektu [MetadaTaSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "5b04349a19f1627145ab6a9f8f0f5fc0",
+        "file": "RedactCompanyMetadata.java"
+      }
+    },
+    "example2": {
+      "title_left": "Noņemt {{EXT}} metadatus {{ProgLang}}",
+      "content_left": {
+        "step_1": "Varat aizstāt visus vai konkrētus metadatus dokumentā ar tukšām (tukšām vai minimālām) vērtībām, izmantojot EraseMetaDataredAction klasi. Šis kods parāda, kā var filtrēt un pēc tam noņemt metadatu rekvizītu no {{EXT}} dokumenta.Tālāk sniegtajā piemērā tiek parādīti visi dokumenta rekvizīti:"
+      },
+      "title_right": "Kā izdzēst uzņēmuma metadatus",
+      "content_right": {
+        "step_1": "Izveidot [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) klases un augšupielādēt {{EXT}} faila instanci",
+        "step_2": "Izveidojiet [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) klases instanci, lai noņemtu dokumenta metadatus",
+        "step_3": "Iestatiet redakcijas iespējas, iestatot filtru, piem., Aizstāt metadatafilter.All ar metadatafilter.Company zemāk kodu",
+        "step_4": "Zvanu saglabāšanas metode ar objektu [MetadaTaSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804eee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Sistēmas prasības",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API tiek atbalstīti visās galvenajās platformās un operētājsistēmās. Lai iegūtu pilnīgu sistēmas prasību rokasgrāmatu, lūdzu, apmeklējiet [sistēmas prasības](https://docs.groupdocs.com/redaction/java/system-requirements) Pirms izpildāt zemāk norādīto kodu, lūdzu, pārliecinieties, ka jūsu sistēmā ir uzstādīti šādi priekšnoteikumi:",
+        "step_1": "Operētājsistēmas: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Attīstības vide: NetBeans, Intellij IDEA, Eclipse utt",
+        "step_3": "Java Runtime Environment: J2SE 6.0 un augstāk",
+        "step_4": "Iegūstiet jaunāko GroupDocs.Redaction for Java versiju no [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Kāpēc izmantot GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Ļaut lietotājiem pievienot pielāgotus dokumentu formātus un redakcijas tipus",
+        "step_2": "Lai noņemtu sensitīvu informāciju, nav nepieciešama papildu programmatūra",
+        "step_3": "Spēja iestatīt lappušu diapazona renderēšanas dokumentu kā PDF",
+        "step_4": "Vienkāršs veids, kā rediģēt dažāda veida metadatus: autora vārdu, versiju, nosaukumu, tēmu, aprakstu un daudz ko citu",
+        "step_5": "Dokumenta informācijas ieguve - faila tips, lappušu skaits u.c."
+      }
+    }
+  },
+  "about_formats": "taisnība"
+}

@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Java の正規表現を使用して {{EXT}} 注釈​​を秘匿化する",
+    "description": "GroupDocs.Redaction の Java API を使用すると、開発者は、Java の正規表現を使用して、PDF DOC DOCX RTF XLSX CSV PPT PPTX と画像の注釈を編集できます。"
+  },
+  "header": {
+    "title": "正規表現と Java を使用して {{EXT}} ファイルから注釈を削除する方法",
+    "description": "GroupDocs.Redaction の Java API を使用すると、正規表現を使用してワープロ文書、ワークシート、プレゼンテーション、PDF および画像から機密性の高いコメントを編集、非表示、または削除できます。"
+  },
+  "about": {
+    "title": "コメントのサニタイズとは何ですか?",
+    "h1": "テキストの墨消しまたは無害化は、デジタル文書から機密注釈または不要な注釈を削除し、それを含む文書または段落の残りの部分をそのまま残すプロセスです。墨消しは、ユーザーと組織が機密情報を非表示または永久に削除することで保護するのに役立ちます。 GroupDocs.Redaction Java API を使用すると、ユーザーはワープロ文書、ワークシート、プレゼンテーション、PDF、およびラスター画像ファイルから機密テキストを編集、非表示、または削除できるようになりました。 API は、ドキュメント内の個人情報を編集するための幅広いオプションとメソッドを提供します。正規表現を使用した検索と墨消し、テキスト (免除コード) またはグラフィック (色付きの四角形) の墨消しの使用などをサポートします。 API をダウンロードしてドキュメントの編集プロセスを自動化し、その基本機能と高度な機能を試してみてはいかがでしょうか。",
+    "h2": "{{ProductFullName}} API は、ファイル結合機能を必要とする企業ソリューションに最適です。これらの API は、{{Runtime}} を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Java の正規表現を使用して {{EXT}} 注釈​​を編集します",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction を使用すると、ドキュメントから機密またはプライベートな性質のデータを簡単に編集できます。最も一般的な編集ケースは、ドキュメントから注釈を削除することです。",
+        "step_2": "次のコードを使用すると、正規表現を使用してドキュメントに注釈編集を適用できます。これにより、ユーザーは「john」を参照するすべてのコメントを除外コードとして「[編集済み]」に置き換えることができます。"
+      },
+      "title_right": "{{EXT}} 件のコメントから機密データを削除",
+      "content_right": {
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) クラスのインスタンスを作成し、{{EXT}} ファイルをアップロードします",
+        "step_2": "[AnnotationRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/AnnotationRedaction) クラスのインスタンスを作成します。",
+        "step_3": "AnnotationRedactionクラスのオブジェクトでredactor.applyメソッドを呼び出す",
+        "step_4": "redactor.save メソッドを呼び出して変更を保存します"
+      },
+      "gist": {
+        "hash": "75d727ec8cec6c416b307caeee59f44b",
+        "file": "AnnotationRedaction.java"
+      }
+    },
+    "requirements": {
+      "title_left": "システム要求",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/redaction/java/system-requirements) を参照してください。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。 :",
+        "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+        "step_2": "開発環境: NetBeans、Intellij IDEA、Eclipse など",
+        "step_3": "Java ランタイム環境: J2SE 6.0 以降",
+        "step_4": "GroupDocs.Redaction for Java の最新バージョンを [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction) から入手します。"
+      },
+      "title_right": "GroupDocs.Redactionの使い方?",
+      "content_right": {
+        "step_1": "ユーザーがカスタムのドキュメント形式と編集の種類を追加できるようにする",
+        "step_2": "機密情報を削除するために追加のソフトウェアは必要ありません",
+        "step_3": "ページ範囲レンダリング ドキュメントを PDF として設定する機能",
+        "step_4": "さまざまなタイプのメタデータを簡単に編集する方法: 著者名、バージョン、タイトル、件名、説明など",
+        "step_5": "文書情報の抽出 - ファイルタイプ、ページ数など。"
+      }
+    }
+  },
+  "about_formats": "true"
+}

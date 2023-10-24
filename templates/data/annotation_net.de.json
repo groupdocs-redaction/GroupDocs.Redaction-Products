@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Redigieren Sie Anmerkungen in {{EXT}}-Dokumenten mit regulären Ausdrücken über .NET Core",
+    "description": "Entfernen Sie vertrauliche Informationen in Anmerkungen mithilfe regulärer Ausdrücke aus Dokumenten unterschiedlicher Formate"
+  },
+  "header": {
+    "title": "Redigieren Sie {{EXT}} Dateianmerkungen über {{ProgLang}} und reguläre Ausdrücke in .NET Core Apps",
+    "description": "Finden und entfernen Sie vertrauliche Informationen aus Office- und OpenOffice-Dokumenten, Tabellenkalkulationen und Präsentationen sowie {{EXT}} auf Windows, Linux und macOS"
+  },
+  "about": {
+    "title": "Schwärzung von Dokumentanmerkungen für die .NET-API",
+    "h1": "Eine einzige formatunabhängige Schnittstelle zur Bereinigung sensibler und geheimer Informationen aus den Dokumenten und Bildern PDF, Word, Excel, PowerPoint, einschließlich der Möglichkeit, Metadaten zu ändern und Anmerkungen zu entfernen. Mit dem Tool {{ProductFullName}} können Sie die klassifizierten Informationen schwärzen und das geschwärzte Dokument in PDF speichern, alle Seiten in Rasterbilder umwandeln oder das Dokument zur weiteren Bearbeitung in seinem Originalformat behalten."
+  },
+  "steps": {
+    "title_left": "Anmerkungen aus {{EXT}} mithilfe regulärer Ausdrücke über {{ProgLang}} schwärzen",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) ermöglicht {{ProductName}}-Entwicklern, die volle Stärke regulärer Ausdrücke zu nutzen, um {{EXT}}-Dateien mit ein paar einfachen Schritten zu redigieren.",
+      "step_1": "Erstellen Sie eine Instanz der Klasse [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) und laden Sie die Datei {{EXT}}",
+      "step_2": "Erstellen Sie eine Instanz der Klasse [AnnotationRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/annotationredaction), um die Kommentare zu suchen und zu ersetzen",
+      "step_3": "Rufen Sie die Methode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) mit dem Objekt AnnotationRedaction auf"
+    },
+    "title_right": "So verwenden Sie die GroupDocs Redaction API",
+    "content_right": {
+      "description": "{{ProductFullName}} APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Installieren Sie das Paket über die Befehlszeile als „nuget install GroupDocs.Redaction“ oder über die Paket-Manager-Konsole von Visual Studio mit „Install-Package GroupDocs.Redaction“.",
+      "step_2": "Alternativ können Sie das Offline-MSI-Installationsprogramm oder die DLLs in einer ZIP-Datei von [Downloads](https://downloads.groupdocs.com/redaction/net) herunterladen und in Ihrem Projekt manuell darauf verweisen."
+    }
+  },
+  "about_formats": "true"
+}

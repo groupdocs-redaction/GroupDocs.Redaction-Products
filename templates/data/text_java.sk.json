@@ -1,0 +1,89 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Redigovať {{EXT}} Text pomocou presnej frázy/regulárneho výrazu v Java",
+    "description": "GroupDocs.Redaction s Java API umožňuje vývojárom redigovať text z PDF DOC DOCX RTF XLSX CSV PPT PPTX & obrázky pomocou presnej frázy alebo regulárneho výrazu v Java"
+  },
+  "header": {
+    "title": "Ako redigovať, skryť alebo odstrániť text z {{EXT}} súborov pomocou Java",
+    "description": "GroupDocs.Redaction s Java API umožňuje redigovať, skryť alebo odstrániť citlivý text z textových dokumentov, pracovných hárkov, prezentácií, PDF s & obrázkov."
+  },
+  "about": {
+    "title": "Čo je redigovanie textu?",
+    "h1": "Redakcia textu je proces odstránenia dôverného alebo nechceného textu alebo informácií z digitálnych dokumentov, pričom zvyšok dokumentu alebo odseku, ktorý ho obsahuje, ponecháva nedotknutý. Redakcia pomáha používateľom, ako aj organizácii chrániť ich citlivé informácie tým, že ich skryje alebo natrvalo odstráni. Pomocou GroupDocs.Redaction Java API môžu používatelia teraz redigovať, skryť alebo odstrániť citlivý text z textových dokumentov, pracovných hárkov, prezentácií, PDF a súborov rastrových obrázkov. Rozhranie API poskytuje širokú škálu možností a metód na redakciu súkromných informácií v dokumentoch. Podporuje vyhľadávanie a redigovanie pomocou presnej zhody alebo regulárnych výrazov, použite textové (kódy výnimiek) alebo grafické (farebné obdĺžniky) redakcie a mnoho ďalších. Prečo to teda neskúsiť automatizovať proces redakcie dokumentov stiahnutím rozhrania API a preskúmaním jeho základných a pokročilých funkcií. ",
+    "h2": "{{ProductFullName}} API je správna voľba pre firemné riešenia, ktoré potrebujú kombináciu funkcií súborov. Tieto rozhrania API sú dobre podporované na všetkých hlavných operačných systémoch a platformách vrátane {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redakt {{EXT}} Presná fráza v Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction umožňuje jednoducho redigovať údaje citlivej alebo súkromnej povahy z vašich dokumentov. Najobľúbenejším prípadom redigovania je odstránenie textu z dokumentu.",
+        "step_2": "Nasledujúci kód je možné použiť na aplikáciu textovej redigácie na konkrétnu časť dokumentu pomocou presnej frázy. Umožňuje používateľom nahradiť osobnú presnú frázu „Michal Clark“ osobným (alebo akýmkoľvek kódom výnimky),"
+      },
+      "title_right": "Odstrániť citlivé údaje z {{EXT}}",
+      "content_right": {
+        "step_1": "Vytvorte inštanciu súboru [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload {{EXT}}",
+        "step_2": "Zavolajte Redactor.Apply metódu s novou inštanciou triedy exactPhraseRedAction",
+        "step_3": "Zavolajte metódu redactor.save s objektom [exactPhraseRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Zavolajte metódu redactor.save na uloženie zmien"
+      },
+      "gist": {
+        "hash": "3202859fc19b5dfd14e8f073b70a18f8",
+        "file": "redactexactphrase.java"
+      }
+    },
+    "example2": {
+      "title_left": "Redakcia textu citlivá na veľké a veľké písmená v {{EXT}}",
+      "content_left": {
+        "step_1": "Nasledujúci príklad umožňuje používateľom vykonať presnú redigáciu s rozlišením písmen, ktoré rozlišujú veľké a veľké písmená, aby odstránili alebo skryli konkrétny skľučovadlo textu v dokumente. V predvolenom nastavení je vyhľadávanie presnej frázy necitlivé na malé a veľké písmená."
+      },
+      "title_right": "Vykonajte redakciu citlivú na veľké a veľké písmená pomocou Java",
+      "content_right": {
+        "step_1": "Vytvorte inštanciu súboru [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload {{EXT}}",
+        "step_2": "Zavolajte Redactor.Apply metódu s novou inštanciou triedy exactPhraseRedAction",
+        "step_3": "Zavolajte metódu redactor.save s objektom [exactPhraseRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Zavolajte metódu redactor.save na uloženie zmien"
+      },
+      "gist": {
+        "hash": "a43e3ce358f93df92373b5441bc579fb",
+        "file": "casesensitiveredaction.java"
+      }
+    },
+    "example3": {
+      "title_left": "Redigovanie textu v {{EXT}} pomocou farebného poľa",
+      "content_left": {
+        "step_1": "Namiesto odstránenia redigovaného textu alebo umiestnenia reťazca tam je tiež možné umiestniť farebné pole nad redigovaný text. V tomto prípade bude zodpovedaný text odstránený a farebný obdĺžnik bude umiestnený nad redigovaný text."
+      },
+      "title_right": "Použite farebné pole na odstránenie textu v Java",
+      "content_right": {
+        "step_1": "Vytvorte inštanciu súboru [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload {{EXT}}",
+        "step_2": "Zavolajte Redactor.Apply metódu s novou inštanciou triedy exactPhraseRedAction",
+        "step_3": "Zavolajte metódu redactor.save s objektom [exactPhraseRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Zavolajte metódu redactor.save na uloženie zmien"
+      },
+      "gist": {
+        "hash": "6d83e791388b6834a372dc90f4b455f6",
+        "file": "redacttextusingcolorbox.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Požiadavky na systém",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API sú podporované na všetkých hlavných platformách a operačných systémoch. Kompletnú príručku systémových požiadaviek nájdete na stránke [systémové požiadavky](https://docs.groupdocs.com/redaction/java/system-requirements) Pred spustením kódu nižšie sa uistite, že máte vo svojom systéme nainštalované nasledujúce predpoklady:",
+        "step_1": "Operačné systémy: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Vývojové prostredie: NetBeans, Intellij IDEA, Eclipse atď",
+        "step_3": "Java Runtime prostredie: J2SE 6.0 a vyššie",
+        "step_4": "Získajte najnovšiu verziu GroupDocs.Redaction for Java z [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Prečo používať GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Povoliť používateľom pridávať vlastné formáty dokumentov a typy redakcií",
+        "step_2": "Na odstránenie citlivých informácií nie je potrebný žiadny ďalší softvér",
+        "step_3": "Možnosť nastaviť vykresľujúci dokument rozsahu strán ako PDF",
+        "step_4": "Jednoduchý spôsob redigovania rôznych typov metaúdajov: meno autora, verzia, názov, predmet, popis a mnoho ďalších",
+        "step_5": "Extrakcia informácií o dokumente - typ súboru, počet strán atď."
+      }
+    }
+  },
+  "about_formats": "pravdivý"
+}

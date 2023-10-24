@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Редагувати {{EXT}} документи за допомогою регулярних виразів через .NET Core",
+    "description": "Видаляйте конфіденційну інформацію за допомогою регулярного виразу з документів різних форматів"
+  },
+  "header": {
+    "title": "Очистити {{EXT}} файли через {{ProgLang}} і регулярні вирази в .NET основних програмах",
+    "description": "Знаходьте та видаляйте конфіденційну інформацію з документів Office і OpenOffice, електронних таблиць і презентацій, а також {{EXT}} на Windows, Linux та macOS"
+  },
+  "about": {
+    "title": "Редагування тексту документа для API .NET",
+    "h1": "Єдиний незалежний від формату інтерфейс для очищення конфіденційної та секретної інформації з документів і зображень PDF, Word, Excel, PowerPoint, включаючи можливість змінювати метадані та видаляти коментарі. За допомогою інструмента {{ProductFullName}} ви можете відредагувати секретну інформацію та зберегти відредагований документ у PDF, перетворивши всі сторінки на растрові зображення або зберегти документ у вихідному форматі для подальшого редагування."
+  },
+  "steps": {
+    "title_left": "Відредагуйте текст із {{EXT}} за допомогою регулярних виразів через {{ProgLang}}",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) дозволяє розробникам {{ProductName}} використовувати всі регулярні вирази для редагування файлу {{EXT}} за кілька простих кроків.",
+      "step_1": "Створіть екземпляр класу [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) і завантажте файл {{EXT}}",
+      "step_2": "Створіть екземпляр класу [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction), щоб знайти та замінити текст",
+      "step_3": "Виклик методу [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) з об’єктом RegexRedaction"
+    },
+    "title_right": "Початок роботи з Redaction API",
+    "content_right": {
+      "description": "{{ProductFullName}} API підтримуються на всіх основних платформах і операційних системах. Перш ніж виконувати наведений нижче код, переконайтеся, що у вашій системі встановлено такі передумови.",
+      "step_1": "Встановіть із командного рядка як ```nuget install GroupDocs.Redaction``` або через консоль диспетчера пакетів Visual Studio за допомогою ```Install-Package GroupDocs.Redaction```.",
+      "step_2": "Крім того, отримайте офлайн-інсталятор MSI або DLL у файлі ZIP із [завантажень](https://downloads.groupdocs.com/redaction/net) і посилайтеся на нього у своєму проекті вручну."
+    }
+  },
+  "about_formats": "true"
+}

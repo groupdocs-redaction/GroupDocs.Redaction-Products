@@ -1,0 +1,104 @@
+{
+  "layout": "artikel",
+  "head": {
+    "title": "Java Redactie-API | Verberg gevoelige gegevens uit PDF Word Excel afbeelding",
+    "description": "Java API voor het redigeren van documenten — Verberg persoonlijke gegevens voor PDF, Word, Excel, PowerPoint presentaties en rasterafbeeldingen door middel van verschillende redactietypen."
+  },
+  "header": {
+    "title": "Privégegevens redigeren via de Java API",
+    "description": "Sluit persoonlijke informatie en metagegevens uit documenten, werkbladen, presentaties, PDF en rasterafbeeldingsbestanden uit of verberg ze met behulp van de redactie-API van Java."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Overzicht",
+      "button_text_2": "Kenmerken",
+      "button_text_3": "Ondersteuning",
+      "button_text_4": "Live demo",
+      "button_text_5": "Prijsstelling"
+    }
+  },
+  "tabs": {
+    "overview": "Met de GroupDocs.Redaction for Java API kunnen ontwikkelaars gevoelige gegevens verwijderen uit populaire bestandsindelingen zoals Microsoft Word, Excel, PowerPoint, PDF en afbeeldingen, zodat ze kunnen worden gebruikt en verspreid, maar ook vertrouwelijke informatie worden beschermd. De redactiebibliotheek biedt een enkele formaatonafhankelijke interface om elk type geheime informatie te redigeren, waaronder burgerservicenummers, medische informatie, financiële, bedrijfseigen, juridische of zelfs handelsgegevens door middel van redactietypen voor tekst, metagegevens en annotaties. Hiermee kunt u het document in de oorspronkelijke indeling opslaan en een opgeschoond PDF document maken met rasterafbeeldingen van originele pagina's.",
+    "one": {
+      "description": "Hieronder volgt een overzicht van GroupDocs.Redaction voor {{ProductName}}:",
+      "content": {
+        "title": "Overzicht",
+        "step_1": "Tekst redigeren",
+        "step_2": "Metagegevens redigeren",
+        "step_3": "Annotatie redigeren",
+        "step_4": "Document in tabelvorm redigeren",
+        "step_5": "Beveiligde bestanden redigeren",
+        "step_6": "Aanpassing"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction for {{ProductName}} ondersteunt de volgende [bestandsindelingen voor documenten](https://docs.groupdocs.com/redaction//supported-document-formats/{{ProductCode}}):",
+      "content": {
+        "title": "Tekst, metagegevens en opmerkingen redigeren",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Vaste indeling**: PDF",
+        "step_5": "**Rasterafbeeldingen**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Besturingssystemen",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * Mac OS"
+          },
+          "row2": {
+            "title": "Ondersteunde frameworks",
+            "data": "* Java 7 (1.7) en hoger"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "snelle fa-cogs",
+            "title": "Ontwikkelomgevingen",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Verduistering"
+          },
+          "row2": {
+            "icon": "snelle fa-tools",
+            "title": "Automatiseringstool bouwen",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction voor {{ProductName}} functies",
+    "feature1": "Exacte resultaten van een zoekreeks zoeken en redigeren",
+    "feature2": "Beheer het redactieproces en sla specifieke wedstrijden over",
+    "feature3": "Lokaliseren en redigeren met behulp van reguliere expressies",
+    "feature4": "Ingebouwde ondersteuning voor kantoorformaten en PDF",
+    "feature5": "Metagegevens wissen of metadatawaarden redigeren",
+    "feature6": "Beperk redacties tot specifieke werkbladen en kolommen",
+    "feature7": "Annotaties verwijderen of hun teksten redigeren",
+    "feature8": "Gebruik tekstuele (vrijstellingscodes) of grafische (gekleurde rechthoeken) redacties",
+    "feature9": "Sla het document op in de oorspronkelijke indeling of als een PDF met rasterafbeeldingen van originele pagina's",
+    "feature10": "Ondersteuning voor rasterafbeeldingsformaten en redacties van afbeeldingsgebieden",
+    "feature11": "Integratie-interface voor het implementeren van aangepaste redacties en formaten",
+    "feature12": "EXIF metagegevens bewerken of verwijderen uit afbeeldingsbestanden",
+    "feature13": "Ingebedde afbeeldingen in de PDF, Word en presentatiedocumenten redigeren"
+  },
+  "more_features": {
+    "title": "Zorg voor privacy door uw geheime gegevens te redigeren",
+    "content": "De {{ProductFullName}} library stelt ontwikkelaars in staat om tekst en afbeeldingen uit ondersteunde documenten te redigeren door gebruik te maken van verschillende redactietypen. Het gebruik van onze Redactie-API is eenvoudig en ongecompliceerd.",
+    "example": {
+      "description": "In het volgende codevoorbeeld wordt gebruik gemaakt van een document in tabelvorm, zoals een Microsoft Excel -spreadsheet, waarin het redactiebereik kan worden beperkt tot een specifiek werkblad en/of kolom. Het gebruikt filters om de tweede kolom met e-mails op het werkblad „Klanten” te redigeren, waarbij alle andere e-mails onaangeroerd blijven in het document.",
+      "comment_init": "Maak een instantie van de Redactor-klasse",
+      "comment_apply": "Redactie toepassen"
+    }
+  },
+  "solutions": "GroupDocs.Redaction biedt API's voor het bekijken van documenten voor andere populaire ontwikkelomgevingen"
+}

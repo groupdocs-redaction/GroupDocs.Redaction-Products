@@ -1,0 +1,110 @@
+{
+  "layout": "ürün",
+  "head": {
+    "title": "C# .NET Redaksiyon API | PDF Word Excel Resimlerden Özel Metni Gizle",
+    "description": ".NET için belge redaksiyon API'si. PDF, Microsoft Word, Excel, sunumlar ve raster görüntülerdeki hassas içeriği redakte edin, gizleyin veya kaldırın."
+  },
+  "header": {
+    "title": "Redaction API ile Sınıflandırılmış Verileri Güvence altına alın",
+    "description": ".NET API kullanarak belgelerden, çalışma sayfalarından, sunumlardan, PDF ve raster görüntü dosyalarından hassas içerik ve meta verileri düzenleyin, gizleyin veya kaldırın."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Genel Bakış",
+      "button_text_2": "Özellikler",
+      "button_text_3": "Destek",
+      "button_text_4": "Canlı Demo",
+      "button_text_5": "Fiyatlandırma"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET, Microsoft Word, Excel, PowerPoint ve PDF gibi çeşitli dosya biçimlerinden hassas ve sınıflandırılmış verileri silmenize yardımcı olan bir API kitaplığıdır. Redaction API'mizin tek formattan bağımsız arayüzü, metin redaksiyonu, meta veri redaksiyonu, ek açıklama redaksiyonu ve tablo şeklindeki belge redaksiyonu gibi çeşitli türlerde redaksiyonu destekler. GroupDocs.Redaction for .NET API ayrıca parola korumalı dosyaları yeniden düzenlemenizi sağlar. Belgeyi orijinal biçiminde kaydetmenize ve orijinal sayfaların raster görüntüleriyle sterilize edilmiş bir PDF belge oluşturmanıza izin verilir.",
+    "one": {
+      "description": "{{ProductName}} için GroupDocs.Redaction 'ye genel bir bakış aşağıdadır:",
+      "content": {
+        "title": "Genel Bakış",
+        "step_1": "Redact Metni",
+        "step_2": "Meta Verileri Redakt",
+        "step_3": "Redact Ek Açıklama",
+        "step_4": "Redact Tablo Belgesi",
+        "step_5": "Korumalı Dosyaları Redakt",
+        "step_6": "Özelleştirme"
+      }
+    },
+    "two": {
+      "description": "{{ProductName}} için GroupDocs.Redaction aşağıdaki [belge dosyası formatlarını] destekler (https://docs.groupdocs.com/redaction//supported-document-formats/{{ProductCode}}):",
+      "content": {
+        "title": "Metni Redakt Et, Meta Veriler ve Yorumlar",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Sabit Düzen**: PDF",
+        "step_5": "**Raster Görüntüler**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} aşağıdaki İşletim Sistemlerini, Çerçeveler ve Paket Yöneticilerini destekler:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "İşletim Sistemleri",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux"
+          },
+          "row2": {
+            "title": "Desteklenen Çerçeveler",
+            "data": "* .NET Framework 2.0 veya üstü
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-box",
+            "title": "Paket Yöneticisi",
+            "data": "* NuGet"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Geliştirme Ortamları",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} Özellikler",
+    "feature1": "Tam kelime öbeği redaksiyonu için büyük/küçük harfe duyarlı arama yapın",
+    "feature2": "Dize değiştirme yerine düzeltilmiş metni gizlemek için renk kutusunu kullanın",
+    "feature3": "Normal ifade aramasını kullanarak herhangi bir metni bulun ve düzenleyin",
+    "feature4": "Belgenin sınıflandırılmış meta veri bilgilerinin tümünü veya herhangi bir kombinasyonunu filtreleyin",
+    "feature5": "Belirli bir belgenin tüm meta veri bilgilerini hızla silin",
+    "feature6": "Excel içindeki belirli bir çalışma sayfasına ve/veya sütuna redaksiyonun kapsamını ayarlayın",
+    "feature7": "Belgedeki tüm veya belirli yorumları ve diğer ek açıklamaları kaldırın",
+    "feature8": "Ek açıklama metninden hassas verileri arayın ve kaldırın",
+    "feature9": "Kendi formatlarınız ve redaksiyonlarınızla çalışabilme",
+    "feature10": "Raster görüntü formatları ve görüntü bölgesi redaksiyonları için destek",
+    "feature11": "XML dosyasında bir dizi redaksiyon kuralı (ilke) belirtin",
+    "feature12": "PDF 'e Dönüştürme sırasında Sayfa Aralığını ve PDF Uyumluluk Düzeyini Belirtin",
+    "feature13": "Resim Dosyalarından EXIF Meta Verileri Düzenleme veya Silme",
+    "feature14": "PDF, Word ve Sunum Belgelerinin içindeki Gömülü Görüntüleri Redakt Etme",
+    "feature15": "Redaksiyon İlkesini XML Dosyası Olarak Kaydetme"
+  },
+  "more_features": {
+    "title": "Sınıflandırılmış Verilerinizi Kolaylıkla Redakte Edin & Kontrol",
+    "content": "{{ProductFullName}} API, önemli sınıflandırılmış bilgilerinizi desteklenen belgeden nasıl gizlemek veya silmek istediğinizi tam olarak kontrol etmenizi sağlar. Redaction API'mizi kullanmak oldukça basit ve basittir.",
+    "example": {
+      "description": "Aşağıdaki örnekte, desteklenen bir belgeyi yükleyip, {{ProgLang}} kullanarak “2 basamak, boşluk veya hiçbir şey, 2 basamak, yine boşluk ve 6 basamak” (12 34 567890 gibi) ile eşleşen herhangi bir metni çıkarıyoruz. Bu yapıldıktan sonra, ek bir “Redacted” son ekiyle yeniden adlandırarak belgeyi orijinal biçiminde kaydeder:",
+      "comment_init": "Redactor sınıfının bir örneğini oluşturma",
+      "comment_apply": "Redaksiyon uygula"
+    }
+  },
+  "solutions": "GroupDocs.Redaction diğer popüler geliştirme ortamları için belge görüntüleme API'leri sunar"
+}

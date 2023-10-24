@@ -1,0 +1,110 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "C# .NET Redaction API | Hide Private Text from PDF Word Excel Images",
+    "description": "Document redaction API for .NET. Redact, hide or remove sensitive content from PDF, Microsoft Word, Excel, presentations, & raster images."
+  },
+  "header": {
+    "title": "Secure Classified Data via Redaction API",
+    "description": "Redact, hide or remove sensitive content & metadata from documents, worksheets, presentations, PDF and raster image files using .NET API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Overview",
+      "button_text_2": "Features",
+      "button_text_3": "Support",
+      "button_text_4": "Live Demo",
+      "button_text_5": "Pricing"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET is an API library that helps you erase sensitive and classified data from various file formats, such as, Microsoft Word, Excel, PowerPoint and PDF. Our Redaction API’s single format-independent interface supports redaction of various types, e.g., text redaction, metadata redaction, annotation redaction, and tabular document redaction. GroupDocs.Redaction for .NET API also allows you to redact password protected files. You are allowed to save the document in its original format as well as create a sanitized PDF document with raster images of original pages.",
+    "one" : {
+      "description": "Following is an overview of GroupDocs.Redaction for {{ProductName}}:",
+      "content": {
+        "title": "Overview",
+        "step_1": "Redact Text",
+        "step_2": "Redact Metadata",
+        "step_3": "Redact Annotation",
+        "step_4": "Redact Tabular Document",
+        "step_5": "Redact Protected Files",
+        "step_6": "Customization"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction for {{ProductName}} supports following [document file formats](https://docs.groupdocs.com/redaction/{{ProductCode}}/supported-document-formats/):",
+      "content": {
+        "title": "Redact Text, Metadata & Comments",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Fixed Layout**: PDF",
+        "step_5": "**Raster Images**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction for {{ProductName}} supports following Operating Systems, Frameworks & Package Managers:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Operating Systems",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux",
+          },
+          "row2": {
+            "title": "Supported Frameworks",
+            "data": "* .NET Framework 2.0 or higher
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-box",
+            "title": "Package Manager",
+            "data": "* NuGet",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Development Environments",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} Features",
+    "feature1": "Perform case-sensitive search for exact phrase redaction",
+    "feature2": "Use color box to hide redacted text instead of string replacement",
+    "feature3": "Locate & redact out any text using regular expression search",
+    "feature4": "Filter all or any combination of classified metadata information of document",
+    "feature5": "Quickly erase complete metadata information of specific document",
+    "feature6": "Set a scope of the redaction to a specific worksheet and/or column in Excel",
+    "feature7": "Remove all or specific comments and other annotations from the document",
+    "feature8": "Search & remove sensitive data from the annotation text",
+    "feature9": "Ability to work with your own formats & redactions",
+    "feature10": "Support for raster image formats and image region redactions",
+    "feature11": "Specify a set of redaction rules (policy) in XML file",
+    "feature12": "Specify Pages Range and PDF Compliance Level while Conversion to PDF",
+    "feature13": "Edit or Delete EXIF Metadata from Image Files",
+    "feature14": "Redact Embedded Images inside the PDF, Word & Presentation Documents",
+    "feature15": "Save a Redaction Policy as an XML File"
+  },
+  "more_features": {
+    "title": "Redact your Classified Data with Ease & Control",
+    "content": "{{ProductFullName}} API grants you complete control over how you want to hide or erase your important classified information from supported document. To use our Redaction API is pretty simple and straight forward.",
+    "example": {
+      "description": "In following example, we load a supported document, redact out any text, matching \"2 digits, space or nothing, 2 digits, again space and 6 digits\" (such as 12 34 567890) with a blue color box using {{ProgLang}}. Once that is done, it saves the document in its original format by renaming it with an added suffix \"_Redacted\":",
+      "comment_init": "Create an instance of Redactor class",
+      "comment_apply": "Apply redaction"
+    }
+  },
+  "solutions": "GroupDocs.Redaction offers document viewing APIs for other popular development environments"
+}

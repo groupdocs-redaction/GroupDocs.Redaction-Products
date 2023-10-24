@@ -1,0 +1,110 @@
+{
+  "layout": "výrobok",
+  "head": {
+    "title": "C# .NET Redakcia API | Skryť súkromný text z PDF Word Excel Obrázky",
+    "description": "API na redakciu dokumentov pre .NET. Redigujte, skryte alebo odstráňte citlivý obsah z PDF, Microsoft Word, Excel, prezentácií a rastrových obrázkov."
+  },
+  "header": {
+    "title": "Zabezpečené utajované údaje prostredníctvom rozhrania Redaction API",
+    "description": "Redigujte, skryte alebo odstráňte citlivý obsah a metaúdaje z dokumentov, pracovných hárkov, prezentácií, PDF a súborov rastrových obrázkov pomocou .NET API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Prehľad",
+      "button_text_2": "Vlastnosti",
+      "button_text_3": "Podpora",
+      "button_text_4": "Živá ukážka",
+      "button_text_5": "Cenník"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET je knižnica API, ktorá vám pomôže vymazať citlivé a utajované údaje z rôznych formátov súborov, ako napríklad Microsoft Word, Excel, PowerPoint a PDF. Rozhranie nášho rozhrania Redaction API nezávislé od formátu podporuje redakciu rôznych typov, napr. redakciu textu, redakciu metadát, redakciu anotácií a redakciu tabuľkových dokumentov. GroupDocs.Redaction for .NET API vám tiež umožňuje redigovať súbory chránené heslom. Môžete uložiť dokument v pôvodnom formáte, ako aj vytvoriť dezinfikovaný dokument PDF s rastrovými obrázkami pôvodných strán.",
+    "one": {
+      "description": "Nasleduje prehľad GroupDocs.Redaction pre {{ProductName}}:",
+      "content": {
+        "title": "Prehľad",
+        "step_1": "Redigovať text",
+        "step_2": "Redigovať metadáta",
+        "step_3": "Redigovať anotáciu",
+        "step_4": "Redigovať tabuľkový dokument",
+        "step_5": "Redigovať chránené súbory",
+        "step_6": "Prispôsobenie"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction for {{ProductName}} podporuje nasledujúce [formáty súborov dokumentov](https://docs.groupdocs.com/redaction//supported-document-formats/) :{{ProductCode}}",
+      "content": {
+        "title": "Redigovať text, metaúdaje a komentáre",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Pevné rozloženie**: PDF",
+        "step_5": "**Rastrové obrázky**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} podporuje nasledujúce operačné systémy, rámce a správcov balíkov:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Operačné systémy",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux"
+          },
+          "row2": {
+            "title": "Podporované rámce",
+            "data": "* .NET Framework 2.0 alebo vyššie
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fa-box",
+            "title": "Správca balíkov",
+            "data": "* NuGet"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Vývojové prostredia",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction pre {{ProductName}} Funkcie",
+    "feature1": "Vykonajte vyhľadávanie presnej redigovania frázy s rozlišením malých a malých písmen",
+    "feature2": "Použite farebné pole na skrytie redigovaného textu namiesto nahradenia reťazca",
+    "feature3": "Vyhľadajte a redigujte ľubovoľný text pomocou vyhľadávania regulárnych výrazov",
+    "feature4": "Filtrovať všetky alebo ľubovoľnú kombináciu utajovaných informácií o metaúdajoch dokumentu",
+    "feature5": "Rýchle vymazanie úplných informácií o metaúdajoch konkrétneho dokumentu",
+    "feature6": "Nastavte rozsah redigovania na konkrétny pracovný hárok a/alebo stĺpec v Excel",
+    "feature7": "Odstránenie všetkých alebo konkrétnych poznámok a iných anotácií z dokumentu",
+    "feature8": "Vyhľadávanie a odstránenie citlivých údajov z textu anotácie",
+    "feature9": "Schopnosť pracovať s vlastnými formátmi a redakciami",
+    "feature10": "Podpora formátov rastrových obrázkov a redakcie oblasti obrázkov",
+    "feature11": "Zadajte množinu pravidiel redigovania (politiky) v XML súbore",
+    "feature12": "Zadajte rozsah strán a úroveň zhody PDF počas konverzie na PDF",
+    "feature13": "Úprava alebo odstránenie EXIF metaúdajov z obrázkových súborov",
+    "feature14": "Redigovať vložené obrázky vo vnútri PDF, Word a prezentačných dokumentov",
+    "feature15": "Uloženie politiky redigovania ako súboru XML"
+  },
+  "more_features": {
+    "title": "Redigujte svoje utajované údaje s jednoduchosťou a kontrolou",
+    "content": "{{ProductFullName}} API vám poskytuje úplnú kontrolu nad tým, ako chcete skryť alebo vymazať dôležité utajované informácie z podporovaného dokumentu. Používanie nášho Redaction API je celkom jednoduché a priame.",
+    "example": {
+      "description": "V nasledujúcom príklade načítame podporovaný dokument, redigujeme akýkoľvek text, ktorý zodpovedá „2 číslice, medzery alebo nič, 2 číslice, opäť medzery a 6 číslic“ (napríklad 12 34 567890) s modrým farebným rámčekom pomocou {{ProgLang}}. Po dokončení uloží dokument v pôvodnom formáte premenovaním na pridanú príponu „Redigované“:",
+      "comment_init": "Vytvorte inštanciu triedy Redactor",
+      "comment_apply": "Použiť redakciu"
+    }
+  },
+  "solutions": "GroupDocs.Redaction ponúka rozhrania API na prezeranie dokumentov pre ďalšie populárne vývojové prostredia"
+}

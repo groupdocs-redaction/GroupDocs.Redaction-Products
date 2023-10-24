@@ -1,0 +1,51 @@
+{
+  "layout": "produkts",
+  "head": {
+    "title": "Dokumentu redakcijas risinājums | Par priekšnoteikumu API un bezmaksas lietotni",
+    "description": "Noņemiet, rediģējiet vai paslēpiet metadatus un teksta saturu MS Office Word dokumentos, Excel izklājlapās, PowerPoint prezentācijās, PDF un attēlu failu formātos."
+  },
+  "header": {
+    "title": "Redakcijas risinājums klasificētas informācijas drošībai",
+    "description": "Paslēpt vai noņemt privāto informāciju no Microsoft Office dokumentiem, izklājlapām, prezentācijām, PDF un attēliem."
+  },
+  "apis": {
+    "code": {
+      "title": "GroupDocs.Redaction High Code API Iekļaut",
+      "label": "Skatīt visus High Code API",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction priekš",
+        "content": "Par Premisa .NET API, lai paslēptu vai noņemtu saturu un metadatus no personiskajiem dokumentiem."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction priekš",
+        "content": "Par priekšnoteikumu Java API, lai noņemtu vai paslēptu tekstu no satura un atbalstīto failu formātu metadatiem."
+      }
+    },
+    "apps": {
+      "title": "GroupDocs.Redaction No Code Lietotnes ietver",
+      "label": "Skatīt visus No Code Apps",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/asposeredaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Viena lietotne, lai rediģētu sensitīvu informāciju no Word, Excel, PowerPoint, PDF un daudziem citiem dokumentu veidiem."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocswords-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Redaktējiet informāciju no Word dokumentiem, izmantojot jebkuru tīmekļa pārlūkprogrammu."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocspdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Izvērst saturu no saviem PDF dokumentiem tiešsaistē bez maksas."
+      }
+    }
+  }
+}

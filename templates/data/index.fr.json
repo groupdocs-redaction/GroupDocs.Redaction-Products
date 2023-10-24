@@ -1,0 +1,51 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "Solution de rédaction de documents | API sur site et application gratuite",
+    "description": "Supprimer, expurger ou masquer les métadonnées et le contenu textuel des documents MS Office Word, des feuilles de calcul Excel, des présentations PowerPoint, des formats de fichier PDF et image."
+  },
+  "header": {
+    "title": "Solution de rédaction pour sécuriser les informations classifiées",
+    "description": "Masquez ou supprimez les informations privées des documents, feuilles de calcul, présentations, PDF et images Microsoft Office."
+  },
+  "apis": {
+    "code" : {
+      "title": "Les API GroupDocs.Redaction High Code incluent",
+      "label": "Afficher toutes les API High Code",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "/border/groupdocs-redaction-net.svg",
+        "product": "GroupDocs.Redaction for",
+        "content": "API On Premise .NET pour masquer ou supprimer le contenu et les métadonnées de vos documents personnels."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "/border/groupdocs-redaction-java.svg",
+        "product": "GroupDocs.Redaction for",
+        "content": "API Java sur site pour supprimer ou masquer le texte du contenu et des métadonnées des formats de fichiers pris en charge."
+      }
+    },
+    "apps" : {
+      "title": "GroupDocs.Redaction Aucune application de code n'inclut",
+      "label": "Voir toutes les applications sans code",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "/app/groupdocs_redaction-app.svg",
+        "product": "GroupDocs.Redaction",
+        "content": "Application unique pour supprimer les informations sensibles de Word, Excel, PowerPoint, PDF et de nombreux autres types de documents."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "/app/groupdocs_words-app.svg",
+        "product": "GroupDocs.Redaction",
+        "content": "Masquer les informations des documents Word à l'aide de n'importe quel navigateur Web."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "/app/groupdocs_pdf-app.svg",
+        "product": "GroupDocs.Redaction",
+        "content": "Supprimez gratuitement le contenu de vos documents PDF en ligne."
+      }
+    }
+  }
+}

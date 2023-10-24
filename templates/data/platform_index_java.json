@@ -1,0 +1,106 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "Java Redaction API | Hide sensitive data from PDF Word Excel Image",
+    "description": "Java document redaction API – Hide personal data from PDF, Word, Excel, PowerPoint presentations & raster images through various redaction types."
+  },
+  "header": {
+    "title": "Redact Private Information via Java API",
+    "description": "Exclude or hide personal information & metadata from documents, worksheets, presentations, PDF and raster image files using Java redaction API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Overview",
+      "button_text_2": "Features",
+      "button_text_3": "Support",
+      "button_text_4": "Live Demo",
+      "button_text_5": "Pricing"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API lets developers remove sensitive data from popular file formats like Microsoft Word, Excel, PowerPoint, PDF and images so it can be used and distributed, but still protect confidential information too. The redaction library offers a single format-independent interface to redact any type of classified information including social security numbers, medical information, financial, proprietary, legal or even trade details through text, metadata and annotation redaction types. It allows you to save the document in its original format and create a sanitized PDF document with raster images of original pages.",
+    "one" : {
+      "description": "Following is an overview of GroupDocs.Redaction for {{ProductName}}:",
+      "content": {
+        "title": "Overview",
+        "step_1": "Redact Text",
+        "step_2": "Redact Metadata",
+        "step_3": "Redact Annotation",
+        "step_4": "Redact Tabular Document",
+        "step_5": "Redact Protected Files",
+        "step_6": "Customization"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction for {{ProductName}} supports following [document file formats](https://docs.groupdocs.com/redaction/{{ProductCode}}/supported-document-formats/):",
+      "content": {
+        "title": "Redact Text, Metadata & Comments",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Fixed Layout**: PDF",
+        "step_5": "**Raster Images**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction for {{ProductName}} supports following Operating Systems, Frameworks & Package Managers:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Operating Systems",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * MacOS",
+          },
+          "row2": {
+            "title": "Supported Frameworks",
+            "data": "* Java 7 (1.7) and above"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-cogs",
+            "title": "Development Environments",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Eclipse",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Build Automation Tool",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} Features",
+    "feature1": "Search and redact exact matches of a search string",
+    "feature2": "Control the redaction process and skip specific matches",
+    "feature3": "Locate and redact using regular expressions",
+    "feature4": "Built-in support for office formats and PDF",
+    "feature5": "Wipe out metadata or redact metadata values",
+    "feature6": "Limit redactions to specific worksheets and columns",
+    "feature7": "Remove annotations or redact their texts",
+    "feature8": "Use textual (exemption codes) or graphic (colored rectangles) redactions",
+    "feature9": "Save the document in its original format or as a PDF with raster images of original pages",
+    "feature10": "Support for raster image formats and image region redactions",
+    "feature11": "Integration interface for implementing custom redaction and formats",
+    "feature12": "Edit or Remove EXIF Metadata from Image Files",
+    "feature13": "Redact Embedded Images inside the PDF, Word & Presentation Documents",
+    "feature14": "",
+    "feature15": ""
+  },
+  "more_features": {
+    "title": "Ensure Privacy by Redacting your Classified Data",
+    "content": "{{ProductFullName}} library empowers developers to redact text and images from supported documents by employing a variety of redaction types. To use our Redaction API is simple and straight forward.",
+    "example": {
+      "description": "The following code example uses a tabular document such as Microsoft Excel spreadsheet where the scope of redaction can be limited to a specific worksheet and/or column. It uses filters to redact the second column with emails on a worksheet \"Customers\", leaving all other emails untouched in the document.",
+      "comment_init": "Create an instance of Redactor class",
+      "comment_apply": "Apply redaction"
+    }
+  },
+  "solutions": "GroupDocs.Redaction offers document viewing APIs for other popular development environments"
+}

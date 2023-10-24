@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Annotaties in {{EXT}}-documenten redigeren met reguliere expressies via .NET Core",
+    "description": "Redigeer gevoelige informatie in annotaties met behulp van reguliere expressies uit documenten van verschillende formaten"
+  },
+  "header": {
+    "title": "Annotaties van {{EXT}}-bestanden redigeren via {{ProgLang}} en reguliere expressies in .NET-kernapps",
+    "description": "Zoek en verwijder gevoelige informatie uit Office- en OpenOffice-documenten, -spreadsheets en -presentaties, evenals {{EXT}} op Windows, Linux en macOS"
+  },
+  "about": {
+    "title": "Redactie van documentannotatie voor .NET API",
+    "h1": "Eén formaat-onafhankelijke interface voor het opschonen van gevoelige en geheime informatie uit de PDF, Word, Excel, PowerPoint documenten en afbeeldingen, inclusief de mogelijkheid om metadata te wijzigen en annotaties te verwijderen. Met de tool {{ProductFullName}} kunt u de geclassificeerde informatie redigeren en het geredigeerde document opslaan in PDF, alle pagina's omzetten in rasterafbeeldingen of het document in zijn oorspronkelijke formaat behouden voor verdere bewerking."
+  },
+  "steps": {
+    "title_left": "Annotaties van {{EXT}} redigeren met reguliere expressies via {{ProgLang}}",
+    "content_left": {
+      "description": "Met [GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) kunnen {{ProductName}}-ontwikkelaars met een paar eenvoudige stappen volledige reguliere expressies gebruiken om {{EXT}}-bestanden te redigeren.",
+      "step_1": "Maak een instantie van [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) klasse & laad {{EXT}} bestand",
+      "step_2": "Maak een instantie van de klasse [AnnotationRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/annotationredaction) om de opmerkingen te zoeken en te vervangen",
+      "step_3": "Roep [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) methode aan met object van AnnotationRedaction"
+    },
+    "title_right": "De GroupDocs Redaction API gebruiken",
+    "content_right": {
+      "description": "{{ProductFullName}} API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Installeer het pakket vanaf de opdrachtregel als ```nuget install GroupDocs.Redaction``` of via Package Manager Console van Visual Studio met ```Install-Package GroupDocs.Redaction```.",
+      "step_2": "U kunt ook het offline MSI-installatieprogramma of de DLL's in een ZIP-bestand downloaden van [downloads](https://downloads.groupdocs.com/redaction/net) en er handmatig naar verwijzen in uw project."
+    }
+  },
+  "about_formats": "true"
+}

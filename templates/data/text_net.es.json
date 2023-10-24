@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Redactar información confidencial de documentos a través de .NET Core",
+    "description": "Aplique la redacción de texto usando una frase exacta o una expresión regular para documentos de diferentes formatos"
+  },
+  "header": {
+    "title": "Redactar archivos {{EXT}} a través de {{ProgLang}} en aplicaciones .NET Core",
+    "description": "Buscar y reemplazar texto en documentos, hojas de cálculo y presentaciones de Office y OpenOffice, así como {{EXT}} en Windows, Linux y macOS"
+  },
+  "about": {
+    "title": "Redacción de documentos para la API de .NET",
+    "h1": "Una única interfaz independiente del formato para redactar información confidencial y clasificada de documentos e imágenes PDF, Word, Excel, PowerPoint, incluida la capacidad de cambiar metadatos y eliminar comentarios. Con la herramienta GroupDocs.Redaction, puede redactar texto y guardar el documento redactado en PDF, transformando todas las páginas en imágenes rasterizadas o manteniendo el documento en su formato original para su posterior edición.",
+  },
+  "blocks": {
+    "example" : {
+      "title_left": "Redactar texto exacto de {{EXT}} a través de {{ProgLang}}",
+      "content_left": {
+        "description": "[GroupDocs.Redaction](/redaction/net/) facilita a los desarrolladores de .NET agregar la función de redacción de archivos {{EXT}} con unos sencillos pasos.",
+        "step_1": "Cree una instancia de la clase [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) y cargue el archivo {{EXT}}",
+        "step_2": "Crear una instancia de la clase [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) para buscar y reemplazar el texto",
+        "step_3": "Llame al método [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) con objeto de ExactPhraseRedaction"
+      },
+      "title_right": "Comience con la API de Redacción",
+      "content_right": {
+        "description": "",
+        "step_1": "Instale desde la línea de comandos como ```nuget install GroupDocs.Redaction``` o a través de la Consola del administrador de paquetes de Visual Studio con ```Install-Package GroupDocs.Redaction```.",
+        "step_2": "Como alternativa, obtenga el instalador MSI sin conexión o las DLL en un archivo ZIP de [descargas](https://downloads.groupdocs.com/redaction/net) y consúltelo en su proyecto manualmente.",
+        "step_3": "",
+        "step_4": ""
+      }
+    },
+    "requirements" : {
+      "title_left": "Requisitos del sistema",
+      "content_left": {
+        "description": "Las API de GroupDocs.Redaction para .NET son compatibles con todas las principales plataformas y sistemas operativos. Para obtener una guía completa de requisitos del sistema, visite [requisitos del sistema](https://docs.groupdocs.com/redaction/net/system-requirements/) Antes de ejecutar el código a continuación, asegúrese de que los siguientes requisitos previos estén instalados en su sistema:",
+        "step_1": "Sistemas Operativos: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Entorno de desarrollo: Visual Studio, Xamarin, MonoDevelop, etc.",
+        "step_3": "Marcos: .NET Framework, .NET Standard, .NET Core, Mono",
+        "step_4": "Obtenga la última versión de las API GroupDocs.Redaction .NET de [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/)"
+      },
+      "title_right": "Por qué usar GroupDocs.Redaction",
+      "content_right": {
+        "description": "",
+        "step_1": "Permitir a los usuarios agregar formatos de documentos personalizados y tipos de redacción",
+        "step_2": "No se requiere software adicional para eliminar información confidencial",
+        "step_3": "Capacidad para configurar el documento de renderizado de rango de página a PDF",
+        "step_4": "Una forma sencilla de escribir diferentes tipos de metadatos: nombre del autor, versión, título, tema, descripción y muchos más",
+        "step_5": "Extracción de información del documento: tipo de archivo, número de páginas, etc.",
+        "step_6": "Soporte completo para múltiples formatos de datos"
+      }
+    }
+  },
+  "about_formats": "false"
+}

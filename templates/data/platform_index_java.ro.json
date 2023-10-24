@@ -1,0 +1,104 @@
+{
+  "layout": "produs",
+  "head": {
+    "title": "Java API-ul de redactare | Ascundeți datele sensibile din PDF Word Excel Imagine",
+    "description": "Java API de redactare a documentelor - Ascundeți datele personale din PDF, Word, Excel, PowerPoint prezentări și imagini raster prin diferite tipuri de redactare."
+  },
+  "header": {
+    "title": "Redacția informațiilor private prin API Java",
+    "description": "Excludeți sau ascundeți informațiile personale și metadatele din documente, foi de lucru, prezentări, PDF și fișiere imagine raster utilizând API de redactare Java."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Prezentare generală",
+      "button_text_2": "Caracteristici",
+      "button_text_3": "Suport",
+      "button_text_4": "Demo live",
+      "button_text_5": "Prețuri"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API permite dezvoltatorilor să elimine datele sensibile din formatele populare de fișiere precum Microsoft Word, Excel, PowerPoint, PDF și imagini, astfel încât acestea să poată fi utilizate și distribuite, dar totuși protejează informațiile confidențiale. Biblioteca de redactare oferă o singură interfață independentă de format pentru a redacta orice tip de informații clasificate, inclusiv numere de securitate socială, informații medicale, detalii financiare, proprietare, legale sau chiar comerciale prin text, metadate și tipuri de redactare a adnotărilor. Vă permite să salvați documentul în formatul său original și să creați un document igienizat PDF cu imagini raster ale paginilor originale.",
+    "one": {
+      "description": "Mai jos este o prezentare generală a GroupDocs.Redaction pentru {{ProductName}}:",
+      "content": {
+        "title": "Prezentare generală",
+        "step_1": "Redactă text",
+        "step_2": "Redactă metadate",
+        "step_3": "Redact Adnotare",
+        "step_4": "Redact document tabelar",
+        "step_5": "Redactă fișiere protejate",
+        "step_6": "Personalizare"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction pentru {{ProductName}} suportă următoarele [formate de fișiere de documente](https://docs.groupdocs.com/redaction//supported-document-formats/) :{{ProductCode}}",
+      "content": {
+        "title": "Redactează text, metadate și comentarii",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Aspect fix**: PDF",
+        "step_5": "**Imagini raster**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction pentru {{ProductName}} suportă următoarele sisteme de operare, cadre și manageri de pachete:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Sisteme de operare",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * Mac OS"
+          },
+          "row2": {
+            "title": "Cadre acceptate",
+            "data": "* Java 7 (1.7) și mai sus"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-rogs",
+            "title": "Medii de dezvoltare",
+            "data": "* NetBeans
+                * IDEA IntelliJ
+                * Eclipsă"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Construiți instrumentul de automatizare",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction pentru {{ProductName}} Caracteristici",
+    "feature1": "Căutarea și redacția potrivirilor exacte ale unui șir de căutare",
+    "feature2": "Controlați procesul de redactare și săriți peste anumite potriviri",
+    "feature3": "Localizați și redactează folosind expresii regulate",
+    "feature4": "Suport încorporat pentru formatele de birou și PDF",
+    "feature5": "Ștergeți metadatele sau redactati valorile metadatelor",
+    "feature6": "Limitați redacțiile la foi de lucru și coloane specifice",
+    "feature7": "Eliminați adnotările sau redactați textele acestora",
+    "feature8": "Utilizați redacții textuale (coduri de scutire) sau grafice (dreptunghiuri colorate)",
+    "feature9": "Salvați documentul în formatul original sau ca PDF cu imagini raster ale paginilor originale",
+    "feature10": "Suport pentru formatele de imagine raster și redacțiile regiunii imaginii",
+    "feature11": "Interfață de integrare pentru implementarea redactării și formatelor personalizate",
+    "feature12": "Editați sau eliminați metadatele EXIF din fișierele imagine",
+    "feature13": "Redactează imagini încorporate în PDF, Word & Documente de prezentare"
+  },
+  "more_features": {
+    "title": "Asigurați confidențialitatea prin redactarea datelor dvs. clasificate",
+    "content": "{{ProductFullName}} biblioteca împuternicește dezvoltatorii să redacteze text și imagini din documentele acceptate prin utilizarea unei varietăți de tipuri de redactare. Utilizarea API-ului nostru Redaction este simplă și directă.",
+    "example": {
+      "description": "Următorul exemplu de cod utilizează un document tabelar, cum ar fi foaia de calcul Microsoft Excel, unde domeniul de redactare poate fi limitat la o anumită foaie de lucru și/sau coloană. Utilizează filtre pentru a redacta a doua coloană cu e-mailuri pe o foaie de lucru „Clienți”, lăsând toate celelalte e-mailuri neatinse în document.",
+      "comment_init": "Creați o instanță a clasei Redactor",
+      "comment_apply": "Aplicați redactarea"
+    }
+  },
+  "solutions": "GroupDocs.Redaction oferă API-uri de vizualizare a documentelor pentru alte medii de dezvoltare populare"
+}

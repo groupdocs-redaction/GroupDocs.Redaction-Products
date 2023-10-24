@@ -1,0 +1,67 @@
+{
+  "layout": "自动生成要点",
+  "head": {
+    "title": "{{ProgLang}} 中文档的元数据编辑",
+    "description": "通过对不同格式的文档应用过滤器来编辑 {{ProgLang}} 中的敏感元数据"
+  },
+  "header": {
+    "title": "编辑 {{ProgLang}} 中 {{EXT}} 文档中的标题元数据",
+    "description": "GroupDocs.Redaction 的 API 允许搜索然后更新或删除文档元数据中的任何机密数据。"
+  },
+  "about": {
+    "title": "什么是元数据编辑？",
+    "h1": "大多数情况下，人们关心的是文档的文本编辑。但是元数据编辑同样重要。元数据是文档的隐藏数据，其中可能包含您可能不想与他人共享的机密信息。元数据编辑是指从电子文档中删除不需要或机密的信息。文档的元数据包括作者姓名、类别、公司名称、评论、创建时间、上次更新时间等等。有时您需要完全删除不需要的元数据字段，或者可能需要更新它们的值。使用 GroupDocs.Redaction API，您可以对这些元数据属性中的任何一个应用元数据编辑。您可以通过筛选所需的元数据来更改或删除它们。在本指南中，我们将解释如何编辑 {{ProgLang}} 中 {{EXT}} 文档中的标题元数据。"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "编辑 {{EXT}} 文档中的标题",
+      "content_left": {
+        "step_1": "以下代码允许您搜索和编辑 {{EXT}} 文档中的敏感数据。你可以通过设置过滤器来设置密文范围，例如设置为 metadataFilter.Title。它将撤消所有元数据项中的正则表达式匹配项，但 “Title” 属性除外："
+      },
+      "title_right": "如何编辑 {{EXT}} 元数据",
+      "content_right": {
+        "step_1": "创建 [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) 类的实例并上传 {{EXT}} 文件",
+        "step_2": "创建 [MetadataSearchredAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) 类的实例，从文档的元数据中查找和替换敏感数据",
+        "step_3": "通过设置过滤器来设置密文范围，例如在下面的代码中使用 metadataFilter.Title",
+        "step_4": "使用 [metadataSearchredAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) 的对象调用 [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) 方法"
+      },
+      "gist": {
+        "hash": "78fca6b6facd4e3ea79038d7abcb092f",
+        "file": "RedactTitleMetadata.cs"
+      }
+    },
+    "example2": {
+      "title_left": "移除 {{ProgLang}} 中的 {{EXT}} 元数据",
+      "content_left": {
+        "step_1": "您可以使用 eraseMetadataredAction 类将文档中的所有元数据或特定元数据替换为空（空白或最小）值。以下代码显示了如何筛选然后从 {{EXT}} 文档中删除元数据属性。以下示例将该文档的所有属性都清空："
+      },
+      "title_right": "擦除 {{EXT}} 元数据",
+      "content_right": {
+        "step_1": "创建 [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) 类的实例并上传 {{EXT}} 文件",
+        "step_2": "创建 [eraseMetadataredAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/erasemetadataredaction) 实例以删除文档的元数据",
+        "step_3": "通过设置过滤器来设置密文范围，例如在下面的代码中用 metadataFilter.title 替换 metadataFilter.all",
+        "step_4": "使用 [metadataSearchredAction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/metadatasearchredaction) 的对象调用 [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) 方法"
+      },
+      "gist": {
+        "hash": "cef91d8d8f160aaf560218d1abd520e2",
+        "file": "CleanMetadata.cs"
+      }
+    },
+    "requirements": {
+      "title_left": "系统要求",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET 支持安装了 .NET 平台的任何 32 位或 64 位操作系统。它不需要安装任何外部软件或第三方工具。有关完整的系统要求指南，请访问 [系统要求](https://docs.groupdocs.com/redaction/net/system-requirements)",
+        "step_1": "操作系统：微软 Windows、Linux、Mac 操作系统",
+        "step_2": "开发环境：NetBeans、Intellij IDE、Eclipse 等",
+        "step_3": "Java 运行时环境：J2SE 6.0 及更高版本",
+        "step_4": "从 [Maven] 获取最新版本的 GroupDocs.Redaction for Java (https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "安装说明",
+      "content_right": {
+        "step_1": "以 ``nuget install GroupDocs.Redaction ``的形式从命令行安装，或者使用 ``Install-Package GroupDocs.Redaction ``通过 Visual Studio 的包管理器控制台安装。 ",
+        "step_2": "或者，从 [downloads](https://downloads.groupdocs.com/redaction/net) 获取 ZIP 文件中的离线 MSI 安装程序或 DLL，然后在项目中手动引用。"
+      }
+    }
+  },
+  "about_formats": "真的"
+}

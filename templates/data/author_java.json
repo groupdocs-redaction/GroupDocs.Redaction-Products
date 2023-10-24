@@ -1,0 +1,81 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Remove OR Update Author Name from {{EXT}} Metadata in {{ProgLang}}",
+    "description": "GroupDocs.Redactions provides a flexible API that allows to search & replace/remove any metadata property using filters.",
+    "ad_headline": "Redact Metadata | Java",
+    "ad_description": "Redact {{PropertyName}} from {{EXT}} Metadata in Java"
+  },
+  "header": {
+    "title": "Remove OR Update Author Name From {{EXT}} Metadata In {{ProgLang}}",
+    "description": "GroupDocs.Redactions provides a flexible API that allows to search & replace/remove any metadata property using filters."
+  },
+  "about": {
+    "title": "What is Metadata Redaction?",
+    "h1": "Redaction refers to the removal of unwanted or confidential information from electronic documents. All the file formats including PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others have some metadata properties. These properties include author name, category, company name, comments, creation time, last updated and many more. Sometimes you need to completely delete unwanted metadata fields or you might want to update their values. There are also some hidden data associated with the files which can be viewed using various tools and techniques. There are many cases when you don't want this data to be accessed by anyone. With GroupDocs.Redaction API you can apply metadata redactions to any of these metadata properties. You can change or delete them by filtering the metadata you want. In this guide we will explain how you can redact author name from {{EXT}} metadata in {{ProgLang}}.",
+  },
+  "blocks": {
+    "example1" : {
+      "title_left": "Redact {{EXT}} Metadata in {{ProgLang}}",
+      "content_left": {
+        "description": "",
+        "step_1": "Following code allows you to search and redact sensitive data from a {{EXT}} document. You can set scope for redaction by setting filter, e.g. to MetadataFilter.Author. It will leave the regular expressions matches undone in all metadata items, except \"Author\" property:",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "How to Redact {{EXT}} Metadata",
+      "content_right": {
+        "description": "",
+        "step_1": "Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload {{EXT}} file",
+        "step_2": "Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to find and replace sensitive data from document's metadata",
+        "step_3": "Set scope for redaction by setting filter, e.g. Use MetadataFilters.Author in below code",
+        "step_4": "Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "e3926608f913f15d261b194084c179dd",
+        "file": "RedactAuthorMetadata.java"
+      }
+    },
+    "example2" : {
+      "title_left": "Remove Author Metadata in {{ProgLang}}",
+      "content_left": {
+        "description": "",
+        "step_1": "You can replace all or specific metadata in the document with empty (blank or minimal) values using EraseMetadataRedaction class. Following code shows how you can filter and then remove a metadata property from a {{EXT}} document.The example below blanks out all properties of the document:",
+        "step_2": "",
+        "step_3": ""
+      },
+      "title_right": "Erase {{EXT}} Metadata",
+      "content_right": {
+        "description": "",
+        "step_1": "Create an instance of [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class & upload {{EXT}} file",
+        "step_2": "Create an instance of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) class to remove metadata of the document",
+        "step_3": "Set scope for redaction by setting filter, e.g. Replace MetadataFilter.All with MetadataFilter.Author in below code",
+        "step_4": "Call redactor.save method with object of [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements" : {
+      "title_left": "System Requirements",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java APIs are supported on all major platforms and operating systems. For complete system requirements guide, please visit [system requirements](https://docs.groupdocs.com/redaction/java/system-requirements) Before executing the code below, please make sure that you have the following prerequisites installled on your system:",
+        "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+        "step_2": "Development Environment: NetBeans, Intellij IDEA, Eclipse etc",
+        "step_3": "Java Runtime Environment: J2SE 6.0 and above",
+        "step_4": "Get the latest version of GroupDocs.Redaction for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Why Use GroupDocs.Redaction",
+      "content_right": {
+        "description": "",
+        "step_1": "Allow users to add custom document formats and types of redactions",
+        "step_2": "No additional software is required to remove sensitive information",
+        "step_3": "Ability to set page range rendering document as PDF",
+        "step_4": "Easy way to redact different types of metadata: author name, version, title, subject, description and many more",
+        "step_5": "Document information extraction - file type, page count etc."
+      }
+    }
+  },
+  "about_formats": "true"
+}

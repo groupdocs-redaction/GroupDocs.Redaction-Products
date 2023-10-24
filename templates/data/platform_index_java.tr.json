@@ -1,0 +1,104 @@
+{
+  "layout": "ürün",
+  "head": {
+    "title": "Java Redaksiyon API'si | PDF Word Excel Görüntüden hassas verileri gizle",
+    "description": "Java belge redaksiyon API'si — Çeşitli redaksiyon türleri aracılığıyla PDF, Word, Excel, PowerPoint sunumlar ve raster görüntülerden kişisel verileri gizleyin."
+  },
+  "header": {
+    "title": "Java API aracılığıyla Özel Bilgileri Redakt",
+    "description": "Java redaksiyon API'sini kullanarak kişisel bilgileri ve meta verileri belgelerden, çalışma sayfalarından, sunulardan, PDF ve raster görüntü dosyalarından hariç tutun veya gizleyin."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Genel Bakış",
+      "button_text_2": "Özellikler",
+      "button_text_3": "Destek",
+      "button_text_4": "Canlı Demo",
+      "button_text_5": "Fiyatlandırma"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API, geliştiricilerin Microsoft Word, Excel, PowerPoint, PDF ve resimler gibi popüler dosya biçimlerinden hassas verileri kaldırmasına olanak tanır, böylece kullanılabilir ve dağıtılabilir, ancak yine de gizli bilgileri korur. Redaksiyon kitaplığı, sosyal güvenlik numaraları, tıbbi bilgiler, parasal, tescilli, yasal ve hatta ticari ayrıntılar dahil olmak üzere her türlü sınıflandırılmış bilgiyi metin, meta veriler ve ek açıklama redaksiyon türleri aracılığıyla yeniden düzene etmek için formattan bağımsız tek bir arayüz sunar. Belgeyi orijinal biçiminde kaydetmenize ve orijinal sayfaların raster görüntüleriyle sterilize edilmiş bir PDF belge oluşturmanıza olanak tanır.",
+    "one": {
+      "description": "{{ProductName}} için GroupDocs.Redaction 'ye genel bir bakış aşağıdadır:",
+      "content": {
+        "title": "Genel Bakış",
+        "step_1": "Redact Metni",
+        "step_2": "Meta Verileri Redakt",
+        "step_3": "Redact Ek Açıklama",
+        "step_4": "Redact Tablo Belgesi",
+        "step_5": "Korumalı Dosyaları Redakt",
+        "step_6": "Özelleştirme"
+      }
+    },
+    "two": {
+      "description": "{{ProductName}} için GroupDocs.Redaction aşağıdaki [belge dosyası formatlarını] destekler (https://docs.groupdocs.com/redaction//supported-document-formats/{{ProductCode}}):",
+      "content": {
+        "title": "Metni Redakt Et, Meta Veriler ve Yorumlar",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Sabit Düzen**: PDF",
+        "step_5": "**Raster Görüntüler**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} aşağıdaki İşletim Sistemlerini, Çerçeveler ve Paket Yöneticilerini destekler:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "İşletim Sistemleri",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * Mac OS"
+          },
+          "row2": {
+            "title": "Desteklenen Çerçeveler",
+            "data": "* Java 7 (1.7) ve üzeri"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-cogs",
+            "title": "Geliştirme Ortamları",
+            "data": "* NetBeans
+                * IntelliJ FİKİR
+                * Tutulma"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Otomasyon Aracı Oluşturun",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} Özellikler",
+    "feature1": "Bir arama dizesinin tam eşleşmelerini arayın ve yeniden akte edin",
+    "feature2": "Redaksiyon işlemini kontrol edin ve belirli eşleşmeleri atlayın",
+    "feature3": "Düzenli ifadeleri kullanarak bulun ve düzenle",
+    "feature4": "Ofis formatları ve PDF için yerleşik destek",
+    "feature5": "Meta verileri silin veya meta veri değerlerini yeniden düzenleyin",
+    "feature6": "Redaksiyonları belirli çalışma sayfaları ve sütunlarla sınırlayın",
+    "feature7": "Ek açıklamaları kaldırın veya metinlerini yeniden akte edin",
+    "feature8": "Metinsel (muafiyet kodları) veya grafik (renkli dikdörtgenler) redaksiyonları kullanın",
+    "feature9": "Belgeyi orijinal biçiminde veya orijinal sayfaların raster görüntüleriyle PDF olarak kaydedin",
+    "feature10": "Raster görüntü formatları ve görüntü bölgesi redaksiyonları için destek",
+    "feature11": "Özel redaksiyon ve formatları uygulamak için entegrasyon arayüzü",
+    "feature12": "EXIF Meta Verileri Görüntü Dosyalarından Düzenleme veya Kaldırma",
+    "feature13": "PDF, Word ve Sunum Belgelerinin içindeki Gömülü Görüntüleri Redakt Etme"
+  },
+  "more_features": {
+    "title": "Sınıflandırılmış Verilerinizi Reddakte ederek Gizliliği Sağlayın",
+    "content": "{{ProductFullName}} kütüphane, geliştiricilerin çeşitli redaksiyon türleri kullanarak desteklenen belgelerdeki metin ve görüntüleri yeniden düzenlemelerini sağlar. Redaction API'mizi kullanmak basit ve anlaşılır.",
+    "example": {
+      "description": "Aşağıdaki kod örneği, Redaksiyon kapsamının belirli bir çalışma sayfası ve/veya sütunla sınırlandırılabileceği Microsoft Excel elektronik tablosu gibi tablo şeklinde bir belge kullanır. İkinci sütunu “Müşteriler” çalışma sayfasındaki e-postalarla redakte etmek için filtreler kullanır ve diğer tüm e-postaları belgede el değmeden bırakır.",
+      "comment_init": "Redactor sınıfının bir örneğini oluşturma",
+      "comment_apply": "Redaksiyon uygula"
+    }
+  },
+  "solutions": "GroupDocs.Redaction diğer popüler geliştirme ortamları için belge görüntüleme API'leri sunar"
+}

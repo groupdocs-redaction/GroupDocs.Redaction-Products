@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Masquer les informations sensibles des documents via .NET Core",
+    "description": "Appliquer la rédaction de texte à l'aide d'une expression exacte ou d'une expression régulière pour des documents de différents formats"
+  },
+  "header": {
+    "title": "Masquer les fichiers {{EXT}} via {{ProgLang}} dans les applications .NET Core.",
+    "description": "Rechercher et remplacer du texte dans des documents, feuilles de calcul et présentations Office et OpenOffice, ainsi que {{EXT}} sous Windows, Linux et macOS"
+  },
+  "about": {
+    "title": "Rédaction de documents pour l'API .NET",
+    "h1": "Une interface unique indépendante du format pour la rédaction des informations sensibles et classifiées des documents et images PDF, Word, Excel, PowerPoint, y compris la possibilité de modifier les métadonnées et de supprimer les commentaires. Avec l'outil GroupDocs.Redaction, vous pouvez rédiger du texte et enregistrer le document rédigé au format PDF, en transformant toutes les pages en images raster ou en conservant le document dans son format d'origine pour une édition ultérieure.",
+  },
+  "blocks": {
+    "example" : {
+      "title_left": "Masquer le texte exact de {{EXT}} via {{ProgLang}}",
+      "content_left": {
+        "description": "[GroupDocs.Redaction](/redaction/net/) permet aux développeurs .NET d'ajouter facilement la fonctionnalité de masquage de fichiers {{EXT}} en quelques étapes simples.",
+        "step_1": "Créez une instance de la classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) et chargez le fichier {{EXT}}",
+        "step_2": "Créez une instance de la classe [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) pour rechercher et remplacer le texte",
+        "step_3": "Appelez la méthode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) avec l'objet ExactPhraseRedaction"
+      },
+      "title_right": "Premiers pas avec l'API de rédaction",
+      "content_right": {
+        "description": "",
+        "step_1": "Installez à partir de la ligne de commande en tant que ```nuget install GroupDocs.Redaction``` ou via la console du gestionnaire de packages de Visual Studio avec ```Install-Package GroupDocs.Redaction```.",
+        "step_2": "Vous pouvez également obtenir le programme d'installation MSI hors ligne ou les DLL dans un fichier ZIP à partir de [downloads](https://downloads.groupdocs.com/redaction/net) et le référencer manuellement dans votre projet.",
+        "step_3": "",
+        "step_4": ""
+      }
+    },
+    "requirements" : {
+      "title_left": "Configuration requise",
+      "content_left": {
+        "description": "Les API GroupDocs.Redaction pour .NET sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Pour un guide complet de la configuration système requise, veuillez visiter [système requis](https://docs.groupdocs.com/redaction/net/system-requirements/) Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système:",
+        "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+        "step_2": "Environnement de développement : Visual Studio, Xamarin, MonoDevelop etc.",
+        "step_3": "Frameworks : .NET Framework, .NET Standard, .NET Core, Mono",
+        "step_4": "Obtenez la dernière version des API GroupDocs.Redaction .NET à partir de [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/)"
+      },
+      "title_right": "Pourquoi utiliser GroupDocs.Redaction",
+      "content_right": {
+        "description": "",
+        "step_1": "Autoriser les utilisateurs à ajouter des formats de document personnalisés et des types de caviardage",
+        "step_2": "Aucun logiciel supplémentaire n'est requis pour supprimer les informations sensibles",
+        "step_3": "Possibilité de définir un document de rendu de plage de pages au format PDF",
+        "step_4": "Un moyen simple de rédiger différents types de métadonnées : nom de l'auteur, version, titre, sujet, description et bien d'autres",
+        "step_5": "Extraction d'informations sur les documents - type de fichier, nombre de pages, etc.",
+        "step_6": "Prise en charge complète de plusieurs formats de données"
+      }
+    }
+  },
+  "about_formats": "false"
+}

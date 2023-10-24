@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Bewerk {{EXT}} annotaties via reguliere expressie in Java",
+    "description": "Met de Java API van GroupDocs.Redaction kunnen ontwikkelaars annotaties uit PDF DOC DOCX RTF XLSX CSV PPT PPTX en afbeeldingen redigeren met behulp van reguliere expressies in Java"
+  },
+  "header": {
+    "title": "Annotaties verwijderen uit {{EXT}}-bestanden met reguliere expressies en Java",
+    "description": "Met de Java-API van GroupDocs.Redaction kunnen gevoelige opmerkingen uit tekstverwerkingsdocumenten, werkbladen, presentaties, PDFs en afbeeldingen worden geredigeerd, verborgen of verwijderd met behulp van reguliere expressies."
+  },
+  "about": {
+    "title": "Wat is het opschonen van reacties?",
+    "h1": "Tekstredactie of opschoning is het proces waarbij de vertrouwelijke of ongewenste annotaties uit digitale documenten worden verwijderd terwijl de rest van het document of de alinea die het bevat intact blijft. Redactie helpt zowel gebruikers als organisaties om hun gevoelige informatie te beschermen door ze te verbergen of permanent te verwijderen. Met GroupDocs.Redaction Java API kunnen gebruikers nu gevoelige tekst redigeren, verbergen of verwijderen uit tekstverwerkingsdocumenten, werkbladen, presentaties, PDF en rasterafbeeldingsbestanden. De API biedt een breed scala aan opties en methoden voor het redigeren van privé-informatie in de documenten. Het ondersteunt zoeken en redigeren met behulp van reguliere expressies, het gebruik van tekstuele (vrijstellingscodes) of grafische (gekleurde rechthoeken) redacties en nog veel meer. Dus waarom zou u het niet eens proberen en uw documentredactieproces automatiseren door de API te downloaden en de basis- en geavanceerde functies ervan te verkennen.",
+    "h2": "{{ProductFullName}} API is een juiste keuze voor zakelijke oplossingen die functies voor het combineren van bestanden nodig hebben. Deze API's worden goed ondersteund op alle belangrijke besturingssystemen en platforms, waaronder {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Bewerk {{EXT}} annotaties met reguliere expressies in Java",
+      "content_left": {
+        "step_1": "Met GroupDocs.Redaction kunt u eenvoudig gegevens van gevoelige of privé-aard uit uw documenten verwijderen. De meest populaire redactioneel geval is het verwijderen van een annotatie uit een document.",
+        "step_2": "De volgende code kan worden gebruikt om annotatieredactie toe te passen op een document met behulp van reguliere expressies. Hiermee kunnen gebruikers alle opmerkingen vervangen, verwijzend naar \"john\" door een \"[redacted]\" als vrijstellingscode,"
+      },
+      "title_right": "Verwijder gevoelige gegevens uit {{EXT}}-opmerkingen",
+      "content_right": {
+        "step_1": "Maak een instantie van de klasse [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) en upload {{EXT}}-bestand",
+        "step_2": "Maak een instantie van de klasse [AnnotationRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/AnnotationRedaction)",
+        "step_3": "Roep de methode redactor.apply aan met het object van de klasse AnnotationRedaction",
+        "step_4": "Roep de methode redactor.save aan om de wijzigingen op te slaan"
+      },
+      "gist": {
+        "hash": "75d727ec8cec6c416b307caeee59f44b",
+        "file": "AnnotatieRedaction.java"
+      }
+    },
+    "requirements": {
+      "title_left": "systeem vereisten",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Ga voor de volledige gids met systeemvereisten naar [systeemvereisten](https://docs.groupdocs.com/redaction/java/system-requirements) Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd :",
+        "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+        "step_2": "Ontwikkelomgeving: NetBeans, Intellij IDEA, Eclipse etc",
+        "step_3": "Java Runtime-omgeving: J2SE 6.0 en hoger",
+        "step_4": "Download de nieuwste versie van GroupDocs.Redaction for Java van [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Hoe gebruikt u GroupDocs.Redaction?",
+      "content_right": {
+        "step_1": "Sta gebruikers toe om aangepaste documentindelingen en soorten redacties toe te voegen",
+        "step_2": "Er is geen extra software nodig om gevoelige informatie te verwijderen",
+        "step_3": "Mogelijkheid om het weergavedocument voor het paginabereik in te stellen als PDF",
+        "step_4": "Gemakkelijke manier om verschillende soorten metadata te redigeren: auteursnaam, versie, titel, onderwerp, beschrijving en nog veel meer",
+        "step_5": "Extractie van documentinformatie - bestandstype, aantal pagina's enz."
+      }
+    }
+  },
+  "about_formats": "true"
+}

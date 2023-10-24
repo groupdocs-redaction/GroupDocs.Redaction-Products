@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "{{EXT}}-Text über regulären Ausdruck in Java schwärzen",
+    "description": "Mit der API Java von GroupDocs.Redaction können Entwickler Text aus PDF DOC DOCX RTF XLSX CSV PPT PPTX und Bildern mithilfe regulärer Ausdrücke in Java redigieren."
+  },
+  "header": {
+    "title": "So entfernen Sie Text aus {{EXT}}-Dateien mit regulären Ausdrücken und Java",
+    "description": "Mit der Java-API von GroupDocs.Redaction können Sie sensiblen Text aus Textverarbeitungsdokumenten, Arbeitsblättern, Präsentationen, PDFs und Bildern mithilfe regulärer Ausdrücke schwärzen, ausblenden oder entfernen."
+  },
+  "about": {
+    "title": "Was ist Textbereinigung?",
+    "h1": "Textschwärzung oder -bereinigung ist der Prozess, bei dem vertrauliche oder unerwünschte Texte oder Informationen aus digitalen Dokumenten entfernt werden, während der Rest des Dokuments oder Absatzes, der sie enthält, intakt bleibt. Redaction hilft Benutzern und Organisationen, ihre sensiblen Informationen zu schützen, indem sie diese verbergen oder dauerhaft entfernen. Mithilfe der GroupDocs.Redaction Java API können Benutzer jetzt vertraulichen Text aus Textverarbeitungsdokumenten, Arbeitsblättern, Präsentationen, PDF und Rasterbilddateien schwärzen, ausblenden oder entfernen. Die API bietet eine Vielzahl von Optionen und Methoden zur Schwärzung privater Informationen in den Dokumenten. Es unterstützt die Suche und Schwärzung mithilfe regulärer Ausdrücke, die Verwendung textueller (Ausnahmecodes) oder grafischer Schwärzungen (farbige Rechtecke) und vieles mehr. Probieren Sie es also einfach aus und automatisieren Sie Ihren Dokument-Schwärzungsprozess, indem Sie die API herunterladen und ihre grundlegenden und erweiterten Funktionen erkunden.",
+    "h2": "Die {{ProductFullName}} API ist die richtige Wahl für Unternehmenslösungen, die Funktionen zum Zusammenführen von Dateien benötigen. Diese APIs werden auf allen wichtigen Betriebssystemen und Plattformen gut unterstützt, einschließlich {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Schwärzen Sie {{EXT}} mithilfe regulärer Ausdrücke in Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction ermöglicht das einfache Entfernen vertraulicher oder privater Daten aus Ihren Dokumenten. Der häufigste Schwärzungsfall ist das Entfernen eines Textes aus einem Dokument.",
+        "step_2": "Der folgende Code kann verwendet werden, um mithilfe eines regulären Ausdrucks eine Textredaktion auf einen bestimmten Teil eines Dokuments anzuwenden. Es ermöglicht Benutzern, alle Zahlen zu ersetzen und dabei das Muster „AA BB CCCCCC“ durch ein blaues Farbrechteck abzugleichen."
+      },
+      "title_right": "Sensible Daten aus {{EXT}} entfernen",
+      "content_right": {
+        "step_1": "Erstellen Sie eine Instanz der Klasse [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) und laden Sie die Datei {{EXT}} hoch",
+        "step_2": "Erstellen Sie eine Instanz der Klasse [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction).",
+        "step_3": "Rufen Sie die Methode redactor.apply mit dem Objekt der Klasse RegexRedaction auf",
+        "step_4": "Rufen Sie die Methode redactor.save auf, um die Änderungen zu speichern"
+      },
+      "gist": {
+        "hash": "6dea616a14aeeff21698dc03be62a341",
+        "file": "RegularExpressionRedaction.java"
+      }
+    },
+    "requirements": {
+      "title_left": "System Anforderungen",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Den vollständigen Leitfaden zu den Systemanforderungen finden Sie unter [Systemanforderungen](https://docs.groupdocs.com/redaction/java/system-requirements). Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind :",
+        "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+        "step_2": "Entwicklungsumgebung: NetBeans, Intellij IDEA, Eclipse usw",
+        "step_3": "Java Laufzeitumgebung: J2SE 6.0 und höher",
+        "step_4": "Holen Sie sich die neueste Version von GroupDocs.Redaction for Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Warum GroupDocs.Redaction verwenden?",
+      "content_right": {
+        "step_1": "Ermöglichen Sie Benutzern das Hinzufügen benutzerdefinierter Dokumentformate und Schwärzungsarten",
+        "step_2": "Zum Entfernen sensibler Informationen ist keine zusätzliche Software erforderlich",
+        "step_3": "Möglichkeit, das Seitenbereich-Rendering-Dokument als PDF festzulegen",
+        "step_4": "Einfache Möglichkeit, verschiedene Arten von Metadaten zu redigieren: Autorenname, Version, Titel, Betreff, Beschreibung und vieles mehr",
+        "step_5": "Extraktion von Dokumentinformationen – Dateityp, Seitenanzahl usw."
+      }
+    }
+  },
+  "about_formats": "true"
+}

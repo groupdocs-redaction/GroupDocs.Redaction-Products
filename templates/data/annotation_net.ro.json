@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Redactați adnotările în {{EXT}} documente folosind expresii regulate prin .NET Core",
+    "description": "Redactați informațiile sensibile în adnotări folosind expresii regulate din documente de diferite formate"
+  },
+  "header": {
+    "title": "Redactați {{EXT}} Fișiere Adnotări prin {{ProgLang}} și expresii regulate în .NET Aplicațiile de bază",
+    "description": "Găsiți și eliminați informații sensibile din documente Office și OpenOffice, foi de calcul și prezentări, precum și {{EXT}} pe Windows, Linux și macOS"
+  },
+  "about": {
+    "title": "Redactarea adnotărilor documentului pentru API-ul .NET",
+    "h1": "O interfață unică, independentă de format, pentru igienizarea informațiilor sensibile și clasificate din documentele și imaginile PDF, Word, Excel, PowerPoint, inclusiv capacitatea de a modifica metadatele și de a elimina adnotările. Cu instrumentul {{ProductFullName}}, puteți elimina informațiile clasificate și puteți salva documentul redactat în PDF, transformând toate paginile în imagini raster sau păstrați documentul în formatul original pentru editare ulterioară."
+  },
+  "steps": {
+    "title_left": "Redactați adnotările din {{EXT}} folosind expresii regulate prin {{ProgLang}}",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) permite dezvoltatorilor {{ProductName}} să folosească expresiile obișnuite deplină pentru a redacta fișierul {{EXT}} cu câțiva pași simpli.",
+      "step_1": "Creați o instanță a clasei [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) și încărcați fișierul {{EXT}}",
+      "step_2": "Creați o instanță a clasei [AnnotationRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/annotationredaction) pentru a găsi și înlocui comentariile",
+      "step_3": "Apelați metoda [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) cu obiectul AnnotationRedaction"
+    },
+    "title_right": "Cum se utilizează GroupDocs Redaction API",
+    "content_right": {
+      "description": "{{ProductFullName}} API-urile sunt acceptate pe toate platformele și sistemele de operare majore. Înainte de a executa codul de mai jos, vă rugăm să vă asigurați că aveți următoarele cerințe preliminare instalate pe sistemul dumneavoastră.",
+      "step_1": "Instalați pachetul din linia de comandă ca ```nuget install GroupDocs.Redaction``` sau prin Consola Manager de pachete din Visual Studio cu ```Install-Package GroupDocs.Redaction```.",
+      "step_2": "Ca alternativă, obțineți programul de instalare MSI offline sau DLL-urile într-un fișier ZIP de la [descărcări](https://downloads.groupdocs.com/redaction/net) și faceți referire la el în proiectul dvs. manual."
+    }
+  },
+  "about_formats": "true"
+}

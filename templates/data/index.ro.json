@@ -1,0 +1,51 @@
+{
+  "layout": "produs",
+  "head": {
+    "title": "Soluție de redactare a documentelor | API-uri on-premise și aplicație gratuită",
+    "description": "Eliminați, redactați sau ascundeți metadatele și conținutul textului din MS Office Word documente, Excel foi de calcul, PowerPoint prezentări, PDF și formate de fișiere imagine."
+  },
+  "header": {
+    "title": "Soluție de redactare pentru securizarea informațiilor clasificate",
+    "description": "Ascundeți sau eliminați informații private din Microsoft Office documente, foi de calcul, prezentări, PDF și imagini."
+  },
+  "apis": {
+    "code": {
+      "title": "GroupDocs.Redaction High Code API-urile includ",
+      "label": "Vezi toate API-urile High Code",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction pentru",
+        "content": "Pe API-ul Premise .NET pentru a ascunde sau elimina conținutul și metadatele din documentele personale."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction pentru",
+        "content": "Pe API-urile Premise Java pentru a elimina sau ascunde textul din conținut și metadatele formatelor de fișiere acceptate."
+      }
+    },
+    "apps": {
+      "title": "GroupDocs.Redaction No Code Aplicațiile includ",
+      "label": "Vezi toate aplicaţiile No Code",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/asposeredaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Aplicație unică pentru redactare a informațiilor sensibile din Word, Excel, PowerPoint, PDF și multe alte tipuri de documente."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocswords-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Redactează informații din Word documente folosind orice browser web."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocspdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Expuneţi gratuit conţinutul din documentele dvs. PDF online."
+      }
+    }
+  }
+}

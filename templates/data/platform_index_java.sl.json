@@ -1,0 +1,104 @@
+{
+  "layout": "produkt",
+  "head": {
+    "title": "Java API za redakcijo | Skrij občutljive podatke iz slike PDF Word Excel",
+    "description": "Java API za redakcijo dokumentov — Skrij osebne podatke iz PDF, Word, Excel, PowerPoint predstavitev in rastrskih slik prek različnih vrst redigiranja."
+  },
+  "header": {
+    "title": "Redaktiranje zasebnih podatkov prek API-ja Java",
+    "description": "Izključite ali skrijete osebne podatke in metapodatke iz dokumentov, delovnih listov, predstavitev, PDF in datotek rastrskih slik z uporabo Java redakcijskega API-ja."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Pregled",
+      "button_text_2": "Lastnosti",
+      "button_text_3": "Podpora",
+      "button_text_4": "Demo v živo",
+      "button_text_5": "Cenitev"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API razvijalcem omogoča, da odstranijo občutljive podatke iz priljubljenih formatov datotek, kot so Microsoft Word, Excel, PowerPoint, PDF in slike, tako da jih je mogoče uporabljati in distribuirati, vendar še vedno varujejo zaupne podatke. Knjižnica redakcij ponuja enoten vmesnik, neodvisen od oblike, za redakcijo vseh vrst tajnih podatkov, vključno s številkami socialnega zavarovanja, medicinskimi informacijami, finančnimi, lastniškimi, pravnimi ali celo trgovinskimi podrobnostmi prek besedila, metapodatkov in vrst redakcij opomb. Omogoča vam shranjevanje dokumenta v izvirni obliki in ustvarjanje saniranega dokumenta PDF z rastrskimi slikami izvirnih strani.",
+    "one": {
+      "description": "Sledi pregled GroupDocs.Redaction za {{ProductName}}:",
+      "content": {
+        "title": "Pregled",
+        "step_1": "Redegirano besedilo",
+        "step_2": "Redegirajoči metapodatki",
+        "step_3": "Redigiranje pripombe",
+        "step_4": "Redegirajte tabelarni dokument",
+        "step_5": "Redegirajte zaščitene datoteke",
+        "step_6": "Prilagajanje"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction za {{ProductName}} podpira naslednje [oblike datotek dokumenta](https://docs.groupdocs.com/redaction//supported-document-formats/) :{{ProductCode}}",
+      "content": {
+        "title": "Redaktirajte besedilo, metapodatke in komentarje",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Fiksna postavitev**: PDF",
+        "step_5": "**Rastrske slike**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction za {{ProductName}} podpira naslednje operacijske sisteme, okvire in upravljalce paketov:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Operacijski sistemi",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * Mac OS"
+          },
+          "row2": {
+            "title": "Podprti okviri",
+            "data": "* Java 7 (1,7) in več"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-zobniki",
+            "title": "Razvojna okolja",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Mrk"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Orodje za avtomatizacijo izdelave",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction za {{ProductName}} Lastnosti",
+    "feature1": "Iskanje in urejanje natančnih ujemanja iskalnega niza",
+    "feature2": "Nadzirajte postopek redigiranja in preskočite določena ujemanja",
+    "feature3": "Poiščite in redigirajte z regularnimi izrazi",
+    "feature4": "Vgrajena podpora za pisarniške formate in PDF",
+    "feature5": "Izbrišite metapodatke ali uredite vrednosti metapodatkov",
+    "feature6": "Omejite redakcije na določene delovne liste in stolpce",
+    "feature7": "Odstranite pripombe ali uredite njihova besedila",
+    "feature8": "Uporabite besedilne (kode izjeme) ali grafične (barvne pravokotnike) redakcije",
+    "feature9": "Shranite dokument v izvirni obliki ali kot PDF z rastrskimi slikami izvirnih strani",
+    "feature10": "Podpora za formate rastrskih slik in redakcije slikovnih regij",
+    "feature11": "Integracijski vmesnik za izvajanje redakcij in formatov po meri",
+    "feature12": "Urejanje ali odstranjevanje metapodatkov EXIF iz slikovnih datotek",
+    "feature13": "Redigiranje vdelanih slik znotraj PDF, Word in predstavitvenih dokumentov"
+  },
+  "more_features": {
+    "title": "Zagotovite zasebnost tako, da uredite svoje zaupne podatke",
+    "content": "{{ProductFullName}} knjižnica omogoča razvijalcem, da redigirajo besedilo in slike iz podprtih dokumentov z uporabo različnih vrst redigiranja. Uporaba našega API-ja za redakcijo je preprosta in naravnost naprej.",
+    "example": {
+      "description": "Naslednji primer kode uporablja tabelarni dokument, kot je preglednica Microsoft Excel, kjer je obseg redigiranja lahko omejen na določen delovni list in/ali stolpec. Uporablja filtre za redakcijo drugega stolpca z e-poštnimi sporočili na delovnem listu« Stranke », pri čemer vsa druga e-poštna sporočila ostanejo nedotaknjena v dokumentu.",
+      "comment_init": "Ustvarite primerek razreda Redactor",
+      "comment_apply": "Uporabi redakcijo"
+    }
+  },
+  "solutions": "GroupDocs.Redaction ponuja API-je za ogled dokumentov za druga priljubljena razvojna okolja"
+}

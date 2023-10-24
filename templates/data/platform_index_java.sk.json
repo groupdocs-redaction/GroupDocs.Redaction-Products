@@ -1,0 +1,104 @@
+{
+  "layout": "výrobok",
+  "head": {
+    "title": "Java Redaction API | Skryť citlivé údaje z PDF Word Excel Obrázok",
+    "description": "Java API na redakciu dokumentov — Skryť osobné údaje z PDF, Word, Excel, PowerPoint prezentácií a rastrových obrázkov prostredníctvom rôznych typov redigovania."
+  },
+  "header": {
+    "title": "Redigovať súkromné informácie prostredníctvom Java API",
+    "description": "Vylúčte alebo skryte osobné informácie a metaúdaje z dokumentov, pracovných hárkov, prezentácií, PDF a súborov rastrových obrázkov pomocou rozhrania Java pre redakciu API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Prehľad",
+      "button_text_2": "Vlastnosti",
+      "button_text_3": "Podpora",
+      "button_text_4": "Živá ukážka",
+      "button_text_5": "Cenník"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API umožňuje vývojárom odstrániť citlivé údaje z populárnych formátov súborov, ako sú Microsoft Word, Excel, PowerPoint, PDF a obrázky, aby ich bolo možné používať a distribuovať, ale stále chrániť aj dôverné informácie. Knižnica redigovania ponúka jediné rozhranie nezávislé od formátu na redigovanie akéhokoľvek typu utajovaných skutočností vrátane čísel sociálneho zabezpečenia, lekárskych informácií, finančných, vlastníckych, právnych alebo dokonca obchodných údajov prostredníctvom typov textov, metaúdajov a anotácií. Umožňuje uložiť dokument v pôvodnom formáte a vytvoriť dezinfikovaný dokument PDF s rastrovými obrázkami pôvodných stránok.",
+    "one": {
+      "description": "Nasleduje prehľad GroupDocs.Redaction pre {{ProductName}}:",
+      "content": {
+        "title": "Prehľad",
+        "step_1": "Redigovať text",
+        "step_2": "Redigovať metadáta",
+        "step_3": "Redigovať anotáciu",
+        "step_4": "Redigovať tabuľkový dokument",
+        "step_5": "Redigovať chránené súbory",
+        "step_6": "Prispôsobenie"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction for {{ProductName}} podporuje nasledujúce [formáty súborov dokumentov](https://docs.groupdocs.com/redaction//supported-document-formats/) :{{ProductCode}}",
+      "content": {
+        "title": "Redigovať text, metaúdaje a komentáre",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Pevné rozloženie**: PDF",
+        "step_5": "**Rastrové obrázky**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} podporuje nasledujúce operačné systémy, rámce a správcov balíkov:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Operačné systémy",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * Mac OS"
+          },
+          "row2": {
+            "title": "Podporované rámce",
+            "data": "* Java 7 (1.7) a vyššie"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-cogs",
+            "title": "Vývojové prostredia",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Zatmenie"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Zostavte automatizačný nástroj",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction pre {{ProductName}} Funkcie",
+    "feature1": "Vyhľadávanie a redigovanie presných zhodov vyhľadávacieho reťazca",
+    "feature2": "Ovládajte proces redigovania a preskočte konkrétne zápasy",
+    "feature3": "Vyhľadanie a redigovanie pomocou regulárnych výrazov",
+    "feature4": "Vstavaná podpora kancelárskych formátov a PDF",
+    "feature5": "Vymazanie metaúdajov alebo redigovanie hodnôt metaúdajov",
+    "feature6": "Obmedzte redigovanie na konkrétne pracovné hárky a stĺpce",
+    "feature7": "Odstránenie anotácií alebo redigovanie ich textov",
+    "feature8": "Použite textové (kódy výnimiek) alebo grafické (farebné obdĺžniky) redigovania",
+    "feature9": "Uložte dokument v pôvodnom formáte alebo ako PDF s rastrových obrázkov pôvodných strán",
+    "feature10": "Podpora formátov rastrových obrázkov a redakcie oblasti obrázkov",
+    "feature11": "Integračné rozhranie pre implementáciu vlastnej redakcie a formátov",
+    "feature12": "Úprava alebo odstránenie EXIF metaúdajov z obrázkových súborov",
+    "feature13": "Redigovať vložené obrázky vo vnútri PDF, Word a prezentačných dokumentov"
+  },
+  "more_features": {
+    "title": "Zabezpečte súkromie redigovaním vašich utajovaných údajov",
+    "content": "{{ProductFullName}} knižnica umožňuje vývojárom redigovať text a obrázky z podporovaných dokumentov pomocou rôznych typov redigovania. Používanie nášho rozhrania Redaction API je jednoduché a priame.",
+    "example": {
+      "description": "Nasledujúci príklad kódu používa tabuľkový dokument, napríklad tabuľkový hárok Microsoft Excel, kde rozsah redigovania môže byť obmedzený na konkrétny pracovný hárok a/alebo stĺpec. Používa filtre na redigovanie druhého stĺpca e-mailmi v pracovnom hárku „Zákazníci“, pričom všetky ostatné e-maily zostávajú v dokumente nedotknuté.",
+      "comment_init": "Vytvorte inštanciu triedy Redactor",
+      "comment_apply": "Použiť redakciu"
+    }
+  },
+  "solutions": "GroupDocs.Redaction ponúka rozhrania API na prezeranie dokumentov pre ďalšie populárne vývojové prostredia"
+}

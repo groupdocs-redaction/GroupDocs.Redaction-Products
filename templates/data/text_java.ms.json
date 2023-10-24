@@ -1,0 +1,89 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Redact {{EXT}} Teks melalui Frasa Tepat /Ungkapan Biasa dalam Java",
+    "description": "GroupDocs.Redaction s Java API membolehkan pemaju menyunting teks dari PDF DOC DOCX RTF XLSX CSV PPT PPTX & imej melalui frasa tepat atau ungkapan biasa dalam Java"
+  },
+  "header": {
+    "title": "Cara Menyunting, Menyembunyikan atau Mengalih Keluar Teks daripada {{EXT}} Fail menggunakan Java",
+    "description": "GroupDocs.Redaction s Java API membolehkan untuk menyunting, menyembunyikan atau membuang teks sensitif daripada dokumen pemprosesan perkataan, lembaran kerja, persembahan, PDF s & imej."
+  },
+  "about": {
+    "title": "Apakah Redaksi Teks?",
+    "h1": "Redaksi Teks adalah proses membuang teks atau maklumat sulit atau tidak diingini dari dokumen digital sambil meninggalkan keseluruhan dokumen atau perenggan yang mengandunginya. Redaction membantu pengguna serta organisasi untuk melindungi maklumat sensitif mereka dengan menyembunyikan atau membuangnya secara kekal. Menggunakan GroupDocs.Redaction Java Pengguna API kini boleh menyunting, menyembunyikan atau mengalih keluar teks sensitif daripada dokumen pemprosesan perkataan, lembaran kerja, persembahan, PDF dan fail imej raster. API menyediakan pelbagai pilihan dan kaedah untuk redaksi maklumat peribadi dalam dokumen. Ia menyokong carian dan redact menggunakan padanan tepat atau ungkapan biasa, Gunakan teks (kod pengecualian) atau grafik (segi empat berwarna) redaksi dan banyak lagi. Jadi mengapa tidak mencubanya dan mengautomasikan proses redaksi dokumen anda dengan memuat turun API dan meneroka ciri asas dan lanjutannya. ",
+    "h2": "{{ProductFullName}} API adalah pilihan yang tepat untuk penyelesaian korporat yang memerlukan ciri gabungan fail. API ini disokong dengan baik pada semua sistem operasi dan platform utama termasuk {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Redact {{EXT}} Frasa Tepat dalam Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction membolehkan untuk menyunting data sensitif atau peribadi dengan mudah daripada dokumen anda. Kes redaksi yang paling popular adalah untuk mengeluarkan teks dari dokumen.",
+        "step_2": "Kod berikut boleh digunakan untuk menerapkan redaksi teks pada bahagian tertentu dokumen melalui frasa yang tepat. Ia membolehkan pengguna untuk menggantikan frasa tepat peribadi “Michal Clark” dengan peribadi (atau mana-mana kod pengecualian),"
+      },
+      "title_right": "Keluarkan Data Sensitif daripada {{EXT}}",
+      "content_right": {
+        "step_1": "Buat contoh kelas [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) & muat naik fail {{EXT}}",
+        "step_2": "Panggil kaedah Redactor.Apply dengan contoh baru kelas ExactPhraSeredAction",
+        "step_3": "Panggil kaedah redactor.save dengan objek [ExactPhraSeredAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Panggil kaedah redactor.save untuk menyimpan perubahan"
+      },
+      "gist": {
+        "hash": "3202859fc19b5dfd14e8f073b70a18f8",
+        "file": "redactexactphrase.java"
+      }
+    },
+    "example2": {
+      "title_left": "Redaksi Teks Sensitif Kes di {{EXT}}",
+      "content_left": {
+        "step_1": "Contoh berikut membolehkan pengguna melakukan redaksi sensitif huruf huruf tepat untuk membuang atau menyembunyikan teks tertentu di dalam dokumen. Secara lalai, cari frasa yang tepat adalah kes tidak sensitif."
+      },
+      "title_right": "Lakukan Redaksi Sensitif Kes melalui Java",
+      "content_right": {
+        "step_1": "Buat contoh kelas [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) & muat naik fail {{EXT}}",
+        "step_2": "Panggil kaedah Redactor.Apply dengan contoh baru kelas ExactPhraSeredAction",
+        "step_3": "Panggil kaedah redactor.save dengan objek [ExactPhraSeredAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Panggil kaedah redactor.save untuk menyimpan perubahan"
+      },
+      "gist": {
+        "hash": "a43e3ce358f93df92373b5441bc579fb",
+        "file": "casesensitiveredaction.java"
+      }
+    },
+    "example3": {
+      "title_left": "Redact Teks dalam {{EXT}} melalui Kotak Warna",
+      "content_left": {
+        "step_1": "Daripada mengeluarkan teks yang disunting atau meletakkan rentetan di sana, ia juga mungkin untuk meletakkan kotak warna di atas teks yang disunting. Dalam kes ini teks yang dipadankan akan dikeluarkan dan segi empat tepat berwarna akan diletakkan di atas teks yang disunting."
+      },
+      "title_right": "Gunakan Kotak Warna untuk Mengalih Keluar Teks dalam Java",
+      "content_right": {
+        "step_1": "Buat contoh kelas [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) & muat naik fail {{EXT}}",
+        "step_2": "Panggil kaedah Redactor.Apply dengan contoh baru kelas ExactPhraSeredAction",
+        "step_3": "Panggil kaedah redactor.save dengan objek [ExactPhraSeredAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Panggil kaedah redactor.save untuk menyimpan perubahan"
+      },
+      "gist": {
+        "hash": "6d83e791388b6834a372dc90f4b455f6",
+        "file": "redacttextusingcolorbox.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Keperluan Sistem",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API disokong pada semua platform utama dan sistem operasi. Untuk panduan keperluan sistem yang lengkap, sila lawati [keperluan sistem](https://docs.groupdocs.com/redaction/java/system-requirements) Sebelum melaksanakan kod di bawah, sila pastikan bahawa anda mempunyai prasyarat berikut yang dipasang pada sistem anda:",
+        "step_1": "Sistem Operasi: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Persekitaran Pembangunan: NetBeans, IDEA Intellij, Eclipse dan lain-lain",
+        "step_3": "Java Runtime Environment: J2SE 6.0 dan ke atas",
+        "step_4": "Dapatkan versi terbaru GroupDocs.Redaction for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Mengapa Menggunakan GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Benarkan pengguna menambah format dokumen tersuai dan jenis redaksi",
+        "step_2": "Tiada perisian tambahan diperlukan untuk mengalih keluar maklumat sensitif",
+        "step_3": "Keupayaan untuk menetapkan dokumen rendering julat halaman sebagai PDF",
+        "step_4": "Cara mudah untuk menyunting pelbagai jenis metadata: nama pengarang, versi, tajuk, subjek, perihalan dan banyak lagi",
+        "step_5": "Pengekstrakan maklumat dokumen - jenis fail, kiraan halaman dll."
+      }
+    }
+  },
+  "about_formats": "false"
+}

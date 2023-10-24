@@ -1,0 +1,110 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "C# .NET Schwärzungs-API | Verstecken Sie privaten Text aus PDF-Word-Excel-Bildern",
+    "description": "Dokumentschwärzungs-API für .NET. Schwärzen, verbergen oder entfernen Sie vertrauliche Inhalte aus PDFs, Microsoft Word, Excel, Präsentationen und Rasterbildern."
+  },
+  "header": {
+    "title": "Sichere klassifizierte Daten über die Schwärzungs-API",
+    "description": "Schwärzen, verbergen oder entfernen Sie vertrauliche Inhalte und Metadaten aus Dokumenten, Arbeitsblättern, Präsentationen, PDF- und Rasterbilddateien mithilfe der .NET-API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Überblick",
+      "button_text_2": "Merkmale",
+      "button_text_3": "Support",
+      "button_text_4": "Live Demo",
+      "button_text_5": "Preisgestaltung"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction für .NET ist eine API-Bibliothek, mit der Sie vertrauliche und klassifizierte Daten aus verschiedenen Dateiformaten wie Microsoft Word, Excel, PowerPoint und PDF löschen können. Die einzige formatunabhängige Schnittstelle unserer Schwärzungs-API unterstützt die Schwärzung verschiedener Typen, z. B. Schwärzung von Text, Schwärzung von Metadaten, Schwärzung von Anmerkungen und Schwärzung von tabellarischen Dokumenten. Mit GroupDocs.Redaction for .NET API können Sie auch passwortgeschützte Dateien redigieren. Sie dürfen das Dokument in seinem Originalformat speichern sowie ein bereinigtes PDF-Dokument mit Rasterbildern der Originalseiten erstellen.",
+    "one" : {
+      "description": "Nachfolgend finden Sie eine Übersicht über GroupDocs.Redaction für {{ProductName}}:",
+      "content": {
+        "title": "Überblick",
+        "step_1": "Text schwärzen",
+        "step_2": "Metadaten schwärzen",
+        "step_3": "Anmerkung schwärzen",
+        "step_4": "Tabellarisches Dokument schwärzen",
+        "step_5": "Geschützte Dateien schwärzen",
+        "step_6": "Anpassung"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction für .NET unterstützt die folgenden [Dokumentdateiformate](https://docs.groupdocs.com/redaction/net/supported-document-formats/):",
+      "content": {
+        "title": "Text schwärzen, Metadata & Comments",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Fixed Layout**: PDF",
+        "step_5": "**Raster Images**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction for .NET unterstützt das Folgen Betriebssysteme & Paket-Managers:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Betriebssysteme",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux",
+          },
+          "row2": {
+            "title": "Unterstützte Frameworks",
+            "data": "* .NET Framework 2.0 oder höher
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-box",
+            "title": "Paket-Manager",
+            "data": "* NuGet",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Entwicklungsumgebungen",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} Merkmale",
+    "feature1": "Führen Sie eine Suche mit Berücksichtigung der Groß-/Kleinschreibung durch, um eine exakte Phrasenschwärzung zu erhalten",
+    "feature2": "Verwenden Sie das Farbfeld, um geschwärzten Text auszublenden, anstatt die Zeichenfolge zu ersetzen",
+    "feature3": "Suchen und schwärzen Sie jeden Text mit der Suche nach regulären Ausdrücken",
+    "feature4": "Filtern Sie alle oder eine beliebige Kombination von klassifizierten Metadateninformationen des Dokuments",
+    "feature5": "Löschen Sie schnell vollständige Metadateninformationen eines bestimmten Dokuments",
+    "feature6": "Legen Sie einen Umfang der Schwärzung auf ein bestimmtes Arbeitsblatt und/oder eine bestimmte Spalte in Excel fest",
+    "feature7": "Entfernen Sie alle oder bestimmte Kommentare und andere Anmerkungen aus dem Dokument",
+    "feature8": "Suchen und entfernen Sie vertrauliche Daten aus dem Anmerkungstext",
+    "feature9": "Fähigkeit, mit Ihren eigenen Formaten und Schwärzungen zu arbeiten",
+    "feature10": "Unterstützung für Rasterbildformate und Schwärzungen von Bildbereichen",
+    "feature11": "Geben Sie eine Reihe von Schwärzungsregeln (Richtlinie) in der XML-Datei an",
+    "feature12": "Geben Sie den Seitenbereich und die PDF-Konformitätsstufe während der Konvertierung in PDF an",
+    "feature13": "EXIF-Metadaten aus Bilddateien bearbeiten oder löschen",
+    "feature14": "Schwärzen Sie eingebettete Bilder in PDF-, Word- und Präsentationsdokumenten",
+    "feature15": "Speichern Sie eine Schwärzungsrichtlinie als XML-Datei"
+  },
+  "more_features": {
+    "title": "Schwärzen Sie Ihre klassifizierten Daten mit Leichtigkeit und Kontrolle",
+    "content": "GroupDocs.Redaction for .NET API gibt Ihnen die vollständige Kontrolle darüber, wie Sie Ihre wichtigen klassifizierten Informationen aus unterstützten Dokumenten verbergen oder löschen möchten. Die Verwendung unserer Schwärzungs-API ist ziemlich einfach und unkompliziert.",
+    "example": {
+      "description": "Im folgenden Beispiel laden wir ein unterstütztes Dokument, schwärzen jeglichen Text und gleichen „2 Ziffern, Leerzeichen oder nichts, 2 Ziffern, wieder Leerzeichen und 6 Ziffern“ (z. B. 12 34 567890) mit einem blauen Farbfeld unter Verwendung von C# ab. Sobald dies erledigt ist, speichert es das Dokument in seinem ursprünglichen Format, indem es mit einem hinzugefügten Suffix „_Redacted“: umbenannt wird",
+      "comment_init": "Erstellen Sie eine Instanz der Redactor-Klasse",
+      "comment_apply": "Schwärzung anwenden"
+    }
+  },
+  "solutions": "GroupDocs.Redaction bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
+}

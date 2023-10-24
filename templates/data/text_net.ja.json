@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": ".NETCoreを介してドキュメントから機密情報を編集する",
+    "description": "さまざまな形式のドキュメントに正確なフレーズまたは正規表現を使用してテキスト編集を適用する"
+  },
+  "header": {
+    "title": ".NET Core Appsの{{ProgLang}}を介して{{EXT}} ファイルを編集します",
+    "description": "OfficeとOpenOfficeのドキュメント、スプレッドシート、プレゼンテーションのテキストを検索して置換し、Windows、Linux、macOSでは {{EXT}}"
+  },
+  "about": {
+    "title": ".NETAPIのドキュメント編集",
+    "h1": "メタデータの変更やコメントの削除など、PDF、Word、Excel、PowerPointのドキュメントや画像から機密情報や分類された情報を編集するための、フォーマットに依存しない単一のインターフェイス。 GroupDocs.Redactionツールを使用すると、テキストを編集して編集したドキュメントをPDFに保存し、すべてのページをラスターイメージに変換したり、ドキュメントを元の形式のままにしてさらに編集したりできます。",
+  },
+  "blocks": {
+    "example" : {
+      "title_left": "{{EXT}}から{{ProgLang}}経由で正確なテキストを編集",
+      "content_left": {
+        "description": "[GroupDocs.Redaction](/redaction/net/) を使用すると、.NET開発者はいくつかの簡単な手順で{{EXT}}ファイル編集機能を簡単に追加できます。",
+        "step_1": "[Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) クラスのインスタンスを作成し、{{EXT}}ファイルをロードします",
+        "step_2": "[ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) クラスのインスタンスを作成して、テキストを検索して置換します",
+        "step_3": "ExactPhraseRedactionのオブジェクトを使用して[Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) メソッドを呼び出します"
+      },
+      "title_right": "RedactionAPIの使用を開始する",
+      "content_right": {
+        "description": "",
+        "step_1": "コマンドラインから```nuget install GroupDocs.Redaction```としてインストールするか、VisualStudioのPackageManagerコンソールから```Install-PackageGroupDocs.Redaction```を使用してインストールします。",
+        "step_2": "または、[ダウンロード](https://downloads.groupdocs.com/redaction/net) からオフラインMSIインストーラーまたはDLLをZIPファイルで取得し、プロジェクトで手動で参照します。",
+        "step_3": "",
+        "step_4": ""
+      }
+    },
+    "requirements" : {
+      "title_left": "システム要求",
+      "content_left": {
+        "description": "GroupDocs.Redaction for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/redaction/net/system-requirements/) にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。 システム：",
+        "step_1": "オペレーティングシステム：Microsoft Windows、Linux、MacOS",
+        "step_2": "開発環境：Visual Studio、Xamarin、MonoDevelopなど",
+        "step_3": "フレームワーク：.NETフレームワーク、.NET標準、.NETコア、モノラル",
+        "step_4": "[NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/) から最新バージョンのGroupDocs.Redaction.NETAPIを入手します。"
+      },
+      "title_right": "GroupDocs.Redactionを使用する理由",
+      "content_right": {
+        "description": "",
+        "step_1": "ユーザーがカスタムドキュメント形式と編集の種類を追加できるようにする",
+        "step_2": "機密情報を削除するために追加のソフトウェアは必要ありません",
+        "step_3": "ページ範囲レンダリングドキュメントをPDFとして設定する機能",
+        "step_4": "さまざまな種類のメタデータを編集する簡単な方法：作成者名、バージョン、タイトル、件名、説明など",
+        "step_5": "ドキュメント情報の抽出-ファイルタイプ、ページ数など。",
+        "step_6": "複数のデータ形式の完全サポート"
+      }
+    }
+  },
+  "about_formats": "false"
+}

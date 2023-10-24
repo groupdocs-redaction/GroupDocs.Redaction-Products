@@ -1,0 +1,106 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "Java 编辑 API |隐藏 PDF Word Excel 图像中的敏感数据",
+    "description": "Java 文档编校 API – 通过各种编校类型隐藏 PDF、Word、Excel、PowerPoint 演示文稿和光栅图像中的个人数据."
+  },
+  "header": {
+    "title": "通过 Java API 编辑私人信息",
+    "description": "使用 Java 编校 API 从文档、工作表、演示文稿、PDF 和光栅图像文件中排除或隐藏个人信息和元数据."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "概述",
+      "button_text_2": "特征",
+      "button_text_3": "Support",
+      "button_text_4": "Live Demo",
+      "button_text_5": "价钱"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for Java API 允许开发人员从 Microsoft Word、Excel、PowerPoint、PDF 和图像等流行文件格式中删除敏感数据，以便可以使用和分发，但仍然可以保护机密信息。编校库提供了一个独立于格式的单一界面，可以通过文本、元数据和注释编校类型编校任何类型的分类信息，包括社会保险号、医疗信息、财务、专有、法律甚至贸易细节。它允许您以原始格式保存文档，并使用原始页面的光栅图像创建经过净化的 PDF 文档。",
+    "one" : {
+      "description": " 以下是 Java 的 GroupDocs.Redaction 的概述：",
+      "content": {
+        "title": "概述",
+        "step_1": "编辑文本",
+        "step_2": "编辑元数据",
+        "step_3": "编辑注释",
+        "step_4": "编辑表格文档",
+        "step_5": "编辑受保护的文件",
+        "step_6": "定制"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction for Java 支持以下 [文档文件格式](https://docs.groupdocs.com/redaction/java/supported-document-formats/)：",
+      "content": {
+        "title": "编辑文本, Metadata & Comments",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**固定布局**: PDF",
+        "step_5": "**光栅图像**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction for Java 支持以下操作系统、框架和包管理器:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "操作系统",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * MacOS",
+          },
+          "row2": {
+            "title": "支持的框架",
+            "data": "* Java 7 (1.7) 及更高版本"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-cogs",
+            "title": "开发环境",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Eclipse",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "构建自动化工具",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} 特征",
+    "feature1": "搜索和编辑搜索字符串的完全匹配",
+    "feature2": "控制编辑过程并跳过特定匹配",
+    "feature3": "使用正则表达式查找和编辑",
+    "feature4": "内置对办公格式和 PDF 的支持",
+    "feature5": "清除元数据或编辑元数据值",
+    "feature6": "限制对特定工作表和列的编辑",
+    "feature7": "删除注释或编辑其文本",
+    "feature8": "使用文本（豁免代码）或图形（彩色矩形）密文",
+    "feature9": "将文档保存为原始格式或带有原始页面光栅图像的 PDF",
+    "feature10": "支持光栅图像格式和图像区域编辑",
+    "feature11": "用于实现自定义编辑和格式的集成接口",
+    "feature12": "从图像文件中编辑或删除 EXIF 元数据",
+    "feature13": "编辑 PDF、Word 和演示文稿文档中的嵌入图像",
+    "feature14": "",
+    "feature15": ""
+  },
+  "more_features": {
+    "title": "通过编辑您的机密数据确保隐私",
+    "content": "{{ProductFullName}} 库使开发人员能够通过使用各种编校类型从受支持的文档中编校文本和图像。使用我们的 Redaction API 非常简单直接。",
+    "example": {
+      "description": "以下代码示例使用表格文档（例如 Microsoft Excel 电子表格），其中编辑范围可以限制为特定的工作表和/或列。它使用过滤器在工作表“客户”上用电子邮件编辑第二列，使文档中的所有其他电子邮件保持不变。",
+      "comment_init": "创建一个 Redactor 类的实例",
+      "comment_apply": "应用编辑"
+    }
+  },
+  "solutions": "GroupDocs.Redaction 为其他流行的开发环境提供文档查看 API"
+}

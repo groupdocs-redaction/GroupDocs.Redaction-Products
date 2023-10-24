@@ -1,0 +1,104 @@
+{
+  "layout": "prodotto",
+  "head": {
+    "title": "API di redazione Java | Nascondi dati sensibili dall'immagine PDF Word Excel",
+    "description": "API di redazione dei documenti Java: nasconde i dati personali da PDF, Word, Excel, PowerPoint presentazioni e immagini raster attraverso vari tipi di redazione."
+  },
+  "header": {
+    "title": "Redigere informazioni private tramite l'API Java",
+    "description": "Escludi o nascondi informazioni personali e metadati da documenti, fogli di lavoro, presentazioni, PDF e file di immagini raster utilizzando l'API di redazione Java."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Panoramica",
+      "button_text_2": "Caratteristiche",
+      "button_text_3": "Supporto",
+      "button_text_4": "Dimostrazione dal vivo",
+      "button_text_5": "Prezzi"
+    }
+  },
+  "tabs": {
+    "overview": "L'API GroupDocs.Redaction for Java consente agli sviluppatori di rimuovere i dati sensibili dai formati di file più diffusi come Microsoft Word, Excel, PowerPoint, PDF e dalle immagini in modo che possano essere utilizzati e distribuiti, ma proteggendo comunque anche le informazioni riservate. La libreria di redazione offre un'unica interfaccia indipendente dal formato per oscurare qualsiasi tipo di informazione classificata, inclusi numeri di previdenza sociale, informazioni mediche, dettagli finanziari, proprietari, legali o persino commerciali tramite tipi di redazione di testo, metadati e annotazioni. Consente di salvare il documento nel suo formato originale e creare un documento PDF igienizzato con immagini raster delle pagine originali.",
+    "one": {
+      "description": "Di seguito è riportata una panoramica di GroupDocs.Redaction per {{ProductName}}:",
+      "content": {
+        "title": "Panoramica",
+        "step_1": "Redigere testo",
+        "step_2": "Redigere i metadati",
+        "step_3": "Redigere annotazione",
+        "step_4": "Redigere un documento tabulare",
+        "step_5": "Oscurare i file protetti",
+        "step_6": "Personalizzazione"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction per {{ProductName}} supporta i seguenti [formati di file di documento](https://docs.groupdocs.com/redaction//supported-document-formats/{{ProductCode}}):",
+      "content": {
+        "title": "Redigere testo, metadati e commenti",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Layout fisso**: PDF",
+        "step_5": "**Immagini raster**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} supporta i seguenti sistemi operativi, framework e gestori di pacchetti:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Sistemi operativi",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * Mac È"
+          },
+          "row2": {
+            "title": "Framework supportati",
+            "data": "* Java 7 (1.7) e versioni successive"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fa-cogs veloci",
+            "title": "Ambienti di sviluppo",
+            "data": "* NetBeans
+                * IDEA IntelliJ
+                * Eclissi"
+          },
+          "row2": {
+            "icon": "fa-tools veloci",
+            "title": "Crea uno strumento di automazione",
+            "data": "* Esperto"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction per {{ProductName}} Caratteristiche",
+    "feature1": "Cerca e redigere le corrispondenze esatte di una stringa di ricerca",
+    "feature2": "Controlla il processo di redazione e salta partite specifiche",
+    "feature3": "Individuare e redigere utilizzando le espressioni regolari",
+    "feature4": "Supporto integrato per i formati da ufficio e PDF",
+    "feature5": "Eliminare i metadati o oscurare i valori dei metadati",
+    "feature6": "Limita le redazioni a fogli di lavoro e colonne specifici",
+    "feature7": "Rimuovi le annotazioni o modifica i relativi testi",
+    "feature8": "Usa redazioni testuali (codici di esenzione) o grafiche (rettangoli colorati)",
+    "feature9": "Salva il documento nel suo formato originale o come PDF con immagini raster delle pagine originali",
+    "feature10": "Supporto per formati di immagini raster e redazioni di regioni di immagini",
+    "feature11": "Interfaccia di integrazione per l'implementazione di redazioni e formati personalizzati",
+    "feature12": "Modifica o rimuovi EXIF metadati dai file di immagine",
+    "feature13": "Oscura le immagini incorporate nei PDF, Word e nei documenti di presentazione"
+  },
+  "more_features": {
+    "title": "Garantisci la privacy cancellando i tuoi dati riservati",
+    "content": "La libreria {{ProductFullName}} consente agli sviluppatori di oscurare testo e immagini dai documenti supportati utilizzando una varietà di tipi di redazione. Usare la nostra API di redazione è semplice e diretto.",
+    "example": {
+      "description": "Il seguente esempio di codice utilizza un documento tabulare come il foglio di calcolo Microsoft Excel in cui l'ambito di redazione può essere limitato a un foglio di lavoro e/o a una colonna specifici. Utilizza filtri per oscurare la seconda colonna con le e-mail su un foglio di lavoro «Clienti», lasciando intatte tutte le altre e-mail nel documento.",
+      "comment_init": "Crea un'istanza della classe Redactor",
+      "comment_apply": "Applica la redazione"
+    }
+  },
+  "solutions": "GroupDocs.Redaction offre API per la visualizzazione di documenti per altri ambienti di sviluppo diffusi"
+}

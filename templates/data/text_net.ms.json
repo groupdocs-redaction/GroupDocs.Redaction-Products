@@ -1,0 +1,31 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Sunting Maklumat Sensitif daripada {{EXT}} Dokumen melalui .NET Teras",
+    "description": "Guna redaksi teks menggunakan frasa tepat atau ungkapan biasa untuk dokumen dengan format yang berbeza"
+  },
+  "header": {
+    "title": "Redaksi {{EXT}} Fail melalui {{ProgLang}} dalam .NET Apl Teras",
+    "description": "Cari & Gantikan Teks dalam Dokumen Office & OpenOffice, Hamparan & Pembentangan serta {{EXT}} pada Windows, Linux & macOS"
+  },
+  "about": {
+    "title": "Penyuntingan Dokumen untuk .NET API",
+    "h1": "Antara muka bebas format tunggal untuk menyunting maklumat sensitif dan terperingkat daripada dokumen dan imej PDF, Word, Excel, PowerPoint, termasuk keupayaan untuk menukar metadata dan mengalih keluar ulasan. Dengan alat {{ProductFullName}} anda boleh menyunting teks dan menyimpan dokumen yang disunting dalam PDF, mengubah semua halaman menjadi imej raster atau menyimpan dokumen dalam format asalnya untuk pengeditan selanjutnya."
+  },
+  "steps": {
+    "title_left": "Sunting Teks Tepat daripada {{EXT}} melalui {{ProgLang}}",
+    "content_left": {
+      "description": "[GroupDocs.Redaction]({{slash_lang}}/redaction/{{ProductCode}}/) memudahkan {{ProductName}} pembangun menambahkan {{EXT}} ciri redaksi fail dengan beberapa langkah mudah.",
+      "step_1": "Buat contoh kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) & muatkan fail {{EXT}}",
+      "step_2": "Buat contoh kelas [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) untuk mencari dan menggantikan teks",
+      "step_3": "Panggil kaedah [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) dengan objek ExactPhraseRedaction"
+    },
+    "title_right": "Bermula dengan Redaction API",
+    "content_right": {
+      "description": "{{ProductFullName}} API disokong pada semua platform dan sistem pengendalian utama. Sebelum melaksanakan kod di bawah, sila pastikan anda mempunyai prasyarat berikut dipasang pada sistem anda.",
+      "step_1": "Pasang daripada baris arahan sebagai ```nuget install GroupDocs.Redaction``` atau melalui Package Manager Console of Visual Studio dengan ```Install-Pakej GroupDocs.Redaction```.",
+      "step_2": "Sebagai alternatif, dapatkan pemasang MSI luar talian atau DLL dalam fail ZIP daripada [muat turun](https://downloads.groupdocs.com/redaction/net) dan rujuknya dalam projek anda secara manual."
+    }
+  },
+  "about_formats": "true"
+}

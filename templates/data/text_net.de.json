@@ -1,0 +1,55 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Schwärzen Sie sensible Informationen aus Dokumenten über .NET Core",
+    "description": "Wenden Sie die Textschwärzung mit exakten Ausdrücken oder regulären Ausdrücken für Dokumente in verschiedenen Formaten an"
+  },
+  "header": {
+    "title": "Schwärzen Sie DOCX-Dateien über C# in .NET Core-Apps",
+    "description": "Suchen und ersetzen Sie Text in Office- und OpenOffice-Dokumenten, -Tabellen und -Präsentationen sowie {{EXT}} unter Windows, Linux und macOS"
+  },
+  "about": {
+    "title": "Dokumentenschwärzung für .NET API",
+    "h1": "Eine einzige formatunabhängige Oberfläche zum Schwärzen sensibler und geheimer Informationen aus PDF-, Word-, Excel-, PowerPoint-Dokumenten und Bildern, einschließlich der Möglichkeit, Metadaten zu ändern und Kommentare zu entfernen. Mit dem GroupDocs.Redaction-Tool können Sie Text redigieren und redigierte Dokumente als PDF speichern, alle Seiten in Rasterbilder umwandeln oder das Dokument für die weitere Bearbeitung in seinem Originalformat behalten.",
+  },
+  "blocks": {
+    "example" : {
+      "title_left": "Exakten Text von {{EXT}} über {{ProgLang}} schwärzen",
+      "content_left": {
+        "description": "[GroupDocs.Redaction](/redaction/net/) erleichtert .NET-Entwicklern das Hinzufügen der {{EXT}}-Dateischwärzungsfunktion in wenigen einfachen Schritten.",
+        "step_1": "Erstellen Sie eine Instanz der Klasse [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) und laden Sie die Datei {{EXT}}",
+        "step_2": "Erstellen Sie eine Instanz der Klasse [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction), um den Text zu suchen und zu ersetzen",
+        "step_3": "Rufen Sie die Methode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) mit dem Objekt ExactPhraseRedaction auf"
+      },
+      "title_right": "Beginnen Sie mit der Redaction-API",
+      "content_right": {
+        "description": "",
+        "step_1": "Installieren Sie über die Befehlszeile als ```nuget install GroupDocs.Redaction``` oder über die Package Manager-Konsole von Visual Studio mit ```Install-Package GroupDocs.Redaction```.",
+        "step_2": "Alternativ können Sie das Offline-MSI-Installationsprogramm oder die DLLs in einer ZIP-Datei von [downloads](https://downloads.groupdocs.com/redaction/net) herunterladen und in Ihrem Projekt manuell darauf verweisen.",
+        "step_3": "",
+        "step_4": ""
+      }
+    },
+    "requirements" : {
+      "title_left": "System Anforderungen",
+      "content_left": {
+        "description": "GroupDocs.Redaction für .NET-APIs werden auf allen bedeutenden Plattformen und Betriebssystemen unterstützt. Den vollständigen Leitfaden zu den Systemanforderungen finden Sie unter [Systemanforderungen](https://docs.groupdocs.com/redaction/net/system-requirements/). Bevor Sie following den following Code ausführen, vergewissern Sie sich bitte, dass die Voraussetzungen auf Ihrem installiert sind System:",
+        "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+        "step_2": "Entwicklungsumgebung: Visual Studio, Xamarin, MonoDevelop usw",
+        "step_3": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+        "step_4": "Holen Sie sich die neueste Version der GroupDocs.Redaction .NET-APIs von [NuGet](https://www.nuget.org/packages/GroupDocs.Redaction/)"
+      },
+      "title_right": "Warum GroupDocs.Redaction verwenden",
+      "content_right": {
+        "description": "",
+        "step_1": "Erlauben Sie Benutzern, benutzerdefinierte Dokumentformate und Arten von Schwärzungen hinzuzufügen",
+        "step_2": "Es ist keine zusätzliche Software erforderlich, um vertrauliche Informationen zu entfernen",
+        "step_3": "Möglichkeit, Seitenbereich-Rendering-Dokument als PDF festzulegen",
+        "step_4": "Einfache Möglichkeit, verschiedene Arten von Metadaten zu schwärzen: Autorenname, Version, Titel, Thema, Beschreibung und vieles mehr",
+        "step_5": "Extraktion von Dokumentinformationen - Dateityp, Seitenzahl usw.",
+        "step_6": "Volle Unterstützung für mehrere Datenformate"
+      }
+    }
+  },
+  "about_formats": "false"
+}

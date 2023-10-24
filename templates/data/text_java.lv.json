@@ -1,0 +1,89 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "Redakts {{EXT}} Teksts, izmantojot precīzu frāzi/regulāro izteiksmi Java",
+    "description": "GroupDocs.Redaction s Java API ļauj izstrādātājiem rediģēt tekstu no PDF DOC DOCX RTF XLSX CSV PPT PPTX & attēlus, izmantojot precīzu frāzi vai regulāru izteiksmi Java"
+  },
+  "header": {
+    "title": "Kā rediģēt, paslēpt vai noņemt tekstu no {{EXT}} failiem, izmantojot Java",
+    "description": "GroupDocs.Redaction s Java API ļauj rediģēt, paslēpt vai noņemt sensitīvu tekstu no tekstapstrādes dokumentiem, darblapām, prezentācijām, PDF s & attēliem."
+  },
+  "about": {
+    "title": "Kas ir teksta redakcija?",
+    "h1": "Teksta redakcija ir process, kurā tiek noņemts konfidenciāls vai nevēlams teksts vai informācija no digitālajiem dokumentiem, atstājot neskartu pārējo dokumentu vai rindkopu, kas satur to. Redakcijas palīdz lietotājiem, kā arī organizācijai aizsargāt savu sensitīvo informāciju, paslēpjot vai neatgriezeniski noņemot to. Izmantojot GroupDocs.Redaction Java API lietotāji tagad var rediģēt, paslēpt vai noņemt sensitīvu tekstu no tekstapstrādes dokumentiem, darblapām, prezentācijām, PDF un rastra attēlu failiem. API piedāvā plašu iespēju un metožu klāstu privātās informācijas redakcijai dokumentos. Tā atbalsta meklēšanu un rediģēšanu, izmantojot precīzu atbilstību vai regulāras izteiksmes, Izmantojiet teksta (atbrīvojuma kodus) vai grafiskos (krāsainos taisnstūrus) redakcijas un daudz ko citu. Tātad, kāpēc ne pamēģināt un automatizēt dokumentu redakcijas procesu, lejupielādējot API un izpētīt tās pamata un uzlabotas funkcijas. ",
+    "h2": "{{ProductFullName}} API ir pareizā izvēle korporatīvajiem risinājumiem, kuriem nepieciešami failu apvienošanas līdzekļi. Šīs API ir labi atbalstīti visās galvenajās operētājsistēmās un platformās, tostarp {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Reakts {{EXT}} precīza frāze Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction ļauj viegli rediģēt sensitīvus vai privātus datus no jūsu dokumentiem. Vispopulārākais redakcijas gadījums ir teksta noņemšana no dokumenta.",
+        "step_2": "Šo kodu var izmantot, lai lietotu teksta redakciju konkrētai dokumenta daļai, izmantojot precīzu frāzi. Tas ļauj lietotājiem aizstāt personīgo precīzu frāzi “Michal Clark” ar personīgo (vai jebkuru atbrīvojuma kodu),"
+      },
+      "title_right": "Noņemt sensitīvus datus no {{EXT}}",
+      "content_right": {
+        "step_1": "Izveidot [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) klases un augšupielādēt {{EXT}} faila instanci",
+        "step_2": "Zvanu Redactor.Apply metodi ar jaunu instanci exactPhraseredAction klases",
+        "step_3": "Zvanu redactor.save metode ar objektu [exactPhraseredAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Zvaniet redactor.save metodi, lai saglabātu izmaiņas"
+      },
+      "gist": {
+        "hash": "3202859fc19b5dfd14e8f073b70a18f8",
+        "file": "redactexactphrase.java"
+      }
+    },
+    "example2": {
+      "title_left": "Reģistrjutīga teksta redakcija {{EXT}}",
+      "content_left": {
+        "step_1": "Šis piemērs ļauj lietotājiem veikt precīzu frāzes reģistrjutīgu redakciju, lai noņemtu vai paslēptu konkrētu teksta patrona dokumentā. Pēc noklusējuma precīzas frāzes meklēšana ir reģistrjutīga."
+      },
+      "title_right": "Veikt reģistrjutīgu redakciju, izmantojot Java",
+      "content_right": {
+        "step_1": "Izveidot [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) klases un augšupielādēt {{EXT}} faila instanci",
+        "step_2": "Zvanu Redactor.Apply metodi ar jaunu instanci exactPhraseredAction klases",
+        "step_3": "Zvanu redactor.save metode ar objektu [exactPhraseredAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Zvaniet redactor.save metodi, lai saglabātu izmaiņas"
+      },
+      "gist": {
+        "hash": "a43e3ce358f93df92373b5441bc579fb",
+        "file": "casesensitiveredaction.java"
+      }
+    },
+    "example3": {
+      "title_left": "Realizēt tekstu {{EXT}}, izmantojot krāsu lodziņu",
+      "content_left": {
+        "step_1": "Tā vietā, lai noņemtu redakcijas tekstu vai ievietotu virkni tur, ir iespējams arī ievietot krāsu lodziņu virs redakcijas teksta. Šādā gadījumā saskaņotais teksts tiks noņemts un uz redakta teksta tiks novietots krāsains taisnstūris."
+      },
+      "title_right": "Izmantojiet krāsu lodziņu, lai noņemtu tekstu Java",
+      "content_right": {
+        "step_1": "Izveidot [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) klases un augšupielādēt {{EXT}} faila instanci",
+        "step_2": "Zvanu Redactor.Apply metodi ar jaunu instanci exactPhraseredAction klases",
+        "step_3": "Zvanu redactor.save metode ar objektu [exactPhraseredAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Zvaniet redactor.save metodi, lai saglabātu izmaiņas"
+      },
+      "gist": {
+        "hash": "6d83e791388b6834a372dc90f4b455f6",
+        "file": "redacttextusingcolorbox.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Sistēmas prasības",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API tiek atbalstīti visās galvenajās platformās un operētājsistēmās. Lai iegūtu pilnīgu sistēmas prasību rokasgrāmatu, lūdzu, apmeklējiet [sistēmas prasības](https://docs.groupdocs.com/redaction/java/system-requirements) Pirms izpildāt zemāk norādīto kodu, lūdzu, pārliecinieties, ka jūsu sistēmā ir uzstādīti šādi priekšnoteikumi:",
+        "step_1": "Operētājsistēmas: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Attīstības vide: NetBeans, Intellij IDEA, Eclipse utt",
+        "step_3": "Java Runtime Environment: J2SE 6.0 un augstāk",
+        "step_4": "Iegūstiet jaunāko GroupDocs.Redaction for Java versiju no [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Kāpēc izmantot GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Ļaut lietotājiem pievienot pielāgotus dokumentu formātus un redakcijas tipus",
+        "step_2": "Lai noņemtu sensitīvu informāciju, nav nepieciešama papildu programmatūra",
+        "step_3": "Spēja iestatīt lappušu diapazona renderēšanas dokumentu kā PDF",
+        "step_4": "Vienkāršs veids, kā rediģēt dažāda veida metadatus: autora vārdu, versiju, nosaukumu, tēmu, aprakstu un daudz ko citu",
+        "step_5": "Dokumenta informācijas ieguve - faila tips, lappušu skaits u.c."
+      }
+    }
+  },
+  "about_formats": "taisnība"
+}

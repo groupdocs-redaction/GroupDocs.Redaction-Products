@@ -1,0 +1,51 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "Решение для редактирования документов | Локальные API и бесплатное приложение",
+    "description": "Удаление, редактирование или скрытие метаданных и текстового содержимого в документах MS Office Word, электронных таблицах Excel, презентациях PowerPoint, форматах файлов PDF и изображений."
+  },
+  "header": {
+    "title": "Решение для редактирования для защиты секретной информации",
+    "description": "Скрыть или удалить личную информацию из документов Microsoft Office, электронных таблиц, презентаций, PDF и изображений."
+  },
+  "apis": {
+    "code" : {
+      "title": "API-интерфейсы High Code GroupDocs.Redaction включают",
+      "label": "Просмотреть все API High Code",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "/border/groupdocs-redaction-net.svg",
+        "product": "GroupDocs.Redaction for",
+        "content": "On Premise .NET API для скрытия или удаления содержимого и метаданных из ваших личных документов."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "/border/groupdocs-redaction-java.svg",
+        "product": "GroupDocs.Redaction for",
+        "content": "Локальные API-интерфейсы Java для удаления или скрытия текста из содержимого и метаданных поддерживаемых форматов файлов."
+      }
+    },
+    "apps" : {
+      "title": "GroupDocs.Redaction Приложения без кода включают",
+      "label": "Просмотреть все приложения без кода",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "/app/groupdocs_redaction-app.svg",
+        "product": "GroupDocs.Redaction",
+        "content": "Одно приложение для редактирования конфиденциальной информации из документов Word, Excel, PowerPoint, PDF и многих других типов."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "/app/groupdocs_words-app.svg",
+        "product": "GroupDocs.Redaction",
+        "content": "Редактируйте информацию из документов Word с помощью любого веб-браузера."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "/app/groupdocs_pdf-app.svg",
+        "product": "GroupDocs.Redaction",
+        "content": "Удаляйте содержимое из ваших PDF-документов онлайн бесплатно."
+      }
+    }
+  }
+}

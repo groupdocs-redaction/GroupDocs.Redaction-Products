@@ -1,0 +1,110 @@
+{
+  "layout": "製品",
+  "head": {
+    "title": "C# .NET リダクション API | PDF Word Excel 画像からプライベートテキストを非表示にする",
+    "description": ".NET のドキュメント編集 API。PDF、Microsoft Word、Excel、プレゼンテーション、ラスターイメージから機密コンテンツを編集、非表示、削除します。"
+  },
+  "header": {
+    "title": "リダクション API による機密データの保護",
+    "description": ".NET API を使用して、文書、ワークシート、プレゼンテーション、PDF、ラスターイメージファイルから機密コンテンツやメタデータを編集、非表示、削除します。"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "概要",
+      "button_text_2": "機能",
+      "button_text_3": "サポート",
+      "button_text_4": "ライブデモ",
+      "button_text_5": "価格設定"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET は、Microsoft Word、Excel、PowerPoint、PDF などのさまざまなファイル形式から機密データや機密データを消去するのに役立つ API ライブラリです。当社の Redaction API の単一の形式に依存しないインターフェイスは、テキスト編集、メタデータ編集、注釈編集、表形式文書編集など、さまざまなタイプの編集をサポートします。GroupDocs.Redaction for .NET API では、パスワードで保護されたファイルを編集することもできます。文書を元の形式で保存することも、元のページのラスターイメージを使用してサニタイズされた PDF 文書を作成することもできます。",
+    "one": {
+      "description": "{{ProductName}} の GroupDocs.Redaction の概要は次のとおりです。",
+      "content": {
+        "title": "概要",
+        "step_1": "テキストを編集",
+        "step_2": "メタデータを編集",
+        "step_3": "注釈を編集",
+        "step_4": "表形式文書の編集",
+        "step_5": "保護対象ファイルの編集",
+        "step_6": "カスタマイズ"
+      }
+    },
+    "two": {
+      "description": "{{ProductName}} の GroupDocs.Redaction は次の [ドキュメントファイル形式](https://docs.groupdocs.com/redaction//supported-document-formats/{{ProductCode}}) をサポートしています。",
+      "content": {
+        "title": "テキスト、メタデータ、コメントの編集",
+        "step_1": "**Word**: DOC、DOCX、DOT、ODT、DOTX、DOCM、DOTM、RTF",
+        "step_2": "**Excel**: XLS、XLSX、XLT、XLTX、XLSM、XLTM、CSV",
+        "step_3": "**PowerPoint**: PPT、PPTX、PPS、PPSX、POTX、PPTM、PPSM、POTM",
+        "step_4": "**固定レイアウト**: PDF",
+        "step_5": "**ラスターイメージ**: JPG、BMP、PNG、GIF、TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction for {{ProductName}} は、以下のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています。",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "オペレーティングシステム",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux"
+          },
+          "row2": {
+            "title": "サポート対象フレームワーク",
+            "data": "* .NET Framework 2.0 またはそれ以上
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "ファストファンボックス",
+            "title": "パッケージマネージャ",
+            "data": "* NuGet"
+          },
+          "row2": {
+            "icon": "高速ファンツール",
+            "title": "開発環境",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductName}} 機能の場合は GroupDocs.Redaction",
+    "feature1": "大文字と小文字を区別して完全に一致する語句を検索する",
+    "feature2": "文字列置換の代わりにカラーボックスを使用して編集されたテキストを非表示にする",
+    "feature3": "正規表現検索を使用して任意のテキストを検索して編集します",
+    "feature4": "文書の分類されたメタデータ情報のすべてまたは任意の組み合わせをフィルタする",
+    "feature5": "特定の文書の完全なメタデータ情報をすばやく消去",
+    "feature6": "編集の範囲を Excel の特定のワークシートや列に設定します",
+    "feature7": "文書からすべてまたは特定のコメントやその他の注釈を削除する",
+    "feature8": "注釈テキストから機密データを検索して削除",
+    "feature9": "独自のフォーマットと編集で作業する能力",
+    "feature10": "ラスター画像形式と画像領域編集のサポート",
+    "feature11": "XML ファイル内の編集ルール (ポリシー) のセットを指定",
+    "feature12": "PDF への変換時にページ範囲と PDF コンプライアンスレベルを指定",
+    "feature13": "EXIF メタデータの編集または画像ファイルからの削除",
+    "feature14": "PDF、Word、およびプレゼンテーションドキュメント内の埋め込み画像を編集",
+    "feature15": "編集ポリシーを XML ファイルとして保存する"
+  },
+  "more_features": {
+    "title": "簡単かつ管理可能な機密データの編集",
+    "content": "{{ProductFullName}} API を使用すると、重要な機密情報をサポート対象ドキュメントからどのように隠すか、削除するかを完全に制御できます。当社のリダクション API の使い方はとてもシンプルで分かりやすいです。",
+    "example": {
+      "description": "次の例では、サポートされているドキュメントを読み込み、「2 桁、スペースまたはなし、2 桁、アゲインスペースと 6 桁」（12 34 567890 など）に一致するテキストをすべて削除します（例：12 34 567890）。青色のボックスには {{ProgLang}} を使用しています。これが完了すると、ドキュメントの名前に「Redacted'」というサフィックスを付けて元の形式で保存します。",
+      "comment_init": "Redactor クラスのインスタンスを作成する",
+      "comment_apply": "編集を適用"
+    }
+  },
+  "solutions": "GroupDocs.Redaction は、他の一般的な開発環境向けのドキュメント表示 API を提供しています"
+}

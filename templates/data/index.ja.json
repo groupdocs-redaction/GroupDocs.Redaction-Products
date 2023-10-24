@@ -1,0 +1,51 @@
+{
+  "layout": "製品",
+  "head": {
+    "title": "文書編集ソリューション | オンプレミス API と無料アプリ",
+    "description": "MS Office Word 文書、Excel スプレッドシート、PowerPoint プレゼンテーション、PDF、および画像ファイル形式のメタデータおよびテキストコンテンツを削除、編集、または非表示にします。"
+  },
+  "header": {
+    "title": "機密情報を保護するための編集ソリューション",
+    "description": "Microsoft Office 文書、スプレッドシート、プレゼンテーション、PDF、画像から個人情報を非表示または削除します。"
+  },
+  "apis": {
+    "code": {
+      "title": "GroupDocs.Redaction High Code API には次のものが含まれます",
+      "label": "High Code API をすべて表示",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction の場合",
+        "content": "オンプレミス .NET API を使用して、個人文書からコンテンツとメタデータを非表示にしたり削除したりできます。"
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction の場合",
+        "content": "サポートされているファイル形式のコンテンツとメタデータからテキストを削除または非表示にするオンプレミス Java API。"
+      }
+    },
+    "apps": {
+      "title": "GroupDocs.Redaction No Code アプリには以下が含まれます",
+      "label": "No Code 個のアプリをすべて表示",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/asposeredaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "1 つのアプリで Word、Excel、PowerPoint、PDF、その他多くの種類の文書から機密情報を編集できます。"
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocswords-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "任意の Web ブラウザを使用して Word 文書の情報を編集できます。"
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocspdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "PDF 文書のコンテンツをオンラインで無料で抹消できます。"
+      }
+    }
+  }
+}

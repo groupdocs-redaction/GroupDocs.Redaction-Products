@@ -1,0 +1,106 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "API de rédaction Java | Masquer les données sensibles du PDF Word Excel Image",
+    "description": "API de rédaction de documents Java - Masquez les données personnelles des présentations PDF, Word, Excel, PowerPoint et des images raster via différents types de rédaction."
+  },
+  "header": {
+    "title": "Masquer les informations privées via l'API Java",
+    "description": "Excluez ou masquez les informations personnelles et les métadonnées des documents, feuilles de calcul, présentations, fichiers PDF et image raster à l'aide de l'API de rédaction Java."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Aperçu",
+      "button_text_2": "Caractéristiques",
+      "button_text_3": "Support",
+      "button_text_4": "Live Demo",
+      "button_text_5": "Pricing"
+    }
+  },
+  "tabs": {
+    "overview": "L'API GroupDocs.Redaction pour Java permet aux développeurs de supprimer les données sensibles des formats de fichiers courants tels que Microsoft Word, Excel, PowerPoint, PDF et les images afin qu'elles puissent être utilisées et distribuées, tout en protégeant également les informations confidentielles. La bibliothèque de rédaction offre une interface unique indépendante du format pour rédiger tout type d'informations classifiées, y compris les numéros de sécurité sociale, les informations médicales, les détails financiers, propriétaires, juridiques ou même commerciaux par le biais de textes, de métadonnées et de types de rédaction d'annotations. Il vous permet d'enregistrer le document dans son format d'origine et de créer un document PDF aseptisé avec des images raster des pages d'origine.",
+    "one" : {
+      "description": "Voici un aperçu de GroupDocs.Redaction pour {{ProductName}}:",
+      "content": {
+        "title": "Aperçu",
+        "step_1": "Texte expurgé",
+        "step_2": "Masquer les métadonnées",
+        "step_3": "Expurger l'annotation",
+        "step_4": "Caviarder le document tabulaire",
+        "step_5": "Masquer les fichiers protégés",
+        "step_6": "Personnalisation"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction pour Java prend en charge les [formats de fichier de document] suivants (https://docs.groupdocs.com/redaction/java/supported-document-formats/):",
+      "content": {
+        "title": "Caviarder le texte, les métadonnées et les commentaires",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Disposition fixe**: PDF",
+        "step_5": "**Images raster**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction for Java prend en charge la suite Systèmes d'exploitation, cadres et gestionnaires de packages:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Systèmes d'exploitation",
+            "data": "* Microsoft Windows Desktop
+                * Microsoft Windows Server
+                * Linux
+                * MacOS",
+          },
+          "row2": {
+            "title": "Cadres pris en charge",
+            "data": "* Java 7 (1.7) et supérieur"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-cogs",
+            "title": "Environnements de développement",
+            "data": "* NetBeans
+                * IntelliJ IDEA
+                * Eclipse",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Outil d'automatisation de construction",
+            "data": "* Maven"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} Caractéristiques",
+    "feature1": "Rechercher et masquer les correspondances exactes d'une chaîne de recherche",
+    "feature2": "Contrôlez le processus de rédaction et ignorez des correspondances spécifiques",
+    "feature3": "Localiser et biffer à l'aide d'expressions régulières",
+    "feature4": "Prise en charge intégrée des formats bureautiques et PDF",
+    "feature5": "Effacer les métadonnées ou masquer les valeurs des métadonnées",
+    "feature6": "Limiter les suppressions à des feuilles de calcul et des colonnes spécifiques",
+    "feature7": "Supprimer des annotations ou expurger leurs textes",
+    "feature8": "Utilisez des caviardages textuels (codes d'exemption) ou graphiques (rectangles de couleur)",
+    "feature9": "Enregistrez le document dans son format d'origine ou au format PDF avec des images raster des pages d'origine",
+    "feature10": "Prise en charge des formats d'image raster et des suppressions de régions d'image",
+    "feature11": "Interface d'intégration pour la mise en œuvre d'une rédaction et de formats personnalisés",
+    "feature12": "Modifier ou supprimer les métadonnées EXIF des fichiers image",
+    "feature13": "Masquer les images intégrées dans les documents PDF, Word et de présentation",
+    "feature14": "",
+    "feature15": ""
+  },
+  "more_features": {
+    "title": "Assurez la confidentialité en caviardant vos données classifiées",
+    "content": "La bibliothèque GroupDocs.Redaction pour Java permet aux développeurs de rédiger du texte et des images à partir de documents pris en charge en utilisant une variété de types de rédaction. L'utilisation de notre API de rédaction est simple et directe.",
+    "example": {
+      "description": "L'exemple de code suivant utilise un document tabulaire tel qu'une feuille de calcul Microsoft Excel où l'étendue de la rédaction peut être limitée à une feuille de calcul et/ou une colonne spécifique. Il utilise des filtres pour masquer la deuxième colonne avec des e-mails sur une feuille de calcul \"Clients\", en laissant tous les autres e-mails intacts dans le document.",
+      "comment_init": "Créer une instance de la classe Redactor",
+      "comment_apply": "Appliquer la rédaction"
+    }
+  },
+  "solutions": "GroupDocs.Redaction propose des API de visualisation de documents pour d'autres environnements de développement populaires"
+}

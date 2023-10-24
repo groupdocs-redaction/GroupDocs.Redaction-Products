@@ -1,0 +1,72 @@
+{
+  "layout": "auto-gen-bistvo",
+  "head": {
+    "title": "Reakcija metapodatkov iz dokumenta {{EXT}} v {{ProgLang}}",
+    "description": "Preprosto poiščite, zamenjajte, odstranite ali uredite metapodatke različnih vrst dokumentov z uporabo filtrov, da izberete določene lastnosti metapodatkov z uporabo API-ja GroupDocs.Redaction s za {{ProgLang}}.",
+    "ad_headline": "Preureditev metapodatkov | {{ProgLang}}",
+    "ad_description": "Reakcija metapodatkov iz dokumenta {{EXT}} v {{ProgLang}}"
+  },
+  "header": {
+    "title": "Reakcija metapodatkov iz dokumenta {{EXT}} v {{ProgLang}}",
+    "description": "Preprosto poiščite, zamenjajte, odstranite ali uredite metapodatke različnih vrst dokumentov z uporabo filtrov, da izberete določene lastnosti metapodatkov z uporabo API-ja GroupDocs.Redaction s za {{ProgLang}}."
+  },
+  "about": {
+    "title": "Začetek z redigiranjem metapodatkov",
+    "h1": "Včasih morate popolnoma izbrisati nezaželena polja metapodatkov ali pa boste morda želeli posodobiti njihove vrednosti. Obstajajo tudi skriti podatki, povezani z datotekami, ki si jih je mogoče ogledati z različnimi orodji in tehnikami. Obstaja veliko situacij, ko ne želite, da so ti podatki dostopni nikomur. Redakcija pomeni odstranitev neželenih ali zaupnih informacij iz različnih dokumentov. Vsi formati datotek, vključno z PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX in drugimi imajo specifične metapodatkovne strukture. Lastnosti metapodatkov vključujejo ime avtorja, kategorijo, ime podjetja, komentarje, čas ustvarjanja in zadnje posodobljene itd. Z API-jem GroupDocs.Redaction lahko uporabite redigiranje metapodatkov za katero koli od teh polj metapodatkov. Lahko jih spremenite ali izbrišete tako, da filtrirate želene metapodatke. V tem priročniku bomo razložili, kako lahko uporabite redakcijo metapodatkov iz dokumenta {{EXT}} v {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Uredišaj metapodatke datoteke {{EXT}}",
+      "content_left": {
+        "step_1": "Naslednja koda omogoča iskanje in redigiranje občutljivih podatkov iz dokumenta {{EXT}}. Obseg za redigiranje lahko nastavite tako, da nastavite filter, npr. na Metadatafilter.CreatedTime. To bo pustil regularnih izrazov ujemanja razveljavljena v vseh metapodatkovnih elementih, razen »Createdtime« lastnosti:"
+      },
+      "title_right": "Koraki za urejanje metapodatkov v ustvarjenem času",
+      "content_right": {
+        "step_1": "Ustvarite primerek razreda [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) in naložite datoteko {{EXT}}",
+        "step_2": "Ustvarite primerek razreda [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction), da poiščete in zamenjate občutljive podatke iz metapodatkov dokumenta",
+        "step_3": "Nastavite obseg za redakcijo z nastavitvijo filtra, npr. Uporabite metaDATAfilters.CreatedTime v spodnji kodi",
+        "step_4": "Način shranjevanja klicev s predmetom [MetaDataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "e773562949d4e6c0db09be86f79e4ced",
+        "file": "RedactCreatedtimeMetadata.java"
+      }
+    },
+    "example2": {
+      "title_left": "Odstranite metapodatke Createdtime v {{ProgLang}}",
+      "content_left": {
+        "step_1": "Vse ali določene metapodatke v dokumentu lahko zamenjate s praznimi (praznimi ali minimalnimi) vrednostmi z razredom EraseMetaDataRedAction. Naslednja koda prikazuje, kako lahko filtrirate in nato odstranite lastnost metapodatkov iz dokumenta {{EXT}}. Spodnji primer izprazni vse lastnosti dokumenta:"
+      },
+      "title_right": "Kako izbrisati metapodatke {{EXT}}",
+      "content_right": {
+        "step_1": "Ustvarite primerek razreda [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) in naložite datoteko {{EXT}}",
+        "step_2": "Ustvarite primerek razreda [MetadataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction), da odstranite metapodatke dokumenta",
+        "step_3": "Nastavite obseg za redakcijo z nastavitvijo filtra, npr. Zamenjaj metaDATAfilter.All z metaDATAfilter.CreatedTime v spodnji kodi",
+        "step_4": "Način shranjevanja klicev s predmetom [MetaDataSearchRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Sistemske zahteve",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API-ji so podprti na vseh večjih platformah in operacijskih sistemih. Za celoten vodnik po sistemskih zahtevah obiščite [sistemske zahteve](https://docs.groupdocs.com/redaction/java/system-requirements) Preden izvedete spodnjo kodo, se prepričajte, da imate v vašem sistemu nameščene naslednje predpogoje:",
+        "step_1": "Operacijski sistemi: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Razvojno okolje: NetBeans, Intellij IDEA, Eclipse itd",
+        "step_3": "Java Runtime Okolje: J2SE 6.0 in več",
+        "step_4": "Pridobite najnovejšo različico GroupDocs.Redaction for Java od [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Zakaj uporabljati GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Dovoli uporabnikom, da dodajo oblike dokumentov po meri in vrste redigiranja",
+        "step_2": "Za odstranjevanje občutljivih informacij ni potrebna dodatna programska oprema",
+        "step_3": "Sposobnost nastavitve dokumenta za upodabljanje obsega strani kot PDF",
+        "step_4": "Enostaven način za urejanje različnih vrst metapodatkov: ime avtorja, različica, naslov, predmet, opis in še veliko več",
+        "step_5": "Pridobivanje informacij o dokumentu - vrsta datoteke, število strani itd."
+      }
+    }
+  },
+  "about_formats": "resnično"
+}

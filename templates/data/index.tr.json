@@ -1,0 +1,51 @@
+{
+  "layout": "ürün",
+  "head": {
+    "title": "Belge Redaksiyon Çözümü | On Premise API'ler ve Ücretsiz Uygulama",
+    "description": "MS Office Word belgelerde, Excel elektronik tablolarda, PowerPoint sunumlarda, PDF ve resim dosyası formatlarında meta verileri ve metin içeriğini kaldırın, düzenleyin veya gizleyin."
+  },
+  "header": {
+    "title": "Gizli Bilgileri Güvenceye Etmek İçin Redaksiyon Çözümü",
+    "description": "Microsoft Office belgelerden, elektronik tablolardan, sunumlardan, PDF ve resimlerden özel bilgileri gizleyin veya kaldırın."
+  },
+  "apis": {
+    "code": {
+      "title": "GroupDocs.Redaction High Code API'ler Dahil",
+      "label": "Tüm High Code API'lerini Görüntüle",
+      "net": {
+        "title": "GroupDocs.Redaction for .NET",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png",
+        "product": "GroupDocs.Redaction için",
+        "content": "İçeriği ve meta verileri kişisel belgelerinizden gizlemek veya kaldırmak için Premise .NET API."
+      },
+      "java": {
+        "title": "GroupDocs.Redaction for Java",
+        "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png",
+        "product": "GroupDocs.Redaction için",
+        "content": "Öncül Java Desteklenen dosya biçimlerinin içeriğinden ve meta verilerinden metin kaldırmak veya gizlemek için API'ler."
+      }
+    },
+    "apps": {
+      "title": "GroupDocs.Redaction No Code Uygulamalar şunları içerir:",
+      "label": "Hepsini Görüntüle No Code Uygulamaları",
+      "total": {
+        "title": "GroupDocs.Redaction Total",
+        "image": "https://www.aspose.cloud/templates/asposeapp/images/products/logo/asposeredaction-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Word, Excel, PowerPoint, PDF ve diğer birçok belge türünden hassas bilgileri redakte etmek için tek uygulama."
+      },
+      "docx": {
+        "title": "GroupDocs.Redaction DOCX",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocswords-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "Herhangi bir web tarayıcısını kullanarak Word belgelerdeki bilgileri yeniden düzenleyin."
+      },
+      "pdf": {
+        "title": "GroupDocs.Redaction PDF",
+        "image": "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocspdf-app.png",
+        "product": "GroupDocs.Redaction",
+        "content": "PDF belgelerinizdeki içeriği çevrimiçi olarak ücretsiz olarak kaldırın."
+      }
+    }
+  }
+}

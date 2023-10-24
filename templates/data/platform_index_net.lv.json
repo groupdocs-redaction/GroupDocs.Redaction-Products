@@ -1,0 +1,110 @@
+{
+  "layout": "produkts",
+  "head": {
+    "title": "C# .NET Redakcijas API | Slēpt privāto tekstu no PDF Word Excel Attēli",
+    "description": "Dokumenta redakcijas API priekš .NET. Redaktējiet, paslēpiet vai noņemiet sensitīvu saturu no PDF, Microsoft Word, Excel, prezentācijām un rastra attēliem."
+  },
+  "header": {
+    "title": "Droši klasificētie dati, izmantojot redakcijas API",
+    "description": "Redaktējiet, paslēpiet vai noņemiet sensitīvu saturu un metadatus no dokumentiem, darblapām, prezentācijām, PDF un rastra attēlu failiem, izmantojot .NET API."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Pārskats",
+      "button_text_2": "Features",
+      "button_text_3": "Atbalsts",
+      "button_text_4": "Live Demo",
+      "button_text_5": "Cenu noteikšana"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET ir API bibliotēka, kas palīdz izdzēst sensitīvus un klasificētus datus no dažādiem failu formātiem, piemēram, Microsoft Word, Excel, PowerPoint un PDF. Mūsu Redakcijas API viena formāta neatkarīgais interfeiss atbalsta dažādu veidu redakcijas, piemēram, teksta redakcijas, metadatu redakcijas, anotāciju redakcijas un tabulas dokumentu redakcijas. GroupDocs.Redaction for .NET API arī ļauj rediģēt ar paroli aizsargātus failus. Jums ir atļauts saglabāt dokumentu tā sākotnējā formātā, kā arī izveidot dezinficētu PDF dokumentu ar oriģinālllappušu rastra attēliem.",
+    "one": {
+      "description": "Tālāk ir sniegts pārskats par GroupDocs.Redaction par {{ProductName}}:",
+      "content": {
+        "title": "Pārskats",
+        "step_1": "Realizēt tekstu",
+        "step_2": "Reģēt metadatus",
+        "step_3": "Realizēt anotāciju",
+        "step_4": "Redakts tabulveida dokuments",
+        "step_5": "Realizēt aizsargātus failus",
+        "step_6": "Pielāgošana"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction {{ProductName}} atbalsta šādus [dokumentu failu formātus](https://docs.groupdocs.com/redaction//supported-document-formats/) :{{ProductCode}}",
+      "content": {
+        "title": "Realizēt tekstu, metadatus un komentārus",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Fiksēts izkārtojums**: PDF",
+        "step_5": "**Rastra attēli**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction {{ProductName}} atbalsta šādas operētājsistēmas, ietvarus un pakešu pārvaldniekus:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Operētājsistēmas",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux"
+          },
+          "row2": {
+            "title": "Atbalstītās sistēmas",
+            "data": "* .NET Framework 2.0 vai jaunāka versija
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-box",
+            "title": "Pakotnes pārvaldnieks",
+            "data": "* NuGet"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Attīstības vide",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction {{ProductName}} funkcijām",
+    "feature1": "Veiciet reģistrjutīgu meklēšanu precīzai frāžu redakcijas redakcijas veikšanai",
+    "feature2": "Krāsu lodziņa izmantošana, lai paslēptu redakcijas tekstu virknes aizstāšanas vietā",
+    "feature3": "Atrodiet un rediģējiet jebkuru tekstu, izmantojot regulāro izteiksmju meklēšanu",
+    "feature4": "Filtrēt visu vai jebkādu dokumenta klasificēto metadatu informācijas kombināciju",
+    "feature5": "Ātri izdzēsiet pilnu metadatu informāciju par konkrētu dokumentu",
+    "feature6": "Redakcijas tvēruma iestatīšana konkrētai darblapai un/vai kolonnai Excel",
+    "feature7": "Visu vai konkrētu komentāru un citu anotāciju noņemšana no dokumenta",
+    "feature8": "Sensitīvu datu meklēšana un noņemšana no anotācijas teksta",
+    "feature9": "Spēja strādāt ar saviem formātiem un redakcijas",
+    "feature10": "Atbalsts rastra attēlu formātiem un attēlu reģionu redakcijām",
+    "feature11": "Redakcijas kārtulu (politikas) kopas norādīšana XML failā",
+    "feature12": "Norādiet lappušu diapazonu un PDF atbilstības līmeni, konvertējot uz PDF",
+    "feature13": "Rediģēt vai dzēst EXIF metadatus no attēlu failiem",
+    "feature14": "Redakt iegultos attēlus iekšā PDF, Word & prezentācijas dokumentos",
+    "feature15": "Redakcijas politikas saglabāšana XML failā"
+  },
+  "more_features": {
+    "title": "Klasificēto datu rediģēšana, izmantojot vieglumu un kontroli",
+    "content": "{{ProductFullName}} API piešķir jums pilnīgu kontroli pār to, kā vēlaties paslēpt vai dzēst svarīgo klasificēto informāciju no atbalstītā dokumenta. Lai izmantotu mūsu Redaction API ir diezgan vienkāršs un taisni uz priekšu.",
+    "example": {
+      "description": "Šajā piemērā mēs ielādējam atbalstītu dokumentu, rediģējam jebkuru tekstu, saskaņojot “2 ciparus, atstarpi vai neko, 2 ciparus, atstarpes un 6 ciparus” (piemēram, 12 34 567890) ar zilu krāsu lodziņu, izmantojot {{ProgLang}}. Kad tas ir izdarīts, tas saglabā dokumentu sākotnējā formātā, pārdēvējot to ar pievienoto sufiksu “Redakts”:",
+      "comment_init": "Redaktora klases instances izveide",
+      "comment_apply": "Lietot redakciju"
+    }
+  },
+  "solutions": "GroupDocs.Redaction piedāvā dokumentu apskates API citām populārām izstrādes vidēm"
+}

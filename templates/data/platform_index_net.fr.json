@@ -1,0 +1,110 @@
+{
+  "layout": "product",
+  "head": {
+    "title": "API de rédaction C# .NET | Masquer le texte privé des images PDF Word Excel",
+    "description": "API de rédaction de documents pour .NET. Masquez, masquez ou supprimez le contenu sensible des PDF, Microsoft Word, Excel, des présentations et des images raster."
+  },
+  "header": {
+    "title": "Sécuriser les données classifiées via l'API de rédaction",
+    "description": "Masquez, masquez ou supprimez le contenu sensible et les métadonnées des documents, feuilles de calcul, présentations, fichiers PDF et images raster à l'aide de l'API .NET."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Aperçu",
+      "button_text_2": "Caractéristiques",
+      "button_text_3": "Support",
+      "button_text_4": "Live Demo",
+      "button_text_5": "Pricing"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction pour .NET est une bibliothèque d'API qui vous aide à effacer les données sensibles et classifiées de divers formats de fichiers, tels que Microsoft Word, Excel, PowerPoint et PDF. L'interface unique indépendante du format de notre API de rédaction prend en charge la rédaction de différents types, par exemple la rédaction de texte, la rédaction de métadonnées, la rédaction d'annotations et la rédaction de documents tabulaires. GroupDocs.Redaction pour l'API .NET vous permet également de supprimer des fichiers protégés par mot de passe. Vous êtes autorisé à enregistrer le document dans son format d'origine et à créer un document PDF épuré avec des images raster des pages d'origine.",
+    "one" : {
+      "description": "Voici un aperçu de GroupDocs.Redaction pour {{ProductName}}:",
+      "content": {
+        "title": "Aperçu",
+        "step_1": "Texte expurgé",
+        "step_2": "Masquer les métadonnées",
+        "step_3": "Expurger l'annotation",
+        "step_4": "Caviarder le document tabulaire",
+        "step_5": "Masquer les fichiers protégés",
+        "step_6": "Personnalisation"
+      }
+    },
+    "two" : {
+      "description": "GroupDocs.Redaction pour .NET prend en charge les [formats de fichier de document] suivants (https://docs.groupdocs.com/redaction/net/supported-document-formats/):",
+      "content": {
+        "title": "Caviarder le texte, les métadonnées et les commentaires",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Mise en page fixe**: PDF",
+        "step_5": "**Images tramées**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three" : {
+      "description": "GroupDocs.Redaction for .NET prend en charge la suite Systèmes d'exploitation, Frameworks & Directeur chargé d'emballages:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Systèmes d'exploitation",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux",
+          },
+          "row2": {
+            "title": "Cadres pris en charge",
+            "data": "* .NET Framework 2.0 ou supérieur
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-box",
+            "title": "Directeur chargé d'emballage",
+            "data": "* NuGet",
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Environnements de développement",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction for {{ProductName}} Caractéristiques",
+    "feature1": "Effectuez une recherche sensible à la casse pour la rédaction exacte de la phrase",
+    "feature2": "Utilisez la boîte de couleur pour masquer le texte expurgé au lieu du remplacement de chaîne",
+    "feature3": "Localisez et biffez n'importe quel texte à l'aide de la recherche d'expressions régulières",
+    "feature4": "Filtrer tout ou partie des informations de métadonnées classifiées du document",
+    "feature5": "Effacez rapidement les informations de métadonnées complètes d'un document spécifique",
+    "feature6": "Définir une portée de la biffure sur une feuille de calcul et/ou une colonne spécifique dans Excel",
+    "feature7": "Supprimer tout ou partie des commentaires et autres annotations du document",
+    "feature8": "Rechercher et supprimer des données sensibles du texte d'annotation",
+    "feature9": "Capacité à travailler avec vos propres formats et rédactions",
+    "feature10": "Prise en charge des formats d'image raster et des suppressions de régions d'image",
+    "feature11": "Spécifier un ensemble de règles de masquage (politique) dans le fichier XML",
+    "feature12": "Spécifiez la plage de pages et le niveau de conformité PDF lors de la conversion en PDF",
+    "feature13": "Modifier ou supprimer les métadonnées EXIF des fichiers image",
+    "feature14": "Masquer les images intégrées dans les documents PDF, Word et de présentation",
+    "feature15": "Enregistrer une politique de masquage en tant que fichier XML"
+  },
+  "more_features": {
+    "title": "Caviardez vos données classifiées avec facilité et contrôle",
+    "content": "L'API GroupDocs.Redaction pour .NET vous permet de contrôler totalement la manière dont vous souhaitez masquer ou effacer vos informations classifiées importantes du document pris en charge. Utiliser notre API de rédaction est assez simple et direct.",
+    "example": {
+      "description": "Dans l'exemple suivant, nous chargeons un document pris en charge, supprimons tout texte, correspondant à \"2 chiffres, espace ou rien, 2 chiffres, encore un espace et 6 chiffres\" (tel que 12 34 567890) avec une boîte de couleur bleue en utilisant C#. Une fois cela fait, il enregistre le document dans son format d'origine en le renommant avec un suffixe ajouté \"_Redacted\":",
+      "comment_init": "Créer une instance de la classe Redactor",
+      "comment_apply": "Appliquer la rédaction"
+    }
+  },
+  "solutions": "GroupDocs.Redaction propose des API de visualisation de documents pour d'autres environnements de développement populaires"
+}

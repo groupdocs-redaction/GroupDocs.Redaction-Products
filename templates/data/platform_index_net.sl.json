@@ -1,0 +1,110 @@
+{
+  "layout": "produkt",
+  "head": {
+    "title": "C# .NET API za redakcijo | Skrij zasebno besedilo iz PDF Word Excel Slike",
+    "description": "API za redakcijo dokumenta za .NET. Redaktirate, skrijete ali odstranite občutljivo vsebino iz PDF, Microsoft Word, Excel, predstavitev in rastrskih slik."
+  },
+  "header": {
+    "title": "Varujte zaupne podatke prek API-ja za redakcijo",
+    "description": "Redaktirajte, skrijete ali odstranite občutljivo vsebino in metapodatke iz dokumentov, delovnih listov, predstavitev, PDF in datotek rastrskih slik z uporabo API-ja .NET."
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Pregled",
+      "button_text_2": "Lastnosti",
+      "button_text_3": "Podpora",
+      "button_text_4": "Demo v živo",
+      "button_text_5": "Cenitev"
+    }
+  },
+  "tabs": {
+    "overview": "GroupDocs.Redaction for .NET je knjižnica API, ki vam pomaga izbrisati občutljive in razvrščene podatke iz različnih formatov datotek, kot so Microsoft Word, Excel, PowerPoint in PDF. Enotni vmesnik, ki je odvisen od formata, podpira redakcijo različnih vrst, npr. redigiranje besedila, redigiranje metapodatkov, redakcijo opomb in redigiranje tabelarnih dokumentov. GroupDocs.Redaction for .NET API vam omogoča tudi redigiranje datotek, zaščitenih z geslom. Dokument lahko shranite v izvirni obliki in ustvarite saniran dokument PDF z rastrskimi slikami izvirnih strani.",
+    "one": {
+      "description": "Sledi pregled GroupDocs.Redaction za {{ProductName}}:",
+      "content": {
+        "title": "Pregled",
+        "step_1": "Redegirano besedilo",
+        "step_2": "Redegirajoči metapodatki",
+        "step_3": "Redigiranje pripombe",
+        "step_4": "Redegirajte tabelarni dokument",
+        "step_5": "Redegirajte zaščitene datoteke",
+        "step_6": "Prilagajanje"
+      }
+    },
+    "two": {
+      "description": "GroupDocs.Redaction za {{ProductName}} podpira naslednje [oblike datotek dokumenta](https://docs.groupdocs.com/redaction//supported-document-formats/) :{{ProductCode}}",
+      "content": {
+        "title": "Redaktirajte besedilo, metapodatke in komentarje",
+        "step_1": "**Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF",
+        "step_2": "**Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV",
+        "step_3": "**PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM",
+        "step_4": "**Fiksna postavitev**: PDF",
+        "step_5": "**Rastrske slike**: JPG, BMP, PNG, GIF, TIFF"
+      }
+    },
+    "three": {
+      "description": "GroupDocs.Redaction za {{ProductName}} podpira naslednje operacijske sisteme, okvire in upravljalce paketov:",
+      "content": {
+        "left": {
+          "row1": {
+            "title": "Operacijski sistemi",
+            "data": "* Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux"
+          },
+          "row2": {
+            "title": "Podprti okviri",
+            "data": "* .NET Framework 2.0 ali več
+                * .NET Standard 2.0
+                * .NET Core 2.0"
+          }
+        },
+        "right": {
+          "row1": {
+            "icon": "fas fa-box",
+            "title": "Upravitelj paketov",
+            "data": "* NuGet"
+          },
+          "row2": {
+            "icon": "fas fa-tools",
+            "title": "Razvojna okolja",
+            "data": "* Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop"
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Redaction za {{ProductName}} Lastnosti",
+    "feature1": "Izvedite iskanje, občutljivo na velike črke, za natančno redakcijo besednih zvez",
+    "feature2": "Uporabite barvno polje, da skrijete redigirano besedilo namesto zamenjave niza",
+    "feature3": "Poiščite in redigirajte poljubno besedilo z iskanjem z regularnim izrazom",
+    "feature4": "Filtrirajte vse ali katero koli kombinacijo tajnih metapodatkov dokumenta",
+    "feature5": "Hitro izbrišite popolne podatke o metapodatkih določenega dokumenta",
+    "feature6": "Nastavite obseg redakcije na določen delovni list in/ali stolpec v Excel",
+    "feature7": "Odstranite vse ali posebne komentarje in druge pripombe iz dokumenta",
+    "feature8": "Iskanje in odstranjevanje občutljivih podatkov iz besedila opombe",
+    "feature9": "Sposobnost dela s svojimi formati in redakcijami",
+    "feature10": "Podpora za formate rastrskih slik in redakcije slikovnih regij",
+    "feature11": "Določite niz pravil za redigiranje (pravilnik) v datoteki XML",
+    "feature12": "Določite obseg strani in PDF Raven skladnosti med pretvorbo v PDF",
+    "feature13": "Urejanje ali brisanje metapodatkov EXIF iz slikovnih datotek",
+    "feature14": "Redigiranje vdelanih slik znotraj PDF, Word in predstavitvenih dokumentov",
+    "feature15": "Shranite pravilnik o redakciji kot datoteko XML"
+  },
+  "more_features": {
+    "title": "Redaktirajte svoje zaupne podatke z lahkoto & Control",
+    "content": "{{ProductFullName}} API vam omogoča popoln nadzor nad tem, kako želite skriti ali izbrisati pomembne zaupne podatke iz podprtega dokumenta. Uporaba našega API-ja za redakcijo je precej preprosta in naravnost naprej.",
+    "example": {
+      "description": "V naslednjem primeru naložimo podprti dokument, redigiramo poljubno besedilo, ujemajoč »2 števki, presledek ali nič, 2 števki, spet prostor in 6 števk« (na primer 12 34 567890) z modro barvno škatlo z uporabo {{ProgLang}}. Ko je to storjeno, dokument shrani v prvotni obliki, tako da ga preimenuje z dodano pripono »Redizirano«:",
+      "comment_init": "Ustvarite primerek razreda Redactor",
+      "comment_apply": "Uporabi redakcijo"
+    }
+  },
+  "solutions": "GroupDocs.Redaction ponuja API-je za ogled dokumentov za druga priljubljena razvojna okolja"
+}

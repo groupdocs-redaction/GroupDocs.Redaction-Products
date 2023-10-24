@@ -1,0 +1,89 @@
+{
+  "layout": "auto-gen-gist",
+  "head": {
+    "title": "{{EXT}} Tekst redigeren via exacte frase/reguliere expressie in Java",
+    "description": "GroupDocs.Redaction s Java API stelt ontwikkelaars in staat om tekst uit PDF DOC DOCX RTF XLSX CSV PPT PPTX en afbeeldingen te redigeren via een exacte woordgroep of reguliere expressie in Java"
+  },
+  "header": {
+    "title": "Hoe kan ik tekst uit {{EXT}} bestanden redigeren, verbergen of verwijderen met Java",
+    "description": "De Java API van GroupDocs.Redaction maakt het mogelijk om gevoelige tekst te redigeren, te verbergen of te verwijderen uit tekstverwerkingsdocumenten, werkbladen, presentaties, PDF s en afbeeldingen."
+  },
+  "about": {
+    "title": "Wat is tekstredactie?",
+    "h1": "Tekstredactie is het proces waarbij de vertrouwelijke of ongewenste tekst of informatie uit digitale documenten wordt verwijderd terwijl de rest van het document of de alinea die de tekst bevat intact blijft. Redactie helpt gebruikers en organisaties hun gevoelige informatie te beschermen door ze te verbergen of permanent te verwijderen. Met de GroupDocs.Redaction Java API kunnen gebruikers nu gevoelige tekst redigeren, verbergen of verwijderen uit tekstverwerkingsdocumenten, werkbladen, presentaties, PDF en rasterafbeeldingsbestanden. De API biedt een breed scala aan opties en methoden voor het redigeren van privé-informatie in de documenten. Het ondersteunt zoeken en redigeren met behulp van exacte vergelijkings- of reguliere expressies, het gebruik van tekstuele (vrijstellingscodes) of grafische (gekleurde rechthoeken) redacties en nog veel meer. Probeer het dus eens uit en automatiseer het redactieproces van uw documenten door de API te downloaden en de basis- en geavanceerde functies ervan te verkennen. ",
+    "h2": "{{ProductFullName}} API is een juiste keuze voor bedrijfsoplossingen waarvoor functies voor het combineren van bestanden nodig zijn. Deze API's worden goed ondersteund op alle belangrijke besturingssystemen en platforms, waaronder {{Runtime}}"
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "{{EXT}} Exacte zin redigeren in Java",
+      "content_left": {
+        "step_1": "GroupDocs.Redaction maakt het mogelijk om gegevens van gevoelige of persoonlijke aard eenvoudig uit uw documenten te redigeren. De meest populaire redactiesituatie is het verwijderen van een tekst uit een document.",
+        "step_2": "De volgende code kan worden gebruikt om tekstuele redactie toe te passen op een bepaald deel van een document via een exacte woordgroep. Hiermee kunnen gebruikers de persoonlijke exacte uitdrukking „Michal Clark” vervangen door een persoonlijke zin (of een vrijstellingscode),"
+      },
+      "title_right": "Gevoelige gegevens verwijderen uit {{EXT}}",
+      "content_right": {
+        "step_1": "Maak een exemplaar van de klasse [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) en upload het {{EXT}} -bestand",
+        "step_2": "Roep de methode Redactor.apply aan met een nieuwe instantie van de ExactPhraseRedAction-klasse",
+        "step_3": "Roep de redactor.save-methode aan met het object [ExactPhraseRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Roep de methode redactor.save aan om de wijzigingen op te slaan"
+      },
+      "gist": {
+        "hash": "3202859fc19b5dfd14e8f073b70a18f8",
+        "file": "redactexactphrase.java"
+      }
+    },
+    "example2": {
+      "title_left": "Redactie van hoofdlettergevoelige tekst in {{EXT}}",
+      "content_left": {
+        "step_1": "In het volgende voorbeeld kunnen gebruikers hoofdlettergevoelige woordbewerkingen uitvoeren om een bepaald stuk tekst in een document te verwijderen of te verbergen. Zoeken naar de exacte woordgroep is standaard niet hoofdlettergevoelig."
+      },
+      "title_right": "Hoofdlettergevoelige redactie uitvoeren via Java",
+      "content_right": {
+        "step_1": "Maak een exemplaar van de klasse [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) en upload het {{EXT}} -bestand",
+        "step_2": "Roep de methode Redactor.apply aan met een nieuwe instantie van de ExactPhraseRedAction-klasse",
+        "step_3": "Roep de redactor.save-methode aan met het object [ExactPhraseRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Roep de methode redactor.save aan om de wijzigingen op te slaan"
+      },
+      "gist": {
+        "hash": "a43e3ce358f93df92373b5441bc579fb",
+        "file": "casesensitiveredaction.java"
+      }
+    },
+    "example3": {
+      "title_left": "Tekst redigeren in {{EXT}} via het kleurvak",
+      "content_left": {
+        "step_1": "In plaats van een geredigeerde tekst te verwijderen of daar een string te plaatsen, is het ook mogelijk om een kleurvak over de geredigeerde tekst te plaatsen. In dit geval wordt de overeenkomende tekst verwijderd en wordt een gekleurde rechthoek over geredigeerde tekst geplaatst."
+      },
+      "title_right": "Kleurvak gebruiken om tekst te verwijderen in Java",
+      "content_right": {
+        "step_1": "Maak een exemplaar van de klasse [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) en upload het {{EXT}} -bestand",
+        "step_2": "Roep de methode Redactor.apply aan met een nieuwe instantie van de ExactPhraseRedAction-klasse",
+        "step_3": "Roep de redactor.save-methode aan met het object [ExactPhraseRedAction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction)",
+        "step_4": "Roep de methode redactor.save aan om de wijzigingen op te slaan"
+      },
+      "gist": {
+        "hash": "6d83e791388b6834a372dc90f4b455f6",
+        "file": "redacttextusingcolorbox.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Systeemvereisten",
+      "content_left": {
+        "description": "GroupDocs.Redaction for Java API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Ga voor een volledige handleiding met systeemvereisten naar [systeemvereisten](https://docs.groupdocs.com/redaction/java/system-requirements) Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd:",
+        "step_1": "Besturingssystemen: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Ontwikkelingsomgeving: NetBeans, Intellij IDEA, Eclipse enz",
+        "step_3": "Java Runtime-omgeving: J2SE 6.0 en hoger",
+        "step_4": "Download de laatste versie van GroupDocs.Redaction for Java van [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Waarom GroupDocs.Redaction gebruiken",
+      "content_right": {
+        "step_1": "Gebruikers toestaan aangepaste documentformaten en soorten redacties toe te voegen",
+        "step_2": "Er is geen aanvullende software nodig om gevoelige informatie te verwijderen",
+        "step_3": "Mogelijkheid om het weergavedocument voor paginabereik in te stellen als PDF",
+        "step_4": "Eenvoudige manier om verschillende soorten metagegevens te redigeren: auteursnaam, versie, titel, onderwerp, beschrijving en nog veel meer",
+        "step_5": "Extractie van documentinformatie - bestandstype, aantal pagina's, enz."
+      }
+    }
+  },
+  "about_formats": "false"
+}

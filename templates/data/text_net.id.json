@@ -1,0 +1,33 @@
+{
+  "layout": "autogen",
+  "head": {
+    "title": "Redact Informasi Sensitif dari Dokumen melalui .NET Core",
+    "description": "Terapkan redaksi teks menggunakan frasa tepat atau ekspresi reguler untuk dokumen dengan format berbeda"
+  },
+  "header": {
+    "title": "Redact File {{EXT}} melalui {{ProgLang}} di .NET Core Apps",
+    "description": "Cari & Ganti Teks di Dokumen Office & OpenOffice, Spreadsheet & Presentasi serta {{EXT}} di Windows, Linux & macOS"
+  },
+  "about": {
+    "title": "Penyuntingan Dokumen untuk .NET API",
+    "h1": "Antarmuka format-independen tunggal untuk menyunting informasi sensitif dan rahasia dari PDF, Word, Excel, dokumen dan gambar PowerPoint, termasuk kemampuan untuk mengubah metadata dan menghapus komentar. Dengan alat GroupDocs.Redaction Anda dapat menyunting teks dan menyimpan dokumen yang telah disunting dalam PDF, mengubah semua halaman menjadi gambar raster atau menyimpan dokumen dalam format aslinya untuk pengeditan lebih lanjut.",
+  },
+  "steps": {
+      "title_left": "Redact Teks Tepat dari {{EXT}} melalui {{ProgLang}}",
+      "content_left": {
+        "description": "[GroupDocs.Redaction](/id/redaction/net/) memudahkan pengembang .NET untuk menambahkan fitur redaksi file {{EXT}} dengan beberapa langkah mudah.",
+        "step_1": "Buat instance kelas [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) & muat file {{EXT}}",
+        "step_2": "Buat instance kelas [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) untuk menemukan dan mengganti teks",
+        "step_3": "Panggil metode [Redactor.Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) dengan objek ExactPhraseRedaction"
+      },
+      "title_right": "Memulai dengan Redaction API",
+      "content_right": {
+        "description": "",
+        "step_1": "Instal dari baris perintah sebagai ```nuget install GroupDocs.Redaction``` atau melalui Package Manager Console dari Visual Studio dengan ```Install-Package GroupDocs.Redaction```.",
+        "step_2": "Atau, dapatkan penginstal MSI offline atau DLL dalam file ZIP dari [downloads](https://downloads.groupdocs.com/redaction/net), dan rujuk di project Anda secara manual.",
+        "step_3": "",
+        "step_4": ""
+      }
+  },
+  "about_formats": "true"
+}

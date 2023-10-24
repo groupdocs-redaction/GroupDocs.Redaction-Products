@@ -1,0 +1,72 @@
+{
+  "layout": "gen-gist automatico",
+  "head": {
+    "title": "Modifica il nome della categoria dai metadati {{EXT}} in {{ProgLang}}",
+    "description": "GroupDocs.Redaction s fornisce un'API flessibile che consente di cercare e sostituire/rimuovere qualsiasi proprietà dei metadati utilizzando i filtri.",
+    "ad_headline": "Modificare i metadati | {{ProgLang}}",
+    "ad_description": "Modifica il nome della categoria dai metadati {{EXT}} in {{ProgLang}}"
+  },
+  "header": {
+    "title": "Modifica il nome della categoria dai metadati {{EXT}} in {{ProgLang}}",
+    "description": "GroupDocs.Redaction s fornisce un'API flessibile che consente di cercare e sostituire/rimuovere qualsiasi proprietà dei metadati utilizzando i filtri."
+  },
+  "about": {
+    "title": "Cos'è la redazione dei metadati?",
+    "h1": "La redazione si riferisce alla rimozione di informazioni indesiderate o riservate dai documenti elettronici. Tutti i formati di file tra cui PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX e altri hanno alcune proprietà di metadati. Queste proprietà includono il nome dell'autore, la categoria, il nome dell'azienda, i commenti, l'ora di creazione, l'ultimo aggiornamento e molte altre. A volte è necessario eliminare completamente i campi di metadati indesiderati o è possibile aggiornarne i valori. Ci sono anche alcuni dati nascosti associati ai file che possono essere visualizzati utilizzando vari strumenti e tecniche. Ci sono molti casi in cui non si desidera che nessuno acceda a questi dati. Con l'API GroupDocs.Redaction puoi applicare le redazioni dei metadati a qualsiasi di queste proprietà dei metadati. Puoi modificarli o eliminarli filtrando i metadati che desideri. In questa guida spiegheremo come puoi oscurare il nome della categoria dai metadati {{EXT}} in {{ProgLang}}."
+  },
+  "blocks": {
+    "example1": {
+      "title_left": "Modificare i metadati {{EXT}} in {{ProgLang}}",
+      "content_left": {
+        "step_1": "Il codice seguente consente di cercare e redigere dati sensibili da un documento {{EXT}}. Puoi impostare l'ambito di redazione impostando il filtro, ad esempio su MetadataFilter.Category. - lascerà le corrispondenze delle espressioni regolari annullate in tutti gli elementi dei metadati, ad eccezione della proprietà «Category»:"
+      },
+      "title_right": "Come oscurare i metadati {{EXT}}",
+      "content_right": {
+        "step_1": "Crea un'istanza della classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) e carica il file {{EXT}}",
+        "step_2": "Crea un'istanza della classe [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) per trovare e sostituire i dati sensibili dai metadati del documento",
+        "step_3": "Imposta l'ambito di redazione impostando il filtro, ad esempio Usa metadataFilters.category nel codice seguente",
+        "step_4": "Chiama il metodo redactor.save con l'oggetto di [metadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "480e989781148cd44a7aa8823887ae21",
+        "file": "RedactCategoryMetadata.java"
+      }
+    },
+    "example2": {
+      "title_left": "Rimuovi {{EXT}} metadati in {{ProgLang}}",
+      "content_left": {
+        "step_1": "È possibile sostituire tutti i metadati o specifici del documento con valori vuoti (vuoti o minimi) utilizzando la classe EraseMetadataRedAction. Il codice seguente mostra come filtrare e quindi rimuovere una proprietà di metadati da un documento {{EXT}}. L'esempio seguente elimina tutte le proprietà del documento:"
+      },
+      "title_right": "Cancella i metadati delle categorie dal file {{EXT}}",
+      "content_right": {
+        "step_1": "Crea un'istanza della classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) e carica il file {{EXT}}",
+        "step_2": "Crea un'istanza della classe [MetadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction) per rimuovere i metadati del documento",
+        "step_3": "Imposta l'ambito di redazione impostando il filtro, ad esempio Sostituisci MetadataFilter.all con MetadataFilter.category nel codice seguente",
+        "step_4": "Chiama il metodo redactor.save con l'oggetto di [metadataSearchRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/MetadataSearchRedaction)"
+      },
+      "gist": {
+        "hash": "84586804ee996134fd12f2061f989fd5",
+        "file": "CleanMetadata.java"
+      }
+    },
+    "requirements": {
+      "title_left": "Requisiti di sistema",
+      "content_left": {
+        "description": "Le GroupDocs.Redaction for Java API sono supportate su tutte le principali piattaforme e sistemi operativi. Per una guida completa ai requisiti di sistema, visita [requisiti di sistema](https://docs.groupdocs.com/redaction/java/system-requirements) Prima di eseguire il codice riportato di seguito, assicurati di avere i seguenti prerequisiti installati sul tuo sistema:",
+        "step_1": "Sistemi operativi: Microsoft Windows, Linux, Mac OS",
+        "step_2": "Ambiente di sviluppo: NetBeans, Intellij IDEA, Eclipse ecc",
+        "step_3": "Java Ambiente di runtime: J2SE 6.0 e versioni successive",
+        "step_4": "Scarica l'ultima versione di GroupDocs.Redaction for Java da [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction)"
+      },
+      "title_right": "Perché usare GroupDocs.Redaction",
+      "content_right": {
+        "step_1": "Consenti agli utenti di aggiungere formati di documenti e tipi di redazioni personalizzati",
+        "step_2": "Non è richiesto alcun software aggiuntivo per rimuovere le informazioni sensibili",
+        "step_3": "Possibilità di impostare il documento di rendering dell'intervallo di pagine come PDF",
+        "step_4": "Un modo semplice per oscurare diversi tipi di metadati: nome dell'autore, versione, titolo, oggetto, descrizione e molti altri",
+        "step_5": "Estrazione di informazioni sui documenti: tipo di file, numero di pagine ecc."
+      }
+    }
+  },
+  "about_formats": "vero"
+}

@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "On Premise Java APIs to remove or hide text from content and metadata of supported file formats."
 
+        # api_product loop
+        - link: "/redaction/java/"
+          img_alt: "GroupDocs.Redaction for Java"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Java"
+          content: "On Premise Java APIs to remove or hide text from content and metadata of supported file formats."
+
     # api loop
     - title: "GroupDocs.Redaction No Code Apps Include"
       link: "https://products.groupdocs.app/redaction"

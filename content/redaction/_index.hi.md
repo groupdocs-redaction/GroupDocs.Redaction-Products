@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "समर्थित फ़ाइल स्वरूपों की सामग्री और मेटाडेटा से टेक्स्ट हटाने या छिपाने के लिए Premise Java API पर।"
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "समर्थित फ़ाइल स्वरूपों की सामग्री और मेटाडेटा से टेक्स्ट हटाने या छिपाने के लिए Premise Python API पर।"
+
     # api loop
     - title: "GroupDocs.Redaction No Code ऐप्स शामिल हैं"
       link: "https://products.groupdocs.app/redaction"

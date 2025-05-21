@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "Par priekšnoteikumu Java API, lai noņemtu vai paslēptu tekstu no satura un atbalstīto failu formātu metadatiem."
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "Par priekšnoteikumu Python API, lai noņemtu vai paslēptu tekstu no satura un atbalstīto failu formātu metadatiem."
+
     # api loop
     - title: "GroupDocs.Redaction No Code Lietotnes ietver"
       link: "https://products.groupdocs.app/redaction"

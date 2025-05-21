@@ -237,8 +237,15 @@ solutions:
 
     solution:
         # solution loop
+        - img_alt: "GroupDocs.Redaction for .NET"
+          image: "/border/groupdocs-redaction-net.svg"
+          product: "GroupDocs.Redaction"
+          platform: ".NET"
+          link: "/redaction/net/"
+
+        # solution loop
         - img_alt: "GroupDocs.Redaction for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
+          image: "/border/groupdocs-redaction-java.svg"
           product: "GroupDocs.Redaction"
           platform: "Java"
           link: "/redaction/java/"

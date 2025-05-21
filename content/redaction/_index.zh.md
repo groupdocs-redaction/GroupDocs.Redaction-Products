@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "On Premise Java API，用于从支持的文件格式的内容和元数据中删除或隐藏文本."
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "On Premise Python API，用于从支持的文件格式的内容和元数据中删除或隐藏文本."
+
     # api loop
     - title: "GroupDocs.Redaction 无代码应用程序包括"
       link: "https://products.groupdocs.app/redaction"

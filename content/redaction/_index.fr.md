@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "API Java sur site pour supprimer ou masquer le texte du contenu et des métadonnées des formats de fichiers pris en charge."
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "API Python sur site pour supprimer ou masquer le texte du contenu et des métadonnées des formats de fichiers pris en charge."
+
     # api loop
     - title: "GroupDocs.Redaction Aucune application de code n'inclut"
       link: "https://products.groupdocs.app/redaction"

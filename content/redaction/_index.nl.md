@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "On-premise Java API's om tekst uit inhoud en metagegevens van ondersteunde bestandsindelingen te verwijderen of te verbergen."
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "On-premise Python API's om tekst uit inhoud en metagegevens van ondersteunde bestandsindelingen te verwijderen of te verbergen."
+
     # api loop
     - title: "GroupDocs.Redaction No Code Apps omvatten"
       link: "https://products.groupdocs.app/redaction"

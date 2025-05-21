@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "Lokale Java-APIs zum Entfernen oder Ausblenden von Text aus Inhalten und Metadaten unterstützter Dateiformate."
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "Lokale Python-APIs zum Entfernen oder Ausblenden von Text aus Inhalten und Metadaten unterstützter Dateiformate."
+
     # api loop
     - title: "GroupDocs.Redaction Keine Code-Apps enthalten"
       link: "https://products.groupdocs.app/redaction"

@@ -6,8 +6,8 @@ draft: false
 
 product: "Redaction"
 product_tag: "redaction"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "C# .NET Schwärzungs-API | Verstecken Sie privaten Text aus PDF-Word-Excel-Bildern"
@@ -237,8 +237,15 @@ solutions:
 
     solution:
         # solution loop
+        - img_alt: "GroupDocs.Redaction for .NET"
+          image: "/border/groupdocs-redaction-net.svg"
+          product: "GroupDocs.Redaction"
+          platform: ".NET"
+          link: "/redaction/net/"
+
+        # solution loop
         - img_alt: "GroupDocs.Redaction for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
+          image: "/border/groupdocs-redaction-java.svg"
           product: "GroupDocs.Redaction"
           platform: "Java"
           link: "/redaction/java/"

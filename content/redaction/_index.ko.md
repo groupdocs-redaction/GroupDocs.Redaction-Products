@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "지원되는 파일 형식의 콘텐츠 및 메타데이터에서 텍스트를 제거하거나 숨기는 On-Premise Java API"
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "지원되는 파일 형식의 콘텐츠 및 메타데이터에서 텍스트를 제거하거나 숨기는 On-Premise Python API"
+
     # api loop
     - title: "GroupDocs.Redaction No Code 개의 앱이 포함되어 있습니다"
       link: "https://products.groupdocs.app/redaction"

@@ -238,10 +238,17 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Redaction for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
+          image: "/border/groupdocs-redaction-java.svg"
           product: "GroupDocs.Redaction"
           platform: "Java"
           link: "/redaction/java/"
+
+        # solution loop
+        - img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction"
+          platform: "Python via .NET"
+          link: "/redaction/python-net/"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "Öncül Java Desteklenen dosya biçimlerinin içeriğinden ve meta verilerinden metin kaldırmak veya gizlemek için API'ler."
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "Öncül Python Desteklenen dosya biçimlerinin içeriğinden ve meta verilerinden metin kaldırmak veya gizlemek için API'ler."
+
     # api loop
     - title: "GroupDocs.Redaction No Code Uygulamalar şunları içerir:"
       link: "https://products.groupdocs.app/redaction"

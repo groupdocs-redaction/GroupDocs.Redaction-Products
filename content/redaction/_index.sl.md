@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "V vmesnikih Java API-jev želite odstraniti ali skriti besedilo iz vsebine in metapodatkov podprtih formatov datotek."
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "V vmesnikih Python API-jev želite odstraniti ali skriti besedilo iz vsebine in metapodatkov podprtih formatov datotek."
+
     # api loop
     - title: "GroupDocs.Redaction No Code Aplikacije vključujejo"
       link: "https://products.groupdocs.app/redaction"

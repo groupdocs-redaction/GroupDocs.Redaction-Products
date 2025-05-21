@@ -38,6 +38,14 @@ apis:
           platform: "Java"
           content: "サポートされているファイル形式のコンテンツとメタデータからテキストを削除または非表示にするオンプレミス Java API。"
 
+        # api_product loop
+        - link: "/redaction/python-net/"
+          img_alt: "GroupDocs.Redaction for Python via .NET"
+          image: "/border/groupdocs-redaction-python-net.svg"
+          product: "GroupDocs.Redaction for"
+          platform: "Python via .NET"
+          content: "サポートされているファイル形式のコンテンツとメタデータからテキストを削除または非表示にするオンプレミス Python API。"
+
     # api loop
     - title: "GroupDocs.Redaction No Code アプリには以下が含まれます"
       link: "https://products.groupdocs.app/redaction"

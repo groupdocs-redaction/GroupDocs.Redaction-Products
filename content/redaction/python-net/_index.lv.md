@@ -6,16 +6,16 @@ draft: false
 
 product: "Redaction"
 product_tag: "redaction"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "C# .NET Redakcijas API | Slēpt privāto tekstu no PDF Word Excel Attēli"
-head_description: "Dokumenta redakcijas API priekš .NET. Redaktējiet, paslēpiet vai noņemiet sensitīvu saturu no PDF, Microsoft Word, Excel, prezentācijām un rastra attēliem."
+head_title: "Python via .NET Redakcijas API | Slēpt privāto tekstu no PDF Word Excel Attēli"
+head_description: "Dokumenta redakcijas API priekš Python. Redaktējiet, paslēpiet vai noņemiet sensitīvu saturu no PDF, Microsoft Word, Excel, prezentācijām un rastra attēliem."
 
 ############################# Header ############################
 title: "Droši klasificētie dati, izmantojot redakcijas API"
-description: "Redaktējiet, paslēpiet vai noņemiet sensitīvu saturu un metadatus no dokumentiem, darblapām, prezentācijām, PDF un rastra attēlu failiem, izmantojot .NET API."
+description: "Redaktējiet, paslēpiet vai noņemiet sensitīvu saturu un metadatus no dokumentiem, darblapām, prezentācijām, PDF un rastra attēlu failiem, izmantojot Python API."
 button:
     enable: true
 
@@ -24,10 +24,10 @@ submenu:
     enable: true
     
     left:
-        img_alt: "GroupDocs.Redaction for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
+        img_alt: "GroupDocs.Redaction for Python via .NET"
+        image: "/border/groupdocs-redaction-python-net.svg"
         product: "GroupDocs.Redaction"
-        platform: ".NET"
+        platform: "Python via .NET"
 
     middle:
         button:
@@ -53,21 +53,21 @@ submenu:
 
     right:
         link_download: "https://downloads.groupdocs.com/redaction"
-        link_learn: "https://docs.groupdocs.com/redaction/net/"
+        link_learn: "https://docs.groupdocs.com/redaction/python-net/"
         link_buy: "https://purchase.groupdocs.com"
 
 ############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Redaction for .NET ir API bibliotēka, kas palīdz izdzēst sensitīvus un klasificētus datus no dažādiem failu formātiem, piemēram, Microsoft Word, Excel, PowerPoint un PDF. Mūsu Redakcijas API viena formāta neatkarīgais interfeiss atbalsta dažādu veidu redakcijas, piemēram, teksta redakcijas, metadatu redakcijas, anotāciju redakcijas un tabulas dokumentu redakcijas. GroupDocs.Redaction for .NET API arī ļauj rediģēt ar paroli aizsargātus failus. Jums ir atļauts saglabāt dokumentu tā sākotnējā formātā, kā arī izveidot dezinficētu PDF dokumentu ar oriģinālllappušu rastra attēliem.
+      GroupDocs.Redaction for Python via .NET ir API bibliotēka, kas palīdz izdzēst sensitīvus un klasificētus datus no dažādiem failu formātiem, piemēram, Microsoft Word, Excel, PowerPoint un PDF. Mūsu Redakcijas API viena formāta neatkarīgais interfeiss atbalsta dažādu veidu redakcijas, piemēram, teksta redakcijas, metadatu redakcijas, anotāciju redakcijas un tabulas dokumentu redakcijas. GroupDocs.Redaction for Python via .NET API arī ļauj rediģēt ar paroli aizsargātus failus. Jums ir atļauts saglabāt dokumentu tā sākotnējā formātā, kā arī izveidot dezinficētu PDF dokumentu ar oriģinālllappušu rastra attēliem.
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          Tālāk ir sniegts pārskats par GroupDocs.Redaction par .NET:
+          Tālāk ir sniegts pārskats par GroupDocs.Redaction par Python:
       
         right:
           enable: true
@@ -84,7 +84,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Redaction .NET atbalsta šādus [dokumentu failu formātus](https://docs.groupdocs.com/redaction//supported-document-formats/) :net
+          GroupDocs.Redaction Python atbalsta šādus [dokumentu failu formātus](https://docs.groupdocs.com/redaction/python-net/supported-document-formats/)
 
         right:
           enable: true
@@ -101,7 +101,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Redaction .NET atbalsta šādas operētājsistēmas, ietvarus un pakešu pārvaldniekus:
+          GroupDocs.Redaction Python atbalsta šādas operētājsistēmas, ietvarus un pakešu pārvaldniekus:
         
         left:
           enable: true
@@ -110,18 +110,20 @@ overview:
             - icon: "fab fa-windows"
               title: "Operētājsistēmas"
               content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
+                * any 32-bit or 64-bit operating system where .NET 6 is installed
+                * Mac OS X and so far only the ARM64 architecture
+                * Microsoft Windows Server 2003 and later
+                * Microsoft Windows XP (x64, x86)
+                * Microsoft Windows Vista (x64, x86)
+                * Microsoft Windows 7, 8, 8.1 (x64, x86)
+                * Microsoft Windows 10 (x64, x86)
+                * Microsoft Windows 11 (x64)
 
             # table loop
             - icon: "fas fa-code"
               title: "Atbalstītās sistēmas"
               content: |
-                * .NET Framework 2.0 vai jaunāka versija
-                * .NET Standard 2.0
-                * .NET Core 2.0
+                * .NET 6 or higher
 
         right:
           enable: true
@@ -130,22 +132,22 @@ overview:
             - icon: "fas fa-box"
               title: "Pakotnes pārvaldnieks"
               content: |
-                * NuGet
+                * PyPi
 
             # table loop
             - icon: "fas fa-tools"
               title: "Attīstības vide"
               content: |
+                * Atom
+                * Sublime
+                * Microsoft Visual Code
                 * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+
 
 ############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Redaction .NET funkcijām"
+    title: "GroupDocs.Redaction Python funkcijām"
 
     feature:
       # feature loop
@@ -212,18 +214,30 @@ features:
       # more_feature_loop
       - title: "Klasificēto datu rediģēšana, izmantojot vieglumu un kontroli"
         content: |
-          GroupDocs.Redaction for .NET API piešķir jums pilnīgu kontroli pār to, kā vēlaties paslēpt vai dzēst svarīgo klasificēto informāciju no atbalstītā dokumenta. Lai izmantotu mūsu Redaction API ir diezgan vienkāršs un taisni uz priekšu.  
+          GroupDocs.Redaction for Python via .NET API piešķir jums pilnīgu kontroli pār to, kā vēlaties paslēpt vai dzēst svarīgo klasificēto informāciju no atbalstītā dokumenta. Lai izmantotu mūsu Redaction API ir diezgan vienkāršs un taisni uz priekšu.  
 
-          Šajā piemērā mēs ielādējam atbalstītu dokumentu, rediģējam jebkuru tekstu, saskaņojot “2 ciparus, atstarpi vai neko, 2 ciparus, atstarpes un 6 ciparus” (piemēram, 12 34 567890) ar zilu krāsu lodziņu, izmantojot C#. Kad tas ir izdarīts, tas saglabā dokumentu sākotnējā formātā, pārdēvējot to ar pievienoto sufiksu “Redakts”:
+          Šajā piemērā mēs ielādējam atbalstītu dokumentu, rediģējam jebkuru tekstu, saskaņojot “2 ciparus, atstarpi vai neko, 2 ciparus, atstarpes un 6 ciparus” (piemēram, 12 34 567890) ar zilu krāsu lodziņu, izmantojot Python. Kad tas ir izdarīts, tas saglabā dokumentu sākotnējā formātā, pārdēvējot to ar pievienoto sufiksu “Redakts”:
 
-          ```cs
-          // Redaktora klases instances izveide
-          using (Redactor redactor = new Redactor("sample.docx"))
-          {
-            // Lietot redakciju
-            redactor.Apply(new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", new ReplacementOptions(System.Drawing.Color.Blue)));
-            redactor.Save();
-          }
+          ```python
+            import groupdocs.redaction as gr
+            import groupdocs.redaction.redactions as grr
+            import groupdocs.pydrawing as grd
+
+            def run():
+
+                # Specify the redaction options
+                color = grd.Color.from_argb(255, 220, 20, 60)
+                repl_opt = grr.ReplacementOptions(color)
+                reg_red = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
+
+                # Load the document to be redacted
+                with gr.Redactor("source.pdf") as redactor:
+
+                    # Apply the redaction
+                    result = redactor.apply(reg_red)
+        
+                    # Save the redacted document
+                    result_path = redactor.save()
           ```
 
 ############################# Support ############################
@@ -237,7 +251,7 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for .NET"
+        - img_alt: "GroupDocs.Redaction for Python via .NET"
           image: "/border/groupdocs-redaction-net.svg"
           product: "GroupDocs.Redaction"
           platform: ".NET"

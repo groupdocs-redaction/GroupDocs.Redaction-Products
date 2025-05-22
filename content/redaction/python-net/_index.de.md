@@ -10,12 +10,12 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "C# .NET Schwärzungs-API | Verstecken Sie privaten Text aus PDF-Word-Excel-Bildern"
-head_description: "Dokumentschwärzungs-API für .NET. Schwärzen, verbergen oder entfernen Sie vertrauliche Inhalte aus PDFs, Microsoft Word, Excel, Präsentationen und Rasterbildern."
+head_title: "Python via .NET Schwärzungs-API | Verstecken Sie privaten Text aus PDF-Word-Excel-Bildern"
+head_description: "Dokumentschwärzungs-API für Python. Schwärzen, verbergen oder entfernen Sie vertrauliche Inhalte aus PDFs, Microsoft Word, Excel, Präsentationen und Rasterbildern."
 
 ############################# Header ############################
 title: "Sichere klassifizierte Daten über die Schwärzungs-API"
-description: "Schwärzen, verbergen oder entfernen Sie vertrauliche Inhalte und Metadaten aus Dokumenten, Arbeitsblättern, Präsentationen, PDF- und Rasterbilddateien mithilfe der .NET-API."
+description: "Schwärzen, verbergen oder entfernen Sie vertrauliche Inhalte und Metadaten aus Dokumenten, Arbeitsblättern, Präsentationen, PDF- und Rasterbilddateien mithilfe der Python-API."
 button:
     enable: true
 
@@ -24,10 +24,10 @@ submenu:
     enable: true
     
     left:
-        img_alt: "GroupDocs.Redaction for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
+        img_alt: "GroupDocs.Redaction for Python via .NET"
+        image: "/border/groupdocs-redaction-python-net.svg"
         product: "GroupDocs.Redaction"
-        platform: ".NET"
+        platform: "Python via .NET"
 
     middle:
         button:
@@ -53,21 +53,21 @@ submenu:
 
     right:
         link_download: "https://downloads.groupdocs.com/redaction"
-        link_learn: "https://docs.groupdocs.com/redaction/net/"
+        link_learn: "https://docs.groupdocs.com/redaction/python-net/"
         link_buy: "https://purchase.groupdocs.com"
 
 ############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Redaction für .NET ist eine API-Bibliothek, mit der Sie vertrauliche und klassifizierte Daten aus verschiedenen Dateiformaten wie Microsoft Word, Excel, PowerPoint und PDF löschen können. Die einzige formatunabhängige Schnittstelle unserer Schwärzungs-API unterstützt die Schwärzung verschiedener Typen, z. B. Schwärzung von Text, Schwärzung von Metadaten, Schwärzung von Anmerkungen und Schwärzung von tabellarischen Dokumenten. Mit GroupDocs.Redaction for .NET API können Sie auch passwortgeschützte Dateien redigieren. Sie dürfen das Dokument in seinem Originalformat speichern sowie ein bereinigtes PDF-Dokument mit Rasterbildern der Originalseiten erstellen.
+      GroupDocs.Redaction für Python ist eine API-Bibliothek, mit der Sie vertrauliche und klassifizierte Daten aus verschiedenen Dateiformaten wie Microsoft Word, Excel, PowerPoint und PDF löschen können. Die einzige formatunabhängige Schnittstelle unserer Schwärzungs-API unterstützt die Schwärzung verschiedener Typen, z. B. Schwärzung von Text, Schwärzung von Metadaten, Schwärzung von Anmerkungen und Schwärzung von tabellarischen Dokumenten. Mit GroupDocs.Redaction for Python via .NET API können Sie auch passwortgeschützte Dateien redigieren. Sie dürfen das Dokument in seinem Originalformat speichern sowie ein bereinigtes PDF-Dokument mit Rasterbildern der Originalseiten erstellen.
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          Nachfolgend finden Sie eine Übersicht über GroupDocs.Redaction für .NET:
+          Nachfolgend finden Sie eine Übersicht über GroupDocs.Redaction für Python:
       
         right:
           enable: true
@@ -84,7 +84,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Redaction für .NET unterstützt die folgenden [Dokumentdateiformate](https://docs.groupdocs.com/redaction/net/supported-document-formats/):
+          GroupDocs.Redaction für Python unterstützt die folgenden [Dokumentdateiformate](https://docs.groupdocs.com/redaction/python-net/supported-document-formats/):
 
         right:
           enable: true
@@ -101,7 +101,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Redaction for .NET unterstützt das Folgen Betriebssysteme & Paket-Managers:
+          GroupDocs.Redaction for Python via .NET unterstützt das Folgen Betriebssysteme & Paket-Managers:
         
         left:
           enable: true
@@ -110,18 +110,20 @@ overview:
             - icon: "fab fa-windows"
               title: "Betriebssysteme"
               content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
+                * any 32-bit or 64-bit operating system where .NET 6 is installed
+                * Mac OS X and so far only the ARM64 architecture
+                * Microsoft Windows Server 2003 and later
+                * Microsoft Windows XP (x64, x86)
+                * Microsoft Windows Vista (x64, x86)
+                * Microsoft Windows 7, 8, 8.1 (x64, x86)
+                * Microsoft Windows 10 (x64, x86)
+                * Microsoft Windows 11 (x64)
 
             # table loop
             - icon: "fas fa-code"
               title: "Unterstützte Frameworks"
               content: |
-                * .NET Framework 2.0 oder höher
-                * .NET Standard 2.0
-                * .NET Core 2.0
+                * .NET 6 or higher
 
         right:
           enable: true
@@ -130,22 +132,22 @@ overview:
             - icon: "fas fa-box"
               title: "Paket-Manager"
               content: |
-                * NuGet
+                * PyPi
 
             # table loop
             - icon: "fas fa-tools"
               title: "Entwicklungsumgebungen"
               content: |
+                * Atom
+                * Sublime
+                * Microsoft Visual Code
                 * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+
 
 ############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Redaction for .NET Merkmale"
+    title: "GroupDocs.Redaction for Python via .NET Merkmale"
 
     feature:
       # feature loop
@@ -212,18 +214,30 @@ features:
       # more_feature_loop
       - title: "Schwärzen Sie Ihre klassifizierten Daten mit Leichtigkeit und Kontrolle"
         content: |
-          GroupDocs.Redaction for .NET API gibt Ihnen die vollständige Kontrolle darüber, wie Sie Ihre wichtigen klassifizierten Informationen aus unterstützten Dokumenten verbergen oder löschen möchten. Die Verwendung unserer Schwärzungs-API ist ziemlich einfach und unkompliziert.  
+          GroupDocs.Redaction for Python via .NET API gibt Ihnen die vollständige Kontrolle darüber, wie Sie Ihre wichtigen klassifizierten Informationen aus unterstützten Dokumenten verbergen oder löschen möchten. Die Verwendung unserer Schwärzungs-API ist ziemlich einfach und unkompliziert.  
 
-          Im folgenden Beispiel laden wir ein unterstütztes Dokument, schwärzen jeglichen Text und gleichen „2 Ziffern, Leerzeichen oder nichts, 2 Ziffern, wieder Leerzeichen und 6 Ziffern“ (z. B. 12 34 567890) mit einem blauen Farbfeld unter Verwendung von C# ab. Sobald dies erledigt ist, speichert es das Dokument in seinem ursprünglichen Format, indem es mit einem hinzugefügten Suffix „_Redacted“: umbenannt wird
+          Im folgenden Beispiel laden wir ein unterstütztes Dokument, schwärzen jeglichen Text und gleichen „2 Ziffern, Leerzeichen oder nichts, 2 Ziffern, wieder Leerzeichen und 6 Ziffern“ (z. B. 12 34 567890) mit einem blauen Farbfeld unter Verwendung von Python ab. Sobald dies erledigt ist, speichert es das Dokument in seinem ursprünglichen Format, indem es mit einem hinzugefügten Suffix „_Redacted“: umbenannt wird
 
-          ```cs
-          // Erstellen Sie eine Instanz der Redactor-Klasse
-          using (Redactor redactor = new Redactor("sample.docx"))
-          {
-            // Schwärzung anwenden
-            redactor.Apply(new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", new ReplacementOptions(System.Drawing.Color.Blue)));
-            redactor.Save();
-          }
+          ```python
+            import groupdocs.redaction as gr
+            import groupdocs.redaction.redactions as grr
+            import groupdocs.pydrawing as grd
+
+            def run():
+
+                # Specify the redaction options
+                color = grd.Color.from_argb(255, 220, 20, 60)
+                repl_opt = grr.ReplacementOptions(color)
+                reg_red = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
+
+                # Load the document to be redacted
+                with gr.Redactor("source.pdf") as redactor:
+
+                    # Apply the redaction
+                    result = redactor.apply(reg_red)
+        
+                    # Save the redacted document
+                    result_path = redactor.save()
           ```
 
 ############################# Support ############################
@@ -237,7 +251,7 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for .NET"
+        - img_alt: "GroupDocs.Redaction for Python via .NET"
           image: "/border/groupdocs-redaction-net.svg"
           product: "GroupDocs.Redaction"
           platform: ".NET"

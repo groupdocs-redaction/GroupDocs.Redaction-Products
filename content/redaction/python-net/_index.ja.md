@@ -6,16 +6,16 @@ draft: false
 
 product: "Redaction"
 product_tag: "redaction"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "C# .NET リダクション API | PDF Word Excel 画像からプライベートテキストを非表示にする"
-head_description: ".NET のドキュメント編集 API。PDF、Microsoft Word、Excel、プレゼンテーション、ラスターイメージから機密コンテンツを編集、非表示、削除します。"
+head_title: "Python via .NET リダクション API | PDF Word Excel 画像からプライベートテキストを非表示にする"
+head_description: "Python のドキュメント編集 API。PDF、Microsoft Word、Excel、プレゼンテーション、ラスターイメージから機密コンテンツを編集、非表示、削除します。"
 
 ############################# Header ############################
 title: "リダクション API による機密データの保護"
-description: ".NET API を使用して、文書、ワークシート、プレゼンテーション、PDF、ラスターイメージファイルから機密コンテンツやメタデータを編集、非表示、削除します。"
+description: "Python API を使用して、文書、ワークシート、プレゼンテーション、PDF、ラスターイメージファイルから機密コンテンツやメタデータを編集、非表示、削除します。"
 button:
     enable: true
 
@@ -24,10 +24,10 @@ submenu:
     enable: true
     
     left:
-        img_alt: "GroupDocs.Redaction for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
+        img_alt: "GroupDocs.Redaction for Python via .NET"
+        image: "/border/groupdocs-redaction-python-net.svg"
         product: "GroupDocs.Redaction"
-        platform: ".NET"
+        platform: "Python via .NET"
 
     middle:
         button:
@@ -53,21 +53,21 @@ submenu:
 
     right:
         link_download: "https://downloads.groupdocs.com/redaction"
-        link_learn: "https://docs.groupdocs.com/redaction/net/"
+        link_learn: "https://docs.groupdocs.com/redaction/python-net/"
         link_buy: "https://purchase.groupdocs.com"
 
 ############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Redaction for .NET は、Microsoft Word、Excel、PowerPoint、PDF などのさまざまなファイル形式から機密データや機密データを消去するのに役立つ API ライブラリです。当社の Redaction API の単一の形式に依存しないインターフェイスは、テキスト編集、メタデータ編集、注釈編集、表形式文書編集など、さまざまなタイプの編集をサポートします。GroupDocs.Redaction for .NET API では、パスワードで保護されたファイルを編集することもできます。文書を元の形式で保存することも、元のページのラスターイメージを使用してサニタイズされた PDF 文書を作成することもできます。
+      GroupDocs.Redaction for Python via .NET は、Microsoft Word、Excel、PowerPoint、PDF などのさまざまなファイル形式から機密データや機密データを消去するのに役立つ API ライブラリです。当社の Redaction API の単一の形式に依存しないインターフェイスは、テキスト編集、メタデータ編集、注釈編集、表形式文書編集など、さまざまなタイプの編集をサポートします。GroupDocs.Redaction for Python via .NET API では、パスワードで保護されたファイルを編集することもできます。文書を元の形式で保存することも、元のページのラスターイメージを使用してサニタイズされた PDF 文書を作成することもできます。
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          .NET の GroupDocs.Redaction の概要は次のとおりです。
+          Python の GroupDocs.Redaction の概要は次のとおりです。
       
         right:
           enable: true
@@ -84,7 +84,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          .NET の GroupDocs.Redaction は次の [ドキュメントファイル形式](https://docs.groupdocs.com/redaction//supported-document-formats/net) をサポートしています。
+          Python の GroupDocs.Redaction は次の [ドキュメントファイル形式](https://docs.groupdocs.com/redaction/python-net/supported-document-formats) をサポートしています。
 
         right:
           enable: true
@@ -101,7 +101,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Redaction for .NET は、以下のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています。
+          GroupDocs.Redaction for Python via .NET は、以下のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています。
         
         left:
           enable: true
@@ -110,42 +110,44 @@ overview:
             - icon: "fab fa-windows"
               title: "オペレーティングシステム"
               content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
+                * any 32-bit or 64-bit operating system where .NET 6 is installed
+                * Mac OS X and so far only the ARM64 architecture
+                * Microsoft Windows Server 2003 and later
+                * Microsoft Windows XP (x64, x86)
+                * Microsoft Windows Vista (x64, x86)
+                * Microsoft Windows 7, 8, 8.1 (x64, x86)
+                * Microsoft Windows 10 (x64, x86)
+                * Microsoft Windows 11 (x64)
 
             # table loop
             - icon: "fas fa-code"
               title: "サポート対象フレームワーク"
               content: |
-                * .NET Framework 2.0 またはそれ以上
-                * .NET Standard 2.0
-                * .NET Core 2.0
+                * .NET 6 or higher
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "ファストファンボックス"
+            - icon: "fas fa-box"
               title: "パッケージマネージャ"
               content: |
-                * NuGet
+                * PyPi
 
             # table loop
-            - icon: "高速ファンツール"
+            - icon: "fas fa-tools"
               title: "開発環境"
               content: |
+                * Atom
+                * Sublime
+                * Microsoft Visual Code
                 * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+
 
 ############################# Features ############################
 features:
     enable: true
-    title: ".NET 機能の場合は GroupDocs.Redaction"
+    title: "Python 機能の場合は GroupDocs.Redaction"
 
     feature:
       # feature loop
@@ -212,18 +214,30 @@ features:
       # more_feature_loop
       - title: "簡単かつ管理可能な機密データの編集"
         content: |
-          GroupDocs.Redaction for .NET API を使用すると、重要な機密情報をサポート対象ドキュメントからどのように隠すか、削除するかを完全に制御できます。当社のリダクション API の使い方はとてもシンプルで分かりやすいです。  
+          GroupDocs.Redaction for Python via .NET API を使用すると、重要な機密情報をサポート対象ドキュメントからどのように隠すか、削除するかを完全に制御できます。当社のリダクション API の使い方はとてもシンプルで分かりやすいです。  
 
-          次の例では、サポートされているドキュメントを読み込み、「2 桁、スペースまたはなし、2 桁、アゲインスペースと 6 桁」（12 34 567890 など）に一致するテキストをすべて削除します（例：12 34 567890）。青色のボックスには C# を使用しています。これが完了すると、ドキュメントの名前に「Redacted'」というサフィックスを付けて元の形式で保存します。
+          次の例では、サポートされているドキュメントを読み込み、「2 桁、スペースまたはなし、2 桁、アゲインスペースと 6 桁」（12 34 567890 など）に一致するテキストをすべて削除します（例：12 34 567890）。青色のボックスには Python を使用しています。これが完了すると、ドキュメントの名前に「Redacted'」というサフィックスを付けて元の形式で保存します。
 
-          ```cs
-          // Redactor クラスのインスタンスを作成する
-          using (Redactor redactor = new Redactor("sample.docx"))
-          {
-            // 編集を適用
-            redactor.Apply(new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", new ReplacementOptions(System.Drawing.Color.Blue)));
-            redactor.Save();
-          }
+          ```python
+            import groupdocs.redaction as gr
+            import groupdocs.redaction.redactions as grr
+            import groupdocs.pydrawing as grd
+
+            def run():
+
+                # Specify the redaction options
+                color = grd.Color.from_argb(255, 220, 20, 60)
+                repl_opt = grr.ReplacementOptions(color)
+                reg_red = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
+
+                # Load the document to be redacted
+                with gr.Redactor("source.pdf") as redactor:
+
+                    # Apply the redaction
+                    result = redactor.apply(reg_red)
+        
+                    # Save the redacted document
+                    result_path = redactor.save()
           ```
 
 ############################# Support ############################
@@ -237,7 +251,7 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for .NET"
+        - img_alt: "GroupDocs.Redaction for Python via .NET"
           image: "/border/groupdocs-redaction-net.svg"
           product: "GroupDocs.Redaction"
           platform: ".NET"

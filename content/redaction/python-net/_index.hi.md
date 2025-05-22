@@ -6,16 +6,16 @@ draft: false
 
 product: "Redaction"
 product_tag: "redaction"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "C# .NET रिडक्शन API | PDF Word Excel छवियों से निजी टेक्स्ट छिपाएं"
-head_description: ".NET के लिए डॉक्यूमेंट रिडक्शन API। PDF, Microsoft Word, Excel, प्रस्तुतियों और रैस्टर छवियों से संवेदनशील सामग्री को संपादित करें, छिपाएं या हटाएं।"
+head_title: "Python via .NET रिडक्शन API | PDF Word Excel छवियों से निजी टेक्स्ट छिपाएं"
+head_description: "Python के लिए डॉक्यूमेंट रिडक्शन API। PDF, Microsoft Word, Excel, प्रस्तुतियों और रैस्टर छवियों से संवेदनशील सामग्री को संपादित करें, छिपाएं या हटाएं।"
 
 ############################# Header ############################
 title: "Redaction API के माध्यम से वर्गीकृत डेटा सुरक्षित करें"
-description: ".NET API का उपयोग करके दस्तावेज़ों, वर्कशीट्स, प्रस्तुतियों, PDF और रैस्टर इमेज फ़ाइलों से संवेदनशील सामग्री और मेटाडेटा को संपादित करें, छिपाएं या हटाएं।"
+description: "Python API का उपयोग करके दस्तावेज़ों, वर्कशीट्स, प्रस्तुतियों, PDF और रैस्टर इमेज फ़ाइलों से संवेदनशील सामग्री और मेटाडेटा को संपादित करें, छिपाएं या हटाएं।"
 button:
     enable: true
 
@@ -24,10 +24,10 @@ submenu:
     enable: true
     
     left:
-        img_alt: "GroupDocs.Redaction for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
+        img_alt: "GroupDocs.Redaction for Python via .NET"
+        image: "/border/groupdocs-redaction-python-net.svg"
         product: "GroupDocs.Redaction"
-        platform: ".NET"
+        platform: "Python via .NET"
 
     middle:
         button:
@@ -53,21 +53,21 @@ submenu:
 
     right:
         link_download: "https://downloads.groupdocs.com/redaction"
-        link_learn: "https://docs.groupdocs.com/redaction/net/"
+        link_learn: "https://docs.groupdocs.com/redaction/python-net/"
         link_buy: "https://purchase.groupdocs.com"
 
 ############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Redaction for .NET एक API लाइब्रेरी है जो आपको Microsoft Word, Excel, PowerPoint और PDF जैसे विभिन्न फ़ाइल स्वरूपों से संवेदनशील और वर्गीकृत डेटा को मिटाने में मदद करती है। हमारे Redaction API का सिंगल फ़ॉर्मेट-स्वतंत्र इंटरफ़ेस विभिन्न प्रकारों के रिडक्शन का समर्थन करता है, जैसे, टेक्स्ट रिडक्शन, मेटाडेटा रिडक्शन, एनोटेशन रिडक्शन और टैबुलर डॉक्यूमेंट रिडक्शन. GroupDocs.Redaction for .NET API आपको पासवर्ड से सुरक्षित फ़ाइलों को फिर से बनाने की सुविधा भी देता है। आपको दस्तावेज़ को उसके मूल प्रारूप में सहेजने की अनुमति है और साथ ही मूल पृष्ठों की रेखापुंज छवियों के साथ एक सैनिटाइज्ड PDF दस्तावेज़ बनाने की अनुमति है।
+      GroupDocs.Redaction for Python via .NET एक API लाइब्रेरी है जो आपको Microsoft Word, Excel, PowerPoint और PDF जैसे विभिन्न फ़ाइल स्वरूपों से संवेदनशील और वर्गीकृत डेटा को मिटाने में मदद करती है। हमारे Redaction API का सिंगल फ़ॉर्मेट-स्वतंत्र इंटरफ़ेस विभिन्न प्रकारों के रिडक्शन का समर्थन करता है, जैसे, टेक्स्ट रिडक्शन, मेटाडेटा रिडक्शन, एनोटेशन रिडक्शन और टैबुलर डॉक्यूमेंट रिडक्शन. GroupDocs.Redaction for Python via .NET API आपको पासवर्ड से सुरक्षित फ़ाइलों को फिर से बनाने की सुविधा भी देता है। आपको दस्तावेज़ को उसके मूल प्रारूप में सहेजने की अनुमति है और साथ ही मूल पृष्ठों की रेखापुंज छवियों के साथ एक सैनिटाइज्ड PDF दस्तावेज़ बनाने की अनुमति है।
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          .NET के लिए GroupDocs.Redaction का अवलोकन निम्नलिखित है:
+          Python के लिए GroupDocs.Redaction का अवलोकन निम्नलिखित है:
       
         right:
           enable: true
@@ -84,7 +84,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          .NET के लिए GroupDocs.Redaction निम्नलिखित [दस्तावेज़ फ़ाइल स्वरूपों] का समर्थन करता है (https://docs.groupdocs.com/redaction//supported-document-formats/net):
+          Python के लिए GroupDocs.Redaction निम्नलिखित [दस्तावेज़ फ़ाइल स्वरूपों] का समर्थन करता है (https://docs.groupdocs.com/redaction/python-net/supported-document-formats/):
 
         right:
           enable: true
@@ -101,7 +101,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          .NET के लिए GroupDocs.Redaction निम्नलिखित ऑपरेटिंग सिस्टम, फ़्रेमवर्क और पैकेज मैनेजरों का समर्थन करता है:
+          Python के लिए GroupDocs.Redaction निम्नलिखित ऑपरेटिंग सिस्टम, फ़्रेमवर्क और पैकेज मैनेजरों का समर्थन करता है:
         
         left:
           enable: true
@@ -110,42 +110,44 @@ overview:
             - icon: "fab fa-windows"
               title: "ऑपरेटिंग सिस्टम"
               content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
+                * any 32-bit or 64-bit operating system where .NET 6 is installed
+                * Mac OS X and so far only the ARM64 architecture
+                * Microsoft Windows Server 2003 and later
+                * Microsoft Windows XP (x64, x86)
+                * Microsoft Windows Vista (x64, x86)
+                * Microsoft Windows 7, 8, 8.1 (x64, x86)
+                * Microsoft Windows 10 (x64, x86)
+                * Microsoft Windows 11 (x64)
 
             # table loop
             - icon: "fas fa-code"
               title: "समर्थित फ़्रेमवर्क"
               content: |
-                * .NET Framework 2.0 या उच्चतर
-                * .NET Standard 2.0
-                * .NET Core 2.0
+                * .NET 6 or higher
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "फास्ट फा-बॉक्स"
+            - icon: "fas fa-box"
               title: "पैकेज मैनेजर"
               content: |
-                * NuGet
+                * PyPi
 
             # table loop
-            - icon: "फास फा-टूल्स"
+            - icon: "fas fa-tools"
               title: "विकास का वातावरण"
               content: |
+                * Atom
+                * Sublime
+                * Microsoft Visual Code
                 * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+
 
 ############################# Features ############################
 features:
     enable: true
-    title: ".NET सुविधाओं के लिए GroupDocs.Redaction"
+    title: "Python सुविधाओं के लिए GroupDocs.Redaction"
 
     feature:
       # feature loop
@@ -212,18 +214,30 @@ features:
       # more_feature_loop
       - title: "आसानी और नियंत्रण के साथ अपने वर्गीकृत डेटा को फिर से बनाएं"
         content: |
-          GroupDocs.Redaction for .NET API आपको इस बात पर पूरा नियंत्रण देता है कि आप समर्थित दस्तावेज़ से अपनी महत्वपूर्ण वर्गीकृत जानकारी को कैसे छिपाना या मिटाना चाहते हैं। हमारे Redaction API का उपयोग करना बहुत सरल और सीधा है।  
+          GroupDocs.Redaction for Python via .NET API आपको इस बात पर पूरा नियंत्रण देता है कि आप समर्थित दस्तावेज़ से अपनी महत्वपूर्ण वर्गीकृत जानकारी को कैसे छिपाना या मिटाना चाहते हैं। हमारे Redaction API का उपयोग करना बहुत सरल और सीधा है।  
 
-          निम्नलिखित उदाहरण में, हम C# का उपयोग करके नीले रंग के बॉक्स के साथ “2 अंक, स्थान या कुछ भी नहीं, 2 अंक, फिर से स्थान और 6 अंक” (जैसे 12 34 567890) से मेल खाते हुए एक समर्थित दस्तावेज़ को लोड करते हैं, किसी भी टेक्स्ट को फिर से संपादित करते हैं। एक बार ऐसा करने के बाद, यह दस्तावेज़ को उसके मूल प्रारूप में एक अतिरिक्त प्रत्यय “Redacted” के साथ नाम बदलकर सहेजता है:
+          निम्नलिखित उदाहरण में, हम Python का उपयोग करके नीले रंग के बॉक्स के साथ “2 अंक, स्थान या कुछ भी नहीं, 2 अंक, फिर से स्थान और 6 अंक” (जैसे 12 34 567890) से मेल खाते हुए एक समर्थित दस्तावेज़ को लोड करते हैं, किसी भी टेक्स्ट को फिर से संपादित करते हैं। एक बार ऐसा करने के बाद, यह दस्तावेज़ को उसके मूल प्रारूप में एक अतिरिक्त प्रत्यय “Redacted” के साथ नाम बदलकर सहेजता है:
 
-          ```cs
-          // Redactor वर्ग का एक उदाहरण बनाएं
-          using (Redactor redactor = new Redactor("sample.docx"))
-          {
-            // रिडक्शन लागू करें
-            redactor.Apply(new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", new ReplacementOptions(System.Drawing.Color.Blue)));
-            redactor.Save();
-          }
+          ```python
+            import groupdocs.redaction as gr
+            import groupdocs.redaction.redactions as grr
+            import groupdocs.pydrawing as grd
+
+            def run():
+
+                # Specify the redaction options
+                color = grd.Color.from_argb(255, 220, 20, 60)
+                repl_opt = grr.ReplacementOptions(color)
+                reg_red = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
+
+                # Load the document to be redacted
+                with gr.Redactor("source.pdf") as redactor:
+
+                    # Apply the redaction
+                    result = redactor.apply(reg_red)
+        
+                    # Save the redacted document
+                    result_path = redactor.save()
           ```
 
 ############################# Support ############################
@@ -237,7 +251,7 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Redaction for .NET"
+        - img_alt: "GroupDocs.Redaction for Python via .NET"
           image: "/border/groupdocs-redaction-net.svg"
           product: "GroupDocs.Redaction"
           platform: ".NET"

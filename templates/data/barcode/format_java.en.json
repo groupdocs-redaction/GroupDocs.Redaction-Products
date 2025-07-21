@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Read barcodes from {{FileFormatUp}} files in {{ProgLang}} apps",
+    "description": "With {{ProdShortName}}, extract barcode data from {{FileFormatUp}} documents using {{ProgLang}} without any external tools."
+  },
+  "header": {
+    "title": "Read barcodes from {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Extract barcode content from PDF, Word, Excel, and image files using {{ProdShortName}} in your {{EnvNameShort}} applications.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "Overview of {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) provides a comprehensive solution for document parsing in {{EnvName}}. It enables developers to extract barcodes, text, images, and structured information from multiple file formats like PDF, Word, Excel, PowerPoint, and others—without needing third-party libraries."
+  },
+  "formats": {
+    "title": "File formats supported for barcode reading",
+    "description": "{{ProdShortName}} can read barcodes from many document and image types. Below are some of the commonly supported formats."
+  },
+  "examples": {
+    "comment_1": "Open a document containing barcodes using {{textParser}}",
+    "comment_2": "Check barcode support for the file",
+    "comment_3": "Handle unsupported file types",
+    "comment_4": "Extract and use barcode data"
+  },
+  "steps": {
+    "title": "How to read barcodes from {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "With [{{ProdShortName}}]({{PlatformLink}}), {{EnvName}} developers can extract barcodes from {{FileFormatUp}} documents in just a few steps:",
+      "step_1": "Load the {{FileFormatUp}} document using {{textParser}}.",
+      "step_2": "Verify the document supports barcode extraction.",
+      "step_3": "Use the API to retrieve barcode data.",
+      "step_4": "Loop through the barcode results and apply them as needed."
+    }
+  },
+  "more_features": {
+    "title": "More parsing capabilities",
+    "description": "{{ProdShortName}} goes beyond barcode extraction—it also lets you extract plain text, images, and structured elements to support data-driven workflows.",
+    "image_description": "Barcode and data extraction features",
+    "feature_1": {
+      "title": "Wide barcode format support",
+      "content": "Detect standard barcode formats including QR Code, Code 39, Data Matrix, EAN, Aztec, and others."
+    },
+    "feature_2": {
+      "title": "Read barcodes from multiple sources",
+      "content": "Extract barcode information from Office documents, PDFs, and image files like PNG, JPG, and BMP."
+    },
+    "feature_3": {
+      "title": "Custom barcode reading setup",
+      "content": "Fine-tune barcode extraction with options for targeting specific regions and multi-page files."
+    },
+    "code_1": {
+      "title": "Example: extract barcodes from PDF with options",
+      "content": "This sample demonstrates barcode extraction from a PDF document using custom settings.",
+      "comment_1": "Initialize parser with PDF document",
+      "comment_2": "Ensure the document supports barcode reading",
+      "comment_3": "Apply filtering with barcode options",
+      "comment_4": "Extract barcodes using the parser",
+      "comment_5": "Handle each barcode result"
+    }
+  }
+}

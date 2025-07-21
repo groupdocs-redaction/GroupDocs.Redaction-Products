@@ -1,0 +1,374 @@
+{
+  "index-content": {
+    "head_title": "Documents Redaction Solution. Edit or remove any sensitive data.",
+    "head_description": "Remove, redact or hide text, images or metadata in PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, images, etc. Use our library in your .NET, Java, Python and cloud-based applications.",
+    "title": "Documents Redaction Library",
+    "description_0": "Hide or remove private information from various file types.",
+    "description_1": "Edit text or images in order to remove sensitive data.",
+    "description_2": "Control files metadata using our features.",
+    "words_for": "for",
+    "release_title": "Version {0} released",
+    "release_notes": "See what’s new",
+    "release_downloads": "Downloads",
+    "code_more": "More examples",
+    "overview_title": "{{ProdShortName}} at a glance",
+    "formats_title": "Supported file formats",
+    "platforms": {
+      "title": "Platform Independence",
+      "head_title": "Choose your platform",
+      "description": "{{ProdShortName}} library supports the following operating systems and frameworks:",
+      "learn_more": "Learn more",
+      "any_other_text_editor": "Any other text editor"
+    },
+    "features": {
+      "title": "{{ProdShortName}} at a glance",
+      "description": "Solution to control content of PDFs, Office docs, images and other business files",
+      "feature_1": {
+        "title": "Remove or edit text",
+        "content": "Find and redact any sensitive text in your documents."
+      },
+      "feature_2": {
+        "title": "Redact images",
+        "content": "Hide images areas in your files without extra efforts."
+      },
+      "feature_3": {
+        "title": "Control metadata",
+        "content": "Remove or replace such metadata like Author for Word docs or EXIF for images."
+      },
+      "feature_4": {
+        "title": "Advanced features",
+        "content": "Search data to be redacted by regular expressions or AI integration"
+      }
+    },
+    "formats": {
+      "title": "30+ file formats supported",
+      "description": "{{ProdShortName}} supports redaction operations with all famous business formats"
+    },
+    "code_samples": {
+      "title": "Code samples",
+      "index_title": "{{ProdShortName}} code samples",
+      "index_description": "Some use cases of typical {{ProdShortName}} operations",
+      "more_examples": "More examples",
+      "sample_index": {
+        "title": "How to redact text in PDF documents",
+        "content": "{{ProdShortName}} is a best solution to redact text in your documents by implementing a few steps.",
+        "comment_1": "Pass file path to be redacted to {{textRedactor}} instance",
+        "comment_2": "Provide redaction options",
+        "comment_3": "Redact and save the result"
+      },
+      "sample_1": {
+        "code_title": "Extract images from PDF documents in {{ProgLang}}",
+        "comment_1": "Create an instance of {{textParser}} class",
+        "comment_2": "Extract images",
+        "comment_3": "Check if something is extracted",
+        "comment_4": "Iterate over images",
+        "comment_5": "Print a page index, rectangle and image type"
+      },
+      "sample_2": {
+        "code_title": "Extract barcodes from images in {{ProgLang}}",
+        "comment_1": "Load source image to {{textParser}}",
+        "comment_2": "Check if the file supports barcode extracting",
+        "comment_3": "Extract barcodes from the file",
+        "comment_4": "Iterate over barcodes",
+        "comment_5": "Print the page index",
+        "comment_6": "Print the barcode value"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} achievements",
+      "description": "Discover the Key Metrics of Our Library's Accomplishments",
+      "item_1": {
+        "title": "Supported formats",
+        "description": "{{ProdShortName}} supports operations with more than 30 popular file formats."
+      },
+      "item_2": {
+        "title": "NuGet downloads",
+        "description": "{{ProdShortName}} for .NET NuGet package was downloaded more than 440,000 times."
+      },
+      "item_3": {
+        "title": "Maven downloads",
+        "description": "{{ProdShortName}} has 12,000 downloads on Maven. Powerful Java Parsing Features."
+      },
+      "item_4": {
+        "title": "Happy customers",
+        "description": "As famous companies as individual developers prefer {{NameCompany}} products to build innovative solutions."
+      }
+    },
+    "customers": {
+      "title": "Our happy customers",
+      "description": "{{NameCompany}} libraries are employed by globally renowned and distinguished brands across the world."
+    },
+    "actions": {
+      "alt": "Licensing",
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "description_index": "Try {{ProdShortName}} features for free on your platform"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "Answers to most commonly asked questions.",
+      "item_1": {
+        "question": "Does {{ProdShortName}} library need any other third-party software to manipulate documents?",
+        "answer": "{{ProdShortName}} does not require any external software to be installed such as Adobe Acrobat, Microsoft Office, or any other."
+      },
+      "item_2": {
+        "question": "Can I try the {{ProdShortName}} library before purchasing it?",
+        "answer": "Yes, you can try {{ProdShortName}} without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test {{ProdShortName}} without the limitations of the trial version, you can also request a 30-day temporary license. For more details, [see]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "What licenses do you have?",
+        "answer": "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more [here]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} low code APIs",
+      "description": "Incorporate document redaction capabilities into any application using our cloud-based REST API",
+      "item_1": {
+        "content": "cURL commands for RESTful document redaction Cloud API to redact documents across wide range of supported popular file formats."
+      },
+      "item_2": {
+        "content": "Extract images, text, document information or even redact any document by user-defined template in your Microsoft .NET applications."
+      },
+      "item_3": {
+        "content": "Cloud SDK for Java developers to redact documents, extract document information and data within Java based applications."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} No Code Apps",
+      "description": "Web-based application that enables you to perform redact across more than 30 popular file formats directly in your browser. ",
+      "item_1": {
+        "content": "Free online app to redact Word, Excel, PowerPoint, PDF & 30+ more document types."
+      },
+      "item_2": {
+        "content": "redact Word documents directly from your web browser to extract images, text or metadata."
+      },
+      "item_3": {
+        "content": "Free PDF redaction app that works on any platform or device without any limitations."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office formats",
+      "title_2": "Images & Other Formats",
+      "title_3": "Other formats",
+      "format_portable": "Portable",
+      "format_images": "Images",
+      "format_other_office": "Other office formats",
+      "format_other_web": "Web",
+      "format_other_archives": "Archives",
+      "format_other_ebooks": "e-Books"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{ProdFullName}} Document Parsing Apps",
+    "head_description": "Get all-in-one document parsing solution for {{EnvNameShort}} applications. Extract data from document formats online using simple drag and drop feature",
+    "title": "Parse documents via {{EnvNameShort}} API",
+    "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "actions_main": "{{PackageStoreName}} Download",
+    "code_title": "Quickly Parse Document Content",
+    "code_comment_1": "Pass source file to {{textParser}} instance",
+    "code_comment_2": "Pass document text to {{textReader}}",
+    "code_comment_3": "Process document text",
+    "overview_description": "API for performing document parsing in {{EnvNameShort}} applications",
+    "overview_feature_1": {
+      "title": "Extract data from documents",
+      "description": "{{ProdFullName}} API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
+    },
+    "overview_feature_2": {
+      "title": "Parse documents",
+      "description": "Extract various elements such as hyperlinks, tables, QR codes, barcodes and data from PDF forms. Also parse any desired information from documents using custom templates."
+    },
+    "overview_feature_3": {
+      "title": "Customizing results",
+      "description": "{{EnvNameShort}} API enables you to retrieve data in various formats such as raw, structured, HTML, or Markdown. Additionally, API offers a search functionality for locating specific words or phrases within the text of documents."
+    },
+    "features": {
+      "title": "{{ProdFullName}} features",
+      "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately",
+      "feature_1": {
+        "title": "Extract text",
+        "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
+      },
+      "feature_2": {
+        "title": "Extract images",
+        "content": "Retrieve visual content from diverse sources like office documents, PDF files for convenient access and use."
+      },
+      "feature_3": {
+        "title": "Scan QR Codes",
+        "content": "Detect and decode QR codes present within office documents, PDF files, or visual content for efficient information retrieval."
+      },
+      "feature_4": {
+        "title": "Extract data from email attachments and archives",
+        "content": "Gather valuable information from email messages, file attachments, and compressed data sources for effective analysis and utilization."
+      },
+      "feature_5": {
+        "title": "Extract tables",
+        "content": "Identify and extract tabular data from PDF documents for organized analysis and use."
+      },
+      "feature_6": {
+        "title": "Extract hyperlinks",
+        "content": "Locate and extract hyperlinks and email addresses within office documents or PDF files for efficient access ."
+      },
+      "feature_7": {
+        "title": "Parse PDF Forms",
+        "content": "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. .NET API can be utilized to extract data from these forms for efficient processing."
+      },
+      "feature_8": {
+        "title": "Parse data by templates",
+        "content": "Create custom templates and utilize them with .NET API to parse specific information from PDF files, simplifying data extraction processes."
+      },
+      "feature_9": {
+        "title": "Search a text in documents",
+        "content": "Quickly locate specific words or patterns within documents."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
+    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "code_title_sample_1": "Extract images from PDF documents",
+    "code_samples_sample_1_content": "{{ProdFullName}} makes it easy for {{ProgLang}} developers to extract images from [documents]({{Sample1Url}}):",
+    "code_title_sample_2": "Extract barcodes from images",
+    "code_samples_sample_2_content": "Use our {{EnvNameShort}} API to extract [barcodes]({{Sample2Url}}) from images:"
+  },
+  "index-content-java": {
+    "head_title": "{{ProdFullName}} Document Parsing Apps",
+    "head_description": "Get all-in-one document parsing solution for {{EnvNameShort}} applications. Extract data from document formats online using simple drag and drop feature",
+    "title": "Parse documents via {{EnvNameShort}} API",
+    "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "actions_main": "{{PackageStoreName}} Download",
+    "code_title": "Quickly Get Document Content",
+    "code_comment_1": "Pass source file to {{textParser}} instance",
+    "code_comment_2": "Pass document text to {{textReader}}",
+    "code_comment_3": "Process document text",
+    "overview_description": "API for performing document parsing in {{EnvNameShort}} applications",
+    "overview_feature_1": {
+      "title": "Extract data from documents",
+      "description": "{{ProdFullName}} API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
+    },
+    "overview_feature_2": {
+      "title": "Parse documents",
+      "description": "Extract various elements such as hyperlinks, tables, QR codes, barcodes and data from PDF forms. Also parse any desired information from documents using custom templates."
+    },
+    "overview_feature_3": {
+      "title": "Customizing results",
+      "description": "{{EnvNameShort}} API enables you to retrieve data in various formats such as raw, structured, HTML, or Markdown. Additionally, API offers a search functionality for locating specific words or phrases within the text of documents."
+    },
+    "features": {
+      "title": "{{ProdFullName}} features",
+      "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately",
+      "feature_1": {
+        "title": "Extract text",
+        "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
+      },
+      "feature_2": {
+        "title": "Extract images",
+        "content": "Retrieve visual content from diverse sources like office documents, PDF files for convenient access and use."
+      },
+      "feature_3": {
+        "title": "Scan QR Codes",
+        "content": "Detect and decode QR codes present within office documents, PDF files, or visual content for efficient information retrieval."
+      },
+      "feature_4": {
+        "title": "Extract data from email attachments and archives",
+        "content": "Gather valuable information from email messages, file attachments, and compressed data sources for effective analysis and utilization."
+      },
+      "feature_5": {
+        "title": "Extract tables",
+        "content": "Identify and extract tabular data from PDF documents for organized analysis and use."
+      },
+      "feature_6": {
+        "title": "Extract hyperlinks",
+        "content": "Locate and extract hyperlinks and email addresses within office documents or PDF files for efficient access ."
+      },
+      "feature_7": {
+        "title": "Parse PDF Forms",
+        "content": "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. .NET API can be utilized to extract data from these forms for efficient processing."
+      },
+      "feature_8": {
+        "title": "Parse data by templates",
+        "content": "Create custom templates and utilize them with .NET API to parse specific information from PDF files, simplifying data extraction processes."
+      },
+      "feature_9": {
+        "title": "Search a text in documents",
+        "content": "Quickly locate specific words or patterns within documents."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
+    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "code_title_sample_1": "Extract images from PDF documents",
+    "code_samples_sample_1_content": "{{ProdFullName}} makes it easy for {{ProgLang}} developers to extract images from [documents]({{Sample1Url}}):",
+    "code_title_sample_2": "Extract barcodes from images",
+    "code_samples_sample_2_content": "Use our {{EnvNameShort}} API to extract [barcodes]({{Sample2Url}}) from images:"
+  },
+  "index-content-python": {
+    "head_title": "{{ProdFullName}} Document Parsing Apps",
+    "head_description": "Get all-in-one document parsing solution for {{EnvNameShort}} applications. Extract data from document formats online using simple drag and drop feature",
+    "title": "Parse documents via {{EnvNameShort}} API",
+    "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "actions_main": "{{PackageStoreName}} Download",
+    "code_title": "Quickly Parse Document Content",
+    "code_comment_1": "Pass source file to {{textParser}} instance",
+    "code_comment_2": "Pass document text to {{textReader}}",
+    "code_comment_3": "Process document text",
+    "overview_description": "API for performing document parsing in {{EnvNameShort}} applications",
+    "overview_feature_1": {
+      "title": "Extract data from documents",
+      "description": "{{ProdFullName}} API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
+    },
+    "overview_feature_2": {
+      "title": "Parse documents",
+      "description": "Extract various elements such as hyperlinks, tables, QR codes, barcodes and data from PDF forms. Also parse any desired information from documents using custom templates."
+    },
+    "overview_feature_3": {
+      "title": "Customizing results",
+      "description": "{{EnvNameShort}} API enables you to retrieve data in various formats such as raw, structured, HTML, or Markdown. Additionally, API offers a search functionality for locating specific words or phrases within the text of documents."
+    },
+    "features": {
+      "title": "{{ProdFullName}} features",
+      "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately",
+      "feature_1": {
+        "title": "Extract text",
+        "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
+      },
+      "feature_2": {
+        "title": "Extract images",
+        "content": "Retrieve visual content from diverse sources like office documents, PDF files for convenient access and use."
+      },
+      "feature_3": {
+        "title": "Scan QR Codes",
+        "content": "Detect and decode QR codes present within office documents, PDF files, or visual content for efficient information retrieval."
+      },
+      "feature_4": {
+        "title": "Extract data from email attachments and archives",
+        "content": "Gather valuable information from email messages, file attachments, and compressed data sources for effective analysis and utilization."
+      },
+      "feature_5": {
+        "title": "Extract tables",
+        "content": "Identify and extract tabular data from PDF documents for organized analysis and use."
+      },
+      "feature_6": {
+        "title": "Extract hyperlinks",
+        "content": "Locate and extract hyperlinks and email addresses within office documents or PDF files for efficient access ."
+      },
+      "feature_7": {
+        "title": "Parse PDF Forms",
+        "content": "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. .NET API can be utilized to extract data from these forms for efficient processing."
+      },
+      "feature_8": {
+        "title": "Parse data by templates",
+        "content": "Create custom templates and utilize them with .NET API to parse specific information from PDF files, simplifying data extraction processes."
+      },
+      "feature_9": {
+        "title": "Search a text in documents",
+        "content": "Quickly locate specific words or patterns within documents."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
+    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "code_title_sample_1": "Extract images from PDF documents",
+    "code_samples_sample_1_content": "{{ProdFullName}} makes it easy for {{ProgLang}} developers to extract images from [documents]({{Sample1Url}}):",
+    "code_title_sample_2": "Extract barcodes from images",
+    "code_samples_sample_2_content": "Use our {{EnvNameShort}} API to extract [barcodes]({{Sample2Url}}) from images:"
+  }
+}

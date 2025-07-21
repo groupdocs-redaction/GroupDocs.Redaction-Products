@@ -1,32 +1,84 @@
 {
-    "products": {        
-        "net": {
-            "name": ".NET",
-            "fullName": "GroupDocs.Redaction for .NET",
-            "code": "net",
-            "progLang": "C#",
-            "srcFileExt": ".cs",
-            "syntax": "cs",
-            "devEnv": "Visual Studio",
-            "runtime": ".NET Framework, .NET Standard, .NET Core",
-            "repoName": "NuGet",
-            "repoUrl": "https://www.nuget.org/packages/groupdocs.redaction",
-            "url": "https://products.groupdocs.com/redaction/net/",
-            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
-        },
-        "java": {
-            "name": "Java",
-            "fullName": "GroupDocs.Redaction for Java",
-            "code": "java",
-            "progLang": "Java",
-            "srcFileExt": ".java",
-            "syntax": "java",
-            "devEnv": "NetBeans, IntelliJ IDEA, Eclipse",
-            "runtime": "J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10",
-            "repoName": "Maven",
-            "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-redaction",
-            "url": "https://products.groupdocs.com/redaction/java/",
-            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-java.png"
-        }
+  "products": {
+    "nameCompany": "GroupDocs",
+    "nameProduct": "Redaction",
+    "productShortName": "GroupDocs.Redaction",
+    "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
+    "pricingUrl": "https://purchase.groupdocs.com/pricing/redaction/net/",
+    "textRedactor": "Redactor",
+    "aspNet": "ASP.NET",
+    "coreNet": ".NET Core",
+    "mono": "Mono",
+    "net": {
+      "environmentName": ".NET",
+      "environmentNameShort": ".NET",
+      "productCode": "net",
+      "productPlatformLink": "/redaction/net/",
+      "productFullName": "GroupDocs.Redaction for .NET",
+
+      "programmingLanguage": "C#",
+      "srcFileExt": ".cs",
+      "syntax": "csharp",
+      "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+
+      "productUrl": "https://products.groupdocs.com/redaction/net/",
+      "packageStoreName": "Nuget",
+      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Redaction",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/redaction/net/",
+      "docsUrl": "https://docs.groupdocs.com/redaction/net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/redaction/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/redaction/net/extract-images-from-documents/",
+      "sample2Url": "https://docs.groupdocs.com/redaction/net/extract-barcodes-from-document/",
+
+      "more_link": "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/redaction/net/"
+    },
+    "java": {
+      "environmentName": "Java",
+      "environmentNameShort": "Java",
+      "productCode": "java",
+      "productPlatformLink": "/redaction/java/",
+      "productFullName": "GroupDocs.Redaction for Java",
+
+      "programmingLanguage": "Java",
+      "srcFileExt": ".java",
+      "syntax": "java",
+      "runtime": "Java runtime: J2SE 6.0 and above",
+
+      "productUrl": "https://products.groupdocs.com/redaction/java/",
+      "packageStoreName": "Maven",
+      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-redaction/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/redaction/java/",
+      "docsUrl": "https://docs.groupdocs.com/redaction/java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/redaction/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/redaction/java/extract-images-from-documents/",
+      "sample2Url": "https://docs.groupdocs.com/redaction/java/extract-barcodes-from-document/",
+
+      "more_link": "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Java/",
+      "release_downloads": "https://releases.groupdocs.com/redaction/java/"
+    },
+    "python-net": {
+      "environmentName": "Python via .NET",
+      "environmentNameShort": "Python",
+      "productCode": "python-net",
+      "productFullName": "GroupDocs.Watermark for Python via .NET",
+
+      "programmingLanguage": "Python",
+      "srcFileExt": ".py",
+      "syntax": "python",
+      "runtime": "Python",
+
+      "productUrl": "https://products.groupdocs.com/redaction/python-net/",
+      "packageStoreName": "PyPi",
+      "packageUrl": "https://pypi.org/project/groupdocs-redaction-net/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/redaction/python-net/",
+      "docsUrl": "https://docs.groupdocs.com/redaction/python-net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/redaction/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/redaction/net/adding-image-redaction/#add-image-redaction-from-local-file/",
+      "sample2Url": "https://docs.groupdocs.com/redaction/net/modifing-found-redaction-properties/#replacing-text/",
+
+      "more_link": "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/redaction/python-net/"
     }
+  }
 }

@@ -1,0 +1,19 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [net]
+- alias:  operation
+  values: [barcode]
+- alias:  url
+  values: [extract-barcode]
+- alias:  fileformat
+  values: [docx, pptx, xlsx, pdf, odt, ods, odp, epub, fb2]
+
+generationRules:
+  include:
+  - fileformat[docx, pptx, xlsx, pdf, odt, ods, odp, epub, fb2]
+  
+outputPath: "parser\\{product}\\{url}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

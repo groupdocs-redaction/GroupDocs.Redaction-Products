@@ -1,161 +1,161 @@
 {
   "index-content": {
-    "head_title": "Documents Redaction Solution. Edit or remove any sensitive data.",
-    "head_description": "Remove, redact or hide text, images or metadata in PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, images, etc. Use our library in your .NET, Java, Python and cloud-based applications.",
-    "title": "Documents Redaction Library",
+    "head_title": "Document Redaction Solution. Edit or remove any sensitive data.",
+    "head_description": "Remove, redact, or hide text, images, or metadata in PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, images, and more. Use our library in your .NET, Java, Python, or cloud-based applications.",
+    "title": "Document Redaction Library",
     "description_0": "Hide or remove private information from various file types.",
-    "description_1": "Edit text or images in order to remove sensitive data.",
-    "description_2": "Control files metadata using our features.",
+    "description_1": "Edit text or images to eliminate sensitive content.",
+    "description_2": "Manage file metadata using our advanced features.",
     "words_for": "for",
-    "release_title": "Version {0} released",
+    "release_title": "Version {0} Released",
     "release_notes": "See what’s new",
     "release_downloads": "Downloads",
     "code_more": "More examples",
-    "overview_title": "{{ProdShortName}} at a glance",
-    "formats_title": "Supported file formats",
+    "overview_title": "{{ProdShortName}} at a Glance",
+    "formats_title": "Supported File Formats",
     "platforms": {
       "title": "Platform Independence",
-      "head_title": "Choose your platform",
+      "head_title": "Choose Your Platform",
       "description": "{{ProdShortName}} library supports the following operating systems and frameworks:",
       "learn_more": "Learn more",
       "any_other_text_editor": "Any other text editor"
     },
     "features": {
-      "title": "{{ProdShortName}} at a glance",
-      "description": "Solution to control content of PDFs, Office docs, images and other business files",
+      "title": "{{ProdShortName}} at a Glance",
+      "description": "A solution to manage content in PDFs, Office documents, images, and other business files.",
       "feature_1": {
-        "title": "Remove or edit text",
-        "content": "Find and redact any sensitive text in your documents."
+        "title": "Remove or Edit Text",
+        "content": "Find and redact sensitive text in your documents with ease."
       },
       "feature_2": {
-        "title": "Redact images",
-        "content": "Hide images areas in your files without extra efforts."
+        "title": "Redact Images",
+        "content": "Easily hide image areas in your files without extra effort."
       },
       "feature_3": {
-        "title": "Control metadata",
-        "content": "Remove or replace such metadata like Author for Word docs or EXIF for images."
+        "title": "Manage Metadata",
+        "content": "Remove or replace metadata such as the author in Word documents or EXIF data in images."
       },
       "feature_4": {
-        "title": "Advanced features",
-        "content": "Search data to be redacted by regular expressions or AI integration"
+        "title": "Advanced Features",
+        "content": "Search for data to redact using regular expressions or AI integration."
       }
     },
     "formats": {
-      "title": "30+ file formats supported",
-      "description": "{{ProdShortName}} supports redaction operations with all famous business formats"
+      "title": "30+ File Formats Supported",
+      "description": "{{ProdShortName}} supports redaction operations across all widely used business file formats."
     },
     "code_samples": {
-      "title": "Code samples",
-      "index_title": "{{ProdShortName}} code samples",
-      "index_description": "Some use cases of typical {{ProdShortName}} operations",
+      "title": "Code Samples",
+      "index_title": "{{ProdShortName}} Code Samples",
+      "index_description": "Typical use cases of {{ProdShortName}} redaction operations.",
       "more_examples": "More examples",
       "sample_index": {
-        "title": "How to redact text in PDF documents",
-        "content": "{{ProdShortName}} is a best solution to redact text in your documents by implementing a few steps.",
-        "comment_1": "Pass file path to be redacted to {{textRedactor}} instance",
+        "title": "How to Redact Text in PDF Documents",
+        "content": "{{ProdShortName}} is the best solution for redacting text in your documents in just a few steps.",
+        "comment_1": "Pass the file path to be redacted to a {{textRedactor}} instance",
         "comment_2": "Provide redaction options",
         "comment_3": "Redact and save the result"
       },
       "sample_1": {
-        "code_title": "Extract images from PDF documents in {{ProgLang}}",
-        "comment_1": "Create an instance of {{textParser}} class",
+        "code_title": "Extract Images from PDF Documents in {{ProgLang}}",
+        "comment_1": "Create an instance of the {{textParser}} class",
         "comment_2": "Extract images",
-        "comment_3": "Check if something is extracted",
-        "comment_4": "Iterate over images",
-        "comment_5": "Print a page index, rectangle and image type"
+        "comment_3": "Check if any images were extracted",
+        "comment_4": "Iterate over the extracted images",
+        "comment_5": "Print the page index, rectangle, and image type"
       },
       "sample_2": {
-        "code_title": "Extract barcodes from images in {{ProgLang}}",
-        "comment_1": "Load source image to {{textParser}}",
-        "comment_2": "Check if the file supports barcode extracting",
+        "code_title": "Extract Barcodes from Images in {{ProgLang}}",
+        "comment_1": "Load the source image into {{textParser}}",
+        "comment_2": "Check if the file supports barcode extraction",
         "comment_3": "Extract barcodes from the file",
-        "comment_4": "Iterate over barcodes",
+        "comment_4": "Iterate over the barcodes",
         "comment_5": "Print the page index",
         "comment_6": "Print the barcode value"
       }
     },
     "metrics": {
-      "title": "{{ProdShortName}} achievements",
-      "description": "Discover the Key Metrics of Our Library's Accomplishments",
+      "title": "{{ProdShortName}} Achievements",
+      "description": "Discover Key Metrics That Highlight Our Library’s Success",
       "item_1": {
-        "title": "Supported formats",
-        "description": "{{ProdShortName}} supports operations with more than 30 popular file formats."
+        "title": "Supported Formats",
+        "description": "{{ProdShortName}} supports operations with over 30 widely used file formats."
       },
       "item_2": {
-        "title": "NuGet downloads",
-        "description": "{{ProdShortName}} for .NET NuGet package was downloaded more than 440,000 times."
+        "title": "NuGet Downloads",
+        "description": "{{ProdShortName}} for .NET has been downloaded more than 440,000 times from NuGet."
       },
       "item_3": {
-        "title": "Maven downloads",
-        "description": "{{ProdShortName}} has 12,000 downloads on Maven. Powerful Java Parsing Features."
+        "title": "Maven Downloads",
+        "description": "{{ProdShortName}} has over 12,000 downloads on Maven, offering powerful Java redaction features."
       },
       "item_4": {
-        "title": "Happy customers",
-        "description": "As famous companies as individual developers prefer {{NameCompany}} products to build innovative solutions."
+        "title": "Happy Customers",
+        "description": "Both global enterprises and individual developers rely on {{NameCompany}} products to build innovative solutions."
       }
     },
     "customers": {
-      "title": "Our happy customers",
-      "description": "{{NameCompany}} libraries are employed by globally renowned and distinguished brands across the world."
+      "title": "Our Happy Customers",
+      "description": "{{NameCompany}} libraries are trusted by globally recognized and respected brands."
     },
     "actions": {
       "alt": "Licensing",
-      "title": "Ready to get started?",
-      "description": "Try {{ProdShortName}} features for free or request a license",
-      "description_index": "Try {{ProdShortName}} features for free on your platform"
+      "title": "Ready to Get Started?",
+      "description": "Try {{ProdShortName}} features for free or request a license.",
+      "description_index": "Try {{ProdShortName}} features for free on your platform."
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "description": "Answers to most commonly asked questions.",
+      "title": "Frequently Asked Questions",
+      "description": "Answers to the most commonly asked questions.",
       "item_1": {
-        "question": "Does {{ProdShortName}} library need any other third-party software to manipulate documents?",
-        "answer": "{{ProdShortName}} does not require any external software to be installed such as Adobe Acrobat, Microsoft Office, or any other."
+        "question": "Does the {{ProdShortName}} library require any third-party software to manipulate documents?",
+        "answer": "{{ProdShortName}} does not require any external software like Adobe Acrobat, Microsoft Office, or others."
       },
       "item_2": {
-        "question": "Can I try the {{ProdShortName}} library before purchasing it?",
-        "answer": "Yes, you can try {{ProdShortName}} without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test {{ProdShortName}} without the limitations of the trial version, you can also request a 30-day temporary license. For more details, [see]({{LicensingUrl}})."
+        "question": "Can I try the {{ProdShortName}} library before purchasing?",
+        "answer": "Yes, you can try {{ProdShortName}} without purchasing a license. It works in trial mode, which adds trial badges and limits output to the first 3 pages. To test without restrictions, request a 30-day temporary license. For more details, [see]({{LicensingUrl}})."
       },
       "item_3": {
-        "question": "What licenses do you have?",
-        "answer": "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more [here]({{PricingUrl}})."
+        "question": "What license options are available?",
+        "answer": "We offer several license types based on your development and distribution needs. These include developer-based, site-based, and Metered licenses depending on usage. Learn more [here]({{PricingUrl}})."
       }
     },
     "cloud_links": {
-      "title": "{{ProdShortName}} low code APIs",
-      "description": "Incorporate document redaction capabilities into any application using our cloud-based REST API",
+      "title": "{{ProdShortName}} Low-Code APIs",
+      "description": "Integrate document redaction into any application using our cloud-based REST API.",
       "item_1": {
-        "content": "cURL commands for RESTful document redaction Cloud API to redact documents across wide range of supported popular file formats."
+        "content": "Use cURL commands with our RESTful Cloud API to redact documents in a wide range of supported file formats."
       },
       "item_2": {
-        "content": "Extract images, text, document information or even redact any document by user-defined template in your Microsoft .NET applications."
+        "content": "Extract images, text, and metadata or redact documents using templates in Microsoft .NET applications."
       },
       "item_3": {
-        "content": "Cloud SDK for Java developers to redact documents, extract document information and data within Java based applications."
+        "content": "Java SDK for redacting documents and extracting data within your Java-based applications."
       }
     },
     "app_links": {
-      "title": "{{ProdShortName}} No Code Apps",
-      "description": "Web-based application that enables you to perform redact across more than 30 popular file formats directly in your browser. ",
+      "title": "{{ProdShortName}} No-Code Apps",
+      "description": "A web-based app that enables you to redact over 30 popular file formats directly in your browser.",
       "item_1": {
-        "content": "Free online app to redact Word, Excel, PowerPoint, PDF & 30+ more document types."
+        "content": "Free online tool to redact Word, Excel, PowerPoint, PDF, and 30+ other file types."
       },
       "item_2": {
-        "content": "redact Word documents directly from your web browser to extract images, text or metadata."
+        "content": "Redact Word documents in your browser and extract images, text, or metadata."
       },
       "item_3": {
-        "content": "Free PDF redaction app that works on any platform or device without any limitations."
+        "content": "Free PDF redaction tool that works on any device or platform with no limitations."
       }
     },
     "formats_groups": {
-      "title_1": "Microsoft Office formats",
+      "title_1": "Microsoft Office Formats",
       "title_2": "Images & Other Formats",
-      "title_3": "Other formats",
+      "title_3": "Other Formats",
       "format_portable": "Portable",
       "format_images": "Images",
-      "format_other_office": "Other office formats",
+      "format_other_office": "Other Office Formats",
       "format_other_web": "Web",
       "format_other_archives": "Archives",
-      "format_other_ebooks": "e-Books"
+      "format_other_ebooks": "eBooks"
     }
   },
   "index-content-net": {

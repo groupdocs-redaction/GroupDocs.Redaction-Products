@@ -71,12 +71,12 @@ supported_platforms:
       features_link: "https://docs.groupdocs.com/redaction/java/system-requirements/"
       features:
           # features loop
-          - rows: "4"
+          - rows: "2"
             content: |
                     Java 8 or higher <br> Kotlin
       
           # features loop
-          - rows: "2"
+          - rows: "4"
             content: |
                     Windows <br> Linux <br> Mac OS
       

@@ -57,18 +57,18 @@
         "comment_3": "Redact and save the result"
       },
       "sample_1": {
-        "code_title": "Redact Word Documents regular expressions",
+        "code_title": "Redact Word Documents Using Regular Expressions",
         "comment_1": "Create an instance of the {{textRedactor}} class",
-        "comment_2": "Specify redaction options using regular expression",
-        "comment_3": "Hide all suitable texts with blue square images",
-        "comment_4": "Save redacted document"
+        "comment_2": "Define redaction rules using a regular expression",
+        "comment_3": "Mask all matching text with blue square overlays",
+        "comment_4": "Save the redacted Word document"
       },
       "sample_2": {
-        "code_title": "Clean presentation of all metadata",
-        "comment_1": "Pass path of a presentation to {{textParser}}",
-        "comment_2": "Create redaction",
-        "comment_3": "Remove all metadata from the document",
-        "comment_4": "Save cleaned file"
+        "code_title": "Remove All Metadata from Presentations",
+        "comment_1": "Provide the path of the presentation to {{textRedactor}}",
+        "comment_2": "Configure the redaction options",
+        "comment_3": "Erase all metadata from the presentation",
+        "comment_4": "Save the cleaned presentation file"
       }
     },
     "metrics": {
@@ -155,80 +155,80 @@
     }
   },
   "index-content-net": {
-    "head_title": "Redact any sensitive data in your documents using{{EnvNameShort}}",
-    "head_description": "Control your business files content using {{ProdFullName}}. Redact, hide or remove sensitive content from PDF, Microsoft Word, Excel, PowerPoint, and images",
-    "title": "Protect your data using {{ProdShortName}}",
-    "description": "Redact, hide or remove sensitive content & metadata from PDFs, documents, worksheets, presentations, and images using our {{EnvNameShort}} solution.",
+    "head_title": "Redact sensitive data in your documents using {{EnvNameShort}}",
+    "head_description": "Safeguard your business documents with {{ProdFullName}}. Easily redact, hide, or remove confidential content from PDFs, Word, Excel, PowerPoint, and image files.",
+    "title": "Secure Your Content with {{ProdShortName}}",
+    "description": "Redact, hide, or permanently remove sensitive information and metadata from PDFs, Word documents, spreadsheets, presentations, and images using our powerful {{EnvNameShort}} solution.",
     "actions_main": "{{PackageStoreName}} Download",
-    "code_title": "Redact Files Content",
-    "code_comment_1": "Pass source file to {{textRedactor}} instance",
-    "code_comment_2": "Set up redaction options",
-    "code_comment_3": "Apply redaction",
-    "code_comment_4": "Save result",
-    "overview_description": "Include content redaction abilities to your {{EnvNameShort}} applications",
+    "code_title": "How to Redact File Content",
+    "code_comment_1": "Pass the input file to a {{textRedactor}} instance",
+    "code_comment_2": "Configure the redaction options",
+    "code_comment_3": "Run the redaction process",
+    "code_comment_4": "Save the redacted file",
+    "overview_description": "Add professional-grade content redaction to your {{EnvNameShort}} applications",
     "overview_feature_1": {
-      "title": "Redact textual content",
-      "description": "{{ProdFullName}} allows to find and redact text. Sensitive text may be changed or be hidden by small colored images to protect it. This option is available at wide range of document formats such as PDFs or Office documents. Such feature may be useful to protect business data end enhance business processes."
+      "title": "Redact Textual Content",
+      "description": "{{ProdFullName}} allows you to locate and redact sensitive text. Text can be replaced or hidden using colored image overlays for added security. Supported across a wide variety of formats including PDFs and Office documents, this feature helps protect private data and streamline business compliance."
     },
     "overview_feature_2": {
-      "title": "Hide images",
-      "description": "Our solution can detect and hide images partially or fully on pages for various document formats. Just provide search parameters and image areas to be hidden."
+      "title": "Redact Images",
+      "description": "Automatically detect and redact images—either fully or partially—on document pages. Specify search criteria and targeted regions to mask sensitive visual content efficiently."
     },
     "overview_feature_3": {
-      "title": "Control files metadata",
-      "description": "Some files and documents formats have hidden metadata like 'Author' in Word documents or EXIF in images. it is easy to locate and redact such sensitive data using our product."
+      "title": "Manage File Metadata",
+      "description": "Many file types contain hidden metadata, such as author names in Word files or EXIF data in images. {{ProdFullName}} makes it simple to find and redact this information to ensure full data privacy."
     },
     "overview_feature_4": {
-      "title": "Document object redaction",
-      "description": "To be shure that all sensitive content is redacted processing of some document-specific objects like annotations in PDF is supported."
+      "title": "Redact Document Objects",
+      "description": "Ensure complete content protection by redacting document-specific elements like annotations, comments, and embedded objects in formats such as PDFs."
     },
     "features": {
-      "title": "{{ProdFullName}} features",
-      "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately",
+      "title": "{{ProdFullName}} Features",
+      "description": "Extract and redact data from PDFs, Office files, and images with high speed and accuracy.",
       "feature_1": {
-        "title": "Flexible search",
-        "content": "Perform case-sensitive search for exact phrase redaction."
+        "title": "Flexible Search",
+        "content": "Perform case-sensitive or case-insensitive searches to redact specific phrases or terms."
       },
       "feature_2": {
-        "title": "Find and any replace any text",
-        "content": "Replace or just delete all suitable text in documents."
+        "title": "Replace or Remove Text",
+        "content": "Easily find and replace or delete sensitive text throughout your documents."
       },
       "feature_3": {
-        "title": "Hide text by images",
-        "content": "Use color box to hide redacted text instead of string replacement."
+        "title": "Hide Text with Images",
+        "content": "Use colored image overlays to visually mask redacted content instead of replacing text."
       },
       "feature_4": {
-        "title": "Advanced search",
-        "content": "Locate & redact out any text using regular expression search."
+        "title": "Advanced Search Capabilities",
+        "content": "Use regular expressions for precise and flexible content redaction across complex data sets."
       },
       "feature_5": {
-        "title": "Narrow search scope",
-        "content": "Provide page numbers or page areas to redact only demanded content."
+        "title": "Scoped Redaction",
+        "content": "Target specific pages or defined page areas to limit redaction to relevant sections only."
       },
       "feature_6": {
-        "title": "Control metadata",
-        "content": "Find and redact metadata entries in documents and files."
+        "title": "Metadata Redaction",
+        "content": "Find and redact metadata properties to protect document ownership and creation details."
       },
       "feature_7": {
-        "title": "Save format",
-        "content": "Save redacted file to PDF or other supported formats."
+        "title": "Flexible Output Formats",
+        "content": "Export redacted files to PDF or any supported format while preserving layout integrity."
       },
       "feature_8": {
-        "title": "Erase all metadata",
-        "content": "Quickly erase complete metadata information of specific document."
+        "title": "Complete Metadata Erasure",
+        "content": "Erase all metadata from a document in a single action to ensure absolute privacy."
       },
       "feature_9": {
-        "title": "XML Redaction Policy",
-        "content": "Redaction rules may be saved to specific XML files for further files processing."
+        "title": "XML-Based Redaction Rules",
+        "content": "Define redaction policies in XML format for repeatable, automated processing across multiple files."
       }
     },
-    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
+    "platforms_description": "{{ProdFullName}} is compatible with a wide range of operating systems, development frameworks, and package managers.",
     "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
-    "code_title_sample_1": "Using of regular expressions",
-    "code_samples_sample_1_content": "{{ProdFullName}} makes it easy for {{ProgLang}} developers to hide text with images using [regular expressions]({{Sample1Url}}):",
-    "code_title_sample_2": "Clear metadata",
-    "code_samples_sample_2_content": "Our solution allows to [clear]({{Sample2Url}}) all metadata from supported files easily:"
+    "code_samples_description": "Typical usage examples of {{ProdFullName}} in action",
+    "code_title_sample_1": "Redaction with Regular Expressions",
+    "code_samples_sample_1_content": "{{ProdFullName}} enables {{ProgLang}} developers to redact text using [regular expressions]({{Sample1Url}}) and hide it with image overlays:",
+    "code_title_sample_2": "Metadata Cleanup",
+    "code_samples_sample_2_content": "Use our API to easily [remove]({{Sample2Url}}) all metadata from supported file formats:"
   },
   "index-content-java": {
     "head_title": "{{ProdFullName}} Document Parsing Apps",
@@ -237,7 +237,7 @@
     "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
     "actions_main": "{{PackageStoreName}} Download",
     "code_title": "Quickly Get Document Content",
-    "code_comment_1": "Pass source file to {{textParser}} instance",
+    "code_comment_1": "Pass source file to {{textRedactor}} instance",
     "code_comment_2": "Pass document text to {{textReader}}",
     "code_comment_3": "Process document text",
     "overview_description": "API for performing document parsing in {{EnvNameShort}} applications",
@@ -308,7 +308,7 @@
     "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
     "actions_main": "{{PackageStoreName}} Download",
     "code_title": "Quickly Parse Document Content",
-    "code_comment_1": "Pass source file to {{textParser}} instance",
+    "code_comment_1": "Pass source file to {{textRedactor}} instance",
     "code_comment_2": "Pass document text to {{textReader}}",
     "code_comment_3": "Process document text",
     "overview_description": "API for performing document parsing in {{EnvNameShort}} applications",

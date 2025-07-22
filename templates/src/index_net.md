@@ -7,8 +7,8 @@ date: <% date "utcnow" %>
 draft: false
 
 lang: <% lower ( get "lang") %>
-product: "Parser"
-product_tag: "parser"
+product: "Redaction"
+product_tag: "redaction"
 platform: "Net"
 platform_tag: "net"
 
@@ -21,6 +21,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% "{index-content-net.head_title}" %>"
@@ -49,17 +52,23 @@ code:
   title: "<% "{index-content-net.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.net.more_link" %>"
-  install: "dotnet add package GroupDocs.Parser"
+  install: "dotnet add package GroupDocs.Redaction"
   content: |
     ```csharp {style=abap}   
     // <% "{index-content-net.code_comment_1}" %>
-    using (var parser = new Parser("source.pdf"))
+    using (Redactor redactor = new Redactor("source.pdf"))
     {
         // <% "{index-content-net.code_comment_2}" %>
-        using (var textReader = parser.GetText())
+        var repl_opt = new ReplacementOptions("[redacted]");
+        var red = new ExactPhraseRedaction("Data", repl_opt);
+
+        // <% "{index-content-net.code_comment_3}" %>
+        RedactorChangeLog result = redactor.Apply(red);
+
+        // <% "{index-content-net.code_comment_4}" %>
+        if (result.Status != RedactionStatus.Failed)
         {
-            // <% "{index-content-net.code_comment_3}" %>
-            Console.WriteLine(textReader?.ReadToEnd());
+            redactor.Save();
         }
     }  
     ```
@@ -81,6 +90,10 @@ overview:
     # feature loop
     - title: "<% "{index-content-net.overview_feature_3.title}" %>"
       content: "<% "{index-content-net.overview_feature_3.description}" %>"
+
+    # feature loop
+    - title: "<% "{index-content-net.overview_feature_4.title}" %>"
+      content: "<% "{index-content-net.overview_feature_4.description}" %>"
 
 ############################# Platforms ############################
 platforms:
@@ -124,23 +137,23 @@ formats:
     - color: "green"
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
-        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM,
+        * **Excel:** XLSX, XLS, XLSM, XLSB, 
+        * **PowerPoint:** PPT, PPTX
     # group loop
     - color: "blue"
       content: |
         ### <% "{index-content.formats_groups.title_2}" %>
         * **<% "{index-content.formats_groups.format_portable}" %>:** PDF 
-        * **<% "{index-content.formats_groups.format_images}" %>:** JPG, BMP, PNG, TIFF, GIF
-        * **<% "{index-content.formats_groups.format_other_office}" %>:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **OpenDocument:** ODT, ODS, OTS, ODP, OTT
+        * **<% "{index-content.formats_groups.format_other_office}" %>:** RTF, CSV, TXT, TSV
       # group loop
     - color: "red"
       content: |
         ### <% "{index-content.formats_groups.title_3}" %>
-        * **<% "{index-content.formats_groups.format_other_web}" %>:** HTML, MHTML 
-        * **<% "{index-content.formats_groups.format_other_archives}" %>:** ZIP, TAR, 7Z 
-        * **<% "{index-content.formats_groups.format_other_ebooks}" %>:** CHM, EPUB, FB2, MOBI 
+        * **<% "{index-content.formats_groups.format_other_web}" %>:** HTM, HTML, MD
+        * **<% "{index-content.formats_groups.format_images}" %>:** BMP, GIF, JPEG, PNG, TIFF, WEBP
+        * **<% "{index-content.formats_groups.format_other_ebooks}" %>:** DJVU 
         
         
 
@@ -152,22 +165,22 @@ features:
 
   items:
     # feature loop
-    - icon: "text"
+    - icon: "search"
       title: "<% "{index-content-net.features.feature_1.title}" %>"
       content: "<% "{index-content-net.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "image"
+    - icon: "text"
       title: "<% "{index-content-net.features.feature_2.title}" %>"
       content: "<% "{index-content-net.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "qr"
+    - icon: "image"
       title: "<% "{index-content-net.features.feature_3.title}" %>"
       content: "<% "{index-content-net.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "email"
+    - icon: "search"
       title: "<% "{index-content-net.features.feature_4.title}" %>"
       content: "<% "{index-content-net.features.feature_4.content}" %>"
 
@@ -177,7 +190,7 @@ features:
       content: "<% "{index-content-net.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "hyperlink"
+    - icon: "template"
       title: "<% "{index-content-net.features.feature_6.title}" %>"
       content: "<% "{index-content-net.features.feature_6.content}" %>"
 
@@ -192,7 +205,7 @@ features:
       content: "<% "{index-content-net.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "search"
+    - icon: "hyperlink"
       title: "<% "{index-content-net.features.feature_9.title}" %>"
       content: "<% "{index-content-net.features.feature_9.content}" %>"
 
@@ -210,23 +223,17 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```csharp {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        using (var parser = new Parser("source.pptx"))
+        using (Redactor redactor = new Redactor("source.docx"))
         {
             // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            var images = parser.GetImages();
-
+            var replacement = new ReplacementOptions(System.Drawing.Color.Blue);
+            var redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", replacement);
+            
             // <% "{index-content.code_samples.sample_1.comment_3}" %>
-            if (images == null)
-            {
-                return;
-            }
+            redactor.Apply(redaction);
+
             // <% "{index-content.code_samples.sample_1.comment_4}" %>
-            foreach (PageImageArea image in images)
-            {
-                // <% "{index-content.code_samples.sample_1.comment_5}" %>
-                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", 
-                    image.Page.Index, image.Rectangle, image.FileType));
-            }
+            redactor.Save();
         }
         ```
         {{< /landing/code >}}
@@ -237,23 +244,16 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```csharp {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        using (var parser = new Parser("source.jpg"))
+        using (Redactor redactor = new Redactor("source.pptx"))
         {
             // <% "{index-content.code_samples.sample_2.comment_2}" %>
-            if (parser.Features.Barcodes)
-            {
-                // <% "{index-content.code_samples.sample_2.comment_3}" %>
-                var barcodes = parser.GetBarcodes();
+            var redaction = new EraseMetadataRedaction(MetadataFilters.All);
+            
+            // <% "{index-content.code_samples.sample_2.comment_3}" %>
+            redactor.Apply(redaction);
 
-                // <% "{index-content.code_samples.sample_2.comment_4}" %>
-                foreach (var barcode in barcodes)
-                {
-                    // <% "{index-content.code_samples.sample_2.comment_5}" %>
-                    Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-                    // <% "{index-content.code_samples.sample_2.comment_6}" %>
-                    Console.WriteLine("Value: " + barcode.Value);
-                }
-            }
+            // <% "{index-content.code_samples.sample_2.comment_4}" %>
+            redactor.Save();
         }
         ```
         {{< /landing/code >}}

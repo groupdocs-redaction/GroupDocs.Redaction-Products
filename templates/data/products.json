@@ -27,8 +27,8 @@
       "pricesUrl": "https://purchase.groupdocs.com/pricing/redaction/net/",
       "docsUrl": "https://docs.groupdocs.com/redaction/net/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/redaction/net/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/redaction/net/extract-images-from-documents/",
-      "sample2Url": "https://docs.groupdocs.com/redaction/net/extract-barcodes-from-document/",
+      "sample1Url": "https://docs.groupdocs.com/redaction/net/text-redactions/#use-regular-expression",
+      "sample2Url": "https://docs.groupdocs.com/redaction/net/metadata-redactions/#clean-metadata",
 
       "more_link": "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-.NET/",
       "release_downloads": "https://releases.groupdocs.com/redaction/net/"

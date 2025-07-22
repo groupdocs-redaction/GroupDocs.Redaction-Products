@@ -7,10 +7,10 @@ date: <% date "utcnow" %>
 draft: false
 
 lang: <% lower ( get "lang") %>
-product: "Parser"
-product_tag: "parser"
-platform: "Net"
-platform_tag: "net"
+product: "Redaction"
+product_tag: "redaction"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -21,6 +21,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% "{index-content-python.head_title}" %>"
@@ -201,12 +204,12 @@ features:
 code_samples:
   enable: true
   title: "<% "{index-content.code_samples.title}" %>"
-  description: "<% "{index-content-net.code_samples_description}" %>"
+  description: "<% "{index-content-python.code_samples_description}" %>"
   items:
     # code sample loop
-    - title: "<% "{index-content-net.code_title_sample_1}" %>"
+    - title: "<% "{index-content-python.code_title_sample_1}" %>"
       content: |
-        <% "{index-content-net.code_samples_sample_1_content}" %>
+        <% "{index-content-python.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```csharp {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
@@ -231,9 +234,9 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "<% "{index-content-net.code_title_sample_2}" %>"
+    - title: "<% "{index-content-python.code_title_sample_2}" %>"
       content: |
-        <% "{index-content-net.code_samples_sample_2_content}" %>
+        <% "{index-content-python.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```csharp {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>

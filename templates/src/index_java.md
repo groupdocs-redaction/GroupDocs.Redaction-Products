@@ -7,8 +7,8 @@ date: <% date "utcnow" %>
 draft: false
 
 lang: <% lower ( get "lang") %>
-product: "Parser"
-product_tag: "parser"
+product: "Redaction"
+product_tag: "redaction"
 platform: "Java"
 platform_tag: "java"
 
@@ -21,6 +21,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% "{index-content-java.head_title}" %>"

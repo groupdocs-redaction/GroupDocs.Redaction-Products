@@ -51,20 +51,27 @@ release:
 code:
   title: "<% "{index-content-python.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
-  more_link: "<% dict "products.net.more_link" %>"
-  install: "dotnet add package GroupDocs.Parser"
+  more_link: "<% dict "products.python.more_link" %>"
+  install: "pip install groupdocs-redaction-net"
   content: |
-    ```csharp {style=abap}   
-    // <% "{index-content-python.code_comment_1}" %>
-    using (var parser = new Parser("source.pdf"))
-    {
-        // <% "{index-content-python.code_comment_2}" %>
-        using (var textReader = parser.GetText())
-        {
-            // <% "{index-content-python.code_comment_3}" %>
-            Console.WriteLine(textReader?.ReadToEnd());
-        }
-    }  
+    ```python {style=abap}
+    import groupdocs.redaction as gr
+    import groupdocs.redaction.redactions as grr
+
+    def run():
+
+        # <% "{index-content-python.code_comment_2}" %>
+        repl_opt = grr.ReplacementOptions("[redacted]")
+        red = grr.ExactPhraseRedaction("Data", repl_opt)
+
+        # <% "{index-content-python.code_comment_1}" %>
+        with gr.Redactor("sample.pdf") as redactor:
+
+            # <% "{index-content-python.code_comment_3}" %>
+            result = redactor.apply(red)
+        
+            # <% "{index-content-python.code_comment_4}" %>
+            result_path = redactor.save()
     ```
 
 ############################# Overview ############################
@@ -84,6 +91,10 @@ overview:
     # feature loop
     - title: "<% "{index-content-python.overview_feature_3.title}" %>"
       content: "<% "{index-content-python.overview_feature_3.description}" %>"
+
+    # feature loop
+    - title: "<% "{index-content-python.overview_feature_4.title}" %>"
+      content: "<% "{index-content-python.overview_feature_4.description}" %>"
 
 ############################# Platforms ############################
 platforms:
@@ -127,23 +138,23 @@ formats:
     - color: "green"
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
-        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM,
+        * **Excel:** XLSX, XLS, XLSM, XLSB, 
+        * **PowerPoint:** PPT, PPTX
     # group loop
     - color: "blue"
       content: |
         ### <% "{index-content.formats_groups.title_2}" %>
         * **<% "{index-content.formats_groups.format_portable}" %>:** PDF 
-        * **<% "{index-content.formats_groups.format_images}" %>:** JPG, BMP, PNG, TIFF, GIF
-        * **<% "{index-content.formats_groups.format_other_office}" %>:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **OpenDocument:** ODT, ODS, OTS, ODP, OTT
+        * **<% "{index-content.formats_groups.format_other_office}" %>:** RTF, CSV, TXT, TSV
       # group loop
     - color: "red"
       content: |
         ### <% "{index-content.formats_groups.title_3}" %>
-        * **<% "{index-content.formats_groups.format_other_web}" %>:** HTML, MHTML 
-        * **<% "{index-content.formats_groups.format_other_archives}" %>:** ZIP, TAR, 7Z 
-        * **<% "{index-content.formats_groups.format_other_ebooks}" %>:** CHM, EPUB, FB2, MOBI 
+        * **<% "{index-content.formats_groups.format_other_web}" %>:** HTM, HTML, MD
+        * **<% "{index-content.formats_groups.format_images}" %>:** BMP, GIF, JPEG, PNG, TIFF, WEBP
+        * **<% "{index-content.formats_groups.format_other_ebooks}" %>:** DJVU 
         
         
 
@@ -155,22 +166,22 @@ features:
 
   items:
     # feature loop
-    - icon: "text"
+    - icon: "search"
       title: "<% "{index-content-python.features.feature_1.title}" %>"
       content: "<% "{index-content-python.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "image"
+    - icon: "text"
       title: "<% "{index-content-python.features.feature_2.title}" %>"
       content: "<% "{index-content-python.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "qr"
+    - icon: "image"
       title: "<% "{index-content-python.features.feature_3.title}" %>"
       content: "<% "{index-content-python.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "email"
+    - icon: "search"
       title: "<% "{index-content-python.features.feature_4.title}" %>"
       content: "<% "{index-content-python.features.feature_4.content}" %>"
 
@@ -180,7 +191,7 @@ features:
       content: "<% "{index-content-python.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "hyperlink"
+    - icon: "template"
       title: "<% "{index-content-python.features.feature_6.title}" %>"
       content: "<% "{index-content-python.features.feature_6.content}" %>"
 
@@ -195,7 +206,7 @@ features:
       content: "<% "{index-content-python.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "search"
+    - icon: "hyperlink"
       title: "<% "{index-content-python.features.feature_9.title}" %>"
       content: "<% "{index-content-python.features.feature_9.content}" %>"
 
@@ -211,26 +222,26 @@ code_samples:
       content: |
         <% "{index-content-python.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
-        ```csharp {style=abap}
-        // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        using (var parser = new Parser("source.pptx"))
-        {
-            // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            var images = parser.GetImages();
+        ```python {style=abap}
+        import groupdocs.redaction as gr
+        import groupdocs.redaction.redactions as grr
+        import groupdocs.pydrawing as grd
 
-            // <% "{index-content.code_samples.sample_1.comment_3}" %>
-            if (images == null)
-            {
-                return;
-            }
-            // <% "{index-content.code_samples.sample_1.comment_4}" %>
-            foreach (PageImageArea image in images)
-            {
-                // <% "{index-content.code_samples.sample_1.comment_5}" %>
-                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", 
-                    image.Page.Index, image.Rectangle, image.FileType));
-            }
-        }
+        def run():
+
+            # <% "{index-content.code_samples.sample_1.comment_2}" %>
+            color = grd.Color.from_argb(255, 220, 20, 60)
+            repl_opt = grr.ReplacementOptions(color)
+            reg_red = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
+
+            # <% "{index-content.code_samples.sample_1.comment_1}" %>
+            with gr.Redactor("source.docx") as redactor:
+
+                # <% "{index-content.code_samples.sample_1.comment_3}" %>
+                result = redactor.apply(reg_red)
+        
+                # <% "{index-content.code_samples.sample_1.comment_4}" %>
+                redactor.save()
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -238,26 +249,21 @@ code_samples:
       content: |
         <% "{index-content-python.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
-        ```csharp {style=abap}   
-        // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        using (var parser = new Parser("source.jpg"))
-        {
-            // <% "{index-content.code_samples.sample_2.comment_2}" %>
-            if (parser.Features.Barcodes)
-            {
-                // <% "{index-content.code_samples.sample_2.comment_3}" %>
-                var barcodes = parser.GetBarcodes();
+        ```python {style=abap}   
+        import groupdocs.redaction as gr
+        import groupdocs.redaction.redactions as grr
 
-                // <% "{index-content.code_samples.sample_2.comment_4}" %>
-                foreach (var barcode in barcodes)
-                {
-                    // <% "{index-content.code_samples.sample_2.comment_5}" %>
-                    Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-                    // <% "{index-content.code_samples.sample_2.comment_6}" %>
-                    Console.WriteLine("Value: " + barcode.Value);
-                }
-            }
-        }
+        # <% "{index-content.code_samples.sample_2.comment_2}" %>
+        red = grr.EraseMetadataRedaction(grr.MetadataFilters.ALL)
+
+        # <% "{index-content.code_samples.sample_2.comment_1}" %>
+        with gr.Redactor("source.pptx") as redactor:
+
+            # <% "{index-content.code_samples.sample_2.comment_3}" %>
+            result = redactor.apply(red)
+        
+            # <% "{index-content.code_samples.sample_2.comment_4}" %>
+            redactor.save()
         ```
         {{< /landing/code >}}
 

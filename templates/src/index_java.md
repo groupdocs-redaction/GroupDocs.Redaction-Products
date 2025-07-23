@@ -55,23 +55,26 @@ code:
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-parser</artifactId>
+      <artifactId>groupdocs-redaction</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
     ```java {style=abap}  
     // <% "{index-content-java.code_comment_1}" %>
-    try (Parser parser = new Parser("source.pdf"))
+    final Redactor redactor = new Redactor("sample.pdf");
+    try
     {
         // <% "{index-content-java.code_comment_2}" %>
-        try (TextReader reader = parser.getText())
-        {
-            // <% "{index-content-java.code_comment_3}" %>
-            System.out.println(reader == null 
-                ? "" 
-                : reader.readToEnd());
-        }
+        ReplacementOptions ro = new ReplacementOptions("[redacted]");
+        ExactPhraseRedaction red = new ExactPhraseRedaction("Data", ro);
+
+        // <% "{index-content-java.code_comment_3}" %>
+        RedactorChangeLog result = redactor.apply(red);
+
+        // <% "{index-content-java.code_comment_4}" %>
+        redactor.save();
     }
+    finally { redactor.close(); }
     ```
 
 ############################# Overview ############################
@@ -91,6 +94,10 @@ overview:
     # feature loop
     - title: "<% "{index-content-java.overview_feature_3.title}" %>"
       content: "<% "{index-content-java.overview_feature_3.description}" %>"
+
+    # feature loop
+    - title: "<% "{index-content-java.overview_feature_4.title}" %>"
+      content: "<% "{index-content-java.overview_feature_4.description}" %>"
 
 ############################# Platforms ############################
 platforms:
@@ -128,29 +135,29 @@ formats:
   enable: true
   title: "<% "{index-content.formats_title}" %>"
   description: |
-    <% "{index-content-net.formats_description}" %>
+    <% "{index-content-java.formats_description}" %>
   groups:
     # group loop
     - color: "green"
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
-        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM,
+        * **Excel:** XLSX, XLS, XLSM, XLSB, 
+        * **PowerPoint:** PPT, PPTX
     # group loop
     - color: "blue"
       content: |
         ### <% "{index-content.formats_groups.title_2}" %>
         * **<% "{index-content.formats_groups.format_portable}" %>:** PDF 
-        * **<% "{index-content.formats_groups.format_images}" %>:** JPG, BMP, PNG, TIFF, GIF
-        * **<% "{index-content.formats_groups.format_other_office}" %>:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **OpenDocument:** ODT, ODS, OTS, ODP, OTT
+        * **<% "{index-content.formats_groups.format_other_office}" %>:** RTF, CSV, TXT, TSV
       # group loop
     - color: "red"
       content: |
         ### <% "{index-content.formats_groups.title_3}" %>
-        * **<% "{index-content.formats_groups.format_other_web}" %>:** HTML, MHTML 
-        * **<% "{index-content.formats_groups.format_other_archives}" %>:** ZIP, TAR, 7Z 
-        * **<% "{index-content.formats_groups.format_other_ebooks}" %>:** CHM, EPUB, FB2, MOBI 
+        * **<% "{index-content.formats_groups.format_other_web}" %>:** HTM, HTML, MD
+        * **<% "{index-content.formats_groups.format_images}" %>:** BMP, GIF, JPEG, PNG, TIFF, WEBP
+        * **<% "{index-content.formats_groups.format_other_ebooks}" %>:** DJVU 
         
         
 
@@ -162,49 +169,49 @@ features:
 
   items:
     # feature loop
+    - icon: "search"
+      title: "<% "{index-content-java.features.feature_1.title}" %>"
+      content: "<% "{index-content-java.features.feature_1.content}" %>"
+
+    # feature loop
     - icon: "text"
-      title: "<% "{index-content-net.features.feature_1.title}" %>"
-      content: "<% "{index-content-net.features.feature_1.content}" %>"
+      title: "<% "{index-content-java.features.feature_2.title}" %>"
+      content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
     - icon: "image"
-      title: "<% "{index-content-net.features.feature_2.title}" %>"
-      content: "<% "{index-content-net.features.feature_2.content}" %>"
-
-    # feature loop
-    - icon: "qr"
-      title: "<% "{index-content-net.features.feature_3.title}" %>"
-      content: "<% "{index-content-net.features.feature_3.content}" %>"
-
-    # feature loop
-    - icon: "email"
-      title: "<% "{index-content-net.features.feature_4.title}" %>"
-      content: "<% "{index-content-net.features.feature_4.content}" %>"
-
-    # feature loop
-    - icon: "table"
-      title: "<% "{index-content-net.features.feature_5.title}" %>"
-      content: "<% "{index-content-net.features.feature_5.content}" %>"
-
-    # feature loop
-    - icon: "hyperlink"
-      title: "<% "{index-content-net.features.feature_6.title}" %>"
-      content: "<% "{index-content-net.features.feature_6.content}" %>"
-
-    # feature loop
-    - icon: "pdf"
-      title: "<% "{index-content-net.features.feature_7.title}" %>"
-      content: "<% "{index-content-net.features.feature_7.content}" %>"
-
-    # feature loop
-    - icon: "template"
-      title: "<% "{index-content-net.features.feature_8.title}" %>"
-      content: "<% "{index-content-net.features.feature_8.content}" %>"
+      title: "<% "{index-content-java.features.feature_3.title}" %>"
+      content: "<% "{index-content-java.features.feature_3.content}" %>"
 
     # feature loop
     - icon: "search"
-      title: "<% "{index-content-net.features.feature_9.title}" %>"
-      content: "<% "{index-content-net.features.feature_9.content}" %>"
+      title: "<% "{index-content-java.features.feature_4.title}" %>"
+      content: "<% "{index-content-java.features.feature_4.content}" %>"
+
+    # feature loop
+    - icon: "table"
+      title: "<% "{index-content-java.features.feature_5.title}" %>"
+      content: "<% "{index-content-java.features.feature_5.content}" %>"
+
+    # feature loop
+    - icon: "template"
+      title: "<% "{index-content-java.features.feature_6.title}" %>"
+      content: "<% "{index-content-java.features.feature_6.content}" %>"
+
+    # feature loop
+    - icon: "pdf"
+      title: "<% "{index-content-java.features.feature_7.title}" %>"
+      content: "<% "{index-content-java.features.feature_7.content}" %>"
+
+    # feature loop
+    - icon: "template"
+      title: "<% "{index-content-java.features.feature_8.title}" %>"
+      content: "<% "{index-content-java.features.feature_8.content}" %>"
+
+    # feature loop
+    - icon: "hyperlink"
+      title: "<% "{index-content-java.features.feature_9.title}" %>"
+      content: "<% "{index-content-java.features.feature_9.content}" %>"
 
 
 ############################# Code samples ############################
@@ -220,23 +227,20 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```java {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        try (Parser parser = new Parser("source.pdf"))
+        final Redactor redactor = new Redactor("source.docx");
+        try
         {
             // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            Iterable<PageImageArea> images = parser.getImages();
+            ReplacementOptions replacement = new ReplacementOptions(java.awt.Color.BLUE);
+            RegexRedaction redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", replacement);
 
             // <% "{index-content.code_samples.sample_1.comment_3}" %>
-            if (images == null) {
-                return;
-            }
+            redactor.apply(redaction);
 
             // <% "{index-content.code_samples.sample_1.comment_4}" %>
-            for (PageImageArea image : images) {
-                // <% "{index-content.code_samples.sample_1.comment_5}" %>
-                System.out.println(String.format("Page: %d, R: %s, Type: %s", 
-                    image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
-            }
+            redactor.save();
         }
+        finally { redactor.close(); }
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -246,23 +250,19 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```java {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        try (Parser parser = new Parser("source.jpg")){
-
+        final Redactor redactor  = new Redactor("source.pptx");
+        try 
+        {
             // <% "{index-content.code_samples.sample_2.comment_2}" %>
-            if (!parser.getFeatures().isBarcodes()) {
+            EraseMetadataRedaction red = new EraseMetadataRedaction(MetadataFilters.All);
 
-                // <% "{index-content.code_samples.sample_2.comment_3}" %>
-                Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
+            // <% "{index-content.code_samples.sample_2.comment_3}" %>
+            redactor.apply(red);
 
-                // <% "{index-content.code_samples.sample_2.comment_4}" %>
-                for (PageBarcodeArea barcode : barcodes) {
-                    // <% "{index-content.code_samples.sample_2.comment_5}" %>
-                    System.out.println("Page: " + barcode.getPage().getIndex());
-                    // <% "{index-content.code_samples.sample_2.comment_6}" %>
-                    System.out.println("Value: " + barcode.getValue());
-                }
-            }
+            // <% "{index-content.code_samples.sample_2.comment_4}" %>
+            redactor.save();
         }
+        finally { redactor.close(); }
         ```
         {{< /landing/code >}}
 

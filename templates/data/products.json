@@ -51,8 +51,8 @@
       "pricesUrl": "https://purchase.groupdocs.com/pricing/redaction/java/",
       "docsUrl": "https://docs.groupdocs.com/redaction/java/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/redaction/java/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/redaction/java/extract-images-from-documents/",
-      "sample2Url": "https://docs.groupdocs.com/redaction/java/extract-barcodes-from-document/",
+      "sample1Url": "https://docs.groupdocs.com/redaction/java/text-redactions/#use-regular-expression",
+      "sample2Url": "https://docs.groupdocs.com/redaction/java/metadata-redactions/#clean-metadata",
 
       "more_link": "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Java/",
       "release_downloads": "https://releases.groupdocs.com/redaction/java/"
@@ -61,7 +61,7 @@
       "environmentName": "Python via .NET",
       "environmentNameShort": "Python",
       "productCode": "python-net",
-      "productFullName": "GroupDocs.Watermark for Python via .NET",
+      "productFullName": "GroupDocs.Redaction for Python via .NET",
 
       "programmingLanguage": "Python",
       "srcFileExt": ".py",
@@ -73,9 +73,9 @@
       "packageUrl": "https://pypi.org/project/groupdocs-redaction-net/",
       "pricesUrl": "https://purchase.groupdocs.com/pricing/redaction/python-net/",
       "docsUrl": "https://docs.groupdocs.com/redaction/python-net/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/redaction/net/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/redaction/net/adding-image-redaction/#add-image-redaction-from-local-file/",
-      "sample2Url": "https://docs.groupdocs.com/redaction/net/modifing-found-redaction-properties/#replacing-text/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/redaction/python-net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/redaction/python-net/text-redactions/#use-regular-expression",
+      "sample2Url": "https://docs.groupdocs.com/redaction/python-net/metadata-redactions/#clean-metadata",
 
       "more_link": "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/",
       "release_downloads": "https://releases.groupdocs.com/redaction/python-net/"

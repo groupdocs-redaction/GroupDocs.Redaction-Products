@@ -231,145 +231,155 @@
     "code_samples_sample_2_content": "Use our API to easily [remove]({{Sample2Url}}) all metadata from supported file formats:"
   },
   "index-content-java": {
-    "head_title": "{{ProdFullName}} Document Parsing Apps",
-    "head_description": "Get all-in-one document parsing solution for {{EnvNameShort}} applications. Extract data from document formats online using simple drag and drop feature",
-    "title": "Parse documents via {{EnvNameShort}} API",
-    "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "head_title": "Remove confidential data from documents using {{EnvNameShort}}",
+    "head_description": "Protect your sensitive information with {{ProdFullName}}. Effortlessly hide, redact, or delete private content in PDFs, Office files, and images.",
+    "title": "Protect Confidential Data with {{ProdShortName}}",
+    "description": "Easily remove private data, redact text, and clean metadata from PDFs, Word, Excel, PowerPoint, and image formats using the reliable {{EnvNameShort}} toolkit.",
     "actions_main": "{{PackageStoreName}} Download",
-    "code_title": "Quickly Get Document Content",
-    "code_comment_1": "Pass source file to {{textRedactor}} instance",
-    "code_comment_2": "Pass document text to {{textReader}}",
-    "code_comment_3": "Process document text",
-    "overview_description": "API for performing document parsing in {{EnvNameShort}} applications",
+    "code_title": "Steps to Redact Document Content",
+    "code_comment_1": "Load your source file with a {{textRedactor}} instance",
+    "code_comment_2": "Define the redaction criteria and settings",
+    "code_comment_3": "Execute the redaction operation",
+    "code_comment_4": "Save the file with redactions applied",
+    "overview_description": "Enhance your {{EnvNameShort}} applications with professional redaction tools",
     "overview_feature_1": {
-      "title": "Extract data from documents",
-      "description": "{{ProdFullName}} API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
+      "title": "Remove Sensitive Text",
+      "description": "With {{ProdFullName}}, you can search for and conceal private text using customizable overlays or replacements. Compatible with PDFs, Word, Excel, and more, it's ideal for regulatory compliance and secure document sharing."
     },
     "overview_feature_2": {
-      "title": "Parse documents",
-      "description": "Extract various elements such as hyperlinks, tables, QR codes, barcodes and data from PDF forms. Also parse any desired information from documents using custom templates."
+      "title": "Conceal Images",
+      "description": "Identify and mask images completely or partially based on your requirements. Define detection rules and area coordinates to secure visual data efficiently."
     },
     "overview_feature_3": {
-      "title": "Customizing results",
-      "description": "{{EnvNameShort}} API enables you to retrieve data in various formats such as raw, structured, HTML, or Markdown. Additionally, API offers a search functionality for locating specific words or phrases within the text of documents."
+      "title": "Clean Embedded Metadata",
+      "description": "Files may carry hidden information such as author names, creation tools, or device details. {{ProdFullName}} lets you detect and sanitize metadata in Word, Excel, images, and other formats."
+    },
+    "overview_feature_4": {
+      "title": "Redact Embedded Objects",
+      "description": "Thoroughly sanitize documents by redacting objects like PDF annotations, comments, or other embedded items to eliminate any trace of confidential information."
     },
     "features": {
-      "title": "{{ProdFullName}} features",
-      "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately",
+      "title": "What You Can Do with {{ProdShortName}}",
+      "description": "Quickly locate and redact content from PDFs, Office documents, and images with precision.",
       "feature_1": {
-        "title": "Extract text",
-        "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
+        "title": "Search with Precision",
+        "content": "Use case-sensitive and case-insensitive search modes to find and redact exact matches."
       },
       "feature_2": {
-        "title": "Extract images",
-        "content": "Retrieve visual content from diverse sources like office documents, PDF files for convenient access and use."
+        "title": "Find and Replace Text",
+        "content": "Automatically detect and substitute or delete confidential text across the document."
       },
       "feature_3": {
-        "title": "Scan QR Codes",
-        "content": "Detect and decode QR codes present within office documents, PDF files, or visual content for efficient information retrieval."
+        "title": "Overlay with Custom Images",
+        "content": "Use image blocks to obscure redacted text, preserving layout while hiding details."
       },
       "feature_4": {
-        "title": "Extract data from email attachments and archives",
-        "content": "Gather valuable information from email messages, file attachments, and compressed data sources for effective analysis and utilization."
+        "title": "Use Regex for Advanced Redaction",
+        "content": "Utilize regular expressions to detect complex patterns and redact intelligently."
       },
       "feature_5": {
-        "title": "Extract tables",
-        "content": "Identify and extract tabular data from PDF documents for organized analysis and use."
+        "title": "Redact Specific Areas",
+        "content": "Limit redaction to selected pages or zones by defining precise areas to target."
       },
       "feature_6": {
-        "title": "Extract hyperlinks",
-        "content": "Locate and extract hyperlinks and email addresses within office documents or PDF files for efficient access ."
+        "title": "Scrub Metadata Fields",
+        "content": "Identify and clean document metadata, including author, company, or tracking data."
       },
       "feature_7": {
-        "title": "Parse PDF Forms",
-        "content": "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. .NET API can be utilized to extract data from these forms for efficient processing."
+        "title": "Export in Desired Format",
+        "content": "Save your redacted files in PDF or another supported format without losing layout integrity."
       },
       "feature_8": {
-        "title": "Parse data by templates",
-        "content": "Create custom templates and utilize them with .NET API to parse specific information from PDF files, simplifying data extraction processes."
+        "title": "Wipe All Metadata",
+        "content": "Completely remove metadata from supported files in just one command."
       },
       "feature_9": {
-        "title": "Search a text in documents",
-        "content": "Quickly locate specific words or patterns within documents."
+        "title": "Automated Redaction Policies",
+        "content": "Create reusable redaction configurations stored in XML for consistent, batch redaction."
       }
     },
-    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
-    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
-    "code_title_sample_1": "Extract images from PDF documents",
-    "code_samples_sample_1_content": "{{ProdFullName}} makes it easy for {{ProgLang}} developers to extract images from [documents]({{Sample1Url}}):",
-    "code_title_sample_2": "Extract barcodes from images",
-    "code_samples_sample_2_content": "Use our {{EnvNameShort}} API to extract [barcodes]({{Sample2Url}}) from images:"
+    "platforms_description": "{{ProdFullName}} works across major operating systems, frameworks, and development platforms.",
+    "formats_description": "{{ProdFullName}} supports working with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Common {{ProdFullName}} use case examples",
+    "code_title_sample_1": "Redaction Using Regex",
+    "code_samples_sample_1_content": "{{ProdFullName}} empowers {{ProgLang}} developers to apply [regex-based redaction]({{Sample1Url}}) with optional image masking:",
+    "code_title_sample_2": "Remove All Metadata",
+    "code_samples_sample_2_content": "With our API, you can [delete metadata]({{Sample2Url}}) across multiple file types in one step:"
   },
   "index-content-python": {
-    "head_title": "{{ProdFullName}} Document Parsing Apps",
-    "head_description": "Get all-in-one document parsing solution for {{EnvNameShort}} applications. Extract data from document formats online using simple drag and drop feature",
-    "title": "Parse documents via {{EnvNameShort}} API",
-    "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "head_title": "Erase confidential information from documents with {{EnvNameShort}}",
+    "head_description": "Keep your files secure using {{ProdFullName}}. Quickly redact, hide, or delete sensitive content in PDFs, Word, Excel, PowerPoint, and image files.",
+    "title": "Keep Your Documents Safe with {{ProdShortName}}",
+    "description": "Easily remove private data, redact text, and clean hidden metadata from PDFs, Office files, and images using the advanced {{EnvNameShort}} toolkit.",
     "actions_main": "{{PackageStoreName}} Download",
-    "code_title": "Quickly Parse Document Content",
-    "code_comment_1": "Pass source file to {{textRedactor}} instance",
-    "code_comment_2": "Pass document text to {{textReader}}",
-    "code_comment_3": "Process document text",
-    "overview_description": "API for performing document parsing in {{EnvNameShort}} applications",
+    "code_title": "Redacting Document Content",
+    "code_comment_1": "Load your file into the {{textRedactor}} instance",
+    "code_comment_2": "Adjust the redaction parameters",
+    "code_comment_3": "Start the redaction process",
+    "code_comment_4": "Export the cleaned file",
+    "overview_description": "Integrate powerful redaction capabilities into your {{EnvNameShort}} projects",
     "overview_feature_1": {
-      "title": "Extract data from documents",
-      "description": "{{ProdFullName}} API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
+      "title": "Redact Sensitive Text",
+      "description": "With {{ProdFullName}}, you can automatically find and cover sensitive words or phrases. Replace or mask text with colored boxes for enhanced protection across PDFs, Word documents, and other formats."
     },
     "overview_feature_2": {
-      "title": "Parse documents",
-      "description": "Extract various elements such as hyperlinks, tables, QR codes, barcodes and data from PDF forms. Also parse any desired information from documents using custom templates."
+      "title": "Mask Images",
+      "description": "Our technology can detect images and blur, hide, or block them based on your chosen criteria. Define specific regions or allow automated detection for complete control."
     },
     "overview_feature_3": {
-      "title": "Customizing results",
-      "description": "{{EnvNameShort}} API enables you to retrieve data in various formats such as raw, structured, HTML, or Markdown. Additionally, API offers a search functionality for locating specific words or phrases within the text of documents."
+      "title": "Remove Hidden Metadata",
+      "description": "Eliminate personal or tracking details hidden in metadata, such as authorship or device info. {{ProdFullName}} ensures your documents are fully scrubbed and safe to share."
+    },
+    "overview_feature_4": {
+      "title": "Redact Special Elements",
+      "description": "Go beyond text by redacting embedded items like comments, annotations, and other file-specific elements to achieve total confidentiality."
     },
     "features": {
-      "title": "{{ProdFullName}} features",
-      "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately",
+      "title": "Key Features of {{ProdFullName}}",
+      "description": "Effortlessly scan, locate, and redact sensitive content in PDFs, images, and Office files.",
       "feature_1": {
-        "title": "Extract text",
-        "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
+        "title": "Customizable Search",
+        "content": "Use flexible search modes to find precise matches or keywords for removal."
       },
       "feature_2": {
-        "title": "Extract images",
-        "content": "Retrieve visual content from diverse sources like office documents, PDF files for convenient access and use."
+        "title": "Find, Replace, or Delete Text",
+        "content": "Locate sensitive data and either substitute it with safe text or erase it completely."
       },
       "feature_3": {
-        "title": "Scan QR Codes",
-        "content": "Detect and decode QR codes present within office documents, PDF files, or visual content for efficient information retrieval."
+        "title": "Visual Masking",
+        "content": "Overlay colored shapes or patterns to visually cover redacted sections."
       },
       "feature_4": {
-        "title": "Extract data from email attachments and archives",
-        "content": "Gather valuable information from email messages, file attachments, and compressed data sources for effective analysis and utilization."
+        "title": "Regex-Powered Detection",
+        "content": "Leverage regular expressions for pinpoint accuracy in advanced text searches."
       },
       "feature_5": {
-        "title": "Extract tables",
-        "content": "Identify and extract tabular data from PDF documents for organized analysis and use."
+        "title": "Targeted Redaction",
+        "content": "Apply redaction only to certain pages or defined regions to save time and focus on key areas."
       },
       "feature_6": {
-        "title": "Extract hyperlinks",
-        "content": "Locate and extract hyperlinks and email addresses within office documents or PDF files for efficient access ."
+        "title": "Metadata Sanitization",
+        "content": "Easily clear metadata fields like creator, company, or timestamps from your files."
       },
       "feature_7": {
-        "title": "Parse PDF Forms",
-        "content": "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. .NET API can be utilized to extract data from these forms for efficient processing."
+        "title": "Export Options",
+        "content": "Save processed documents in PDF or other compatible formats without losing layout fidelity."
       },
       "feature_8": {
-        "title": "Parse data by templates",
-        "content": "Create custom templates and utilize them with .NET API to parse specific information from PDF files, simplifying data extraction processes."
+        "title": "Complete Metadata Wipe",
+        "content": "Erase all embedded metadata with a single click for maximum data protection."
       },
       "feature_9": {
-        "title": "Search a text in documents",
-        "content": "Quickly locate specific words or patterns within documents."
+        "title": "Reusable XML Policies",
+        "content": "Save your custom redaction configurations as XML templates to automate future tasks."
       }
     },
-    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
-    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
-    "code_title_sample_1": "Extract images from PDF documents",
-    "code_samples_sample_1_content": "{{ProdFullName}} makes it easy for {{ProgLang}} developers to extract images from [documents]({{Sample1Url}}):",
-    "code_title_sample_2": "Extract barcodes from images",
-    "code_samples_sample_2_content": "Use our {{EnvNameShort}} API to extract [barcodes]({{Sample2Url}}) from images:"
+    "platforms_description": "{{ProdFullName}} works on all major operating systems, supports popular frameworks, and integrates with common package managers.",
+    "formats_description": "{{ProdFullName}} supports the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Explore how {{ProdFullName}} simplifies redaction tasks",
+    "code_title_sample_1": "Regex-Based Text Redaction",
+    "code_samples_sample_1_content": "Developers using {{ProgLang}} can apply [regex-based rules]({{Sample1Url}}) to find and cover sensitive text with image masks:",
+    "code_title_sample_2": "Remove Metadata",
+    "code_samples_sample_2_content": "Use the API to [erase metadata]({{Sample2Url}}) across multiple file types in just a few steps:"
   }
 }

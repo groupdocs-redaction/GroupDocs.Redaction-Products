@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\barcode\\format_java.yml" %>
+<% configRef "..\\configs\\text-hide\\format_net.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -7,37 +7,37 @@ layout: "format"
 date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
-format: <% get "FileFormatCap" %>
-product: "Parser"
-product_tag: "parser"
-platform: "Java"
-platform_tag: "java"
+format: <% get "FileformatCap" %>
+product: "Redaction"
+product_tag: "redaction"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
-head_title: "<% (dict "head.title") %>"
-head_description: "<% (dict "head.description") %>"
+head_title: "<% (dict "{fileformat}.head.title") %>"
+head_description: "<% (dict "{fileformat}.head.description") %>"
 
 ############################# Header ############################
-title: "<% (dict "header.title") %>" 
-description: "<% (dict "header.description") %>"
-subtitle: "<% (dict "header.subtitle") %>" 
+title: "<% (dict "{fileformat}.header.title") %>" 
+description: "<% (dict "{fileformat}.header.description") %>"
+subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "<% (dict "header.action_title") %>"
+    - title: "<% (dict "{fileformat}.header.action_title") %>"
       link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
 about:
     enable: true
-    title: "<% (dict "about.title") %>"
-    link: "/parser/<% get "ProdCode" %>/"
+    title: "<% (dict "{fileformat}.about.title") %>"
+    link: "/watermark/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_parser.svg" # 480 X 400
+    picture: "about_watermark.svg" # 480 X 400
     content: |
-       <% (dict "about.content") %>
+       <% (dict "{fileformat}.about.content") %>
 
 ############################# Steps ############################
 steps:
@@ -56,21 +56,7 @@ steps:
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-parser</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "dotnet add package GroupDocs.Watermark"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -82,33 +68,29 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```java {style=abap}
+        ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        try (Parser parser = new Parser("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            if (!parser.getFeatures().isBarcodes())
-            {
-                System.out.println("<% "{examples.comment_3}" %>");
-                return;
-            }
 
-            // <% "{examples.comment_4}" %>
-            Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
-            for(PageBarcodeArea barcode : barcodes)
+        // <% "{examples.comment_2}" %>
+        using (Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>"))
+        {
+            // <% "{examples.comment_3}" %>
+            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
-                System.out.println("Page: " + barcode.getPage().getIndex());
-                System.out.println("Value: " + barcode.getValue());
+                watermarker.Add(watermark);
             }
+            // <% "{examples.comment_4}" %>
+            watermarker.Save("output.<% get "fileformat" %>");
         }
-        ```            
+        
+        ```  
 
 ############################# More features ############################
 more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/parser/features_extract-barcode.webp" # 500x500 px
+  image: "/img/watermark/features_add.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -128,30 +110,35 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        //  <% "{more_features.code_1.comment_1}" %>
-        try (Parser parser = new Parser("input.pdf"))
-        {
-            // <% "{more_features.code_1.comment_2}" %>
-            if (!parser.getFeatures().isBarcodes())
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  <% "{more_features.code_1.comment_1}" %>
+            var loadOptions = new PresentationLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.pptx", loadOptions))
             {
-                return;
+                //  <% "{more_features.code_1.comment_2}" %>
+                TextWatermark watermark = new TextWatermark("Protected image", new Font("Arial", 8));
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
+                watermark.RotateAngle = 45;
+                watermark.SizingType = SizingType.ScaleToParentDimensions;
+                watermark.ScaleFactor = 1;
+
+                //  <% "{more_features.code_1.comment_3}" %>
+                PresentationContent content = watermarker.GetContent<PresentationContent>();
+                foreach (PresentationSlide slide in content.Slides)
+                {
+                    if (slide.ImageFillFormat.BackgroundImage != null)
+                    {
+                        slide.ImageFillFormat.BackgroundImage.Add(watermark);
+                    }
+                }
+
+                //  <% "{more_features.code_1.comment_4}" %>
+                watermarker.save("result.pptx");
             }
 
-            // <% "{more_features.code_1.comment_3}" %>
-            BarcodeOptions options = new BarcodeOptions(QualityMode.Low, QualityMode.Low, "QR");
-
-            // <% "{more_features.code_1.comment_4}" %>
-            Iterable<PageBarcodeArea> barcodes = parser.getBarcodes(options);
-
-            // <% "{more_features.code_1.comment_5}" %>
-            for (PageBarcodeArea barcode : barcodes)
-            {
-                System.out.println("Page: " + String.valueOf(barcode.getPage().getIndex()));
-                System.out.println("Value: " + barcode.getValue());
-            }
-        }
         ```
         {{< /landing/code >}}
 
@@ -176,9 +163,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "<% (dict "formats.title") %>"
+    title: "<% (dict "{fileformat}.formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
-    description: "<% (dict "formats.description") %>"
-<% include "..\\data\\format_others.md" %>
+    description: "<% (dict "{fileformat}.formats.description") %>"
+<% include "..\\data\\format_others_text.md" %>
 
 ---

@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\barcode\\format_net.yml" %>
+<% configRef "..\\configs\\text-hide\\family_format_net.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -7,37 +7,37 @@ layout: "format"
 date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
-format: <% get "FileFormatCap" %>
-product: "Parser"
-product_tag: "parser"
+format: <% get "FileformatCap" %>
+product: "Redaction"
+product_tag: "redaction"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "<% (dict "head.title") %>"
-head_description: "<% (dict "head.description") %>"
+head_title: "<% (dict "{fileformat}.head.title") %>"
+head_description: "<% (dict "{fileformat}.head.description") %>"
 
 ############################# Header ############################
-title: "<% (dict "header.title") %>" 
-description: "<% (dict "header.description") %>"
-subtitle: "<% (dict "header.subtitle") %>" 
+title: "<% (dict "{fileformat}.header.title") %>" 
+description: "<% (dict "{fileformat}.header.description") %>"
+subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "<% (dict "header.action_title") %>"
+    - title: "<% (dict "{fileformat}.header.action_title") %>"
       link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
 about:
     enable: true
-    title: "<% (dict "about.title") %>"
-    link: "/parser/<% get "ProdCode" %>/"
+    title: "<% (dict "{fileformat}.about.title") %>"
+    link: "/watermark/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_parser.svg" # 480 X 400
+    picture: "about_watermark.svg" # 480 X 400
     content: |
-       <% (dict "about.content") %>
+       <% (dict "{fileformat}.about.content") %>
 
 ############################# Steps ############################
 steps:
@@ -56,7 +56,7 @@ steps:
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Parser"
+        command: "dotnet add package GroupDocs.Watermark"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,30 +70,30 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        using (Parser parser = new Parser("input.<% get "fileformat" %>")) {
 
-            // <% "{examples.comment_2}" %>
-            if (!parser.Features.Barcodes) {
-                Console.WriteLine("<% "{examples.comment_3}" %>");
-                return;
-            }
+        // <% "{examples.comment_2}" %>
+        using (Watermarker watermarker = new Watermarker("input.<% (dict "{fileformat}.ext") %>"))
+        {
+            // <% "{examples.comment_3}" %>
+            Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
+            TextWatermark watermark = new TextWatermark("my watermark", font);
+            watermark.ForegroundColor = Color.Red;
+            watermark.BackgroundColor = Color.Blue;
+            watermarker.Add(watermark);
 
             // <% "{examples.comment_4}" %>
-            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
-
-            foreach (PageBarcodeArea barcode in barcodes) {
-                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-                Console.WriteLine("Value: " + barcode.Value);
-            }
+            watermarker.Save("output.<% (dict "{fileformat}.ext") %>");
         }
-        ```  
+        
+        ```            
+
 
 ############################# More features ############################
 more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/parser/features_extract-barcode.webp" # 500x500 px
+  image: "/img/watermark/features_add.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -115,28 +115,32 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        //  <% "{more_features.code_1.comment_1}" %>
-        using (Parser parser = new Parser("input.pdf"))
-        {
-            // <% "{more_features.code_1.comment_2}" %>
-            if (!parser.Features.Barcodes)
+        
+            //  <% "{more_features.code_1.comment_1}" %>
+            var loadOptions = new WordProcessingLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.docx", loadOptions))
             {
-                return;
+                //  <% "{more_features.code_1.comment_2}" %>
+                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
+                {
+                    WordProcessingImageEffects effects = new WordProcessingImageEffects();
+                    effects.Brightness = 0.7;
+                    effects.Contrast = 0.6;
+                    effects.ChromaKey = Color.Red;
+                    effects.BorderLineFormat.Enabled = true;
+                    effects.BorderLineFormat.Weight = 1;
+
+                    WordProcessingWatermarkSectionOptions options = new WordProcessingWatermarkSectionOptions();
+                    options.Effects = effects;
+
+                    //  <% "{more_features.code_1.comment_3}" %>
+                    watermarker.Add(watermark, options);
+                }
+
+                //  <% "{more_features.code_1.comment_4}" %>
+                watermarker.save("result.docx");
             }
 
-            // <% "{more_features.code_1.comment_3}" %>
-            BarcodeOptions options = new BarcodeOptions(QualityMode.Low, QualityMode.Low, "QR");
-
-            // <% "{more_features.code_1.comment_4}" %>
-            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes(options);
-
-            // <% "{more_features.code_1.comment_5}" %>
-            foreach (PageBarcodeArea barcode in barcodes)
-            {
-                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-                Console.WriteLine("Value: " + barcode.Value);
-            }
-        }
         ```
         {{< /landing/code >}}
 
@@ -161,9 +165,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "<% (dict "formats.title") %>"
+    title: "<% (dict "{fileformat}.formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
-    description: "<% (dict "formats.description") %>"
-<% include "..\\data\\format_others.md" %>
+    description: "<% (dict "{fileformat}.formats.description") %>"
+<% include "..\\data\\format_others_text.md" %>
 
 ---

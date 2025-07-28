@@ -1,0 +1,19 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [net]
+- alias:  operation
+  values: [text-hide]
+- alias:  url
+  values: [text-hide]
+- alias:  fileformat
+  values: [docx, pdf, pptx, xlsx]
+
+generationRules:
+  include:
+  - fileformat[docx, pdf, pptx, xlsx]
+  
+outputPath: "redaction\\{product}\\{url}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

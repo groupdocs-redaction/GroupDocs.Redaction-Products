@@ -1,0 +1,190 @@
+{
+  "steps": {
+    "title": "Protect business data in {{FileFormatCap}} documents",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** is designed to empower your {{EnvName}} applications. Redact sensitive information in your documents easily.",
+      "step_1": "Call {{textRedactor}} constructor passing path to {{FileFormatCap}}  file that must be redacted.",
+      "step_2": "Set up attributes of redaction to achieve desired result.",
+      "step_3": "It would be enough to provide text pattern and color of overlaying images.",
+      "step_4": "React document content and save it."
+    }
+  },
+  "example_top": {
+    "comment_1": "Hide sensitive text in {{FileFormatUp}} using images overlay",
+    "comment_2": "Pass source file to {{textRedactor}} constructor",
+    "comment_3": "Specify the redaction options",
+    "comment_4": "Text to be hidden and color of image rectangles",
+    "comment_5": "Process and save {{FileFormatUp}} document"
+  },
+  "example_bottom": {
+    "title": "How to use regular expressions to hide text",
+    "content": "This example shows find and hide text using regular expressions",
+    "comment_1": "Load the document to be redacted",
+    "comment_2": "Specify the redaction options. Text pattern and color.",
+    "comment_3": "Apply the redaction",
+    "comment_4": "Save the redacted document"
+  },
+  "more_features": {
+    "title": "Redact document content",
+    "description": "Unlock advanced redaction capabilities with {{ProdFullName}}. This powerful tool allows redact across various document types to ensure maximum security and copyright adherence with minimal visual disruption.",
+    "image_description": "Comprehensive Redaction Solutions",
+    "feature_1": {
+      "title": "Change text content in any place",
+      "content": "Find and replace any suitable text on your documents pages in order to prevent security issues."
+    },
+    "feature_2": {
+      "title": "Redact images",
+      "content": "Overlay whole images or specified areas to protect sensitive content."
+    },
+    "feature_3": {
+      "title": "Metadata control",
+      "content": "Replace or remove any hidden data also known as 'metadata' from your documents."
+    }
+  },
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Hide Sensitive Text in {{FileFormatUp}} with Overlays Using {{ProgLang}}",
+      "description": "Use {{ProdFullName}} to hide sensitive text in {{FileFormatUp}} files by placing colored square overlays. Protect confidential data without altering document structure."
+    },
+    "header": {
+      "title": "Hide Sensitive Text in {{FileFormatUp}} Documents with Overlays Using {{EnvNameShort}}",
+      "description": "Control content of {{FileFormatUp}} documents using {{ProgLang}}. Apply redactions to ensure protection for legal, financial, and official records.",
+      "subtitle": "{{ProdFullName}} features"
+    },
+    "about": {
+      "title": "About {{ProdFullName}}",
+      "content": "{{ProdFullName}} offers {{ProgLang}} developers a useful API to redact content of {{FileFormatUp}} files. This is an essential tool for document security. Our solution supports flexible tools to wipe out any unnecessary information like text, images or metadata from various file formats."
+    },
+    "formats": {
+      "title": "Securing {{FileFormatUp}} content by {{EnvNameShort}} redactions",
+      "description": "Use our {{EnvNameShort}} solution to change or remove content from {{FileFormatUp}} documents, what is ideal for safeguarding official and sensitive information."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "C# Watermarking for {{FileFormatUp}} Files",
+      "description": "Use .NET C# to integrate watermarks into {{FileFormatUp}} files, enhancing the security of your Word documents."
+    },
+    "header": {
+      "title": "Secure {{FileFormatUp}} with .NET C# Watermarks",
+      "description": "Apply advanced watermarking techniques in {{FileFormatUp}} files using .NET C#, perfect for protecting intellectual property in Word documents across industries.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} harnesses the power of .NET C# to add sophisticated watermarking capabilities to {{FileFormatUp}} files. This tool is designed for seamless integration into Microsoft Word environments, enabling the application of watermarks that are dynamically scalable, transparent, and positioned according to document layout. It's ideal for legal documents, confidential reports, and corporate policies that require both visibility and protection. Features include custom text styles, image watermarking, and conditional placement based on document content. With support for the latest .NET frameworks, {{ProdShortName}} ensures that your document security measures are state-of-the-art."
+    },
+    "formats": {
+      "title": "Implementing Watermarks in {{FileFormatUp}} with C#",
+      "description": "Master the application of custom, secure watermarks in {{FileFormatUp}} files using .NET C#, essential for document integrity and copyright protection."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Embed Watermarks in {{FileFormatUp}} with C#",
+      "description": "Leverage .NET C# to generate and apply watermarks in {{FileFormatUp}} files, securing your Excel documents."
+    },
+    "header": {
+      "title": "Secure {{FileFormatUp}} Sheets with .NET C#",
+      "description": "Use .NET C# to create customizable watermarks for {{FileFormatUp}} files, perfect for enhancing document integrity and protecting sensitive information.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} provides a powerful solution for .NET C# developers to generate, add, and manage watermarks in XLSX files. This API is essential for maintaining the confidentiality and authenticity of Excel documents, especially in corporate, financial, and legal environments. Customize your watermarks with a variety of options, including text and image overlays, designed to be both functional and subtle. Additional features allow for automated watermarking based on document properties and user-defined conditions, ensuring that your watermarks are applied consistently and only where needed. {{ProdShortName}} is compatible with contemporary .NET platforms and supports advanced Excel functionalities."
+    },
+    "formats": {
+      "title": "Implementing Watermarks in {{FileFormatUp}} with C#",
+      "description": "Deploy .NET C# to efficiently add advanced, secure watermarks to {{FileFormatUp}} files, safeguarding your professional Excel data."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Embed Watermarks in {{FileFormatUp}} with C#",
+      "description": "Secure your {{FileFormatUp}} presentations with .NET C# applied watermarks, protecting intellectual property."
+    },
+    "header": {
+      "title": "Advanced C# Watermarking for {{FileFormatUp}}",
+      "description": "Implement .NET C# to create robust watermarks in {{FileFormatUp}} files, perfect for enhancing security in corporate and educational presentations.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} provides a comprehensive .NET C# solution for watermarking {{FileFormatUp}} files, suitable for professionals needing to secure presentation materials. This API supports the integration of watermarks that are customizable and can include text, logos, or other graphics. It offers features such as adjusting transparency, size, and positioning, enabling watermarks to be both effective and subtle. Ideal for businesses, educators, and anyone presenting sensitive or proprietary information, {{ProdShortName}} ensures that your presentations are not only secure but also maintain their aesthetic quality. Compatible with .NET 5 and onwards, this tool extends robust support to modern Microsoft Office environments."
+    },
+    "formats": {
+      "title": "C# Watermark Solutions for {{FileFormatUp}} Files",
+      "description": "Leverage .NET C# to apply discrete watermarks in {{FileFormatUp}} files, safeguarding your presentations from unauthorized distribution."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Generate Word Document Watermark",
+      "description": "Streamline Word document workflows with watermarks. Reflect your brand's integrity professionally."
+    },
+    "header": {
+      "title": "Create dynamic Watermarks in Word and OpenOffice with C#",
+      "description": "Deploy watermarks strategically within your Word documents using our robust C# toolkit. Customize to fit brand standards or security requirements with ease.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} transforms your ability to watermark Microsoft Word documents. This versatile API integrates seamlessly into your development environment, enabling the addition of sophisticated text and image watermarks that can be positioned absolutely or relatively within the document. It supports DOC, DOCX, and RTF formats, providing flexibility across multiple Word versions. Enhance your documents with watermarks that are not only secure but also subtly blend with the content, preserving readability and layout integrity."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Powered Watermarking in Word and OpenOffice",
+      "description": "Maximize the impact of your MS Word and OpenOffice documents with custom-designed watermarks that offer both protection and professionalism. Our C# API makes it simple to apply precise and appealing watermarks."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Generate Watermark for Excel Spreadsheets",
+      "description": "Automate image watermarking with .NET C# for consistent security. Handle large batches of images efficiently."
+    },
+    "header": {
+      "title": "Add Dynamic Watermarks in Excel Using .NET C#",
+      "description": "Automate the application of dynamic text or image watermarks across your Excel files using C#. Our tutorials show you how to maintain consistency and professionalism, with minimal manual intervention required.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
+    },
+    "about": {
+      "title": "{{ProdFullName}} library",
+      "content": "{{ProdFullName}} enables seamless integration of watermarks into Excel spreadsheets, providing businesses with the tools necessary to secure and personalize their documents. This C# library supports a variety of watermark types and allows for detailed customization, including opacity, rotation, and alignment adjustments. Additionally, it comes equipped with advanced search capabilities to detect and manage existing watermarks, ensuring your spreadsheets are protected against tampering and unauthorized disclosures."
+    },
+    "formats": {
+      "title": "Embedding text and image Watermarks in Excel using {{ProgLang}}",
+      "description": "Utilize the GroupDocs.Watermark C# API to efficiently add custom watermarks to Excel spreadsheets. Enhance document security and corporate branding with tools designed for fast and flexible watermark integration."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Create advanced Watermarks features for Presentations",
+      "description": "Use advanced techniques to create impactful watermarks for presentations. Ensure content security seamlessly."
+    },
+    "header": {
+      "title": "Innovate your presentations with advanced watermarking in C#",
+      "description": "Embed cutting-edge text and image watermarks into your PowerPoint slides using our C# API. Perfect for enhancing security and professional appeal in presentations.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} is engineered to facilitate the insertion of advanced watermarks in PowerPoint presentations efficiently. Whether you're dealing with confidential information or looking to augment your company’s branding on slides, our API offers robust watermarking solutions that can be adapted to individual slides or entire presentations. From simple text marks to elaborate logos, tailor your watermark’s appearance and placement to seamlessly integrate with your slide designs while providing an added layer of security."
+    },
+    "formats": {
+      "title": "Protect and personalize Presentations with Watermarks in {{ProgLang}}",
+      "description": "Employ our C# toolkit to quickly apply custom watermarks that preserve the integrity and aesthetics of your PowerPoint presentations. Ideal for professional and educational environments."
+    }
+  }
+}

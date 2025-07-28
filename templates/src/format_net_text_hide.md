@@ -7,7 +7,7 @@ layout: "format"
 date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
-format: <% get "FileformatCap" %>
+format: <% get "FileFormatCap" %>
 product: "Redaction"
 product_tag: "redaction"
 platform: ".NET"
@@ -22,20 +22,13 @@ title: "<% (dict "{fileformat}.header.title") %>"
 description: "<% (dict "{fileformat}.header.description") %>"
 subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
 
-header_actions:
-  enable: true
-  items:
-    #  loop
-    - title: "<% (dict "{fileformat}.header.action_title") %>"
-      link: "<% get "ReleaseDownloads" %>"
-      
 ############################# About ############################
 about:
     enable: true
     title: "<% (dict "{fileformat}.about.title") %>"
-    link: "/watermark/<% get "ProdCode" %>/"
+    link: "/redaction/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_redaction.svg" # 480 X 400
     content: |
        <% (dict "{fileformat}.about.content") %>
 
@@ -56,7 +49,7 @@ steps:
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Watermark"
+        command: "dotnet add package GroupDocs.Redaction"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -69,28 +62,31 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
+        // <% "{example_top.comment_1}" %>
 
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>"))
+        // <% "{example_top.comment_2}" %>
+        using (Watermarker watermarker = new Watermarker("input.<% (dict "{fileformat}.ext") %>"))
         {
-            // <% "{examples.comment_3}" %>
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
-            {
-                watermarker.Add(watermark);
-            }
-            // <% "{examples.comment_4}" %>
-            watermarker.Save("output.<% get "fileformat" %>");
+            // <% "{example_top.comment_3}" %>
+            Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
+            TextWatermark watermark = new TextWatermark("my watermark", font);
+            watermark.ForegroundColor = Color.Red;
+            watermark.BackgroundColor = Color.Blue;
+            watermarker.Add(watermark);
+
+            // <% "{example_top.comment_4}" %>
+            watermarker.Save("output.<% (dict "{fileformat}.ext") %>");
         }
         
-        ```  
+        ```            
+
 
 ############################# More features ############################
 more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_add.webp" # 500x500 px
+  image: "/img/redaction/features_add.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -107,36 +103,35 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{example_bottom.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{example_bottom.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
-            //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new PresentationLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.pptx", loadOptions))
+            //  <% "{example_bottom.comment_1}" %>
+            var loadOptions = new WordProcessingLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.<% (dict "{fileformat}.ext") %>", loadOptions))
             {
-                //  <% "{more_features.code_1.comment_2}" %>
-                TextWatermark watermark = new TextWatermark("Protected image", new Font("Arial", 8));
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermark.RotateAngle = 45;
-                watermark.SizingType = SizingType.ScaleToParentDimensions;
-                watermark.ScaleFactor = 1;
-
-                //  <% "{more_features.code_1.comment_3}" %>
-                PresentationContent content = watermarker.GetContent<PresentationContent>();
-                foreach (PresentationSlide slide in content.Slides)
+                //  <% "{example_bottom.comment_2}" %>
+                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
                 {
-                    if (slide.ImageFillFormat.BackgroundImage != null)
-                    {
-                        slide.ImageFillFormat.BackgroundImage.Add(watermark);
-                    }
+                    WordProcessingImageEffects effects = new WordProcessingImageEffects();
+                    effects.Brightness = 0.7;
+                    effects.Contrast = 0.6;
+                    effects.ChromaKey = Color.Red;
+                    effects.BorderLineFormat.Enabled = true;
+                    effects.BorderLineFormat.Weight = 1;
+
+                    WordProcessingWatermarkSectionOptions options = new WordProcessingWatermarkSectionOptions();
+                    options.Effects = effects;
+
+                    //  <% "{example_bottom.comment_3}" %>
+                    watermarker.Add(watermark, options);
                 }
 
-                //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.pptx");
+                //  <% "{example_bottom.comment_4}" %>
+                watermarker.save("result.docx");
             }
 
         ```

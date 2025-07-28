@@ -1,3 +1,0 @@
-inherits: languages.yml
-
-dictionaries: ["..\\data\\{operation}\\family_format_{product}.{lang}.json", "..\\data\\common\\{lang}.json"]

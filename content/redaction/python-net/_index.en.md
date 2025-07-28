@@ -1,270 +1,270 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2025-07-23T13:59:15
 draft: false
 
+lang: en
 product: "Redaction"
 product_tag: "redaction"
 platform: "Python via .NET"
 platform_tag: "python-net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
+
 ############################# Head ############################
-head_title: "Python via .NET Redaction API | Hide Private Text from PDF Word Excel Images"
-head_description: "Document redaction API for Python. Redact, hide or remove sensitive content from PDF, Microsoft Word, Excel, presentations, & raster images."
+head_title: "Erase confidential information from documents with Python"
+head_description: "Keep your files secure using GroupDocs.Redaction for Python via .NET. Quickly redact, hide, or delete sensitive content in PDFs, Word, Excel, PowerPoint, and image files."
 
 ############################# Header ############################
-title: "Secure Classified Data via Redaction API"
-description: "Redact, hide or remove sensitive content & metadata from documents, worksheets, presentations, PDF and raster image files using Python API."
-button:
-    enable: true
+title: "Keep Your Documents Safe with GroupDocs.Redaction"
+description: "Easily remove private data, redact text, and clean hidden metadata from PDFs, Office files, and images using the advanced Python toolkit."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Redaction for Python via .NET"
-        image: "/border/groupdocs-redaction-python-net.svg"
-        product: "GroupDocs.Redaction"
-        platform: "Python via .NET"
+actions:
+  main: "PyPi Download"
+  main_link: "https://pypi.org/project/groupdocs-redaction-net/"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/redaction/python-net/"
+  title: "Ready to Get Started?"
+  description: "Try GroupDocs.Redaction features for free or request a license."
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
+release:
+  title: "Version {0} Released"
+  notes: "See what’s new"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#features"
-              text: "Features"
+code:
+  title: "Redacting Document Content"
+  more: "More examples"
+  more_link: ""
+  install: "pip install groupdocs-redaction-net"
+  content: |
+    ```python {style=abap}
+    import groupdocs.redaction as gr
+    import groupdocs.redaction.redactions as grr
 
-            # button loop
-            - link: "#support"
-              text: "Support"
+    def run():
 
-            # button loop
-            - link: "https://products.groupdocs.app/redaction"
-              text: "Live Demo"
+        # Adjust the redaction parameters
+        repl_opt = grr.ReplacementOptions("[redacted]")
+        red = grr.ExactPhraseRedaction("Data", repl_opt)
 
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/redaction/net"
-              text: "Pricing"
+        # Load your file into the Redactor instance
+        with gr.Redactor("sample.pdf") as redactor:
 
-    right:
-        link_download: "https://downloads.groupdocs.com/redaction"
-        link_learn: "https://docs.groupdocs.com/redaction/python-net/"
-        link_buy: "https://purchase.groupdocs.com"
+            # Start the redaction process
+            result = redactor.apply(red)
+        
+            # Export the cleaned file
+            result_path = redactor.save()
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Redaction for Python via .NET is an API library that helps you erase sensitive and classified data from various file formats, such as, Microsoft Word, Excel, PowerPoint and PDF. Our Redaction API’s single format-independent interface supports redaction of various types, e.g., text redaction, metadata redaction, annotation redaction, and tabular document redaction. GroupDocs.Redaction for Python via .NET API also allows you to redact password protected files. You are allowed to save the document in its original format as well as create a sanitized PDF document with raster images of original pages.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Redaction for Python via .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Overview"
-          content: |
-            * Redact Text
-            * Redact Metadata
-            * Redact Annotation
-            * Redact Tabular Document
-            * Redact Protected Files
-            * Customization
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Redaction for Python via .NET supports following [document file formats](https://docs.groupdocs.com/redaction/python-net/supported-document-formats/):
+  enable: true
+  title: "GroupDocs.Redaction at a Glance"
+  description: "Integrate powerful redaction capabilities into your Python projects"
+  features:
+    # feature loop
+    - title: "Redact Sensitive Text"
+      content: "With GroupDocs.Redaction for Python via .NET, you can automatically find and cover sensitive words or phrases. Replace or mask text with colored boxes for enhanced protection across PDFs, Word documents, and other formats."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Redact Text, Metadata & Comments"
-              content: |
-                * **Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF
-                * **Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV
-                * **PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM
-                * **Fixed Layout**: PDF
-                * **Raster Images**: JPG, BMP, PNG, GIF, TIFF
+    # feature loop
+    - title: "Mask Images"
+      content: "Our technology can detect images and blur, hide, or block them based on your chosen criteria. Define specific regions or allow automated detection for complete control."
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Redaction for Python via .NET supports following Operating Systems, Frameworks & Package Managers:
+    # feature loop
+    - title: "Remove Hidden Metadata"
+      content: "Eliminate personal or tracking details hidden in metadata, such as authorship or device info. GroupDocs.Redaction for Python via .NET ensures your documents are fully scrubbed and safe to share."
+
+    # feature loop
+    - title: "Redact Special Elements"
+      content: "Go beyond text by redacting embedded items like comments, annotations, and other file-specific elements to achieve total confidentiality."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform Independence"
+  description: "GroupDocs.Redaction for Python via .NET works on all major operating systems, supports popular frameworks, and integrates with common package managers."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported File Formats"
+  description: |
+    GroupDocs.Redaction for Python via .NET supports the following [file formats](https://docs.groupdocs.com/redaction/python-net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### MS Office Formats
+        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM,
+        * **Excel:** XLSX, XLS, XLSM, XLSB, 
+        * **PowerPoint:** PPT, PPTX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Other Office Formats
+        * **Portable:** PDF 
+        * **OpenDocument:** ODT, ODS, OTS, ODP, OTT
+        * **Text Formats:** RTF, CSV, TXT, TSV
+      # group loop
+    - color: "red"
+      content: |
+        ### Other Formats
+        * **Web:** HTM, HTML, MD
+        * **Images:** BMP, GIF, JPEG, PNG, TIFF, WEBP
+        * **eBooks:** DJVU 
         
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * any 32-bit or 64-bit operating system where .NET 6 is installed
-                * Mac OS X and so far only the ARM64 architecture
-                * Microsoft Windows Server 2003 and later
-                * Microsoft Windows XP (x64, x86)
-                * Microsoft Windows Vista (x64, x86)
-                * Microsoft Windows 7, 8, 8.1 (x64, x86)
-                * Microsoft Windows 10 (x64, x86)
-                * Microsoft Windows 11 (x64)
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * .NET 6 or higher
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Package Manager"
-              content: |
-                * PyPi
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Development Environments"
-              content: |
-                * Atom
-                * Sublime
-                * Microsoft Visual Code
-                * Microsoft Visual Studio
-
+        
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Redaction for Python via .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Perform case-sensitive search for exact phrase redaction"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Use color box to hide redacted text instead of string replacement"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Locate & redact out any text using regular expression search"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Filter all or any combination of classified metadata information of document"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Quickly erase complete metadata information of specific document"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Set a scope of the redaction to a specific worksheet and/or column in Excel"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Remove all or specific comments and other annotations from the document"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Search & remove sensitive data from the annotation text"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Ability to work with your own formats & redactions"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Support for raster image formats and image region redactions"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Specify a set of redaction rules (policy) in XML file"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Specify Pages Range and PDF Compliance Level while Conversion to PDF"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Edit or Delete EXIF Metadata from Image Files"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Redact Embedded Images inside the PDF, Word & Presentation Documents"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Save a Redaction Policy as an XML File"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Redact your Classified Data with Ease & Control"
-        content: |
-          GroupDocs.Redaction for Python via .NET API grants you complete control over how you want to hide or erase your important classified information from supported document. To use our Redaction API is pretty simple and straight forward.  
-
-          In following example, we load a supported document, redact out any text, matching "2 digits, space or nothing, 2 digits, again space and 6 digits" (such as 12 34 567890) with a blue color box using Python. Once that is done, it saves the document in its original format by renaming it with an added suffix "_Redacted":
-
-          ```python
-            import groupdocs.redaction as gr
-            import groupdocs.redaction.redactions as grr
-            import groupdocs.pydrawing as grd
-
-            def run():
-
-                # Specify the redaction options
-                color = grd.Color.from_argb(255, 220, 20, 60)
-                repl_opt = grr.ReplacementOptions(color)
-                reg_red = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
-
-                # Load the document to be redacted
-                with gr.Redactor("source.pdf") as redactor:
-
-                    # Apply the redaction
-                    result = redactor.apply(reg_red)
-        
-                    # Save the redacted document
-                    result_path = redactor.save()
-          ```
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Redaction offers document viewing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Redaction for Python via .NET"
-          image: "/border/groupdocs-redaction-net.svg"
-          product: "GroupDocs.Redaction"
-          platform: ".NET"
-          link: "/redaction/net/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Redaction for Java"
-          image: "/border/groupdocs-redaction-java.svg"
-          product: "GroupDocs.Redaction"
-          platform: "Java"
-          link: "/redaction/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Key Features of GroupDocs.Redaction for Python via .NET"
+  description: "Effortlessly scan, locate, and redact sensitive content in PDFs, images, and Office files."
+
+  items:
+    # feature loop
+    - icon: "search"
+      title: "Customizable Search"
+      content: "Use flexible search modes to find precise matches or keywords for removal."
+
+    # feature loop
+    - icon: "text"
+      title: "Find, Replace, or Delete Text"
+      content: "Locate sensitive data and either substitute it with safe text or erase it completely."
+
+    # feature loop
+    - icon: "image"
+      title: "Visual Masking"
+      content: "Overlay colored shapes or patterns to visually cover redacted sections."
+
+    # feature loop
+    - icon: "search"
+      title: "Regex-Powered Detection"
+      content: "Leverage regular expressions for pinpoint accuracy in advanced text searches."
+
+    # feature loop
+    - icon: "table"
+      title: "Targeted Redaction"
+      content: "Apply redaction only to certain pages or defined regions to save time and focus on key areas."
+
+    # feature loop
+    - icon: "template"
+      title: "Metadata Sanitization"
+      content: "Easily clear metadata fields like creator, company, or timestamps from your files."
+
+    # feature loop
+    - icon: "pdf"
+      title: "Export Options"
+      content: "Save processed documents in PDF or other compatible formats without losing layout fidelity."
+
+    # feature loop
+    - icon: "template"
+      title: "Complete Metadata Wipe"
+      content: "Erase all embedded metadata with a single click for maximum data protection."
+
+    # feature loop
+    - icon: "hyperlink"
+      title: "Reusable XML Policies"
+      content: "Save your custom redaction configurations as XML templates to automate future tasks."
+
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code Samples"
+  description: "Explore how GroupDocs.Redaction for Python via .NET simplifies redaction tasks"
+  items:
+    # code sample loop
+    - title: "Regex-Based Text Redaction"
+      content: |
+        Developers using Python can apply [regex-based rules](https://docs.groupdocs.com/redaction/python-net/text-redactions/#use-regular-expression) to find and cover sensitive text with image masks:
+        {{< landing/code title="Redact Word Documents Using Regular Expressions">}}
+        ```python {style=abap}
+        import groupdocs.redaction as gr
+        import groupdocs.redaction.options as gro
+        import groupdocs.redaction.redactions as grr
+        import groupdocs.pydrawing as grd
+
+        def run():
+
+            # Define redaction rules using a regular expression
+            color = grd.Color.from_argb(255, 220, 20, 60)
+            repl_opt = grr.ReplacementOptions(color)
+            reg_red = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
+
+            # Create an instance of the Redactor class
+            with gr.Redactor("source.docx") as redactor:
+
+                # Mask all matching text with blue square overlays
+                result = redactor.apply(reg_red)
+        
+                # Save the redacted Word document
+                redactor.save()
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Remove Metadata"
+      content: |
+        Use the API to [erase metadata](https://docs.groupdocs.com/redaction/python-net/metadata-redactions/#clean-metadata) across multiple file types in just a few steps:
+        {{< landing/code title="Remove All Metadata from Presentations">}}
+        ```python {style=abap}   
+        import groupdocs.redaction as gr
+        import groupdocs.redaction.options as gro
+        import groupdocs.redaction.redactions as grr
+
+        # Configure the redaction options
+        red = grr.EraseMetadataRedaction(grr.MetadataFilters.ALL)
+
+        # Provide the path of the presentation to Redactor
+        with gr.Redactor("source.pptx") as redactor:
+
+            # Erase all metadata from the presentation
+            result = redactor.apply(red)
+        
+            # Save the cleaned presentation file
+            redactor.save()
+        ```
+        {{< /landing/code >}}
+
 ---

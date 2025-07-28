@@ -1,256 +1,259 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2025-07-23T13:59:15
 draft: false
 
+lang: en
 product: "Redaction"
 product_tag: "redaction"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
+
 ############################# Head ############################
-head_title: "C# .NET Redaction API | Hide Private Text from PDF Word Excel Images"
-head_description: "Document redaction API for .NET. Redact, hide or remove sensitive content from PDF, Microsoft Word, Excel, presentations, & raster images."
+head_title: "Redact sensitive data in your documents using .NET"
+head_description: "Safeguard your business documents with GroupDocs.Redaction for .NET. Easily redact, hide, or remove confidential content from PDFs, Word, Excel, PowerPoint, and image files."
 
 ############################# Header ############################
-title: "Secure Classified Data via Redaction API"
-description: "Redact, hide or remove sensitive content & metadata from documents, worksheets, presentations, PDF and raster image files using .NET API."
-button:
-    enable: true
+title: "Secure Your Content with GroupDocs.Redaction"
+description: "Redact, hide, or permanently remove sensitive information and metadata from PDFs, Word documents, spreadsheets, presentations, and images using our powerful .NET solution."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Redaction for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-redaction-net.png"
-        product: "GroupDocs.Redaction"
-        platform: ".NET"
+actions:
+  main: "Nuget Download"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Redaction"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/redaction/net/"
+  title: "Ready to Get Started?"
+  description: "Try GroupDocs.Redaction features for free or request a license."
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
+release:
+  title: "Version {0} Released"
+  notes: "See what’s new"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#features"
-              text: "Features"
+code:
+  title: "How to Redact File Content"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-.NET/"
+  install: "dotnet add package GroupDocs.Redaction"
+  content: |
+    ```csharp {style=abap}   
+    // Pass the input file to a Redactor instance
+    using (Redactor redactor = new Redactor("source.pdf"))
+    {
+        // Configure the redaction options
+        var repl_opt = new ReplacementOptions("[redacted]");
+        var red = new ExactPhraseRedaction("Data", repl_opt);
 
-            # button loop
-            - link: "#support"
-              text: "Support"
+        // Run the redaction process
+        RedactorChangeLog result = redactor.Apply(red);
 
-            # button loop
-            - link: "https://products.groupdocs.app/redaction"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/redaction/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/redaction"
-        link_learn: "https://docs.groupdocs.com/redaction/net/"
-        link_buy: "https://purchase.groupdocs.com"
+        // Save the redacted file
+        if (result.Status != RedactionStatus.Failed)
+        {
+            redactor.Save();
+        }
+    }  
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Redaction for .NET is an API library that helps you erase sensitive and classified data from various file formats, such as, Microsoft Word, Excel, PowerPoint and PDF. Our Redaction API’s single format-independent interface supports redaction of various types, e.g., text redaction, metadata redaction, annotation redaction, and tabular document redaction. GroupDocs.Redaction for .NET API also allows you to redact password protected files. You are allowed to save the document in its original format as well as create a sanitized PDF document with raster images of original pages.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Redaction for .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Overview"
-          content: |
-            * Redact Text
-            * Redact Metadata
-            * Redact Annotation
-            * Redact Tabular Document
-            * Redact Protected Files
-            * Customization
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Redaction for .NET supports following [document file formats](https://docs.groupdocs.com/redaction/net/supported-document-formats/):
+  enable: true
+  title: "GroupDocs.Redaction at a Glance"
+  description: "Add professional-grade content redaction to your .NET applications"
+  features:
+    # feature loop
+    - title: "Redact Textual Content"
+      content: "GroupDocs.Redaction for .NET allows you to locate and redact sensitive text. Text can be replaced or hidden using colored image overlays for added security. Supported across a wide variety of formats including PDFs and Office documents, this feature helps protect private data and streamline business compliance."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Redact Text, Metadata & Comments"
-              content: |
-                * **Word**: DOC, DOCX, DOT, ODT, DOTX, DOCM, DOTM, RTF
-                * **Excel**: XLS, XLSX, XLT, XLTX, XLSM, XLTM, CSV
-                * **PowerPoint**: PPT, PPTX, PPS, PPSX, POTX, PPTM, PPSM, POTM
-                * **Fixed Layout**: PDF
-                * **Raster Images**: JPG, BMP, PNG, GIF, TIFF
+    # feature loop
+    - title: "Redact Images"
+      content: "Automatically detect and redact images—either fully or partially—on document pages. Specify search criteria and targeted regions to mask sensitive visual content efficiently."
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Redaction for .NET supports following Operating Systems, Frameworks & Package Managers:
+    # feature loop
+    - title: "Manage File Metadata"
+      content: "Many file types contain hidden metadata, such as author names in Word files or EXIF data in images. GroupDocs.Redaction for .NET makes it simple to find and redact this information to ensure full data privacy."
+
+    # feature loop
+    - title: "Redact Document Objects"
+      content: "Ensure complete content protection by redacting document-specific elements like annotations, comments, and embedded objects in formats such as PDFs."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform Independence"
+  description: "GroupDocs.Redaction for .NET is compatible with a wide range of operating systems, development frameworks, and package managers."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported File Formats"
+  description: |
+    GroupDocs.Redaction for .NET supports operations with the following [file formats](https://docs.groupdocs.com/redaction/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### MS Office Formats
+        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM,
+        * **Excel:** XLSX, XLS, XLSM, XLSB, 
+        * **PowerPoint:** PPT, PPTX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Other Office Formats
+        * **Portable:** PDF 
+        * **OpenDocument:** ODT, ODS, OTS, ODP, OTT
+        * **Text Formats:** RTF, CSV, TXT, TSV
+      # group loop
+    - color: "red"
+      content: |
+        ### Other Formats
+        * **Web:** HTM, HTML, MD
+        * **Images:** BMP, GIF, JPEG, PNG, TIFF, WEBP
+        * **eBooks:** DJVU 
         
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * .NET Framework 2.0 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Package Manager"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Development Environments"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+        
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Redaction for .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Perform case-sensitive search for exact phrase redaction"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Use color box to hide redacted text instead of string replacement"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Locate & redact out any text using regular expression search"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Filter all or any combination of classified metadata information of document"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Quickly erase complete metadata information of specific document"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Set a scope of the redaction to a specific worksheet and/or column in Excel"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Remove all or specific comments and other annotations from the document"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Search & remove sensitive data from the annotation text"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Ability to work with your own formats & redactions"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Support for raster image formats and image region redactions"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Specify a set of redaction rules (policy) in XML file"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Specify Pages Range and PDF Compliance Level while Conversion to PDF"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Edit or Delete EXIF Metadata from Image Files"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Redact Embedded Images inside the PDF, Word & Presentation Documents"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Save a Redaction Policy as an XML File"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Redact your Classified Data with Ease & Control"
-        content: |
-          GroupDocs.Redaction for .NET API grants you complete control over how you want to hide or erase your important classified information from supported document. To use our Redaction API is pretty simple and straight forward.  
-
-          In following example, we load a supported document, redact out any text, matching "2 digits, space or nothing, 2 digits, again space and 6 digits" (such as 12 34 567890) with a blue color box using C#. Once that is done, it saves the document in its original format by renaming it with an added suffix "_Redacted":
-
-          ```cs
-          // Create an instance of Redactor class
-          using (Redactor redactor = new Redactor("sample.docx"))
-          {
-            // Apply redaction
-            redactor.Apply(new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", new ReplacementOptions(System.Drawing.Color.Blue)));
-            redactor.Save();
-          }
-          ```
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Redaction offers document viewing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Redaction for Java"
-          image: "/border/groupdocs-redaction-java.svg"
-          product: "GroupDocs.Redaction"
-          platform: "Java"
-          link: "/redaction/java/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Redaction for Python via .NET"
-          image: "/border/groupdocs-redaction-python-net.svg"
-          product: "GroupDocs.Redaction"
-          platform: "Python via .NET"
-          link: "/redaction/python-net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Redaction for .NET Features"
+  description: "Extract and redact data from PDFs, Office files, and images with high speed and accuracy."
+
+  items:
+    # feature loop
+    - icon: "search"
+      title: "Flexible Search"
+      content: "Perform case-sensitive or case-insensitive searches to redact specific phrases or terms."
+
+    # feature loop
+    - icon: "text"
+      title: "Replace or Remove Text"
+      content: "Easily find and replace or delete sensitive text throughout your documents."
+
+    # feature loop
+    - icon: "image"
+      title: "Hide Text with Images"
+      content: "Use colored image overlays to visually mask redacted content instead of replacing text."
+
+    # feature loop
+    - icon: "search"
+      title: "Advanced Search Capabilities"
+      content: "Use regular expressions for precise and flexible content redaction across complex data sets."
+
+    # feature loop
+    - icon: "table"
+      title: "Scoped Redaction"
+      content: "Target specific pages or defined page areas to limit redaction to relevant sections only."
+
+    # feature loop
+    - icon: "template"
+      title: "Metadata Redaction"
+      content: "Find and redact metadata properties to protect document ownership and creation details."
+
+    # feature loop
+    - icon: "pdf"
+      title: "Flexible Output Formats"
+      content: "Export redacted files to PDF or any supported format while preserving layout integrity."
+
+    # feature loop
+    - icon: "template"
+      title: "Complete Metadata Erasure"
+      content: "Erase all metadata from a document in a single action to ensure absolute privacy."
+
+    # feature loop
+    - icon: "hyperlink"
+      title: "XML-Based Redaction Rules"
+      content: "Define redaction policies in XML format for repeatable, automated processing across multiple files."
+
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code Samples"
+  description: "Typical usage examples of GroupDocs.Redaction for .NET in action"
+  items:
+    # code sample loop
+    - title: "Redaction with Regular Expressions"
+      content: |
+        GroupDocs.Redaction for .NET enables C# developers to redact text using [regular expressions](https://docs.groupdocs.com/redaction/net/text-redactions/#use-regular-expression) and hide it with image overlays:
+        {{< landing/code title="Redact Word Documents Using Regular Expressions">}}
+        ```csharp {style=abap}
+        // Create an instance of the Redactor class
+        using (Redactor redactor = new Redactor("source.docx"))
+        {
+            // Define redaction rules using a regular expression
+            var replacement = new ReplacementOptions(System.Drawing.Color.Blue);
+            var redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", replacement);
+            
+            // Mask all matching text with blue square overlays
+            redactor.Apply(redaction);
+
+            // Save the redacted Word document
+            redactor.Save();
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Metadata Cleanup"
+      content: |
+        Use our API to easily [remove](https://docs.groupdocs.com/redaction/net/metadata-redactions/#clean-metadata) all metadata from supported file formats:
+        {{< landing/code title="Remove All Metadata from Presentations">}}
+        ```csharp {style=abap}   
+        // Provide the path of the presentation to Redactor
+        using (Redactor redactor = new Redactor("source.pptx"))
+        {
+            // Configure the redaction options
+            var redaction = new EraseMetadataRedaction(MetadataFilters.All);
+            
+            // Erase all metadata from the presentation
+            redactor.Apply(redaction);
+
+            // Save the cleaned presentation file
+            redactor.Save();
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

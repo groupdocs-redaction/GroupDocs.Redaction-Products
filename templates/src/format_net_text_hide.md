@@ -35,14 +35,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "<% "{steps.title}" %>"
+    title: "<% (dict "{fileformat}.steps.title") %>"
     content: |
-      <% "{steps.content.title}" %>
+      <% (dict "{fileformat}.steps.content.title") %>
       
-      1. <% "{steps.content.step_1}" %>
-      2. <% "{steps.content.step_2}" %>
-      3. <% "{steps.content.step_3}" %>
-      4. <% "{steps.content.step_4}" %>
+      1. <% (dict "{fileformat}.steps.content.step_1") %>
+      2. <% (dict "{fileformat}.steps.content.step_2") %>
+      3. <% (dict "{fileformat}.steps.content.step_3") %>
+      4. <% (dict "{fileformat}.steps.content.step_4") %>
    
     code:
       platform: "net"
@@ -62,20 +62,18 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // <% "{example_top.comment_1}" %>
+        // <% (dict "{fileformat}.example_top.comment_1") %>
 
-        // <% "{example_top.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% (dict "{fileformat}.ext") %>"))
+        // <% (dict "{fileformat}.example_top.comment_2") %>
+        using (Redactor redactor  = new Redactor("input.<% (dict "{fileformat}.ext") %>"))
         {
-            // <% "{example_top.comment_3}" %>
-            Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
-            TextWatermark watermark = new TextWatermark("my watermark", font);
-            watermark.ForegroundColor = Color.Red;
-            watermark.BackgroundColor = Color.Blue;
-            watermarker.Add(watermark);
+            // <% (dict "{fileformat}.example_top.comment_3") %>
+            var opt = new ReplacementOptions(System.Drawing.Color.Red);
+            // <% (dict "{fileformat}.example_top.comment_4") %>
+            var redaction = new ExactPhraseRedaction("John Doe", opt);
 
-            // <% "{example_top.comment_4}" %>
-            watermarker.Save("output.<% (dict "{fileformat}.ext") %>");
+            // <% (dict "{fileformat}.example_top.comment_5") %>
+            redactor.Apply(redaction);
         }
         
         ```            
@@ -84,55 +82,44 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "<% "{more_features.title}" %>"
-  description: "<% "{more_features.description}" %>"
-  image: "/img/redaction/features_add.webp" # 500x500 px
-  image_description: "<% "{more_features.image_description}" %>"
+  title: "<% (dict "{fileformat}.more_features.title") %>"
+  description: "<% (dict "{fileformat}.more_features.description") %>"
+  image: "/img/redaction/features_text_hide.webp" # 500x500 px
+  image_description: "<% (dict "{fileformat}.more_features.image_description") %>"
   features:
     # feature loop
-    - title: "<% "{more_features.feature_1.title}" %>"
-      content: "<% "{more_features.feature_1.content}" %>"
+    - title: "<% (dict "{fileformat}.more_features.feature_1.title") %>"
+      content: "<% (dict "{fileformat}.more_features.feature_1.content") %>"
 
     # feature loop
-    - title: "<% "{more_features.feature_2.title}" %>"
-      content: "<% "{more_features.feature_2.content}" %>"
+    - title: "<% (dict "{fileformat}.more_features.feature_2.title") %>"
+      content: "<% (dict "{fileformat}.more_features.feature_2.content") %>"
 
     # feature loop
-    - title: "<% "{more_features.feature_3.title}" %>"
-      content: "<% "{more_features.feature_3.content}" %>"
+    - title: "<% (dict "{fileformat}.more_features.feature_3.title") %>"
+      content: "<% (dict "{fileformat}.more_features.feature_3.content") %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{example_bottom.title}" %>"
+    - title: "<% (dict "{fileformat}.example_bottom.title") %>"
       content: |
-        <% "{example_bottom.content}" %>
+        <% (dict "{fileformat}.example_bottom.content") %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        
-            //  <% "{example_bottom.comment_1}" %>
-            var loadOptions = new WordProcessingLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.<% (dict "{fileformat}.ext") %>", loadOptions))
-            {
-                //  <% "{example_bottom.comment_2}" %>
-                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                {
-                    WordProcessingImageEffects effects = new WordProcessingImageEffects();
-                    effects.Brightness = 0.7;
-                    effects.Contrast = 0.6;
-                    effects.ChromaKey = Color.Red;
-                    effects.BorderLineFormat.Enabled = true;
-                    effects.BorderLineFormat.Weight = 1;
+        //  <% (dict "{fileformat}.example_bottom.comment_1") %>
+        using (Redactor redactor  = new Redactor("source.<% (dict "{fileformat}.ext") %>"))
+        {
+            // <% (dict "{fileformat}.example_bottom.comment_2") %>
+            var repl_opt = new ReplacementOptions(System.Drawing.Color.Blue);
+            var redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
 
-                    WordProcessingWatermarkSectionOptions options = new WordProcessingWatermarkSectionOptions();
-                    options.Effects = effects;
+            // <% (dict "{fileformat}.example_bottom.comment_3") %>
+            redactor.Apply(redaction);
 
-                    //  <% "{example_bottom.comment_3}" %>
-                    watermarker.Add(watermark, options);
-                }
-
-                //  <% "{example_bottom.comment_4}" %>
-                watermarker.save("result.docx");
-            }
+            // <% (dict "{fileformat}.example_bottom.comment_4") %>
+            var save_opt = new SaveOptions() { AddSuffix = true, RasterizeToPDF = false };
+            var outputPath = redactor.Save(save_opt);
+        }
 
         ```
         {{< /landing/code >}}

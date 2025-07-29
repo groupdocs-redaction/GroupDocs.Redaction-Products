@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\text-hide\\format_net.yml" %>
+<% configRef "..\\configs\\text-hide\\format_java.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileFormatCap" %>
 product: "Redaction"
 product_tag: "redaction"
-platform: ".NET"
-platform_tag: "net"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
 head_title: "<% (dict "{fileformat}.head.title") %>"
@@ -45,11 +45,25 @@ steps:
       4. <% (dict "{fileformat}.steps.content.step_4") %>
    
     code:
-      platform: "net"
+      platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Redaction"
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-redaction</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -61,22 +75,24 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
         // <% (dict "{fileformat}.example_top.comment_1") %>
 
         // <% (dict "{fileformat}.example_top.comment_2") %>
-        using (Redactor redactor  = new Redactor("input.<% (dict "{fileformat}.ext") %>"))
+        final Redactor redactor = new Redactor("input.<% (dict "{fileformat}.ext") %>");
+        try
         {
             // <% (dict "{fileformat}.example_top.comment_3") %>
-            var opt = new ReplacementOptions(System.Drawing.Color.Red);
+            ReplacementOptions opt = new ReplacementOptions(java.awt.Color.RED);
+            
             // <% (dict "{fileformat}.example_top.comment_4") %>
-            var redaction = new ExactPhraseRedaction("Text to hide", opt);
+            ExactPhraseRedaction redaction = new ExactPhraseRedaction("Text to hide", opt);
 
             // <% (dict "{fileformat}.example_top.comment_5") %>
-            redactor.Apply(redaction);
-            redactor.Save();
+            redactor.apply(redaction);
+            redactor.save();
         }
-        
+        finally { redactor.close(); }
         ```            
 
 
@@ -106,22 +122,25 @@ more_features:
       content: |
         <% (dict "{fileformat}.example_bottom.content") %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         //  <% (dict "{fileformat}.example_bottom.comment_1") %>
-        using (Redactor redactor  = new Redactor("source.<% (dict "{fileformat}.ext") %>"))
+        final Redactor redactor = new Redactor("source.<% (dict "{fileformat}.ext") %>");
+        try
         {
             // <% (dict "{fileformat}.example_bottom.comment_2") %>
-            var repl_opt = new ReplacementOptions(System.Drawing.Color.Blue);
-            var redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
+            ReplacementOptions repl_opt = new ReplacementOptions(java.awt.Color.BLUE);
+            RegexRedaction redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
 
             // <% (dict "{fileformat}.example_bottom.comment_3") %>
-            redactor.Apply(redaction);
+            redactor.apply(redaction);
 
-            // <% (dict "{fileformat}.example_bottom.comment_4") %>
-            var save_opt = new SaveOptions() { AddSuffix = true, RasterizeToPDF = false };
-            var outputPath = redactor.Save(save_opt);
+            // <% (dict "{fileformat}.example_top.comment_4") %>
+            SaveOptions saveOptions = new SaveOptions();
+            saveOptions.setAddSuffix(true);
+            saveOptions.setRasterizeToPDF(false);
+            redactor.save(saveOptions);
         }
-
+        finally { redactor.close(); }
         ```
         {{< /landing/code >}}
 

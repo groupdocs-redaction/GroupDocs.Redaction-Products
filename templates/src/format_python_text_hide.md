@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\text-hide\\format_net.yml" %>
+<% configRef "..\\configs\\text-hide\\format_python.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileFormatCap" %>
 product: "Redaction"
 product_tag: "redaction"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% (dict "{fileformat}.head.title") %>"
@@ -45,11 +45,11 @@ steps:
       4. <% (dict "{fileformat}.steps.content.step_4") %>
    
     code:
-      platform: "net"
+      platform: "python-net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Redaction"
+        command: "pip install groupdocs-redaction-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -61,22 +61,26 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% (dict "{fileformat}.example_top.comment_1") %>
+        ```python {style=abap}
+        import groupdocs.redaction as gr
+        import groupdocs.redaction.redactions as grr
+        import groupdocs.pydrawing as grd
 
-        // <% (dict "{fileformat}.example_top.comment_2") %>
-        using (Redactor redactor  = new Redactor("input.<% (dict "{fileformat}.ext") %>"))
-        {
-            // <% (dict "{fileformat}.example_top.comment_3") %>
-            var opt = new ReplacementOptions(System.Drawing.Color.Red);
-            // <% (dict "{fileformat}.example_top.comment_4") %>
-            var redaction = new ExactPhraseRedaction("Text to hide", opt);
+        # <% (dict "{fileformat}.example_top.comment_1") %>
 
-            // <% (dict "{fileformat}.example_top.comment_5") %>
-            redactor.Apply(redaction);
-            redactor.Save();
-        }
-        
+        # <% (dict "{fileformat}.example_top.comment_3") %>
+        color = grd.Color.from_argb(255, 220, 20, 60)
+        repl_opt = grr.ReplacementOptions(color)
+
+        # <% (dict "{fileformat}.example_top.comment_4") %>
+        redaction = grr.ExactPhraseRedaction("Text to hide", repl_opt)
+
+        # <% (dict "{fileformat}.example_top.comment_2") %>
+        with gr.Redactor("input.<% (dict "{fileformat}.ext") %>") as redactor:
+
+            # <% (dict "{fileformat}.example_top.comment_5") %>
+            result = redactor.apply(redaction)
+            redactor.save()
         ```            
 
 
@@ -106,22 +110,28 @@ more_features:
       content: |
         <% (dict "{fileformat}.example_bottom.content") %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        //  <% (dict "{fileformat}.example_bottom.comment_1") %>
-        using (Redactor redactor  = new Redactor("source.<% (dict "{fileformat}.ext") %>"))
-        {
-            // <% (dict "{fileformat}.example_bottom.comment_2") %>
-            var repl_opt = new ReplacementOptions(System.Drawing.Color.Blue);
-            var redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
+        ```python {style=abap}
+        import groupdocs.redaction as gr
+        import groupdocs.redaction.options as gro
+        import groupdocs.redaction.redactions as grr
+        import groupdocs.pydrawing as grd
 
-            // <% (dict "{fileformat}.example_bottom.comment_3") %>
-            redactor.Apply(redaction);
+        # <% (dict "{fileformat}.example_bottom.comment_2") %>
+        color = grd.Color.from_argb(255, 220, 20, 60)
+        repl_opt = grr.ReplacementOptions(color)
 
-            // <% (dict "{fileformat}.example_bottom.comment_4") %>
-            var save_opt = new SaveOptions() { AddSuffix = true, RasterizeToPDF = false };
-            var outputPath = redactor.Save(save_opt);
-        }
+        redaction = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
 
+        # <% (dict "{fileformat}.example_bottom.comment_3") %>
+        with gr.Redactor("source.<% (dict "{fileformat}.ext") %>") as redactor:
+
+            # <% (dict "{fileformat}.example_bottom.comment_4") %>
+            result = redactor.apply(redaction)
+
+            so = gro.SaveOptions()
+            so.add_suffix = True
+            so.rasterize_to_pdf = False
+            result_path = redactor.save(so)
         ```
         {{< /landing/code >}}
 

@@ -1,0 +1,19 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [python-net]
+- alias:  operation
+  values: [hide-text-with-image-overlay]
+- alias:  url
+  values: [hide-text-with-image-overlay]
+- alias:  fileformat
+  values: [pdf, docx, xlsx, pptx, word, excel, powerpoint]
+
+generationRules:
+  include:
+  - fileformat[pdf, docx, xlsx, pptx, word, excel, powerpoint]
+  
+outputPath: "redaction\\{product}\\{url}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

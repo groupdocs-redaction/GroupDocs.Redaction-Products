@@ -47,6 +47,9 @@ steps:
     code:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/redaction/redaction_all.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: |
         command: "dotnet add package GroupDocs.Redaction"
@@ -100,30 +103,48 @@ more_features:
     - title: "<% (dict "{fileformat}.more_features.feature_3.title") %>"
       content: "<% (dict "{fileformat}.more_features.feature_3.content") %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% (dict "{fileformat}.example_bottom.title") %>"
       content: |
         <% (dict "{fileformat}.example_bottom.content") %>
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        //  <% (dict "{fileformat}.example_bottom.comment_1") %>
-        using (Redactor redactor  = new Redactor("source.<% (dict "{fileformat}.ext") %>"))
-        {
-            // <% (dict "{fileformat}.example_bottom.comment_2") %>
-            var repl_opt = new ReplacementOptions(System.Drawing.Color.Blue);
-            var redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          //  <% (dict "{fileformat}.example_bottom.comment_1") %>
+          using (Redactor redactor  = new Redactor("source.<% (dict "{fileformat}.ext") %>"))
+          {
+              // <% (dict "{fileformat}.example_bottom.comment_2") %>
+              var repl_opt = new ReplacementOptions(System.Drawing.Color.Blue);
+              var redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
 
-            // <% (dict "{fileformat}.example_bottom.comment_3") %>
-            redactor.Apply(redaction);
+              // <% (dict "{fileformat}.example_bottom.comment_3") %>
+              redactor.Apply(redaction);
 
-            // <% (dict "{fileformat}.example_bottom.comment_4") %>
-            var save_opt = new SaveOptions() { AddSuffix = true, RasterizeToPDF = false };
-            var outputPath = redactor.Save(save_opt);
-        }
-
-        ```
-        {{< /landing/code >}}
+              // <% (dict "{fileformat}.example_bottom.comment_4") %>
+              var save_opt = new SaveOptions() { AddSuffix = true, RasterizeToPDF = false };
+              var outputPath = redactor.Save(save_opt);
+          }
+          ```
+        platform: "net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "dotnet add package GroupDocs.Redaction"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/redaction/formats/<% get "OperationLow" %>.pdf"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
 
 
 ############################# Actions ############################

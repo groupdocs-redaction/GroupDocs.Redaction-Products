@@ -47,6 +47,9 @@ steps:
     code:
       platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/redaction/redaction_all.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: |
           <dependencies>
@@ -116,33 +119,66 @@ more_features:
     - title: "<% (dict "{fileformat}.more_features.feature_3.title") %>"
       content: "<% (dict "{fileformat}.more_features.feature_3.content") %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% (dict "{fileformat}.example_bottom.title") %>"
       content: |
         <% (dict "{fileformat}.example_bottom.content") %>
-        {{< landing/code title="C#">}}
-        ```java {style=abap}
-        //  <% (dict "{fileformat}.example_bottom.comment_1") %>
-        final Redactor redactor = new Redactor("source.<% (dict "{fileformat}.ext") %>");
-        try
-        {
-            // <% (dict "{fileformat}.example_bottom.comment_2") %>
-            ReplacementOptions repl_opt = new ReplacementOptions(java.awt.Color.BLUE);
-            RegexRedaction redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          //  <% (dict "{fileformat}.example_bottom.comment_1") %>
+          final Redactor redactor = new Redactor("source.<% (dict "{fileformat}.ext") %>");
+          try
+          {
+              // <% (dict "{fileformat}.example_bottom.comment_2") %>
+              ReplacementOptions repl_opt = new ReplacementOptions(java.awt.Color.BLUE);
+              RegexRedaction redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
 
-            // <% (dict "{fileformat}.example_bottom.comment_3") %>
-            redactor.apply(redaction);
+              // <% (dict "{fileformat}.example_bottom.comment_3") %>
+              redactor.apply(redaction);
 
-            // <% (dict "{fileformat}.example_top.comment_4") %>
-            SaveOptions saveOptions = new SaveOptions();
-            saveOptions.setAddSuffix(true);
-            saveOptions.setRasterizeToPDF(false);
-            redactor.save(saveOptions);
-        }
-        finally { redactor.close(); }
-        ```
-        {{< /landing/code >}}
+              // <% (dict "{fileformat}.example_top.comment_4") %>
+              SaveOptions saveOptions = new SaveOptions();
+              saveOptions.setAddSuffix(true);
+              saveOptions.setRasterizeToPDF(false);
+              redactor.save(saveOptions);
+          }
+          finally { redactor.close(); }
+          ```
+        platform: "net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-redaction</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/redaction/formats/<% get "OperationLow" %>.pdf"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
 
 
 ############################# Actions ############################

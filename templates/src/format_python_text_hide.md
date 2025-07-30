@@ -47,6 +47,9 @@ steps:
     code:
       platform: "python-net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/redaction/redaction_all.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: |
         command: "pip install groupdocs-redaction-net"
@@ -104,36 +107,55 @@ more_features:
     - title: "<% (dict "{fileformat}.more_features.feature_3.title") %>"
       content: "<% (dict "{fileformat}.more_features.feature_3.content") %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% (dict "{fileformat}.example_bottom.title") %>"
       content: |
         <% (dict "{fileformat}.example_bottom.content") %>
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.redaction as gr
-        import groupdocs.redaction.options as gro
-        import groupdocs.redaction.redactions as grr
-        import groupdocs.pydrawing as grd
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.redaction as gr
+          import groupdocs.redaction.options as gro
+          import groupdocs.redaction.redactions as grr
+          import groupdocs.pydrawing as grd
 
-        # <% (dict "{fileformat}.example_bottom.comment_2") %>
-        color = grd.Color.from_argb(255, 220, 20, 60)
-        repl_opt = grr.ReplacementOptions(color)
+          # <% (dict "{fileformat}.example_bottom.comment_2") %>
+          color = grd.Color.from_argb(255, 220, 20, 60)
+          repl_opt = grr.ReplacementOptions(color)
 
-        redaction = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
+          redaction = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
 
-        # <% (dict "{fileformat}.example_bottom.comment_3") %>
-        with gr.Redactor("source.<% (dict "{fileformat}.ext") %>") as redactor:
+          # <% (dict "{fileformat}.example_bottom.comment_3") %>
+          with gr.Redactor("source.<% (dict "{fileformat}.ext") %>") as redactor:
 
-            # <% (dict "{fileformat}.example_bottom.comment_4") %>
-            result = redactor.apply(redaction)
+              # <% (dict "{fileformat}.example_bottom.comment_4") %>
+              result = redactor.apply(redaction)
 
-            so = gro.SaveOptions()
-            so.add_suffix = True
-            so.rasterize_to_pdf = False
-            result_path = redactor.save(so)
-        ```
-        {{< /landing/code >}}
+              so = gro.SaveOptions()
+              so.add_suffix = True
+              so.rasterize_to_pdf = False
+              result_path = redactor.save(so)
+          ```
+        platform: "python-net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "pip install groupdocs-redaction-net"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/redaction/formats/<% get "OperationLow" %>.pdf"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
 
 
 ############################# Actions ############################

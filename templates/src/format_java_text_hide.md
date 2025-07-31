@@ -86,9 +86,9 @@ steps:
         try
         {
             // <% (dict "{fileformat}.example_top.comment_3") %>
+            // <% (dict "{fileformat}.example_top.comment_4") %>
             ReplacementOptions opt = new ReplacementOptions(java.awt.Color.RED);
             
-            // <% (dict "{fileformat}.example_top.comment_4") %>
             ExactPhraseRedaction redaction = new ExactPhraseRedaction("Text to hide", opt);
 
             // <% (dict "{fileformat}.example_top.comment_5") %>
@@ -135,11 +135,11 @@ more_features:
               // <% (dict "{fileformat}.example_bottom.comment_2") %>
               ReplacementOptions repl_opt = new ReplacementOptions(java.awt.Color.BLUE);
               RegexRedaction redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
-
+              
               // <% (dict "{fileformat}.example_bottom.comment_3") %>
               redactor.apply(redaction);
 
-              // <% (dict "{fileformat}.example_top.comment_4") %>
+              // <% (dict "{fileformat}.example_bottom.comment_4") %>
               SaveOptions saveOptions = new SaveOptions();
               saveOptions.setAddSuffix(true);
               saveOptions.setRasterizeToPDF(false);

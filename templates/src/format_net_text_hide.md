@@ -71,8 +71,9 @@ steps:
         using (Redactor redactor  = new Redactor("input.<% (dict "{fileformat}.ext") %>"))
         {
             // <% (dict "{fileformat}.example_top.comment_3") %>
-            var opt = new ReplacementOptions(System.Drawing.Color.Red);
             // <% (dict "{fileformat}.example_top.comment_4") %>
+            var opt = new ReplacementOptions(System.Drawing.Color.Red);
+            
             var redaction = new ExactPhraseRedaction("Text to hide", opt);
 
             // <% (dict "{fileformat}.example_top.comment_5") %>

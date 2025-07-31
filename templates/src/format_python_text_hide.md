@@ -72,10 +72,10 @@ steps:
         # <% (dict "{fileformat}.example_top.comment_1") %>
 
         # <% (dict "{fileformat}.example_top.comment_3") %>
+        # <% (dict "{fileformat}.example_top.comment_4") %>
         color = grd.Color.from_argb(255, 220, 20, 60)
         repl_opt = grr.ReplacementOptions(color)
-
-        # <% (dict "{fileformat}.example_top.comment_4") %>
+                
         redaction = grr.ExactPhraseRedaction("Text to hide", repl_opt)
 
         # <% (dict "{fileformat}.example_top.comment_2") %>
@@ -127,12 +127,13 @@ more_features:
 
           redaction = grr.RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt)
 
-          # <% (dict "{fileformat}.example_bottom.comment_3") %>
+          # <% (dict "{fileformat}.example_bottom.comment_1") %>
           with gr.Redactor("source.<% (dict "{fileformat}.ext") %>") as redactor:
 
-              # <% (dict "{fileformat}.example_bottom.comment_4") %>
+              # <% (dict "{fileformat}.example_bottom.comment_3") %>
               result = redactor.apply(redaction)
 
+              # <% (dict "{fileformat}.example_bottom.comment_4") %>
               so = gro.SaveOptions()
               so.add_suffix = True
               so.rasterize_to_pdf = False

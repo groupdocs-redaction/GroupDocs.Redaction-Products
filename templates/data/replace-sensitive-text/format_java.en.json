@@ -31,7 +31,7 @@
       "title": "Redact Text with Regex",
       "content": "Use regex to find and hide patterns like emails, IDs, or custom formats.",
       "comment_1": "Open the document you want to edit",
-      "comment_2": "Add a regex pattern and replacement text",
+      "comment_2": "Add an EMAIL regex pattern and replacement text",
       "comment_3": "Apply redaction to matching content",
       "comment_4": "Save the redacted version"
     },
@@ -93,7 +93,7 @@
       "title": "Regex-Based Redaction",
       "content": "Use regular expressions to detect and redact patterns like phone numbers or emails.",
       "comment_1": "Load the document",
-      "comment_2": "Set a regex pattern and replacement text",
+      "comment_2": "Set an EMAIL regex pattern and replacement text",
       "comment_3": "Run the redaction",
       "comment_4": "Save the clean file"
     },
@@ -155,7 +155,7 @@
       "title": "Redaction Using Regex",
       "content": "Find and redact values like account numbers or patterns using regex.",
       "comment_1": "Open the file to process",
-      "comment_2": "Add a regex rule and replacement",
+      "comment_2": "Add an EMAIL regex rule and replacement",
       "comment_3": "Apply redaction rules",
       "comment_4": "Save the updated file"
     },
@@ -217,7 +217,7 @@
       "title": "Regex-Based Redaction",
       "content": "Use regular expressions to find and remove patterns like emails, phone numbers, or codes.",
       "comment_1": "Open your file",
-      "comment_2": "Add a regex pattern and replacement",
+      "comment_2": "Add an EMAIL regex pattern and replacement",
       "comment_3": "Apply redaction based on the pattern",
       "comment_4": "Save the clean version"
     },
@@ -279,7 +279,7 @@
       "title": "Redaction with Regex Patterns",
       "content": "Search for text using regular expressions to hide content like phone numbers, dates, or IDs.",
       "comment_1": "Load your document",
-      "comment_2": "Set a regex pattern and replacement value",
+      "comment_2": "Set an EMAIL regex pattern and replacement value",
       "comment_3": "Apply the redaction",
       "comment_4": "Save the updated document"
     },
@@ -341,7 +341,7 @@
       "title": "Redact Patterns with Regex",
       "content": "Use regular expressions to find and hide patterns like email addresses or account numbers.",
       "comment_1": "Open the file you want to clean",
-      "comment_2": "Create a regex pattern and set replacement text",
+      "comment_2": "Create an EMAIL regex pattern and set replacement text",
       "comment_3": "Run the redaction process",
       "comment_4": "Save the updated version"
     },
@@ -403,7 +403,7 @@
       "title": "Pattern-Based Redaction with Regex",
       "content": "Use regular expressions to search and redact sensitive text patterns like emails or IDs.",
       "comment_1": "Open the document you want to clean",
-      "comment_2": "Define a regex pattern and the text to use as replacement",
+      "comment_2": "Define an EMAIL regex pattern and the text to use as replacement",
       "comment_3": "Apply redaction rules",
       "comment_4": "Save the final redacted file"
     },

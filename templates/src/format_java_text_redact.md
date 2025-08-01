@@ -134,7 +134,7 @@ more_features:
           {
               // <% (dict "{fileformat}.example_bottom.comment_2") %>
               ReplacementOptions repl_opt = new ReplacementOptions("[redacted]");
-              String emailRegex = @"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}";
+              String emailRegex = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}";
 
               RegexRedaction redaction = new RegexRedaction(emailRegex, repl_opt);
               

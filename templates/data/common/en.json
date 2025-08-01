@@ -2,71 +2,71 @@
   "common-content": {
     "format-formats": {
       "excel": {
-        "name": "Watermark Excel",
+        "name": "Redact Excel",
         "description": "MS Excel and Open Office spreadsheets"
       },
       "word": {
-        "name": "Watermark Word",
+        "name": "Redact Word",
         "description": "MS Word and Open Office documents"
       },
       "powerpoint": {
-        "name": "Watermark PowerPoint",
+        "name": "Redact PowerPoint",
         "description": "MS PowerPoint and Open Office presentations"
       },
       "image": {
-        "name": "Watermark Image",
+        "name": "Redact Image",
         "description": "Popular image formats"
       },
       "photo": {
-        "name": "Watermark Photo",
+        "name": "Redact Photo",
         "description": "Photo formats"
       },
       "pdf": {
-        "name": "Watermark PDF",
+        "name": "Redact PDF",
         "description": "Adobe Portable Document Format"
       },
       "doc": {
-        "name": "Watermark DOC",
+        "name": "Redact DOC",
         "description": "Microsoft Word 97 - 2007 Document"
       },
       "docx": {
-        "name": "Watermark DOCX",
+        "name": "Redact DOCX",
         "description": "Microsoft Word Open XML Document"
       },
       "xls": {
-        "name": "Watermark XLS",
+        "name": "Redact XLS",
         "description": "Microsoft Excel Workbook 97-2003"
       },
       "xlsx": {
-        "name": "Watermark XLSX",
+        "name": "Redact XLSX",
         "description": "Microsoft Excel Open XML Spreadsheet"
       },
       "ppt": {
-        "name": "Watermark PPT",
+        "name": "Redact PPT",
         "description": "PowerPoint Presentation 97-2003"
       },
       "pptx": {
-        "name": "Watermark PPTX",
+        "name": "Redact PPTX",
         "description": "PowerPoint Open XML Presentation"
       },
       "jpeg": {
-        "name": "Watermark JPEG",
+        "name": "Redact JPEG",
         "description": "JPEG Image"
       },
       "png": {
-        "name": "Watermark PNG",
+        "name": "Redact PNG",
         "description": "Portable Network Graphic"
       },
       "tiff": {
-        "name": "Watermark TIFF",
+        "name": "Redact TIFF",
         "description": "Tag Image File Format"
       },
       "webp": {
-        "name": "Watermark WEBP",
+        "name": "Redact WEBP",
         "description": "WEB Picture"
       },
       "rtf": {
-        "name": "Watermark RTF",
+        "name": "Redact RTF",
         "description": "Rich Text Format"
       }
     },

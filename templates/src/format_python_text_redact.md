@@ -120,7 +120,7 @@ more_features:
 
           # <% (dict "{fileformat}.example_bottom.comment_2") %>
           repl_opt = grr.ReplacementOptions(color)
-          emailRegex = @"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+          emailRegex = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
 
           redaction = grr.RegexRedaction(emailRegex, repl_opt)
 

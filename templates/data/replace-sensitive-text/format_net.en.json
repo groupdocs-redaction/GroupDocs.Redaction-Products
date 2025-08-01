@@ -31,7 +31,7 @@
       "title": "Redact Text with Regex",
       "content": "Use regular expressions to search and redact sensitive text patterns like emails or IDs.",
       "comment_1": "Open the document you want to clean",
-      "comment_2": "Define a regex pattern and the text to use as replacement",
+      "comment_2": "Define an EMAIL regex pattern and the text to use as replacement",
       "comment_3": "Apply redaction rules",
       "comment_4": "Save the final redacted file"
     },
@@ -65,372 +65,372 @@
     "ext": "docx",
     "head": {
       "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
-      "description": "Secure sensitive data in your {{FileFormatUp}} files using {{ProdFullName}} and {{ProgLang}}. Fast, easy text redaction."
+      "description": "Quickly protect private content in your {{FileFormatUp}} files with {{ProdFullName}} and {{ProgLang}}. Easy to use, fast to get results."
     },
     "header": {
-      "title": "Edit or Hide Sensitive Text in {{FileFormatUp}} Documents with {{EnvNameShort}}",
-      "description": "Protect sensitive content in your {{FileFormatUp}} files using {{ProgLang}} and {{ProdFullName}}. Personal or business, your data stays private.",
-      "subtitle": "What You Can Do with {{ProdFullName}}"
+      "title": "Find and Hide Sensitive Text in {{FileFormatUp}} Documents with {{EnvNameShort}}",
+      "description": "Whether for personal or business use, {{ProdFullName}} and {{ProgLang}} help keep private information out of sight.",
+      "subtitle": "How {{ProdFullName}} Helps You"
     },
     "steps": {
-      "title": "Steps to Clean Content in {{FileFormatCap}} Docs",
+      "title": "How to Redact Content in {{FileFormatCap}} Files",
       "content": {
-        "title": "Use {{ProdFullName}} to remove or cover private content in your {{EnvName}} apps. Simple and fast redaction.",
-        "step_1": "Initialize a {{textRedactor}} and load your {{FileFormatCap}} file.",
-        "step_2": "Set up the redaction options you need.",
-        "step_3": "Specify the text to search and the replacement text.",
-        "step_4": "Run the redaction and save the file."
+        "title": "Follow these quick steps in your {{EnvName}} project to clean up private text with {{ProdFullName}}.",
+        "step_1": "Start a new {{textRedactor}} and load the {{FileFormatCap}} file.",
+        "step_2": "Choose the redaction settings you want.",
+        "step_3": "Enter the text to find and what you want it replaced with.",
+        "step_4": "Run the redaction and save your file."
       }
     },
     "example_top": {
-      "comment_1": "How to redact text in a {{FileFormatUp}} file",
-      "comment_2": "Load your file using the {{textRedactor}} constructor",
-      "comment_3": "Set your redaction preferences",
-      "comment_4": "Choose what to search and what to replace it with",
-      "comment_5": "Apply redactions and save the new {{FileFormatUp}} file"
+      "comment_1": "Redacting text in a {{FileFormatUp}} file",
+      "comment_2": "Load your file using {{textRedactor}}",
+      "comment_3": "Pick the redaction options that suit your needs",
+      "comment_4": "Set what to search for and what to swap it with",
+      "comment_5": "Run the tool and save your redacted file"
     },
     "example_bottom": {
-      "title": "Pattern-Based Redaction with Regex",
-      "content": "Use regular expressions to search and redact sensitive text patterns like emails or IDs.",
-      "comment_1": "Open the document you want to clean",
-      "comment_2": "Define a regex pattern and the text to use as replacement",
-      "comment_3": "Apply redaction rules",
-      "comment_4": "Save the final redacted file"
+      "title": "Find and Redact Patterns with Regex",
+      "content": "Use regex to search for specific data types like email addresses or ID numbers and clean them automatically.",
+      "comment_1": "Open the file you need to clean",
+      "comment_2": "Create an EMAIL regex rule and a replacement string",
+      "comment_3": "Run the redaction using your settings",
+      "comment_4": "Save the updated file"
     },
     "more_features": {
-      "title": "Extra Redaction Tools",
-      "description": "{{ProdFullName}} helps remove or hide sensitive content in multiple file formats. Keep documents clean and safe to share.",
-      "image_description": "Redaction tools and options",
+      "title": "More Redaction Features",
+      "description": "With {{ProdFullName}}, it's easy to remove hidden or visible content from different types of files. Great for sharing safely.",
+      "image_description": "Overview of redaction tools",
       "feature_1": {
-        "title": "Replace confidential text",
-        "content": "Find and replace matching text anywhere in your file. Supports regex and smart search options."
+        "title": "Replace private text",
+        "content": "Search for specific text anywhere in the file and replace it. Works with plain text or patterns."
       },
       "feature_2": {
-        "title": "Hide sensitive images",
-        "content": "Cover images or specific areas with overlays. Adjust page settings, colors, and more."
+        "title": "Cover sensitive images",
+        "content": "Mask parts of an image or full pages with overlays. You control colors, sizes, and positions."
       },
       "feature_3": {
-        "title": "Clean hidden metadata",
-        "content": "Remove hidden data like authorship, timestamps, or comments to protect privacy."
+        "title": "Wipe hidden data",
+        "content": "Remove metadata like names, comments, or timestamps to make sure nothing is left behind."
       }
     },
     "about": {
-      "title": "Meet {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers everything they need to redact {{FileFormatUp}} content. Clean up text, images, annotations, comments, and metadata in popular file types."
+      "title": "What is {{ProdFullName}}?",
+      "content": "{{ProdFullName}} gives {{ProgLang}} developers the tools to find and clean up sensitive content in {{FileFormatUp}} files. Works with text, images, notes, and more."
     },
     "formats": {
-      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
-      "description": "Protect official and personal data by redacting text in {{FileFormatUp}} files with {{EnvNameShort}} tools. Keep documents secure and private."
+      "title": "Redact Data in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "Protect personal or official info by hiding it in {{FileFormatUp}} documents using {{EnvNameShort}}. It's simple and effective."
     }
   },
   "xlsx": {
     "ext": "xslx",
     "head": {
       "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
-      "description": "Secure sensitive data in your {{FileFormatUp}} files using {{ProdFullName}} and {{ProgLang}}. Fast, easy text redaction."
+      "description": "Quickly clean private content from your {{FileFormatUp}} files using {{ProdFullName}} and {{ProgLang}}. Fast and easy redaction."
     },
     "header": {
       "title": "Edit or Hide Sensitive Text in {{FileFormatUp}} Documents with {{EnvNameShort}}",
-      "description": "Protect sensitive content in your {{FileFormatUp}} files using {{ProgLang}} and {{ProdFullName}}. Personal or business, your data stays private.",
+      "description": "With {{ProdFullName}} and {{ProgLang}}, you can remove personal or business info from your {{FileFormatUp}} files and keep them safe to share.",
       "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Steps to Clean Content in {{FileFormatCap}} Docs",
+      "title": "How to Redact Text in {{FileFormatCap}} Files",
       "content": {
-        "title": "Use {{ProdFullName}} to remove or cover private content in your {{EnvName}} apps. Simple and fast redaction.",
-        "step_1": "Initialize a {{textRedactor}} and load your {{FileFormatCap}} file.",
-        "step_2": "Set up the redaction options you need.",
-        "step_3": "Specify the text to search and the replacement text.",
-        "step_4": "Run the redaction and save the file."
+        "title": "Use {{ProdFullName}} inside your {{EnvName}} project to hide or delete sensitive info in just a few steps.",
+        "step_1": "Create a {{textRedactor}} and load the {{FileFormatCap}} file.",
+        "step_2": "Pick the redaction settings that fit your needs.",
+        "step_3": "Enter the text to find and what to replace it with.",
+        "step_4": "Run the redaction process and save your updated file."
       }
     },
     "example_top": {
-      "comment_1": "How to redact text in a {{FileFormatUp}} file",
-      "comment_2": "Load your file using the {{textRedactor}} constructor",
-      "comment_3": "Set your redaction preferences",
-      "comment_4": "Choose what to search and what to replace it with",
-      "comment_5": "Apply redactions and save the new {{FileFormatUp}} file"
+      "comment_1": "Redacting text from a {{FileFormatUp}} file",
+      "comment_2": "Use {{textRedactor}} to open the file",
+      "comment_3": "Choose your redaction options",
+      "comment_4": "Set the search and replacement text",
+      "comment_5": "Apply redactions and save the cleaned file"
     },
     "example_bottom": {
-      "title": "Pattern-Based Redaction with Regex",
-      "content": "Use regular expressions to search and redact sensitive text patterns like emails or IDs.",
-      "comment_1": "Open the document you want to clean",
-      "comment_2": "Define a regex pattern and the text to use as replacement",
-      "comment_3": "Apply redaction rules",
-      "comment_4": "Save the final redacted file"
+      "title": "Redact with Regex Rules",
+      "content": "Use regex to find and clean up patterns like phone numbers, emails, or other personal details.",
+      "comment_1": "Open the file to begin",
+      "comment_2": "Write an EMAIL regex rule and pick a replacement",
+      "comment_3": "Run the redaction based on your pattern",
+      "comment_4": "Save the redacted file"
     },
     "more_features": {
-      "title": "Extra Redaction Tools",
-      "description": "{{ProdFullName}} helps remove or hide sensitive content in multiple file formats. Keep documents clean and safe to share.",
-      "image_description": "Redaction tools and options",
+      "title": "More Tools for Redacting",
+      "description": "{{ProdFullName}} helps clean different types of content—text, images, or metadata—so your files are ready to share safely.",
+      "image_description": "Redaction options shown",
       "feature_1": {
-        "title": "Replace confidential text",
-        "content": "Find and replace matching text anywhere in your file. Supports regex and smart search options."
+        "title": "Replace sensitive text",
+        "content": "Search through the file and replace anything confidential. Supports simple text and patterns."
       },
       "feature_2": {
-        "title": "Hide sensitive images",
-        "content": "Cover images or specific areas with overlays. Adjust page settings, colors, and more."
+        "title": "Cover image areas",
+        "content": "Use overlays to hide visual data. Pick the color, area size, and page layout."
       },
       "feature_3": {
-        "title": "Clean hidden metadata",
-        "content": "Remove hidden data like authorship, timestamps, or comments to protect privacy."
+        "title": "Remove extra data",
+        "content": "Delete metadata like author names, timestamps, or internal notes to avoid leaks."
       }
     },
     "about": {
-      "title": "Meet {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers everything they need to redact {{FileFormatUp}} content. Clean up text, images, annotations, comments, and metadata in popular file types."
+      "title": "What is {{ProdFullName}}?",
+      "content": "{{ProdFullName}} lets {{ProgLang}} developers search and remove sensitive info from {{FileFormatUp}} files. It works with text, pictures, notes, and file data."
     },
     "formats": {
-      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
-      "description": "Protect official and personal data by redacting text in {{FileFormatUp}} files with {{EnvNameShort}} tools. Keep documents secure and private."
+      "title": "Hide Info in {{FileFormatUp}} with {{EnvNameShort}}",
+      "description": "Clean your {{FileFormatUp}} documents by removing personal or sensitive text using {{EnvNameShort}} tools. Keep your data private."
     }
   },
   "pptx": {
     "ext": "pptx",
     "head": {
       "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
-      "description": "Secure sensitive data in your {{FileFormatUp}} files using {{ProdFullName}} and {{ProgLang}}. Fast, easy text redaction."
+      "description": "Quickly hide private content in your {{FileFormatUp}} presentations with {{ProdFullName}} and {{ProgLang}}. Fast redaction, simple setup."
     },
     "header": {
       "title": "Edit or Hide Sensitive Text in {{FileFormatUp}} Documents with {{EnvNameShort}}",
-      "description": "Protect sensitive content in your {{FileFormatUp}} files using {{ProgLang}} and {{ProdFullName}}. Personal or business, your data stays private.",
+      "description": "Keep your presentations clean and private. Use {{ProdFullName}} and {{ProgLang}} to remove anything you don’t want shared.",
       "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Steps to Clean Content in {{FileFormatCap}} Docs",
+      "title": "Steps to Clean {{FileFormatCap}} Presentations",
       "content": {
-        "title": "Use {{ProdFullName}} to remove or cover private content in your {{EnvName}} apps. Simple and fast redaction.",
-        "step_1": "Initialize a {{textRedactor}} and load your {{FileFormatCap}} file.",
-        "step_2": "Set up the redaction options you need.",
-        "step_3": "Specify the text to search and the replacement text.",
-        "step_4": "Run the redaction and save the file."
+        "title": "Use {{ProdFullName}} in your {{EnvName}} app to remove or cover up sensitive content in just a few steps.",
+        "step_1": "Start a new {{textRedactor}} and load your {{FileFormatCap}} file.",
+        "step_2": "Pick the redaction rules you want to apply.",
+        "step_3": "Set the text to find and what to replace it with.",
+        "step_4": "Run redaction and save your file."
       }
     },
     "example_top": {
-      "comment_1": "How to redact text in a {{FileFormatUp}} file",
-      "comment_2": "Load your file using the {{textRedactor}} constructor",
-      "comment_3": "Set your redaction preferences",
-      "comment_4": "Choose what to search and what to replace it with",
-      "comment_5": "Apply redactions and save the new {{FileFormatUp}} file"
+      "comment_1": "Redacting a {{FileFormatUp}} presentation",
+      "comment_2": "Open the file with {{textRedactor}}",
+      "comment_3": "Pick the redaction settings",
+      "comment_4": "Choose the text to search and replace",
+      "comment_5": "Apply changes and save the updated file"
     },
     "example_bottom": {
-      "title": "Pattern-Based Redaction with Regex",
-      "content": "Use regular expressions to search and redact sensitive text patterns like emails or IDs.",
-      "comment_1": "Open the document you want to clean",
-      "comment_2": "Define a regex pattern and the text to use as replacement",
-      "comment_3": "Apply redaction rules",
-      "comment_4": "Save the final redacted file"
+      "title": "Redact Using Regex Patterns",
+      "content": "Find and clean data like email addresses or IDs using regex. Great for repeatable redaction.",
+      "comment_1": "Open your file",
+      "comment_2": "Write an EMAIL regex pattern and set the replacement",
+      "comment_3": "Apply your redaction settings",
+      "comment_4": "Save the redacted version"
     },
     "more_features": {
-      "title": "Extra Redaction Tools",
-      "description": "{{ProdFullName}} helps remove or hide sensitive content in multiple file formats. Keep documents clean and safe to share.",
-      "image_description": "Redaction tools and options",
+      "title": "Redaction Features You Can Use",
+      "description": "{{ProdFullName}} helps you find and hide sensitive text, images, and hidden data across multiple file types. Perfect for sharing files safely.",
+      "image_description": "Available redaction options",
       "feature_1": {
-        "title": "Replace confidential text",
-        "content": "Find and replace matching text anywhere in your file. Supports regex and smart search options."
+        "title": "Replace hidden text",
+        "content": "Search and swap private words or phrases anywhere in the file. Regex is supported too."
       },
       "feature_2": {
-        "title": "Hide sensitive images",
-        "content": "Cover images or specific areas with overlays. Adjust page settings, colors, and more."
+        "title": "Cover images",
+        "content": "Use blocks to hide pictures or areas you want to mask. Control shape, size, and color."
       },
       "feature_3": {
-        "title": "Clean hidden metadata",
-        "content": "Remove hidden data like authorship, timestamps, or comments to protect privacy."
+        "title": "Delete hidden details",
+        "content": "Clean metadata like author names, last edited dates, or comments to make your file clean."
       }
     },
     "about": {
-      "title": "Meet {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers everything they need to redact {{FileFormatUp}} content. Clean up text, images, annotations, comments, and metadata in popular file types."
+      "title": "What is {{ProdFullName}}?",
+      "content": "{{ProdFullName}} gives {{ProgLang}} developers what they need to remove sensitive content from {{FileFormatUp}} files. It handles text, visuals, comments, and metadata."
     },
     "formats": {
-      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
-      "description": "Protect official and personal data by redacting text in {{FileFormatUp}} files with {{EnvNameShort}} tools. Keep documents secure and private."
+      "title": "Clean Up {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Make your {{FileFormatUp}} documents safer to share by hiding private text with {{EnvNameShort}}. Quick, reliable results."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
       "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
-      "description": "Secure sensitive data in your {{FileFormatUp}} files using {{ProdFullName}} and {{ProgLang}}. Fast, easy text redaction."
+      "description": "Keep your {{FileFormatUp}} files private with {{ProdFullName}} and {{ProgLang}}. Quick and easy way to redact text."
     },
     "header": {
-      "title": "Edit or Hide Sensitive Text in {{FileFormatUp}} Documents with {{EnvNameShort}}",
-      "description": "Protect sensitive content in your {{FileFormatUp}} files using {{ProgLang}} and {{ProdFullName}}. Personal or business, your data stays private.",
-      "subtitle": "What You Can Do with {{ProdFullName}}"
+      "title": "Find and Remove Sensitive Text in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Use {{ProgLang}} and {{ProdFullName}} to protect your personal or work files. Your private info stays hidden.",
+      "subtitle": "Key Features of {{ProdFullName}}"
     },
     "steps": {
-      "title": "Steps to Clean Content in {{FileFormatCap}} Docs",
+      "title": "How to Redact {{FileFormatCap}} Files",
       "content": {
-        "title": "Use {{ProdFullName}} to remove or cover private content in your {{EnvName}} apps. Simple and fast redaction.",
-        "step_1": "Initialize a {{textRedactor}} and load your {{FileFormatCap}} file.",
-        "step_2": "Set up the redaction options you need.",
-        "step_3": "Specify the text to search and the replacement text.",
-        "step_4": "Run the redaction and save the file."
+        "title": "With {{ProdFullName}}, it's easy to find and replace private content in {{EnvName}} apps.",
+        "step_1": "Create a {{textRedactor}} and open your {{FileFormatCap}} file.",
+        "step_2": "Choose your redaction settings.",
+        "step_3": "Tell it what to search and what text to use as a replacement.",
+        "step_4": "Start the redaction and save your updated file."
       }
     },
     "example_top": {
-      "comment_1": "How to redact text in a {{FileFormatUp}} file",
-      "comment_2": "Load your file using the {{textRedactor}} constructor",
-      "comment_3": "Set your redaction preferences",
-      "comment_4": "Choose what to search and what to replace it with",
-      "comment_5": "Apply redactions and save the new {{FileFormatUp}} file"
+      "comment_1": "Steps to redact content in a {{FileFormatUp}} document",
+      "comment_2": "Open the file with {{textRedactor}}",
+      "comment_3": "Adjust your redaction settings",
+      "comment_4": "Pick what to search for and what to replace it with",
+      "comment_5": "Run the redaction and save your new {{FileFormatUp}} file"
     },
     "example_bottom": {
-      "title": "Pattern-Based Redaction with Regex",
-      "content": "Use regular expressions to search and redact sensitive text patterns like emails or IDs.",
-      "comment_1": "Open the document you want to clean",
-      "comment_2": "Define a regex pattern and the text to use as replacement",
-      "comment_3": "Apply redaction rules",
-      "comment_4": "Save the final redacted file"
+      "title": "Use Regex for Smarter Redactions",
+      "content": "Find and remove data patterns like emails or IDs with regular expressions.",
+      "comment_1": "Open the file you want to clean",
+      "comment_2": "Set an EMAIL regex pattern and choose the replacement text",
+      "comment_3": "Run the redaction process",
+      "comment_4": "Save your final, redacted file"
     },
     "more_features": {
-      "title": "Extra Redaction Tools",
-      "description": "{{ProdFullName}} helps remove or hide sensitive content in multiple file formats. Keep documents clean and safe to share.",
-      "image_description": "Redaction tools and options",
+      "title": "More Redaction Tools",
+      "description": "{{ProdFullName}} gives you powerful ways to hide or erase private info across many file types. Great for sharing safely.",
+      "image_description": "Available redaction tools and settings",
       "feature_1": {
-        "title": "Replace confidential text",
-        "content": "Find and replace matching text anywhere in your file. Supports regex and smart search options."
+        "title": "Swap out private text",
+        "content": "Search and replace exact matches with smart text options, including regex support."
       },
       "feature_2": {
-        "title": "Hide sensitive images",
-        "content": "Cover images or specific areas with overlays. Adjust page settings, colors, and more."
+        "title": "Hide private images",
+        "content": "Cover up full images or just parts of a page. You can adjust overlay color and size."
       },
       "feature_3": {
-        "title": "Clean hidden metadata",
-        "content": "Remove hidden data like authorship, timestamps, or comments to protect privacy."
+        "title": "Erase hidden metadata",
+        "content": "Remove info like author names, edit history, and comments to protect your identity."
       }
     },
     "about": {
-      "title": "Meet {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers everything they need to redact {{FileFormatUp}} content. Clean up text, images, annotations, comments, and metadata in popular file types."
+      "title": "What Is {{ProdFullName}}?",
+      "content": "{{ProdFullName}} gives {{ProgLang}} users the tools to clean {{FileFormatUp}} documents. Redact text, images, notes, and background data."
     },
     "formats": {
-      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
-      "description": "Protect official and personal data by redacting text in {{FileFormatUp}} files with {{EnvNameShort}} tools. Keep documents secure and private."
+      "title": "How to Redact {{FileFormatUp}} with {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} to clean {{FileFormatUp}} files. Keep your content private and secure from leaks."
     }
   },
   "excel": {
     "ext": "xslx",
     "head": {
       "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
-      "description": "Secure sensitive data in your {{FileFormatUp}} files using {{ProdFullName}} and {{ProgLang}}. Fast, easy text redaction."
+      "description": "Keep your {{FileFormatUp}} files private with {{ProdFullName}} and {{ProgLang}}. Quick and easy way to redact text."
     },
     "header": {
-      "title": "Edit or Hide Sensitive Text in {{FileFormatUp}} Documents with {{EnvNameShort}}",
-      "description": "Protect sensitive content in your {{FileFormatUp}} files using {{ProgLang}} and {{ProdFullName}}. Personal or business, your data stays private.",
-      "subtitle": "What You Can Do with {{ProdFullName}}"
+      "title": "Find and Remove Sensitive Text in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Use {{ProgLang}} and {{ProdFullName}} to protect your personal or work files. Your private info stays hidden.",
+      "subtitle": "Key Features of {{ProdFullName}}"
     },
     "steps": {
-      "title": "Steps to Clean Content in {{FileFormatCap}} Docs",
+      "title": "How to Redact {{FileFormatCap}} Files",
       "content": {
-        "title": "Use {{ProdFullName}} to remove or cover private content in your {{EnvName}} apps. Simple and fast redaction.",
-        "step_1": "Initialize a {{textRedactor}} and load your {{FileFormatCap}} file.",
-        "step_2": "Set up the redaction options you need.",
-        "step_3": "Specify the text to search and the replacement text.",
-        "step_4": "Run the redaction and save the file."
+        "title": "With {{ProdFullName}}, it's easy to find and replace private content in {{EnvName}} apps.",
+        "step_1": "Create a {{textRedactor}} and open your {{FileFormatCap}} file.",
+        "step_2": "Choose your redaction settings.",
+        "step_3": "Tell it what to search and what text to use as a replacement.",
+        "step_4": "Start the redaction and save your updated file."
       }
     },
     "example_top": {
-      "comment_1": "How to redact text in a {{FileFormatUp}} file",
-      "comment_2": "Load your file using the {{textRedactor}} constructor",
-      "comment_3": "Set your redaction preferences",
-      "comment_4": "Choose what to search and what to replace it with",
-      "comment_5": "Apply redactions and save the new {{FileFormatUp}} file"
+      "comment_1": "Steps to redact content in a {{FileFormatUp}} document",
+      "comment_2": "Open the file with {{textRedactor}}",
+      "comment_3": "Adjust your redaction settings",
+      "comment_4": "Pick what to search for and what to replace it with",
+      "comment_5": "Run the redaction and save your new {{FileFormatUp}} file"
     },
     "example_bottom": {
-      "title": "Pattern-Based Redaction with Regex",
-      "content": "Use regular expressions to search and redact sensitive text patterns like emails or IDs.",
-      "comment_1": "Open the document you want to clean",
-      "comment_2": "Define a regex pattern and the text to use as replacement",
-      "comment_3": "Apply redaction rules",
-      "comment_4": "Save the final redacted file"
+      "title": "Use Regex for Smarter Redactions",
+      "content": "Find and remove data patterns like emails or IDs with regular expressions.",
+      "comment_1": "Open the file you want to clean",
+      "comment_2": "Set an EMAIL regex pattern and choose the replacement text",
+      "comment_3": "Run the redaction process",
+      "comment_4": "Save your final, redacted file"
     },
     "more_features": {
-      "title": "Extra Redaction Tools",
-      "description": "{{ProdFullName}} helps remove or hide sensitive content in multiple file formats. Keep documents clean and safe to share.",
-      "image_description": "Redaction tools and options",
+      "title": "More Redaction Tools",
+      "description": "{{ProdFullName}} gives you powerful ways to hide or erase private info across many file types. Great for sharing safely.",
+      "image_description": "Available redaction tools and settings",
       "feature_1": {
-        "title": "Replace confidential text",
-        "content": "Find and replace matching text anywhere in your file. Supports regex and smart search options."
+        "title": "Swap out private text",
+        "content": "Search and replace exact matches with smart text options, including regex support."
       },
       "feature_2": {
-        "title": "Hide sensitive images",
-        "content": "Cover images or specific areas with overlays. Adjust page settings, colors, and more."
+        "title": "Hide private images",
+        "content": "Cover up full images or just parts of a page. You can adjust overlay color and size."
       },
       "feature_3": {
-        "title": "Clean hidden metadata",
-        "content": "Remove hidden data like authorship, timestamps, or comments to protect privacy."
+        "title": "Erase hidden metadata",
+        "content": "Remove info like author names, edit history, and comments to protect your identity."
       }
     },
     "about": {
-      "title": "Meet {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers everything they need to redact {{FileFormatUp}} content. Clean up text, images, annotations, comments, and metadata in popular file types."
+      "title": "What Is {{ProdFullName}}?",
+      "content": "{{ProdFullName}} gives {{ProgLang}} users the tools to clean {{FileFormatUp}} documents. Redact text, images, notes, and background data."
     },
     "formats": {
-      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
-      "description": "Protect official and personal data by redacting text in {{FileFormatUp}} files with {{EnvNameShort}} tools. Keep documents secure and private."
+      "title": "How to Redact {{FileFormatUp}} with {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} to clean {{FileFormatUp}} files. Keep your content private and secure from leaks."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
       "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
-      "description": "Secure sensitive data in your {{FileFormatUp}} files using {{ProdFullName}} and {{ProgLang}}. Fast, easy text redaction."
+      "description": "Keep your {{FileFormatUp}} files private with {{ProdFullName}} and {{ProgLang}}. Quick and easy way to redact text."
     },
     "header": {
-      "title": "Edit or Hide Sensitive Text in {{FileFormatUp}} Documents with {{EnvNameShort}}",
-      "description": "Protect sensitive content in your {{FileFormatUp}} files using {{ProgLang}} and {{ProdFullName}}. Personal or business, your data stays private.",
-      "subtitle": "What You Can Do with {{ProdFullName}}"
+      "title": "Find and Remove Sensitive Text in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Use {{ProgLang}} and {{ProdFullName}} to protect your personal or work files. Your private info stays hidden.",
+      "subtitle": "Key Features of {{ProdFullName}}"
     },
     "steps": {
-      "title": "Steps to Clean Content in {{FileFormatCap}} Docs",
+      "title": "How to Redact {{FileFormatCap}} Files",
       "content": {
-        "title": "Use {{ProdFullName}} to remove or cover private content in your {{EnvName}} apps. Simple and fast redaction.",
-        "step_1": "Initialize a {{textRedactor}} and load your {{FileFormatCap}} file.",
-        "step_2": "Set up the redaction options you need.",
-        "step_3": "Specify the text to search and the replacement text.",
-        "step_4": "Run the redaction and save the file."
+        "title": "With {{ProdFullName}}, it's easy to find and replace private content in {{EnvName}} apps.",
+        "step_1": "Create a {{textRedactor}} and open your {{FileFormatCap}} file.",
+        "step_2": "Choose your redaction settings.",
+        "step_3": "Tell it what to search and what text to use as a replacement.",
+        "step_4": "Start the redaction and save your updated file."
       }
     },
     "example_top": {
-      "comment_1": "How to redact text in a {{FileFormatUp}} file",
-      "comment_2": "Load your file using the {{textRedactor}} constructor",
-      "comment_3": "Set your redaction preferences",
-      "comment_4": "Choose what to search and what to replace it with",
-      "comment_5": "Apply redactions and save the new {{FileFormatUp}} file"
+      "comment_1": "Steps to redact content in a {{FileFormatUp}} document",
+      "comment_2": "Open the file with {{textRedactor}}",
+      "comment_3": "Adjust your redaction settings",
+      "comment_4": "Pick what to search for and what to replace it with",
+      "comment_5": "Run the redaction and save your new {{FileFormatUp}} file"
     },
     "example_bottom": {
-      "title": "Pattern-Based Redaction with Regex",
-      "content": "Use regular expressions to search and redact sensitive text patterns like emails or IDs.",
-      "comment_1": "Open the document you want to clean",
-      "comment_2": "Define a regex pattern and the text to use as replacement",
-      "comment_3": "Apply redaction rules",
-      "comment_4": "Save the final redacted file"
+      "title": "Use Regex for Smarter Redactions",
+      "content": "Find and remove data patterns like emails or IDs with regular expressions.",
+      "comment_1": "Open the file you want to clean",
+      "comment_2": "Set an EMAIL regex pattern and choose the replacement text",
+      "comment_3": "Run the redaction process",
+      "comment_4": "Save your final, redacted file"
     },
     "more_features": {
-      "title": "Extra Redaction Tools",
-      "description": "{{ProdFullName}} helps remove or hide sensitive content in multiple file formats. Keep documents clean and safe to share.",
-      "image_description": "Redaction tools and options",
+      "title": "More Redaction Tools",
+      "description": "{{ProdFullName}} gives you powerful ways to hide or erase private info across many file types. Great for sharing safely.",
+      "image_description": "Available redaction tools and settings",
       "feature_1": {
-        "title": "Replace confidential text",
-        "content": "Find and replace matching text anywhere in your file. Supports regex and smart search options."
+        "title": "Swap out private text",
+        "content": "Search and replace exact matches with smart text options, including regex support."
       },
       "feature_2": {
-        "title": "Hide sensitive images",
-        "content": "Cover images or specific areas with overlays. Adjust page settings, colors, and more."
+        "title": "Hide private images",
+        "content": "Cover up full images or just parts of a page. You can adjust overlay color and size."
       },
       "feature_3": {
-        "title": "Clean hidden metadata",
-        "content": "Remove hidden data like authorship, timestamps, or comments to protect privacy."
+        "title": "Erase hidden metadata",
+        "content": "Remove info like author names, edit history, and comments to protect your identity."
       }
     },
     "about": {
-      "title": "Meet {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers everything they need to redact {{FileFormatUp}} content. Clean up text, images, annotations, comments, and metadata in popular file types."
+      "title": "What Is {{ProdFullName}}?",
+      "content": "{{ProdFullName}} gives {{ProgLang}} users the tools to clean {{FileFormatUp}} documents. Redact text, images, notes, and background data."
     },
     "formats": {
-      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
-      "description": "Protect official and personal data by redacting text in {{FileFormatUp}} files with {{EnvNameShort}} tools. Keep documents secure and private."
+      "title": "How to Redact {{FileFormatUp}} with {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} to clean {{FileFormatUp}} files. Keep your content private and secure from leaks."
     }
   }
 }

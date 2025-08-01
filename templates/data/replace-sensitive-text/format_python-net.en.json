@@ -2,435 +2,428 @@
   "pdf": {
     "ext": "pdf",
     "head": {
-      "title": "Cover Sensitive Text in {{FileFormatUp}} Files Using {{ProgLang}} Overlays",
-      "description": "With {{ProdFullName}}, you can hide sensitive text in {{FileFormatUp}} files by adding colored overlays. Protect private data without changing how your file looks."
+      "title": "Redact Sensitive Text in {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Keep private details safe in your {{FileFormatUp}} documents with {{ProdFullName}}. Quickly find and hide sensitive info."
     },
     "header": {
-      "title": "Cover Sensitive Text in {{FileFormatUp}} Using {{EnvNameShort}}",
-      "description": "Secure your {{FileFormatUp}} files with {{ProgLang}}. Use overlays to block legal, personal, or confidential info.",
-      "subtitle": "{{ProdFullName}} Highlights"
+      "title": "Erase Sensitive Text from {{FileFormatUp}} Files Using {{EnvNameShort}}",
+      "description": "Use {{ProgLang}} and {{ProdFullName}} to search for and remove private, legal, or personal data from your {{FileFormatUp}} files.",
+      "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Keep Sensitive Info Safe in {{FileFormatCap}} Files",
+      "title": "How to Redact Content in {{FileFormatCap}} Files",
       "content": {
-        "title": "Use {{ProdFullName}} with your {{EnvName}} apps to hide private content fast.",
-        "step_1": "Set up a {{textRedactor}} and load your {{FileFormatCap}} file.",
-        "step_2": "Choose how the redaction should work.",
-        "step_3": "Pick the text to hide and select a color for the overlay.",
+        "title": "Keep your content safe in any {{EnvName}} app using {{ProdFullName}}.",
+        "step_1": "Create a {{textRedactor}} and load your {{FileFormatCap}} file.",
+        "step_2": "Choose the redaction settings you want.",
+        "step_3": "Enter the text to search and what to replace it with.",
         "step_4": "Apply redaction and save your file."
       }
     },
-    "example_top": {
-      "comment_1": "Hide sensitive text in {{FileFormatUp}} using color overlays",
-      "comment_2": "Load the file by passing its path to {{textRedactor}}",
-      "comment_3": "Set redaction options",
-      "comment_4": "Define what to hide and pick a color",
-      "comment_5": "Redact and save your {{FileFormatUp}} file"
-    },
     "example_bottom": {
-      "title": "Use Regex to Find and Hide Text",
-      "content": "This example shows how to search and hide text using regex patterns.",
-      "comment_1": "Load your document",
-      "comment_2": "Set text pattern and overlay color",
-      "comment_3": "Redact selected content",
-      "comment_4": "Save the updated file"
+      "title": "Redact with Regex",
+      "content": "Use regex to find and remove patterns like emails, IDs, or numbers.",
+      "comment_1": "Open the file you want to clean",
+      "comment_2": "Set a regex pattern and replacement text",
+      "comment_3": "Apply your redaction rules",
+      "comment_4": "Save your redacted file"
     },
     "more_features": {
-      "title": "Hide or Remove Info from Documents",
-      "description": "With {{ProdFullName}}, you can hide text, images, and other data in many formats. Protect what matters while keeping your documents easy to read and share.",
-      "image_description": "Flexible Redaction Features",
+      "title": "More Redaction Features",
+      "description": "{{ProdFullName}} lets you hide private content in many file types. Keep your data safe and ready to share.",
+      "image_description": "Tools for text, image, and metadata redaction",
       "feature_1": {
-        "title": "Edit Any Text",
-        "content": "Find and replace sensitive text to keep your documents secure."
+        "title": "Find and Replace Private Text",
+        "content": "Search for and swap out matching text. Works with regex and keyword search."
       },
       "feature_2": {
-        "title": "Cover Images",
-        "content": "Use overlays to block out full images or specific areas."
+        "title": "Cover Private Images",
+        "content": "Mask full images or parts of them using overlays. Customize appearance settings."
       },
       "feature_3": {
-        "title": "Clean Metadata",
-        "content": "Remove hidden data to stop unintentional information leaks."
+        "title": "Erase Hidden Metadata",
+        "content": "Remove hidden info like author names, timestamps, and revision notes."
       }
     },
     "about": {
-      "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers an easy way to hide or delete content in {{FileFormatUp}} files. Cover sensitive text, images, or metadata across many formats."
+      "title": "What is {{ProdFullName}}?",
+      "content": "{{ProdFullName}} gives {{ProgLang}} developers all the tools they need to redact content in {{FileFormatUp}} files—text, images, comments, and more."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Files with {{EnvNameShort}} Tools",
-      "description": "Use {{EnvNameShort}} to hide or remove content in {{FileFormatUp}} files. A reliable way to keep private info safe."
+      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "Keep personal or business data safe by redacting text in {{FileFormatUp}} files with {{EnvNameShort}} tools."
     }
   },
   "docx": {
     "ext": "docx",
     "head": {
-      "title": "Hide Text in {{FileFormatUp}} with Overlays Using {{ProgLang}}",
-      "description": "Protect sensitive text in {{FileFormatUp}} files with {{ProdFullName}}. Add simple square overlays without changing your layout."
+      "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "Keep your {{FileFormatUp}} files safe by removing sensitive content with {{ProdFullName}} and {{ProgLang}}. Quick and easy redaction."
     },
     "header": {
-      "title": "Hide Content in {{FileFormatUp}} Using {{EnvNameShort}}",
-      "description": "Use {{ProgLang}} to cover private content in {{FileFormatUp}} files. Ideal for legal, personal, or business documents.",
-      "subtitle": "Key Features of {{ProdFullName}}"
+      "title": "Edit or Hide Private Text in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Take control of your {{FileFormatUp}] content using {{ProdFullName}} and {{ProgLang}}. Great for personal or business use.",
+      "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Keep Private Info Hidden in {{FileFormatCap}}",
+      "title": "How to Clean Text in {{FileFormatCap}} Files",
       "content": {
-        "title": "With {{ProdFullName}}, {{EnvName}} developers can hide content in just a few lines.",
-        "step_1": "Create a {{textRedactor}} and open your file.",
-        "step_2": "Choose your redaction settings.",
-        "step_3": "Enter the text to hide and pick a color.",
-        "step_4": "Apply and save the redacted version."
+        "title": "Use {{ProdFullName}} inside your {{EnvName}} apps to remove or hide private text. Fast and simple redaction process.",
+        "step_1": "Create a {{textRedactor}} and open your {{FileFormatCap}} file.",
+        "step_2": "Set the redaction rules you want.",
+        "step_3": "Choose the text to find and what to replace it with.",
+        "step_4": "Run redaction and save your new file."
       }
     },
     "example_top": {
-      "comment_1": "Hide content in {{FileFormatUp}} using overlays",
-      "comment_2": "Set up the {{textRedactor}} and load your file",
-      "comment_3": "Configure your redaction options",
-      "comment_4": "Define text and overlay color",
-      "comment_5": "Redact and save the file"
+      "comment_1": "How to redact text in a {{FileFormatUp}} file",
+      "comment_2": "Open your file with the {{textRedactor}} constructor",
+      "comment_3": "Pick your redaction settings",
+      "comment_4": "Enter what to search and what to replace it with",
+      "comment_5": "Apply changes and save the updated {{FileFormatUp}} file"
     },
     "example_bottom": {
-      "title": "Find Text with Regex and Redact",
-      "content": "Learn how to use regular expressions to find and hide text.",
-      "comment_1": "Open the file to redact",
-      "comment_2": "Set pattern and color",
-      "comment_3": "Run the redaction process",
-      "comment_4": "Save your clean document"
+      "title": "Use Regex to Redact Patterns",
+      "content": "Search for emails, IDs, or patterns using regular expressions and replace them easily.",
+      "comment_1": "Open the file you want to clean",
+      "comment_2": "Set a regex pattern and replacement text",
+      "comment_3": "Apply your redaction setup",
+      "comment_4": "Save the redacted document"
     },
     "more_features": {
-      "title": "Extra Redaction Tools",
-      "description": "{{ProdFullName}} supports different file types so you can protect any content with ease.",
-      "image_description": "Built-in Redaction Features",
+      "title": "More Redaction Tools",
+      "description": "{{ProdFullName}} lets you delete or mask sensitive text across different formats. Share clean and secure files with confidence.",
+      "image_description": "Tools for text, image, and metadata redaction",
       "feature_1": {
-        "title": "Find and Edit Text",
-        "content": "Search for keywords and hide or replace them quickly."
+        "title": "Find and Replace Private Text",
+        "content": "Search for specific words or patterns and swap them out. Works with regular expressions and keyword options."
       },
       "feature_2": {
-        "title": "Cover Image Areas",
-        "content": "Block out sensitive areas in scanned pages or photos."
+        "title": "Cover Sensitive Images",
+        "content": "Overlay or hide image areas. Change colors, opacity, and size as needed."
       },
       "feature_3": {
-        "title": "Clean Metadata",
-        "content": "Remove hidden info that could expose details."
+        "title": "Remove Metadata",
+        "content": "Erase hidden info like author names, time stamps, and internal notes to keep your files private."
       }
     },
     "about": {
-      "title": "What is {{ProdFullName}}?",
-      "content": "{{ProdFullName}} helps {{ProgLang}} developers hide or remove private content in {{FileFormatUp}} files. You can block out text, images, and even hidden metadata."
+      "title": "Meet {{ProdFullName}}",
+      "content": "{{ProdFullName}} gives {{ProgLang}} developers the tools to clean up content in {{FileFormatUp}} files. Redact text, images, comments, and metadata easily."
     },
     "formats": {
-      "title": "Secure {{FileFormatUp}} Files with {{EnvNameShort}}",
-      "description": "Cover or delete sensitive content in {{FileFormatUp}} documents using simple tools from {{EnvNameShort}}."
+      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} to remove sensitive text from {{FileFormatUp}} files. Keep personal and work documents protected."
     }
   },
   "xlsx": {
     "ext": "xslx",
     "head": {
-      "title": "Hide Text in {{FileFormatUp}} Using {{ProgLang}} and Overlays",
-      "description": "{{ProdFullName}} helps you hide text in {{FileFormatUp}} files by adding color overlays. Keep your data private without changing the file layout."
+      "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "Protect your {{FileFormatUp}} files by hiding or removing sensitive data with {{ProdFullName}} and {{ProgLang}}."
     },
     "header": {
-      "title": "Hide Text in {{FileFormatUp}} Files Using {{EnvNameShort}} Overlays",
-      "description": "Protect sensitive text in your {{FileFormatUp}} files with {{ProdFullName}} and {{ProgLang}} by placing simple overlays.",
-      "subtitle": "What You Get with {{ProdFullName}}"
+      "title": "Hide or Delete Private Text in {{FileFormatUp}} Files Using {{EnvNameShort}}",
+      "description": "With {{ProdFullName}} and {{ProgLang}}, you can remove private text from {{FileFormatUp}} documents—quick and reliable.",
+      "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Protect Data in {{FileFormatCap}} Files",
+      "title": "How to Remove Content in {{FileFormatCap}} Files",
       "content": {
-        "title": "{{ProdFullName}} lets {{EnvName}} developers hide private info with just a few lines of code.",
-        "step_1": "Start by creating a {{textRedactor}} and load your {{FileFormatCap}} file.",
-        "step_2": "Set the redaction options that work for your case.",
-        "step_3": "Add the text pattern you want to hide and choose a color.",
-        "step_4": "Run redaction and save your file."
+        "title": "Use {{ProdFullName}} in your {{EnvName}} app to clear or hide sensitive content fast.",
+        "step_1": "Start a {{textRedactor}} and load the {{FileFormatCap}} file.",
+        "step_2": "Pick the redaction settings you need.",
+        "step_3": "Set the search text and what should replace it.",
+        "step_4": "Apply redaction and save your file."
       }
     },
     "example_top": {
-      "comment_1": "Hide private content in {{FileFormatUp}} with overlays",
-      "comment_2": "Use {{textRedactor}} to load your file",
-      "comment_3": "Set redaction preferences",
-      "comment_4": "Choose text to cover and overlay color",
-      "comment_5": "Redact and save the file"
+      "comment_1": "How to redact text in a {{FileFormatUp}} file",
+      "comment_2": "Use the {{textRedactor}} constructor to load your file",
+      "comment_3": "Choose your redaction preferences",
+      "comment_4": "Set the search and replacement values",
+      "comment_5": "Apply changes and save the updated {{FileFormatUp}}"
     },
     "example_bottom": {
-      "title": "Hide Text Using Regex Patterns",
-      "content": "This example shows how to find and hide content using regular expressions.",
-      "comment_1": "Open the file you want to edit",
-      "comment_2": "Set your text pattern and overlay color",
+      "title": "Redact Using Regex Patterns",
+      "content": "Find text patterns like phone numbers, IDs, or emails with regex and remove them fast.",
+      "comment_1": "Open the document you want to clean",
+      "comment_2": "Set your regex pattern and replacement text",
       "comment_3": "Apply redaction rules",
-      "comment_4": "Save the redacted version"
+      "comment_4": "Save your redacted file"
     },
     "more_features": {
-      "title": "Helpful Redaction Tools",
-      "description": "{{ProdFullName}} lets you hide or remove content from many file types. Keep personal or business info protected.",
-      "image_description": "Easy-to-use redaction options",
+      "title": "Extra Redaction Features",
+      "description": "{{ProdFullName}} makes it easy to hide or delete private info across different file formats. Share only what’s meant to be seen.",
+      "image_description": "Features for redacting text, images, and metadata",
       "feature_1": {
-        "title": "Find and Edit Text",
-        "content": "Search for specific text and replace or hide it."
+        "title": "Replace Private Text",
+        "content": "Find and switch out matching words or patterns. Regex and keyword search supported."
       },
       "feature_2": {
-        "title": "Cover Image Content",
-        "content": "Draw overlays over pictures to block out private areas."
+        "title": "Hide Sensitive Images",
+        "content": "Cover parts of your file with overlays. Customize how it looks and what it hides."
       },
       "feature_3": {
-        "title": "Remove Metadata",
-        "content": "Clean up background info before sharing your files."
+        "title": "Erase Metadata",
+        "content": "Remove hidden information like document history, author names, or internal tags."
       }
     },
     "about": {
-      "title": "What {{ProdFullName}} Can Do",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers the tools to hide or delete text, images, and more in {{FileFormatUp}} files."
+      "title": "Meet {{ProdFullName}}",
+      "content": "{{ProdFullName}} gives {{ProgLang}} developers everything they need to remove or hide private data in {{FileFormatUp}} files—text, images, notes, and more."
     },
     "formats": {
-      "title": "Hide Data in {{FileFormatUp}} with {{EnvNameShort}}",
-      "description": "Use {{EnvNameShort}} tools to hide or remove sensitive parts of your {{FileFormatUp}} files quickly and easily."
+      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "Keep sensitive data private by removing it from {{FileFormatUp}} files using {{EnvNameShort}} tools."
     }
   },
   "pptx": {
     "ext": "pptx",
     "head": {
-      "title": "Hide Text in {{FileFormatUp}} Using {{ProgLang}} and Overlays",
-      "description": "Cover sensitive content in your {{FileFormatUp}} files with colored overlays using {{ProdFullName}}. Your layout stays the same."
+      "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "Keep your {{FileFormatUp}} files safe with {{ProdFullName}} and {{ProgLang}}. Quickly find and remove private content."
     },
     "header": {
-      "title": "Protect Text in {{FileFormatUp}} with Overlays and {{EnvNameShort}}",
-      "description": "Use {{ProdFullName}} and {{ProgLang}} to hide private info in {{FileFormatUp}} presentations by covering it with color blocks.",
+      "title": "Edit or Remove Private Text in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Use {{ProdFullName}} and {{ProgLang}} to find and clean sensitive data in your {{FileFormatUp}} documents. Keep your personal or work files private.",
       "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Redact Private Info in {{FileFormatCap}}",
+      "title": "How to Redact Text in {{FileFormatCap}} Documents",
       "content": {
-        "title": "Use {{ProdFullName}} to protect your presentations in a few simple steps.",
-        "step_1": "Create a {{textRedactor}} and load the file you want to edit.",
-        "step_2": "Choose the redaction settings that match your needs.",
-        "step_3": "Set the text pattern and choose a color for the overlay.",
-        "step_4": "Apply redaction and save your changes."
+        "title": "Use {{ProdFullName}} in your {{EnvName}} environment to hide or remove sensitive content fast.",
+        "step_1": "Create a {{textRedactor}} and load your {{FileFormatCap}} file.",
+        "step_2": "Choose your redaction settings.",
+        "step_3": "Enter the text to search and what to replace it with.",
+        "step_4": "Apply the redaction and save your updated file."
       }
     },
     "example_top": {
-      "comment_1": "Use overlays to hide text in {{FileFormatUp}}",
-      "comment_2": "Start by loading your file with {{textRedactor}}",
-      "comment_3": "Define redaction settings",
-      "comment_4": "Choose the text and color",
-      "comment_5": "Redact and save the file"
+      "comment_1": "How to redact text in a {{FileFormatUp}} file",
+      "comment_2": "Use the {{textRedactor}} constructor to load your file",
+      "comment_3": "Set your redaction options",
+      "comment_4": "Choose the text to find and what to replace it with",
+      "comment_5": "Run redactions and save the updated {{FileFormatUp}}"
     },
     "example_bottom": {
-      "title": "Use Regex to Find Text",
-      "content": "See how regular expressions help you find and hide sensitive content.",
-      "comment_1": "Open your file for redaction",
-      "comment_2": "Set the text pattern and overlay color",
-      "comment_3": "Apply the redaction",
-      "comment_4": "Save the edited file"
+      "title": "Redact by Pattern with Regex",
+      "content": "Use regular expressions to search and clean up text like email addresses, phone numbers, or IDs.",
+      "comment_1": "Open the file you want to edit",
+      "comment_2": "Set a regex pattern and replacement text",
+      "comment_3": "Run the redaction process",
+      "comment_4": "Save the cleaned file"
     },
     "more_features": {
-      "title": "More Redaction Options",
-      "description": "{{ProdFullName}} gives you tools to hide or clean up data in different file formats without touching the layout.",
-      "image_description": "Useful features for privacy",
+      "title": "More Redaction Features",
+      "description": "{{ProdFullName}} helps you remove or hide sensitive data across different formats. Share documents safely.",
+      "image_description": "Redaction features overview",
       "feature_1": {
-        "title": "Change or Hide Text",
-        "content": "Protect sensitive info by editing or hiding it from view."
+        "title": "Replace private text",
+        "content": "Search for and swap out specific words or phrases. Works with regex and smart filters."
       },
       "feature_2": {
-        "title": "Hide Images or Parts",
-        "content": "Draw overlays to block full images or selected areas."
+        "title": "Cover private images",
+        "content": "Overlay or hide specific areas in images. Customize settings like colors and layout."
       },
       "feature_3": {
-        "title": "Remove Hidden Details",
-        "content": "Erase metadata that may include private or system info."
+        "title": "Remove hidden info",
+        "content": "Clean up metadata such as author names, timestamps, or internal notes."
       }
     },
     "about": {
-      "title": "What {{ProdFullName}} Offers",
-      "content": "With {{ProdFullName}}, {{ProgLang}} developers can cover or delete content in {{FileFormatUp}} files—from text to images to hidden data."
+      "title": "Meet {{ProdFullName}}",
+      "content": "{{ProdFullName}} gives {{ProgLang}} developers full control over {{FileFormatUp}} content. Clean up text, images, notes, and metadata easily."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Slides Using {{EnvNameShort}}",
-      "description": "Use {{EnvNameShort}} to cover or erase private content in {{FileFormatUp}} files while keeping the slides looking clean."
+      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "With {{EnvNameShort}}, you can remove sensitive text from {{FileFormatUp}} documents and keep your data safe."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Hide Text in {{FileFormatUp}} Using {{ProgLang}} Overlays",
-      "description": "With {{ProdFullName}}, it’s easy to hide private text in {{FileFormatUp}} documents using color blocks. Your layout stays untouched."
+      "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "Protect private data in your {{FileFormatUp}} files with {{ProdFullName}} and {{ProgLang}}. Easy and quick text removal."
     },
     "header": {
-      "title": "Use Overlays to Hide Text in {{FileFormatUp}} with {{EnvNameShort}}",
-      "description": "Protect key info in {{FileFormatUp}} documents by placing overlay blocks using {{ProgLang}} and {{ProdFullName}}.",
+      "title": "Edit or Hide Private Text in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Clean up sensitive content in your {{FileFormatUp}} files using {{ProdFullName}} and {{ProgLang}}. Keep personal or work documents safe.",
       "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Redact Private Content in {{FileFormatCap}}",
+      "title": "Steps to Redact Text in {{FileFormatCap}} Files",
       "content": {
-        "title": "{{ProdFullName}} makes it easy for {{EnvName}} developers to hide sensitive data fast.",
-        "step_1": "Create a {{textRedactor}} and load your {{FileFormatCap}} file.",
-        "step_2": "Set up the redaction options.",
-        "step_3": "Pick the text to hide and the overlay color.",
-        "step_4": "Run the redaction and save your file."
+        "title": "Use {{ProdFullName}} in your {{EnvName}} apps to quickly remove or hide sensitive information.",
+        "step_1": "Start a {{textRedactor}} and load the {{FileFormatCap}} file.",
+        "step_2": "Pick the redaction settings you want.",
+        "step_3": "Enter what text to find and what to replace it with.",
+        "step_4": "Run the redaction and save your document."
       }
     },
     "example_top": {
-      "comment_1": "Cover text in {{FileFormatUp}} using overlays",
-      "comment_2": "Load the file using {{textRedactor}}",
-      "comment_3": "Choose what to redact",
-      "comment_4": "Enter the text and set the color",
-      "comment_5": "Redact and save"
+      "comment_1": "How to redact text in a {{FileFormatUp}} file",
+      "comment_2": "Load the file using the {{textRedactor}} constructor",
+      "comment_3": "Set the options for redaction",
+      "comment_4": "Pick the text to replace and the new value",
+      "comment_5": "Apply and save your redacted {{FileFormatUp}} file"
     },
     "example_bottom": {
-      "title": "Find and Hide Text with Regex",
-      "content": "This example shows how to use regular expressions to match and hide content.",
-      "comment_1": "Open the file to edit",
-      "comment_2": "Set the pattern and overlay color",
-      "comment_3": "Apply redaction",
-      "comment_4": "Save your updated copy"
+      "title": "Redact Patterns with Regex",
+      "content": "Use regular expressions to find and clean text patterns like emails, names, or IDs.",
+      "comment_1": "Open your document",
+      "comment_2": "Set a regex rule and replacement text",
+      "comment_3": "Apply the redaction settings",
+      "comment_4": "Save the final version"
     },
     "more_features": {
-      "title": "More Ways to Hide Info",
-      "description": "Use {{ProdFullName}} to clean your files by hiding visible and hidden content without changing how they look.",
-      "image_description": "Privacy-focused features",
+      "title": "More Tools for Redaction",
+      "description": "{{ProdFullName}} gives you the tools to clear sensitive content in many file formats. Keep your documents safe to share.",
+      "image_description": "Overview of redaction options",
       "feature_1": {
-        "title": "Hide or Replace Text",
-        "content": "Protect important info by removing or swapping out words."
+        "title": "Replace sensitive text",
+        "content": "Search for text or patterns and replace them with something else. Regex is supported too."
       },
       "feature_2": {
-        "title": "Cover Images",
-        "content": "Block sensitive images with solid shapes."
+        "title": "Cover up private images",
+        "content": "Hide or overlay parts of images. Tweak appearance and size as needed."
       },
       "feature_3": {
-        "title": "Delete Hidden Data",
-        "content": "Remove metadata that may reveal system or user info."
+        "title": "Clear hidden metadata",
+        "content": "Erase hidden details like author names, creation dates, and comments."
       }
     },
     "about": {
       "title": "Meet {{ProdFullName}}",
-      "content": "With {{ProdFullName}}, {{ProgLang}} developers can hide or delete content in {{FileFormatUp}} documents—like names, numbers, and more."
+      "content": "{{ProdFullName}} helps {{ProgLang}} developers easily clean up {{FileFormatUp}} files. Remove text, images, notes, and metadata with just a few steps."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Content with {{EnvNameShort}}",
-      "description": "Use {{EnvNameShort}} to hide or delete sensitive info in {{FileFormatUp}} files without affecting the structure or layout."
+      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} tools to clean and protect {{FileFormatUp}} documents by redacting sensitive text and details."
     }
   },
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Hide Content in {{FileFormatUp}} Using {{ProgLang}} Overlays",
-      "description": "With {{ProdFullName}}, you can cover text in {{FileFormatUp}} files using solid color overlays. A simple way to protect private content."
+      "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "Quickly clean sensitive info from your {{FileFormatUp}} files with {{ProdFullName}} and {{ProgLang}}."
     },
     "header": {
-      "title": "Overlay Text Hiding for {{FileFormatUp}} in {{EnvNameShort}}",
-      "description": "Write {{ProgLang}} code to hide text and secure information in your {{FileFormatUp}} files. Keep your documents safe and clean.",
-      "subtitle": "What You Get with {{ProdFullName}}"
+      "title": "Find and Remove Private Text in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Use {{ProgLang}} and {{ProdFullName}} to clear sensitive details from your {{FileFormatUp}} documents. Whether it’s for work or personal use, your content stays safe.",
+      "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Hide Sensitive Data in {{FileFormatCap}}",
+      "title": "How to Redact Text in {{FileFormatCap}} Files",
       "content": {
-        "title": "{{ProdFullName}} makes it easy for {{EnvName}} developers to prepare documents before sharing.",
+        "title": "With {{ProdFullName}} in your {{EnvName}} projects, you can easily remove or hide private content.",
         "step_1": "Create a {{textRedactor}} and open your {{FileFormatCap}} file.",
-        "step_2": "Choose the redaction settings that fit your task.",
-        "step_3": "Enter the text or phrase to cover and pick a color.",
-        "step_4": "Apply redaction and save the file."
+        "step_2": "Choose your redaction settings.",
+        "step_3": "Enter the text you want to search and what to replace it with.",
+        "step_4": "Run the redaction and save your updated file."
       }
     },
     "example_top": {
-      "comment_1": "Use overlays to hide text in {{FileFormatUp}}",
-      "comment_2": "Start by loading your file with {{textRedactor}}",
-      "comment_3": "Pick your redaction settings",
-      "comment_4": "Choose what to hide and a color to use",
-      "comment_5": "Apply changes and save the file"
+      "comment_1": "How to redact text in a {{FileFormatUp}} file",
+      "comment_2": "Open your file with the {{textRedactor}} constructor",
+      "comment_3": "Set up your redaction options",
+      "comment_4": "Choose the text to search and what to replace it with",
+      "comment_5": "Apply the redactions and save your new {{FileFormatUp}} file"
     },
     "example_bottom": {
-      "title": "Redact Using Regex",
-      "content": "Learn how to use regex patterns to find and hide content.",
-      "comment_1": "Open the file you want to clean up",
-      "comment_2": "Add the regex pattern and color settings",
-      "comment_3": "Apply the redaction",
-      "comment_4": "Save the redacted version"
+      "title": "Redact Patterns with Regex",
+      "content": "Use regex to find and clean text patterns like emails, phone numbers, or account details.",
+      "comment_1": "Open the file you need to clean",
+      "comment_2": "Define your regex pattern and replacement text",
+      "comment_3": "Apply redaction rules",
+      "comment_4": "Save the final version of the file"
     },
     "more_features": {
-      "title": "Helpful Tools for Redacting Data",
-      "description": "{{ProdFullName}} lets you hide or remove data in documents while keeping the layout and content clear.",
-      "image_description": "Built to protect your files",
+      "title": "More Redaction Features",
+      "description": "{{ProdFullName}} helps you clear sensitive content across many file formats. Keep your documents safe and shareable.",
+      "image_description": "Redaction tools in action",
       "feature_1": {
-        "title": "Hide or change text",
-        "content": "Find and replace any part of the text that needs to be hidden."
+        "title": "Replace private text",
+        "content": "Search and replace any matching text. Works with smart search and regex patterns."
       },
       "feature_2": {
-        "title": "Cover images and visuals",
-        "content": "Add overlays to remove sensitive parts of pictures or charts."
+        "title": "Cover image content",
+        "content": "Hide parts of images with overlays. Customize how it looks on the page."
       },
       "feature_3": {
-        "title": "Clear hidden metadata",
-        "content": "Remove background info like author names or timestamps."
+        "title": "Remove hidden details",
+        "content": "Erase metadata like author info, comments, and timestamps."
       }
     },
     "about": {
-      "title": "Why Use {{ProdFullName}}",
-      "content": "{{ProdFullName}} is built for {{ProgLang}} developers who need to hide or remove content in {{FileFormatUp}} files. Work with text, images, and metadata easily."
+      "title": "Meet {{ProdFullName}}",
+      "content": "{{ProdFullName}} gives {{ProgLang}} developers everything they need to clean up {{FileFormatUp}} files. Remove text, images, comments, and metadata with simple code."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} with {{EnvNameShort}} Redactions",
-      "description": "Hide content in {{FileFormatUp}} using square overlays or remove it completely with features from {{EnvNameShort}}."
+      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} to remove private text from {{FileFormatUp}} files. Make sure your content is safe to store or share."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Hide Sensitive Text in {{FileFormatUp}} Using {{ProgLang}} Overlays",
-      "description": "{{ProdFullName}} helps you cover private content in {{FileFormatUp}} files with color overlays. Keep everything in place while hiding what matters."
+      "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "Quickly protect sensitive data in your {{FileFormatUp}} files using {{ProdFullName}} and {{ProgLang}}."
     },
     "header": {
-      "title": "Hide Text in {{FileFormatUp}} Presentations with {{EnvNameShort}}",
-      "description": "Use {{ProgLang}} and {{ProdFullName}} to add overlays and hide sensitive text in your {{FileFormatUp}} slides.",
+      "title": "Find and Hide Sensitive Text in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Use {{ProdFullName}} and {{ProgLang}} to remove or hide private content in your {{FileFormatUp}} files. Keep everything confidential whether it's personal or work-related.",
       "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Redact Information in {{FileFormatCap}} Files",
+      "title": "How to Clean Up Text in {{FileFormatCap}} Files",
       "content": {
-        "title": "With {{ProdFullName}}, you can prepare {{FileFormatCap}} files for sharing using simple redaction steps.",
-        "step_1": "Create a new {{textRedactor}} and load your file.",
-        "step_2": "Choose what to hide and how to apply it.",
-        "step_3": "Add the search pattern and set an overlay color.",
-        "step_4": "Apply redaction and save your updated document."
+        "title": "Use {{ProdFullName}} inside your {{EnvName}} apps to remove or replace sensitive data fast.",
+        "step_1": "Start a {{textRedactor}} and open your {{FileFormatCap}} file.",
+        "step_2": "Pick the redaction options you need.",
+        "step_3": "Set the text you want to search and what to swap it with.",
+        "step_4": "Run redaction and save the final file."
       }
     },
     "example_top": {
-      "comment_1": "Cover sensitive text in {{FileFormatUp}} using overlays",
-      "comment_2": "Use {{textRedactor}} to load your presentation",
-      "comment_3": "Set up how redaction will work",
-      "comment_4": "Pick the text and color to hide it",
-      "comment_5": "Redact and save your file"
+      "comment_1": "How to redact text in a {{FileFormatUp}} file",
+      "comment_2": "Load your file using the {{textRedactor}} constructor",
+      "comment_3": "Select the redaction settings you need",
+      "comment_4": "Enter what text to find and what to replace it with",
+      "comment_5": "Run redactions and save the final {{FileFormatUp}} file"
     },
     "example_bottom": {
-      "title": "Redact Using Regex Search",
-      "content": "See how regular expressions help you find and hide text in your slides.",
-      "comment_1": "Open your {{FileFormatUp}} file",
-      "comment_2": "Define the pattern and overlay color",
-      "comment_3": "Run the redaction",
-      "comment_4": "Save the final version"
+      "title": "Pattern Redaction Using Regex",
+      "content": "Use regular expressions to find and redact patterns like emails, contact info, or other private details.",
+      "comment_1": "Open the presentation to clean",
+      "comment_2": "Set a regex pattern and replacement value",
+      "comment_3": "Apply redaction steps",
+      "comment_4": "Save your final redacted file"
     },
     "more_features": {
-      "title": "Easy Ways to Hide Information",
-      "description": "{{ProdFullName}} makes it simple to hide or remove sensitive parts of documents — perfect for legal, personal, or business use.",
-      "image_description": "Useful tools for privacy",
+      "title": "More Tools to Remove Private Data",
+      "description": "{{ProdFullName}} lets you clean private content across many formats. Perfect for sharing or archiving files safely.",
+      "image_description": "Redaction options and tools",
       "feature_1": {
         "title": "Find and replace text",
-        "content": "Search for words or numbers and hide or change them."
+        "content": "Quickly swap out sensitive words or numbers. Works with regex and keyword search."
       },
       "feature_2": {
-        "title": "Cover up parts of images",
-        "content": "Draw overlays to hide full images or selected spots."
+        "title": "Hide parts of images",
+        "content": "Cover specific areas with shapes or overlays. Adjust visuals to fit your needs."
       },
       "feature_3": {
-        "title": "Remove hidden info",
-        "content": "Delete metadata like names or timestamps that users don’t see."
+        "title": "Delete hidden info",
+        "content": "Clear out metadata like who made the file, comments, or change history."
       }
     },
     "about": {
-      "title": "Learn More About {{ProdFullName}}",
-      "content": "{{ProdFullName}} helps {{ProgLang}} developers clean {{FileFormatUp}} presentations by covering or deleting text, images, and hidden info."
+      "title": "Meet {{ProdFullName}}",
+      "content": "{{ProdFullName}} gives {{ProgLang}} developers the tools to clean {{FileFormatUp}} files inside and out. Remove content, images, notes, and metadata easily."
     },
     "formats": {
-      "title": "Hide Text in {{FileFormatUp}} with {{EnvNameShort}}",
-      "description": "Use {{EnvNameShort}} to add overlays or remove content from your {{FileFormatUp}} slides to keep private data safe."
+      "title": "Redact Content in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "With {{EnvNameShort}}, you can clean up {{FileFormatUp}} files by removing or hiding private text. Keep everything secure."
     }
   }
 }

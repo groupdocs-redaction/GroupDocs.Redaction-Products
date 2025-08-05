@@ -153,10 +153,10 @@ more_features:
               redactor.apply(redaction);
 
               // <% (dict "{fileformat}.example_bottom.comment_5") %>
-              SaveOptions saveOptions = new SaveOptions();
-              saveOptions.setAddSuffix(true);
-              saveOptions.setRasterizeToPDF(false);
-              redactor.save(saveOptions);
+              SaveOptions save_options = new SaveOptions();
+              save_options.setAddSuffix(true);
+              save_options.setRasterizeToPDF(false);
+              redactor.save(save_options);
           }
           finally { redactor.close(); }
           ```
@@ -217,6 +217,6 @@ more_formats:
     title: "<% (dict "{fileformat}.formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
     description: "<% (dict "{fileformat}.formats.description") %>"
-<% include "..\\data\\format_others_text.md" %>
+<% include "..\\data\\format_others_all.md" %>
 
 ---

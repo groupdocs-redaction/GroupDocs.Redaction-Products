@@ -134,8 +134,8 @@ more_features:
               redactor.Apply(redaction);
 
               // <% (dict "{fileformat}.example_bottom.comment_5") %>
-              var save_opt = new SaveOptions() { AddSuffix = true, RasterizeToPDF = false };
-              var outputPath = redactor.Save(save_opt);
+              var save_options = new SaveOptions() { AddSuffix = true, RasterizeToPDF = false };
+              var outputPath = redactor.Save(save_options);
           }
           ```
         platform: "net"
@@ -181,6 +181,6 @@ more_formats:
     title: "<% (dict "{fileformat}.formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
     description: "<% (dict "{fileformat}.formats.description") %>"
-<% include "..\\data\\format_others_text.md" %>
+<% include "..\\data\\format_others_all.md" %>
 
 ---

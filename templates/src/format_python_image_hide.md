@@ -143,10 +143,10 @@ more_features:
               result = redactor.apply(redaction)
 
               # <% (dict "{fileformat}.example_bottom.comment_5") %>
-              so = gro.SaveOptions()
-              so.add_suffix = True
-              so.rasterize_to_pdf = False
-              result_path = redactor.save(so)
+              save_options = gro.SaveOptions()
+              save_options.add_suffix = True
+              save_options.rasterize_to_pdf = False
+              result_path = redactor.save(save_options)
           ```
         platform: "python-net"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"
@@ -191,6 +191,6 @@ more_formats:
     title: "<% (dict "{fileformat}.formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
     description: "<% (dict "{fileformat}.formats.description") %>"
-<% include "..\\data\\format_others_text.md" %>
+<% include "..\\data\\format_others_all.md" %>
 
 ---

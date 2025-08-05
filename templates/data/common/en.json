@@ -49,6 +49,10 @@
         "name": "Redact PPTX",
         "description": "PowerPoint Open XML Presentation"
       },
+      "jpg": {
+        "name": "Redact JPEG",
+        "description": "JPEG Image"
+      },
       "jpeg": {
         "name": "Redact JPEG",
         "description": "JPEG Image"

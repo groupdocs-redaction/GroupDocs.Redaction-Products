@@ -2,630 +2,621 @@
   "pdf": {
     "ext": "pdf",
     "head": {
-      "title": "Redact metadata in {{FileFormatUp}} Using {{ProgLang}}",
-      "description": "With {{ProdFullName}}, you can manipulate {{FileFormatUp}} metadata. Remove or change metadata entries which contain private information."
+      "title": "Redact Metadata in {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "With {{ProdFullName}}, you can remove or update metadata in {{FileFormatUp}} files. Clean hidden data that might expose private information."
     },
     "header": {
-      "title": "Protect Metadata in {{FileFormatUp}} Documents Using {{EnvNameShort}}",
-      "description": "Keep business and personal data safe in {{FileFormatUp}} files using {{ProgLang}}. Our tools help you achieve strong data protection with ease.",
-      "subtitle": "{{ProdFullName}} Features"
+      "title": "Clean Metadata in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Protect sensitive business and personal information in {{FileFormatUp}} files using {{ProgLang}}. Easy-to-use tools for reliable data protection.",
+      "subtitle": "Key Features of {{ProdFullName}}"
     },
     "steps": {
-      "title": "Secure Metadata in {{FileFormatCap}} Documents",
+      "title": "Remove Metadata from {{FileFormatCap}} Documents",
       "content": {
-        "title": "{{ProdShortName}}: Designed to help your {{EnvName}} apps protect documents. Protect information quickly and easily.",
-        "step_1": "Create a {{textRedactor}} instance and provide the path to the {{FileFormatCap}} file you want to secure.",
-        "step_2": "Instantiate redaction to erase all possible metadata.",
-        "step_3": "Apply redaction to the document.",
-        "step_4": "Save the result."
+        "title": "Use {{ProdShortName}} to quickly secure document metadata in your {{EnvName}} apps.",
+        "step_1": "Create a {{textRedactor}} instance and load your {{FileFormatCap}} file.",
+        "step_2": "Set up redaction to remove all hidden metadata.",
+        "step_3": "Apply the redaction to clean the document.",
+        "step_4": "Save the updated file."
       }
     },
     "example_top": {
-      "comment_1": "Remove {{FileFormatUp}} metadata entries",
-      "comment_2": "Load the file using",
-      "comment_3": "Configure metadata erase redaction",
-      "comment_4": "Process and save the result"
+      "comment_1": "Erase metadata from {{FileFormatUp}} files",
+      "comment_2": "Load the file with {{textRedactor}}",
+      "comment_3": "Configure metadata removal redaction",
+      "comment_4": "Apply changes and save the file"
     },
     "example_bottom": {
-      "title": "Redact hidden metadata entries",
-      "content": "This example shows how to find and change {{FileFormatUp}} metadata entries.",
-      "comment_1": "Load the {{FileFormatUp}} document to redactor",
-      "comment_2": "Provide redaction for Author property",
-      "comment_3": "Provide redaction for Title property",
-      "comment_4": "Redact the document",
-      "comment_5": "Save the result"
+      "title": "Remove Hidden Metadata Entries",
+      "content": "This example shows how to modify metadata in a {{FileFormatUp}} file.",
+      "comment_1": "Load the {{FileFormatUp}} file into the redactor",
+      "comment_2": "Set up redaction for the Author property",
+      "comment_3": "Set up redaction for the Title property",
+      "comment_4": "Run redaction on the document",
+      "comment_5": "Save the cleaned file"
     },
     "more_features": {
-      "title": "Redact Content in Documents",
-      "description": "With {{ProdFullName}}, you can redact sensitive content in a wide range of file formats. Protect confidential information while keeping documents easy to read and share.",
-      "image_description": "Advanced Redaction Features",
+      "title": "Redact Sensitive Data in Documents",
+      "description": "{{ProdFullName}} helps you hide or erase confidential content in various file formats. Keep private data safe while keeping documents clear and professional.",
+      "image_description": "Powerful Redaction Features",
       "feature_1": {
-        "title": "Edit Text Anywhere",
-        "content": "Search and replace sensitive text throughout your document to keep private data secure."
+        "title": "Find and Replace Text",
+        "content": "Search for sensitive text in your documents and replace or remove it to protect privacy."
       },
       "feature_2": {
-        "title": "Cover Images",
-        "content": "Apply overlays to entire images or selected areas to hide sensitive visuals."
+        "title": "Hide Image Content",
+        "content": "Add overlays to images or specific areas to cover sensitive visuals."
       },
       "feature_3": {
-        "title": "Handle Metadata",
-        "content": "Remove or modify hidden metadata to prevent accidental data exposure."
+        "title": "Clean Metadata",
+        "content": "Delete or edit hidden metadata to prevent unwanted data leaks."
       }
     },
     "about": {
       "title": "About {{ProdFullName}}",
-      "content": "{{ProdShortName}} gives {{ProgLang}} developers powerful tools to protect content in {{FileFormatUp}} files. Easily redact text, images, and metadata across multiple formats."
+      "content": "{{ProdShortName}} gives {{ProgLang}} developers easy-to-use tools to redact content in {{FileFormatUp}} files. Mask text, images, and metadata across multiple formats."
     },
     "formats": {
-      "title": "Secure {{FileFormatUp}} Content with {{EnvNameShort}} Redactions",
-      "description": "Use {{EnvNameShort}} to redact sensitive content in {{FileFormatUp}} files. An effective solution for securing official and confidential documents."
+      "title": "Protect {{FileFormatUp}} Files with {{EnvNameShort}} Metadata Redaction",
+      "description": "Use {{EnvNameShort}} to erase hidden data from {{FileFormatUp}} files. A simple and effective way to secure sensitive information in your documents."
     }
   },
   "docx": {
     "ext": "docx",
     "head": {
-      "title": "Cover Images in {{FileFormatUp}} with Overlays Using {{ProgLang}}",
-      "description": "Use {{ProdFullName}} to cover sensitive images in {{FileFormatUp}} files with colored overlays. Protect private data while keeping the document layout unchanged."
+      "title": "Remove Metadata from {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "Use {{ProdFullName}} to delete or change hidden metadata in {{FileFormatUp}} files. Protect your documents from exposing private details."
     },
     "header": {
-      "title": "Cover Sensitive Images in {{FileFormatUp}} Documents with Overlays Using {{EnvNameShort}}",
-      "description": "Safeguard personal and business information in {{FileFormatUp}} files using {{ProgLang}}. Our tools make data protection simple and reliable.",
-      "subtitle": "Features of {{ProdFullName}}"
+      "title": "Delete Metadata in {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Use {{ProgLang}} to clean up sensitive metadata from {{FileFormatUp}} files. Keep your business and personal data protected.",
+      "subtitle": "Top Features of {{ProdFullName}}"
     },
     "steps": {
-      "title": "Protect Data in {{FileFormatCap}} Files",
+      "title": "Clean Hidden Data in {{FileFormatCap}} Files",
       "content": {
-        "title": "{{ProdFullName}}: Built to help your {{EnvName}} apps secure documents. Redact sensitive information with just a few steps.",
-        "step_1": "Initialize a {{textRedactor}} and provide the path to your {{FileFormatCap}} file.",
-        "step_2": "Configure redaction options to meet your needs.",
-        "step_3": "Choose the image area and pick the overlay color.",
-        "step_4": "Run the redaction and save the file."
+        "title": "{{ProdShortName}} helps your {{EnvName}} projects remove unwanted metadata fast.",
+        "step_1": "Create a {{textRedactor}} instance and open your {{FileFormatCap}} file.",
+        "step_2": "Set up redaction to target metadata entries.",
+        "step_3": "Apply changes to clean the document.",
+        "step_4": "Save the cleaned file."
       }
     },
     "example_top": {
-      "comment_1": "Cover sensitive image areas in {{FileFormatUp}}",
-      "comment_2": "Load file via {{textRedactor}} constructor",
-      "comment_3": "Set overlay color and size",
-      "comment_4": "Define the redaction area",
-      "comment_5": "Apply overlay and save the document"
+      "comment_1": "Wipe metadata from {{FileFormatUp}} documents",
+      "comment_2": "Load the file using {{textRedactor}}",
+      "comment_3": "Set up metadata removal settings",
+      "comment_4": "Apply and save the changes"
     },
     "example_bottom": {
-      "title": "Apply Overlays to Hide Image Details",
-      "content": "This example demonstrates how to hide sensitive areas in document images.",
-      "comment_1": "Load the document you want to redact",
-      "comment_2": "Specify overlay parameters: size, position, color",
-      "comment_3": "Target a specific area on the first page",
-      "comment_4": "Place overlay on image",
-      "comment_5": "Save the updated file"
+      "title": "Clean Metadata Fields",
+      "content": "This example demonstrates how to remove hidden data from {{FileFormatUp}} files.",
+      "comment_1": "Load your {{FileFormatUp}} file",
+      "comment_2": "Target Author field for removal",
+      "comment_3": "Target Title field for removal",
+      "comment_4": "Run redaction process",
+      "comment_5": "Save your updated file"
     },
     "more_features": {
-      "title": "Redact Content in Files",
-      "description": "With {{ProdFullName}}, you can hide or delete sensitive content in many file types. Keep documents safe while preserving readability.",
-      "image_description": "Flexible Redaction Options",
+      "title": "Hide Sensitive Info in Any Document",
+      "description": "{{ProdFullName}} lets you clean up sensitive content in many file types. Make your documents safer to share or store.",
+      "image_description": "Smart Redaction Options",
       "feature_1": {
-        "title": "Edit Text Easily",
-        "content": "Find and replace private text across your document for better data security."
+        "title": "Remove Private Text",
+        "content": "Search for and erase personal or business text from your files."
       },
       "feature_2": {
-        "title": "Cover Image Areas",
-        "content": "Overlay full images or select specific parts to protect visual information."
+        "title": "Mask Images",
+        "content": "Cover up images or selected areas to hide confidential content."
       },
       "feature_3": {
-        "title": "Clean Metadata",
-        "content": "Remove or change hidden metadata to avoid unintentional data leaks."
+        "title": "Erase Metadata",
+        "content": "Clear hidden metadata entries to avoid leaking background details."
       }
     },
     "about": {
-      "title": "Learn About {{ProdFullName}}",
-      "content": "{{ProdFullName}} equips {{ProgLang}} developers with tools to hide or delete content in {{FileFormatUp}} files. Protect documents by covering text, images, and metadata across various formats."
+      "title": "What is {{ProdFullName}}?",
+      "content": "{{ProdShortName}} gives {{ProgLang}} developers tools to hide or remove content in {{FileFormatUp}} files. Clean up text, images, and metadata fast."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Files with {{EnvNameShort}} Redaction",
-      "description": "Use {{EnvNameShort}} to cover or remove sensitive data in {{FileFormatUp}} files. Ideal for keeping confidential documents secure."
+      "title": "Erase Metadata in {{FileFormatUp}} with {{EnvNameShort}}",
+      "description": "Remove unwanted metadata in {{FileFormatUp}} files using {{EnvNameShort}}. A simple way to protect your file’s hidden details."
     }
   },
   "xlsx": {
     "ext": "xslx",
     "head": {
-      "title": "Mask Images in {{FileFormatUp}} Files with Overlays Using {{ProgLang}}",
-      "description": "With {{ProdFullName}}, you can mask sensitive image content in {{FileFormatUp}} files by applying colored overlays. Protect important data while keeping the document structure intact."
+      "title": "Clean Up Metadata in {{FileFormatUp}} Files with {{ProgLang}}",
+      "description": "With {{ProdFullName}}, you can safely remove metadata from {{FileFormatUp}} files. Clear hidden info that could reveal private data."
     },
     "header": {
-      "title": "Mask Sensitive Images in {{FileFormatUp}} Documents Using {{EnvNameShort}}",
-      "description": "Ensure data privacy in {{FileFormatUp}} files with {{ProgLang}}. Our tools are designed to make image redaction quick and effective.",
-      "subtitle": "{{ProdFullName}} Key Features"
+      "title": "Erase Metadata from {{FileFormatUp}} Files Using {{EnvNameShort}}",
+      "description": "Protect sensitive details in your {{FileFormatUp}} files with {{ProgLang}}. Easy redaction for personal and work documents.",
+      "subtitle": "Explore What {{ProdFullName}} Can Do"
     },
     "steps": {
-      "title": "Protect Private Data in {{FileFormatCap}} Documents",
+      "title": "Clear Metadata in {{FileFormatCap}} Files",
       "content": {
-        "title": "{{ProdFullName}}: Helping your {{EnvName}} apps secure documents efficiently.",
-        "step_1": "Create a {{textRedactor}} instance and load the {{FileFormatCap}} file.",
-        "step_2": "Set up the redaction parameters to match your needs.",
-        "step_3": "Define the image area and choose overlay color.",
-        "step_4": "Apply redaction and save the output file."
+        "title": "With {{ProdShortName}}, your {{EnvName}} apps can quickly remove hidden data.",
+        "step_1": "Set up a {{textRedactor}} and open your {{FileFormatCap}} file.",
+        "step_2": "Define which metadata you want to erase.",
+        "step_3": "Apply the redaction rules.",
+        "step_4": "Save the final file."
       }
     },
     "example_top": {
-      "comment_1": "Mask sensitive image parts in {{FileFormatUp}}",
-      "comment_2": "Initialize {{textRedactor}} with file path",
-      "comment_3": "Choose overlay size and color",
-      "comment_4": "Mark area to redact",
-      "comment_5": "Apply and save changes"
+      "comment_1": "Clean up hidden metadata in {{FileFormatUp}}",
+      "comment_2": "Open file with {{textRedactor}}",
+      "comment_3": "Set up which metadata to remove",
+      "comment_4": "Apply redaction and save"
     },
     "example_bottom": {
-      "title": "Hide Image Content with Overlays",
-      "content": "Learn how to mask sensitive image regions in your documents.",
-      "comment_1": "Open document for redaction",
-      "comment_2": "Define overlay attributes: size, location, color",
-      "comment_3": "Focus on a specific image area",
-      "comment_4": "Overlay the image area",
-      "comment_5": "Save the redacted document"
+      "title": "How to Remove Metadata",
+      "content": "This sample code removes metadata properties in a {{FileFormatUp}} document.",
+      "comment_1": "Open the document",
+      "comment_2": "Target the Author metadata",
+      "comment_3": "Target the Title metadata",
+      "comment_4": "Run the redaction process",
+      "comment_5": "Save the cleaned document"
     },
     "more_features": {
-      "title": "Document Redaction Features",
-      "description": "With {{ProdFullName}}, you can remove or hide content across various file formats. Keep sensitive data private while maintaining a clean layout.",
-      "image_description": "Robust Redaction Features",
+      "title": "Protect Sensitive Info in Documents",
+      "description": "Use {{ProdFullName}} to erase or hide content in many file formats. Keep files private and ready to share.",
+      "image_description": "All-in-One Redaction Features",
       "feature_1": {
-        "title": "Search and Replace Text",
-        "content": "Quickly find and redact confidential text to protect sensitive data."
+        "title": "Replace or Remove Text",
+        "content": "Protect personal data by finding and removing sensitive text."
       },
       "feature_2": {
-        "title": "Mask Image Content",
-        "content": "Apply overlays to entire images or specific areas to hide private visuals."
+        "title": "Hide Image Sections",
+        "content": "Use overlays to block image areas with private visuals."
       },
       "feature_3": {
-        "title": "Clean Up Metadata",
-        "content": "Remove or adjust hidden metadata to prevent unintentional data exposure."
+        "title": "Remove Metadata",
+        "content": "Clean out hidden metadata fields that may hold personal or business details."
       }
     },
     "about": {
-      "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} offers {{ProgLang}} developers simple tools to hide or erase content from {{FileFormatUp}} files. Protect documents by redacting text, images, and metadata in different formats."
+      "title": "Learn About {{ProdFullName}}",
+      "content": "{{ProdShortName}} gives {{ProgLang}} developers tools to clean content in {{FileFormatUp}} documents. Mask or delete text, images, and metadata with ease."
     },
     "formats": {
-      "title": "Mask {{FileFormatUp}} Content with {{EnvNameShort}} Redactions",
-      "description": "Use {{EnvNameShort}} to redact or delete sensitive content in {{FileFormatUp}} files. A practical solution for securing business and personal documents."
+      "title": "Redact Metadata in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "{{EnvNameShort}} makes it easy to clear metadata from {{FileFormatUp}} files. Keep your files clean and secure."
     }
   },
   "pptx": {
     "ext": "pptx",
     "head": {
-      "title": "Redact Images in {{FileFormatUp}} with Overlays Using {{ProgLang}}",
-      "description": "With {{ProdFullName}}, you can hide sensitive image content in {{FileFormatUp}} files by applying colored overlays. Protect confidential data without changing your document’s structure."
+      "title": "Erase Metadata from {{FileFormatUp}} Files with {{ProgLang}}",
+      "description": "{{ProdFullName}} helps you delete or edit metadata in {{FileFormatUp}} files. Protect your documents by removing private background data."
     },
     "header": {
-      "title": "Redact Sensitive Images in {{FileFormatUp}} Documents Using {{EnvNameShort}}",
-      "description": "Protect private and business data in {{FileFormatUp}} files with {{ProgLang}}. Our tools make redacting images fast and easy.",
-      "subtitle": "What {{ProdFullName}} Offers"
+      "title": "Remove Metadata in {{FileFormatUp}} Using {{EnvNameShort}} Tools",
+      "description": "Hide sensitive metadata in {{FileFormatUp}} files using {{ProgLang}}. Ideal for business and personal privacy.",
+      "subtitle": "{{ProdFullName}} Core Functions"
     },
     "steps": {
-      "title": "Keep Business Data Safe in {{FileFormatCap}} Documents",
+      "title": "Erase Hidden Metadata in {{FileFormatCap}} Files",
       "content": {
-        "title": "{{ProdFullName}}: Helping {{EnvName}} apps secure documents by hiding sensitive information.",
-        "step_1": "Set up a {{textRedactor}} instance and load the {{FileFormatCap}} file.",
-        "step_2": "Configure redaction settings to fit your needs.",
-        "step_3": "Select image areas and assign overlay colors.",
-        "step_4": "Process the redaction and save your file."
+        "title": "{{ProdShortName}} helps your {{EnvName}} solutions clean up hidden data easily.",
+        "step_1": "Create a {{textRedactor}} instance and load the {{FileFormatCap}} file.",
+        "step_2": "Configure redaction rules for metadata fields.",
+        "step_3": "Apply redaction to remove the data.",
+        "step_4": "Save your redacted file."
       }
     },
     "example_top": {
-      "comment_1": "Redact sensitive image areas in {{FileFormatUp}}",
-      "comment_2": "Open file using {{textRedactor}}",
-      "comment_3": "Define overlay color and dimensions",
-      "comment_4": "Select area to redact",
-      "comment_5": "Apply overlay and save the document"
+      "comment_1": "Delete metadata in {{FileFormatUp}}",
+      "comment_2": "Open the file using {{textRedactor}}",
+      "comment_3": "Set redaction for metadata cleanup",
+      "comment_4": "Apply and save file"
     },
     "example_bottom": {
-      "title": "Hide Image Data with Overlays",
-      "content": "This example demonstrates how to redact sensitive images in documents.",
-      "comment_1": "Load the document",
-      "comment_2": "Set overlay size, position, and color",
-      "comment_3": "Specify the area to redact on the first page",
-      "comment_4": "Apply the overlay",
-      "comment_5": "Save the redacted file"
+      "title": "Clean Up Metadata Fields",
+      "content": "This example shows how to clear metadata from a {{FileFormatUp}} file safely.",
+      "comment_1": "Import your {{FileFormatUp}} file",
+      "comment_2": "Redact Author field",
+      "comment_3": "Redact Title field",
+      "comment_4": "Process redaction",
+      "comment_5": "Export the redacted file"
     },
     "more_features": {
-      "title": "Document Redaction Tools",
-      "description": "{{ProdFullName}} allows you to hide or delete sensitive content in various file types. Protect information while keeping documents clean and shareable.",
-      "image_description": "Powerful Redaction Tools",
+      "title": "Extra Redaction Tools for Any File",
+      "description": "{{ProdFullName}} supports redacting content across different formats. Make sure your data is private and your files are clean.",
+      "image_description": "Built-In Privacy Tools",
       "feature_1": {
-        "title": "Search & Replace Text",
-        "content": "Locate and redact private text to enhance document security."
+        "title": "Find and Remove Text",
+        "content": "Quickly delete personal text entries from your files."
       },
       "feature_2": {
-        "title": "Redact Image Content",
-        "content": "Cover entire images or selected regions with overlays to hide private visuals."
+        "title": "Cover Images with Overlays",
+        "content": "Hide image sections that should not be visible."
       },
       "feature_3": {
-        "title": "Remove Metadata",
-        "content": "Erase or modify hidden metadata to prevent data leaks."
+        "title": "Delete Metadata",
+        "content": "Wipe hidden fields like author, title, and more to stay safe."
       }
     },
     "about": {
-      "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers easy-to-use tools for hiding or deleting content in {{FileFormatUp}} files. Protect documents by redacting text, images, and metadata across multiple formats."
+      "title": "Get to Know {{ProdFullName}}",
+      "content": "{{ProdShortName}} is built for {{ProgLang}} developers who need to erase data from {{FileFormatUp}} files. Clean up text, images, and metadata quickly."
     },
     "formats": {
-      "title": "Redact {{FileFormatUp}} Content with {{EnvNameShort}}",
-      "description": "Use {{EnvNameShort}} to hide or delete sensitive content in {{FileFormatUp}} files. A reliable solution for document security."
+      "title": "Clean Metadata in {{FileFormatUp}} Files Using {{EnvNameShort}}",
+      "description": "Easily remove background metadata from {{FileFormatUp}} files with {{EnvNameShort}}. Perfect for document safety."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Cover Images in {{FileFormatUp}} with Overlays Using {{ProgLang}}",
-      "description": "Hide sensitive image areas in {{FileFormatUp}} files using {{ProdFullName}}. Add colored overlays to protect private data while keeping the document's original layout untouched."
+      "title": "Remove Metadata from {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "Use {{ProdFullName}} to find and delete hidden metadata in {{FileFormatUp}} files. Keep your documents private and secure from unwanted exposure."
     },
     "header": {
-      "title": "Hide Private Images in {{FileFormatUp}} Files with Overlays Using {{EnvNameShort}}",
-      "description": "Shield your personal and business data in {{FileFormatUp}} documents using {{ProgLang}}. Achieve reliable content protection with our simple tools.",
-      "subtitle": "{{ProdFullName}} Key Features"
+      "title": "Delete Metadata in {{FileFormatUp}} Files Using {{EnvNameShort}}",
+      "description": "Protect personal and corporate data in {{FileFormatUp}} files with {{ProgLang}}. Simple tools for reliable file privacy.",
+      "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Protect Sensitive Data in {{FileFormatCap}} Files",
+      "title": "Delete Metadata from {{FileFormatCap}} Files",
       "content": {
-        "title": "{{ProdFullName}} helps your {{EnvName}} apps hide private content in documents quickly.",
-        "step_1": "Create a {{textRedactor}} object and specify the {{FileFormatCap}} file path.",
-        "step_2": "Set the redaction parameters to fit your needs.",
-        "step_3": "Mark the image area and define overlay color.",
-        "step_4": "Process and save the redacted file."
+        "title": "With {{ProdShortName}}, it’s easy to clean document metadata in your {{EnvName}} environment.",
+        "step_1": "Initialize a {{textRedactor}} object and open your {{FileFormatCap}} document.",
+        "step_2": "Set up rules to wipe all hidden metadata.",
+        "step_3": "Run the redaction to remove sensitive tags.",
+        "step_4": "Save your cleaned document."
       }
     },
     "example_top": {
-      "comment_1": "Cover sensitive images in {{FileFormatUp}}",
-      "comment_2": "Load the file via {{textRedactor}} constructor",
-      "comment_3": "Define overlay color and dimensions",
-      "comment_4": "Select image area to redact",
-      "comment_5": "Apply overlay and save document"
+      "comment_1": "Wipe metadata from {{FileFormatUp}} files",
+      "comment_2": "Open the document using {{textRedactor}}",
+      "comment_3": "Set metadata removal options",
+      "comment_4": "Redact and save the cleaned file"
     },
     "example_bottom": {
-      "title": "Add Overlays to Hide Image Content",
-      "content": "This example demonstrates how to protect sensitive data in document images using overlays.",
-      "comment_1": "Load document for editing",
-      "comment_2": "Set overlay size, location, and color",
-      "comment_3": "Focus on specific image area on page one",
-      "comment_4": "Apply overlay redaction",
-      "comment_5": "Save changes to file"
+      "title": "Edit or Delete Hidden Metadata",
+      "content": "This example shows how to target and clean metadata entries in a {{FileFormatUp}} document.",
+      "comment_1": "Load the file for redaction",
+      "comment_2": "Remove the Author metadata",
+      "comment_3": "Remove the Title metadata",
+      "comment_4": "Run redaction process",
+      "comment_5": "Export the clean document"
     },
     "more_features": {
-      "title": "Hide or Remove Document Content",
-      "description": "{{ProdFullName}} makes it easy to hide or erase data in multiple file formats. Protect sensitive information while keeping documents clean and readable.",
-      "image_description": "Detailed Redaction Tools",
+      "title": "Redact Confidential Data from Documents",
+      "description": "With {{ProdFullName}}, you can remove private content from various formats. Keep your files secure while maintaining their structure.",
+      "image_description": "Metadata and Content Redaction Tools",
       "feature_1": {
-        "title": "Replace Text Anywhere",
-        "content": "Search and change sensitive text across your documents to secure private information."
+        "title": "Replace Sensitive Text",
+        "content": "Find text in documents and safely remove or change it to protect private information."
       },
       "feature_2": {
         "title": "Mask Images",
-        "content": "Add overlays to specific image areas or entire pictures to conceal private visuals."
+        "content": "Cover sensitive areas of images with overlays to hide visual data."
       },
       "feature_3": {
-        "title": "Clean Metadata",
-        "content": "Delete or edit hidden metadata to avoid unintentional data leaks."
+        "title": "Erase Metadata",
+        "content": "Find and clean hidden data to avoid leaking information."
       }
     },
     "about": {
       "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers the tools to hide or erase content from {{FileFormatUp}} files. Protect your documents by covering sensitive text, images, and metadata with ease."
+      "content": "{{ProdShortName}} helps {{ProgLang}} developers protect content in {{FileFormatUp}} files. Clean text, images, and metadata quickly and easily."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Content with {{EnvNameShort}} Redactions",
-      "description": "{{EnvNameShort}} lets you hide or delete sensitive content in {{FileFormatUp}} files. A reliable way to protect confidential and official documents."
+      "title": "Metadata Redaction in {{FileFormatUp}} with {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} to clean hidden metadata from {{FileFormatUp}} files. Simple tools to keep sensitive info safe."
     }
   },
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Mask Images in {{FileFormatUp}} with Overlays Using {{ProgLang}}",
-      "description": "Hide private images in {{FileFormatUp}} files using {{ProdFullName}}. Place colored overlays to keep sensitive data safe while preserving the document layout."
+      "title": "Edit and Remove Metadata in {{FileFormatUp}} via {{ProgLang}}",
+      "description": "Secure your {{FileFormatUp}} documents by removing metadata using {{ProdFullName}}. Eliminate hidden data that could compromise privacy."
     },
     "header": {
-      "title": "Cover Sensitive Images in {{FileFormatUp}} Files with Overlays Using {{EnvNameShort}}",
-      "description": "Protect personal and business data in {{FileFormatUp}} files using {{ProgLang}}. Get fast and reliable data protection with our tools.",
-      "subtitle": "Explore {{ProdFullName}} Features"
+      "title": "Metadata Protection in {{FileFormatUp}} Files via {{EnvNameShort}}",
+      "description": "Using {{ProgLang}}, you can clean sensitive data from {{FileFormatUp}} files. Tools designed to keep your information protected.",
+      "subtitle": "Top Benefits of {{ProdFullName}}"
     },
     "steps": {
-      "title": "Keep Your Data Safe in {{FileFormatCap}} Files",
+      "title": "Clear Metadata in {{FileFormatCap}} Files",
       "content": {
-        "title": "{{ProdFullName}} helps your {{EnvName}} apps secure documents by hiding sensitive content.",
-        "step_1": "Create a {{textRedactor}} instance and provide the {{FileFormatCap}} file path.",
-        "step_2": "Configure redaction options for desired results.",
-        "step_3": "Select the image area and overlay color.",
-        "step_4": "Apply redaction and save the file."
+        "title": "Use {{ProdShortName}} in your {{EnvName}} projects to handle document metadata securely.",
+        "step_1": "Create a {{textRedactor}} object and load the target {{FileFormatCap}} file.",
+        "step_2": "Configure redaction to clear hidden metadata.",
+        "step_3": "Run the cleanup process.",
+        "step_4": "Save the final version."
       }
     },
     "example_top": {
-      "comment_1": "Mask image content in {{FileFormatUp}}",
-      "comment_2": "Load document using {{textRedactor}}",
-      "comment_3": "Set up overlay size and color",
-      "comment_4": "Select area to hide",
-      "comment_5": "Apply and save changes"
+      "comment_1": "Clean metadata from {{FileFormatUp}}",
+      "comment_2": "Initialize redactor and load file",
+      "comment_3": "Set removal options for metadata",
+      "comment_4": "Redact and save the result"
     },
     "example_bottom": {
-      "title": "Mask Image Data with Overlays",
-      "content": "This example shows how to cover sensitive information in document images.",
-      "comment_1": "Open file for editing",
-      "comment_2": "Define overlay size, color, and placement",
-      "comment_3": "Target a specific image section on page one",
-      "comment_4": "Apply overlay to mask the image",
-      "comment_5": "Save the final document"
+      "title": "Target Metadata for Redaction",
+      "content": "Learn how to locate and remove metadata like Author or Title from a {{FileFormatUp}} document.",
+      "comment_1": "Import the document to the redactor",
+      "comment_2": "Target Author metadata",
+      "comment_3": "Target Title metadata",
+      "comment_4": "Apply changes",
+      "comment_5": "Save the updated document"
     },
     "more_features": {
-      "title": "Redact Any Content in Documents",
-      "description": "{{ProdFullName}} helps you hide or erase sensitive content in various document formats. Protect data while keeping documents easy to use.",
-      "image_description": "Powerful Redaction Options",
+      "title": "Erase Private Data in Your Files",
+      "description": "{{ProdFullName}} allows you to clean text, images, and metadata in multiple formats. Ideal for personal, legal, and corporate documents.",
+      "image_description": "Metadata Removal Tools",
       "feature_1": {
-        "title": "Search and Edit Text",
-        "content": "Find sensitive text and replace it to protect private data in your documents."
+        "title": "Search and Remove Text",
+        "content": "Find personal or confidential text in documents and remove it safely."
       },
       "feature_2": {
-        "title": "Overlay Image Areas",
-        "content": "Cover full images or selected parts with overlays to keep visuals private."
+        "title": "Hide Visual Elements",
+        "content": "Overlay sensitive parts of images to prevent viewing."
       },
       "feature_3": {
         "title": "Remove Metadata",
-        "content": "Erase hidden metadata fields to avoid accidental information leaks."
+        "content": "Erase embedded data that may leak sensitive information."
       }
     },
     "about": {
-      "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} equips {{ProgLang}} developers with tools to hide or delete sensitive content in {{FileFormatUp}} files. Cover text, images, and metadata to keep documents secure."
+      "title": "What Is {{ProdFullName}}?",
+      "content": "{{ProdShortName}} offers a reliable way for {{ProgLang}} developers to manage redaction in {{FileFormatUp}} files. It works with text, images, and metadata."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Files with {{EnvNameShort}} Redaction Tools",
-      "description": "Use {{EnvNameShort}} to hide or delete sensitive information in {{FileFormatUp}} files. A trusted solution for document security."
+      "title": "Remove Metadata in {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "Get rid of private metadata in {{FileFormatUp}} files with {{EnvNameShort}}. Keep your documents clean and safe."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Hide Sensitive Images in {{FileFormatUp}} Using Overlays with {{ProgLang}}",
-      "description": "Use {{ProdFullName}} to place overlays on images in {{FileFormatUp}} files, keeping private information hidden while keeping the layout intact."
+      "title": "Clean Up Metadata in {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Remove unwanted metadata from {{FileFormatUp}} files using {{ProdFullName}}. Protect your privacy by wiping hidden data."
     },
     "header": {
-      "title": "Hide Private Images in {{FileFormatUp}} Documents Using Overlays with {{EnvNameShort}}",
-      "description": "Protect personal and corporate data in {{FileFormatUp}} files with {{ProgLang}}. Simple tools for strong document privacy.",
-      "subtitle": "Main Features of {{ProdFullName}}"
+      "title": "Erase Metadata in {{FileFormatUp}} via {{EnvNameShort}}",
+      "description": "Protect document data in {{FileFormatUp}} files with simple tools built for {{ProgLang}}. Remove metadata in just a few steps.",
+      "subtitle": "Features of {{ProdFullName}}"
     },
     "steps": {
-      "title": "Protect Sensitive Information in {{FileFormatCap}} Documents",
+      "title": "Clean Metadata from {{FileFormatCap}} Documents",
       "content": {
-        "title": "{{ProdFullName}} is built to help your {{EnvName}} apps safeguard document content quickly.",
-        "step_1": "Create a {{textRedactor}} object and specify the {{FileFormatCap}} file.",
-        "step_2": "Adjust redaction settings to suit your needs.",
-        "step_3": "Select the area of the image and pick overlay color.",
-        "step_4": "Apply redaction and save the document."
+        "title": "With {{ProdShortName}}, your {{EnvName}} apps can easily remove metadata from documents.",
+        "step_1": "Start with a {{textRedactor}} object and load your file.",
+        "step_2": "Choose metadata fields to remove.",
+        "step_3": "Apply redaction settings.",
+        "step_4": "Export the final, cleaned document."
       }
     },
     "example_top": {
-      "comment_1": "Hide image data in {{FileFormatUp}} files",
-      "comment_2": "Load the file using {{textRedactor}}",
-      "comment_3": "Set overlay color and dimensions",
-      "comment_4": "Choose area to cover",
-      "comment_5": "Apply overlay and save document"
+      "comment_1": "Get rid of metadata in {{FileFormatUp}}",
+      "comment_2": "Open document with redactor",
+      "comment_3": "Set metadata cleanup options",
+      "comment_4": "Apply redaction and save"
     },
     "example_bottom": {
-      "title": "Protect Image Data with Overlays",
-      "content": "This example demonstrates hiding sensitive content in document images.",
-      "comment_1": "Load file for redaction",
-      "comment_2": "Define overlay size, position, and color",
-      "comment_3": "Mark image area on page one",
-      "comment_4": "Apply the overlay to cover image",
-      "comment_5": "Save redacted document"
+      "title": "Clear Hidden Metadata Fields",
+      "content": "This example guides you through removing embedded data like Author and Title from a {{FileFormatUp}} file.",
+      "comment_1": "Import file to redactor",
+      "comment_2": "Remove Author data",
+      "comment_3": "Remove Title data",
+      "comment_4": "Run redaction",
+      "comment_5": "Save the cleaned version"
     },
     "more_features": {
-      "title": "Redact Sensitive Data in Documents",
-      "description": "{{ProdFullName}} lets you hide or erase content in multiple document types. Protect private data while keeping files easy to use and share.",
-      "image_description": "Feature-Rich Redaction Tools",
+      "title": "Protect Documents with Redaction",
+      "description": "{{ProdFullName}} helps remove hidden content from documents so you can share them safely. Works with many formats and content types.",
+      "image_description": "Redaction Capabilities",
       "feature_1": {
-        "title": "Find and Edit Text",
-        "content": "Search for sensitive text in documents and replace it to protect private data."
+        "title": "Remove Private Text",
+        "content": "Find sensitive words or phrases and take them out of your document."
       },
       "feature_2": {
-        "title": "Cover Image Content",
-        "content": "Use overlays to mask images or selected parts, ensuring private visuals stay hidden."
+        "title": "Mask Image Data",
+        "content": "Use overlays to cover areas in images that need to stay hidden."
       },
       "feature_3": {
-        "title": "Clean Hidden Metadata",
-        "content": "Delete or modify hidden metadata to prevent unintentional data exposure."
+        "title": "Delete Metadata",
+        "content": "Clean metadata fields that might carry hidden information."
       }
     },
     "about": {
-      "title": "What is {{ProdFullName}}?",
-      "content": "{{ProdFullName}} provides {{ProgLang}} developers with simple tools to hide or remove content in {{FileFormatUp}} files. Protect your documents by covering sensitive text, images, and metadata."
+      "title": "More About {{ProdFullName}}",
+      "content": "{{ProdShortName}} is a redaction toolkit for {{ProgLang}} developers, helping you work with text, image, and metadata redactions in {{FileFormatUp}} files."
     },
     "formats": {
-      "title": "Secure {{FileFormatUp}} Content with {{EnvNameShort}} Redactions",
-      "description": "Use {{EnvNameShort}} to cover or delete private content in {{FileFormatUp}} files. A trusted solution for protecting sensitive documents."
+      "title": "Clean {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} to delete hidden data in {{FileFormatUp}} files. Ideal for cleaning up confidential documents."
     }
   },
   "jpeg": {
     "ext": "jpg",
     "head": {
-      "title": "Hide Images in {{FileFormatUp}} with Overlays Using {{ProgLang}}",
-      "description": "Protect private images in {{FileFormatUp}} files with {{ProdFullName}} by adding colored overlays. Keep sensitive information safe without changing the file layout."
+      "title": "Edit Metadata in {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "With {{ProdFullName}}, you can clean or change metadata in your {{FileFormatUp}} files. Remove hidden details that may contain private data."
     },
     "header": {
-      "title": "Cover Sensitive Images in {{FileFormatUp}} Files with Overlays Using {{EnvNameShort}}",
-      "description": "Keep your personal and business images safe in {{FileFormatUp}} files using {{ProgLang}}. Our simple tools make file protection easy and reliable.",
-      "subtitle": "Main Features of {{ProdFullName}}"
+      "title": "Remove Metadata from {{FileFormatUp}} Files Using {{EnvNameShort}}",
+      "description": "Protect private details in your {{FileFormatUp}} files using {{ProgLang}}. Simple tools for better document security.",
+      "subtitle": "Top Features of {{ProdFullName}}"
     },
     "steps": {
-      "title": "Protect Sensitive Data in {{FileFormatCap}} Files",
+      "title": "Clean Metadata in {{FileFormatCap}} Documents",
       "content": {
-        "title": "{{ProdFullName}} is designed to help your {{EnvName}} apps hide private content fast and easily.",
-        "step_1": "Create a {{textRedactor}} object and provide the path to your {{FileFormatCap}} file.",
-        "step_2": "Set up redaction options to match your needs.",
-        "step_3": "Mark the image area and choose an overlay color.",
-        "step_4": "Run the redaction and save your protected file."
+        "title": "{{ProdShortName}} makes it easy to remove metadata in your {{EnvName}} applications.",
+        "step_1": "Set up a {{textRedactor}} and load the {{FileFormatCap}} file you want to clean.",
+        "step_2": "Choose the settings to clear all metadata.",
+        "step_3": "Run the redaction to clean the file.",
+        "step_4": "Save your file with cleaned metadata."
       }
     },
     "example_top": {
-      "comment_1": "Cover image content in {{FileFormatUp}} files",
-      "comment_2": "Load file using the {{textRedactor}}",
-      "comment_3": "Set overlay size and color",
-      "comment_4": "Select area for overlay",
-      "comment_5": "Apply overlay and save the file"
+      "comment_1": "Remove metadata from {{FileFormatUp}} files",
+      "comment_2": "Use {{textRedactor}} to load the file",
+      "comment_3": "Configure metadata redaction",
+      "comment_4": "Apply and save"
     },
     "example_bottom": {
-      "title": "Hide Image Data with Overlays",
-      "content": "This example demonstrates how to mask sensitive image areas in files.",
-      "comment_1": "Open the file for editing",
-      "comment_2": "Configure overlay size, position, and color",
-      "comment_3": "Pick a specific image area on page one",
-      "comment_4": "Apply the overlay to hide the image",
-      "comment_5": "Save the redacted file"
+      "title": "Clean Hidden Metadata Fields",
+      "content": "This example shows how to delete or edit hidden metadata in {{FileFormatUp}} documents.",
+      "comment_1": "Open {{FileFormatUp}} file with redactor",
+      "comment_2": "Add redaction for Author field",
+      "comment_3": "Add redaction for Title field",
+      "comment_4": "Run the redaction process",
+      "comment_5": "Save the cleaned document"
     },
     "more_features": {
-      "title": "Redact Any Content in Documents",
-      "description": "{{ProdFullName}} makes it simple to hide or remove content in various file formats. Protect sensitive information while keeping your files neat and easy to share.",
-      "image_description": "Redaction Tools for Complete Control",
+      "title": "Remove Sensitive Data from Documents",
+      "description": "{{ProdFullName}} lets you hide or clean private content across many formats. Protect sensitive data while keeping your files useful and clear.",
+      "image_description": "Key Redaction Features",
       "feature_1": {
-        "title": "Edit Text Anywhere",
-        "content": "Find and replace sensitive text throughout your documents to protect private data."
+        "title": "Search and Remove Text",
+        "content": "Find sensitive words or phrases in your files and clean them out."
       },
       "feature_2": {
-        "title": "Mask Images",
-        "content": "Apply overlays to images or specific areas to keep sensitive visuals hidden."
+        "title": "Cover Image Areas",
+        "content": "Use overlays to hide private parts of images."
       },
       "feature_3": {
-        "title": "Clean Metadata",
-        "content": "Remove or update hidden metadata to prevent accidental data leaks."
+        "title": "Edit Metadata",
+        "content": "Delete or change metadata to avoid sharing private data."
       }
     },
     "about": {
       "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers the tools to hide or delete content in {{FileFormatUp}} files. Cover text, images, and metadata to secure your documents with ease."
+      "content": "{{ProdShortName}} helps {{ProgLang}} developers remove text, images, and metadata from {{FileFormatUp}} files with simple tools."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Files with {{EnvNameShort}} Redactions",
-      "description": "With {{EnvNameShort}}, you can easily hide or erase sensitive content in {{FileFormatUp}} files. A reliable solution for keeping your documents secure and professional."
+      "title": "Clean {{FileFormatUp}} Metadata with {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} to remove hidden data from your {{FileFormatUp}} documents. A great way to protect sensitive details."
     }
   },
   "image": {
     "ext": "png",
     "head": {
-      "title": "Protect Images in {{FileFormatUp}} by Adding Overlays Using {{ProgLang}}",
-      "description": "With {{ProdFullName}}, you can hide sensitive image data in {{FileFormatUp}} files using colored overlays. Secure important information while keeping the file's original design."
+      "title": "Remove Hidden Metadata in {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Use {{ProdFullName}} to clean metadata in your {{FileFormatUp}} files. Make sure private details stay private."
     },
     "header": {
-      "title": "Hide Private Images in {{FileFormatUp}} files Using Overlays with {{EnvNameShort}}",
-      "description": "Keep sensitive business and personal images protected in {{FileFormatUp}} files using {{ProgLang}}. Simple tools for fast and effective content protection.",
-      "subtitle": "Key Features of {{ProdFullName}}"
+      "title": "Erase Metadata in {{FileFormatUp}} Files via {{EnvNameShort}}",
+      "description": "Keep your {{FileFormatUp}} files safe using {{ProgLang}}. Protect business and personal data the easy way.",
+      "subtitle": "What You Get with {{ProdFullName}}"
     },
     "steps": {
-      "title": "Protect Data in {{FileFormatCap}} Files with Overlays",
+      "title": "Clean Up Metadata in {{FileFormatCap}} Files",
       "content": {
-        "title": "Use {{ProdFullName}} to quickly hide private content in your {{EnvName}} applications.",
-        "step_1": "Create a {{textRedactor}} instance and provide your {{FileFormatCap}} file path.",
-        "step_2": "Adjust redaction settings as needed.",
-        "step_3": "Select image areas and define overlay colors.",
-        "step_4": "Process the file and save the secure version."
+        "title": "Get started with {{ProdShortName}} in your {{EnvName}} app to clean file metadata.",
+        "step_1": "Create a {{textRedactor}} and open your {{FileFormatCap}} file.",
+        "step_2": "Choose options to remove hidden metadata entries.",
+        "step_3": "Apply redaction settings.",
+        "step_4": "Save the result."
       }
     },
     "example_top": {
-      "comment_1": "Protect image content in {{FileFormatUp}}",
-      "comment_2": "Open file using the {{textRedactor}}",
-      "comment_3": "Define overlay dimensions and colors",
-      "comment_4": "Select the area you want to hide",
-      "comment_5": "Apply overlay and save the result"
+      "comment_1": "Remove hidden metadata from {{FileFormatUp}} files",
+      "comment_2": "Open file with {{textRedactor}}",
+      "comment_3": "Add redaction rules for metadata",
+      "comment_4": "Process and save"
     },
     "example_bottom": {
-      "title": "Cover Image Content with Overlays",
-      "content": "This code example shows how to apply overlays to hide sensitive image content.",
-      "comment_1": "Load the file for redaction",
-      "comment_2": "Configure overlay size, color, and position",
-      "comment_3": "Pick the image area on page one",
-      "comment_4": "Add overlay to hide image content",
-      "comment_5": "Save the updated file"
+      "title": "Erase Sensitive Metadata",
+      "content": "This sample explains how to delete specific metadata fields in a {{FileFormatUp}} document.",
+      "comment_1": "Open {{FileFormatUp}} with the redactor",
+      "comment_2": "Target the Author field",
+      "comment_3": "Target the Title field",
+      "comment_4": "Redact the fields",
+      "comment_5": "Save your document"
     },
     "more_features": {
-      "title": "Redact Content in Different File Formats",
-      "description": "With {{ProdFullName}}, you can hide or delete content across a variety of file formats. Protect sensitive data while maintaining a clean, readable format.",
-      "image_description": "Full Control Over Redactions",
+      "title": "Clean Content in Any Document",
+      "description": "{{ProdFullName}} removes private text, image parts, or hidden fields. Make documents safe to share.",
+      "image_description": "Main Features",
       "feature_1": {
-        "title": "Find and Replace Text",
-        "content": "Search through documents and replace sensitive text to protect private information."
+        "title": "Text Redaction",
+        "content": "Find and remove private words and numbers."
       },
       "feature_2": {
-        "title": "Overlay Images",
-        "content": "Apply colored overlays to mask entire images or selected parts."
+        "title": "Image Covering",
+        "content": "Add image masks to cover visual information."
       },
       "feature_3": {
-        "title": "Edit Metadata",
-        "content": "Remove or modify hidden metadata fields to prevent data exposure."
+        "title": "Metadata Redaction",
+        "content": "Clear out metadata fields that could leak information."
       }
     },
     "about": {
-      "title": "What is {{ProdFullName}}?",
-      "content": "{{ProdFullName}} equips {{ProgLang}} developers with powerful tools to hide or delete content in {{FileFormatUp}} files. Protect your documents by masking sensitive text, images, and metadata."
+      "title": "About {{ProdFullName}}",
+      "content": "{{ProdShortName}} helps {{ProgLang}} users clean files by removing unwanted text, image parts, and metadata in {{FileFormatUp}} files."
     },
     "formats": {
-      "title": "Hide Content in {{FileFormatUp}} Files Using {{EnvNameShort}} Redactions",
-      "description": "Use {{EnvNameShort}} to hide or remove sensitive data in {{FileFormatUp}} files. A reliable method for securing official files and protecting confidential information."
+      "title": "Remove Metadata from {{FileFormatUp}} Using {{EnvNameShort}}",
+      "description": "Erase sensitive data from {{FileFormatUp}} files with {{EnvNameShort}} redaction. Keep your files safe to share or store."
     }
   },
   "photo": {
     "ext": "jpeg",
     "head": {
-      "title": "Add Overlays to Hide Images in {{FileFormatUp}} Using {{ProgLang}}",
-      "description": "Hide sensitive image content in {{FileFormatUp}} files with {{ProdFullName}} by applying overlays. Keep private data safe while keeping the document’s layout intact."
+      "title": "Delete Metadata in {{FileFormatUp}} with {{ProgLang}}",
+      "description": "{{ProdFullName}} helps you remove hidden data in {{FileFormatUp}} files that could reveal personal or business information."
     },
     "header": {
-      "title": "Hide Image Content in {{FileFormatUp}} Files with Overlays Using {{EnvNameShort}}",
-      "description": "Protect personal and business images in {{FileFormatUp}} files using {{ProgLang}}. Easy-to-use tools for effective content protection.",
-      "subtitle": "{{ProdFullName}} Main Features"
+      "title": "Remove Metadata from {{FileFormatUp}} with {{EnvNameShort}}",
+      "description": "Easily protect your documents by removing hidden info from {{FileFormatUp}} files using {{ProgLang}}.",
+      "subtitle": "Highlights of {{ProdFullName}}"
     },
     "steps": {
-      "title": "Secure Content in {{FileFormatCap}} Files",
+      "title": "Erase Metadata in {{FileFormatCap}} Files",
       "content": {
-        "title": "{{ProdFullName}} makes it quick and simple to protect content in your {{EnvName}} apps.",
-        "step_1": "Create a {{textRedactor}} object and point it to your {{FileFormatCap}} file.",
-        "step_2": "Adjust redaction settings for your needs.",
-        "step_3": "Choose image areas and set overlay color.",
-        "step_4": "Run the redaction and save the secured file."
+        "title": "Use {{ProdShortName}} in your {{EnvName}} project to clean up document metadata.",
+        "step_1": "Start a {{textRedactor}} and open your {{FileFormatCap}} file.",
+        "step_2": "Set the rules to delete metadata.",
+        "step_3": "Apply redaction and clean the file.",
+        "step_4": "Save the result file."
       }
     },
     "example_top": {
-      "comment_1": "Apply overlays to hide images in {{FileFormatUp}}",
-      "comment_2": "Load the file with {{textRedactor}}",
-      "comment_3": "Configure overlay size and color",
-      "comment_4": "Pick the image area to hide",
-      "comment_5": "Apply overlay and save changes"
+      "comment_1": "Delete metadata from {{FileFormatUp}} documents",
+      "comment_2": "Use {{textRedactor}} to load the document",
+      "comment_3": "Set metadata fields for redaction",
+      "comment_4": "Clean the document and save"
     },
     "example_bottom": {
-      "title": "Hide Image Data with Overlays",
-      "content": "This code example shows how to cover image areas in a file using overlays.",
-      "comment_1": "Load the file for editing",
-      "comment_2": "Set overlay position, size, and color",
-      "comment_3": "Target a specific image area on page one",
-      "comment_4": "Apply overlay to mask image",
-      "comment_5": "Save the redacted file"
+      "title": "Delete Hidden Metadata Fields",
+      "content": "This example guides you through removing metadata in a {{FileFormatUp}} document.",
+      "comment_1": "Load {{FileFormatUp}} file into the redactor",
+      "comment_2": "Redact Author field",
+      "comment_3": "Redact Title field",
+      "comment_4": "Process the document",
+      "comment_5": "Save the cleaned version"
     },
     "more_features": {
-      "title": "Easily Redact Sensitive Content",
-      "description": "{{ProdFullName}} helps you hide or delete sensitive content in many file types. Protect private data while keeping your documents clean and easy to read.",
-      "image_description": "All-in-One Redaction Tools",
+      "title": "Erase Private Information from Files",
+      "description": "{{ProdFullName}} gives you ways to remove personal data from text, pictures, and file details. Perfect for data security.",
+      "image_description": "Useful Redaction Features",
       "feature_1": {
-        "title": "Edit Text in Documents",
-        "content": "Search and replace private text in your documents to secure sensitive information."
+        "title": "Text Cleanup",
+        "content": "Scan and erase any text that shouldn't be shared."
       },
       "feature_2": {
-        "title": "Hide Image Areas",
-        "content": "Add overlays to images or selected parts to cover sensitive visuals."
+        "title": "Cover Image Areas",
+        "content": "Add covers over image parts with private details."
       },
       "feature_3": {
-        "title": "Clean Metadata",
-        "content": "Remove hidden metadata to avoid accidental data leaks."
+        "title": "Remove Metadata",
+        "content": "Delete hidden file data before sharing or publishing."
       }
     },
     "about": {
       "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives {{ProgLang}} developers a powerful way to hide or delete content in {{FileFormatUp}} files. Protect documents by masking text, images, and metadata quickly."
+      "content": "{{ProdShortName}} helps {{ProgLang}} developers hide private content in {{FileFormatUp}} files, including text, image parts, and metadata."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Files with {{EnvNameShort}} Redactions",
-      "description": "With {{EnvNameShort}}, you can hide or delete private content in {{FileFormatUp}} files. A simple and effective way to secure official documents."
+      "title": "Use {{EnvNameShort}} to Redact {{FileFormatUp}} Metadata",
+      "description": "Keep your {{FileFormatUp}} documents safe by cleaning out metadata with {{EnvNameShort}} tools."
     }
   }
 }

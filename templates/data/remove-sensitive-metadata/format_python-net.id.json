@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Hapus Metadata dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "{{ProdFullName}} memungkinkan Anda membersihkan data tersembunyi dari file {{FileFormatUp}}. Hindari berbagi informasi pribadi dengan mengedit atau menghapus metadata."
+    },
+    "header": {
+      "title": "Hapus Metadata di File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{ProgLang}} dan {{ProdFullName}} untuk membersihkan informasi sensitif dari dokumen {{FileFormatUp}} Anda. Kendalikan data Anda dengan alat redaksi yang efektif.",
+      "subtitle": "Apa yang Dapat Dilakukan oleh {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Hapus Metadata di Dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "Mulailah melindungi file Anda menggunakan {{ProdShortName}} di aplikasi {{EnvName}}.",
+        "step_1": "Buat {{textRedactor}} dan muat file {{FileFormatCap}} Anda.",
+        "step_2": "Tambahkan aturan untuk menghapus metadata tersembunyi.",
+        "step_3": "Jalankan redaksi untuk menghapus entri metadata.",
+        "step_4": "Simpan file tanpa data tersembunyi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Hapus metadata dari dokumen {{FileFormatUp}}",
+      "comment_2": "Buka file menggunakan {{textRedactor}}",
+      "comment_3": "Pilih bidang metadata untuk dihapus",
+      "comment_4": "Redaksi dan simpan dokumen Anda"
+    },
+    "example_bottom": {
+      "title": "Edit dan Hapus Bidang Metadata",
+      "content": "Contoh ini menjelaskan cara menghapus metadata tersembunyi di file {{FileFormatUp}}.",
+      "comment_1": "Buka file di {{textRedactor}}",
+      "comment_2": "Hapus metadata Penulis",
+      "comment_3": "Hapus metadata Judul",
+      "comment_4": "Jalankan proses redaksi",
+      "comment_5": "Simpan file yang diperbarui"
+    },
+    "more_features": {
+      "title": "Bersihkan Konten Tersembunyi di Dokumen",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menghapus teks, gambar, dan metadata dengan aman. Jaga privasi file Anda sebelum dibagikan.",
+      "image_description": "Opsi Redaksi",
+      "feature_1": {
+        "title": "Penghapusan Teks",
+        "content": "Cari dan hapus teks sensitif dari seluruh dokumen."
+      },
+      "feature_2": {
+        "title": "Penutupan Gambar",
+        "content": "Sembunyikan bagian tertentu dari gambar dengan overlay sederhana."
+      },
+      "feature_3": {
+        "title": "Pembersihan Metadata",
+        "content": "Hapus metadata yang tidak diinginkan yang mungkin mengungkapkan data pribadi."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdShortName}} membantu pengembang {{ProgLang}} membersihkan dokumen {{FileFormatUp}} dengan menghapus teks, konten gambar, dan metadata."
+    },
+    "formats": {
+      "title": "Bersihkan Metadata dari {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Hapus bidang data tersembunyi di {{FileFormatUp}} menggunakan {{EnvNameShort}}. Cara cerdas untuk melindungi privasi dan menjaga file Anda bersih."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Bersihkan Metadata di {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Gunakan {{ProdFullName}} untuk menghapus detail tersembunyi dalam file {{FileFormatUp}}. Lindungi data Anda dengan menghapus entri metadata yang sensitif."
+    },
+    "header": {
+      "title": "Hapus Metadata Tersembunyi dari File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Dengan {{ProgLang}}, Anda dapat menghapus metadata tersembunyi dari file {{FileFormatUp}} menggunakan {{ProdFullName}}. Jaga kebersihan dan privasi file Anda.",
+      "subtitle": "Fitur Utama di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Hapus Metadata dari File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} memberikan aplikasi {{EnvName}} Anda alat untuk menghapus metadata dengan cepat.",
+        "step_1": "Mulai {{textRedactor}} dan muat dokumen {{FileFormatCap}} Anda.",
+        "step_2": "Siapkan bidang metadata untuk dihapus.",
+        "step_3": "Terapkan redaksi untuk membersihkan konten tersembunyi.",
+        "step_4": "Simpan versi akhir dari file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Bersihkan metadata di file {{FileFormatUp}}",
+      "comment_2": "Gunakan {{textRedactor}} untuk membuka dokumen",
+      "comment_3": "Pilih entri metadata untuk dihapus",
+      "comment_4": "Terapkan redaksi dan simpan file"
+    },
+    "example_bottom": {
+      "title": "Contoh: Hapus Metadata Tersembunyi",
+      "content": "Inilah cara menghapus bidang Penulis dan Judul dari dokumen {{FileFormatUp}} menggunakan redaksi.",
+      "comment_1": "Buka file {{FileFormatUp}}",
+      "comment_2": "Pilih untuk menghapus bidang Penulis",
+      "comment_3": "Pilih untuk menghapus bidang Judul",
+      "comment_4": "Jalankan redaksi metadata",
+      "comment_5": "Simpan file yang bersih"
+    },
+    "more_features": {
+      "title": "Amankan Setiap Bagian dari Dokumen",
+      "description": "Dengan {{ProdFullName}}, Anda dapat membersihkan teks, gambar, dan metadata dalam berbagai format file. Ideal untuk privasi dan keamanan.",
+      "image_description": "Alat Redaksi Dokumen dalam Aksi",
+      "feature_1": {
+        "title": "Pembersih Teks",
+        "content": "Temukan dan hapus nama, istilah, atau kata-kata pribadi lainnya."
+      },
+      "feature_2": {
+        "title": "Tutup Gambar",
+        "content": "Sembunyikan bagian gambar dengan menempatkan overlay warna."
+      },
+      "feature_3": {
+        "title": "Penghapusan Metadata",
+        "content": "Hapus informasi dokumen tersembunyi seperti nama penulis atau detail perangkat lunak."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdShortName}} memberikan pengembang {{ProgLang}} kemampuan untuk menghapus data tersembunyi dalam file {{FileFormatUp}}. Bersihkan teks, visual, dan metadata dari dokumen dengan cepat."
+    },
+    "formats": {
+      "title": "Hapus Metadata di {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Hapus metadata tersembunyi dalam file {{FileFormatUp}} menggunakan {{EnvNameShort}}. Sangat baik untuk mengamankan file Anda sebelum berbagi atau mengarsipkan."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Hapus Metadata dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Bersihkan metadata tersembunyi dalam dokumen {{FileFormatUp}} Anda menggunakan {{ProdFullName}}. Cara yang bersih untuk melindungi privasi Anda."
+    },
+    "header": {
+      "title": "Hapus Metadata di File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Dengan {{ProgLang}}, Anda dapat dengan aman menghapus detail pribadi dari file {{FileFormatUp}} Anda. Sempurna untuk penggunaan pribadi dan profesional.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Hapus Metadata dari File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} memungkinkan proyek {{EnvName}} Anda menghapus data file yang tidak diinginkan dengan cepat.",
+        "step_1": "Buat instansi {{textRedactor}} dan muat file {{FileFormatCap}} Anda.",
+        "step_2": "Pilih entri metadata yang ingin Anda hapus.",
+        "step_3": "Jalankan redaksi untuk membersihkan entri tersebut.",
+        "step_4": "Simpan file yang diperbarui."
+      }
+    },
+    "example_top": {
+      "comment_1": "Hapus metadata tersembunyi dalam dokumen {{FileFormatUp}} Anda",
+      "comment_2": "Buka file menggunakan {{textRedactor}}",
+      "comment_3": "Tentukan bidang metadata yang harus dihapus",
+      "comment_4": "Terapkan perubahan dan simpan file"
+    },
+    "example_bottom": {
+      "title": "Hapus Metadata dari Dokumen",
+      "content": "Inilah cara menghapus metadata dari file {{FileFormatUp}} Anda dengan beberapa baris kode.",
+      "comment_1": "Buka dokumen",
+      "comment_2": "Tandai bidang Penulis untuk dihapus",
+      "comment_3": "Tandai bidang Judul untuk dihapus",
+      "comment_4": "Jalankan aturan redaksi",
+      "comment_5": "Simpan file yang bersih"
+    },
+    "more_features": {
+      "title": "Sembunyikan Konten Sensitif di Mana Saja dalam File",
+      "description": "{{ProdFullName}} memungkinkan Anda membersihkan informasi pribadi dari berbagai format file. Persiapkan konten Anda untuk dibagikan.",
+      "image_description": "Redaksi Metadata dan Konten",
+      "feature_1": {
+        "title": "Hapus Teks Sensitif",
+        "content": "Temukan dan hapus nama, email, atau detail pribadi lainnya dari dokumen."
+      },
+      "feature_2": {
+        "title": "Tutup Area Gambar",
+        "content": "Tempatkan overlay untuk menyembunyikan area dalam gambar yang tidak boleh terlihat."
+      },
+      "feature_3": {
+        "title": "Pembersih Metadata",
+        "content": "Hapus bidang tersembunyi seperti Penulis, Judul, atau tanggal pembuatan."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdShortName}} memberikan pengembang {{ProgLang}} alat untuk menghapus atau menyembunyikan konten sensitif dalam file {{FileFormatUp}} — dari teks hingga gambar hingga metadata."
+    },
+    "formats": {
+      "title": "Hapus Metadata di {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk membersihkan metadata pribadi di file {{FileFormatUp}} Anda. Cara yang baik untuk mempersiapkan file sebelum berbagi atau menerbitkan."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Hapus Metadata dari File {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "{{ProdFullName}} membantu membersihkan data tersembunyi di file {{FileFormatUp}}. Hapus detail yang dapat mengungkapkan informasi sensitif."
+    },
+    "header": {
+      "title": "Hapus Metadata di {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Hapus metadata pribadi yang disimpan di file {{FileFormatUp}} menggunakan {{ProgLang}}. Cara cerdas untuk melindungi informasi Anda.",
+      "subtitle": "Alat Utama di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bersihkan Metadata di File {{FileFormatCap}}",
+      "content": {
+        "title": "Gunakan {{ProdShortName}} untuk dengan cepat menghapus metadata dari aplikasi {{EnvName}} Anda.",
+        "step_1": "Buat {{textRedactor}} dan buka dokumen {{FileFormatCap}}.",
+        "step_2": "Pilih metadata yang ingin Anda hapus.",
+        "step_3": "Terapkan redaksi untuk menghapus data tersembunyi.",
+        "step_4": "Simpan file yang diperbarui."
+      }
+    },
+    "example_top": {
+      "comment_1": "Hapus metadata dari {{FileFormatUp}}",
+      "comment_2": "Buka file Anda dengan {{textRedactor}}",
+      "comment_3": "Pilih bidang yang akan dihapus",
+      "comment_4": "Jalankan dan simpan perubahan"
+    },
+    "example_bottom": {
+      "title": "Contoh: Hapus Bidang Metadata",
+      "content": "Ikuti contoh ini untuk menghapus bidang metadata umum dari file {{FileFormatUp}} sebelum berbagi.",
+      "comment_1": "Muat file",
+      "comment_2": "Tandai bidang Penulis untuk redaksi",
+      "comment_3": "Tandai bidang Judul untuk redaksi",
+      "comment_4": "Terapkan redaksi",
+      "comment_5": "Ekspor file yang bersih"
+    },
+    "more_features": {
+      "title": "Cara Lain untuk Menyembunyikan Informasi Sensitif",
+      "description": "{{ProdFullName}} mendukung redaksi di berbagai format. Cara cepat untuk menghapus konten pribadi dari dokumen.",
+      "image_description": "Alat Redaksi File",
+      "feature_1": {
+        "title": "Cari dan Hapus Teks",
+        "content": "Hapus kata atau frasa yang mengandung data pribadi atau sensitif dengan cepat."
+      },
+      "feature_2": {
+        "title": "Tambahkan Penutup Gambar",
+        "content": "Tutup bagian gambar yang tidak boleh dibagikan."
+      },
+      "feature_3": {
+        "title": "Hapus Metadata Tersembunyi",
+        "content": "Hapus nama penulis, judul, dan tag tersembunyi lainnya."
+      }
+    },
+    "about": {
+      "title": "Lebih Banyak Tentang {{ProdFullName}}",
+      "content": "{{ProdShortName}} dirancang untuk pengembang {{ProgLang}} yang ingin menjaga dokumen tetap bersih. Gunakan untuk menghapus teks, menutupi gambar, atau menghapus metadata dari file {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Gunakan {{EnvNameShort}} untuk Membersihkan Metadata dari {{FileFormatUp}}",
+      "description": "Hapus data latar belakang dari {{FileFormatUp}} dengan {{EnvNameShort}}. Sangat baik untuk privasi dan kepatuhan."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Bersihkan Metadata dari File {{FileFormatUp}} dengan {{ProgLang}}",
+      "description": "Gunakan {{ProdFullName}} untuk menghapus metadata tersembunyi di file {{FileFormatUp}}. Lindungi dokumen agar tidak mengungkapkan informasi pribadi atau internal."
+    },
+    "header": {
+      "title": "Hapus Metadata di {{FileFormatUp}} Menggunakan Alat {{EnvNameShort}}",
+      "description": "Jaga agar file Anda aman dengan menghapus metadata yang tidak diinginkan menggunakan {{ProgLang}}. Sangat cocok untuk perusahaan dan pengguna individu.",
+      "subtitle": "Fitur {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Hapus Metadata Tersembunyi di {{FileFormatCap}}",
+      "content": {
+        "title": "Dengan {{ProdShortName}}, aplikasi {{EnvName}} Anda dapat dengan cepat membersihkan metadata dokumen.",
+        "step_1": "Buat objek {{textRedactor}} dan buka file {{FileFormatCap}}.",
+        "step_2": "Tentukan aturan redaksi untuk bidang metadata.",
+        "step_3": "Jalankan redaksi untuk menghapus data yang dipilih.",
+        "step_4": "Simpan versi bersih dari file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Bersihkan metadata di {{FileFormatUp}}",
+      "comment_2": "Buka dokumen menggunakan {{textRedactor}}",
+      "comment_3": "Pilih metadata untuk dihapus",
+      "comment_4": "Terapkan redaksi dan simpan file"
+    },
+    "example_bottom": {
+      "title": "Hapus Metadata dari File {{FileFormatUp}}",
+      "content": "Contoh ini menunjukkan cara menghapus bidang seperti Penulis dan Judul dari dokumen {{FileFormatUp}}.",
+      "comment_1": "Impor dokumen Anda",
+      "comment_2": "Targetkan metadata Penulis",
+      "comment_3": "Targetkan metadata Judul",
+      "comment_4": "Jalankan alat redaksi",
+      "comment_5": "Simpan file yang diperbarui"
+    },
+    "more_features": {
+      "title": "Lindungi Lebih dari Sekadar Metadata",
+      "description": "Redaksi teks, tutupi gambar, dan hapus metadata menggunakan {{ProdFullName}}. Jaga agar dokumen Anda tetap bersih dan pribadi.",
+      "image_description": "Opsi Perlindungan Dokumen",
+      "feature_1": {
+        "title": "Temukan dan Ganti Teks",
+        "content": "Hapus atau ganti kata dan frasa yang mengandung data pribadi atau sensitif."
+      },
+      "feature_2": {
+        "title": "Tambahkan Penutup Gambar",
+        "content": "Tempatkan overlay untuk menyembunyikan bagian gambar di dokumen Anda."
+      },
+      "feature_3": {
+        "title": "Bersihkan Metadata",
+        "content": "Hapus nama penulis, judul, komentar, dan informasi tersembunyi lainnya."
+      }
+    },
+    "about": {
+      "title": "Kenali {{ProdFullName}}",
+      "content": "{{ProdShortName}} diperuntukkan bagi pengembang {{ProgLang}} yang ingin menjaga file {{FileFormatUp}} tetap pribadi. Ini memungkinkan Anda menghapus teks, menyembunyikan bagian gambar, dan membersihkan metadata."
+    },
+    "formats": {
+      "title": "Hapus Metadata di {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk membersihkan metadata tersembunyi dari {{FileFormatUp}}. Jaga agar file Anda aman sebelum berbagi atau mengarsipkan."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Bersihkan Metadata dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Gunakan {{ProdFullName}} untuk menghapus metadata dari dokumen {{FileFormatUp}}. Hilangkan data tersembunyi dan lindungi informasi sensitif."
+    },
+    "header": {
+      "title": "Hapus Metadata Tersembunyi di {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Kendalikan file {{FileFormatUp}} Anda dengan {{ProgLang}}. Hapus data yang tidak diinginkan untuk menjaga privasi file Anda.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Langkah-langkah untuk Membersihkan Metadata di File {{FileFormatCap}}",
+      "content": {
+        "title": "Dalam aplikasi {{EnvName}}, {{ProdShortName}} membantu menghapus metadata dalam beberapa langkah mudah.",
+        "step_1": "Mulai {{textRedactor}} dan buka file {{FileFormatCap}} Anda.",
+        "step_2": "Pilih bidang metadata untuk dihapus.",
+        "step_3": "Jalankan proses redaksi.",
+        "step_4": "Ekspor file final."
+      }
+    },
+    "example_top": {
+      "comment_1": "Hapus data tersembunyi di {{FileFormatUp}}",
+      "comment_2": "Buka file Anda dengan redactor",
+      "comment_3": "Pilih metadata untuk dihapus",
+      "comment_4": "Proses dan simpan file"
+    },
+    "example_bottom": {
+      "title": "Hapus Metadata Penulis dan Judul",
+      "content": "Lihat bagaimana {{ProdFullName}} menghapus bidang metadata spesifik dari dokumen {{FileFormatUp}}.",
+      "comment_1": "Buka dokumen untuk redaksi",
+      "comment_2": "Hapus informasi Penulis",
+      "comment_3": "Hapus bidang Judul",
+      "comment_4": "Terapkan perubahan",
+      "comment_5": "Simpan dokumen yang bersih"
+    },
+    "more_features": {
+      "title": "Bersihkan Semua Jenis Data Sensitif",
+      "description": "{{ProdFullName}} memberikan Anda alat untuk menghapus metadata, teks, dan gambar dalam berbagai format. Sempurna untuk berbagi dokumen yang aman.",
+      "image_description": "Alat Metadata dan Privasi",
+      "feature_1": {
+        "title": "Hapus Teks Pribadi",
+        "content": "Deteksi dan hapus informasi pribadi atau tersembunyi dari dokumen Anda."
+      },
+      "feature_2": {
+        "title": "Masker Detail Gambar",
+        "content": "Tutup bagian gambar untuk memblokir visual pribadi."
+      },
+      "feature_3": {
+        "title": "Bersihkan Metadata",
+        "content": "Hapus bidang metadata yang tersembunyi yang mungkin mengandung data sensitif."
+      }
+    },
+    "about": {
+      "title": "Kenali {{ProdFullName}}",
+      "content": "{{ProdShortName}} dirancang untuk pengembang {{ProgLang}} yang perlu membersihkan dan melindungi file {{FileFormatUp}}. Hapus metadata, teks, dan gambar yang tidak diinginkan dengan mudah."
+    },
+    "formats": {
+      "title": "Bersihkan Metadata di {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menghapus metadata sensitif dari file {{FileFormatUp}} Anda. Amankan konten sebelum berbagi."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Hapus Metadata di {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Amankan dokumen {{FileFormatUp}} Anda dengan {{ProdFullName}} dengan menghapus metadata tersembunyi yang mungkin mengandung informasi pribadi."
+    },
+    "header": {
+      "title": "Bersihkan Metadata dari {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Dapatkan kontrol lebih baik atas file Anda menggunakan alat {{ProgLang}} yang cepat menghapus metadata tersembunyi.",
+      "subtitle": "Fitur Utama dari {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Langkah-langkah untuk Menghapus Metadata di {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} memungkinkan aplikasi {{EnvName}} Anda membersihkan metadata dari dokumen dalam beberapa klik.",
+        "step_1": "Buat instansi {{textRedactor}} dan buka dokumen Anda.",
+        "step_2": "Pilih bidang metadata yang ingin dihapus.",
+        "step_3": "Konfigurasikan dan terapkan pengaturan redaksi.",
+        "step_4": "Simpan versi akhir tanpa data tersembunyi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Hapus metadata dari {{FileFormatUp}}",
+      "comment_2": "Muat file ke dalam redactor",
+      "comment_3": "Pilih metadata untuk dihapus",
+      "comment_4": "Bersihkan dan simpan dokumen"
+    },
+    "example_bottom": {
+      "title": "Cara Menghapus Metadata Tersembunyi",
+      "content": "Contoh ini menunjukkan bagaimana menghapus metadata yang tertanam seperti Penulis dan Judul dari dokumen {{FileFormatUp}} Anda.",
+      "comment_1": "Buka file dalam redactor",
+      "comment_2": "Hapus bidang Penulis",
+      "comment_3": "Hapus bidang Judul",
+      "comment_4": "Lakukan redaksi",
+      "comment_5": "Simpan file yang diperbarui"
+    },
+    "more_features": {
+      "title": "Redaksi Lanjutan untuk {{FileFormatUp}}",
+      "description": "{{ProdFullName}} membantu membersihkan file dengan menghapus konten sensitif. Bekerja dengan berbagai format file dan tipe data.",
+      "image_description": "Opsi Redaksi Utama",
+      "feature_1": {
+        "title": "Hapus Teks Pribadi",
+        "content": "Cari dan hapus kata atau frasa yang tidak boleh dibagikan."
+      },
+      "feature_2": {
+        "title": "Tutup Bagian Gambar",
+        "content": "Sembunyikan bagian gambar yang mengandung visual pribadi atau sensitif."
+      },
+      "feature_3": {
+        "title": "Hapus Metadata",
+        "content": "Hapus bidang metadata seperti Penulis, Judul, dan Komentar dari file Anda."
+      }
+    },
+    "about": {
+      "title": "Pelajari Tentang {{ProdFullName}}",
+      "content": "{{ProdShortName}} dirancang untuk pengembang {{ProgLang}} membantu menghapus teks, gambar, dan metadata dalam file {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Pembersihan Metadata untuk {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk membersihkan data pribadi dari dokumen {{FileFormatUp}}. Bagus untuk keperluan hukum, bisnis, dan pribadi."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Edit Metadata di {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "{{ProdFullName}} membantu Anda menghapus atau memperbarui metadata di dokumen {{FileFormatUp}}. Hapus bidang tersembunyi yang dapat mengungkapkan detail pribadi."
+    },
+    "header": {
+      "title": "Bersihkan Metadata di {{FileFormatUp}} melalui {{EnvNameShort}}",
+      "description": "Amankan file {{FileFormatUp}} Anda dengan menghapus metadata tersembunyi menggunakan alat sederhana yang dirancang untuk {{ProgLang}}.",
+      "subtitle": "Fitur Inti dari {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Langkah-langkah untuk Membersihkan Metadata {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} membuat penghapusan metadata cepat dan mudah untuk aplikasi {{EnvName}} Anda.",
+        "step_1": "Atur {{textRedactor}} dan buka dokumen {{FileFormatCap}} Anda.",
+        "step_2": "Pilih opsi untuk menghapus bidang metadata.",
+        "step_3": "Jalankan redaksi untuk membersihkan file.",
+        "step_4": "Simpan versi baru tanpa data tersembunyi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Bersihkan metadata di {{FileFormatUp}}",
+      "comment_2": "Buka file menggunakan {{textRedactor}}",
+      "comment_3": "Pilih bidang metadata untuk dibersihkan",
+      "comment_4": "Terapkan redaksi dan simpan file"
+    },
+    "example_bottom": {
+      "title": "Edit Bidang Metadata",
+      "content": "Contoh ini membahas penghapusan atau perubahan bidang seperti Penulis dan Judul dalam dokumen {{FileFormatUp}}.",
+      "comment_1": "Buka file {{FileFormatUp}}",
+      "comment_2": "Targetkan bidang Penulis",
+      "comment_3": "Targetkan bidang Judul",
+      "comment_4": "Jalankan proses pembersihan",
+      "comment_5": "Simpan versi baru"
+    },
+    "more_features": {
+      "title": "Lindungi Privasi di Setiap File",
+      "description": "{{ProdFullName}} memberi Anda kendali atas data sensitif di dokumen. Hapus konten tersembunyi dalam teks, gambar, dan metadata.",
+      "image_description": "Fitur Redaksi Metadata",
+      "feature_1": {
+        "title": "Temukan dan Hapus Teks",
+        "content": "Pindai kata kunci atau info pribadi dan hapus dari dokumen."
+      },
+      "feature_2": {
+        "title": "Sembunyikan Detail Gambar",
+        "content": "Tutup area gambar yang tidak seharusnya terlihat oleh orang lain."
+      },
+      "feature_3": {
+        "title": "Edit Metadata File",
+        "content": "Ubah atau hapus bidang metadata untuk melindungi info dokumen."
+      }
+    },
+    "about": {
+      "title": "Pelajari Tentang {{ProdFullName}}",
+      "content": "{{ProdShortName}} memberikan pengembang {{ProgLang}} alat sederhana untuk menghapus teks, gambar, dan metadata dari dokumen {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Bersihkan Metadata {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menghapus data tersembunyi dan pribadi dari dokumen {{FileFormatUp}} Anda dengan cepat dan mudah."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Bersihkan Metadata Tersembunyi dalam {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "{{ProdFullName}} membantu Anda menghapus metadata pribadi dari dokumen {{FileFormatUp}}. Jaga file bersih dan aman."
+    },
+    "header": {
+      "title": "Hapus Metadata di File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan alat {{ProgLang}} untuk melindungi dokumen {{FileFormatUp}}. Hapus info tersembunyi sebelum berbagi atau menerbitkan.",
+      "subtitle": "Fitur Utama dari {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cara Menghapus Metadata dari File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} membantu pengembang {{EnvName}} membersihkan metadata dokumen hanya dalam beberapa langkah.",
+        "step_1": "Siapkan {{textRedactor}} dan muat file {{FileFormatCap}} Anda.",
+        "step_2": "Pilih metadata yang ingin Anda hapus.",
+        "step_3": "Jalankan proses redaksi.",
+        "step_4": "Simpan file Anda yang diperbarui."
+      }
+    },
+    "example_top": {
+      "comment_1": "Bersihkan bidang tersembunyi di file {{FileFormatUp}}",
+      "comment_2": "Gunakan {{textRedactor}} untuk membuka file",
+      "comment_3": "Pilih bidang metadata untuk redaksi",
+      "comment_4": "Proses dan ekspor"
+    },
+    "example_bottom": {
+      "title": "Hapus Bidang Metadata",
+      "content": "Contoh ini menunjukkan cara menghapus metadata seperti Penulis dan Judul dalam file {{FileFormatUp}}.",
+      "comment_1": "Buka file dalam redactor",
+      "comment_2": "Pilih bidang Penulis",
+      "comment_3": "Pilih bidang Judul",
+      "comment_4": "Jalankan redaksi",
+      "comment_5": "Simpan dokumen akhir"
+    },
+    "more_features": {
+      "title": "Bersihkan Data Sensitif dari File Mana Saja",
+      "description": "{{ProdFullName}} menghapus teks, gambar, dan metadata yang tidak boleh dibagikan. Bekerja dengan banyak format.",
+      "image_description": "Alat Redaksi Utama",
+      "feature_1": {
+        "title": "Hapus Teks",
+        "content": "Hapus kata atau pola dari file Anda untuk melindungi info sensitif."
+      },
+      "feature_2": {
+        "title": "Tutup Gambar",
+        "content": "Tutup bagian gambar yang perlu tetap pribadi."
+      },
+      "feature_3": {
+        "title": "Hapus Metadata",
+        "content": "Hapus data tersembunyi dari properti file seperti Penulis atau Judul."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdShortName}} memberikan pengembang {{ProgLang}} alat untuk menghapus data sensitif dari file {{FileFormatUp}} — termasuk teks, gambar, dan metadata."
+    },
+    "formats": {
+      "title": "Gunakan {{EnvNameShort}} untuk Menghapus Metadata {{FileFormatUp}}",
+      "description": "Dengan cepat membersihkan metadata dalam file {{FileFormatUp}} menggunakan {{EnvNameShort}}. Jaga dokumen Anda aman dan pribadi."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Hapus Metadata di {{FileFormatUp}} dengan {{ProgLang}}",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menghapus data tersembunyi dari file {{FileFormatUp}} dan menghindari kebocoran informasi pribadi."
+    },
+    "header": {
+      "title": "Bersihkan Metadata dari {{FileFormatUp}} Menggunakan Alat {{EnvNameShort}}",
+      "description": "Lindungi dokumen {{FileFormatUp}} Anda dengan menghapus informasi tersembunyi menggunakan alat {{ProgLang}} yang mudah digunakan.",
+      "subtitle": "Fitur Utama dari {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Langkah-langkah untuk Menghapus Metadata dari {{FileFormatCap}}",
+      "content": {
+        "title": "Gunakan {{ProdShortName}} dalam proyek {{EnvName}} Anda untuk membersihkan metadata dokumen hanya dalam beberapa langkah.",
+        "step_1": "Siapkan {{textRedactor}} dan buka file {{FileFormatCap}} Anda.",
+        "step_2": "Pilih bidang metadata yang akan dihapus.",
+        "step_3": "Terapkan redaksi untuk membersihkan file.",
+        "step_4": "Simpan versi akhir."
+      }
+    },
+    "example_top": {
+      "comment_1": "Hapus metadata di dokumen {{FileFormatUp}}",
+      "comment_2": "Gunakan {{textRedactor}} untuk membuka file Anda",
+      "comment_3": "Pilih metadata yang akan dihapus",
+      "comment_4": "Jalankan dan simpan"
+    },
+    "example_bottom": {
+      "title": "Hapus Metadata Spesifik",
+      "content": "Ikuti contoh ini untuk menghapus bidang Penulis dan Judul di dokumen {{FileFormatUp}}.",
+      "comment_1": "Muat file ke dalam redactor",
+      "comment_2": "Targetkan bidang Penulis",
+      "comment_3": "Targetkan bidang Judul",
+      "comment_4": "Redaksi metadata yang dipilih",
+      "comment_5": "Simpan file yang diperbarui"
+    },
+    "more_features": {
+      "title": "Bersihkan File Sebelum Berbagi",
+      "description": "{{ProdFullName}} membantu menghapus data yang tidak boleh terlihat. Hapus teks, gambar, dan detail tersembunyi hanya dalam beberapa klik.",
+      "image_description": "Fitur Redaksi yang Berguna",
+      "feature_1": {
+        "title": "Penghapusan Teks",
+        "content": "Cari dan hapus kata sensitif, angka, atau pola."
+      },
+      "feature_2": {
+        "title": "Penutupan Gambar",
+        "content": "Tutup bagian gambar yang menyimpan data pribadi."
+      },
+      "feature_3": {
+        "title": "Pembersihan Metadata",
+        "content": "Hapus detail file seperti Penulis, Judul, atau Komentar."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdShortName}} memberikan pengguna {{ProgLang}} cara untuk membersihkan file dengan menghapus konten tersembunyi dari teks, gambar, dan metadata di {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Redaksi Metadata dari {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk membersihkan metadata tersembunyi dari file {{FileFormatUp}}. Jaga dokumen tetap bersih dan aman."
+    }
+  }
+}

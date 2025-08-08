@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Cobrir Texto Privado em {{FileFormatUp}} com Sobreposições Usando {{ProgLang}}",
+      "description": "{{ProdFullName}} permite ocultar informações sensíveis em arquivos {{FileFormatUp}} colocando caixas coloridas. Proteja dados sem alterar a aparência do seu arquivo."
+    },
+    "header": {
+      "title": "Mascarar Texto em Documentos {{FileFormatUp}} Usando Sobreposições em {{EnvNameShort}}",
+      "description": "Tenha controle total sobre o conteúdo do arquivo {{FileFormatUp}} com {{ProgLang}}. Use a redacção para proteger detalhes financeiros, legais ou pessoais.",
+      "subtitle": "Principais Recursos do {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteger Informações Confidenciais em Arquivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} facilita para os desenvolvedores de {{EnvName}} ocultarem conteúdo privado com alguns passos simples.",
+        "step_1": "Inicie um {{textRedactor}} e carregue seu arquivo {{FileFormatCap}}.",
+        "step_2": "Configure suas preferências de redacção.",
+        "step_3": "Escolha o que encontrar e selecione a cor da sua sobreposição.",
+        "step_4": "Aplique a redacção e salve seu documento."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cobrir texto em {{FileFormatUp}} usando sobreposições coloridas",
+      "comment_2": "Passe o caminho do arquivo para o {{textRedactor}}",
+      "comment_3": "Ajuste as configurações de redacção",
+      "comment_4": "Defina o texto alvo e a cor",
+      "comment_5": "Aplique e salve o {{FileFormatUp}} redigido"
+    },
+    "example_bottom": {
+      "title": "Ocultar Texto Usando Regex",
+      "content": "Este exemplo utiliza expressões regulares para encontrar e ocultar conteúdo específico",
+      "comment_1": "Carregue o arquivo que você deseja processar",
+      "comment_2": "Defina o padrão de texto e a cor da sobreposição",
+      "comment_3": "Aplique a redacção",
+      "comment_4": "Salve suas alterações"
+    },
+    "more_features": {
+      "title": "Controle do Que Está Visível em Documentos",
+      "description": "{{ProdFullName}} permite que você bloqueie ou remova partes dos seus arquivos enquanto os mantém fáceis de visualizar e compartilhar.",
+      "image_description": "Ferramentas de Redacção Poderosas",
+      "feature_1": {
+        "title": "Alvo e oculte texto",
+        "content": "Pesquise em seu documento e oculte palavras ou frases específicas para proteger informações privadas."
+      },
+      "feature_2": {
+        "title": "Cobrir imagens",
+        "content": "Adicione sobreposições para ocultar total ou parcialmente visuais."
+      },
+      "feature_3": {
+        "title": "Remover metadados",
+        "content": "Apague detalhes ocultos do documento para evitar exposição não intencional."
+      }
+    },
+    "about": {
+      "title": "O Que {{ProdFullName}} Oferece",
+      "content": "{{ProdFullName}} fornece aos desenvolvedores de {{ProgLang}} uma maneira simples de ocultar ou remover conteúdo de arquivos {{FileFormatUp}}. Cubra texto, imagens e metadados em diferentes tipos de documentos."
+    },
+    "formats": {
+      "title": "Proteger Arquivos {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} para cobrir ou apagar conteúdo em documentos {{FileFormatUp}}. Uma maneira eficaz de manter informações privadas seguras."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Ocultar Texto em {{FileFormatUp}} com Sobreposições Usando {{ProgLang}}",
+      "description": "Use {{ProdFullName}} para bloquear texto privado em arquivos {{FileFormatUp}}. Mantenha a formatação inalterada enquanto mantém os dados sensíveis ocultos."
+    },
+    "header": {
+      "title": "Proteger Texto {{FileFormatUp}} com Sobreposições em {{EnvNameShort}}",
+      "description": "Oculte rapidamente detalhes pessoais, legais ou de negócios em arquivos {{FileFormatUp}} com {{ProgLang}} e {{ProdFullName}}.",
+      "subtitle": "Ferramentas Principais em {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redigir Conteúdo Sensível em {{FileFormatCap}}",
+      "content": {
+        "title": "Limpe documentos em seu projeto {{EnvName}} usando {{ProdFullName}}.",
+        "step_1": "Inicialize {{textRedactor}} com seu arquivo.",
+        "step_2": "Escolha como a redacção deve funcionar.",
+        "step_3": "Selecione o texto a ser ocultado e a cor de sobreposição.",
+        "step_4": "Aplique a redacção e salve o arquivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cobrir texto com sobreposições em {{FileFormatUp}}",
+      "comment_2": "Crie um {{textRedactor}} e carregue seu documento",
+      "comment_3": "Escolha as opções de redacção",
+      "comment_4": "Escolha texto e cor",
+      "comment_5": "Salve a versão redigida"
+    },
+    "example_bottom": {
+      "title": "Encontrar Texto com Regex e Ocultá-lo",
+      "content": "Use correspondência de padrão para ocultar automaticamente frases-chave",
+      "comment_1": "Abra o documento que você deseja redigir",
+      "comment_2": "Defina o padrão regex e o estilo da sobreposição",
+      "comment_3": "Aplique a lógica de redacção",
+      "comment_4": "Salve seu documento limpo"
+    },
+    "more_features": {
+      "title": "Ferramentas de Redacção para Uso Diário",
+      "description": "{{ProdFullName}} oferece opções simples para ocultar detalhes sensíveis em documentos enquanto os mantém utilizáveis.",
+      "image_description": "Opções de redacção fáceis",
+      "feature_1": {
+        "title": "Encontrar e alterar texto",
+        "content": "Oculte ou substitua palavras em segundos."
+      },
+      "feature_2": {
+        "title": "Bloquear partes de imagens",
+        "content": "Máscara seções de fotos ou conteúdo escaneado."
+      },
+      "feature_3": {
+        "title": "Apagar informações de fundo",
+        "content": "Remover metadados ocultos como autoria ou datas."
+      }
+    },
+    "about": {
+      "title": "O Que É {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornece aos desenvolvedores de {{ProgLang}} ferramentas para limpar arquivos {{FileFormatUp}}. Redija nomes, números ou notas com agilidade."
+    },
+    "formats": {
+      "title": "Redija Arquivos {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Proteja conteúdo sensível em {{FileFormatUp}} ocultando ou removendo-o utilizando as ferramentas do {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Bloquear Texto em {{FileFormatUp}} com Sobreposições {{ProgLang}}",
+      "description": "{{ProdFullName}} permite que você cubra informações sensíveis em arquivos {{FileFormatUp}} com blocos coloridos. Oculte dados enquanto mantém a formatação inalterada."
+    },
+    "header": {
+      "title": "Ocultar Dados em {{FileFormatUp}} com Sobreposições Usando {{EnvNameShort}}",
+      "description": "Use {{ProgLang}} e {{ProdFullName}} para mascarar conteúdo privado em arquivos {{FileFormatUp}} sem afetar o formato.",
+      "subtitle": "Principais Recursos do {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteger Informações em Documentos {{FileFormatCap}}",
+      "content": {
+        "title": "Mantenha seus documentos seguros usando um código simples com {{ProdFullName}} em {{EnvName}}.",
+        "step_1": "Crie um {{textRedactor}} com o caminho do arquivo.",
+        "step_2": "Configure sua lógica de redacção.",
+        "step_3": "Escolha a palavra-chave e a cor da sobreposição.",
+        "step_4": "Redija e salve o arquivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Oculte informações em {{FileFormatUp}} usando blocos",
+      "comment_2": "Carregue o arquivo com {{textRedactor}}",
+      "comment_3": "Configure as preferências de redacção",
+      "comment_4": "Adicione texto e cor para blocar",
+      "comment_5": "Salve o documento atualizado"
+    },
+    "example_bottom": {
+      "title": "Use Regex para Redigir Conteúdo",
+      "content": "Encontre e oculte automaticamente texto com correspondência de padrão",
+      "comment_1": "Abra a planilha",
+      "comment_2": "Defina o padrão e a cor da sobreposição",
+      "comment_3": "Aplique as regras de redacção",
+      "comment_4": "Exporte seu resultado"
+    },
+    "more_features": {
+      "title": "Recursos de Privacidade Integrados",
+      "description": "Use {{ProdFullName}} para bloquear ou deletar conteúdo em seus arquivos enquanto mantém a estrutura inalterada.",
+      "image_description": "Ferramentas de privacidade fáceis",
+      "feature_1": {
+        "title": "Alterar ou ocultar texto",
+        "content": "Edite ou redija palavras específicas facilmente."
+      },
+      "feature_2": {
+        "title": "Máscara partes de imagens",
+        "content": "Adicione sobreposições para ocultar fotos ou detalhes gráficos."
+      },
+      "feature_3": {
+        "title": "Remover informações ocultas",
+        "content": "Apague metadados como informações do usuário ou histórico de arquivos."
+      }
+    },
+    "about": {
+      "title": "Por Que {{ProdFullName}} Funciona",
+      "content": "{{ProdFullName}} permite que os desenvolvedores de {{ProgLang}} protejam arquivos {{FileFormatUp}}. Oculte texto, figuras ou metadados rapidamente."
+    },
+    "formats": {
+      "title": "Redija Dados {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Use sobreposições ou delete conteúdo em arquivos {{FileFormatUp}} para manter dados sensíveis privados com {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Ocultar Texto em Apresentações {{FileFormatUp}} com Sobreposições {{ProgLang}}",
+      "description": "Use {{ProdFullName}} para bloquear conteúdo sensível em arquivos {{FileFormatUp}} com sobreposições coloridas. Mantenha os slides intactos enquanto oculta informações-chave."
+    },
+    "header": {
+      "title": "Mascarar Texto em Apresentações {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Proteja facilmente detalhes pessoais ou empresariais em seus slides {{FileFormatUp}} usando {{ProgLang}} e {{ProdFullName}}.",
+      "subtitle": "Explore Recursos do {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redigir Conteúdo Privado em Slides {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} torna a proteção de conteúdo simples para desenvolvedores de {{EnvName}}.",
+        "step_1": "Configure um {{textRedactor}} com o caminho da sua apresentação.",
+        "step_2": "Escolha como a redacção deve se comportar.",
+        "step_3": "Adicione o padrão de texto e a cor da sobreposição.",
+        "step_4": "Redija o slide e salve-o."
+      }
+    },
+    "example_top": {
+      "comment_1": "Use sobreposições para bloquear texto em {{FileFormatUp}}",
+      "comment_2": "Inicialize {{textRedactor}} com sua apresentação",
+      "comment_3": "Selecione suas preferências de redacção",
+      "comment_4": "Defina o texto e a cor da sobreposição",
+      "comment_5": "Execute a redacção e salve o conjunto de slides"
+    },
+    "example_bottom": {
+      "title": "Redigir Texto com Regex",
+      "content": "Use expressões regulares para encontrar e cobrir palavras sensíveis",
+      "comment_1": "Abra o arquivo da apresentação",
+      "comment_2": "Defina o padrão de pesquisa e a cor da sobreposição",
+      "comment_3": "Execute as regras de redacção",
+      "comment_4": "Salve a versão final"
+    },
+    "more_features": {
+      "title": "Ferramentas de Redacção Poderosas",
+      "description": "Com {{ProdFullName}}, bloqueie ou remova conteúdo sensível em suas apresentações sem alterar o layout ou a formatação.",
+      "image_description": "Recursos que funcionam em todos os slides",
+      "feature_1": {
+        "title": "Oculte ou substitua texto",
+        "content": "Proteja nomes, termos ou notas que não devem ser vistas."
+      },
+      "feature_2": {
+        "title": "Cobrir áreas visuais",
+        "content": "Adicione sobreposições a fotos ou seções gráficas dos slides."
+      },
+      "feature_3": {
+        "title": "Limpar metadados",
+        "content": "Apague informações que podem revelar autoria ou histórico de edição."
+      }
+    },
+    "about": {
+      "title": "O Que {{ProdFullName}} Faz",
+      "content": "{{ProdFullName}} permite que desenvolvedores de {{ProgLang}} ocultem ou removam texto, imagens ou metadados em apresentações {{FileFormatUp}} em apenas alguns passos."
+    },
+    "formats": {
+      "title": "Proteger Slides {{FileFormatUp}} com Ferramentas {{EnvNameShort}}",
+      "description": "Cubra conteúdo sensível ou remova-o completamente de apresentações {{FileFormatUp}} usando os recursos de redacção {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Redigir Texto em {{FileFormatUp}} Usando Sobreposições {{ProgLang}}",
+      "description": "Use {{ProdFullName}} para cobrir texto sensível em arquivos {{FileFormatUp}} com blocos de cor enquanto mantém a estrutura do documento inalterada."
+    },
+    "header": {
+      "title": "Sobreposição de Redacção em Arquivos {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Oculte detalhes importantes em seus documentos {{FileFormatUp}} usando sobreposições coloridas alimentadas por {{ProgLang}} e {{ProdFullName}}.",
+      "subtitle": "O Que {{ProdFullName}} Pode Fazer"
+    },
+    "steps": {
+      "title": "Proteger Informações Privadas em Formato {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} oferece aos desenvolvedores de {{EnvName}} maneiras rápidas de limpar arquivos e proteger seu conteúdo.",
+        "step_1": "Inicie um {{textRedactor}} e carregue o arquivo {{FileFormatCap}}.",
+        "step_2": "Escolha suas opções de redacção.",
+        "step_3": "Adicione padrão de texto e cor de sobreposição.",
+        "step_4": "Execute a redacção e salve o arquivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Ocultar texto usando sobreposições em {{FileFormatUp}}",
+      "comment_2": "Use {{textRedactor}} para abrir o documento",
+      "comment_3": "Defina preferências de redacção",
+      "comment_4": "Adicione palavras-chave e selecione a cor",
+      "comment_5": "Aplique e salve seu arquivo redigido"
+    },
+    "example_bottom": {
+      "title": "Redacção Baseada em Regex",
+      "content": "Aprenda a usar regex para ocultar automaticamente conteúdo específico",
+      "comment_1": "Carregue o documento a ser redigido",
+      "comment_2": "Defina seu padrão regex e a cor da sobreposição",
+      "comment_3": "Aplique a redacção",
+      "comment_4": "Salve sua versão limpa"
+    },
+    "more_features": {
+      "title": "Mais Capacidades de Redacção",
+      "description": "Use {{ProdFullName}} para remover conteúdo visível e oculto de arquivos enquanto mantém o layout inalterado.",
+      "image_description": "Saída simples e limpa",
+      "feature_1": {
+        "title": "Substituir texto",
+        "content": "Cubra palavras ou termos que não devem ser vistos."
+      },
+      "feature_2": {
+        "title": "Mascarar visuais",
+        "content": "Use sobreposições coloridas para ocultar imagens ou partes delas."
+      },
+      "feature_3": {
+        "title": "Apagar metadados",
+        "content": "Remover detalhes ocultos nas propriedades do arquivo."
+      }
+    },
+    "about": {
+      "title": "Conheça {{ProdFullName}}",
+      "content": "{{ProdFullName}} dá aos usuários de {{ProgLang}} controle total sobre a redacção de {{FileFormatUp}}. Oculte qualquer coisa que você desejar—texto, visuais ou metadados."
+    },
+    "formats": {
+      "title": "Redigir Conteúdo em {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Mantenha seus documentos {{FileFormatUp}} privados ocultando ou removendo dados sensíveis usando {{EnvNameShort}}."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Cobrir Texto em {{FileFormatUp}} com Sobreposições e {{ProgLang}}",
+      "description": "Proteja conteúdo sensível em arquivos {{FileFormatUp}} aplicando sobreposições coloridas usando {{ProdFullName}}. Mantenha a formatação do documento intacta."
+    },
+    "header": {
+      "title": "Redigir Dados {{FileFormatUp}} com Sobreposições em {{EnvNameShort}}",
+      "description": "Use código {{ProgLang}} para mascarar informações sensíveis em planilhas {{FileFormatUp}}. Uma maneira eficaz de manter dados privados.",
+      "subtitle": "Principais Recursos do {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Ocultar Informações em Planilhas {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} ajuda desenvolvedores de {{EnvName}} a proteger arquivos ocultando informações privadas em apenas algumas linhas.",
+        "step_1": "Inicie um {{textRedactor}} e carregue sua planilha.",
+        "step_2": "Defina as regras de redacção conforme necessário.",
+        "step_3": "Escolha o texto e a cor da sobreposição.",
+        "step_4": "Aplique e salve o arquivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Use sobreposições para ocultar texto em {{FileFormatUp}}",
+      "comment_2": "Crie um {{textRedactor}} e carregue seu arquivo",
+      "comment_3": "Escolha regras de redacção",
+      "comment_4": "Digite o que ocultar e escolha uma cor",
+      "comment_5": "Aplique a redacção e salve o arquivo"
+    },
+    "example_bottom": {
+      "title": "Redacção com Regex",
+      "content": "Use regex para encontrar e ocultar texto automaticamente",
+      "comment_1": "Abra sua planilha",
+      "comment_2": "Defina o padrão e os detalhes da sobreposição",
+      "comment_3": "Aplique a redacção",
+      "comment_4": "Salve a versão limpa"
+    },
+    "more_features": {
+      "title": "Ferramentas Essenciais de Proteção de Dados",
+      "description": "Oculte ou delete informações sensíveis de suas planilhas sem quebrar layout ou significado usando {{ProdFullName}}.",
+      "image_description": "Projetado para limpeza segura de dados",
+      "feature_1": {
+        "title": "Editar ou ocultar texto",
+        "content": "Encontre e bloqueie qualquer texto que precise de proteção."
+      },
+      "feature_2": {
+        "title": "Cobrir visuais sensíveis",
+        "content": "Aplique blocos coloridos sobre áreas de gráficos ou imagens."
+      },
+      "feature_3": {
+        "title": "Remover metadados",
+        "content": "Apague histórico de documentos, nomes de autor ou timestamps."
+      }
+    },
+    "about": {
+      "title": "Por Que Escolher {{ProdFullName}}",
+      "content": "{{ProdFullName}} é projetado para desenvolvedores {{ProgLang}} que desejam ocultar ou limpar conteúdo em planilhas {{FileFormatUp}} rapidamente."
+    },
+    "formats": {
+      "title": "Redigir Folhas {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Oculte ou limpe dados sensíveis em {{FileFormatUp}} usando sobreposições e ferramentas do {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Proteger Texto em {{FileFormatUp}} com Sobreposições {{ProgLang}}",
+      "description": "Com {{ProdFullName}}, você pode bloquear texto privado em slides {{FileFormatUp}} usando caixas de sobreposição simples—sem mudar o layout."
+    },
+    "header": {
+      "title": "Ocultar Texto em {{FileFormatUp}} Usando Sobreposições e {{EnvNameShort}}",
+      "description": "Use {{ProgLang}} e {{ProdFullName}} para manter seus slides {{FileFormatUp}} seguros ao mascarar conteúdo sensível.",
+      "subtitle": "Dentro do {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Limpar Apresentações {{FileFormatCap}} Antes de Compartilhar",
+      "content": {
+        "title": "Use {{ProdFullName}} em aplicativos {{EnvName}} para ocultar ou remover partes sensíveis de seus slides.",
+        "step_1": "Crie um novo {{textRedactor}} com o caminho do seu conjunto de slides.",
+        "step_2": "Defina suas preferências de redacção.",
+        "step_3": "Defina o padrão de texto e a cor da sobreposição.",
+        "step_4": "Execute e salve o arquivo redigido."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sobreponha áreas de texto em {{FileFormatUp}}",
+      "comment_2": "Abra o arquivo com {{textRedactor}}",
+      "comment_3": "Ajuste as configurações de redacção",
+      "comment_4": "Digite o texto e escolha a cor da sobreposição",
+      "comment_5": "Redija e salve o arquivo atualizado"
+    },
+    "example_bottom": {
+      "title": "Regex para Redacção de Texto",
+      "content": "Aprenda a detectar e redigir texto usando correspondência de padrão",
+      "comment_1": "Carregue o conjunto de slides",
+      "comment_2": "Aplique suas regras regex",
+      "comment_3": "Execute a redacção",
+      "comment_4": "Salve a versão final"
+    },
+    "more_features": {
+      "title": "Redacção Simples para Slides Sensíveis",
+      "description": "{{ProdFullName}} torna fácil bloquear ou remover conteúdo de slides, independentemente do caso de uso.",
+      "image_description": "Ferramentas de redacção que se adaptam",
+      "feature_1": {
+        "title": "Encontrar e substituir texto",
+        "content": "Proteja frases ou rótulos sensíveis em qualquer slide."
+      },
+      "feature_2": {
+        "title": "Cobrir partes de visuais",
+        "content": "Adicione sobreposições a áreas ou imagens selecionadas dos slides."
+      },
+      "feature_3": {
+        "title": "Remover conteúdo oculto",
+        "content": "Apague metadados de slides ou notas de revisão antes de compartilhar."
+      }
+    },
+    "about": {
+      "title": "Sobre {{ProdFullName}}",
+      "content": "{{ProdFullName}} ajuda desenvolvedores {{ProgLang}} a limpar slides {{FileFormatUp}} ao bloquear ou excluir conteúdo sensível como texto, metadados ou imagens."
+    },
+    "formats": {
+      "title": "Proteger Slides {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Use redacção por sobreposição e ferramentas de limpeza do {{EnvNameShort}} para manter seus slides {{FileFormatUp}} privados."
+    }
+  }
+}

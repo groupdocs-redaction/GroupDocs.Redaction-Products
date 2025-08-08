@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中隐藏图像并添加覆盖层",
+      "description": "通过 {{ProdFullName}}，您可以通过添加彩色覆盖层保护 {{FileFormatUp}} 文件中的敏感图像。在不改变文档布局的情况下，保护私人信息。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 通过覆盖层保护 {{FileFormatUp}} 文档中的敏感图像",
+      "description": "使用 {{ProgLang}} 保持 {{FileFormatUp}} 文件中的业务和个人数据安全。我们的工具帮助您实现强大的数据保护。",
+      "subtitle": "{{ProdFullName}} 功能"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文档中的业务数据",
+      "content": {
+        "title": "{{ProdFullName}}：旨在帮助您的 {{EnvName}} 应用程序保护文档。快速且有效地涂抹私人信息。",
+        "step_1": "创建一个 {{textRedactor}} 实例，并提供要保护的 {{FileFormatCap}} 文件路径。",
+        "step_2": "调整涂抹设置以获得所需的结果。",
+        "step_3": "选择图像区域并设置覆盖层颜色。",
+        "step_4": "处理文件并保存已涂抹的文档。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中隐藏敏感图像内容",
+      "comment_2": "使用 {{textRedactor}} 构造函数加载文件",
+      "comment_3": "配置覆盖层的颜色和大小",
+      "comment_4": "选择待涂抹的区域",
+      "comment_5": "对图像应用覆盖层并保存文件"
+    },
+    "example_bottom": {
+      "title": "使用覆盖层隐藏图像数据",
+      "content": "此示例展示如何覆盖文档图像中的敏感信息。",
+      "comment_1": "加载需要涂抹的文档",
+      "comment_2": "设置覆盖层参数：大小、位置和颜色",
+      "comment_3": "针对第一页的特定图像区域",
+      "comment_4": "应用覆盖层以隐藏图像",
+      "comment_5": "保存已涂抹的文档"
+    },
+    "more_features": {
+      "title": "在文档中涂抹内容",
+      "description": "使用 {{ProdFullName}}，您可以在众多文件格式中隐藏或删除内容。在保持文档易于阅读和共享的同时，保护机密信息。",
+      "image_description": "高级涂抹功能",
+      "feature_1": {
+        "title": "随处编辑文本",
+        "content": "在文档中搜索并替换敏感文本，以确保私人数据安全。"
+      },
+      "feature_2": {
+        "title": "遮盖图像",
+        "content": "对整个图像或选定区域应用覆盖层，以隐藏敏感视觉内容。"
+      },
+      "feature_3": {
+        "title": "处理元数据",
+        "content": "删除或更改隐藏的元数据，防止意外的数据暴露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供强大的工具，用于隐藏或删除 {{FileFormatUp}} 文件中的内容。通过覆盖文本、图像和元数据，轻松保护文档在多种格式中的安全。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 替换保护 {{FileFormatUp}} 内容",
+      "description": "利用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感内容。这是保护正式文件及机密资料的有效解决方案。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中覆盖图像",
+      "description": "使用 {{ProdFullName}} 在 {{FileFormatUp}} 文件中通过彩色覆盖层覆盖敏感图像。在保持文档布局不变的情况下保护私人数据。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文档中覆盖敏感图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和业务信息。我们的工具使数据保护简单而可靠。",
+      "subtitle": "{{ProdFullName}} 的功能"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文件中的数据",
+      "content": {
+        "title": "{{ProdFullName}}：旨在帮助您的 {{EnvName}} 应用程序保护文档。仅需几步就可涂抹敏感信息。",
+        "step_1": "初始化 {{textRedactor}} 并提供 {{FileFormatCap}} 文件的路径。",
+        "step_2": "配置涂抹选项以满足需求。",
+        "step_3": "选择图像区域并选择覆盖层颜色。",
+        "step_4": "运行涂抹并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中覆盖敏感图像区域",
+      "comment_2": "通过 {{textRedactor}} 构造函数加载文件",
+      "comment_3": "设置覆盖层颜色和大小",
+      "comment_4": "定义涂抹区域",
+      "comment_5": "应用覆盖层并保存文档"
+    },
+    "example_bottom": {
+      "title": "应用覆盖层以隐藏图像细节",
+      "content": "此示例展示如何隐藏文档图像中的敏感区域。",
+      "comment_1": "加载您要涂抹的文档",
+      "comment_2": "指定覆盖层参数：大小、位置、颜色",
+      "comment_3": "目标为第一页的特定区域",
+      "comment_4": "在图像上放置覆盖层",
+      "comment_5": "保存更新后的文件"
+    },
+    "more_features": {
+      "title": "在文件中涂抹内容",
+      "description": "使用 {{ProdFullName}}，您可以隐藏或删除多种文件类型中的敏感内容。在保持文档安全的同时，确保可读性。",
+      "image_description": "灵活的涂抹选项",
+      "feature_1": {
+        "title": "轻松编辑文本",
+        "content": "在文档中找到并替换私人文本，提升数据安全性。"
+      },
+      "feature_2": {
+        "title": "覆盖图像区域",
+        "content": "对整个图像或选择的部分进行覆盖，以保护视觉信息。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "删除或更改隐藏的元数据，以避免无意的数据泄露。"
+      }
+    },
+    "about": {
+      "title": "了解 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供工具，以隐藏或删除 {{FileFormatUp}} 文件中的内容。通过覆盖文本、图像和元数据保护文档，支持多种格式。"
+    },
+    "formats": {
+      "title": "用 {{EnvNameShort}} 替换保护 {{FileFormatUp}} 文件",
+      "description": "利用 {{EnvNameShort}} 涉及覆盖或删除 {{FileFormatUp}} 文件中的敏感数据。理想的方式，以确保机密文档的安全。"
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "在 {{FileFormatUp}} 文件中使用 {{ProgLang}} 遮罩图像",
+      "description": "通过使用 {{ProdFullName}}，您可以通过添加彩色覆盖层来遮罩 {{FileFormatUp}} 文件中的敏感图像内容。在保持文档结构不变的情况下保护重要数据。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文档中遮罩敏感图像",
+      "description": "使用 {{ProgLang}} 确保 {{FileFormatUp}} 文件中的数据隐私。我们的工具旨在使图像涂抹快速有效。",
+      "subtitle": "{{ProdFullName}} 关键特性"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文档中保护私人数据",
+      "content": {
+        "title": "{{ProdFullName}}：帮助您的 {{EnvName}} 应用程序高效保护文档。",
+        "step_1": "创建一个 {{textRedactor}} 实例并加载 {{FileFormatCap}} 文件。",
+        "step_2": "设置涂抹参数以满足您的需求。",
+        "step_3": "定义图像区域并选择覆盖层颜色。",
+        "step_4": "应用涂抹并保存输出文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中遮罩敏感图像部分",
+      "comment_2": "初始化 {{textRedactor}}，并提供文件路径",
+      "comment_3": "选择覆盖层大小和颜色",
+      "comment_4": "标记要涂抹的区域",
+      "comment_5": "应用并保存更改"
+    },
+    "example_bottom": {
+      "title": "使用覆盖层隐藏图像内容",
+      "content": "学习如何在文档中遮罩敏感图像区域。",
+      "comment_1": "打开要涂抹的文档",
+      "comment_2": "定义覆盖层属性：大小、位置、颜色",
+      "comment_3": "聚焦于特定图像区域",
+      "comment_4": "对图像区域应用覆盖",
+      "comment_5": "保存已涂抹的文档"
+    },
+    "more_features": {
+      "title": "文档涂抹功能",
+      "description": "使用 {{ProdFullName}}，您可以在多种文件格式中删除或隐藏内容。在保持干净布局的同时，保护敏感数据。",
+      "image_description": "强大的涂抹功能",
+      "feature_1": {
+        "title": "搜索并替换文本",
+        "content": "快速查找并涂抹机密文本，以保护敏感数据。"
+      },
+      "feature_2": {
+        "title": "遮罩图像内容",
+        "content": "对整个图像或特定区域施加覆盖层，以隐藏私人视觉信息。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "删除或调整隐藏元数据以防止意外数据暴露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供简单的工具，用于隐藏或删除 {{FileFormatUp}} 文件中的内容。通过在不同格式中覆盖文本、图像和元数据来保护文档。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 涂抹保护 {{FileFormatUp}} 内容",
+      "description": "利用 {{EnvNameShort}} 涉及在 {{FileFormatUp}} 文件中替代或删除敏感内容。这是保护业务和个人文档的实用解决方案。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中涂抹图像",
+      "description": "通过将彩色覆盖层应用于 {{FileFormatUp}} 文件中的敏感图像内容，使用 {{ProdFullName}} 保护机密数据，而不改变文档结构。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文档中涂抹敏感图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的私人和商业数据。我们的工具使涂抹图像的速度快而且简单。",
+      "subtitle": "{{ProdFullName}} 所提供的内容"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文档中保护业务数据",
+      "content": {
+        "title": "{{ProdFullName}}：帮助 {{EnvName}} 应用程序通过隐藏敏感信息来保障文档安全。",
+        "step_1": "设置 {{textRedactor}} 实例并加载 {{FileFormatCap}} 文件。",
+        "step_2": "调整涂抹设置以适应您的需求。",
+        "step_3": "选择图像区域并指定覆盖颜色。",
+        "step_4": "处理涂抹并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中涂抹敏感图像区域",
+      "comment_2": "使用 {{textRedactor}} 打开文件",
+      "comment_3": "定义覆盖层颜色和尺寸",
+      "comment_4": "选择要涂抹的区域",
+      "comment_5": "应用覆盖并保存文档"
+    },
+    "example_bottom": {
+      "title": "使用覆盖层隐藏图像数据",
+      "content": "此示例展示如何在文档中涂抹敏感图像。",
+      "comment_1": "加载文档",
+      "comment_2": "设置覆盖层大小、位置和颜色",
+      "comment_3": "在第一页上标记涂抹区域",
+      "comment_4": "应用覆盖层",
+      "comment_5": "保存已涂抹的文件"
+    },
+    "more_features": {
+      "title": "文档涂抹工具",
+      "description": "{{ProdFullName}} 让您能够在多种文件类型中隐藏或删除敏感内容。在保持文档整洁且易于共享的同时保护信息。",
+      "image_description": "强大的涂抹工具",
+      "feature_1": {
+        "title": "查找并替换文本",
+        "content": "定位并涂抹私人文本，以增强文档安全性。"
+      },
+      "feature_2": {
+        "title": "涂抹图像内容",
+        "content": "覆盖整个图像或选定区域，以隐藏私人视觉内容。"
+      },
+      "feature_3": {
+        "title": "移除元数据",
+        "content": "删除或修改隐藏元数据，以防止数据泄露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供简单工具，用于隐藏或删除 {{FileFormatUp}} 文件中的内容。通过快速涂抹文本、图像和元数据来保护文档。"
+    },
+    "formats": {
+      "title": "用 {{EnvNameShort}} 替换保护 {{FileFormatUp}} 内容",
+      "description": "利用 {{EnvNameShort}} 涉及在 {{FileFormatUp}} 文件中替代或删除敏感内容。确保文档安全性可靠的解决方案。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中覆盖图像",
+      "description": "使用 {{ProdFullName}} 隐藏 {{FileFormatUp}} 文件中的敏感图像区域。添加彩色覆盖层以保护私人数据，同时保持文档的原始布局不变。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中隐藏私人图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文档中的个人和企业数据。借助我们简单的工具实现可靠的内容保护。",
+      "subtitle": "{{ProdFullName}} 的主要功能"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文件中的敏感数据",
+      "content": {
+        "title": "{{ProdFullName}} 帮助您的 {{EnvName}} 应用程序快速隐藏文档中的私人内容。",
+        "step_1": "创建一个 {{textRedactor}} 对象并指定 {{FileFormatCap}} 文件路径。",
+        "step_2": "根据需求设置涂抹参数。",
+        "step_3": "标记图像区域并定义覆盖颜色。",
+        "step_4": "处理并保存已涂抹的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中覆盖敏感图像",
+      "comment_2": "通过 {{textRedactor}} 构造函数加载文件",
+      "comment_3": "定义覆盖层颜色和维度",
+      "comment_4": "选择涂抹的图像区域",
+      "comment_5": "应用覆盖层并保存文档"
+    },
+    "example_bottom": {
+      "title": "添加覆盖层以隐藏图像内容",
+      "content": "此示例展示如何使用覆盖层保护文档图像中的敏感数据。",
+      "comment_1": "加载待编辑文档",
+      "comment_2": "设置覆盖层的大小、位置和颜色",
+      "comment_3": "关注第一页的特定图像区域",
+      "comment_4": "应用覆盖层涂抹",
+      "comment_5": "保存文件更改"
+    },
+    "more_features": {
+      "title": "隐藏或删除文档内容",
+      "description": "{{ProdFullName}} 简化了在多种文件格式中隐藏或删除数据的流程。在保护敏感信息的同时，保持文档整洁和可读。",
+      "image_description": "详细的涂抹工具",
+      "feature_1": {
+        "title": "随处替换文本",
+        "content": "在文档中搜索并替换敏感文本以保护私人信息。"
+      },
+      "feature_2": {
+        "title": "遮罩图像",
+        "content": "对特定图像区域或整个图像添加覆盖层，以隐蔽私人视觉内容。"
+      },
+      "feature_3": {
+        "title": "清除元数据",
+        "content": "删除或修改隐藏的元数据，以避免意外信息泄露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供工具，帮助他们隐藏或删除 {{FileFormatUp}} 文件中的内容。通过快速涂抹文本、图像和元数据来保护文档的安全性。"
+    },
+    "formats": {
+      "title": "用 {{EnvNameShort}} 替换保护 {{FileFormatUp}} 内容",
+      "description": "{{EnvNameShort}} 使您能够在 {{FileFormatUp}} 文件中隐藏或删除敏感内容。这是保护机密和官方文件的可靠方式。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中遮罩图像",
+      "description": "使用 {{ProdFullName}} 隐藏 {{FileFormatUp}} 文件中的私人图像。添加覆盖层以保留敏感数据的安全，同时保持文档的布局不变。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中覆盖敏感图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和业务数据。我们的工具能够快速可靠地保证数据保护。",
+      "subtitle": "探索 {{ProdFullName}} 功能"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文件中确保数据安全",
+      "content": {
+        "title": "{{ProdFullName}} 帮助您的 {{EnvName}} 应用程序通过隐藏敏感内容来保护文档。",
+        "step_1": "创建一个 {{textRedactor}} 实例并提供 {{FileFormatCap}} 文件路径。",
+        "step_2": "配置涂抹选项，以满足期望的效果。",
+        "step_3": "选择图像区域和覆盖层颜色。",
+        "step_4": "应用涂抹并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中遮罩图像内容",
+      "comment_2": "使用 {{textRedactor}} 加载文档",
+      "comment_3": "设置覆盖层大小和颜色",
+      "comment_4": "选择待隐藏区域",
+      "comment_5": "应用并保存更改"
+    },
+    "example_bottom": {
+      "title": "使用覆盖层遮罩图像数据",
+      "content": "此示例展示如何在文档图像中覆盖敏感信息。",
+      "comment_1": "打开要编辑的文件",
+      "comment_2": "定义覆盖层大小、颜色和位置",
+      "comment_3": "选择第一页的特定图像部分",
+      "comment_4": "对图像应用覆盖层以实现遮罩",
+      "comment_5": "保存最终文档"
+    },
+    "more_features": {
+      "title": "在文档中替换任何内容",
+      "description": "{{ProdFullName}} 帮助您在多种文档格式中隐藏或删除敏感内容。在保护数据的同时，确保文档使用简单。",
+      "image_description": "功能强大的涂抹选项",
+      "feature_1": {
+        "title": "搜索并编辑文本",
+        "content": "查找敏感文本并替换，保护文档中的私人数据。"
+      },
+      "feature_2": {
+        "title": "遮罩图像区域",
+        "content": "对整个图像或选定部分添加覆盖层，以保护视觉信息。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "清除隐含的元数据字段，以避免意外信息泄露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 {{ProgLang}} 开发人员能够使用工具隐藏或删除 {{FileFormatUp}} 文件中的敏感内容。通过覆盖文本、图像和元数据确保文档的安全性。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 涂抹保护 {{FileFormatUp}} 文件",
+      "description": "利用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感信息。这是安全保证文件保护的值得信赖的解决方案。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中隐藏敏感图像",
+      "description": "使用 {{ProdFullName}} 在 {{FileFormatUp}} 文件中放置覆盖层，确保私人信息不被泄露，同时保持布局完整。"
+    },
+    "header": {
+      "title": "使用覆盖层通过 {{EnvNameShort}} 在 {{FileFormatUp}} 文档中隐藏私人图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和公司数据。简单的工具确保文档隐私。",
+      "subtitle": "{{ProdFullName}} 的主要功能"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文档中保护敏感信息",
+      "content": {
+        "title": "{{ProdFullName}} 是为了帮助您的 {{EnvName}} 应用程序快速保护文件内容而构建的。",
+        "step_1": "创建一个 {{textRedactor}} 对象并指定 {{FileFormatCap}} 文件。",
+        "step_2": "调整涂抹设置以适应您的需求。",
+        "step_3": "选择图像区域并挑选覆盖层颜色。",
+        "step_4": "应用涂抹并保存文档。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 替换敏感图像区域",
+      "comment_2": "使用 {{textRedactor}} 打开文件",
+      "comment_3": "定义覆盖层颜色和大小",
+      "comment_4": "选择涂抹区域",
+      "comment_5": "应用覆盖并保存文档"
+    },
+    "example_bottom": {
+      "title": "用覆盖层保护图像数据",
+      "content": "此示例展示如何在文档中遮盖敏感图像数据。",
+      "comment_1": "加载文件以进行涂抹",
+      "comment_2": "确定覆盖层大小、位置和颜色",
+      "comment_3": "标记第一页上的图像区域",
+      "comment_4": "对图像应用覆盖层",
+      "comment_5": "保存已替换的文档"
+    },
+    "more_features": {
+      "title": "在文档中涂抹敏感数据",
+      "description": "{{ProdFullName}} 使您能够在多种文档类型中隐藏或删除内容。在确保文件易于使用和共享的同时保护私人数据。",
+      "image_description": "功能丰富的涂抹工具",
+      "feature_1": {
+        "title": "查找并编辑文本",
+        "content": "搜索文档中的敏感文本并替换，以保护私人数据。"
+      },
+      "feature_2": {
+        "title": "遮罩图像内容",
+        "content": "使用覆盖层覆盖整个图像或所选区域，以保持视觉内容隐私。"
+      },
+      "feature_3": {
+        "title": "清除元数据",
+        "content": "删除或更改隐藏的元数据，以避免数据泄露。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 是什么？",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供简单的工具，以隐藏或移除 {{FileFormatUp}} 文件中的内容。通过覆盖敏感文本、图像和元数据来保护文档。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 替换保护 {{FileFormatUp}} 内容",
+      "description": "利用 {{EnvNameShort}} 涉及在 {{FileFormatUp}} 文件中覆盖或删除私人内容。保护敏感文档的可靠解决方案。"
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "使用 {{ProgLang}} 隐藏 {{FileFormatUp}} 中的图像",
+      "description": "通过使用 {{ProdFullName}} 添加彩色覆盖层，在 {{FileFormatUp}} 文件中保护私人图像。保持信息安全，同时不改变文件的布局。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 通过覆盖层保护 {{FileFormatUp}} 文件中的敏感图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和商业图像。我们的简单工具使文件保护既简单又可靠。",
+      "subtitle": "{{ProdFullName}} 的主要功能"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文件中的敏感数据",
+      "content": {
+        "title": "{{ProdFullName}} 旨在帮助您的 {{EnvName}} 应用程序快速隐藏私人内容。",
+        "step_1": "创建一个 {{textRedactor}} 对象并提供 {{FileFormatCap}} 文件的路径。",
+        "step_2": "设置涂抹选项以满足您的需求。",
+        "step_3": "标记图像区域并选择覆盖层颜色。",
+        "step_4": "运行涂抹并保存安全版本的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 文件中保护图像内容",
+      "comment_2": "通过 {{textRedactor}} 打开文件",
+      "comment_3": "定义覆盖层的维度和颜色",
+      "comment_4": "选择要隐藏的区域",
+      "comment_5": "应用覆盖层并保存结果"
+    },
+    "example_bottom": {
+      "title": "使用覆盖层隐藏图像数据",
+      "content": "此示例展示如何在文件中遮盖敏感图像区域。",
+      "comment_1": "打开文件以进行编辑",
+      "comment_2": "配置覆盖层的大小、位置和颜色",
+      "comment_3": "选择第一页上的特定图像区域",
+      "comment_4": "将覆盖层应用于遮盖图像",
+      "comment_5": "保存已涂抹的文件"
+    },
+    "more_features": {
+      "title": "在文档中隐蔽任何内容",
+      "description": "{{ProdFullName}} 使您能够在多种文件格式中隐藏或移除内容。在保持文件整洁和易于共享的同时，保护敏感信息。",
+      "image_description": "全面控制的涂抹工具",
+      "feature_1": {
+        "title": "随处编辑文本",
+        "content": "在文档中查找并替换敏感文本，以保护私人数据。"
+      },
+      "feature_2": {
+        "title": "遮罩图像",
+        "content": "对图像或特定区域施加覆盖层，以保持敏感视觉内容隐蔽。"
+      },
+      "feature_3": {
+        "title": "清洁元数据",
+        "content": "删除或更新隐藏的元数据，以防止意外信息泄露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供工具，可以隐蔽或删除 {{FileFormatUp}} 文件中的内容。通过涂抹文本、图像和元数据，快速保护文档安全。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 替代保护 {{FileFormatUp}} 文件",
+      "description": "利用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感数据。保证文件安全性可信的解决方案。"
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "使用 {{ProgLang}} 通过添加覆盖层保护 {{FileFormatUp}} 中的图像",
+      "description": "借助 {{ProdFullName}}，您可以在 {{FileFormatUp}} 文件中使用彩色覆盖层隐藏敏感图像数据。确保重要信息的安全，同时保持文件的原始设计。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中隐藏私人图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的敏感业务和个人图像。快速有效地保护内容的简单工具。",
+      "subtitle": "{{ProdFullName}} 的关键功能"
+    },
+    "steps": {
+      "title": "使用覆盖层保护 {{FileFormatCap}} 文件中的数据",
+      "content": {
+        "title": "使用 {{ProdFullName}}，快速在您的 {{EnvName}} 应用程序中隐藏私人内容。",
+        "step_1": "创建一个 {{textRedactor}} 实例并提供 {{FileFormatCap}} 文件路径。",
+        "step_2": "根据需要调整涂抹设置。",
+        "step_3": "选择图像区域并定义覆盖层颜色。",
+        "step_4": "处理文件并保存安全版本。"
+      }
+    },
+    "example_top": {
+      "comment_1": "保护 {{FileFormatUp}} 中的图像内容",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "定义覆盖层的尺寸和颜色",
+      "comment_4": "选择要隐藏的区域",
+      "comment_5": "添加覆盖层并保存结果"
+    },
+    "example_bottom": {
+      "title": "使用覆盖层隐藏图像内容",
+      "content": "此代码示例展示如何使用覆盖层隐藏敏感图像内容。",
+      "comment_1": "加载需涂抹的文件",
+      "comment_2": "配置覆盖层的大小、颜色和位置",
+      "comment_3": "选择第一页上的图像区域",
+      "comment_4": "添加覆盖层以隐藏图像内容",
+      "comment_5": "保存更新的文件"
+    },
+    "more_features": {
+      "title": "在不同文件格式中涂抹内容",
+      "description": "{{ProdFullName}} 允许您隐蔽或删除多种文件格式中的内容。在保护敏感数据的同时，保持清晰可读的格式。",
+      "image_description": "全面控件的涂抹功能",
+      "feature_1": {
+        "title": "查找并替换文本",
+        "content": "在文档中搜索并替换敏感文本，以保护私人信息。"
+      },
+      "feature_2": {
+        "title": "遮罩图像",
+        "content": "添加彩色覆盖层以遮蔽整个图像或特定部分。"
+      },
+      "feature_3": {
+        "title": "编辑元数据",
+        "content": "删除或修改隐藏元数据字段，以防止数据暴露。"
+      }
+    },
+    "about": {
+      "title": " {{ProdFullName}} 是什么？",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供强大的工具，以在 {{FileFormatUp}} 文件中隐藏或删除敏感内容。通过遮罩敏感文本、图像和元数据来保护文档。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 替换保护 {{FileFormatUp}} 内容",
+      "description": "利用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感数据。可靠的保护官方文件和机密信息的方法。"
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "使用 {{ProgLang}} 添加覆盖层以隐藏 {{FileFormatUp}} 中的图像",
+      "description": "使用 {{ProdFullName}} 通过应用覆盖层来隐藏 {{FileFormatUp}} 文件中的敏感图像内容。保护私人数据，同时保持文档的布局不变。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中隐藏图像内容",
+      "description": "利用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和商业图像。使用易于操作的工具有效保护内容。",
+      "subtitle": "{{ProdFullName}} 主要功能"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文件中的内容",
+      "content": {
+        "title": "{{ProdFullName}} 使您能够快速且简单地在 {{EnvName}} 应用程序中保护内容。",
+        "step_1": "创建一个 {{textRedactor}} 对象并指向 {{FileFormatCap}} 文件。",
+        "step_2": "根据需要调整涂抹设置。",
+        "step_3": "选择图像区域并设置覆盖层颜色。",
+        "step_4": "运行涂抹并保存已保护的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "对 {{FileFormatUp}} 中的图像应用覆盖层",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "配置覆盖层的大小和颜色",
+      "comment_4": "选择要隐藏的图像区域",
+      "comment_5": "应用覆盖层并保存更改"
+    },
+    "example_bottom": {
+      "title": "用覆盖层隐藏图像数据",
+      "content": "此代码示例展示如何通过覆盖层遮盖文件中的图像区域。",
+      "comment_1": "加载文件以进行编辑",
+      "comment_2": "设置覆盖层的位置、尺寸和颜色",
+      "comment_3": "专注于第一页的特定图像区域",
+      "comment_4": "应用覆盖层以隐藏图像",
+      "comment_5": "保存已替换的文件"
+    },
+    "more_features": {
+      "title": "轻松涂抹敏感内容",
+      "description": "{{ProdFullName}} 帮助您在多种文件类型中隐藏或删除敏感内容。在保持文档整洁且易于阅读的同时保护私人数据。",
+      "image_description": "全面的涂抹工具",
+      "feature_1": {
+        "title": "在文档中编辑文本",
+        "content": "搜索并替换文档中的私人文本，以确保敏感信息的安全。"
+      },
+      "feature_2": {
+        "title": "隐藏图像区域",
+        "content": "为图像或选定部分添加覆盖层，以遮掩敏感视觉信息。"
+      },
+      "feature_3": {
+        "title": "清除元数据",
+        "content": "删除隐藏的元数据，以避免无意数据泄露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供强大的工具，以在 {{FileFormatUp}} 文件中隐藏或删除内容。通过快速涂抹文本、图像和元数据，保护文档安全。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 替换保护 {{FileFormatUp}} 内容",
+      "description": "利用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的私人内容。确保文档安全性和可靠性的简易解决方案。"
+    }
+  }
+}

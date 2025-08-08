@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Excel 문서 수정",
+        "description": "MS Excel 및 Open Office 스프레드시트"
+      },
+      "word": {
+        "name": "Word 문서 수정",
+        "description": "MS Word 및 Open Office 문서"
+      },
+      "powerpoint": {
+        "name": "PowerPoint 수정",
+        "description": "MS PowerPoint 및 Open Office 프레젠테이션"
+      },
+      "image": {
+        "name": "이미지 수정",
+        "description": "인기 이미지 형식"
+      },
+      "photo": {
+        "name": "사진 수정",
+        "description": "사진 형식"
+      },
+      "pdf": {
+        "name": "PDF 수정",
+        "description": "Adobe 휴대용 문서 형식"
+      },
+      "doc": {
+        "name": "DOC 수정",
+        "description": "Microsoft Word 97 - 2007 문서"
+      },
+      "docx": {
+        "name": "DOCX 수정",
+        "description": "Microsoft Word Open XML 문서"
+      },
+      "xls": {
+        "name": "XLS 수정",
+        "description": "Microsoft Excel 통합 문서 97-2003"
+      },
+      "xlsx": {
+        "name": "XLSX 수정",
+        "description": "Microsoft Excel Open XML 스프레드시트"
+      },
+      "ppt": {
+        "name": "PPT 수정",
+        "description": "PowerPoint 프레젠테이션 97-2003"
+      },
+      "pptx": {
+        "name": "PPTX 수정",
+        "description": "PowerPoint Open XML 프레젠테이션"
+      },
+      "jpg": {
+        "name": "JPEG 수정",
+        "description": "JPEG 이미지"
+      },
+      "jpeg": {
+        "name": "JPEG 수정",
+        "description": "JPEG 이미지"
+      },
+      "png": {
+        "name": "PNG 수정",
+        "description": "휴대용 네트워크 그래픽"
+      },
+      "tiff": {
+        "name": "TIFF 수정",
+        "description": "태그 이미지 파일 형식"
+      },
+      "webp": {
+        "name": "WEBP 수정",
+        "description": "WEB 이미지"
+      },
+      "rtf": {
+        "name": "RTF 수정",
+        "description": "리치 텍스트 형식"
+      }
+    },
+    "format-code": {
+      "copy_title": "복사",
+      "result_title": "샘플 수정 내용",
+      "result_title_bottom": "결과 다운로드",
+      "copy_tip": "클릭하여 복사",
+      "copy_done": "복사됨",
+      "links": {
+        "title_1": "더 많은 예시",
+        "title_2": "문서"
+      }
+    },
+    "format-actions": {
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}} 기능을 무료로 사용해 보시거나 라이센스를 요청하세요",
+      "comment_1": "{{PackageStoreName}} 다운로드",
+      "comment_2": "라이센스"
+    },
+    "texts": {
+      "learn_more": "자세히 알아보기"
+    }
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}オーバーレイを使用して{{FileFormatUp}}ファイルの機密テキストを隠す",
+      "description": "{{ProdFullName}}を使用すると、色付きのオーバーレイを追加して{{FileFormatUp}}ファイルの機密テキストを隠すことができます。ファイルの見た目を変えずにプライベートデータを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}の機密テキストを隠す",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルを保護します。法的、個人的、または機密情報をブロックするためにオーバーレイを使用します。",
+      "subtitle": "{{ProdFullName}} のハイライト"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルの機密情報を安全に保つ",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、あなたの{{EnvName}}アプリでプライベートコンテンツを迅速に隠します。",
+        "step_1": "{{textRedactor}}を設定し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "削除方法を選択します。",
+        "step_3": "隠すテキストを選択し、オーバーレイの色を選びます。",
+        "step_4": "削除を適用し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "色付きオーバーレイを使用して{{FileFormatUp}}の機密テキストを隠す",
+      "comment_2": "{{textRedactor}}にファイルのパスを渡してファイルをロードします",
+      "comment_3": "削除オプションを設定します",
+      "comment_4": "隠す内容を定義し、色を選択します",
+      "comment_5": "{{FileFormatUp}}ファイルを削除して保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使用してテキストを検索して隠す",
+      "content": "この例では、正規表現パターンを使用してテキストを検索して隠す方法を示します。",
+      "comment_1": "ドキュメントをロードします",
+      "comment_2": "テキストパターンとオーバーレイの色を設定します",
+      "comment_3": "選択したコンテンツを削除します",
+      "comment_4": "更新されたファイルを保存します"
+    },
+    "more_features": {
+      "title": "ドキュメントから情報を隠すまたは削除する",
+      "description": "{{ProdFullName}}を使用すると、多くのフォーマットでテキスト、画像、その他のデータを隠すことができます。重要な情報を保護しつつ、ドキュメントを読みやすく、共有しやすく保ちます。",
+      "image_description": "柔軟な削除機能",
+      "feature_1": {
+        "title": "任意のテキストを編集",
+        "content": "機密テキストを見つけて置き換えることで、ドキュメントを安全に保つことができます。"
+      },
+      "feature_2": {
+        "title": "画像を覆う",
+        "content": "オーバーレイを使用して、全体の画像または特定の領域をブロックします。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "隠されたデータを削除して、意図しない情報漏洩を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者が{{FileFormatUp}}ファイル内のコンテンツを簡単に隠したり削除したりする方法を提供します。多くのフォーマットにわたる機密テキスト、画像、またはメタデータを覆い隠します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}ツールで{{FileFormatUp}}ファイルを保護",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりします。プライベート情報を安全に保つための信頼できる方法です。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用したオーバーレイによる{{FileFormatUp}}内のテキストの隠蔽",
+      "description": "{{ProdFullName}}を使用して{{FileFormatUp}}ファイル内の機密テキストを保護します。レイアウトを変更せずに、シンプルな正方形のオーバーレイを追加します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを隠す",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内のプライベートコンテンツを覆います。法的、個人的、またはビジネス文書に最適です。",
+      "subtitle": "{{ProdFullName}}の主な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}内のプライベート情報を隠す",
+      "content": {
+        "title": "{{ProdFullName}}を使用すると、{{EnvName}}開発者は数行でコンテンツを隠すことができます。",
+        "step_1": "{{textRedactor}}を作成し、ファイルを開きます。",
+        "step_2": "削除設定を選択します。",
+        "step_3": "隠すテキストを入力し、色を選びます。",
+        "step_4": "削除を適用し、編集されたバージョンを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内でオーバーレイを使用してコンテンツを隠す",
+      "comment_2": "{{textRedactor}}を設定し、ファイルをロードします",
+      "comment_3": "削除オプションを設定します",
+      "comment_4": "テキストを定義し、色を選択します",
+      "comment_5": "削除を適用し、ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現でテキストを見つけて削除",
+      "content": "正規表現を利用してテキストを見つけて隠す方法を学びます。",
+      "comment_1": "削除するためにファイルを開きます",
+      "comment_2": "パターンと色を設定します",
+      "comment_3": "削除プロセスを実行します",
+      "comment_4": "クリーンなドキュメントを保存します"
+    },
+    "more_features": {
+      "title": "追加の削除ツール",
+      "description": "{{ProdFullName}}は、さまざまなファイルタイプをサポートしているので、どのコンテンツでも保護できます。",
+      "image_description": "組み込みの削除機能",
+      "feature_1": {
+        "title": "テキストを見つけて編集",
+        "content": "キーワードを検索して、すぐに隠したり置き換えたりできます。"
+      },
+      "feature_2": {
+        "title": "画像領域を覆う",
+        "content": "スキャンしたページや写真の敏感な領域をブロックします。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "詳細を明らかにする可能性のある隠れた情報を削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者が{{FileFormatUp}}ファイル内のプライベートコンテンツを隠したり削除したりする手助けをします。テキスト、画像、さらには隠されたメタデータをブロックすることができます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}で{{FileFormatUp}}ファイルを安全に保つ",
+      "description": "シンプルなツールを使って、{{EnvNameShort}}を使用して{{FileFormatUp}}ドキュメント内の機密コンテンツを隠したり削除したりします。"
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}とオーバーレイを使用して{{FileFormatUp}}内のテキストを隠す",
+      "description": "{{ProdFullName}}は、色付きオーバーレイを追加することで{{FileFormatUp}}ファイル内のテキストを隠す手助けをします。ファイルのレイアウトを変更せずにデータをプライベートに保つことができます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}オーバーレイを使用して{{FileFormatUp}}ファイル内のテキストを隠す",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、シンプルなオーバーレイを使って{{FileFormatUp}}ファイル内の機密テキストを保護します。",
+      "subtitle": "{{ProdFullName}}で得られるもの"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のデータを保護",
+      "content": {
+        "title": "{{ProdFullName}}を使用すれば、{{EnvName}}開発者は数行のコードでプライベート情報を隠すことができます。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "あなたのケースに合った削除オプションを設定します。",
+        "step_3": "隠すテキストパターンを追加し、色を選択します。",
+        "step_4": "削除を実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内のプライベートコンテンツをオーバーレイで隠す",
+      "comment_2": "{{textRedactor}}を使用してファイルをロードします",
+      "comment_3": "削除設定を設定します",
+      "comment_4": "隠すテキストとオーバーレイの色を選択します",
+      "comment_5": "削除を実行し、ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現パターンを使用してテキストを隠す",
+      "content": "この例では、正規表現を使用してコンテンツを見つけて隠す方法を示します。",
+      "comment_1": "編集したいファイルを開きます",
+      "comment_2": "テキストパターンとオーバーレイの色を設定します",
+      "comment_3": "削除ルールを適用します",
+      "comment_4": "削除版を保存します"
+    },
+    "more_features": {
+      "title": "役立つ削除ツール",
+      "description": "{{ProdFullName}}を使用すると、多くのファイルタイプからコンテンツを隠したり削除したりできます。個人情報やビジネス情報を保護します。",
+      "image_description": "使いやすい削除オプション",
+      "feature_1": {
+        "title": "テキストを見つけて編集",
+        "content": "特定のテキストを検索し、置き換えたり隠したりします。"
+      },
+      "feature_2": {
+        "title": "画像コンテンツを覆う",
+        "content": "プライベートな領域をブロックするために画像全体にオーバーレイを描きます。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除",
+        "content": "共有前にバックグラウンド情報をクリーンアップします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}の機能",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者向けに、{{FileFormatUp}}ファイル内のテキストや画像、その他コンテンツを隠したり削除したりするツールを提供します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}で{{FileFormatUp}}を隠す",
+      "description": "{{EnvNameShort}}のツールを使って、迅速かつ容易に{{FileFormatUp}}ファイルの機密部分を隠したり削除したりします。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}オーバーレイを使用して{{FileFormatUp}}内のテキストを隠す",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内の機密コンテンツを色付きオーバーレイで覆います。レイアウトはそのままです。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のテキストを保護",
+      "description": "{{ProdFullName}}および{{ProgLang}}を使用して、{{FileFormatUp}}プレゼンテーション内のプライベート情報をカラーブロックで隠します。",
+      "subtitle": "{{ProdFullName}}で可能なこと"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}内のプライベート情報を削除",
+      "content": {
+        "title": "{{ProdFullName}}を使用すれば、数ステップでプレゼンテーションを保護できます。",
+        "step_1": "{{textRedactor}}を作成し、編集したいファイルをロードします。",
+        "step_2": "ニーズに合った削除設定を選択します。",
+        "step_3": "テキストパターンを設定し、オーバーレイ用の色を選びます。",
+        "step_4": "削除を適用し、変更を保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内のテキストを隠すためにオーバーレイを使用",
+      "comment_2": "{{textRedactor}}でファイルをクロスロードします",
+      "comment_3": "削除の設定を定義します",
+      "comment_4": "テキストと色を選択します",
+      "comment_5": "削除してファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使ってテキストを見つける",
+      "content": "正規表現がスライド内の敏感なコンテンツを見つけて隠すのに役立つ方法を確認します。",
+      "comment_1": "{{FileFormatUp}}ファイルを開きます",
+      "comment_2": "パターンとオーバーレイの色を定義します",
+      "comment_3": "削除を実行します",
+      "comment_4": "最終バージョンを保存します"
+    },
+    "more_features": {
+      "title": "情報を隠すための簡単な方法",
+      "description": "{{ProdFullName}}は、法的、個人的、またはビジネス使用向けに、ドキュメントの敏感な部分を隠したり削除したりするのを簡単にします。",
+      "image_description": "プライバシーのための便利なツール",
+      "feature_1": {
+        "title": "テキストを見つけて置き換える",
+        "content": "単語や数字を検索して隠したり変更したりします。"
+      },
+      "feature_2": {
+        "title": "画像の一部を隠す",
+        "content": "オーバーレイを描いて全画像や選択した部分を隠します。"
+      },
+      "feature_3": {
+        "title": "隠れた情報を削除",
+        "content": "ユーザーに見えない名前やタイムスタンプなどのメタデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}の詳細",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者が{{FileFormatUp}}プレゼンテーションを清掃するために、テキスト、画像、隠された情報を覆ったり削除したりするのを助けます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のテキストを隠す",
+      "description": "{{EnvNameShort}}を使用してオーバーレイを追加したり、{{FileFormatUp}}スライドからコンテンツを削除してプライベートデータを安全に保ちます。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}オーバーレイを使用して{{FileFormatUp}}のテキストを隠す",
+      "description": "{{ProdFullName}}を使用すれば、色付きブロックを使って{{FileFormatUp}}ドキュメント内のプライベートテキストを隠すことができます。レイアウトは変更されません。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のテキストを隠す",
+      "description": "{{ProgLang}}および{{ProdFullName}}を使用して、{{FileFormatUp}}ドキュメント内の機密情報をオーバーレイブロックで保護します。",
+      "subtitle": "{{ProdFullName}}で可能なこと"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}内のプライベートコンテンツを削除",
+      "content": {
+        "title": "{{ProdFullName}}は、{{EnvName}}開発者が迅速に機密データを隠すのを容易にします。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "削除オプションを設定します。",
+        "step_3": "隠すテキストとオーバーレイの色を選択します。",
+        "step_4": "削除を実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内のテキストをオーバーレイで隠す",
+      "comment_2": "{{textRedactor}}を使用してファイルをロードします",
+      "comment_3": "何を削除するかを選択します",
+      "comment_4": "テキストを入力し、色を設定します",
+      "comment_5": "削除し、保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使用してテキストを見つけて隠す",
+      "content": "この例は、正規表現を使用してコンテンツを一致させて隠す方法を示します。",
+      "comment_1": "編集するファイルを開きます",
+      "comment_2": "パターンとオーバーレイの色を設定します",
+      "comment_3": "削除を適用します",
+      "comment_4": "更新されたコピーを保存します"
+    },
+    "more_features": {
+      "title": "情報を隠すためのその他の方法",
+      "description": "{{ProdFullName}}を使用すると、見た目を変えずにドキュメントから目に見えるコンテンツと隠しコンテンツを隠すことができます。",
+      "image_description": "プライバシーに配慮した機能",
+      "feature_1": {
+        "title": "隠すまたは置き換えるテキスト",
+        "content": "重要な情報を保護するために、単語を削除したり置き換えたりします。"
+      },
+      "feature_2": {
+        "title": "画像を覆う",
+        "content": "固形図形で機密画像をブロックします。"
+      },
+      "feature_3": {
+        "title": "隠されたデータを削除",
+        "content": "システムやユーザー情報を含む可能性のあるメタデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}のご紹介",
+      "content": "{{ProdFullName}}を使用すれば、{{ProgLang}}開発者は{{FileFormatUp}}ドキュメント内の機密コンテンツを隠したり削除したりできます。名前、番号などを隠しましょう。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のコンテンツを保護",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイル内の機密情報を隠したり削除したりします。構造やレイアウトに影響を与えることなく行えます。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}オーバーレイを使用して{{FileFormatUp}}内のコンテンツを隠す",
+      "description": "{{ProdFullName}}を使用すれば、色付きオーバーレイを使って{{FileFormatUp}}ファイル内のテキストを覆うことができます。プライベートコンテンツを保護するためのシンプルな方法です。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}内での{{FileFormatUp}}用のオーバーレイテキスト隠し",
+      "description": "{{ProgLang}}コードを書いて、{{FileFormatUp}}ファイルにおいてテキストを隠し、情報を保護します。ドキュメントを安全かつ整然と保ちます。",
+      "subtitle": "{{ProdFullName}}で得られるもの"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}内の機密データを隠す",
+      "content": {
+        "title": "{{ProdFullName}}は、{{EnvName}}開発者が共有する前にドキュメントを準備するのを簡単にします。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルを開きます。",
+        "step_2": "タスクに合った削除設定を選択します。",
+        "step_3": "隠すテキストやフレーズを入力し、色を選択します。",
+        "step_4": "削除を適用し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内のテキストを隠すためにオーバーレイを使用",
+      "comment_2": "{{textRedactor}}を使ってファイルをロードします",
+      "comment_3": "あなたの削除設定を選択します",
+      "comment_4": "隠すものと使用する色を選びます",
+      "comment_5": "変更を適用し、ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使って削除する",
+      "content": "正規表現パターンを使ってコンテンツを見つけたり隠したりする方法を学びます。",
+      "comment_1": "クリーンアップしたいファイルを開きます",
+      "comment_2": "正規表現パターンと色の設定を追加します",
+      "comment_3": "削除を適用します",
+      "comment_4": "削除版を保存します"
+    },
+    "more_features": {
+      "title": "データを削除するための便利なツール",
+      "description": "{{ProdFullName}}を使用すると、ドキュメントのレイアウトと内容を明確に保ちながら、データを隠したり削除したりできます。",
+      "image_description": "ファイルを保護するために設計されています",
+      "feature_1": {
+        "title": "テキストを隠すまたは変更する",
+        "content": "隠す必要のあるテキストの任意の部分を見つけて置き換えます。"
+      },
+      "feature_2": {
+        "title": "画像やビジュアルを覆う",
+        "content": "オーバーレイを追加して、画像やグラフの敏感な部分を削除します。"
+      },
+      "feature_3": {
+        "title": "隠されたメタデータをクリア",
+        "content": "著者名やタイムスタンプなどのバックグラウンド情報を削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を使用する理由",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者が{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりする必要がある場合に対応するために設計されています。テキスト、画像、メタデータで作業が容易になります。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}削除で{{FileFormatUp}}を保護",
+      "description": "正方形のオーバーレイを使用して{{FileFormatUp}}のコンテンツを隠したり、{{EnvNameShort}}機能を使って完全に削除したりします。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}オーバーレイを使用して{{FileFormatUp}}内の機密テキストを隠す",
+      "description": "{{ProdFullName}}を使用すると、{{FileFormatUp}}ファイル内のプライベートコンテンツを色オーバーレイで覆うことができます。何が重要かを隠しながら、全てをそのままに保ちます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}プレゼンテーションのテキストを隠す",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して、{{FileFormatUp}}スライド内の機密テキストを隠すためにオーバーレイを追加します。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルの情報を削除",
+      "content": {
+        "title": "{{ProdFullName}}を使用すれば、シンプルな削除手順で{{FileFormatCap}}ファイルを共有準備できます。",
+        "step_1": "新しい{{textRedactor}}を作成し、ファイルをロードします。",
+        "step_2": "隠すものと適用方法を選択します。",
+        "step_3": "検索パターンを追加し、オーバーレイの色を設定します。",
+        "step_4": "削除を適用し、更新されたドキュメントを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "オーバーレイを使用して{{FileFormatUp}}内のテキストを隠す",
+      "comment_2": "{{textRedactor}}を使ってプレゼンテーションをロードします",
+      "comment_3": "削除がどのように機能するかを設定します",
+      "comment_4": "隠すテキストと色を選択します",
+      "comment_5": "削除してファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現検索を使用して削除",
+      "content": "正規表現がスライド内のテキストを見つけて隠すのに役立つ方法を確認します。",
+      "comment_1": "{{FileFormatUp}}ファイルを開きます",
+      "comment_2": "パターンとオーバーレイの色を定義します",
+      "comment_3": "削除を実行します",
+      "comment_4": "最終版を保存します"
+    },
+    "more_features": {
+      "title": "情報を隠すシンプルな方法",
+      "description": "{{ProdFullName}}を使用すると、法的、個人的、またはビジネス使用向けに、ドキュメントの敏感な部分を隠したり削除したりすることが簡単になります。",
+      "image_description": "プライバシーに配慮した便利なツール",
+      "feature_1": {
+        "title": "テキストを見つけて置き換え",
+        "content": "単語や番号を検索して隠したり変更したりします。"
+      },
+      "feature_2": {
+        "title": "画像の一部を隠す",
+        "content": "オーバーレイを描いて、全体の画像や特定のスポットを隠します。"
+      },
+      "feature_3": {
+        "title": "隠れた情報を削除",
+        "content": "ユーザーが見えない名前やタイムスタンプを含むメタデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}についての詳細",
+      "content": "{{ProdFullName}}を使用すると、{{ProgLang}}開発者は{{FileFormatUp}}プレゼンテーション内のテキスト、画像、および隠された情報を覆ったり削除したりします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のテキストを隠す",
+      "description": "{{EnvNameShort}}を使用してオーバーレイを追加するか、{{FileFormatUp}}スライドからコンテンツを削除してプライベートデータを安全に保ちます。"
+    }
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Sensiblen Text in {{FileFormatUp}}-Dateien Mit {{ProgLang}} Überlagerungen Abdecken",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, sensiblen Text in {{FileFormatUp}}-Dateien durch das Hinzufügen von farbigen Überlagerungen zu verbergen. Schützen Sie private Daten, ohne das Erscheinungsbild Ihrer Datei zu ändern."
+    },
+    "header": {
+      "title": "Sensiblen Text in {{FileFormatUp}} Mit {{EnvNameShort}} Abdecken",
+      "description": "Sichern Sie Ihre {{FileFormatUp}}-Dateien mit {{ProgLang}}. Verwenden Sie Überlagerungen, um rechtliche, persönliche oder vertrauliche Informationen zu blockieren.",
+      "subtitle": "{{ProdFullName}} Höhepunkte"
+    },
+    "steps": {
+      "title": "Sensiblen Informationen in {{FileFormatCap}}-Dateien Sicher Halten",
+      "content": {
+        "title": "{{ProdFullName}} erlaubt es {{EnvName}}-Entwicklern, private Inhalte schnell zu verbergen.",
+        "step_1": "Richten Sie einen {{textRedactor}} ein und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie, wie die Schwärzung funktionieren soll.",
+        "step_3": "Wählen Sie den Text aus, den Sie verbergen möchten, und wählen Sie eine Farbe für die Überlagerung.",
+        "step_4": "Führen Sie die Schwärzung durch und speichern Sie Ihre Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verbergen Sie sensiblen Text in {{FileFormatUp}} durch farbige Überlagerungen",
+      "comment_2": "Laden Sie die Datei, indem Sie ihren Pfad an {{textRedactor}} übergeben",
+      "comment_3": "Legen Sie die Schwärzungsoptionen fest",
+      "comment_4": "Definieren Sie, was zu verbergen ist, und wählen Sie eine Farbe",
+      "comment_5": "Schwärzen und speichern Sie Ihre {{FileFormatUp}}-Datei"
+    },
+    "example_bottom": {
+      "title": "Regex Verwenden, Um Text Zu Finden Und Zu Verbergen",
+      "content": "Dieses Beispiel zeigt, wie man Text mit Regex-Mustern sucht und verbirgt.",
+      "comment_1": "Laden Sie Ihr Dokument",
+      "comment_2": "Legen Sie das Texmuster und die Überlagerungsfarbe fest",
+      "comment_3": "Schwärzen Sie den ausgewählten Inhalt",
+      "comment_4": "Speichern Sie die aktualisierte Datei"
+    },
+    "more_features": {
+      "title": "Informationen Aus Dokumenten Verbergen Oder Entfernen",
+      "description": "Mit {{ProdFullName}} können Sie Text, Bilder und andere Daten in vielen Formaten verbergen. Schützen Sie, was wichtig ist, und halten Sie Ihre Dokumente gleichzeitig leicht lesbar und teilbar.",
+      "image_description": "Flexible Schwärzungsfunktionen",
+      "feature_1": {
+        "title": "Jeden Text Bearbeiten",
+        "content": "Finden Sie sensiblen Text und ersetzen Sie ihn, um Ihre Dokumente sicher zu halten."
+      },
+      "feature_2": {
+        "title": "Bilder Abdecken",
+        "content": "Verwenden Sie Überlagerungen, um komplette Bilder oder bestimmte Bereiche zu blockieren."
+      },
+      "feature_3": {
+        "title": "Metadaten Bereinigen",
+        "content": "Entfernen Sie versteckte Daten, um unbeabsichtigte Informationslecks zu verhindern."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern eine einfache Möglichkeit, Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Decken Sie sensiblen Text, Bilder oder Metadaten in vielen Formaten ab."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Dateien Mit {{EnvNameShort}}-Tools Schützen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu entfernen. Ein zuverlässiger Weg, um private Informationen sicher zu halten."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Verbergen Sie Text in {{FileFormatUp}} Mit Überlagerungen Mit {{ProgLang}}",
+      "description": "Schützen Sie sensiblen Text in {{FileFormatUp}}-Dateien mit {{ProdFullName}}. Fügen Sie einfache quadratische Überlagerungen hinzu, ohne Ihr Layout zu ändern."
+    },
+    "header": {
+      "title": "Inhalten In {{FileFormatUp}} Mit {{EnvNameShort}} Verbergen",
+      "description": "Verwenden Sie {{ProgLang}}, um private Inhalte in {{FileFormatUp}}-Dateien abzudecken. Ideal für rechtliche, persönliche oder geschäftliche Dokumente.",
+      "subtitle": "Hauptmerkmale Von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Halten Sie Private Informationen In {{FileFormatCap}} Versteckt",
+      "content": {
+        "title": "Mit {{ProdFullName}} können {{EnvName}}-Entwickler Inhalte in nur wenigen Zeilen verbergen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und öffnen Sie Ihre Datei.",
+        "step_2": "Wählen Sie Ihre Schwärzungsoptionen.",
+        "step_3": "Geben Sie den Text ein, den Sie verbergen möchten, und wählen Sie eine Farbe aus.",
+        "step_4": "Anwenden und die gesperrte Version speichern."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verbergen Sie Inhalte in {{FileFormatUp}} durch Überlagerungen",
+      "comment_2": "Richten Sie den {{textRedactor}} ein und laden Sie Ihre Datei",
+      "comment_3": "Konfigurieren Sie Ihre Schwärzungsoptionen",
+      "comment_4": "Definieren Sie Text und Überlagerungsfarbe",
+      "comment_5": "Schwärzen und die Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Text Mit Regex Finden Und Schwärzen",
+      "content": "Erfahren Sie, wie Sie reguläre Ausdrücke verwenden, um Text zu finden und zu verbergen.",
+      "comment_1": "Öffnen Sie die zu schwärzende Datei",
+      "comment_2": "Legen Sie Muster und Farben fest",
+      "comment_3": "Führen Sie den Schwärzungsprozess aus",
+      "comment_4": "Speichern Sie Ihr bereinigtes Dokument"
+    },
+    "more_features": {
+      "title": "Zusätzliche Schwärzungswerkzeuge",
+      "description": "{{ProdFullName}} unterstützt verschiedene Dateitypen, sodass Sie jeden Inhalt mühelos schützen können.",
+      "image_description": "Integrierte Schwärzungsfunktionen",
+      "feature_1": {
+        "title": "Text Finden Und Bearbeiten",
+        "content": "Suchen Sie nach Schlüsselwörtern und verbergen oder ersetzen Sie diese schnell."
+      },
+      "feature_2": {
+        "title": "Bildeinstellungen Abdecken",
+        "content": "Verbergen Sie sensible Bereiche in gescannten Seiten oder Fotos."
+      },
+      "feature_3": {
+        "title": "Metadaten Bereinigen",
+        "content": "Entfernen Sie versteckte Informationen, die Details enthüllen könnten."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} hilft {{ProgLang}}-Entwicklern, private Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu entfernen. Sie können Text, Bilder und sogar versteckte Metadaten abdecken."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Dateien Mit {{EnvNameShort}} Sichern",
+      "description": "Verbergen oder löschen Sie sensible Inhalte in {{FileFormatUp}}-Dokumenten mithilfe einfacher Tools von {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "Text In {{FileFormatUp}} Mit {{ProgLang}} Und Überlagerungen Verbergen",
+      "description": "{{ProdFullName}} hilft Ihnen, Text in {{FileFormatUp}}-Dateien durch das Hinzufügen von Farbüberlagerungen zu verbergen. Halten Sie Ihre Daten privat, ohne das Dateilayout zu ändern."
+    },
+    "header": {
+      "title": "Textverdeckung Für {{FileFormatUp}} In {{EnvNameShort}}",
+      "description": "Schreiben Sie {{ProgLang}}-Code, um Text zu verstecken und Informationen in Ihren {{FileFormatUp}}-Dateien zu sichern. Halten Sie Ihre Dokumente sicher und sauber.",
+      "subtitle": "Was Sie Mit {{ProdFullName}} Bekommen"
+    },
+    "steps": {
+      "title": "Daten In {{FileFormatCap}}-Dateien Schützen",
+      "content": {
+        "title": "{{ProdFullName}} ermöglicht es {{EnvName}}-Entwicklern, private Informationen mit nur wenigen Zeilen Code zu verbergen.",
+        "step_1": "Beginnen Sie mit der Erstellung eines {{textRedactor}} und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Legen Sie die Schwärzungsoptionen fest, die für Ihren Fall funktionieren.",
+        "step_3": "Fügen Sie das Textmuster hinzu, das Sie verstecken möchten, und wählen Sie eine Farbe aus.",
+        "step_4": "Führen Sie die Schwärzung durch und speichern Sie Ihre Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verbergen Sie private Inhalte in {{FileFormatUp}} mit Überlagerungen",
+      "comment_2": "Verwenden Sie {{textRedactor}}, um Ihre Datei zu laden",
+      "comment_3": "Legen Sie Schwärzungspräferenzen fest",
+      "comment_4": "Wählen Sie den zu verbergenden Text und die Überlagerungsfarbe aus",
+      "comment_5": "Führen Sie die Schwärzung durch und speichern Sie die Datei"
+    },
+    "example_bottom": {
+      "title": "Text Mit Regex-Mustern Verbergen",
+      "content": "Dieses Beispiel zeigt, wie man Inhalte mit regulären Ausdrücken findet und verbirgt.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bearbeiten möchten",
+      "comment_2": "Legen Sie Ihr Textmuster und die Überlagerungsfarbe fest",
+      "comment_3": "Wenden Sie die Schwärzungsregeln an",
+      "comment_4": "Speichern Sie die geschwärzte Version"
+    },
+    "more_features": {
+      "title": "Hilfreiche Schwärzungswerkzeuge",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, Inhalte aus vielen Dateitypen zu verbergen oder zu entfernen. Halten Sie persönliche oder geschäftliche Informationen geschützt.",
+      "image_description": "Benutzerfreundliche Schwärzungsoptionen",
+      "feature_1": {
+        "title": "Text Finden Und Bearbeiten",
+        "content": "Suchen Sie nach spezifischem Text und ersetzen oder verborgen Sie ihn."
+      },
+      "feature_2": {
+        "title": "Bildinhalte Abdecken",
+        "content": "Fügen Sie Überlagerungen hinzu, um private Bereiche von Bildern zu blockieren."
+      },
+      "feature_3": {
+        "title": "Metadaten Entfernen",
+        "content": "Bereinigen Sie Hintergrundinformationen, bevor Sie Ihre Dateien teilen."
+      }
+    },
+    "about": {
+      "title": "Was {{ProdFullName}} Tun Kann",
+      "content": "{{ProdFullName}} gibt {{ProgLang}}-Entwicklern die Werkzeuge, um Text, Bilder und mehr in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} Mit {{EnvNameShort}} Schützen",
+      "description": "Verwenden Sie {{EnvNameShort}}-Tools, um sensible Teile Ihrer {{FileFormatUp}}-Dateien schnell und problemlos zu verbergen oder zu entfernen."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Text In {{FileFormatUp}} Mit {{ProgLang}} Und Überlagerungen Verbergen",
+      "description": "Decken Sie sensible Inhalte in Ihren {{FileFormatUp}}-Dateien mit farbigen Überlagerungen mithilfe von {{ProdFullName}} ab. Ihr Layout bleibt gleich."
+    },
+    "header": {
+      "title": "Schützen Sie Text In {{FileFormatUp}} Mit Überlagerungen Und {{EnvNameShort}}",
+      "description": "Verwenden Sie {{ProdFullName}} und {{ProgLang}}, um private Informationen in {{FileFormatUp}}-Präsentationen durch Abdecken mit Farbbereichen zu verbergen.",
+      "subtitle": "Was Sie Mit {{ProdFullName}} Tun Können"
+    },
+    "steps": {
+      "title": "Private Informationen In {{FileFormatCap}} Redigieren",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}}, um Ihre Präsentationen in nur wenigen einfachen Schritten zu schützen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und laden Sie die Datei, die Sie bearbeiten möchten.",
+        "step_2": "Wählen Sie die für Ihre Anforderungen passenden Schwärzungsoptionen.",
+        "step_3": "Legen Sie das Textmuster fest und wählen Sie eine Farbe für die Überlagerung.",
+        "step_4": "Wenden Sie die Schwärzung an und speichern Sie Ihre Änderungen."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verwenden Sie Überlagerungen, um Text in {{FileFormatUp}} zu verbergen",
+      "comment_2": "Laden Sie Ihre Datei mit {{textRedactor}}",
+      "comment_3": "Definieren Sie die Schwärzungsoptionen",
+      "comment_4": "Wählen Sie den Text und die Farbe aus",
+      "comment_5": "Schwärzen und speichern Sie Ihre Datei"
+    },
+    "example_bottom": {
+      "title": "Regex Verwenden, Um Text Zu Finden",
+      "content": "Sehen Sie, wie reguläre Ausdrücke Ihnen helfen, sensible Inhalte zu finden und zu verbergen.",
+      "comment_1": "Öffnen Sie Ihre Datei zur Schwärzung",
+      "comment_2": "Legen Sie das Textmuster und die Überlagerungsfarbe fest",
+      "comment_3": "Führen Sie die Schwärzung durch",
+      "comment_4": "Speichern Sie die bearbeitete Datei"
+    },
+    "more_features": {
+      "title": "Weitere Schwärzungsoptionen",
+      "description": "{{ProdFullName}} gibt Ihnen Werkzeuge an die Hand, um Daten in verschiedenen Dateiformaten zu verbergen oder zu bereinigen, ohne das Layout zu verändern.",
+      "image_description": "Nützliche Funktionen für den Datenschutz",
+      "feature_1": {
+        "title": "Text Ändern Oder Verstecken",
+        "content": "Schützen Sie sensible Informationen, indem Sie sie bearbeiten oder ausblenden."
+      },
+      "feature_2": {
+        "title": "Bilder Oder Teile Abdecken",
+        "content": "Fügen Sie Überlagerungen hinzu, um vollständige Bilder oder ausgewählte Bereiche zu blockieren."
+      },
+      "feature_3": {
+        "title": "Versteckte Details Entfernen",
+        "content": "Löschen Sie Metadaten, die private oder systembezogene Informationen enthalten können."
+      }
+    },
+    "about": {
+      "title": "Was {{ProdFullName}} Bietet",
+      "content": "Mit {{ProdFullName}} können {{ProgLang}}-Entwickler Inhalte in {{FileFormatUp}}-Dateien abdecken oder löschen - von Text bis zu Bildern und versteckten Daten."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Folien Mit {{EnvNameShort}} Schützen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um private Inhalte in {{FileFormatUp}}-Dateien abzudecken oder zu löschen, während Sie die Folien sauber aussehen lassen."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Verbergen Sie Text In {{FileFormatUp}} Mit {{ProgLang}}-Überlagerungen",
+      "description": "Mit {{ProdFullName}} können Sie private Texte in {{FileFormatUp}}-Dokumenten einfach mithilfe von Farbblöcken verbergen. Ihr Layout bleibt unberührt."
+    },
+    "header": {
+      "title": "Verwenden Sie Überlagerungen, um Text In {{FileFormatUp}} Mit {{EnvNameShort}} Zu Verbergen",
+      "description": "Schützen Sie wichtige Informationen in {{FileFormatUp}}-Dokumenten, indem Sie Überlagerungsblöcke mit {{ProgLang}} und {{ProdFullName}} platzieren.",
+      "subtitle": "Was Sie Mit {{ProdFullName}} Tun Können"
+    },
+    "steps": {
+      "title": "Private Inhalte In {{FileFormatCap}} Redigieren",
+      "content": {
+        "title": "{{ProdFullName}} erleichtert es {{EnvName}}-Entwicklern, sensible Daten schnell zu verbergen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Richten Sie die Schwärzungsoptionen ein.",
+        "step_3": "Wählen Sie den zu verbergenden Text und die Überlagerungsfarbe aus.",
+        "step_4": "Führen Sie die Schwärzung durch und speichern Sie Ihre Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Bedecken Sie Text In {{FileFormatUp}} Mit Überlagerungen",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Entscheiden Sie, was geschwärzt werden soll",
+      "comment_4": "Geben Sie den Text ein und legen Sie die Farbe fest",
+      "comment_5": "Schwärzen und speichern"
+    },
+    "example_bottom": {
+      "title": "Text Finden Und Verbergen Mit Regex",
+      "content": "Dieses Beispiel zeigt, wie man reguläre Ausdrücke zur Suche und zum Verbergen von Inhalten verwendet.",
+      "comment_1": "Öffnen Sie die Datei zur Bearbeitung",
+      "comment_2": "Legen Sie das Muster und die Überlagerungsfarbe fest",
+      "comment_3": "Führen Sie die Schwärzung durch",
+      "comment_4": "Speichern Sie Ihre aktualisierte Kopie"
+    },
+    "more_features": {
+      "title": "Mehr Wege, Informationen Zu Verbergen",
+      "description": "Verwenden Sie {{ProdFullName}}, um Ihre Dateien zu reinigen, indem Sie sichtbare und unsichtbare Inhalte verbergen, ohne ihr Erscheinungsbild zu verändern.",
+      "image_description": "Datenschutzorientierte Funktionen",
+      "feature_1": {
+        "title": "Text Verstecken Oder Ersetzen",
+        "content": "Schützen Sie wichtige Informationen, indem Sie Wörter entfernen oder austauschen."
+      },
+      "feature_2": {
+        "title": "Bilder Abdecken",
+        "content": "Blockieren Sie sensible Bilder mit festen Formen."
+      },
+      "feature_3": {
+        "title": "Versteckte Daten Löschen",
+        "content": "Entfernen Sie Metadaten, die möglicherweise systembezogene oder Benutzerinformationen enthalten."
+      }
+    },
+    "about": {
+      "title": "Lernen Sie {{ProdFullName}} Kennen",
+      "content": "Mit {{ProdFullName}} können {{ProgLang}}-Entwickler Inhalte in {{FileFormatUp}}-Dokumenten - wie Namen, Zahlen und mehr - verbergen oder löschen."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Inhalt Mit {{EnvNameShort}} Schützen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um sensible Informationen in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen, ohne die Struktur oder das Layout zu beeinträchtigen."
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "In {{FileFormatUp}} Mit {{ProgLang}}-Überlagerungen Inhalte Verbergen",
+      "description": "Mit {{ProdFullName}} können Sie Text in {{FileFormatUp}}-Dateien mithilfe von Farbüberlagerungen abdecken. Eine einfache Möglichkeit, private Inhalte zu schützen."
+    },
+    "header": {
+      "title": "Textübersetzung Für {{FileFormatUp}} In {{EnvNameShort}}",
+      "description": "Schreiben Sie {{ProgLang}}-Code, um Text zu verbergen und Informationen in Ihren {{FileFormatUp}}-Dateien zu sichern. Halten Sie Ihre Dokumente sicher und sauber.",
+      "subtitle": "Was Sie Mit {{ProdFullName}} Bekommen"
+    },
+    "steps": {
+      "title": "Sensible Daten In {{FileFormatCap}} Verbergen",
+      "content": {
+        "title": "{{ProdFullName}} erleichtert es {{EnvName}}-Entwicklern, Dokumente vor dem Teilen vorzubereiten.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und öffnen Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie die Schwärzungsoptionen aus, die zu Ihrer Aufgabe passen.",
+        "step_3": "Geben Sie den zu verbergenden Text oder die Phrase ein und wählen Sie eine Farbe aus.",
+        "step_4": "Führen Sie die Schwärzung durch und speichern Sie die Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verwenden Sie Überlagerungen, um text in {{FileFormatUp}} zu verbergen",
+      "comment_2": "Beginnen Sie mit dem Laden Ihrer Datei mit {{textRedactor}}",
+      "comment_3": "Wählen Sie Ihre Schwärzungsoptionen",
+      "comment_4": "Wählen Sie, was verborgen und welche Farbe verwendet werden soll",
+      "comment_5": "Änderungen anwenden und die Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Mit Regex Redigieren",
+      "content": "Erfahren Sie, wie man Regex-Muster verwendet, um Inhalte zu finden und zu verbergen.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bereinigen möchten",
+      "comment_2": "Fügen Sie das Regex-Muster und die Farbeingaben hinzu",
+      "comment_3": "Wenden Sie die Schwärzung an",
+      "comment_4": "Speichern Sie die geschwärzte Version"
+    },
+    "more_features": {
+      "title": "Hilfreiche Werkzeuge Für Die Redigierung Von Daten",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, Daten in Dokumenten zu verbergen oder zu entfernen, während Sie das Layout und den Inhalt deutlich halten.",
+      "image_description": "Entwickelt, um Ihre Dateien zu schützen",
+      "feature_1": {
+        "title": "Verborgenen Text Verbergen Oder Ändern",
+        "content": "Finden und ersetzen Sie jeden Teil des Textes, der verborgen werden muss."
+      },
+      "feature_2": {
+        "title": "Bilder Und Grafiken Abdecken",
+        "content": "Fügen Sie Überlagerungen hinzu, um empfindliche Teile von Bildern oder Diagrammen zu entfernen."
+      },
+      "feature_3": {
+        "title": "Versteckte Metadaten Löschen",
+        "content": "Entfernen Sie Hintergrundinformationen wie Autorennamen oder Zeitstempel."
+      }
+    },
+    "about": {
+      "title": "Warum {{ProdFullName}} Verwenden",
+      "content": "{{ProdFullName}} ist für {{ProgLang}}-Entwickler konzipiert, die Inhalte in {{FileFormatUp}}-Dateien verbergen oder entfernen müssen. Arbeiten Sie einfach mit Text, Bildern und Metadaten."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} Mit {{EnvNameShort}}-Schwärzungen Schützen",
+      "description": "Verbergen Sie Inhalte in {{FileFormatUp}} mit quadratischen Überlagerungen oder entfernen Sie sie vollständig mit Funktionen von {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Sensiblen Text In {{FileFormatUp}} Mit {{ProgLang}}-Überlagerungen Verbergen",
+      "description": "{{ProdFullName}} hilft Ihnen, private Inhalte in {{FileFormatUp}}-Dateien mit Farbüberlagerungen abzudecken. Halten Sie alles an Ort und Stelle, während Sie das Wesentliche verbergen."
+    },
+    "header": {
+      "title": "Verbergen Sie Text In {{FileFormatUp}}-Präsentationen Mit {{EnvNameShort}}",
+      "description": "Verwenden Sie {{ProgLang}} und {{ProdFullName}}, um Überlagerungen hinzuzufügen und sensiblen Text in Ihren {{FileFormatUp}}-Folien zu verbergen.",
+      "subtitle": "Was Sie Mit {{ProdFullName}} Tun Können"
+    },
+    "steps": {
+      "title": "Redigieren Sie Informationen In {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Mit {{ProdFullName}} können Sie {{FileFormatCap}}-Dateien für das Teilen mithilfe einfacher Schwärzungsverfahren vorbereiten.",
+        "step_1": "Erstellen Sie einen neuen {{textRedactor}} und laden Sie Ihre Datei.",
+        "step_2": "Wählen Sie, was Sie verbergen möchten und wie Sie es anwenden.",
+        "step_3": "Fügen Sie das Suchmuster hinzu und legen Sie eine Überlagerungsfarbe fest.",
+        "step_4": "Wenden Sie die Schwärzung an und speichern Sie Ihr aktualisiertes Dokument."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verdecken Sie sensiblen Text in {{FileFormatUp}} mit Überlagerungen",
+      "comment_2": "Verwenden Sie {{textRedactor}}, um Ihre Präsentation zu laden",
+      "comment_3": "Richten Sie ein, wie die Schwärzung funktionieren soll",
+      "comment_4": "Wählen Sie den Text und die Farbe, um ihn zu verbergen",
+      "comment_5": "Schwärzen und speichern Sie Ihre Datei"
+    },
+    "example_bottom": {
+      "title": "Mit Regex Suchen, Um Text Zu Redigieren",
+      "content": "Sehen Sie, wie reguläre Ausdrücke Ihnen helfen, Text in Ihren Folien zu finden und zu verbergen.",
+      "comment_1": "Öffnen Sie Ihre {{FileFormatUp}}-Datei",
+      "comment_2": "Definieren Sie das Muster und die Überlagerungsfarbe",
+      "comment_3": "Führen Sie die Schwärzung durch",
+      "comment_4": "Speichern Sie die endgültige Version"
+    },
+    "more_features": {
+      "title": "Einfache Möglichkeiten, Informationen Zu Verbergen",
+      "description": "{{ProdFullName}} macht es einfach, sensible Teile von Dokumenten zu verbergen oder zu entfernen - perfekt für rechtliche, persönliche oder geschäftliche Zwecke.",
+      "image_description": "Nützliche Werkzeuge für den Datenschutz",
+      "feature_1": {
+        "title": "Text Finden Und Ersetzen",
+        "content": "Suchen Sie nach Wörtern oder Zahlen und verbergen oder ändern Sie diese."
+      },
+      "feature_2": {
+        "title": "Teile Von Bildern Abdecken",
+        "content": "Fügen Sie Überlagerungen hinzu, um vollständige Bilder oder ausgewählte Stellen zu verbergen."
+      },
+      "feature_3": {
+        "title": "Löschen Sie Versteckte Informationen",
+        "content": "Löschen Sie Metadaten wie Namen oder Zeitstempel, die Nutzer nicht sehen."
+      }
+    },
+    "about": {
+      "title": "Erfahren Sie Mehr Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} hilft {{ProgLang}}-Entwicklern, {{FileFormatUp}}-Präsentationen zu säubern, indem sie Text, Bilder und versteckte Infos abdecken oder löschen."
+    },
+    "formats": {
+      "title": "Verbergen Sie Text In {{FileFormatUp}} Mit {{EnvNameShort}}",
+      "description": "Verwenden Sie {{EnvNameShort}}, um Überlagerungen hinzuzufügen oder Inhalte aus Ihren {{FileFormatUp}}-Folien zu entfernen, um private Daten zu schützen."
+    }
+  }
+}

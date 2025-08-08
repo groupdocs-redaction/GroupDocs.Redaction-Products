@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}の敏感な画像をオーバーレイで隠す",
+      "description": "{{ProdFullName}}を使用すれば、オーバーレイを追加することで{{FileFormatUp}}ファイル内の敏感な画像を隠すことができます。文書のレイアウトを変更することなく、プライベートデータを保護しましょう。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使った{{FileFormatUp}}ファイル内の画像をオーバーレイで隠す",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の個人および業務画像を安全に保つことができます。当社のツールはデータ保護を信頼できるものにします。",
+      "subtitle": "{{ProdFullName}}の特徴"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内の敏感なデータを保護する",
+      "content": {
+        "title": "{{ProdFullName}}は、{{EnvName}}アプリに文書を保護する能力を提供します。数回のクリックでプライベートな内容を隠すことができます。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、{{FileFormatCap}}ファイルを指定します。",
+        "step_2": "赤action設定をニーズに合わせて調整します。",
+        "step_3": "隠す画像の領域を選択し、オーバーレイの色を選荘します。",
+        "step_4": "処理を実行し、修正されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の機密画像の部分を覆う",
+      "comment_2": "{{textRedactor}}を使用して文書をロード",
+      "comment_3": "オーバーレイの色とサイズを設定",
+      "comment_4": "隠す領域を選択",
+      "comment_5": "オーバーレイを適用し、文書を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイで画像情報を隠す",
+      "content": "この例は、オーバーレイを使用して文書内の敏感な画像データを覆う方法を示しています。",
+      "comment_1": "修正のためにファイルを開く",
+      "comment_2": "オーバーレイ設定を調整: サイズ、色、位置",
+      "comment_3": "最初のページの画像領域を選択",
+      "comment_4": "オーバーレイを適用して画像を隠す",
+      "comment_5": "修正されたファイルを保存"
+    },
+    "more_features": {
+      "title": "文書内の敏感な内容を隠す",
+      "description": "{{ProdFullName}}を使用すれば、さまざまなファイル形式でデータを隠したり削除したりできます。文書をきれいで共有可能な状態に保ちながら、敏感な情報を保護します。",
+      "image_description": "主要な修正機能",
+      "feature_1": {
+        "title": "テキストを検索・編集",
+        "content": "文書内の敏感なテキストを見つけて変更し、プライベート情報を保護します。"
+      },
+      "feature_2": {
+        "title": "画像の領域を覆う",
+        "content": "オーバーレイを使用して画像や選択部分を隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータの管理",
+        "content": "隠れたメタデータを削除または編集して、不要なデータ漏洩を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルのコンテンツを隠したり削除したりするためのツールを提供します。異なる形式の文書を保護するためにテキスト、画像、メタデータを覆い隠します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルを保護する",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイル内の敏感なデータを隠したり削除したりします。業務およびプライベートな文書を保護するための実用的なソリューションです。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}の画像コンテンツをオーバーレイで隠す",
+      "description": "{{ProdFullName}}を使って、{{FileFormatUp}}ファイル内の敏感な画像をオーバーレイで保護します。プライベートなビジュアルを守りつつ、文書のフォーマットを保持します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使った{{FileFormatUp}}文書内の画像をオーバーレイで保護",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の個人および業務のビジュアルを安全に保ちます。当社の修正ツールは文書のセキュリティを簡単にします。",
+      "subtitle": "{{ProdFullName}}のハイライト"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のデータを安全に保つ",
+      "content": {
+        "title": "{{ProdFullName}}は、{{EnvName}}アプリケーションが文書を保護するのを簡単にします。数ステップで敏感なデータを修正します。",
+        "step_1": "{{textRedactor}}のインスタンスを作成し、{{FileFormatCap}}ファイルへのパスを指定します。",
+        "step_2": "作業に合った修正の設定を行います。",
+        "step_3": "覆いたい画像の部分を選択し、オーバーレイの色を定義します。",
+        "step_4": "プロセスを実行し、修正されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の敏感な画像の部分を隠す",
+      "comment_2": "{{textRedactor}}を使用してファイルをロード",
+      "comment_3": "オーバーレイのサイズと色を定義",
+      "comment_4": "修正する領域を指定",
+      "comment_5": "オーバーレイを適用して文書を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを使用して画像データを隠す",
+      "content": "この例は、オーバーレイを使用して文書内の敏感な画像領域を保護する方法を示しています。",
+      "comment_1": "修正したいファイルをロード",
+      "comment_2": "オーバーレイの設定を調整: 色、サイズ、位置",
+      "comment_3": "ページ1の領域を選択して修正",
+      "comment_4": "オーバーレイを適用して画像を隠す",
+      "comment_5": "修正されたファイルを保存"
+    },
+    "more_features": {
+      "title": "文書内のコンテンツを隠す",
+      "description": "{{ProdFullName}}を使うと、さまざまな種類の文書から敏感な情報を手軽に隠したり削除したりできます。文書を安全でシェアしやすい状態に保ちます。",
+      "image_description": "効果的な修正機能",
+      "feature_1": {
+        "title": "テキストを検索・編集",
+        "content": "敏感な単語を見つけて置き換え、データを保護します。"
+      },
+      "feature_2": {
+        "title": "画像を覆う",
+        "content": "オーバーレイを使用して、全画像または選択した部分を保護します。"
+      },
+      "feature_3": {
+        "title": "隠れたメタデータを整理",
+        "content": "誤ってデータを共有するのを防ぐためにメタデータを削除または更新します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}により、{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりする能力を開発者に提供します。テキスト、画像、メタデータを保護し、さまざまな文書形式で保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルで敏感なデータを隠す",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイル内のプライベートデータを覆ったり、削除したりします。機密性のある文書を安全に保つための信頼できるツールです。"
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}ファイル内の画像領域をオーバーレイで隠す",
+      "description": "{{ProdFullName}}を使って、{{FileFormatUp}}ファイル内の敏感な画像領域をオーバーレイで保護します。プライベートなビジュアルを保護しつつ、文書の構造を変更しません。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の敏感な画像を隠す",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイル内の機密画像を安全に保護します。当社のツールは迅速かつ効果的な画像修正を確保します。",
+      "subtitle": "{{ProdFullName}}の主な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内の敏感なデータを保護する",
+      "content": {
+        "title": "{{ProdFullName}}は、あなたの{{EnvName}}アプリに文書を保護するのをシンプルにします。",
+        "step_1": "{{textRedactor}}を初期化し、{{FileFormatCap}}文書をロードします。",
+        "step_2": "作業に合った修正パラメーターを設定します。",
+        "step_3": "覆う画像の部分を定義し、色を選択します。",
+        "step_4": "修正を適用して、最終ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の機密画像セクションを隠す",
+      "comment_2": "{{textRedactor}}を使ってドキュメントをロード",
+      "comment_3": "オーバーレイのサイズと色を選択",
+      "comment_4": "修正する領域を指定",
+      "comment_5": "オーバーレイを適用してファイルを保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを使用して画像コンテンツをマスクする",
+      "content": "このガイドは、オーバーレイを使用して文書内の敏感な画像領域を隠す方法を示しています。",
+      "comment_1": "修正のためにファイルを開く",
+      "comment_2": "オーバーレイのサイズ、位置、色を設定",
+      "comment_3": "特定の画像セクションを選択",
+      "comment_4": "オーバーレイを適用して領域を隠す",
+      "comment_5": "修正された文書を保存"
+    },
+    "more_features": {
+      "title": "文書内のコンテンツを修正する",
+      "description": "{{ProdFullName}}を使えば、多くの文書形式で敏感なデータを隠したり削除したりできます。文書を安全で、プロフェッショナルな外観のまま保ちます。",
+      "image_description": "効率的な修正ツール",
+      "feature_1": {
+        "title": "テキストを検索・置き換える",
+        "content": "プライベートなテキストを探し、隠したり置き換えたりします。"
+      },
+      "feature_2": {
+        "title": "オーバーレイで画像を覆う",
+        "content": "全画像または特定のセクションを隠すことができます。"
+      },
+      "feature_3": {
+        "title": "隠れたメタデータを削除",
+        "content": "ファイルからメタデータをクリーンアップし、プライベート情報を共有しないようにします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}文書から敏感なデータを隠したり削除したりするためのツールを提供します。異なる形式でのテキスト、画像、メタデータを修正します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルのコンテンツを隠す",
+      "description": "{{EnvNameShort}}を使用することで、{{FileFormatUp}}ファイル内の情報を隠したり削除したりできます。機密文書を保護するための、信頼のおける方法です。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルの画像をオーバーレイでマスクする",
+      "description": "{{ProdFullName}}を使って、{{FileFormatUp}}ファイル内の敏感な画像を色付きのオーバーレイでマスクします。文書のフォーマットを変更することなく、重要なデータを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}文書内のプライベート画像をマスクする",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の敏感なビジュアルを守ります。当社のツールは、画像の修正を迅速かつ簡単にします。",
+      "subtitle": "{{ProdFullName}}の機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内の敏感なデータを保護する",
+      "content": {
+        "title": "{{ProdFullName}}は、{{EnvName}}アプリが文書を保護するために機密コンテンツを覆うのを支援します。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "必要に応じて修正オプションを設定します。",
+        "step_3": "画像の領域を選択し、オーバーレイの色を指定します。",
+        "step_4": "オーバーレイを適用し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内のプライベート画像領域をマスクする",
+      "comment_2": "{{textRedactor}}で文書を開く",
+      "comment_3": "オーバーレイの色とサイズを設定",
+      "comment_4": "修正する領域を選択",
+      "comment_5": "オーバーレイを適用し、ファイルを保存"
+    },
+    "example_bottom": {
+      "title": "カラー付きオーバーレイで画像コンテンツを覆う",
+      "content": "この例では、オーバーレイを使用して文書内の敏感な画像の部分をマスクする方法を示しています。",
+      "comment_1": "文書をロードする",
+      "comment_2": "オーバーレイのプロパティを設定: サイズ、位置、色",
+      "comment_3": "最初のページの画像領域を選択",
+      "comment_4": "選択した領域にオーバーレイを適用し、保存します。",
+      "comment_5": "保護された文書を保存"
+    },
+    "more_features": {
+      "title": "文書修正の機能",
+      "description": "{{ProdFullName}}を使用して、さまざまな文書タイプの機密データを隠したり削除したりできます。ファイルをきれいで保護された状態に保ちましょう。",
+      "image_description": "修正機能の全範囲",
+      "feature_1": {
+        "title": "テキストを検索・置き換え",
+        "content": "文書中の敏感なテキストを見つけて修正し、情報を保護します。"
+      },
+      "feature_2": {
+        "title": "画像の領域をマスクする",
+        "content": "オーバーレイを使用して全画像または特定のセクションを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "隠れたメタデータを削除または変えることで、プライベートデータを公開しないようにします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルの内容を隠したり削除したりするためのシンプルなツールを提供します。さまざまなフォーマットでテキスト、画像、メタデータを保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルのコンテンツをマスクする",
+      "description": "{{EnvNameShort}}を使用すれば、{{FileFormatUp}}ファイル内のプライベートコンテンツを隠したり削除したりできます。文書のセキュリティを確保するための信頼できるツールです。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}の画像をオーバーレイで保護する",
+      "description": "{{ProdFullName}}を使い、{{FileFormatUp}}ファイル内の敏感な画像にオーバーレイを適用して保護します。文書のレイアウトを保持しつつプライベートデータを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイル内のプライベート画像を覆う",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}文書内の個人およびビジネスビジュアルを安全に保ちます。信頼できるシンプルで迅速な修正ツール。",
+      "subtitle": "{{ProdFullName}}の主要機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内の敏感な情報を保護する",
+      "content": {
+        "title": "{{ProdFullName}}は、あなたの{{EnvName}}アプリがプライベートコンテンツをオーバーレイで覆うことで文書を保護するのをサポートします。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "必要に応じて修正設定を調整します。",
+        "step_3": "画像の領域を選択し、オーバーレイの色を設定します。",
+        "step_4": "オーバーレイを適用し、修正されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の敏感な画像の部分を覆う",
+      "comment_2": "{{textRedactor}}を使用してファイルをロード",
+      "comment_3": "オーバーレイの色とサイズを指定",
+      "comment_4": "隠す画像の領域を選択",
+      "comment_5": "オーバーレイを適用し、文書を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを使用して画像コンテンツを隠す",
+      "content": "この例は、オーバーレイを使用して文書内の敏感な画像を隠す方法を示しています。",
+      "comment_1": "文書を開く",
+      "comment_2": "オーバーレイの寸法、色、位置を設定",
+      "comment_3": "カバーする領域を選択",
+      "comment_4": "オーバーレイ修正を適用",
+      "comment_5": "更新された文書を保存"
+    },
+    "more_features": {
+      "title": "高度な修正機能",
+      "description": "{{ProdFullName}}を使えば、さまざまな文書形式内の敏感なコンテンツを隠したり削除したりできます。ファイルをきれいで、共有可能な状態に保ちます。",
+      "image_description": "オールインワン修正ツールキット",
+      "feature_1": {
+        "title": "テキストを検索・置き換え",
+        "content": "文書内の敏感なテキストを見つけて修正し、プライバシーを確保します。"
+      },
+      "feature_2": {
+        "title": "画像にオーバーレイを適用",
+        "content": "選択した画像の領域や全体を覆い、プライバシーを守ります。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除",
+        "content": "隠れたメタデータを削除して、目に見えないデータを共有することを避けます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルから内容を隠したり削除したりするためのシンプルなツールを提供します。さまざまな形式でのテキスト、画像、メタデータを安全に保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}でコンテンツを修正",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイル内の敏感なコンテンツを隠したり削除したりできます。文書の安全性を確保するための信頼できるソリューションです。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}の画像をオーバーレイで隠す",
+      "description": "{{ProdFullName}}を使って、{{FileFormatUp}}ファイル内の敏感な画像領域をオーバーレイで保護します。文書の外観を変更せず、プライベートなビジュアルを隠します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の敏感な画像を保護する",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の個人およびビジネス画像を安全に保ちます。簡単なツールで信頼できる保護を実現。",
+      "subtitle": "{{ProdFullName}}の重要な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のデータを保護する",
+      "content": {
+        "title": "{{ProdFullName}}を使用すると、あなたの{{EnvName}}アプリが文書内のプライベート情報を迅速かつ簡単に隠すことができます。",
+        "step_1": "{{textRedactor}}インスタンスを作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "必要に応じて修正オプションを設定します。",
+        "step_3": "画像の領域を選択し、オーバーレイの色を指定します。",
+        "step_4": "修正を適用し、編集したファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の画像領域を覆う",
+      "comment_2": "{{textRedactor}}で文書を開く",
+      "comment_3": "オーバーレイのサイズと色を調整",
+      "comment_4": "覆う領域を選択",
+      "comment_5": "オーバーレイを適用してファイルを保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイで画像データを隠す",
+      "content": "この例は、文書内の敏感な画像にオーバーレイを適用する方法を示しています。",
+      "comment_1": "文書を編集のためにロードします。",
+      "comment_2": "オーバーレイの色、サイズ、位置を設定します。",
+      "comment_3": "ページ1の特定の画像セクションを選択",
+      "comment_4": "オーバーレイを適用して隠します。",
+      "comment_5": "更新されたファイルを保存します。"
+    },
+    "more_features": {
+      "title": "敏感なコンテンツを隠すまたは削除する",
+      "description": "{{ProdFullName}}は、さまざまな形式の文書において敏感なデータを隠したり削除したりすることを可能にします。ファイルを安全で共有しやすいものに保ちます。",
+      "image_description": "機能豊富な修正ツール",
+      "feature_1": {
+        "title": "テキストを安全に編集",
+        "content": "文書内の敏感テキストを見つけ、プライバシーを保護するために置き換えます。"
+      },
+      "feature_2": {
+        "title": "画像の部分を隠す",
+        "content": "選択した画像の領域をオーバーレイで覆います。"
+      },
+      "feature_3": {
+        "title": "隠れたメタデータを削除",
+        "content": "見えないメタデータフィールドを消去して、データ漏洩を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルの敏感なコンテンツを隠したり削除したりするためのシンプルなツールを提供します。画像、テキスト、メタデータを覆って文書を保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使った{{FileFormatUp}}のコンテンツを隠す",
+      "description": "{{EnvNameShort}}を使って、{{FileFormatUp}}ファイル内の敏感な情報を隠したり削除したりできます。文書のセキュリティを確保するための効果的な方法です。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルの敏感な画像をオーバーレイでマスクする",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内のプライベート画像をオーバーレイで隠します。文書のデザインを変更せずに情報を保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}文書内のプライベート画像を隠す",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の敏感な画像を安全に保てます。強力なデータ保護のために設計されたシンプルなツール。",
+      "subtitle": "{{ProdFullName}}の機能を探る"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルを安全に保つ",
+      "content": {
+        "title": "{{ProdFullName}}は、{{EnvName}}アプリケーションが文書内の敏感なコンテンツを保護するのを簡単にします。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "要件に応じて修正オプションを調整します。",
+        "step_3": "画像領域を選び、オーバーレイの色を選択します。",
+        "step_4": "修正を適用し、文書を保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルの画像コンテンツをマスクする",
+      "comment_2": "{{textRedactor}}を使ってファイルを開く",
+      "comment_3": "オーバーレイのサイズと色を設定",
+      "comment_4": "隠す領域を選ぶ",
+      "comment_5": "オーバーレイを適用してファイルを保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを使用して画像データを隠す",
+      "content": "この例は、オーバーレイを使用して文書内の敏感な画像を保護する方法を示しています。",
+      "comment_1": "文書を修正用に開く",
+      "comment_2": "オーバーレイの寸法、位置、色を設定",
+      "comment_3": "最初のページの画像領域を選択",
+      "comment_4": "オーバーレイを適用してデータをマスク",
+      "comment_5": "最終的な文書を保存"
+    },
+    "more_features": {
+      "title": "文書内のプライベートデータを保護する",
+      "description": "{{ProdFullName}}は、さまざまなファイル形式内の敏感なコンテンツを隠したり削除したりできます。ファイルを安全で共有可能な状態に保ちます。",
+      "image_description": "オールインワン修正機能",
+      "feature_1": {
+        "title": "テキストを検索・編集",
+        "content": "文書内のプライベートテキストを見つけ、プライバシーを確保するために置き換えます。"
+      },
+      "feature_2": {
+        "title": "画像の領域をマスクする",
+        "content": "オーバーレイで画像の全体または選択した部分を隠します。"
+      },
+      "feature_3": {
+        "title": "隠れたメタデータを削除",
+        "content": "メタデータを削除または変更し、プライベートデータの公開を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルから内容を隠したり削除したりするための強力なツールを提供します。テキスト、画像、メタデータをマスキングして、文書を保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}で安全を保障する",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイル内の敏感なデータを隠したり削除したりします。重要な文書を保護するための信頼できるソリューションです。"
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}のプライベート画像をオーバーレイで隠す",
+      "description": "{{ProdFullName}}を使用して、画像にオーバーレイを追加することで{{FileFormatUp}}ファイルを保護します。文書のレイアウトを変更することなく、敏感なビジュアルを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイル内の敏感な画像の保護",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイル内の画像を安全に保ちます。わずか数ステップでプライベートコンテンツを保護するための簡単なツール。",
+      "subtitle": "{{ProdFullName}}の主要な特徴"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルを安全に保つ",
+      "content": {
+        "title": "{{ProdFullName}}は、あなたの{{EnvName}}アプリが敏感なデータを迅速かつ効果的に隠す能力を提供します。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、{{FileFormatCap}}ファイルのパスを指定します。",
+        "step_2": "必要に応じて修正設定を定義します。",
+        "step_3": "画像の領域を指定し、オーバーレイの色を選択します。",
+        "step_4": "修正を実行し、保護されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内の画像領域を隠す",
+      "comment_2": "{{textRedactor}}を通じてファイルをロード",
+      "comment_3": "オーバーレイのサイズと色を指定",
+      "comment_4": "隠す領域を選択",
+      "comment_5": "オーバーレイを適用して文書を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイで画像を保護する",
+      "content": "この例は、ドキュメント内の敏感な画像部分を隠す方法を示します。",
+      "comment_1": "編集用にファイルを開く",
+      "comment_2": "オーバーレイのサイズ、色、位置を設定",
+      "comment_3": "最初のページの画像領域を選択",
+      "comment_4": "オーバーレイを適用してエリアを隠す",
+      "comment_5": "修正されたファイルを保存"
+    },
+    "more_features": {
+      "title": "文書内のコンテンツを修正する",
+      "description": "{{ProdFullName}}は、さまざまなファイル形式で敏感なコンテンツを隠したり削除したりできます。ファイルを安全で共有可能な状態に保ちます。",
+      "image_description": "機能豊富な修正ツール",
+      "feature_1": {
+        "title": "テキストを検索・置き換え",
+        "content": "プライベートテキストを見つけ、情報を保護します。"
+      },
+      "feature_2": {
+        "title": "画像の領域を隠す",
+        "content": "オーバーレイを適用して画像や選択されたセクションを保護します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "隠れたメタデータを削除して、意図しないデータ漏洩を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内の内容を隠したり削除したりするためのツールを提供します。テキスト、画像、メタデータを保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}修正ツールで{{FileFormatUp}}ファイルを保護する",
+      "description": "{{EnvNameShort}}を使用することで、{{FileFormatUp}}ファイル内のプライベートデータを隠したり削除したりできます。文書を専門的で安全な状態に保つための信頼できるソリューションです。"
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "{{ProgLang}}を使った{{FileFormatUp}}のマスク画像",
+      "description": "オーバーレイを使用して、{{FileFormatUp}}ファイル内の敏感な画像コンテンツを隠す{{ProdFullName}}。元のレイアウトを保持しつつ、重要なビジュアルを守ります。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}オーバーレイを使った{{FileFormatUp}}ファイル内の敏感な画像のカバー",
+      "description": "{{ProgLang}}を使って、{{FileFormatUp}}ファイル内の個人および業務画像データを保護します。迅速かつ効果的な保護のためのシンプルなツール。",
+      "subtitle": "{{ProdFullName}}の必要な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のプライベートコンテンツを覆う",
+      "content": {
+        "title": "{{ProdFullName}}を使用すれば、あなたの{{EnvName}}アプリケーションが敏感なデータを簡単に隠すことができます。",
+        "step_1": "{{textRedactor}}を初期化し、{{FileFormatCap}}ファイルを指定します。",
+        "step_2": "必要に応じて修正設定を行います。",
+        "step_3": "画像セクションを選択し、オーバーレイの色を決定します。",
+        "step_4": "ファイルを処理し、修正されたバージョンを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の画像コンテンツを覆う",
+      "comment_2": "{{textRedactor}}を使用してファイルをロード",
+      "comment_3": "オーバーレイのサイズと色を指定",
+      "comment_4": "隠す領域を選択",
+      "comment_5": "オーバーレイを適用して保存する"
+    },
+    "example_bottom": {
+      "title": "オーバーレイで画像コンテンツを隠す",
+      "content": "この例は、オーバーレイを使用して文書の敏感な画像データを保護する方法を示しています。",
+      "comment_1": "修正のためにファイルを開く",
+      "comment_2": "オーバーレイの寸法、色、位置を設定",
+      "comment_3": "ページ1の画像領域を選択",
+      "comment_4": "オーバーレイで画像コンテンツを隠す",
+      "comment_5": "修正後のファイルを保存"
+    },
+    "more_features": {
+      "title": "異なる文書形式でのデータ保護",
+      "description": "{{ProdFullName}}は、異なるファイル形式のコンテンツを隠したり削除したりすることを可能にします。文書をクリーンで安全に保ちます。",
+      "image_description": "あらゆる修正を制御するためのツール",
+      "feature_1": {
+        "title": "敏感なテキストを検索・置き換え",
+        "content": "ドキュメントをスキャンしてプライベートなテキストを置き換え、データを安全に保ちます。"
+      },
+      "feature_2": {
+        "title": "画像をオーバーレイでマスク",
+        "content": "画像にオーバーレイを追加して、画像やその特定の部分を隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除",
+        "content": "プライベートデータの漏洩を防ぐために隠れたメタデータを削除または編集します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内の内容を隠したり削除したりするためのツールを提供します。テキスト、画像、メタデータの保護を強化します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイル内のコンテンツ保護",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイル内の敏感な情報を隠したり削除したりできます。文書を安全でプロフェッショナルに保つための信頼できる方法です。"
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "{{ProgLang}}オーバーレイを使った{{FileFormatUp}}ファイル内の画像のカバー",
+      "description": "{{ ProdFullName }}を使用して{{FileFormatUp}}ファイル内の敏感な画像データをオーバーレイで隠します。文書のデザインを変更せずにプライベートデータを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイル内の敏感な画像を隠す",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の画像コンテンツを保護します。迅速かつ効果的なデータ保護のための簡単なツール。",
+      "subtitle": "{{ProdFullName}}の主要な特徴"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内の画像領域を保護する",
+      "content": {
+        "title": "{{ProdFullName}}は、{{EnvName}}アプリケーションが敏感な画像領域を簡単にカバーできるようにします。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、{{FileFormatCap}}ファイルにリンクします。",
+        "step_2": "タスクに合わせて修正の設定を行います。",
+        "step_3": "画像セクションを強調表示し、オーバーレイの色を設定します。",
+        "step_4": "修正を適用し、保護されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の画像データを隠すためにオーバーレイを使用",
+      "comment_2": "{{textRedactor}}を使用してファイルを開く",
+      "comment_3": "オーバーレイの寸法と色を設定",
+      "comment_4": "隠す画像領域を選択",
+      "comment_5": "オーバーレイを適用して保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを使用して画像のセクションを覆う",
+      "content": "このコード例は、オーバーレイを使用して文書内の敏感な画像領域をマスクする方法を示しています。",
+      "comment_1": "修正のためにファイルを開く",
+      "comment_2": "オーバーレイのサイズ、色、配置を設定",
+      "comment_3": "最初のページの画像領域を選択する",
+      "comment_4": "オーバーレイを適用してコンテンツを隠す",
+      "comment_5": "セキュリティを強化したファイルを保存"
+    },
+    "more_features": {
+      "title": "異なるフォーマットでのデータ修正",
+      "description": "{{ProdFullName}}を使用すると、さまざまなタイプのファイルで機密データを隠したり削除したりできます。文書を保護しつつ、専門的な外観を保持します。",
+      "image_description": "全機能の修正機能",
+      "feature_1": {
+        "title": "テキストを検索・編集",
+        "content": "敏感なテキストを探し、文書を安全に保つために置き換えます。"
+      },
+      "feature_2": {
+        "title": "画像をオーバーレイで隠す",
+        "content": "完全な画像または特定のセクションを覆い、プライベートデータを保護します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除する",
+        "content": "隠れたメタデータを削除または編集し、プライベート情報の漏洩を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルのコンテンツを隠したり、削除したりするためのツールを提供します。テキスト、画像、メタデータを保護する強力なソリューションです。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}の敏感なコンテンツを修正",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイル内のプライベートデータを簡単に隠したり、削除したりできます。公式文書を保護するための便利な方法です。"
+    }
+  }
+}

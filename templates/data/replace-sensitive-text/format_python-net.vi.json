@@ -1,0 +1,429 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Xóa văn bản nhạy cảm trong {{FileFormatUp}} với {{ProgLang}}",
+      "description": "Giữ thông tin cá nhân an toàn trong tài liệu {{FileFormatUp}} của bạn với {{ProdFullName}}. Nhanh chóng tìm và ẩn thông tin nhạy cảm."
+    },
+    "header": {
+      "title": "Xóa văn bản nhạy cảm khỏi tệp {{FileFormatUp}} sử dụng {{EnvNameShort}}",
+      "description": "Sử dụng {{ProgLang}} và {{ProdFullName}} để tìm kiếm và loại bỏ dữ liệu riêng tư, pháp lý hoặc cá nhân trong các tệp {{FileFormatUp}} của bạn.",
+      "subtitle": "Những gì bạn có thể làm với {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cách xóa nội dung trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Giữ nội dung của bạn an toàn trong bất kỳ ứng dụng {{EnvName}} nào bằng cách sử dụng {{ProdFullName}}.",
+        "step_1": "Tạo một {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn các cài đặt xóa mà bạn muốn.",
+        "step_3": "Nhập văn bản để tìm kiếm và những gì để thay thế nó.",
+        "step_4": "Áp dụng xóa và lưu tệp của bạn."
+      }
+    },
+    "example_bottom": {
+      "title": "Xóa với Regex",
+      "content": "Sử dụng regex để tìm và loại bỏ các mẫu như email, ID hoặc số.",
+      "comment_1": "Mở tệp bạn muốn làm sạch",
+      "comment_2": "Đặt một mẫu regex và văn bản thay thế",
+      "comment_3": "Áp dụng quy tắc xóa của bạn",
+      "comment_4": "Lưu tệp đã xóa của bạn"
+    },
+    "more_features": {
+      "title": "Các tính năng xóa thêm",
+      "description": "{{ProdFullName}} cho phép bạn ẩn nội dung cá nhân trong nhiều loại tệp. Giữ dữ liệu của bạn an toàn và sẵn sàng chia sẻ.",
+      "image_description": "Công cụ xóa cho văn bản, hình ảnh và siêu dữ liệu",
+      "feature_1": {
+        "title": "Tìm và thay thế văn bản riêng tư",
+        "content": "Tìm kiếm và thay thế văn bản phù hợp. Hoạt động với regex và tìm kiếm từ khóa."
+      },
+      "feature_2": {
+        "title": "Che đi hình ảnh riêng tư",
+        "content": "Bịt toàn bộ hình ảnh hoặc các phần của chúng bằng cách sử dụng lớp phủ. Tùy chỉnh cài đặt giao diện."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu ẩn",
+        "content": "Loại bỏ thông tin ẩn như tên tác giả, thời gian và ghi chú sửa đổi."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} là gì?",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển {{ProgLang}} tất cả các công cụ họ cần để xóa nội dung trong các tệp {{FileFormatUp}}—văn bản, hình ảnh, bình luận và nhiều hơn nữa."
+    },
+    "formats": {
+      "title": "Xóa nội dung trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Giữ dữ liệu cá nhân hoặc doanh nghiệp an toàn bằng cách xóa văn bản trong các tệp {{FileFormatUp}} với các công cụ {{EnvNameShort}}."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Xóa văn bản riêng tư khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Giữ an toàn cho các tệp {{FileFormatUp}} của bạn bằng cách loại bỏ nội dung nhạy cảm với {{ProdFullName}} và {{ProgLang}}. Quy trình xóa nhanh chóng."
+    },
+    "header": {
+      "title": "Chỉnh sửa hoặc ẩn văn bản riêng tư trong các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Kiểm soát nội dung {{FileFormatUp}} của bạn bằng cách sử dụng {{ProdFullName}} và {{ProgLang}}. Phù hợp cho việc sử dụng cá nhân hoặc doanh nghiệp.",
+      "subtitle": "Những gì bạn có thể làm với {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cách làm sạch văn bản trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdFullName}} bên trong các ứng dụng {{EnvName}} của bạn để loại bỏ hoặc ẩn văn bản riêng tư. Quy trình xóa nhanh chóng và dễ dàng.",
+        "step_1": "Tạo một {{textRedactor}} và mở tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Thiết lập các quy tắc xóa bạn muốn.",
+        "step_3": "Chọn văn bản để tìm và những gì để thay thế nó.",
+        "step_4": "Chạy xóa và lưu tệp mới của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cách xóa văn bản trong một tệp {{FileFormatUp}}",
+      "comment_2": "Mở tệp của bạn bằng cách sử dụng trình tạo {{textRedactor}}",
+      "comment_3": "Chọn cài đặt xóa của bạn",
+      "comment_4": "Nhập những gì để tìm và những gì để thay thế nó",
+      "comment_5": "Áp dụng thay đổi và lưu tệp {{FileFormatUp}} được cập nhật"
+    },
+    "example_bottom": {
+      "title": "Sử dụng Regex để xóa các mẫu",
+      "content": "Tìm kiếm email, ID hoặc các mẫu khác bằng cách sử dụng biểu thức chính quy và thay thế chúng một cách dễ dàng.",
+      "comment_1": "Mở tệp bạn muốn làm sạch",
+      "comment_2": "Đặt một mẫu REGEX EMAIL và văn bản thay thế",
+      "comment_3": "Áp dụng cấu hình xóa của bạn",
+      "comment_4": "Lưu tài liệu đã xóa"
+    },
+    "more_features": {
+      "title": "Các công cụ xóa bổ sung",
+      "description": "{{ProdFullName}} cho phép bạn xóa hoặc che đậy văn bản nhạy cảm trên nhiều định dạng khác nhau. Chia sẻ các tệp sạch và an toàn với sự tự tin.",
+      "image_description": "Công cụ xóa cho văn bản, hình ảnh và siêu dữ liệu",
+      "feature_1": {
+        "title": "Tìm và thay thế văn bản riêng tư",
+        "content": "Tìm kiếm các từ hoặc mẫu cụ thể và thay thế chúng. Tương thích với biểu thức chính quy và tùy chọn từ khóa."
+      },
+      "feature_2": {
+        "title": "Che đi hình ảnh nhạy cảm",
+        "content": "Đoverlay hoặc ẩn các khu vực hình ảnh. Thay đổi màu sắc, độ mờ và kích thước nếu cần."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Xóa thông tin ẩn như tên tác giả, thời gian và ghi chú nội bộ để giữ cho các tệp của bạn riêng tư."
+      }
+    },
+    "about": {
+      "title": "Gặp {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển {{ProgLang}} các công cụ để làm sạch nội dung trong các tệp {{FileFormatUp}}. Xóa văn bản, hình ảnh, bình luận và siêu dữ liệu một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Xóa nội dung trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để loại bỏ văn bản nhạy cảm khỏi các tệp {{FileFormatUp}}. Giữ cho tài liệu cá nhân và công việc được bảo vệ."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Xóa văn bản riêng tư khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Bảo vệ các tệp {{FileFormatUp}} của bạn bằng cách ẩn hoặc loại bỏ dữ liệu nhạy cảm với {{ProdFullName}} và {{ProgLang}}."
+    },
+    "header": {
+      "title": "Ẩn hoặc xóa văn bản riêng tư trong các tệp {{FileFormatUp}} sử dụng {{EnvNameShort}}",
+      "description": "Với {{ProdFullName}} và {{ProgLang}}, bạn có thể loại bỏ văn bản riêng tư khỏi các tài liệu {{FileFormatUp}}—nhanh chóng và đáng tin cậy.",
+      "subtitle": "Những gì bạn có thể làm với {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cách xóa nội dung trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdFullName}} trong ứng dụng {{EnvName}} của bạn để xóa hoặc ẩn nội dung nhạy cảm một cách nhanh chóng.",
+        "step_1": "Bắt đầu một {{textRedactor}} và tải tệp {{FileFormatCap}}.",
+        "step_2": "Chọn các cài đặt xóa mà bạn cần.",
+        "step_3": "Đặt văn bản tìm kiếm và những gì sẽ thay thế nó.",
+        "step_4": "Áp dụng xóa và lưu tệp của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cách xóa văn bản trong một tệp {{FileFormatUp}}",
+      "comment_2": "Sử dụng trình tạo {{textRedactor}} để tải tệp của bạn",
+      "comment_3": "Chọn sở thích xóa của bạn",
+      "comment_4": "Đặt giá trị tìm kiếm và thay thế",
+      "comment_5": "Áp dụng thay đổi và lưu tệp {{FileFormatUp}} được cập nhật"
+    },
+    "example_bottom": {
+      "title": "Xóa bằng cách sử dụng các mẫu Regex",
+      "content": "Tìm các mẫu văn bản như số điện thoại, ID hoặc email với regex và loại bỏ chúng một cách nhanh chóng.",
+      "comment_1": "Mở tài liệu bạn muốn làm sạch",
+      "comment_2": "Đặt mẫu REGEX EMAIL và văn bản thay thế",
+      "comment_3": "Áp dụng quy tắc xóa",
+      "comment_4": "Lưu tệp đã xóa của bạn"
+    },
+    "more_features": {
+      "title": "Các tính năng xóa thêm",
+      "description": "{{ProdFullName}} giúp bạn ẩn hoặc xóa thông tin cá nhân trên nhiều định dạng tệp khác nhau. Chia sẻ tài liệu an toàn và có thể chia sẻ.",
+      "image_description": "Các công cụ xóa đang hoạt động",
+      "feature_1": {
+        "title": "Thay thế văn bản riêng tư",
+        "content": "Tìm và thay thế bất kỳ văn bản nào phù hợp. Hoạt động với tìm kiếm thông minh và mẫu regex."
+      },
+      "feature_2": {
+        "title": "Che đi nội dung hình ảnh",
+        "content": "Ẩn các phần của hình ảnh bằng lớp phủ. Tùy chỉnh hình ảnh trên trang."
+      },
+      "feature_3": {
+        "title": "Xóa các chi tiết ẩn",
+        "content": "Xóa siêu dữ liệu như thông tin tác giả, ghi chú và thời gian."
+      }
+    },
+    "about": {
+      "title": "Gặp {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển {{ProgLang}} mọi thứ họ cần để xóa hoặc ẩn dữ liệu riêng tư trong các tệp {{FileFormatUp}}—văn bản, hình ảnh, ghi chú và nhiều thứ khác."
+    },
+    "formats": {
+      "title": "Xóa nội dung trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Giữ dữ liệu nhạy cảm riêng tư bằng cách loại bỏ nó khỏi các tệp {{FileFormatUp}} bằng cách sử dụng các công cụ {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Xóa văn bản riêng tư khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Giữ các tệp {{FileFormatUp}} của bạn an toàn với {{ProdFullName}} và {{ProgLang}}. Nhanh chóng tìm và loại bỏ nội dung nhạy cảm."
+    },
+    "header": {
+      "title": "Chỉnh sửa hoặc xóa văn bản riêng tư trong các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{ProdFullName}} và {{ProgLang}} để tìm và làm sạch dữ liệu nhạy cảm trong tài liệu {{FileFormatUp}} của bạn. Giữ tài liệu cá nhân hoặc công việc của bạn được riêng tư.",
+      "subtitle": "Những gì bạn có thể làm với {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cách xóa văn bản trong các tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdFullName}} trong môi trường {{EnvName}} của bạn để ẩn hoặc loại bỏ nội dung nhạy cảm nhanh chóng.",
+        "step_1": "Tạo một {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn các cài đặt xóa của bạn.",
+        "step_3": "Nhập văn bản để tìm kiếm và những gì để thay thế nó.",
+        "step_4": "Áp dụng xóa và lưu tệp đã cập nhật của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cách xóa văn bản trong một tệp {{FileFormatUp}}",
+      "comment_2": "Sử dụng trình tạo {{textRedactor}} để tải tệp của bạn",
+      "comment_3": "Chọn cài đặt xóa của bạn",
+      "comment_4": "Chọn văn bản để tìm và những gì để thay thế nó",
+      "comment_5": "Thực hiện quy trình xóa và lưu tệp {{FileFormatUp}} đã cập nhật"
+    },
+    "example_bottom": {
+      "title": "Xóa theo mẫu bằng Regex",
+      "content": "Sử dụng biểu thức chính quy để tìm và xóa các mẫu như địa chỉ email, số điện thoại hoặc ID.",
+      "comment_1": "Mở tệp bạn muốn chỉnh sửa",
+      "comment_2": "Đặt một mẫu REGEX EMAIL và văn bản thay thế",
+      "comment_3": "Chạy quy trình xóa",
+      "comment_4": "Lưu tệp đã làm sạch"
+    },
+    "more_features": {
+      "title": "Các tính năng xóa thêm",
+      "description": "{{ProdFullName}} giúp bạn loại bỏ hoặc ẩn dữ liệu nhạy cảm trên nhiều định dạng khác nhau. Chia sẻ tài liệu một cách an toàn.",
+      "image_description": "Tổng quan về các tính năng xóa",
+      "feature_1": {
+        "title": "Thay thế văn bản riêng tư",
+        "content": "Tìm kiếm và thay thế nhanh chóng các từ hoặc cụm từ cụ thể. Hoạt động với regex và bộ lọc thông minh."
+      },
+      "feature_2": {
+        "title": "Che đi hình ảnh riêng tư",
+        "content": "Overlay hoặc ẩn các khu vực cụ thể trong hình ảnh. Tùy chỉnh cài đặt như màu sắc và bố cục."
+      },
+      "feature_3": {
+        "title": "Xóa thông tin ẩn",
+        "content": "Làm sạch siêu dữ liệu như tên tác giả, thời gian và ghi chú."
+      }
+    },
+    "about": {
+      "title": "Gặp {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển {{ProgLang}} quyền kiểm soát hoàn toàn nội dung {{FileFormatUp}}. Làm sạch văn bản, hình ảnh, ghi chú và siêu dữ liệu một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Xóa nội dung trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Với {{EnvNameShort}}, bạn có thể loại bỏ văn bản nhạy cảm khỏi các tài liệu {{FileFormatUp}} và giữ dữ liệu của bạn an toàn."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Xóa văn bản riêng tư khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Bảo vệ dữ liệu cá nhân trong các tệp {{FileFormatUp}} của bạn với {{ProdFullName}} và {{ProgLang}}. Quy trình loại bỏ văn bản nhanh chóng và đơn giản."
+    },
+    "header": {
+      "title": "Chỉnh sửa hoặc ẩn văn bản riêng tư trong các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Làm sạch nội dung nhạy cảm trong các tệp {{FileFormatUp}} của bạn bằng cách sử dụng {{ProdFullName}} và {{ProgLang}}. Giữ tài liệu cá nhân hoặc công việc của bạn an toàn.",
+      "subtitle": "Những gì bạn có thể làm với {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Các bước để xóa văn bản trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdFullName}} trong các ứng dụng {{EnvName}} của bạn để nhanh chóng loại bỏ hoặc ẩn thông tin nhạy cảm.",
+        "step_1": "Bắt đầu một {{textRedactor}} và tải tệp {{FileFormatCap}}.",
+        "step_2": "Chọn các cài đặt xóa mà bạn muốn.",
+        "step_3": "Nhập văn bản để tìm và những gì để thay thế nó.",
+        "step_4": "Chạy quá trình xóa và lưu tài liệu của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cách xóa văn bản trong một tệp {{FileFormatUp}}",
+      "comment_2": "Tải tệp bằng cách sử dụng trình tạo {{textRedactor}}",
+      "comment_3": "Đặt các tùy chọn xóa",
+      "comment_4": "Chọn văn bản để thay thế và giá trị mới",
+      "comment_5": "Áp dụng và lưu tệp {{FileFormatUp}} đã xóa của bạn"
+    },
+    "example_bottom": {
+      "title": "Xóa các mẫu bằng Regex",
+      "content": "Sử dụng biểu thức chính quy để tìm và làm sạch các mẫu văn bản như email, tên hoặc ID.",
+      "comment_1": "Mở tài liệu của bạn",
+      "comment_2": "Đặt một quy tắc REGEX EMAIL và văn bản thay thế",
+      "comment_3": "Áp dụng các cài đặt xóa",
+      "comment_4": "Lưu phiên bản cuối cùng"
+    },
+    "more_features": {
+      "title": "Nhiều công cụ xóa hơn",
+      "description": "{{ProdFullName}} cung cấp các công cụ để làm sạch nội dung nhạy cảm trong nhiều định dạng tệp. Giữ tài liệu của bạn an toàn để chia sẻ.",
+      "image_description": "Tổng quan về các tùy chọn xóa",
+      "feature_1": {
+        "title": "Thay thế văn bản nhạy cảm",
+        "content": "Tìm kiếm văn bản hoặc mẫu và thay thế chúng bằng cái khác. Regex cũng được hỗ trợ."
+      },
+      "feature_2": {
+        "title": "Che khuất các hình ảnh riêng tư",
+        "content": "Ẩn hoặc lớp lên các phần của hình ảnh. Điều chỉnh hình thức và kích thước theo nhu cầu."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu ẩn",
+        "content": "Xóa chi tiết ẩn như tên tác giả, ngày tạo và nhận xét."
+      }
+    },
+    "about": {
+      "title": "Gặp {{ProdFullName}}",
+      "content": "{{ProdFullName}} giúp các nhà phát triển {{ProgLang}} dễ dàng làm sạch các tệp {{FileFormatUp}}. Xóa văn bản, hình ảnh, ghi chú và siêu dữ liệu chỉ trong vài bước."
+    },
+    "formats": {
+      "title": "Xóa nội dung trong {{FileFormatUp}} sử dụng {{EnvNameShort}}",
+      "description": "Sử dụng các công cụ {{EnvNameShort}} để làm sạch và bảo vệ các tài liệu {{FileFormatUp}} bằng cách xóa văn bản và các chi tiết nhạy cảm."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Xóa văn bản riêng tư khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Nhanh chóng làm sạch thông tin nhạy cảm từ các tệp {{FileFormatUp}} của bạn với {{ProdFullName}} và {{ProgLang}}."
+    },
+    "header": {
+      "title": "Tìm và xóa văn bản riêng tư trong các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{ProgLang}} và {{ProdFullName}} để xóa các chi tiết nhạy cảm từ các tài liệu {{FileFormatUp}} của bạn. Dù là cho công việc hay sử dụng cá nhân, nội dung của bạn vẫn được an toàn.",
+      "subtitle": "Những gì bạn có thể làm với {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cách xóa văn bản trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Với {{ProdFullName}} trong các dự án {{EnvName}} của bạn, bạn có thể dễ dàng loại bỏ hoặc ẩn nội dung cá nhân.",
+        "step_1": "Tạo một {{textRedactor}} và mở tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn cài đặt xóa của bạn.",
+        "step_3": "Nhập văn bản bạn muốn tìm kiếm và những gì để thay thế nó.",
+        "step_4": "Chạy xóa và lưu tệp cập nhật của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cách xóa văn bản trong một tệp {{FileFormatUp}}",
+      "comment_2": "Mở tệp của bạn bằng trình tạo {{textRedactor}}",
+      "comment_3": "Thiết lập tùy chọn xóa của bạn",
+      "comment_4": "Chọn văn bản để tìm và những gì để thay thế nó",
+      "comment_5": "Áp dụng xóa và lưu tệp {{FileFormatUp}} mới của bạn"
+    },
+    "example_bottom": {
+      "title": "Xóa các mẫu bằng Regex",
+      "content": "Sử dụng regex để tìm và làm sạch các mẫu văn bản như email, số điện thoại hoặc chi tiết tài khoản.",
+      "comment_1": "Mở tệp mà bạn cần làm sạch",
+      "comment_2": "Định nghĩa mẫu REGEX EMAIL và văn bản thay thế",
+      "comment_3": "Áp dụng quy tắc xóa",
+      "comment_4": "Lưu phiên bản cuối cùng của tệp"
+    },
+    "more_features": {
+      "title": "Các tính năng xóa thêm",
+      "description": "{{ProdFullName}} giúp bạn làm sạch nội dung nhạy cảm trên nhiều định dạng tệp khác nhau. Giữ cho tài liệu của bạn an toàn và có thể chia sẻ.",
+      "image_description": "Công cụ xóa đang hoạt động",
+      "feature_1": {
+        "title": "Thay thế văn bản riêng tư",
+        "content": "Tìm kiếm và thay thế bất kỳ văn bản nào phù hợp. Hoạt động với tìm kiếm thông minh và mẫu regex."
+      },
+      "feature_2": {
+        "title": "Che đi nội dung hình ảnh",
+        "content": "Ẩn các phần của hình ảnh bằng lớp phủ. Tùy chỉnh cách nó hiển thị trên trang."
+      },
+      "feature_3": {
+        "title": "Xóa thông tin ẩn",
+        "content": "Xóa siêu dữ liệu như thông tin tác giả, ghi chú và thời gian."
+      }
+    },
+    "about": {
+      "title": "Gặp {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển {{ProgLang}} mọi thứ họ cần để làm sạch các tệp {{FileFormatUp}}. Xóa văn bản, hình ảnh, bình luận và siêu dữ liệu với mã đơn giản."
+    },
+    "formats": {
+      "title": "Xóa nội dung trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để xóa văn bản riêng tư khỏi các tệp {{FileFormatUp}}. Đảm bảo rằng nội dung của bạn được an toàn để lưu trữ hoặc chia sẻ."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Xóa văn bản riêng tư khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Nhanh chóng bảo vệ dữ liệu nhạy cảm trong các tệp {{FileFormatUp}} của bạn sử dụng {{ProdFullName}} và {{ProgLang}}."
+    },
+    "header": {
+      "title": "Tìm và ẩn văn bản nhạy cảm trong các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{ProdFullName}} và {{ProgLang}} để xóa hoặc ẩn nội dung riêng tư trong các tệp {{FileFormatUp}} của bạn. Giữ mọi thứ bí mật, cho dù là cá nhân hay liên quan đến công việc.",
+      "subtitle": "Những gì bạn có thể làm với {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cách làm sạch văn bản trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdFullName}} trong ứng dụng {{EnvName}} của bạn để loại bỏ hoặc thay thế dữ liệu nhạy cảm một cách nhanh chóng.",
+        "step_1": "Bắt đầu một {{textRedactor}} và mở tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn các tùy chọn xóa mà bạn cần.",
+        "step_3": "Đặt văn bản bạn muốn tìm kiếm và những gì để thay thế nó.",
+        "step_4": "Chạy quy trình xóa và lưu tệp cuối cùng."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cách xóa văn bản trong một tệp {{FileFormatUp}}",
+      "comment_2": "Tải tệp của bạn bằng cách sử dụng trình tạo {{textRedactor}}",
+      "comment_3": "Chọn cài đặt xóa mà bạn cần",
+      "comment_4": "Nhập văn bản để tìm và những gì để thay thế nó",
+      "comment_5": "Chạy quy trình xóa và lưu tệp {{FileFormatUp}} cuối cùng"
+    },
+    "example_bottom": {
+      "title": "Xóa theo mẫu bằng Regex",
+      "content": "Sử dụng biểu thức chính quy để tìm và xóa các mẫu như email, thông tin liên hệ hoặc các chi tiết riêng tư khác.",
+      "comment_1": "Mở bài thuyết trình cần làm sạch",
+      "comment_2": "Đặt một mẫu REGEX EMAIL và giá trị thay thế",
+      "comment_3": "Áp dụng các bước xóa",
+      "comment_4": "Lưu tệp đã xóa cuối cùng của bạn"
+    },
+    "more_features": {
+      "title": "Nhiều công cụ để loại bỏ dữ liệu riêng tư",
+      "description": "{{ProdFullName}} cho phép bạn làm sạch nội dung riêng tư trên nhiều định dạng. Hoàn hảo để chia sẻ hoặc lưu trữ tệp một cách an toàn.",
+      "image_description": "Tùy chọn và công cụ xóa",
+      "feature_1": {
+        "title": "Tìm và thay thế văn bản",
+        "content": "Nhanh chóng thay thế các từ hoặc số nhạy cảm. Hoạt động với regex và tìm kiếm từ khóa."
+      },
+      "feature_2": {
+        "title": "Che khuất các phần của hình ảnh",
+        "content": "Che đi các khu vực cụ thể bằng các hình dạng hoặc lớp phủ. Điều chỉnh hình ảnh theo nhu cầu của bạn."
+      },
+      "feature_3": {
+        "title": "Xóa thông tin ẩn",
+        "content": "Xóa siêu dữ liệu như ai đã tạo tệp, ghi nhận hoặc lịch sử sửa đổi."
+      }
+    },
+    "about": {
+      "title": "Gặp {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển {{ProgLang}} các công cụ để làm sạch tài liệu {{FileFormatUp}} từ trong ra ngoài. Xóa nội dung, hình ảnh, ghi chú và siêu dữ liệu một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Xóa nội dung trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Với {{EnvNameShort}}, bạn có thể làm sạch các tệp {{FileFormatUp}} bằng cách loại bỏ hoặc ẩn văn bản riêng tư. Giữ mọi thứ an toàn."
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Redazione Excel",
+        "description": "Fogli di calcolo MS Excel e Open Office"
+      },
+      "word": {
+        "name": "Redazione Word",
+        "description": "Documenti MS Word e Open Office"
+      },
+      "powerpoint": {
+        "name": "Redazione PowerPoint",
+        "description": "Presentazioni MS PowerPoint e Open Office"
+      },
+      "image": {
+        "name": "Redazione Immagine",
+        "description": "Formati di immagine popolari"
+      },
+      "photo": {
+        "name": "Redazione Foto",
+        "description": "Formati fotografici"
+      },
+      "pdf": {
+        "name": "Redazione PDF",
+        "description": "Formato Documento Portabile Adobe"
+      },
+      "doc": {
+        "name": "Redazione DOC",
+        "description": "Documento Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Redazione DOCX",
+        "description": "Documento Open XML di Microsoft Word"
+      },
+      "xls": {
+        "name": "Redazione XLS",
+        "description": "Cartella di lavoro Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Redazione XLSX",
+        "description": "Foglio di calcolo Open XML di Microsoft Excel"
+      },
+      "ppt": {
+        "name": "Redazione PPT",
+        "description": "Presentazione PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Redazione PPTX",
+        "description": "Presentazione Open XML di PowerPoint"
+      },
+      "jpg": {
+        "name": "Redazione JPEG",
+        "description": "Immagine JPEG"
+      },
+      "jpeg": {
+        "name": "Redazione JPEG",
+        "description": "Immagine JPEG"
+      },
+      "png": {
+        "name": "Redazione PNG",
+        "description": "Grafica di Rete Portatile"
+      },
+      "tiff": {
+        "name": "Redazione TIFF",
+        "description": "Formato File Immagine Tag"
+      },
+      "webp": {
+        "name": "Redazione WEBP",
+        "description": "Immagine WEB"
+      },
+      "rtf": {
+        "name": "Redazione RTF",
+        "description": "Formato Testo Ricco"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copia",
+      "result_title": "Redazioni di esempio",
+      "result_title_bottom": "Scarica risultato",
+      "copy_tip": "clicca per copiare",
+      "copy_done": "copiato",
+      "links": {
+        "title_1": "Altri esempi",
+        "title_2": "Documentazione"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto per iniziare?",
+      "description": "Prova le funzionalità di {{ProdShortName}} gratuitamente o richiedi una licenza",
+      "comment_1": "Download {{PackageStoreName}}",
+      "comment_2": "Licenze"
+    },
+    "texts": {
+      "learn_more": "Scopri di più"
+    }
+  }
+}

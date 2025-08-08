@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}의 이미지 커버 및 오버레이",
+      "description": "{{ProdFullName}}을 이용하여 {{FileFormatUp}} 파일에서 개인 이미지를 색상 오버레이로 숨길 수 있습니다. 문서 디자인은 그대로 유지하면서 민감한 시각 자료를 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일의 기밀 이미지 숨기기",
+      "description": "{{ProgLang}}을 통해 {{FileFormatUp}} 파일에서 개인 및 비즈니스 데이터를 보호하세요. 우리의 도구를 사용하면 이미지 레닥션이 간편하고 효과적입니다.",
+      "subtitle": "{{ProdFullName}} 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 비즈니스 정보 보호",
+      "content": {
+        "title": "{{ProdFullName}}은 귀하의 {{EnvName}} 애플리케이션에서 문서를 안전하게 보호할 수 있도록 도와줍니다. 몇 가지 간단한 단계로 개인 이미지를 레닥션할 수 있습니다.",
+        "step_1": "{{textRedactor}}를 초기화하고 {{FileFormatCap}} 파일의 경로를 설정합니다.",
+        "step_2": "최고의 결과를 위해 레닥션 설정을 선택합니다.",
+        "step_3": "이미지 영역을 선택하고 오버레이 색상을 선택합니다.",
+        "step_4": "처리 후 보호된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 민감한 이미지 커버",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 로드합니다.",
+      "comment_3": "오버레이 색상 및 크기를 설정합니다.",
+      "comment_4": "레닥션할 대상 영역을 선택합니다.",
+      "comment_5": "오버레이를 적용하고 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "오버레이로 이미지 데이터 숨기기",
+      "content": "이 예제에서는 오버레이를 사용하여 문서에서 기밀 시각 자료를 숨기는 방법을 보여줍니다.",
+      "comment_1": "편집을 위해 문서를 엽니다.",
+      "comment_2": "오버레이 크기, 색상 및 위치를 정의합니다.",
+      "comment_3": "첫 페이지에서 레닥션할 이미지 영역을 선택합니다.",
+      "comment_4": "오버레이를 추가하여 민감한 데이터를 커버합니다.",
+      "comment_5": "업데이트된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "문서 내 콘텐츠 숨기기",
+      "description": "{{ProdFullName}}을 사용하면 다양한 파일 형식에서 민감한 데이터를 숨기거나 삭제할 수 있습니다. 파일을 쉽게 읽고 배포할 수 있도록 개인 정보를 보호하세요.",
+      "image_description": "강력한 레닥션 옵션",
+      "feature_1": {
+        "title": "어디에서나 텍스트 수정",
+        "content": "민감한 단어를 찾아서 문서 전역에서 교체하여 개인 콘텐츠를 보호하세요."
+      },
+      "feature_2": {
+        "title": "이미지 숨기기",
+        "content": "이미지 또는 이미지의 일부에 오버레이를 추가하여 민감한 시각 자료를 숨겨 주세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 정리",
+        "content": "숨겨진 메타데이터를 삭제하거나 수정하여 원치 않는 정보 유출을 방지하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 지우는 효과적인 도구를 제공합니다. 텍스트, 이미지 및 메타데이터를 커버하여 여러 형식에서 문서를 안전하게 보호하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 레닥션을 사용한 {{FileFormatUp}} 파일 보호",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 민감한 데이터를 숨기거나 제거하세요. 공식 및 개인 문서를 안전하게 보호하기에 이상적입니다."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}에서 이미지 숨기기",
+      "description": "{{ProdFullName}}을 사용하면 색상 오버레이를 적용하여 {{FileFormatUp}} 파일에서 민감한 이미지를 쉽게 숨길 수 있습니다. 문서의 레이아웃을 변경하지 않고 개인 정보를 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 문서의 기밀 이미지 숨기기",
+      "description": "{{ProgLang}}를 이용하여 {{FileFormatUp}} 파일의 비즈니스 및 개인 데이터를 보호하세요. 우리의 도구는 민감한 정보를 안전하게 지키고 문서를 깔끔하게 유지하는 데 도움을 줍니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서의 데이터 보호",
+      "content": {
+        "title": "{{ProdFullName}}은 귀하의 {{EnvName}} 애플리케이션에 문서를 레닥션할 수 있는 권한을 부여합니다. 개인 콘텐츠를 빠르고 효율적으로 커버하세요.",
+        "step_1": "{{textRedactor}}를 생성하고 {{FileFormatCap}} 문서의 파일 경로를 설정합니다.",
+        "step_2": "필요에 맞게 레닥션 설정을 조정합니다.",
+        "step_3": "커버할 이미지 영역을 선택하고 오버레이 색상을 선택합니다.",
+        "step_4": "레닥션 프로세스를 실행하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 민감한 이미지 섹션 숨기기",
+      "comment_2": "{{textRedactor}}를 사용하여 문서를 로드합니다.",
+      "comment_3": "오버레이 색상 및 크기를 설정합니다.",
+      "comment_4": "레닥션할 영역을 표시합니다.",
+      "comment_5": "오버레이를 적용하고 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "민감한 데이터 숨기기를 위한 오버레이 적용",
+      "content": "이 예제에서는 문서에서 기밀 이미지 영역을 커버하는 방법을 보여줍니다.",
+      "comment_1": "편집을 위해 문서를 엽니다.",
+      "comment_2": "오버레이 크기, 색상 및 위치를 설정합니다.",
+      "comment_3": "첫 페이지에서 대상 영역을 선택합니다.",
+      "comment_4": "이미지를 커버하기 위해 오버레이를 적용합니다.",
+      "comment_5": "레닥션된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "파일 내 민감한 콘텐츠 숨기기",
+      "description": "{{ProdFullName}}을 사용하면 여러 파일 형식에서 콘텐츠를 레닥션하거나 제거할 수 있습니다. 문서를 안전하고 읽기 쉽게 유지하세요.",
+      "image_description": "문서용 레닥션 기능",
+      "feature_1": {
+        "title": "텍스트 콘텐츠 편집",
+        "content": "파일 전역에서 민감한 텍스트를 찾아서 교체하여 데이터 프라이버시를 유지하세요."
+      },
+      "feature_2": {
+        "title": "이미지 오버레이",
+        "content": "개별 이미지나 선택된 부분을 전체적으로 숨기기 위해 오버레이를 적용하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 제거",
+        "content": "문서에서 숨겨진 메타데이터를 정리하여 데이터 노출을 방지하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 지우는 도구를 제공합니다. 다양한 문서 형식에서 텍스트, 이미지 및 메타데이터를 보호하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일 레닥션",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 개인 데이터를 숨기거나 삭제하세요. 비즈니스 및 기밀 문서를 안전하게 지키는 완벽한 방법입니다."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}} 파일의 이미지 커버",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 민감한 이미지를 색상 오버레이로 커버하세요. 문서의 구조를 변경하지 않고 중요한 데이터를 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 문서의 민감한 이미지 커버",
+      "description": "{{ProgLang}}을 통해 {{FileFormatUp}} 파일에서 민감한 이미지 콘텐츠를 안전하게 보호하세요. 우리의 사용이 간편한 도구는 이미지 레닥션을 빠르고 신뢰할 수 있게 만들어 줍니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 개인 데이터 안전하게 보호",
+      "content": {
+        "title": "{{ProdFullName}}은 귀하의 {{EnvName}} 애플리케이션이 문서를 보호하도록 돕는 간단한 절차를 제공합니다.",
+        "step_1": "{{textRedactor}}를 초기화하고 {{FileFormatCap}} 문서를 불러옵니다.",
+        "step_2": "프로젝트에 맞는 레닥션 옵션을 설정합니다.",
+        "step_3": "이미지 섹션을 선택하고 오버레이 색상을 선택합니다.",
+        "step_4": "레닥션을 적용하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 민감한 이미지 영역 커버하기",
+      "comment_2": "파일 경로로 {{textRedactor}} 생성",
+      "comment_3": "오버레이 크기 및 색상을 선택합니다.",
+      "comment_4": "레닥션할 영역을 선택합니다.",
+      "comment_5": "오버레이를 적용하고 문서를 저장합니다."
+    },
+    "example_bottom": {
+      "title": "오버레이를 사용해 이미지 세부 정보 숨기기",
+      "content": "이 예제에서는 오버레이를 사용해 문서의 민감한 이미지 부분을 보호하는 방법을 보여줍니다.",
+      "comment_1": "레닥션할 문서를 로드합니다.",
+      "comment_2": "오버레이 크기, 색상 및 위치를 설정합니다.",
+      "comment_3": "특정 이미지 영역을 선택합니다.",
+      "comment_4": "오버레이를 적용해 이미지를 마스킹합니다.",
+      "comment_5": "업데이트된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "고급 레닥션 기능",
+      "description": "{{ProdFullName}}을 사용하면 다양한 파일 형식에서 민감한 콘텐츠를 숨기거나 삭제할 수 있으며 문서의 디자인을 간결하고 읽기 쉽게 유지할 수 있습니다.",
+      "image_description": "강력한 레닥션 도구",
+      "feature_1": {
+        "title": "텍스트 찾기 및 교체",
+        "content": "개인 텍스트를 검색하고 레닥션하여 문서를 안전하게 보호하세요."
+      },
+      "feature_2": {
+        "title": "이미지 콘텐츠 커버",
+        "content": "전체 이미지 또는 특정 섹션에 오버레이를 적용하여 기밀 비주얼 정보를 숨겨 주세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 제거",
+        "content": "문서에서 숨겨진 메타데이터를 정리하여 데이터 노출을 방지하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 민감한 콘텐츠를 숨기거나 삭제하는 간편한 도구를 제공합니다. 여러 문서 형식에서 텍스트, 이미지 및 메타데이터를 레닥션하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 레닥션을 사용한 {{FileFormatUp}} 파일 보호",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 개인 콘텐츠를 마스킹하거나 삭제하세요. 비즈니스 및 개인 문서를 안전하게 보호하는 스마트한 선택입니다."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}} 파일의 이미지 숨기기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 민감한 이미지를 색상 오버레이로 숨길 수 있습니다. 기밀 정보를 보호하면서 문서 레이아웃을 유지하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 문서에서 민감한 이미지 숨기기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일의 개인 및 비즈니스 데이터를 보호하세요. 우리의 도구는 이미지 레닥션을 빠르고 간편하게 만들어 줍니다.",
+      "subtitle": "{{ProdFullName}}의 주요 이점"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 개인 데이터 보호",
+      "content": {
+        "title": "{{ProdFullName}}은 {{EnvName}} 애플리케이션에서 문서를 안전하게 보호하는 작업을 간편하게 만들어 줍니다.",
+        "step_1": "{{textRedactor}}를 초기화하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "필요에 따라 레닥션 옵션을 설정합니다.",
+        "step_3": "이미지 영역을 선택하고 오버레이 색상을 정의합니다.",
+        "step_4": "레닥션을 적용하고 업데이트된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 민감한 이미지 섹션 숨기기",
+      "comment_2": "{{textRedactor}}를 사용하여 문서를 엽니다.",
+      "comment_3": "오버레이 색상 및 크기를 선택합니다.",
+      "comment_4": "숨길 영역을 강조합니다.",
+      "comment_5": "변경 사항을 적용하고 문서를 저장합니다."
+    },
+    "example_bottom": {
+      "title": "오버레이로 이미지 데이터 커버하기",
+      "content": "이 예제에서는 문서에서 민감한 이미지를 커버하는 방법을 보여줍니다.",
+      "comment_1": "문서를 로드합니다.",
+      "comment_2": "오버레이 크기, 색상 및 위치를 정의합니다.",
+      "comment_3": "첫 페이지에서 이미지 영역을 선택합니다.",
+      "comment_4": "이미지를 숨기기 위해 오버레이를 적용합니다.",
+      "comment_5": "레닥션된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "콘텐츠 레닥션 도구",
+      "description": "{{ProdFullName}}을 사용하면 다양한 파일 형식에서 민감한 정보를 숨기거나 지울 수 있습니다. 전문적인 외관을 유지하면서 문서를 안전하게 보호하세요.",
+      "image_description": "고급 레닥션 기능",
+      "feature_1": {
+        "title": "텍스트 찾기 및 교체",
+        "content": "개인 텍스트를 신속하게 검색하고 문서를 안전하게 보호하기 위해 레닥션하세요."
+      },
+      "feature_2": {
+        "title": "이미지 오버레이",
+        "content": "전체 이미지를 숨기거나 선택된 부분을 커버하기 위해 오버레이를 적용하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 정리",
+        "content": "기밀 정보의 공유를 방지하기 위해 숨겨진 메타데이터를 제거하거나 수정하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 삭제하는 실용적인 도구를 제공합니다. 다양한 문서 형식에서 텍스트, 이미지 및 메타데이터를 레닥션하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 콘텐츠 레닥션",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 민감한 콘텐츠를 숨기거나 삭제하세요. 문서 보호를 위한 신뢰할 수 있는 솔루션입니다."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}에서 이미지 숨기기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 민감한 이미지를 색상 오버레이로 커버하세요. 문서 레이아웃을 변경하지 않고 개인 데이터를 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일의 민감한 이미지 보호",
+      "description": "{{ProgLang}}를 통해 {{FileFormatCap}} 파일의 개인 및 비즈니스 비주얼을 안전하게 보호하세요. 빠르고 신뢰할 수 있는 이미지 레닥션이 간편하게 이루어집니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 기밀 데이터 보호",
+      "content": {
+        "title": "{{ProdFullName}}은 {{EnvName}} 애플리케이션에서 문서 내부의 개인 정보를 쉽게 숨길 수 있도록 도와줍니다.",
+        "step_1": "{{textRedactor}}를 초기화하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "필요한 레닥션 설정을 정의합니다.",
+        "step_3": "이미지 영역을 강조하고 오버레이 색상을 선택합니다.",
+        "step_4": "레닥션을 실행하고 업데이트된 문서를 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 민감한 이미지 콘텐츠 숨기기",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 로드합니다.",
+      "comment_3": "오버레이 색상 및 크기를 선택합니다.",
+      "comment_4": "커버할 이미지 영역을 표시합니다.",
+      "comment_5": "오버레이를 적용하고 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "오버레이를 사용하여 이미지 데이터 숨기기",
+      "content": "이 샘플은 오버레이를 사용하여 문서에서 민감한 이미지 콘텐츠를 보호하는 방법을 보여줍니다.",
+      "comment_1": "문서를 로드합니다.",
+      "comment_2": "오버레이 크기, 위치 및 색상을 설정합니다.",
+      "comment_3": "첫 페이지의 이미지 영역을 표시합니다.",
+      "comment_4": "해당 영역을 오버레이로 커버합니다.",
+      "comment_5": "레닥션된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "숨기기 및 콘텐츠 삭제 도구",
+      "description": "{{ProdFullName}}은 여러 파일 형식에서 민감한 데이터를 숨기거나 삭제하는 데 도움을 줍니다. 문서를 안전하고 잘 구조화된 상태로 유지하세요.",
+      "image_description": "효과적인 레닥션 기능",
+      "feature_1": {
+        "title": "텍스트 찾기 및 교체",
+        "content": "문서에서 개인 텍스트를 검색하고 교체하여 데이터 보안을 유지하세요."
+      },
+      "feature_2": {
+        "title": "이미지 영역 커버",
+        "content": "전체 이미지를 숨기거나 선택된 지역을 레닥션하여 개인 정보를 보장합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 지우기",
+        "content": "기밀 정보 보호를 위해 숨겨진 메타데이터를 제거하거나 수정하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 지우는 간편한 도구를 제공합니다. 다양한 형식에서 텍스트, 이미지 및 메타데이터를 레닥션하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 사용한 {{FileFormatUp}} 파일 숨기기",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일의 민감한 데이터를 숨기거나 삭제하세요. 문서를 안전하게 보관하는 효과적인 방법입니다."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}에서 이미지 숨기기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 민감한 이미지를 커버하세요. 색상 오버레이를 추가하여 개인 정보를 보호하면서 문서 디자인을 유지할 수 있습니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일의 민감한 이미지 숨기기",
+      "description": "{{ProgLang}}을 사용하여 {{FileFormatUp}} 파일에서 개인 및 비즈니스 비주얼을 안전하게 보호하세요. 신뢰할 수 있는 데이터 보호를 위한 간편한 도구입니다.",
+      "subtitle": "{{ProdFullName}}의 기능 탐색"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일의 데이터를 안전하게 보호",
+      "content": {
+        "title": "{{ProdFullName}}은 {{EnvName}} 애플리케이션이 문서 내 민감한 콘텐츠를 숨기는 데 도움을 줍니다.",
+        "step_1": "{{textRedactor}} 개체를 생성하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "레닥션 옵션을 설정하여 필요에 맞춥니다.",
+        "step_3": "커버할 이미지 영역을 선택하고 오버레이 색상을 선택합니다.",
+        "step_4": "레닥션을 적용하고 문서를 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 이미지 콘텐츠 숨기기",
+      "comment_2": "{{textRedactor}}로 파일을 엽니다.",
+      "comment_3": "오버레이 크기 및 색상을 정의합니다.",
+      "comment_4": "숨길 영역을 표기합니다.",
+      "comment_5": "변경 사항을 적용하고 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "오버레이로 이미지 데이터 숨기기",
+      "content": "이 예에서는 문서에서 민감한 이미지 영역을 보호하는 방법을 보여줍니다.",
+      "comment_1": "문서를 로드합니다.",
+      "comment_2": "오버레이 크기, 색상 및 위치를 설정합니다.",
+      "comment_3": "첫 페이지에서 이미지 섹션을 선택합니다.",
+      "comment_4": "오버레이를 적용하여 데이터를 숨깁니다.",
+      "comment_5": "업데이트된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "문서에서 콘텐츠 숨기기 또는 삭제하기",
+      "description": "{{ProdFullName}}은 여러 파일 형식에서 민감한 데이터를 커버하거나 삭제할 수 있습니다. 문서를 명확하고 안전하게 유지하세요.",
+      "image_description": "고급 레닥션 기능",
+      "feature_1": {
+        "title": "텍스트 찾기 및 교체",
+        "content": "문서에서 개인 텍스트를 검색하고 교체하여 데이터를 안전하게 보호하세요."
+      },
+      "feature_2": {
+        "title": "이미지 영역 커버",
+        "content": "이미지의 일부나 전체를 색상 오버레이로 숨기는 방법입니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 정리",
+        "content": "정확한 정보 공유를 방지하기 위해 숨겨진 메타데이터를 제거하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 삭제하는 도구를 제공합니다. 텍스트, 이미지, 메타데이터를 레닥션하여 민감한 데이터를 보호하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 레닥션으로 {{FileFormatUp}} 파일 보호",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 민감한 정보를 숨기거나 지우세요. 문서의 개인 정보를 보장하는 간단한 방법입니다."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}에서 민감한 이미지 커버",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 개인 이미지 콘텐츠를 숨길 수 있습니다. 오버레이를 추가하여 레이아웃에 영향을 주지 않고 문서를 안전하게 유지하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 문서의 기밀 이미지 보호",
+      "description": "{{ProgLang}}을 통해 {{FileFormatUp}} 파일의 개인 및 비즈니스 비주얼을 안전하게 보호하세요. 간편한 도구로 강력한 프라이버시 보호를 제공합니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 민감한 데이터 숨기기",
+      "content": {
+        "title": "{{ProdFullName}}은 귀하의 {{EnvName}} 애플리케이션이 민감한 콘텐츠를 신속하게 숨겨야 할 때 도움을 줍니다.",
+        "step_1": "{{textRedactor}} 개체를 생성하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "작업에 대해 레닥션 옵션을 설정합니다.",
+        "step_3": "이미지 영역을 선택하고 오버레이 색상을 선택합니다.",
+        "step_4": "레닥션을 적용하고 업데이트된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}의 이미지 데이터를 숨기기",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 엽니다.",
+      "comment_3": "오버레이 색상 및 크기를 설정합니다.",
+      "comment_4": "숨긴 영역을 선택합니다.",
+      "comment_5": "오버레이를 적용하고 변경 사항을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "이미지 콘텐츠 오버레이로 숨기기",
+      "content": "이 예제는 문서에서 민감한 이미지 영역을 오버레이하는 방법을 보여줍니다.",
+      "comment_1": "레닥션을 위해 파일을 로드합니다.",
+      "comment_2": "오버레이 크기, 색상 및 위치를 정의합니다.",
+      "comment_3": "첫 페이지의 이미지 섹션을 선택합니다.",
+      "comment_4": "해당 영역을 오버레이로 커버합니다.",
+      "comment_5": "업데이트된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "문서에서 민감한 데이터 숨기기",
+      "description": "{{ProdFullName}}은 다양한 문서 형식에서 민감한 콘텐츠를 레닥션하거나 삭제하는 데 도움을 줍니다. 공유 및 저장을 위해 파일을 안전하게 유지하세요.",
+      "image_description": "모든 요구에 대한 레닥션 도구",
+      "feature_1": {
+        "title": "텍스트 찾기 및 교체하기",
+        "content": "민감한 단어를 빠르게 검색하고 데이터 프라이버시를 보장하기 위해 레닥션하세요."
+      },
+      "feature_2": {
+        "title": "이미지 영역 숨기기",
+        "content": "이미지나 특정 부분에 오버레이를 적용하여 비공식 정보를 보호하세요."
+      },
+      "feature_3": {
+        "title": "숨겨진 메타데이터 제거",
+        "content": "데이터 유출 방지를 위해 메타데이터를 삭제하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자가 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 삭제하는 기능을 제공합니다. 텍스트, 이미지 및 메타데이터를 마스킹하여 문서를 보호하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 레닥션을 사용한 {{FileFormatUp}} 파일 보호",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 민감한 데이터를 숨기거나 삭제하세요. 문서 보호를 위한 신뢰할 수 있는 솔루션입니다."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}에서 이미지 숨기기",
+      "description": "{{ProdFullName}}을 통해 {{FileFormatUp}} 파일에서 민감한 이미지를 숨길 수 있습니다. 색상 오버레이를 추가하여 문서 레이아웃을 변경하지 않고 개인 정보를 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일의 기밀 이미지 보호",
+      "description": "{{ProgLang}}를 통해 {{FileFormatUp}} 파일의 개인 및 비즈니스 비주얼을 안전하게 보호하세요. 간편한 도구로 문서 보안을 높여줍니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일 내 개인 데이터 숨기기",
+      "content": {
+        "title": "{{ProdFullName}}은 귀하의 {{EnvName}} 애플리케이션에서 민감한 콘텐츠를 신속하게 커버할 수 있도록 돕습니다.",
+        "step_1": "{{textRedactor}} 개체를 초기화하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "레닥션 설정을 조정하여 필요에 맞추세요.",
+        "step_3": "이미지 영역을 선택하고 오버레이 색상을 선택합니다.",
+        "step_4": "레닥션을 적용하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 파일에서 이미지 데이터 마스킹",
+      "comment_2": "{{textRedactor}}로 파일을 엽니다.",
+      "comment_3": "오버레이 색상 및 크기를 설정합니다.",
+      "comment_4": "커버할 영역을 목표로 합니다.",
+      "comment_5": "오버레이 적용 후 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "오버레이로 이미지 콘텐츠 마스킹",
+      "content": "이 예제는 문서에서 민감한 이미지 영역을 오버레이로 숨기는 방법을 보여줍니다.",
+      "comment_1": "레닥션하려는 파일을 엽니다.",
+      "comment_2": "오버레이 크기, 위치 및 색상을 설정합니다.",
+      "comment_3": "첫 페이지에서 이미지 영역을 선택합니다.",
+      "comment_4": "오버레이를 적용하여 이미지를 숨깁니다.",
+      "comment_5": "업데이트된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "문서의 민감한 데이터 숨기기",
+      "description": "{{ProdFullName}}은 여러 파일 형식에서 콘텐츠를 숨기거나 제거할 수 있도록 돕습니다. 문서가 깔끔하고 공유 가능하도록 유지하세요.",
+      "image_description": "올인원 레닥션 기능",
+      "feature_1": {
+        "title": "텍스트 찾기 및 교체",
+        "content": "문서에서 민감한 텍스트를 검색하여 보호하세요."
+      },
+      "feature_2": {
+        "title": "이미지 콘텐츠 커버",
+        "content": "오버레이를 사용하여 전체 이미지를 숨기거나 선택된 부분을 보호하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 제거",
+        "content": "데이터 유출을 방지하기 위해 숨겨진 메타데이터를 삭제하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 삭제하는 도구를 제공합니다. 텍스트, 이미지 및 메타데이터를 쉽게 마스킹하여 문서를 보호하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 레닥션을 사용한 {{FileFormatUp}} 파일 보호",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 개인 데이터를 쉽게 숨기거나 삭제하세요. 중요한 문서를 안전하게 보호하는 신뢰할 수 있는 솔루션입니다."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}에서 이미지 숨기기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 민감한 이미지 영역을 색상 오버레이로 마스킹하세요. 문서 레이아웃을 변경하지 않고 중요한 데이터를 안전하게 유지하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일에서 개인 이미지 보호",
+      "description": "{{ProgLang}}을 통해 {{FileFormatUp}} 파일에서 비즈니스 및 개인 이미지를 안전하게 보호하세요. 신속하고 신뢰할 수 있는 데이터 보호를 위한 간편한 도구입니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 콘텐츠 보호를 위한 오버레이 사용",
+      "content": {
+        "title": "귀하의 {{EnvName}} 애플리케이션 안에서 민감한 영역을 신속하게 커버하세요.",
+        "step_1": "{{textRedactor}} 객체를 생성하고 {{FileFormatCap}} 파일 경로를 지정합니다.",
+        "step_2": "필요한 레닥션 옵션을 설정합니다.",
+        "step_3": "이미지 섹션을 선택하고 오버레이 색상을 선택합니다.",
+        "step_4": "레닥션을 처리하고 마스킹된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 이미지 콘텐츠 숨기기",
+      "comment_2": "{{textRedactor}}로 파일을 로드합니다.",
+      "comment_3": "오버레이 차원 및 색상을 설정합니다.",
+      "comment_4": "보호할 영역을 선택합니다.",
+      "comment_5": "오버레이를 적용하고 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "오버레이로 이미지 영역 마스킹",
+      "content": "이 코드 예제는 오버레이를 사용하여 민감한 이미지 부분을 숨기는 방법을 보여줍니다.",
+      "comment_1": "편집을 위해 파일을 엽니다.",
+      "comment_2": "오버레이 크기, 색상 및 위치를 정의합니다.",
+      "comment_3": "첫 페이지에서 이미지 영역을 선택합니다.",
+      "comment_4": "오버레이를 적용하여 콘텐츠를 마스킹합니다.",
+      "comment_5": "변경된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "모든 문서에서 민감한 콘텐츠 레닥션",
+      "description": "{{ProdFullName}}은 여러 파일 형식에서 개인 데이터를 숨기거나 삭제할 수 있도록 돕습니다. 배포를 위해 문서가 깔끔하고 안전하게 유지되도록 보장하세요.",
+      "image_description": "완벽한 레닥션 도구",
+      "feature_1": {
+        "title": "텍스트 찾아서 교체하기",
+        "content": "문서에서 민감한 텍스트를 찾아서 교체하여 정보를 보호하세요."
+      },
+      "feature_2": {
+        "title": "비밀 이미지를 오버레이로 숨기기",
+        "content": "전체 이미지나 특정 부분을 숨기기 위해 오버레이를 적용하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 정리",
+        "content": "데이터 노출을 방지하기 위해 숨겨진 메타데이터를 삭제하거나 수정하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 삭제하는 도구를 제공합니다. 텍스트, 이미지 및 메타데이터를 신속하게 마스킹하여 문서를 보호하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 레닥션을 사용한 {{FileFormatUp}} 파일 보호",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 민감한 데이터를 숨기거나 삭제하세요. 문서 보호를 위한 신뢰할 수 있는 솔루션입니다."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}에서 이미지 숨기기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 민감한 이미지 영역을 오버레이로 마스킹하세요. 파일 레이아웃을 변경하지 않고 개인 콘텐츠를 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일의 이미지 콘텐츠 보호",
+      "description": "{{ProgLang}}을 통해 {{FileFormatUp}} 파일의 개인 및 비즈니스 이미지 데이터를 안전하게 보호하세요. 빠르고 효과적인 보호를 위한 간편한 도구입니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 오버레이를 사용해 콘텐츠 숨기기",
+      "content": {
+        "title": "{{ProdFullName}}은 귀하의 {{EnvName}} 애플리케이션에서 민감한 영역을 숨기기 쉽게 도와줍니다.",
+        "step_1": "{{textRedactor}}를 초기화하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "필요한 레닥션 설정을 맞춥니다.",
+        "step_3": "이미지 영역을 선택하고 오버레이 색상을 선택합니다.",
+        "step_4": "레닥션을 실행하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 파일에서 이미지 섹션 오버레이로 커버하기",
+      "comment_2": "{{textRedactor}}로 파일을 로드합니다.",
+      "comment_3": "오버레이 색상 및 크기를 설정합니다.",
+      "comment_4": "커버할 이미지 영역을 마킹합니다.",
+      "comment_5": "오버레이를 적용하고 결과를 저장합니다."
+    },
+    "example_bottom": {
+      "title": "오버레이로 이미지 데이터 마스킹",
+      "content": "이 예제는 문서에서 이미지 콘텐츠를 오버레이로 숨기는 방법을 보여줍니다.",
+      "comment_1": "편집을 위해 문서를 엽니다.",
+      "comment_2": "오버레이 크기, 색상 및 위치를 정의합니다.",
+      "comment_3": "첫 페이지의 이미지 섹션을 목표로 합니다.",
+      "comment_4": "오버레이를 적용하여 콘텐츠를 숨깁니다.",
+      "comment_5": "수정된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "민감한 콘텐츠 레닥션을 쉽게",
+      "description": "{{ProdFullName}}은 다양한 문서 형식에서 개인 데이터를 숨기거나 삭제할 수 있도록 돕습니다. 파일을 깔끔하고 공유 가능하게 유지하세요.",
+      "image_description": "레닥션 전역에 대한 완벽한 제어",
+      "feature_1": {
+        "title": "텍스트 찾아서 교체하기",
+        "content": "문서에서 민감한 텍스트를 찾아서 보호하세요."
+      },
+      "feature_2": {
+        "title": "이미지 영역을 오버레이로 숨기기",
+        "content": "전체 이미지를 숨기거나 선택된 부분을 레닥션하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 제거",
+        "content": "데이터 유출을 방지하기 위해 숨겨진 메타데이터를 삭제하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대한 정보",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 삭제하는 도구를 제공합니다. 텍스트, 이미지 및 메타데이터를 마스킹하여 문서를 보호하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 레닥션을 사용한 {{FileFormatUp}} 파일 보호",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 민감한 데이터를 숨기거나 지우세요. 공식 문서를 보호하는 신뢰할 수 있는 방법입니다."
+    }
+  }
+}

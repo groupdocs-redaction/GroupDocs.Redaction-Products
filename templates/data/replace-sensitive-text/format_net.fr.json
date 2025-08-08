@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Rayer le texte sensible dans {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Protégez les informations privées dans vos fichiers {{FileFormatUp}} à l'aide de {{ProdFullName}}. Recherchez et censurez rapidement les données sensibles."
+    },
+    "header": {
+      "title": "Supprimer le texte sensible des documents {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+      "description": "Utilisez {{ProgLang}} et {{ProdFullName}} pour prendre le contrôle total du contenu de vos fichiers {{FileFormatUp}}. Censurez les données personnelles, juridiques ou confidentielles.",
+      "subtitle": "Ce que vous pouvez faire avec {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Comment rayer le contenu dans les fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "Protégez vos documents dans n'importe quelle application {{EnvName}} en utilisant {{ProdFullName}}. Rayez le texte sensible rapidement et avec précision.",
+        "step_1": "Initialisez un {{textRedactor}} et chargez votre fichier {{FileFormatCap}}.",
+        "step_2": "Configurez les options de censure nécessaires.",
+        "step_3": "Spécifiez le texte à rechercher et le texte de remplacement.",
+        "step_4": "Exécutez la censure et enregistrez le fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Comment rayer du texte dans un fichier {{FileFormatUp}}",
+      "comment_2": "Chargez votre fichier à l'aide du constructeur {{textRedactor}}",
+      "comment_3": "Définissez vos préférences de censure",
+      "comment_4": "Choisissez ce qu'il faut rechercher et par quoi le remplacer",
+      "comment_5": "Appliquez les censures et enregistrez le nouveau fichier {{FileFormatUp}}"
+    },
+    "example_bottom": {
+      "title": "Rayer du texte avec Regex",
+      "content": "Utilisez des expressions régulières pour rechercher et rayer des modèles de texte sensibles comme des e-mails ou des identifiants.",
+      "comment_1": "Ouvrez le document que vous souhaitez nettoyer",
+      "comment_2": "Définissez un modèle regex EMAIL et le texte à utiliser comme remplacement",
+      "comment_3": "Appliquez les règles de censure",
+      "comment_4": "Enregistrez le fichier final caviardé"
+    },
+    "more_features": {
+      "title": "Plus de façons de rayer des documents",
+      "description": "{{ProdFullName}} aide à supprimer ou à masquer le contenu sensible dans plusieurs formats de fichiers. Gardez vos documents propres et sûrs à partager.",
+      "image_description": "Outils et options de censure",
+      "feature_1": {
+        "title": "Remplacer le texte confidentiel",
+        "content": "Trouvez et remplacez le texte correspondant partout dans votre fichier. Prend en charge les regex et les options de recherche intelligente."
+      },
+      "feature_2": {
+        "title": "Masquer les images sensibles",
+        "content": "Couvrez les images ou des zones spécifiques avec des superpositions. Ajustez les paramètres de la page, les couleurs et plus encore."
+      },
+      "feature_3": {
+        "title": "Nettoyer les métadonnées cachées",
+        "content": "Supprimez les données cachées comme l'auteur, les horodatages ou les commentaires pour protéger la vie privée."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} fournit aux développeurs {{ProgLang}} tout ce dont ils ont besoin pour rayer le contenu {{FileFormatUp}}. Nettoyez le texte, les images, les annotations, les commentaires et les métadonnées dans des types de fichiers populaires."
+    },
+    "formats": {
+      "title": "Rayer le contenu dans {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+      "description": "Protégez les données officielles et personnelles en rayant le texte dans les fichiers {{FileFormatUp}} avec les outils {{EnvNameShort}}. Gardez vos documents sécurisés et privés."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Supprimer le texte privé de {{FileFormatUp}} en utilisant {{ProgLang}}",
+      "description": "Protégez rapidement le contenu privé dans vos fichiers {{FileFormatUp}} avec {{ProdFullName}} et {{ProgLang}}."
+    },
+    "header": {
+      "title": "Trouver et masquer le texte sensible dans les documents {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Que ce soit pour un usage personnel ou professionnel, {{ProdFullName}} et {{ProgLang}} aident à garder les informations privées hors de vue.",
+      "subtitle": "Comment {{ProdFullName}} vous aide"
+    },
+    "steps": {
+      "title": "Comment rayer le contenu dans les fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "Suivez ces étapes rapides dans votre projet {{EnvName}} pour nettoyer le texte privé avec {{ProdFullName}}.",
+        "step_1": "Démarrez un nouveau {{textRedactor}} et chargez le fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez les paramètres de censure que vous souhaitez.",
+        "step_3": "Entrez le texte à trouver et ce que vous souhaitez y remplacer.",
+        "step_4": "Exécutez la censure et enregistrez votre fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Rayer du texte dans un fichier {{FileFormatUp}}",
+      "comment_2": "Chargez votre fichier à l'aide de {{textRedactor}}",
+      "comment_3": "Choisissez les options de censure qui conviennent à vos besoins",
+      "comment_4": "Définissez ce qu'il faut rechercher et par quoi le remplacer",
+      "comment_5": "Exécutez l'outil et enregistrez votre fichier caviardé"
+    },
+    "example_bottom": {
+      "title": "Trouver et rayer des modèles avec Regex",
+      "content": "Utilisez regex pour rechercher des types de données spécifiques comme des adresses e-mail ou des numéros d'identification et les nettoyer automatiquement.",
+      "comment_1": "Ouvrez le fichier que vous devez nettoyer",
+      "comment_2": "Créez une règle regex EMAIL et une chaîne de remplacement",
+      "comment_3": "Exécutez la censure à l'aide de vos paramètres",
+      "comment_4": "Enregistrez le fichier mis à jour"
+    },
+    "more_features": {
+      "title": "Plus de fonctionnalités de censure",
+      "description": "Avec {{ProdFullName}}, il est facile de supprimer du contenu caché ou visible de différents types de fichiers. Idéal pour partager en toute sécurité.",
+      "image_description": "Aperçu des outils de censure",
+      "feature_1": {
+        "title": "Remplacer le texte privé",
+        "content": "Recherchez un texte spécifique n'importe où dans le fichier et remplacez-le. Fonctionne avec du texte brut ou des motifs."
+      },
+      "feature_2": {
+        "title": "Masquer les images sensibles",
+        "content": "Masquez des parties d'une image ou des pages entières avec des superpositions. Vous contrôlez les couleurs, les tailles et les positions."
+      },
+      "feature_3": {
+        "title": "Effacer les données cachées",
+        "content": "Supprimez les métadonnées comme les noms, les commentaires ou les horodatages pour vous assurer que rien n'est laissé derrière."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} fournit aux développeurs {{ProgLang}} les outils pour rechercher et nettoyer le contenu sensible dans des fichiers {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Rayer des données dans {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+      "description": "Protégez des informations personnelles ou officielles en les cachant dans des documents {{FileFormatUp}} en utilisant {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Supprimer le texte privé de {{FileFormatUp}} en utilisant {{ProgLang}}",
+      "description": "Nettoyez rapidement le contenu privé de vos fichiers {{FileFormatUp}} à l'aide de {{ProdFullName}} et {{ProgLang}}."
+    },
+    "header": {
+      "title": "Modifier ou masquer le texte sensible dans les documents {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Avec {{ProdFullName}} et {{ProgLang}}, vous pouvez supprimer des informations personnelles ou professionnelles de vos fichiers {{FileFormatUp}} et les garder en sécurité.",
+      "subtitle": "Ce que vous pouvez faire avec {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Comment rayer le texte dans les fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "Utilisez {{ProdFullName}} dans votre projet {{EnvName}} pour masquer ou supprimer des infos sensibles en quelques étapes.",
+        "step_1": "Créez un {{textRedactor}} et chargez le fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez les paramètres de censure qui répondent à vos besoins.",
+        "step_3": "Entrez le texte à trouver et ce par quoi le remplacer.",
+        "step_4": "Exécutez la censure et enregistrez votre fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Rayer du texte d'un fichier {{FileFormatUp}}",
+      "comment_2": "Utilisez {{textRedactor}} pour ouvrir le fichier",
+      "comment_3": "Choisissez vos options de censure",
+      "comment_4": "Définissez le texte à rechercher et à remplacer",
+      "comment_5": "Appliquez les censures et enregistrez le fichier nettoyé"
+    },
+    "example_bottom": {
+      "title": "Rayer avec des règles Regex",
+      "content": "Utilisez regex pour trouver et nettoyer des modèles comme des numéros de téléphone, des emails ou d'autres informations personnelles.",
+      "comment_1": "Ouvrez le fichier pour commencer",
+      "comment_2": "Écrivez une règle regex EMAIL et choisissez un remplacement",
+      "comment_3": "Exécutez la censure selon votre modèle",
+      "comment_4": "Enregistrez le fichier caviardé"
+    },
+    "more_features": {
+      "title": "Plus d’outils pour la censure",
+      "description": "{{ProdFullName}} aide à nettoyer différents types de contenu—aussi bien du texte que des images ou des métadonnées—pour que vos fichiers soient prêts à être partagés en toute sécurité.",
+      "image_description": "Options de censure affichées",
+      "feature_1": {
+        "title": "Remplacer le texte sensible",
+        "content": "Recherchez dans le fichier et remplacez tout ce qui est confidentiel. Prend en charge le texte simple et les motifs."
+      },
+      "feature_2": {
+        "title": "Masquer les zones d'images",
+        "content": "Utilisez des superpositions pour cacher des données visuelles. Choisissez la couleur, la taille de la zone et la mise en page de la page."
+      },
+      "feature_3": {
+        "title": "Supprimer les données supplémentaires",
+        "content": "Supprimez des métadonnées telles que le nom de l'auteur, les horodatages ou des notes internes pour éviter les fuites."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} permet aux développeurs {{ProgLang}} de rechercher et de supprimer des infos sensibles des fichiers {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Masquer les informations dans {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Nettoyez vos documents {{FileFormatUp}} en supprimant le texte personnel ou sensible à l'aide des outils {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Supprimer le texte privé de {{FileFormatUp}} en utilisant {{ProgLang}}",
+      "description": "Masquez rapidement le contenu privé dans vos présentations {{FileFormatUp}} avec {{ProdFullName}} et {{ProgLang}}."
+    },
+    "header": {
+      "title": "Editer ou masquer le texte sensible dans les documents {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Gardez vos présentations propres et privées. Utilisez {{ProdFullName}} et {{ProgLang}} pour supprimer tout ce que vous ne souhaitez pas partager.",
+      "subtitle": "Ce que vous pouvez faire avec {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Étapes pour nettoyer les présentations {{FileFormatCap}}",
+      "content": {
+        "title": "Utilisez {{ProdFullName}} dans votre application {{EnvName}} pour supprimer ou couvrir le contenu sensible en quelques étapes.",
+        "step_1": "Démarrez un nouveau {{textRedactor}} et chargez votre fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez les règles de censure que vous souhaitez appliquer.",
+        "step_3": "Définissez le texte à rechercher et ce par quoi le remplacer.",
+        "step_4": "Exécutez la censure et enregistrez votre fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Caviarder une présentation {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier avec {{textRedactor}}",
+      "comment_3": "Choisissez les paramètres de censure",
+      "comment_4": "Choisissez le texte à rechercher et à remplacer",
+      "comment_5": "Appliquez les modifications et enregistrez le fichier mis à jour"
+    },
+    "example_bottom": {
+      "title": "Rayer en utilisant des modèles Regex",
+      "content": "Trouvez et nettoyez des données comme des adresses e-mail ou des identifiants à l'aide de regex. Idéal pour une censure répétable.",
+      "comment_1": "Ouvrez votre fichier",
+      "comment_2": "Écrivez un modèle regex EMAIL et définissez le remplacement",
+      "comment_3": "Appliquez vos paramètres de censure",
+      "comment_4": "Enregistrez la version caviardée"
+    },
+    "more_features": {
+      "title": "Fonctionnalités de censure que vous pouvez utiliser",
+      "description": "{{ProdFullName}} vous aide à trouver et masquer le texte sensible, les images et les données cachées à travers plusieurs types de fichiers. Parfait pour partager des fichiers en toute sécurité.",
+      "image_description": "Options de censure disponibles",
+      "feature_1": {
+        "title": "Remplacer le texte caché",
+        "content": "Recherchez et remplacez des mots ou des phrases privées partout dans le fichier. Le regex est également pris en charge."
+      },
+      "feature_2": {
+        "title": "Cacher les images",
+        "content": "Utilisez des blocs pour cacher des images ou des zones que vous souhaitez masquer. Contrôlez la forme, la taille et la couleur."
+      },
+      "feature_3": {
+        "title": "Supprimer les détails cachés",
+        "content": "Nettoyez les métadonnées telles que les noms d'auteur, les dates de dernière modification ou les commentaires pour rendre votre fichier propre."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} donne aux développeurs {{ProgLang}} ce dont ils ont besoin pour supprimer le contenu sensible des fichiers {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Nettoyer les fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Rendez vos documents {{FileFormatUp}} plus sûrs à partager en masquant le texte privé avec {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Supprimer le texte privé de {{FileFormatUp}} en utilisant {{ProgLang}}",
+      "description": "Gardez vos fichiers {{FileFormatUp}} privés avec {{ProdFullName}} et {{ProgLang}}."
+    },
+    "header": {
+      "title": "Trouvez et supprimez le texte sensible dans les fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{ProgLang}} et {{ProdFullName}} pour protéger vos fichiers personnels ou professionnels. Vos informations privées restent cachées.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Comment rayer les fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "Avec {{ProdFullName}}, il est simple de trouver et de remplacer le contenu privé dans les applications {{EnvName}}.",
+        "step_1": "Créez un {{textRedactor}} et ouvrez votre fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez vos paramètres de censure.",
+        "step_3": "Indiquez ce qu'il faut rechercher et quel texte utiliser comme remplacement.",
+        "step_4": "Démarrez la censure et enregistrez votre fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Étapes pour rayer du contenu dans un document {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier avec {{textRedactor}}",
+      "comment_3": "Ajustez vos paramètres de censure",
+      "comment_4": "Sélectionnez ce qu'il faut rechercher et comme remplacer",
+      "comment_5": "Exécutez la censure et enregistrez votre nouveau fichier {{FileFormatUp}}"
+    },
+    "example_bottom": {
+      "title": "Utilisez Regex pour des censure plus intelligentes",
+      "content": "Trouvez et supprimez les modèles de données comme les e-mails ou les identifiants avec des expressions régulières.",
+      "comment_1": "Ouvrez le fichier que vous souhaitez nettoyer",
+      "comment_2": "Définissez un modèle regex EMAIL et choisissez le texte de remplacement",
+      "comment_3": "Exécutez le processus de censure",
+      "comment_4": "Enregistrez votre fichier final caviardé"
+    },
+    "more_features": {
+      "title": "Plus d’outils de censure",
+      "description": "{{ProdFullName}} vous offre des moyens puissants pour masquer ou effacer des informations privées dans de nombreux types de fichiers.",
+      "image_description": "Outils et réglages de censure disponibles",
+      "feature_1": {
+        "title": "Échanger du texte privé",
+        "content": "Recherchez et remplacez les correspondances exactes avec des options de texte intelligentes, y compris la prise en charge regex."
+      },
+      "feature_2": {
+        "title": "Masquer des images privées",
+        "content": "Couvrez des images entières ou juste des parties d'une page. Vous pouvez ajuster la couleur et la taille de la superposition."
+      },
+      "feature_3": {
+        "title": "Effacer les métadonnées cachées",
+        "content": "Supprimez des informations comme les noms d'auteur, l'historique des modifications et les commentaires pour protéger votre identité."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} fournit aux utilisateurs {{ProgLang}} les outils pour nettoyer les documents {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Comment rayer {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour nettoyer les fichiers {{FileFormatUp}}."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Supprimer du texte privé de {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Gardez vos fichiers {{FileFormatUp}} privés avec {{ProdFullName}} et {{ProgLang}}."
+    },
+    "header": {
+      "title": "Trouver et supprimer du texte sensible dans les fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{ProgLang}} et {{ProdFullName}} pour protéger vos fichiers personnels ou professionnels. Vos informations privées restent cachées.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Comment rayer les fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "Avec {{ProdFullName}}, il est simple de trouver et de remplacer le contenu privé dans les applications {{EnvName}}.",
+        "step_1": "Créez un {{textRedactor}} et ouvrez votre fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez vos paramètres de censure.",
+        "step_3": "Indiquez ce qu'il faut rechercher et quel texte utiliser comme remplacement.",
+        "step_4": "Démarrez la censure et enregistrez votre fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Étapes pour rayer du contenu dans un document {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier avec {{textRedactor}}",
+      "comment_3": "Ajustez vos paramètres de censure",
+      "comment_4": "Sélectionnez ce qu'il faut rechercher et comme le remplacer",
+      "comment_5": "Exécutez la censure et enregistrez votre nouveau fichier {{FileFormatUp}}"
+    },
+    "example_bottom": {
+      "title": "Utilisez Regex pour des censure plus intelligentes",
+      "content": "Trouvez et supprimez les modèles de données comme les e-mails ou les identifiants avec des expressions régulières.",
+      "comment_1": "Ouvrez le fichier que vous souhaitez nettoyer",
+      "comment_2": "Définissez un modèle regex EMAIL et choisissez le texte de remplacement",
+      "comment_3": "Exécutez le processus de censure",
+      "comment_4": "Enregistrez votre fichier final caviardé"
+    },
+    "more_features": {
+      "title": "Plus d’outils de censure",
+      "description": "{{ProdFullName}} vous offre des moyens puissants de masquer ou d'effacer des informations privées à travers de nombreux types de fichiers.",
+      "image_description": "Outils et paramètres de censure disponibles",
+      "feature_1": {
+        "title": "Échanger du texte privé",
+        "content": "Recherchez et remplacez les correspondances exactes avec des options de texte intelligentes, y compris la prise en charge regex."
+      },
+      "feature_2": {
+        "title": "Masquer des images privées",
+        "content": "Couvrez des images entières ou juste des parties d'une page. Vous pouvez ajuster la couleur et la taille de la superposition."
+      },
+      "feature_3": {
+        "title": "Effacer les métadonnées cachées",
+        "content": "Supprimez des informations comme le nom de l'auteur, l'historique des modifications, et les commentaires pour protéger votre identité."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} donne aux utilisateurs {{ProgLang}} les outils pour nettoyer les documents {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Comment rayer {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour nettoyer les fichiers {{FileFormatUp}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Supprimer le texte privé de {{FileFormatUp}} en utilisant {{ProgLang}}",
+      "description": "Gardez vos fichiers {{FileFormatUp}} privés avec {{ProdFullName}} et {{ProgLang}}."
+    },
+    "header": {
+      "title": "Trouver et supprimer du texte sensible dans les fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{ProgLang}} et {{ProdFullName}} pour protéger vos fichiers personnels ou professionnels. Vos informations privées restent cachées.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Comment rayer les fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "Avec {{ProdFullName}}, il est simple de trouver et de remplacer le contenu privé dans les applications {{EnvName}}.",
+        "step_1": "Créez un {{textRedactor}} et ouvrez votre fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez vos paramètres de censure.",
+        "step_3": "Indiquez ce qu'il faut rechercher et quel texte utiliser comme remplacement.",
+        "step_4": "Démarrez la censure et enregistrez votre fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Étapes pour rayer du contenu dans un document {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier avec {{textRedactor}}",
+      "comment_3": "Ajustez vos paramètres de censure",
+      "comment_4": "Sélectionnez ce qu'il faut rechercher et comme le remplacer",
+      "comment_5": "Exécutez la censure et enregistrez votre nouveau fichier {{FileFormatUp}}"
+    },
+    "example_bottom": {
+      "title": "Utilisez Regex pour une censure plus intelligente",
+      "content": "Trouvez et supprimez des motifs de données comme les e-mails ou les identifiants avec des expressions régulières.",
+      "comment_1": "Ouvrez le fichier que vous souhaitez nettoyer",
+      "comment_2": "Définissez un modèle regex EMAIL et choisissez le texte de remplacement",
+      "comment_3": "Exécutez le processus de censure",
+      "comment_4": "Enregistrez votre fichier final caviardé"
+    },
+    "more_features": {
+      "title": "Plus d'outils de censure",
+      "description": "{{ProdFullName}} vous permet de trouver et de cacher du texte sensible, des images et des données cachées à travers plusieurs types de fichiers.",
+      "image_description": "Options de censure disponibles",
+      "feature_1": {
+        "title": "Remplacer du texte caché",
+        "content": "Recherchez et remplacez des mots ou des phrases privées partout dans le fichier. Le regex est également supporté."
+      },
+      "feature_2": {
+        "title": "Masquer des images",
+        "content": "Utilisez des blocs pour cacher des images ou des zones que vous souhaitez masquer. Contrôlez la forme, la taille et la couleur."
+      },
+      "feature_3": {
+        "title": "Supprimer les détails cachés",
+        "content": "Nettoyez les métadonnées comme les noms d'auteur, les dates de dernière modification ou les commentaires pour rendre votre fichier propre."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} fournit aux utilisateurs {{ProgLang}} les outils pour nettoyer les documents {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Comment rayer {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour nettoyer les fichiers {{FileFormatUp}}."
+    }
+  }
+}

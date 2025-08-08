@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Coprire Immagini in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puoi nascondere immagini private in file {{FileFormatUp}} posizionando sovrapposizioni colorate. Proteggi elementi visivi sensibili mantenendo intatto il design del documento."
+    },
+    "header": {
+      "title": "Nascondi Immagini Riservate nei File {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Proteggi dati personali e aziendali nei file {{FileFormatUp}} con {{ProgLang}}. I nostri strumenti rendono la redazione delle immagini semplice ed efficace.",
+      "subtitle": "Caratteristiche di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteggere le Informazioni Aziendali nei File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aiuta le tue applicazioni {{EnvName}} a garantire documenti sicuri. Redigi immagini private in pochi passaggi.",
+        "step_1": "Inizializza un {{textRedactor}} e imposta il percorso del tuo file {{FileFormatCap}}.",
+        "step_2": "Scegli le impostazioni di redazione per risultati ottimali.",
+        "step_3": "Seleziona l'area dell'immagine e scegli un colore di sovrapposizione.",
+        "step_4": "Elabora e salva il file protetto."
+      }
+    },
+    "example_top": {
+      "comment_1": "Coprire immagini sensibili in {{FileFormatUp}}",
+      "comment_2": "Carica il file con {{textRedactor}}",
+      "comment_3": "Imposta colore e dimensioni della sovrapposizione",
+      "comment_4": "Seleziona l'area target per la redazione",
+      "comment_5": "Applica la sovrapposizione e salva il file"
+    },
+    "example_bottom": {
+      "title": "Coprire Dati Immagine con Sovrapposizioni",
+      "content": "Questo esempio dimostra come nascondere visuali riservate in documenti utilizzando sovrapposizioni.",
+      "comment_1": "Apri il documento per la modifica",
+      "comment_2": "Definisci dimensioni, colore e posizione della sovrapposizione",
+      "comment_3": "Scegli l'area dell'immagine da redigere nella pagina uno",
+      "comment_4": "Aggiungi la sovrapposizione per coprire i dati sensibili",
+      "comment_5": "Salva il documento aggiornato"
+    },
+    "more_features": {
+      "title": "Nascondi Contenuto nei Documenti",
+      "description": "Con {{ProdFullName}}, puoi nascondere o eliminare dati sensibili in vari formati di file. Proteggi informazioni private mantenendo i file facili da leggere e distribuire.",
+      "image_description": "Opzioni di Redazione Potenti",
+      "feature_1": {
+        "title": "Modifica Testo Ovunque",
+        "content": "Cerca e sostituisci parole sensibili in tutto il tuo documento per garantire la privacy dei contenuti."
+      },
+      "feature_2": {
+        "title": "Nascondi Immagini",
+        "content": "Aggiungi sovrapposizioni a immagini o parti di esse per mantenere nascosti elementi visivi sensibili."
+      },
+      "feature_3": {
+        "title": "Pulisci i Metadata",
+        "content": "Elimina o modifica i metadata nascosti per prevenire perdite involontarie di informazioni."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre ai programmatori {{ProgLang}} strumenti efficaci per nascondere o eliminare contenuti in file {{FileFormatUp}}. Copri testo, immagini e metadata per mantenere i tuoi documenti sicuri attraverso più formati."
+    },
+    "formats": {
+      "title": "Proteggi i File {{FileFormatUp}} con Redazioni {{EnvNameShort}}",
+      "description": "Usa {{EnvNameShort}} per nascondere o rimuovere dati sensibili in file {{FileFormatUp}}. Ideale per la protezione di documenti ufficiali e privati."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Nascondi Immagini in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puoi nascondere immagini sensibili in file {{FileFormatUp}} applicando sovrapposizioni colorate. Proteggi informazioni private senza modificare il layout del tuo documento."
+    },
+    "header": {
+      "title": "Nascondi Immagini Riservate nei Documenti {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Proteggi dati aziendali e personali nei file {{FileFormatUp}} usando {{ProgLang}}. I nostri strumenti ti aiutano a mantenere al sicuro informazioni sensibili e i tuoi documenti puliti.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sicurezza dei Dati nei Documenti {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} offre alle tue app {{EnvName}} il potere di redigere documenti. Copri contenuti privati rapidamente ed efficacemente.",
+        "step_1": "Crea un {{textRedactor}} e imposta il percorso del file per il tuo documento {{FileFormatCap}}.",
+        "step_2": "Regola le impostazioni di redazione per soddisfare le tue esigenze.",
+        "step_3": "Seleziona l'area dell'immagine da coprire e scegli un colore di sovrapposizione.",
+        "step_4": "Esegui il processo di redazione e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondi sezioni di immagini sensibili in {{FileFormatUp}}",
+      "comment_2": "Carica il documento usando {{textRedactor}}",
+      "comment_3": "Imposta il colore e le dimensioni della sovrapposizione",
+      "comment_4": "Indica l'area da redigere",
+      "comment_5": "Applica la sovrapposizione e salva il file"
+    },
+    "example_bottom": {
+      "title": "Sovrapponi Immagini per Nascondere Dati Sensibili",
+      "content": "Questo esempio mostra come applicare sovrapposizioni per coprire aree di immagini confidenziali in documenti.",
+      "comment_1": "Apri il documento per la modifica",
+      "comment_2": "Imposta dimensioni, colore e posizione della sovrapposizione",
+      "comment_3": "Seleziona un'area target nella prima pagina",
+      "comment_4": "Applica la sovrapposizione per coprire l'immagine",
+      "comment_5": "Salva il documento redatto"
+    },
+    "more_features": {
+      "title": "Nascondi contenuti sensibili nei file",
+      "description": "Con {{ProdFullName}}, puoi redigere o rimuovere contenuti da più tipi di file. Mantieni i tuoi documenti sicuri e leggibili.",
+      "image_description": "Funzionalità di Redazione per Documenti",
+      "feature_1": {
+        "title": "Modifica Contenuti Testuali",
+        "content": "Cerca e sostituisci testo sensibile nei tuoi file per mantenere la privacy dei dati."
+      },
+      "feature_2": {
+        "title": "Sovrapponi Immagini",
+        "content": "Coprire im immagini intere o parti selezionate per nascondere informazioni visive riservate."
+      },
+      "feature_3": {
+        "title": "Rimuovere Metadata",
+        "content": "Pulisci metadata nascosti dai documenti per prevenire esposizioni di dati."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre ai programmatori {{ProgLang}} gli strumenti per nascondere o eliminare contenuti in file {{FileFormatUp}}. Proteggi testo, immagini e metadata in vari formati di documenti."
+    },
+    "formats": {
+      "title": "Redigi i File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Usa {{EnvNameShort}} per nascondere o eliminare dati privati in file {{FileFormatUp}}. Perfetto per mantenere documenti aziendali e confidenziali al sicuro."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Coprire Immagini nei File {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} per coprire immagini sensibili in file {{FileFormatUp}} aggiungendo sovrapposizioni colorate. Proteggi dati importanti mantenendo la struttura del documento invariata."
+    },
+    "header": {
+      "title": "Coprire Immagini Private nei Documenti {{FileFormatUp}} Utilizzando {{EnvNameShort}}",
+      "description": "Mantieni sicuri i contenuti delle immagini sensibili in file {{FileFormatUp}} con {{ProgLang}}. I nostri strumenti facili da usare rendono la redazione delle immagini rapida e affidabile.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Mantieni i Dati Privati Sicuri nei Documenti {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aiuta le tue app {{EnvName}} a proteggere documenti con passaggi semplici.",
+        "step_1": "Inizializza un {{textRedactor}} e carica il tuo documento {{FileFormatCap}}.",
+        "step_2": "Impostare opzioni di redazione per adattarsi al progetto.",
+        "step_3": "Seleziona la sezione dell'immagine e scegli un colore di sovrapposizione.",
+        "step_4": "Applica la redazione e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Coprire aree di immagini sensibili in {{FileFormatUp}}",
+      "comment_2": "Crea {{textRedactor}} con percorso del file",
+      "comment_3": "Scegli dimensioni e colore della sovrapposizione",
+      "comment_4": "Seleziona l'area da redigere",
+      "comment_5": "Applica sovrapposizione e salva documento"
+    },
+    "example_bottom": {
+      "title": "Nascondere i Dettagli delle Immagini Utilizzando Sovrapposizioni",
+      "content": "Scopri come proteggere parti sensibili delle immagini nei tuoi documenti con sovrapposizioni.",
+      "comment_1": "Carica il documento da redigere",
+      "comment_2": "Stabilisci dimensioni, colore e posizione della sovrapposizione",
+      "comment_3": "Seleziona un'area specifica dell'immagine",
+      "comment_4": "Applica sovrapposizione per mascherare l'immagine",
+      "comment_5": "Salva il file aggiornato"
+    },
+    "more_features": {
+      "title": "Caratteristiche Avanzate di Redazione",
+      "description": "Con {{ProdFullName}}, puoi nascondere o eliminare contenuti sensibili in vari tipi di file mantenendo il layout del documento pulito e leggibile.",
+      "image_description": "Strumenti di Redazione Potenti",
+      "feature_1": {
+        "title": "Trova e Sostituisci Testo",
+        "content": "Cerca testo privato e redigilo per proteggere i tuoi documenti."
+      },
+      "feature_2": {
+        "title": "Coprire il Contenuto dell'Immagine",
+        "content": "Applica sovrapposizioni per nascondere immagini confidenziali o sezioni specifiche."
+      },
+      "feature_3": {
+        "title": "Pulisci Metadata Nascosti",
+        "content": "Rimuovi o aggiorna i metadata per evitare di condividere dettagli privati accidentalmente."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce ai programmatori {{ProgLang}} strumenti semplici per nascondere o eliminare contenuti sensibili dai file {{FileFormatUp}}. Redigi testo, immagini e metadata attraverso più tipi di documenti."
+    },
+    "formats": {
+      "title": "Coprire i Contenuti {{FileFormatUp}} con Redazioni {{EnvNameShort}}",
+      "description": "Usa {{EnvNameShort}} per mascherare o eliminare contenuti privati in file {{FileFormatUp}}. Una scelta intelligente per proteggere documenti aziendali e personali."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Nascondere Immagini in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puoi nascondere immagini sensibili in file {{FileFormatUp}} aggiungendo sovrapposizioni colorate. Proteggi informazioni confidenziali mantenendo intatto il layout del documento."
+    },
+    "header": {
+      "title": "Nascondi Immagini Sensibili nei Documenti {{FileFormatUp}} Utilizzando {{EnvNameShort}}",
+      "description": "Proteggi dati personali e aziendali nei file {{FileFormatUp}} utilizzando {{ProgLang}}. I nostri strumenti rendono la redazione delle immagini veloce e semplice.",
+      "subtitle": "Benefici Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteggi Dati Privati nei Documenti {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} semplifica per le app {{EnvName}} la protezione dei documenti nascondendo contenuti sensibili.",
+        "step_1": "Inizializza un {{textRedactor}} e carica il file {{FileFormatCap}}.",
+        "step_2": "Imposta le opzioni di redazione in base alle tue esigenze.",
+        "step_3": "Seleziona le aree delle immagini e definisci i colori delle sovrapposizioni.",
+        "step_4": "Applica la redazione e salva il file aggiornato."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondere sezioni di immagini sensibili in {{FileFormatUp}}",
+      "comment_2": "Apri il documento utilizzando {{textRedactor}}",
+      "comment_3": "Scegli il colore e la dimensione della sovrapposizione",
+      "comment_4": "Evidenzia l'area da nascondere",
+      "comment_5": "Applica le modifiche e salva il documento"
+    },
+    "example_bottom": {
+      "title": "Coprire Dati Immagine con Sovrapposizioni",
+      "content": "Questo esempio mostra come coprire immagini sensibili nei tuoi documenti.",
+      "comment_1": "Carica il tuo documento",
+      "comment_2": "Definisci dimensioni, colore e posizione della sovrapposizione",
+      "comment_3": "Seleziona l'area dell'immagine nella prima pagina",
+      "comment_4": "Applica la sovrapposizione per coprirla",
+      "comment_5": "Salva il documento redatto"
+    },
+    "more_features": {
+      "title": "Strumenti di Redazione dei Contenuti",
+      "description": "{{ProdFullName}} ti aiuta a nascondere o eliminare informazioni sensibili in molti formati di file. Mantieni i documenti sicuri mentre mantieni un aspetto professionale.",
+      "image_description": "Caratteristiche Avanzate di Redazione",
+      "feature_1": {
+        "title": "Trova e Sostituisci Testo",
+        "content": "Cerca rapidamente testo privato e redigilo per garantire la sicurezza dei documenti."
+      },
+      "feature_2": {
+        "title": "Coprire Immagini con Sovrapposizioni",
+        "content": "Nascondi intere immagini o aree selezionate applicando sovrapposizioni."
+      },
+      "feature_3": {
+        "title": "Pulisci Metadata",
+        "content": "Rimuovi o modifica metadata nascosti per prevenire la condivisione di informazioni confidenziali."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce ai programmatori {{ProgLang}} strumenti pratici per nascondere o rimuovere contenuti in file {{FileFormatUp}}. Redigi testo, immagini e metadata attraverso tipi di documenti diversi."
+    },
+    "formats": {
+      "title": "Redigi il Contenuto {{FileFormatUp}} Utilizzando {{EnvNameShort}}",
+      "description": "Applica {{EnvNameShort}} per nascondere o eliminare contenuti sensibili in file {{FileFormatUp}}. Una soluzione affidabile per la protezione dei documenti."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Nascondere Immagini in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puoi coprire immagini sensibili in file {{FileFormatUp}} utilizzando sovrapposizioni colorate. Proteggi dati privati senza cambiare il layout del documento."
+    },
+    "header": {
+      "title": "Proteggi Immagini Sensibili nei File {{FileFormatUp}} Utilizzando {{EnvNameShort}}",
+      "description": "Sicurezza per visuali personali e aziendali nei documenti {{FileFormatUp}} con {{ProgLang}}. Redazione di immagini veloce e affidabile resa semplice.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Mantieni Dati Riservati Sicuri nei File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} semplifica per le applicazioni {{EnvName}} nascondere informazioni private all'interno dei documenti.",
+        "step_1": "Inizializza un {{textRedactor}} e carica il file {{FileFormatCap}}.",
+        "step_2": "Definisci le impostazioni di redazione di cui hai bisogno.",
+        "step_3": "Evidenzia l'area dell'immagine e seleziona un colore di sovrapposizione.",
+        "step_4": "Esegui la redazione e salva il tuo documento aggiornato."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondi contenuti di immagini sensibili in {{FileFormatUp}}",
+      "comment_2": "Carica il file utilizzando {{textRedactor}}",
+      "comment_3": "Scegli il colore e la dimensione della sovrapposizione",
+      "comment_4": "Indica l'area dell'immagine da coprire",
+      "comment_5": "Applica la sovrapposizione e salva il file"
+    },
+    "example_bottom": {
+      "title": "Usa Sovrapposizioni per Nascondere Dati Immagine",
+      "content": "Questo esempio mostra come proteggere contenuti di immagini sensibili nei documenti con sovrapposizioni.",
+      "comment_1": "Carica il documento",
+      "comment_2": "Imposta proprietà della sovrapposizione come dimensione, posizione e colore",
+      "comment_3": "Indica l'area dell'immagine nella prima pagina",
+      "comment_4": "Coprire l'area con la sovrapposizione",
+      "comment_5": "Salva il documento redatto"
+    },
+    "more_features": {
+      "title": "Strumenti per Nascondere e Rimuovere Contenuti",
+      "description": "{{ProdFullName}} ti aiuta a nascondere o eliminare dati sensibili in vari formati di file. Mantieni i tuoi documenti sicuri e ben strutturati.",
+      "image_description": "Caratteristiche di Redazione Efficaci",
+      "feature_1": {
+        "title": "Trova e Sostituisci Testo",
+        "content": "Cerca documenti per testo privato e sostituiscilo per garantire la sicurezza dei dati."
+      },
+      "feature_2": {
+        "title": "Coprire Aree Immagine",
+        "content": "Nascondere immagini complete o aree selezionate applicando sovrapposizioni."
+      },
+      "feature_3": {
+        "title": "Cancellare Metadata",
+        "content": "Rimuovi o modifica metadata nascosti per proteggere informazioni confidenziali."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre ai programmatori {{ProgLang}} strumenti facili da usare per nascondere o eliminare contenuti dai file {{FileFormatUp}}. Redigi testo, immagini e metadata attraverso vari formati."
+    },
+    "formats": {
+      "title": "Nascondi Contenuto nei File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Usa {{EnvNameShort}} per nascondere o rimuovere dati sensibili in file {{FileFormatUp}}. Un modo efficace per tenere sicuri i documenti."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Nascondere Immagini in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} per coprire immagini sensibili in file {{FileFormatUp}}. Aggiungi sovrapposizioni colorate per proteggere informazioni private mantenendo intatto il design del documento."
+    },
+    "header": {
+      "title": "Nascondi Immagini Sensibili nei File {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Proteggi immagini private e aziendali in file {{FileFormatUp}} con {{ProgLang}}. Strumenti rapidi e semplici per una protezione affidabile dei dati.",
+      "subtitle": "Scopri Caratteristiche di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sicurezza dei Tuoi Dati nei File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aiuta le app {{EnvName}} a nascondere contenuti sensibili all'interno dei documenti.",
+        "step_1": "Crea un oggetto {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Imposta opzioni di redazione per soddisfare le tue esigenze.",
+        "step_3": "Scegli l'area dell'immagine da coprire e seleziona un colore di sovrapposizione.",
+        "step_4": "Applica la redazione e salva il documento."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondi contenuto delle immagini in {{FileFormatUp}}",
+      "comment_2": "Apri il file con {{textRedactor}}",
+      "comment_3": "Definisci dimensioni e colore della sovrapposizione",
+      "comment_4": "Contrassegna l'area che desideri nascondere",
+      "comment_5": "Applica modifiche e salva il file"
+    },
+    "example_bottom": {
+      "title": "Coprire Dati Immagine con Sovrapposizioni",
+      "content": "Questo esempio mostra come nascondere aree sensibili delle immagini in documenti utilizzando sovrapposizioni.",
+      "comment_1": "Apri il file per la modifica",
+      "comment_2": "Stabilisci dimensioni, colore e posizione della sovrapposizione",
+      "comment_3": "Scegli la sezione dell'immagine nella prima pagina",
+      "comment_4": "Applica la sovrapposizione per nascondere i dati",
+      "comment_5": "Salva il tuo documento redatto"
+    },
+    "more_features": {
+      "title": "Nascondere o Eliminare Contenuti nei Documenti",
+      "description": "{{ProdFullName}} ti consente di coprire o eliminare dati sensibili in diversi tipi di file. Mantieni i tuoi documenti chiari e sicuri.",
+      "image_description": "Caratteristiche di Redazione Avanzate",
+      "feature_1": {
+        "title": "Trova e Sostituisci Testo",
+        "content": "Cerca nei documenti testo privato e sostituiscilo per mantenere i dati al sicuro."
+      },
+      "feature_2": {
+        "title": "Coprire Aree di Immagini",
+        "content": "Nascondere parti delle immagini o interi contenuti con sovrapposizioni colorate."
+      },
+      "feature_3": {
+        "title": "Pulisci Metadata",
+        "content": "Rimuovi metadata nascosti per evitare di condividere informazioni extra."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre ai programmatori {{ProgLang}} gli strumenti per nascondere o eliminare contenuti in file {{FileFormatUp}}. Copri testo, immagini e metadata per proteggere dati sensibili."
+    },
+    "formats": {
+      "title": "Sicurezza dei File {{FileFormatUp}} con Redazione {{EnvNameShort}}",
+      "description": "Usa {{EnvNameShort}} per nascondere o eliminare informazioni private in file {{FileFormatUp}}. Un modo semplice per garantire la privacy del documento."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Coprire Immagini Sensibili in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Nascondi contenuti immagine privati in file {{FileFormatUp}} con {{ProdFullName}}. Aggiungi sovrapposizioni per mantenere i documenti sicuri senza influire sul layout."
+    },
+    "header": {
+      "title": "Proteggi Immagini Private nei Documenti {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Mantieni visivi personali e aziendali sicuri in file {{FileFormatUp}} utilizzando {{ProgLang}}. Strumenti facili da usare per una forte protezione della privacy.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Nascondere Dati Sensibili nei Documenti {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aiuta le tue applicazioni {{EnvName}} a nascondere contenuti privati nei documenti rapidamente.",
+        "step_1": "Crea un oggetto {{textRedactor}} e carica il file {{FileFormatCap}}.",
+        "step_2": "Impostare le preferenze di redazione per il compito.",
+        "step_3": "Scegli l'area dell'immagine e seleziona il colore della sovrapposizione.",
+        "step_4": "Applica la redazione e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondere dati immagine nei file {{FileFormatUp}}",
+      "comment_2": "Apri il file con {{textRedactor}}",
+      "comment_3": "Imposta colore e dimensione della sovrapposizione",
+      "comment_4": "Seleziona l'area da mascherare",
+      "comment_5": "Applica sovrapposizione e salva le modifiche"
+    },
+    "example_bottom": {
+      "title": "Nascondere Contenuti Immagine con Sovrapposizioni",
+      "content": "Questo esempio mostra come posizionare sovrapposizioni su aree immagini sensibili in documenti.",
+      "comment_1": "Carica il file per la redazione",
+      "comment_2": "Definisci dimensioni, colore e posizione della sovrapposizione",
+      "comment_3": "Contrassegna la sezione dell'immagine nella prima pagina",
+      "comment_4": "Applica sovrapposizione per coprire i dati",
+      "comment_5": "Salva il documento aggiornato"
+    },
+    "more_features": {
+      "title": "Nascondere Dati Sensibili nei Documenti",
+      "description": "{{ProdFullName}} ti aiuta a coprire o eliminare contenuti privati in diversi formati di documenti. Mantieni i file sicuri per la condivisione e l'archiviazione.",
+      "image_description": "Strumenti di Redazione per Ogni Esigenza",
+      "feature_1": {
+        "title": "Cerca e Sostituisci Testo",
+        "content": "Cerca parole sensibili e sostituiscile per garantire la privacy dei dati."
+      },
+      "feature_2": {
+        "title": "Coprire Aree Immagine",
+        "content": "Applica sovrapposizioni a immagini o parti di immagini per mantenerle private."
+      },
+      "feature_3": {
+        "title": "Rimuovere Metadata Nascosti",
+        "content": "Cancellare metadata invisibili per prevenire perdite di dati."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre ai programmatori {{ProgLang}} la possibilità di nascondere o eliminare contenuti in file {{FileFormatUp}}. Proteggi i tuoi documenti mascherando testo, immagini e metadata."
+    },
+    "formats": {
+      "title": "Proteggi i File {{FileFormatUp}} con Redazione {{EnvNameShort}}",
+      "description": "Con {{EnvNameShort}}, puoi coprire o rimuovere dati sensibili in file {{FileFormatUp}}. Una soluzione affidabile per la sicurezza dei documenti."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Coprire Immagini in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Mantieni immagini sensibili private in file {{FileFormatUp}} con {{ProdFullName}}. Aggiungi sovrapposizioni per nascondere informazioni senza cambiare il layout del tuo documento."
+    },
+    "header": {
+      "title": "Nascondi Immagini Sensibili nei File {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Proteggi immagini personali e aziendali in file {{FileFormatUp}} utilizzando {{ProgLang}}. Strumenti semplici per aiutarti a garantire i tuoi documenti.",
+      "subtitle": "Caratteristiche Core di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Nascondi Dati Privati nei File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} rende veloce per le tue app {{EnvName}} coprire contenuti privati.",
+        "step_1": "Inizializza un {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Regola le impostazioni di redazione per soddisfare le tue necessità.",
+        "step_3": "Seleziona l'area dell'immagine e scegli un colore di sovrapposizione.",
+        "step_4": "Applica la redazione e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Maschera dati immagine in {{FileFormatUp}}",
+      "comment_2": "Apri il file utilizzando {{textRedactor}}",
+      "comment_3": "Imposta dimensione e colore della sovrapposizione",
+      "comment_4": "Seleziona l'area da coprire",
+      "comment_5": "Applica sovrapposizione e salva le modifiche"
+    },
+    "example_bottom": {
+      "title": "Usa Sovrapposizioni per Nascondere Contenuti Immagine",
+      "content": "Questo esempio mostra come proteggere aree sensibili delle immagini in documenti utilizzando sovrapposizioni.",
+      "comment_1": "Carica il file per la redazione",
+      "comment_2": "Imposta dimensione, posizione e colore della sovrapposizione",
+      "comment_3": "Seleziona un'area immagine nella prima pagina",
+      "comment_4": "Applica la sovrapposizione per nascondere l'immagine",
+      "comment_5": "Salva il file aggiornato"
+    },
+    "more_features": {
+      "title": "Nascondere Dati Sensibili nei Documenti",
+      "description": "{{ProdFullName}} ti aiuta a nascondere o rimuovere contenuti privati da più tipi di file. Assicurati che i tuoi documenti rimangano puliti e pronti per la distribuzione.",
+      "image_description": "Funzionalità di Redazione Completa",
+      "feature_1": {
+        "title": "Cerca e Sostituisci Testo",
+        "content": "Cerca nei tuoi documenti testo privato e sostituiscilo per proteggere i dati sensibili."
+      },
+      "feature_2": {
+        "title": "Coprire Contenuti Immagine",
+        "content": "Usa sovrapposizioni per nascondere intere immagini o parti selezionate."
+      },
+      "feature_3": {
+        "title": "Rimuovere Metadata",
+        "content": "Cancella metadata nascosti per prevenire esposizioni accidentali di informazioni sensibili."
+      }
+    },
+    "about": {
+      "title": "Cos'è {{ProdFullName}}?",
+      "content": "{{ProdFullName}} fornisce a programmatori {{ProgLang}} strumenti per nascondere o eliminare contenuti in file {{FileFormatUp}}. Proteggi i tuoi documenti coprendo testo, immagini e metadata facilmente."
+    },
+    "formats": {
+      "title": "Sicurezza dei File {{FileFormatUp}} con Redazioni {{EnvNameShort}}",
+      "description": "Usa {{EnvNameShort}} per nascondere o eliminare dati sensibili in file {{FileFormatUp}}. Una soluzione fidata per proteggere i tuoi importanti documenti."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Nascondere Immagini in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} per mascherare aree sensibili delle immagini in file {{FileFormatUp}} con sovrapposizioni colorate. Tieni al sicuro dati importanti senza cambiare layout del documento."
+    },
+    "header": {
+      "title": "Proteggi Immagini Private nei File {{FileFormatUp}} Utilizzando Sovrapposizioni con {{EnvNameShort}}",
+      "description": "Garantisci sicurezza per immagini aziendali e personali in file {{FileFormatUp}} con {{ProgLang}}. Strumenti semplici per una protezione rapida e affidabile dei dati.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Risolvere il Contenuto in File {{FileFormatCap}} Utilizzando Sovrapposizioni",
+      "content": {
+        "title": "Coprire rapidamente aree sensibili nelle tue applicazioni {{EnvName}} con {{ProdFullName}}.",
+        "step_1": "Crea un oggetto {{textRedactor}} e specifica il percorso del tuo file {{FileFormatCap}}.",
+        "step_2": "Imposta opzioni di redazione come richiesto.",
+        "step_3": "Contrassegna le sezioni dell'immagine e scegli i colori di sovrapposizione.",
+        "step_4": "Elabora e salva il tuo file redatto."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondi contenuti delle immagini in {{FileFormatUp}}",
+      "comment_2": "Carica il file utilizzando {{textRedactor}}",
+      "comment_3": "Definisci dimensioni e colori della sovrapposizione",
+      "comment_4": "Scegli l'area da proteggere",
+      "comment_5": "Applica sovrapposizione e salva il file"
+    },
+    "example_bottom": {
+      "title": "Mascherare Aree Immagine con Sovrapposizioni",
+      "content": "Questo esempio di codice dimostra come nascondere parti sensibili dell'immagine utilizzando sovrapposizioni.",
+      "comment_1": "Apri il file per la modifica",
+      "comment_2": "Definisci dimensioni, colore e posizione della sovrapposizione",
+      "comment_3": "Seleziona un'area immagine nella pagina uno",
+      "comment_4": "Applica sovrapposizione per mascherare il contenuto",
+      "comment_5": "Salva il file modificato"
+    },
+    "more_features": {
+      "title": "Redigi Contenuti Sensibili in Qualsiasi Documento",
+      "description": "{{ProdFullName}} ti permette di nascondere o eliminare contenuti privati in diversi formati di file. Assicurati che i documenti rimangano puliti e sicuri per la distribuzione.",
+      "image_description": "Strumenti di Redazione con Controllo Totale",
+      "feature_1": {
+        "title": "Cerca e Sostituisci Testo",
+        "content": "Trova testo sensibile nei documenti e sostituiscilo per proteggere l'informazione."
+      },
+      "feature_2": {
+        "title": "Coprire Immagini con Sovrapposizioni",
+        "content": "Usa sovrapposizioni per nascondere immagini complete o sezioni specifiche."
+      },
+      "feature_3": {
+        "title": "Pulisci Metadata",
+        "content": "Rimuovi o modifica metadata per prevenire perdite di dati."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre a programmatori {{ProgLang}} la capacità di nascondere o eliminare contenuti in file {{FileFormatUp}}. Proteggi documenti mascherando testo, immagini e metadata."
+    },
+    "formats": {
+      "title": "Proteggi i File {{FileFormatUp}} con Redazioni {{EnvNameShort}}",
+      "description": "Con {{EnvNameShort}}, puoi nascondere o eliminare contenuti sensibili in file {{FileFormatUp}}. Una soluzione affidabile per mantenere i documenti sicuri e riservati."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Nascondere Immagini in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} per mascherare aree sensibili delle immagini in file {{FileFormatUp}} con sovrapposizioni. Proteggi contenuti privati mantenendo intatto il layout del file."
+    },
+    "header": {
+      "title": "Proteggi Contenuto Immagine nei File {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Garantisci sicurezza per dati foto personali e aziendali in file {{FileFormatUp}} con {{ProgLang}}. Strumenti semplici progettati per una protezione rapida ed efficace.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Nascondere Contenuti nei File {{FileFormatCap}} con Sovrapposizioni",
+      "content": {
+        "title": "{{ProdFullName}} rende facile mascherare aree sensibili nelle tue applicazioni {{EnvName}}.",
+        "step_1": "Inizializza un {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Imposta preferenze di redazione quando necessario.",
+        "step_3": "Seleziona le regioni immagine e scegli colori di sovrapposizione.",
+        "step_4": "Esegui la redazione e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Coprire sezioni d'immagine in {{FileFormatUp}} con sovrapposizioni",
+      "comment_2": "Carica il file utilizzando {{textRedactor}}",
+      "comment_3": "Definisci colore e dimensioni della sovrapposizione",
+      "comment_4": "Indica l'area dell'immagine da coprire",
+      "comment_5": "Applica sovrapposizione e salva il risultato"
+    },
+    "example_bottom": {
+      "title": "Mascherare Dati Immagine con Sovrapposizioni",
+      "content": "Questo esempio mostra come coprire contenuti d'immagine con sovrapposizioni in un documento.",
+      "comment_1": "Carica il documento per la modifica",
+      "comment_2": "Imposta dimensione, colore e posizione della sovrapposizione",
+      "comment_3": "Seleziona sezione dell'immagine nella pagina uno",
+      "comment_4": "Applica sovrapposizione per nascondere il contenuto",
+      "comment_5": "Salva il file modificato"
+    },
+    "more_features": {
+      "title": "Redazione di Contenuti Sensibili con Facilità",
+      "description": "{{ProdFullName}} ti consente di nascondere o eliminare dati privati in vari tipi di documenti. Mantieni i file puliti e pronti per la condivisione.",
+      "image_description": "Controllo Completo sulle Redazioni",
+      "feature_1": {
+        "title": "Cerca e Sostituisci Testo",
+        "content": "Trova testo sensibile nei documenti e sostituiscilo per proteggere l'informazione."
+      },
+      "feature_2": {
+        "title": "Overlay Aree Immagine",
+        "content": "Usa sovrapposizioni per coprire intere immagini o sezioni selezionate."
+      },
+      "feature_3": {
+        "title": "Rimuovere Metadata",
+        "content": "Pulisci metadata nascosti per prevenire esposizioni accidentali di dati."
+      }
+    },
+    "about": {
+      "title": "Scopri {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce a programmatori {{ProgLang}} strumenti affidabili per nascondere o eliminare contenuti in file {{FileFormatUp}}. Proteggi documenti mascherando testo, immagini e metadata."
+    },
+    "formats": {
+      "title": "Sicurezza dei File {{FileFormatUp}} con Redazioni {{EnvNameShort}}",
+      "description": "Con {{EnvNameShort}}, puoi nascondere o rimuovere dati sensibili in file {{FileFormatUp}}. Un modo fidato per proteggere documenti ufficiali."
+    }
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "使用 {{ProgLang}} 的覆盖层在 {{FileFormatUp}} 中隐藏私人文本",
+      "description": "{{ProdFullName}} 允许您通过放置彩色框隐藏 {{FileFormatUp}} 文件中的敏感信息。保护数据而不改变文件外观。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文档中遮盖文本",
+      "description": "通过 {{ProgLang}} 完全控制 {{FileFormatUp}} 文件内容。使用编辑功能来保护财务、法律或个人信息。",
+      "subtitle": "{{ProdFullName}} 的主要特性"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文件中的机密信息",
+      "content": {
+        "title": "{{ProdFullName}} 使 {{EnvName}} 开发人员可以通过几个简单的步骤隐藏私人内容。",
+        "step_1": "启动 {{textRedactor}} 并加载您的 {{FileFormatCap}} 文件。",
+        "step_2": "设置您的编辑偏好。",
+        "step_3": "选择要查找的内容并选择覆盖颜色。",
+        "step_4": "应用编辑并保存文档。"
+      }
+    },
+    "example_top": {
+      "comment_1": "使用彩色覆盖在 {{FileFormatUp}} 中遮盖文本",
+      "comment_2": "将文件路径传递给 {{textRedactor}}",
+      "comment_3": "调整编辑设置",
+      "comment_4": "设置目标文本和颜色",
+      "comment_5": "应用并保存已编辑的 {{FileFormatUp}}"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式隐藏文本",
+      "content": "此示例使用正则表达式查找和隐藏特定内容",
+      "comment_1": "加载您要处理的文件",
+      "comment_2": "设置文本模式和覆盖颜色",
+      "comment_3": "应用编辑",
+      "comment_4": "保存更改"
+    },
+    "more_features": {
+      "title": "控制文档中的可见内容",
+      "description": "{{ProdFullName}} 允许您阻止或移除文件的某些部分，同时保持其易于查看和共享。",
+      "image_description": "强大的编辑工具",
+      "feature_1": {
+        "title": "精确定位并隐藏文本",
+        "content": "搜索文档并隐藏特定单词或短语以保护私人信息。"
+      },
+      "feature_2": {
+        "title": "遮盖图像",
+        "content": "添加覆盖层以完全或部分隐藏视觉内容。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "清除隐藏的文档详细信息，以避免无意曝光。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 提供的功能",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供一种简单的方法来隐藏或移除 {{FileFormatUp}} 文件中的内容。遮盖不同文件类型中的文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 保护 {{FileFormatUp}} 文件",
+      "description": "使用 {{EnvNameShort}} 来覆盖或删除 {{FileFormatUp}} 文档中的内容。这是确保私人信息安全的极好方法。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 的覆盖层在 {{FileFormatUp}} 中隐藏文本",
+      "description": "使用 {{ProdFullName}} 阻止 {{FileFormatUp}} 文件中的私人文本。保持布局不变，同时隐藏敏感数据。"
+    },
+    "header": {
+      "title": "在 {{EnvNameShort}} 中保护 {{FileFormatUp}} 文本",
+      "description": "快速使用 {{ProgLang}} 和 {{ProdFullName}} 隐藏 {{FileFormatUp}} 文件中的个人、法律或商业细节。",
+      "subtitle": "{{ProdFullName}} 的关键工具"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 中编辑敏感内容",
+      "content": {
+        "title": "在您的 {{EnvName}} 项目中使用 {{ProdFullName}} 轻松清理文档。",
+        "step_1": "使用您的文件初始化 {{textRedactor}}。",
+        "step_2": "选择编辑应如何工作。",
+        "step_3": "选择要隐藏的文本和覆盖颜色。",
+        "step_4": "应用编辑并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中使用覆盖遮盖文本",
+      "comment_2": "创建 {{textRedactor}} 并加载您的文档",
+      "comment_3": "选择编辑选项",
+      "comment_4": "选择文本和颜色",
+      "comment_5": "保存已编辑版本"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式查找文本并隐藏",
+      "content": "使用模式匹配自动隐藏关键短语",
+      "comment_1": "打开您要编辑的文档",
+      "comment_2": "设置正则表达式模式和覆盖样式",
+      "comment_3": "应用编辑逻辑",
+      "comment_4": "保存您的清理文档"
+    },
+    "more_features": {
+      "title": "日常使用的编辑工具",
+      "description": "{{ProdFullName}} 为您提供简单的选项，以隐藏文档中的敏感细节，同时保持其可用性。",
+      "image_description": "简单的编辑选项",
+      "feature_1": {
+        "title": "查找并更改文本",
+        "content": "在几秒钟内隐藏或替换单词。"
+      },
+      "feature_2": {
+        "title": "阻止图像的某些部分",
+        "content": "遮盖图像或扫描内容的某些区域。"
+      },
+      "feature_3": {
+        "title": "擦除背景信息",
+        "content": "删除隐藏的元数据，如作者身份或日期。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 是什么",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发人员提供工具来清理 {{FileFormatUp}} 文件。轻松编辑名称、数字或注释。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 编辑 {{FileFormatUp}} 文件",
+      "description": "通过使用 {{EnvNameShort}} 中的工具来隐藏或删除 {{FileFormatUp}} 中的敏感内容。"
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "使用 {{ProgLang}} 的覆盖层在 {{FileFormatUp}} 中阻止文本",
+      "description": "{{ProdFullName}} 允许您通过彩色块覆盖 {{FileFormatUp}} 文件中的敏感信息。隐藏数据，同时保持布局不变。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中隐藏数据",
+      "description": "使用 {{ProgLang}} 和 {{ProdFullName}} 来遮盖 {{FileFormatUp}} 文件中的私人内容，而不影响格式。",
+      "subtitle": "{{ProdFullName}} 的主要特性"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文档中的信息",
+      "content": {
+        "title": "使用简单的代码在 {{EnvName}} 中保持文档的安全。",
+        "step_1": "使用文件路径创建一个 {{textRedactor}}。",
+        "step_2": "设置您的编辑逻辑。",
+        "step_3": "选择关键字和覆盖颜色。",
+        "step_4": "编辑并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "使用块在 {{FileFormatUp}} 中隐藏信息",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "设置编辑偏好",
+      "comment_4": "添加文本和颜色块",
+      "comment_5": "保存更新后的文档"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式编辑内容",
+      "content": "使用模式匹配自动查找和隐藏文本",
+      "comment_1": "打开电子表格",
+      "comment_2": "定义模式和覆盖颜色",
+      "comment_3": "应用编辑规则",
+      "comment_4": "导出结果"
+    },
+    "more_features": {
+      "title": "内置的隐私特性",
+      "description": "在不破坏结构的情况下注释使用 {{ProdFullName}} 阻止或删除文件中的内容。",
+      "image_description": "简单的隐私工具",
+      "feature_1": {
+        "title": "更改或隐藏文本",
+        "content": "轻松编辑或遮挡特定单词。"
+      },
+      "feature_2": {
+        "title": "遮盖图像的部分",
+        "content": "添加覆盖层以隐藏图表区域或图像。"
+      },
+      "feature_3": {
+        "title": "删除隐藏的信息",
+        "content": "清除用户信息或文件历史的元数据。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 的工作原理",
+      "content": "{{ProdFullName}} 使 {{ProgLang}} 开发人员能够保护 {{FileFormatUp}} 文件。快速隐藏文本、图片或元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 编辑 {{FileFormatUp}} 数据",
+      "description": "使用覆盖层或删除 {{FileFormatUp}} 文件中的内容，以通过 {{EnvNameShort}} 保持敏感数据的私密性。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 的覆盖层在 {{FileFormatUp}} 演示文稿中隐藏文本",
+      "description": "使用 {{ProdFullName}} 通过颜色覆盖阻止 {{FileFormatUp}} 文件中的敏感内容。在不改变幻灯片的情况下隐藏关键信息。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 演示文稿中遮盖文本",
+      "description": "轻松使用 {{ProgLang}} 和 {{ProdFullName}} 保护 {{FileFormatUp}} 幻灯片中的个人或商业细节。",
+      "subtitle": "探索 {{ProdFullName}} 的功能"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 幻灯片中编辑私人内容",
+      "content": {
+        "title": "{{ProdFullName}} 为 {{EnvName}} 开发人员简化了保护内容的过程。",
+        "step_1": "使用您的演示路径设置 {{textRedactor}}。",
+        "step_2": "选择编辑应如何执行。",
+        "step_3": "添加文本模式和覆盖颜色。",
+        "step_4": "编辑幻灯片并保存。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中使用覆盖层阻挡文本",
+      "comment_2": "使用 {{textRedactor}} 初始化演示文稿",
+      "comment_3": "选择您的编辑偏好",
+      "comment_4": "设置文本和覆盖颜色",
+      "comment_5": "执行编辑并保存幻灯片组"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式编辑文本",
+      "content": "使用正则表达式查找和遮盖敏感词",
+      "comment_1": "打开演示文稿文件",
+      "comment_2": "设置搜索模式和覆盖颜色",
+      "comment_3": "运行编辑规则",
+      "comment_4": "保存最终版本"
+    },
+    "more_features": {
+      "title": "强大的编辑工具",
+      "description": "借助 {{ProdFullName}}，在不影响布局或格式的情况下阻止或删除演示文稿中的敏感内容。",
+      "image_description": "跨幻灯片工作的功能",
+      "feature_1": {
+        "title": "隐藏或替换文本",
+        "content": "保护不应被看到的名称、术语或注释。"
+      },
+      "feature_2": {
+        "title": "遮盖视觉区域",
+        "content": "向幻灯片的图片或图形部分添加覆盖层。"
+      },
+      "feature_3": {
+        "title": "清除元数据",
+        "content": "在分享之前清除可能揭示作者身份或编辑历史的后台信息。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 的功能",
+      "content": "{{ProdFullName}} 允许 {{ProgLang}} 开发人员在短短几步内隐藏或删除 {{FileFormatUp}} 演示文稿中的文本、图像或元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 工具保护 {{FileFormatUp}} 幻灯片",
+      "description": "使用 {{EnvNameShort}} 的编辑功能覆盖或完全移除 {{FileFormatUp}} 演示文稿中的敏感内容。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 的覆盖层在 {{FileFormatUp}} 中编辑文本",
+      "description": "使用 {{ProdFullName}} 通过颜色块覆盖 {{FileFormatUp}} 文件中的敏感文本，同时保持文档结构不变。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 对 {{FileFormatUp}} 文件进行覆盖编辑",
+      "description": "使用由 {{ProgLang}} 和 {{ProdFullName}} 提供的颜色覆盖，隐藏 {{FileFormatUp}} 文档中的重要细节。",
+      "subtitle": "{{ProdFullName}} 的功能"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 格式中的私人信息",
+      "content": {
+        "title": "{{ProdFullName}} 为 {{EnvName}} 开发人员提供了快速清理文件和保护其内容的方法。",
+        "step_1": "启动 {{textRedactor}} 并加载 {{FileFormatCap}} 文件。",
+        "step_2": "选择您的编辑选项。",
+        "step_3": "添加文本模式和覆盖颜色。",
+        "step_4": "运行编辑并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中使用覆盖隐藏文本",
+      "comment_2": "使用 {{textRedactor}} 打开文档",
+      "comment_3": "设置编辑偏好",
+      "comment_4": "添加关键字并选择颜色",
+      "comment_5": "应用并保存您的已编辑文件"
+    },
+    "example_bottom": {
+      "title": "基于正则表达式的编辑",
+      "content": "了解如何使用正则表达式自动隐藏特定内容",
+      "comment_1": "加载要编辑的文档",
+      "comment_2": "定义您的正则表达式模式和覆盖颜色",
+      "comment_3": "应用编辑",
+      "comment_4": "保存您的清理版本"
+    },
+    "more_features": {
+      "title": "更多的编辑能力",
+      "description": "使用 {{ProdFullName}} 从文件中删除可见和隐藏的内容，同时保持布局不变。",
+      "image_description": "简单、干净的输出",
+      "feature_1": {
+        "title": "替换文本",
+        "content": "覆盖不应被看到的单词或术语。"
+      },
+      "feature_2": {
+        "title": "遮盖视觉内容",
+        "content": "使用彩色覆盖层隐藏图像或它们的部分。"
+      },
+      "feature_3": {
+        "title": "擦除元数据",
+        "content": "删除文件属性中隐藏的详细信息。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 {{ProgLang}} 用户能够完全控制 {{FileFormatUp}} 的编辑。您可以隐藏任何想要的内容——文本、视觉效果或元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 编辑 {{FileFormatUp}} 中的内容",
+      "description": "通过使用 {{EnvNameShort}} 隐藏或删除敏感数据来保持 {{FileFormatUp}} 文档的私密性。"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "使用 {{ProgLang}} 的覆盖层在 {{FileFormatUp}} 中覆盖文本",
+      "description": "通过应用颜色覆盖来保护 {{FileFormatUp}} 文件中的敏感内容，使用 {{ProdFullName}}。保持文档的布局不变。"
+    },
+    "header": {
+      "title": "在 {{EnvNameShort}} 中编辑 {{FileFormatUp}} 数据",
+      "description": "使用 {{ProgLang}} 代码来遮盖 {{FileFormatUp}} 电子表格中的敏感信息。保持数据安全的有效方法。",
+      "subtitle": "{{ProdFullName}} 的主要功能"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 电子表格中隐藏信息",
+      "content": {
+        "title": "{{ProdFullName}} 通过只需很少的行来帮助 {{EnvName}} 开发人员保护文件。",
+        "step_1": "启动 {{textRedactor}} 并加载您的电子表格。",
+        "step_2": "根据需要设置编辑规则。",
+        "step_3": "选择文本和覆盖颜色。",
+        "step_4": "应用并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "使用覆盖在 {{FileFormatUp}} 中隐藏文本",
+      "comment_2": "创建 {{textRedactor}} 并加载您的文件",
+      "comment_3": "选择编辑规则",
+      "comment_4": "输入要隐藏的内容并选择颜色",
+      "comment_5": "应用编辑并保存文件"
+    },
+    "example_bottom": {
+      "title": "正则表达式编辑",
+      "content": "使用正则表达式自动查找和隐藏文本",
+      "comment_1": "打开您的电子表格",
+      "comment_2": "设置模式和覆盖详情",
+      "comment_3": "应用编辑",
+      "comment_4": "保存清理后的版本"
+    },
+    "more_features": {
+      "title": "基本数据保护工具",
+      "description": "使用 {{ProdFullName}} 在不破坏布局或含义的情况下，从电子表格中隐藏或删除敏感信息。",
+      "image_description": "为安全数据清理而设计",
+      "feature_1": {
+        "title": "编辑或隐藏文本",
+        "content": "查找并遮挡需要保护的任何文本。"
+      },
+      "feature_2": {
+        "title": "遮盖敏感视觉内容",
+        "content": "在图表区域或图像上应用彩色块。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "清除文档历史、作者姓名或时间戳。"
+      }
+    },
+    "about": {
+      "title": "为什么选择 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 是为希望快速隐藏或清理 {{FileFormatUp}} 电子表格内容的 {{ProgLang}} 开发人员构建的。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 编辑 {{FileFormatUp}} 表格",
+      "description": "使用覆盖层和 {{EnvNameShort}} 的工具来隐藏或清除 {{FileFormatUp}} 中的敏感数据。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 的覆盖层保护 {{FileFormatUp}} 中的文本",
+      "description": "使用 {{ProdFullName}}，您可以使用简单的覆盖框，在 {{FileFormatUp}} 幻灯片中阻止私人文本——无需更改布局。"
+    },
+    "header": {
+      "title": "使用覆盖和 {{EnvNameShort}} 在 {{FileFormatUp}} 中隐藏文本",
+      "description": "使用 {{ProgLang}} 和 {{ProdFullName}} 通过遮盖敏感内容保护您的 {{FileFormatUp}} 幻灯片的安全。",
+      "subtitle": "{{ProdFullName}} 的内部功能"
+    },
+    "steps": {
+      "title": "在共享前清理 {{FileFormatCap}} 演示文稿",
+      "content": {
+        "title": "使用 {{ProdFullName}} 在 {{EnvName}} 应用程序中隐藏或删除幻灯片中的敏感部分。",
+        "step_1": "使用您的幻灯片组路径创建一个新的 {{textRedactor}}。",
+        "step_2": "定义您的编辑偏好。",
+        "step_3": "设置文本模式和覆盖颜色。",
+        "step_4": "运行并保存编辑后的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中覆盖文本区域",
+      "comment_2": "使用 {{textRedactor}} 打开文件",
+      "comment_3": "调整编辑设置",
+      "comment_4": "输入文本并选择覆盖颜色",
+      "comment_5": "编辑并保存更新后的文件"
+    },
+    "example_bottom": {
+      "title": "正则表达式文本编辑",
+      "content": "学习使用模式匹配检测和编辑文本",
+      "comment_1": "加载幻灯片组",
+      "comment_2": "应用您的正则表达式规则",
+      "comment_3": "运行编辑",
+      "comment_4": "保存最终版本"
+    },
+    "more_features": {
+      "title": "简单的敏感幻灯片编辑",
+      "description": "{{ProdFullName}} 使您可以轻松阻止或删除幻灯片中的内容，无论使用场景如何。",
+      "image_description": "适应的编辑工具",
+      "feature_1": {
+        "title": "查找并替换文本",
+        "content": "保护任何幻灯片上的敏感短语或标签。"
+      },
+      "feature_2": {
+        "title": "覆盖视觉部分",
+        "content": "在选定的幻灯片区域或图像上添加覆盖层。"
+      },
+      "feature_3": {
+        "title": "删除隐藏内容",
+        "content": "在共享之前清除幻灯片的元数据或修订备注。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 介绍",
+      "content": "{{ProdFullName}} 帮助 {{ProgLang}} 开发人员通过阻止或删除敏感内容（如文本、元数据或图像）来清理 {{FileFormatUp}} 幻灯片。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 保护 {{FileFormatUp}} 幻灯片",
+      "description": "使用 {{EnvNameShort}} 的覆盖编辑和清理工具，保持您的 {{FileFormatUp}} 幻灯片私密。"
+    }
+  }
+}

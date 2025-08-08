@@ -1,0 +1,385 @@
+{
+  "index-content": {
+    "head_title": "문서 레드랙션 솔루션. 민감한 데이터를 수정하거나 삭제하십시오.",
+    "head_description": "PDF, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, 이미지 등에서 텍스트, 이미지 또는 메타데이터를 제거, 수정 또는 숨깁니다. .NET, Java, Python 또는 클라우드 기반 애플리케이션에서 저희 라이브러리를 사용하세요.",
+    "title": "문서 레드랙션 라이브러리",
+    "description_0": "다양한 파일 형식에서 개인 정보를 숨기거나 제거하십시오.",
+    "description_1": "민감한 내용을 제거하기 위해 텍스트 또는 이미지를 수정하십시오.",
+    "description_2": "저희의 고급 기능을 사용하여 파일 메타데이터를 관리하십시오.",
+    "words_for": "을 위한",
+    "release_title": "{0} 버전 출시됨",
+    "release_notes": "새로운 기능보기",
+    "release_downloads": "다운로드",
+    "code_more": "더 많은 예시",
+    "overview_title": "{{ProdShortName}} 개요",
+    "formats_title": "지원되는 파일 형식",
+    "platforms": {
+      "title": "플랫폼 독립성",
+      "head_title": "플랫폼 선택",
+      "description": "{{ProdShortName}} 라이브러리는 다음 운영 체제와 프레임워크를 지원합니다:",
+      "learn_more": "자세히 알아보기",
+      "any_other_text_editor": "기타 텍스트 편집기"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 개요",
+      "description": "PDF, 오피스 문서, 이미지 및 기타 비즈니스 파일의 콘텐츠를 관리하는 솔루션입니다.",
+      "feature_1": {
+        "title": "텍스트 제거 또는 수정",
+        "content": "문서에서 민감한 텍스트를 찾아서 레드랙션합니다."
+      },
+      "feature_2": {
+        "title": "이미지 레드랙션",
+        "content": "추가적인 노력을 들이지 않고 파일 내 이미지 영역을 숨길 수 있습니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 관리",
+        "content": "Word 문서의 저자 또는 이미지의 EXIF 데이터와 같은 메타데이터를 삭제하거나 교체할 수 있습니다."
+      },
+      "feature_4": {
+        "title": "고급 기능",
+        "content": "정규식이나 AI 통합을 사용하여 레드랙션할 데이터를 검색합니다."
+      }
+    },
+    "formats": {
+      "title": "30개 이상의 파일 형식 지원",
+      "description": "{{ProdShortName}}는 널리 사용되는 비즈니스 파일 형식 전반에 걸쳐 레드랙션 작업을 지원합니다."
+    },
+    "code_samples": {
+      "title": "코드 샘플",
+      "index_title": "{{ProdShortName}} 코드 샘플",
+      "index_description": "{{ProdShortName}} 레드랙션 작업의 전형적인 사용 사례입니다.",
+      "more_examples": "더 많은 예시",
+      "sample_index": {
+        "title": "PDF 문서의 텍스트 레드랙션 방법",
+        "content": "{{ProdShortName}}은 몇 단계만으로 문서에서 텍스트를 레드랙션하는 최상의 솔루션입니다.",
+        "comment_1": "레드랙션할 파일 경로를 {{textRedactor}} 인스턴스에 전달합니다.",
+        "comment_2": "레드랙션 옵션을 제공합니다.",
+        "comment_3": "레드랙션 후 결과를 저장합니다."
+      },
+      "sample_1": {
+        "code_title": "정규식을 사용한 Word 문서 레드랙션",
+        "comment_1": "{{textRedactor}} 클래스를 인스턴스화합니다.",
+        "comment_2": "정규식을 사용하여 레드랙션 규칙을 정의합니다.",
+        "comment_3": "모든 일치하는 텍스트를 파란색 사각형 오버레이로 마스킹합니다.",
+        "comment_4": "레드랙션된 Word 문서를 저장합니다."
+      },
+      "sample_2": {
+        "code_title": "프레젠테이션에서 모든 메타데이터 제거",
+        "comment_1": "{{textRedactor}}에 프레젠테이션의 경로를 제공합니다.",
+        "comment_2": "레드랙션 옵션을 구성합니다.",
+        "comment_3": "프레젠테이션에서 모든 메타데이터를 삭제합니다.",
+        "comment_4": "정리된 프레젠테이션 파일을 저장합니다."
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} 성과",
+      "description": "우리 라이브러리의 성공을 강조하는 주요 메트릭을 발견하세요.",
+      "item_1": {
+        "title": "지원되는 형식",
+        "description": "{{ProdShortName}}는 30개 이상의 널리 사용되는 파일 형식에서 작업을 지원합니다."
+      },
+      "item_2": {
+        "title": "NuGet 다운로드",
+        "description": "{{ProdShortName}}을 .NET에서 NuGet에서 440,000회 이상 다운로드되었습니다."
+      },
+      "item_3": {
+        "title": "Maven 다운로드",
+        "description": "{{ProdShortName}}는 강력한 Java 레드랙션 기능을 제공하며, Maven에서 12,000회 이상의 다운로드가 있습니다."
+      },
+      "item_4": {
+        "title": "만족스러운 고객",
+        "description": "전 세계 기업과 개인 개발자는 {{NameCompany}} 제품에 의존하여 혁신적인 솔루션을 구축하고 있습니다."
+      }
+    },
+    "customers": {
+      "title": "우리의 만족스러운 고객들",
+      "description": "{{NameCompany}} 라이브러리는 세계적으로 인정받고 존경받는 브랜드에서 신뢰받고 있습니다."
+    },
+    "actions": {
+      "alt": "라이센스",
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}} 기능을 무료로 사용해 보거나 라이센스를 요청하세요.",
+      "description_index": "{{ProdShortName}}의 기능을 무료로 사용해 보세요."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "가장 자주 묻는 질문에 대한 답변입니다.",
+      "item_1": {
+        "question": "{{ProdShortName}} 라이브러리를 사용하여 문서를 조작하기 위해 외부 소프트웨어가 필요한가요?",
+        "answer": "{{ProdShortName}}는 Adobe Acrobat, Microsoft Office 및 기타 외부 소프트웨어를 필요로 하지 않습니다."
+      },
+      "item_2": {
+        "question": "{{ProdShortName}} 라이브러리를 구매하기 전에 체험해 볼 수 있나요?",
+        "answer": "예, 라이센스를 구매하지 않고도 {{ProdShortName}}를 체험해 볼 수 있습니다. 체험 모드에서 작동하며, 이는 체험 배지를 추가하고 출력 제한을 첫 3페이지로 제한합니다. 제약 없이 테스트하려면 30일 임시 라이센스를 요청하세요. 자세한 내용은 [여기]({{LicensingUrl}})를 참조하세요."
+      },
+      "item_3": {
+        "question": "사용할 수 있는 라이센스 옵션은 무엇인가요?",
+        "answer": "개발 및 배포 요구에 따라 여러 라이센스 유형을 제공합니다. 여기에는 사용량에 따라 개발자 기준, 사이트 기준 및 미터형 라이센스가 포함됩니다. 자세한 내용은 [여기]({{PricingUrl}})에서 확인하세요."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 로우 코드 API",
+      "description": "우리의 클라우드 기반 REST API를 사용하여 문서 레드랙션을 모든 애플리케이션에 통합하세요.",
+      "item_1": {
+        "content": "cURL 명령을 사용하여 지원되는 다양한 파일 형식의 문서를 레드랙션합니다."
+      },
+      "item_2": {
+        "content": "Microsoft .NET 애플리케이션에서 템플릿을 사용하여 이미지, 텍스트 및 메타데이터를 추출하거나 문서를 레드랙션합니다."
+      },
+      "item_3": {
+        "content": "Java SDK를 사용하여 Java 기반 애플리케이션 내에서 문서를 레드랙션하고 데이터를 추출합니다."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 무코드 앱",
+      "description": "브라우저에서 직접 30개 이상의 인기 파일 형식을 레드랙션할 수 있는 웹 기반 애플리케이션입니다.",
+      "item_1": {
+        "content": "Word, Excel, PowerPoint, PDF 등 30개 이상의 파일 형식을 레드랙션할 수 있는 무료 온라인 도구입니다."
+      },
+      "item_2": {
+        "content": "브라우저에서 Word 문서를 레드랙션하고 이미지, 텍스트 또는 메타데이터를 추출합니다."
+      },
+      "item_3": {
+        "content": "모든 장치 또는 플랫폼에서 제한 없이 작동하는 무료 PDF 레드랙션 도구입니다."
+      }
+    },
+    "formats_groups": {
+      "title_1": "MS 오피스 형식",
+      "title_2": "기타 오피스 형식",
+      "title_3": "기타 형식",
+      "format_portable": "이동식",
+      "format_images": "이미지",
+      "format_other_office": "텍스트 형식",
+      "format_other_web": "웹",
+      "format_other_ebooks": "전자책"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}}를 사용하여 문서에서 민감한 데이터 레드랙션",
+    "head_description": "{{ProdFullName}}으로 비즈니스 문서를 보호하세요. PDF, Word, Excel, PowerPoint 및 이미지 파일에서 기밀 콘텐츠를 쉽게 레드랙션, 숨기거나 삭제할 수 있습니다.",
+    "title": "{{ProdShortName}}로 콘텐츠 보호",
+    "description": "PDF, Word 문서, 스프레드시트, 프레젠테이션 및 이미지에서 민감한 정보와 메타데이터를 레드랙션, 숨기거나 영구적으로 제거하는 강력한 {{EnvNameShort}} 솔루션입니다.",
+    "actions_main": "{{PackageStoreName}} 다운로드",
+    "code_title": "파일 콘텐츠 레드랙션 방법",
+    "code_comment_1": "입력 파일을 {{textRedactor}} 인스턴스에 전달합니다.",
+    "code_comment_2": "레드랙션 옵션을 구성합니다.",
+    "code_comment_3": "레드랙션 처리 과정을 실행합니다.",
+    "code_comment_4": "레드랙션된 파일을 저장합니다.",
+    "overview_description": "{{EnvNameShort}} 애플리케이션에 전문가 수준의 콘텐츠 레드랙션을 추가하세요.",
+    "overview_feature_1": {
+      "title": "텍스트 콘텐츠 레드랙션",
+      "description": "{{ProdFullName}}는 민감한 텍스트를 찾아서 레드랙션할 수 있도록 합니다. 텍스트는 색상이 다른 이미지 오버레이를 사용하여 교체되거나 숨길 수 있습니다. PDF 및 오피스 문서 등 다양한 형식에서 지원되며, 개인 데이터를 보호하고 비즈니스 규정을 준수하는 데 도움을 줍니다."
+    },
+    "overview_feature_2": {
+      "title": "이미지 레드랙션",
+      "description": "문서 페이지에서 이미지를 완전하거나 부분적으로 자동으로 감지하고 레드랙션합니다. 민감한 비주얼 콘텐츠를 효과적으로 마스크하기 위해 검색 기준 및 타겟 영역을 지정합니다."
+    },
+    "overview_feature_3": {
+      "title": "파일 메타데이터 관리",
+      "description": "많은 파일 형식에는 Word 파일 내 저자 이름이나 이미지의 EXIF 데이터와 같은 숨겨진 메타데이터가 포함되어 있습니다. {{ProdFullName}}을 사용하면 전체 데이터 프라이버시를 보장하기 위해 이 정보를 쉽게 찾아서 레드랙션할 수 있습니다."
+    },
+    "overview_feature_4": {
+      "title": "문서 객체 레드랙션",
+      "description": "주석, 댓글 및 PDF와 같은 형식의 임베디드 객체와 같은 문서 특정 요소를 레드랙션하여 완전한 콘텐츠 보호를 보장합니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}} 기능",
+      "description": "PDF, 오피스 파일 및 이미지에서 고속과 정확도로 데이터를 추출하고 레드랙션합니다.",
+      "feature_1": {
+        "title": "유연한 검색",
+        "content": "문서 내 특정 구 또는 용어를 레드랙션하기 위해 대소문자 구분 또는 대소문자 무시 검색을 수행합니다."
+      },
+      "feature_2": {
+        "title": "텍스트 교체 또는 제거",
+        "content": "문서 전반에서 민감한 텍스트를 찾아 교체하거나 삭제합니다."
+      },
+      "feature_3": {
+        "title": "이미지로 텍스트 숨기기",
+        "content": "텍스트를 교체하는 대신 색상이 있는 이미지 오버레이를 사용하여 시각적으로 레드랙션된 내용을 마스킹합니다."
+      },
+      "feature_4": {
+        "title": "고급 검색 기능",
+        "content": "정규식을 사용하여 복잡한 데이터 세트 전반에서 정확하고 유연한 콘텐츠 레드랙션을 수행합니다."
+      },
+      "feature_5": {
+        "title": "범위 제한 레드랙션",
+        "content": "특정 페이지 또는 정의된 페이지 영역을 타겟팅하여 관련 섹션에만 레드랙션을 한정합니다."
+      },
+      "feature_6": {
+        "title": "메타데이터 레드랙션",
+        "content": "문서 소유권 및 작성 세부 정보를 보호하기 위해 메타데이터 속성을 찾아 레드랙션합니다."
+      },
+      "feature_7": {
+        "title": "유연한 출력 형식",
+        "content": "레이아웃 무결성을 유지하면서 PDF 또는 지원되는 형식으로 레드랙션된 파일을 내보냅니다."
+      },
+      "feature_8": {
+        "title": "완전한 메타데이터 삭제",
+        "content": "단일 작업으로 문서의 모든 메타데이터를 삭제하여 절대적인 프라이버시를 보장합니다."
+      },
+      "feature_9": {
+        "title": "XML 기반 레드랙션 규칙",
+        "content": "여러 파일에서 일관된 자동 처리할 수 있도록 XML 형식으로 레드랙션 정책을 정의합니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}}은 다양한 운영 체제, 개발 프레임워크 및 패키지 관리자와 호환됩니다.",
+    "formats_description": "{{ProdFullName}}은 제공된 [파일 형식]({{SupportedFormatsUrl}})으로 작업하는 것을 지원합니다.",
+    "code_samples_description": "{{ProdFullName}}의 일반 사용 예시입니다",
+    "code_title_sample_1": "정규식을 사용한 레드랙션",
+    "code_samples_sample_1_content": "{{ProdFullName}}은 {{ProgLang}} 개발자가 [정규식을 사용하여 레드랙션]({{Sample1Url}})하고 이미지 오버레이로 숨길 수 있도록 합니다:",
+    "code_title_sample_2": "메타데이터 정리",
+    "code_samples_sample_2_content": "API를 사용하면 지원되는 파일 형식의 모든 메타데이터를 [쉽게 제거]({{Sample2Url}})할 수 있습니다:"
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}}를 사용하여 문서에서 기밀 데이터 제거",
+    "head_description": "{{ProdFullName}}으로 민감한 정보를 보호하십시오. PDF, 오피스 파일 및 이미지에서 개인 콘텐츠를 숨기고 레드랙션하거나 삭제합니다.",
+    "title": "{{ProdShortName}}로 기밀 데이터 보호",
+    "description": "신뢰할 수 있는 {{EnvNameShort}} 툴킷을 사용하여 PDF, Word, Excel, PowerPoint 및 이미지 형식에서 개인 데이터를 쉽게 제거하고 텍스트를 레드랙션하며 메타데이터를 정리하십시오.",
+    "actions_main": "{{PackageStoreName}} 다운로드",
+    "code_title": "문서 콘텐츠 레드랙션 단계",
+    "code_comment_1": "{{textRedactor}} 인스턴스로 소스 파일을 로드합니다.",
+    "code_comment_2": "레드랙션 기준 및 설정을 정의합니다.",
+    "code_comment_3": "레드랙션 작업을 실행합니다.",
+    "code_comment_4": "레드랙션을 적용한 파일을 저장합니다.",
+    "overview_description": "{{EnvNameShort}} 애플리케이션에 전문가 레드랙션 도구를 통합하세요.",
+    "overview_feature_1": {
+      "title": "민감한 텍스트 제거",
+      "description": "{{ProdFullName}}를 사용하면 개인 텍스트를 검색하고 사용자 지정 오버레이 또는 교체를 사용하여 숨길 수 있습니다. PDF, Word, Excel 및 기타 형식과 호환되며, 규정 준수 및 안전한 문서 공유에 적합합니다."
+    },
+    "overview_feature_2": {
+      "title": "이미지 숨기기",
+      "description": "요구 사항에 따라 이미지를 완전하거나 부분적으로 식별하고 마스킹합니다. 감지 규칙 및 영역 좌표를 정의하여 비주얼 데이터를 효율적으로 보호합니다."
+    },
+    "overview_feature_3": {
+      "title": "임베디드 메타데이터 정리",
+      "description": "파일에는 저자 이름, 생성 도구 또는 장치 세부 정보와 같은 숨겨진 정보가 포함될 수 있습니다. {{ProdFullName}}는 Word, Excel, 이미지 및 기타 형식에서 메타데이터를 감지하고 정리할 수 있게 해줍니다."
+    },
+    "overview_feature_4": {
+      "title": "임베디드 객체 레드랙션",
+      "description": "PDF 주석, 댓글 및 기타 임베디드 항목을 레드랙션하여 문서를 철저하게 정리하여 기밀 정보가 남지 않게 합니다."
+    },
+    "features": {
+      "title": "{{ProdShortName}}로 할 수 있는 일",
+      "description": "PDF, 오피스 문서 및 이미지에서 내용을 빠르게 찾아서 레드랙션합니다.",
+      "feature_1": {
+        "title": "정확한 검색",
+        "content": "대소문자 구분 및 대소문자 무시 검색 모드를 통해 정확한 일치를 찾아 레드랙션합니다."
+      },
+      "feature_2": {
+        "title": "텍스트 찾기 및 교체",
+        "content": "문서 전반에서 기밀 텍스트를 자동으로 감지하고 대체하거나 삭제합니다."
+      },
+      "feature_3": {
+        "title": "사용자 지정 이미지로 오버레이하기",
+        "content": "텍스트를 마스킹하기 위해 이미지 블록을 사용하고, 레이아웃을 보존하면서 세부정보를 숨깁니다."
+      },
+      "feature_4": {
+        "title": "고급 레드랙션에 Regex 사용",
+        "content": "복잡한 패턴을 감지하고 지능적으로 레드랙션하기 위해 정규식을 활용합니다."
+      },
+      "feature_5": {
+        "title": "특정 영역 레드랙션",
+        "content": "정확한 타겟팅을 통해 선택한 페이지 또는 구역에만 레드랙션을 제한합니다."
+      },
+      "feature_6": {
+        "title": "메타데이터 필드 청소",
+        "content": "작성자, 회사 또는 추적 데이터와 같은 문서 메타데이터를 식별하고 정리합니다."
+      },
+      "feature_7": {
+        "title": "원하는 형식으로 내보내기",
+        "content": "레이아웃 무결성을 잃지 않고 PDF 또는 다른 지원 형식으로 레드랙션된 파일을 저장합니다."
+      },
+      "feature_8": {
+        "title": "모든 메타데이터 지우기",
+        "content": "한 번의 명령으로 지원되는 파일에서 메타데이터를 완전히 제거합니다."
+      },
+      "feature_9": {
+        "title": "자동화된 레드랙션 정책",
+        "content": "일관된 배치 레드랙션을 위해 XML에 저장된 재사용 가능한 레드랙션 구성을 생성합니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}}은 주요 운영 체제, 프레임워크 및 개발 플랫폼에서 작동합니다.",
+    "formats_description": "{{ProdFullName}}은 제공된 [파일 형식]({{SupportedFormatsUrl}})으로 작업하는 것을 지원합니다.",
+    "code_samples_description": "{{ProdFullName}} 일반 사용 사례 예제입니다.",
+    "code_title_sample_1": "정규식을 사용한 레드랙션",
+    "code_samples_sample_1_content": "{{ProdFullName}}은 {{ProgLang}} 개발자가 [정규식을 사용하여 레드랙션]({{Sample1Url}})하고 선택적으로 이미지 마스킹을 적용할 수 있도록 합니다:",
+    "code_title_sample_2": "모든 메타데이터 제거",
+    "code_samples_sample_2_content": "우리 API를 사용하여 [여러 파일 유형의 메타데이터를 삭제]({{Sample2Url}})할 수 있습니다."
+  },
+  "index-content-python": {
+    "head_title": "{{EnvNameShort}}을 사용하여 문서에서 기밀 정보 지우기",
+    "head_description": "{{ProdFullName}}을 사용하여 파일을 안전하게 지키십시오. PDF, Word, Excel, PowerPoint 및 이미지 파일에서 민감한 콘텐츠를 신속하게 레드랙션, 숨기거나 삭제할 수 있습니다.",
+    "title": "{{ProdShortName}}으로 문서 안전하게 유지하기",
+    "description": "고급 {{EnvNameShort}} 툴킷을 사용하여 PDF, 오피스 파일 및 이미지에서 개인 데이터를 쉽게 제거하고 텍스트를 레드랙션하며 숨겨진 메타데이터를 정리합니다.",
+    "actions_main": "{{PackageStoreName}} 다운로드",
+    "code_title": "문서 콘텐츠 레드랙션",
+    "code_comment_1": "파일을 {{textRedactor}} 인스턴스에 로드합니다.",
+    "code_comment_2": "레드랙션 매개변수를 조정합니다.",
+    "code_comment_3": "레드랙션 과정을 시작합니다.",
+    "code_comment_4": "정리된 파일을 내보냅니다.",
+    "overview_description": "{{EnvNameShort}} 프로젝트에 강력한 레드랙션 기능을 통합하십시오.",
+    "overview_feature_1": {
+      "title": "민감한 텍스트 레드랙션",
+      "description": "{{ProdFullName}}을 사용하여 민감한 단어 또는 구를 자동으로 찾고 덮을 수 있습니다. PDF, Word 문서 및 기타 형식에서 텍스트를 교체하거나 마스킹하여 보호합니다."
+    },
+    "overview_feature_2": {
+      "title": "이미지 숨기기",
+      "description": "기술이 이미지를 감지하고 선택한 기준에 따라 흐리게 하거나 숨기거나 차단할 수 있습니다. 특정 지역을 정의하거나 완전한 제어를 위해 자동 감지를 허용합니다."
+    },
+    "overview_feature_3": {
+      "title": "숨겨진 메타데이터 제거",
+      "description": "저자 또는 장치 정보와 같은 메타데이터에 숨겨진 개인 또는 추적 세부 정보를 제거합니다. {{ProdFullName}}은 문서가 완전히 정리되도록 보장합니다."
+    },
+    "overview_feature_4": {
+      "title": "특별한 요소 레드랙션",
+      "description": "텍스트를 넘어서 주석, 주석 및 기타 파일 특정 요소를 레드랙션하여 완전한 기밀성을 달성합니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}}의 주요 기능",
+      "description": "PDF, 이미지 및 오피스 파일에서 민감한 콘텐츠를 쉽고 빠르게 스캔, 찾아 레드랙션합니다.",
+      "feature_1": {
+        "title": "사용자 맞춤형 검색",
+        "content": "정확한 일치 또는 키워드를 제거하기 위해 유연한 검색 모드를 사용하십시오."
+      },
+      "feature_2": {
+        "title": "텍스트 찾기, 교체 또는 삭제",
+        "content": "민감한 데이터를 찾고 안전한 텍스트로 대체하거나 완전히 지웁니다."
+      },
+      "feature_3": {
+        "title": "시각적 마스킹",
+        "content": "색상 있는 도형이나 패턴을 덮어 레드랙션된 부분을 시각적으로 가립니다."
+      },
+      "feature_4": {
+        "title": "Regex 기반 탐지",
+        "content": "고급 텍스트 검색에서 정확한 탐지를 위해 정규식을 활용합니다."
+      },
+      "feature_5": {
+        "title": "대상 레드랙션",
+        "content": "특정 페이지나 정의된 영역에만 레드랙션을 적용하여 시간을 아끼고 주요 영역에 집중합니다."
+      },
+      "feature_6": {
+        "title": "메타데이터 정리",
+        "content": "파일에서 작성자, 회사 또는 타임스탬프와 같은 메타데이터 필드를 쉽게 지웁니다."
+      },
+      "feature_7": {
+        "title": "수출 옵션",
+        "content": "처리된 문서를 PDF 또는 다른 호환 형식으로 레이아웃 무결성을 잃지 않고 저장합니다."
+      },
+      "feature_8": {
+        "title": "전체 메타데이터 삭제",
+        "content": "데이터 보호 최대화를 위해 한 번의 클릭으로 모든 임베디드 메타데이터를 지웁니다."
+      },
+      "feature_9": {
+        "title": "재사용 가능한 XML 정책",
+        "content": "미래 작업 자동화를 위해 맞춤 레드랙션 구성을 XML 템플릿으로 저장합니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}}은 모든 주요 운영 체제에서 작동하며, 인기 있는 프레임워크 및 일반 패키지 관리자와 통합됩니다.",
+    "formats_description": "{{ProdFullName}}은 다음 [파일 형식]({{SupportedFormatsUrl}})을 지원합니다.",
+    "code_samples_description": "{{ProdFullName}}이 레드랙션 작업을 어떻게 단순화하는지 탐색하십시오.",
+    "code_title_sample_1": "정규식 기반 텍스트 레드랙션",
+    "code_samples_sample_1_content": "개발자는 {{ProgLang}}를 사용하여 [정규식 기반 규칙]({{Sample1Url}})을 적용해 민감한 텍스트를 찾아 이미지 마스크로 덮을 수 있습니다:",
+    "code_title_sample_2": "메타데이터 제거",
+    "code_samples_sample_2_content": "API를 사용하여 [메타데이터를 지우는 방법]({{Sample2Url}})을 지원되는 여러 파일 유형으로 제거할 수 있습니다."
+  }
+}

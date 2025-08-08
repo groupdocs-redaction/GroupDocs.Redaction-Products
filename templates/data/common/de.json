@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Excel redigieren",
+        "description": "MS Excel und Open Office Tabellenkalkulationen"
+      },
+      "word": {
+        "name": "Word redigieren",
+        "description": "MS Word und Open Office Dokumente"
+      },
+      "powerpoint": {
+        "name": "PowerPoint redigieren",
+        "description": "MS PowerPoint und Open Office Präsentationen"
+      },
+      "image": {
+        "name": "Bild redigieren",
+        "description": "Beliebte Bildformate"
+      },
+      "photo": {
+        "name": "Foto redigieren",
+        "description": "Fot Formate"
+      },
+      "pdf": {
+        "name": "PDF redigieren",
+        "description": "Adobe Portable Document Format"
+      },
+      "doc": {
+        "name": "DOC redigieren",
+        "description": "Microsoft Word 97 - 2007 Dokument"
+      },
+      "docx": {
+        "name": "DOCX redigieren",
+        "description": "Microsoft Word Open XML Dokument"
+      },
+      "xls": {
+        "name": "XLS redigieren",
+        "description": "Microsoft Excel Arbeitsmappe 97-2003"
+      },
+      "xlsx": {
+        "name": "XLSX redigieren",
+        "description": "Microsoft Excel Open XML Tabellenkalkulation"
+      },
+      "ppt": {
+        "name": "PPT redigieren",
+        "description": "PowerPoint Präsentation 97-2003"
+      },
+      "pptx": {
+        "name": "PPTX redigieren",
+        "description": "PowerPoint Open XML Präsentation"
+      },
+      "jpg": {
+        "name": "JPEG redigieren",
+        "description": "JPEG Bild"
+      },
+      "jpeg": {
+        "name": "JPEG redigieren",
+        "description": "JPEG Bild"
+      },
+      "png": {
+        "name": "PNG redigieren",
+        "description": "Portable Network Graphic"
+      },
+      "tiff": {
+        "name": "TIFF redigieren",
+        "description": "Tag Image File Format"
+      },
+      "webp": {
+        "name": "WEBP redigieren",
+        "description": "WEB Bild"
+      },
+      "rtf": {
+        "name": "RTF redigieren",
+        "description": "Rich Text Format"
+      }
+    },
+    "format-code": {
+      "copy_title": "Kopieren",
+      "result_title": "Beispielredaktionen",
+      "result_title_bottom": "Ergebnis herunterladen",
+      "copy_tip": "Klicken zum Kopieren",
+      "copy_done": "kopiert",
+      "links": {
+        "title_1": "Weitere Beispiele",
+        "title_2": "Dokumentation"
+      }
+    },
+    "format-actions": {
+      "title": "Bereit loszulegen?",
+      "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
+      "comment_1": "{{PackageStoreName}} Download",
+      "comment_2": "Lizenzierung"
+    },
+    "texts": {
+      "learn_more": "Mehr erfahren"
+    }
+  }
+}

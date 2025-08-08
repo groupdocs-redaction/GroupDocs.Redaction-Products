@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Tutup Teks Pribadi dalam {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "{{ProdFullName}} memungkinkan Anda menyembunyikan informasi sensitif dalam file {{FileFormatUp}} dengan menempatkan kotak berwarna. Lindungi data tanpa merubah tampilan file Anda."
+    },
+    "header": {
+      "title": "Masker Teks dalam Dokumen {{FileFormatUp}} Menggunakan Overlay di {{EnvNameShort}}",
+      "description": "Kendalikan sepenuhnya konten file {{FileFormatUp}} dengan {{ProgLang}}. Gunakan redaksi untuk melindungi rincian keuangan, hukum, atau pribadi.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Amankan Info Rahasia dalam File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} memudahkan pengembang {{EnvName}} untuk menyembunyikan konten pribadi dengan beberapa langkah sederhana.",
+        "step_1": "Mulai {{textRedactor}} dan muat file {{FileFormatCap}} Anda.",
+        "step_2": "Atur preferensi redaksi Anda.",
+        "step_3": "Pilih apa yang harus dicari dan pilih warna overlay Anda.",
+        "step_4": "Terapkan redaksi dan simpan dokumen Anda."
+      }
+    },
+    "example_top": {
+      "comment_1": "Tutup teks dalam {{FileFormatUp}} menggunakan overlay berwarna",
+      "comment_2": "Lepaskan jalur file ke {{textRedactor}}",
+      "comment_3": "Sesuaikan pengaturan redaksi",
+      "comment_4": "Atur teks target dan warna",
+      "comment_5": "Terapkan dan simpan {{FileFormatUp}} yang telah direda"
+    },
+    "example_bottom": {
+      "title": "Sembunyikan Teks Menggunakan Regex",
+      "content": "Contoh ini menggunakan ekspresi reguler untuk menemukan dan menyembunyikan konten tertentu.",
+      "comment_1": "Muat file yang ingin Anda proses",
+      "comment_2": "Atur pola teks dan warna overlay",
+      "comment_3": "Terapkan redaksi",
+      "comment_4": "Simpan perubahan Anda"
+    },
+    "more_features": {
+      "title": "Kendalikan Apa yang Terlihat dalam Dokumen",
+      "description": "{{ProdFullName}} memungkinkan Anda memblokir atau menghapus bagian dari file Anda sambil menjaga agar mudah dilihat dan dibagikan.",
+      "image_description": "Alat Redaksi yang Berkuasa",
+      "feature_1": {
+        "title": "Target dan sembunyikan teks",
+        "content": "Cari dokumen Anda dan sembunyikan kata atau frasa tertentu untuk melindungi info pribadi."
+      },
+      "feature_2": {
+        "title": "Tutup gambar",
+        "content": "Tambahkan overlay untuk menyembunyikan visual sepenuhnya atau sebagian."
+      },
+      "feature_3": {
+        "title": "Hapus metadata",
+        "content": "Bersihkan rincian dokumen tersembunyi untuk menghindari eksposur yang tidak disengaja."
+      }
+    },
+    "about": {
+      "title": "Apa yang Ditawarkan {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan cara bagi pengembang {{ProgLang}} untuk menyembunyikan atau menghapus konten dari file {{FileFormatUp}}. Tutup teks, gambar, dan metadata di berbagai jenis dokumen."
+    },
+    "formats": {
+      "title": "Lindungi File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menutup atau menghapus konten dalam dokumen {{FileFormatUp}}. Cara yang baik untuk menjaga informasi pribadi tetap aman dan terjamin."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Sembunyikan Teks dalam {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "Gunakan {{ProdFullName}} untuk memblokir teks pribadi dalam file {{FileFormatUp}}. Pertahankan tata letak yang tidak berubah sambil menjaga data sensitif tersembunyi."
+    },
+    "header": {
+      "title": "Lindungi Teks {{FileFormatUp}} dengan Overlay di {{EnvNameShort}}",
+      "description": "Sembunyikan dengan cepat rincian pribadi, hukum, atau bisnis dalam file {{FileFormatUp}} dengan {{ProgLang}} dan {{ProdFullName}}.",
+      "subtitle": "Alat Kunci dalam {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redaksi Konten Sensitif dalam {{FileFormatCap}}",
+      "content": {
+        "title": "Bersihkan dokumen dalam proyek {{EnvName}} Anda menggunakan {{ProdFullName}}.",
+        "step_1": "Inisialisasi {{textRedactor}} dengan file Anda.",
+        "step_2": "Pilih bagaimana redaksi harus bekerja.",
+        "step_3": "Pilih teks untuk disembunyikan dan warna overlay.",
+        "step_4": "Terapkan redaksi dan simpan file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Tutup teks dengan overlay dalam {{FileFormatUp}}",
+      "comment_2": "Buat {{textRedactor}} dan muat dokumen Anda",
+      "comment_3": "Pilih opsi redaksi",
+      "comment_4": "Pilih teks dan warna",
+      "comment_5": "Simpan versi yang telah direda"
+    },
+    "example_bottom": {
+      "title": "Temukan Teks dengan Regex dan Sembunyikan",
+      "content": "Gunakan pencocokan pola untuk otomatis menyembunyikan frase kunci",
+      "comment_1": "Buka dokumen yang ingin Anda redaksi",
+      "comment_2": "Atur pola regex dan gaya overlay",
+      "comment_3": "Terapkan logika redaksi",
+      "comment_4": "Simpan dokumen bersih Anda"
+    },
+    "more_features": {
+      "title": "Alat Redaksi untuk Penggunaan Sehari-hari",
+      "description": "{{ProdFullName}} memberikan opsi sederhana untuk menyembunyikan rincian sensitif di seluruh dokumen sambil tetap menjadikannya dapat digunakan.",
+      "image_description": "Opsi redaksi yang mudah",
+      "feature_1": {
+        "title": "Temukan dan ubah teks",
+        "content": "Sembunyikan atau ganti kata dalam hitungan detik."
+      },
+      "feature_2": {
+        "title": "Blok bagian gambar",
+        "content": "Masker bagian dari gambar atau konten yang dipindai."
+      },
+      "feature_3": {
+        "title": "Hapus informasi latar belakang",
+        "content": "Hapus metadata tersembunyi seperti kepemilikan atau tanggal."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan alat bagi pengembang {{ProgLang}} untuk membersihkan file {{FileFormatUp}}. Redaksi nama, angka, atau catatan dengan cepat."
+    },
+    "formats": {
+      "title": "Redaksi File {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+      "description": "Lindungi konten sensitif dalam {{FileFormatUp}} dengan menyembunyikannya atau menghapusnya menggunakan alat di {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Blok Teks dalam {{FileFormatUp}} dengan Overlay {{ProgLang}}",
+      "description": "{{ProdFullName}} memungkinkan Anda menutup informasi sensitif dalam file {{FileFormatUp}} dengan blok warna. Sembunyikan data sambil menjaga layout tetap utuh."
+    },
+    "header": {
+      "title": "Sembunyikan Data dalam {{FileFormatUp}} dengan Overlay Menggunakan {{EnvNameShort}}",
+      "description": "Gunakan {{ProgLang}} dan {{ProdFullName}} untuk menyembunyikan konten pribadi dalam file {{FileFormatUp}} tanpa mempengaruhi format.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Lindungi Info dalam Dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "Jaga agar dokumen Anda tetap aman menggunakan kode sederhana dengan {{ProdFullName}} di {{EnvName}}.",
+        "step_1": "Buat {{textRedactor}} dengan jalur file.",
+        "step_2": "Atur logika redaksi Anda.",
+        "step_3": "Pilih kata kunci dan warna overlay.",
+        "step_4": "Redaksikan dan simpan file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sembunyikan info dalam {{FileFormatUp}} menggunakan blok",
+      "comment_2": "Muat file dengan {{textRedactor}}",
+      "comment_3": "Atur preferensi redaksi",
+      "comment_4": "Tambahkan teks dan warna untuk diblokir",
+      "comment_5": "Simpan dokumen yang diperbarui"
+    },
+    "example_bottom": {
+      "title": "Gunakan Regex untuk Redaksi Konten",
+      "content": "Temukan dan sembunyikan teks secara otomatis dengan pencocokan pola",
+      "comment_1": "Buka lembar kerja",
+      "comment_2": "Tentukan pola dan warna overlay",
+      "comment_3": "Terapkan aturan redaksi",
+      "comment_4": "Ekspor hasil Anda"
+    },
+    "more_features": {
+      "title": "Fitur Privasi Terintegrasi",
+      "description": "Gunakan {{ProdFullName}} untuk memblokir atau menghapus konten dalam file Anda sambil menjaga struktur tidak terganggu.",
+      "image_description": "Alat privasi yang mudah",
+      "feature_1": {
+        "title": "Ubah atau sembunyikan teks",
+        "content": "Edit atau redaksi kata-kata tertentu dengan mudah."
+      },
+      "feature_2": {
+        "title": "Masker bagian gambar",
+        "content": "Tambahkan overlay untuk menyembunyikan foto atau detail grafis."
+      },
+      "feature_3": {
+        "title": "Hapus informasi tersembunyi",
+        "content": "Bersihkan metadata seperti informasi pengguna atau riwayat file."
+      }
+    },
+    "about": {
+      "title": "Mengapa {{ProdFullName}} Bekerja",
+      "content": "{{ProdFullName}} memungkinkan pengembang {{ProgLang}} mengamankan file {{FileFormatUp}}. Sembunyikan teks, gambar, atau metadata dengan cepat."
+    },
+    "formats": {
+      "title": "Redaksi Data {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+      "description": "Gunakan overlay atau hapus konten dalam file {{FileFormatUp}} untuk menjaga data sensitif tetap pribadi dengan {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Sembunyikan Teks dalam Presentasi {{FileFormatUp}} dengan Overlay {{ProgLang}}",
+      "description": "Gunakan {{ProdFullName}} untuk memblokir konten sensitif dalam file {{FileFormatUp}} dengan overlay berwarna. Pertahankan slide utuh sambil menyembunyikan info kunci."
+    },
+    "header": {
+      "title": "Masker Teks dalam Presentasi {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Dengan mudah lindungi rincian pribadi atau bisnis dalam slide {{FileFormatUp}} Anda menggunakan {{ProgLang}} dan {{ProdFullName}}.",
+      "subtitle": "Jelajahi Fitur {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redaksi Konten Pribadi dalam Slide {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} memudahkan perlindungan konten bagi pengembang {{EnvName}}.",
+        "step_1": "Siapkan {{textRedactor}} dengan jalur presentasi Anda.",
+        "step_2": "Pilih bagaimana redaksi harus berperilaku.",
+        "step_3": "Tambahkan pola teks dan warna overlay.",
+        "step_4": "Redaksikan slide dan simpan."
+      }
+    },
+    "example_top": {
+      "comment_1": "Gunakan overlay untuk memblokir teks dalam {{FileFormatUp}}",
+      "comment_2": "Inisialisasi {{textRedactor}} dengan presentasi Anda",
+      "comment_3": "Pilih preferensi redaksi Anda",
+      "comment_4": "Atur teks dan warna overlay",
+      "comment_5": "Jalankan redaksi dan simpan slide deck"
+    },
+    "example_bottom": {
+      "title": "Redaksi Teks dengan Regex",
+      "content": "Gunakan ekspresi reguler untuk menemukan dan menutupi kata sensitif",
+      "comment_1": "Buka file presentasi",
+      "comment_2": "Tentukan pola pencarian dan warna overlay",
+      "comment_3": "Jalankan aturan redaksi",
+      "comment_4": "Simpan versi final"
+    },
+    "more_features": {
+      "title": "Alat Redaksi yang Kuat",
+      "description": "{{ProdFullName}} memungkinkan Anda memblokir atau menghapus konten sensitif dalam presentasi Anda tanpa merusak tata letak atau format.",
+      "image_description": "Fitur yang bekerja di seluruh slide",
+      "feature_1": {
+        "title": "Sembunyikan atau ganti teks",
+        "content": "Lindungi nama, istilah, atau catatan yang tidak seharusnya terlihat."
+      },
+      "feature_2": {
+        "title": "Tutup area visual",
+        "content": "Tambahkan overlay pada gambar atau bagian grafik dari slide."
+      },
+      "feature_3": {
+        "title": "Bersihkan metadata",
+        "content": "Hapus informasi di balik layar yang dapat mengungkapkan kepemilikan atau riwayat pengeditan."
+      }
+    },
+    "about": {
+      "title": "Apa yang Dilakukan {{ProdFullName}}",
+      "content": "{{ProdFullName}} memungkinkan pengembang {{ProgLang}} menyembunyikan atau menghapus teks, gambar, atau metadata dalam presentasi {{FileFormatUp}} hanya dalam beberapa langkah."
+    },
+    "formats": {
+      "title": "Lindungi Slide {{FileFormatUp}} dengan Alat {{EnvNameShort}}",
+      "description": "Tutup konten sensitif atau hapus sepenuhnya dari presentasi {{FileFormatUp}} menggunakan fitur redaksi {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Redaksi Teks dalam {{FileFormatUp}} Menggunakan Overlay {{ProgLang}}",
+      "description": "Gunakan {{ProdFullName}} untuk menutupi teks sensitif dalam file {{FileFormatUp}} dengan blok warna sambil menjaga struktur dokumen tetap utuh."
+    },
+    "header": {
+      "title": "Overlay Redaksi dalam File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Sembunyikan rincian penting dalam dokumen {{FileFormatUp}} Anda menggunakan overlay berwarna yang didukung oleh {{ProgLang}} dan {{ProdFullName}}.",
+      "subtitle": "Apa yang Bisa Dilakukan {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Lindungi Info Pribadi dalam Format {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} memberikan cara cepat bagi pengembang {{EnvName}} untuk membersihkan file dan mengamankan kontennya.",
+        "step_1": "Mulai {{textRedactor}} dan muat file {{FileFormatCap}}.",
+        "step_2": "Pilih opsi redaksi Anda.",
+        "step_3": "Tambahkan pola teks dan warna overlay.",
+        "step_4": "Jalankan redaksi dan simpan file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sembunyikan teks menggunakan overlay dalam {{FileFormatUp}}",
+      "comment_2": "Gunakan {{textRedactor}} untuk membuka dokumen",
+      "comment_3": "Atur preferensi redaksi",
+      "comment_4": "Tambahkan kata kunci dan pilih warna",
+      "comment_5": "Terapkan dan simpan file Anda yang telah direda"
+    },
+    "example_bottom": {
+      "title": "Redaksi Berbasis Regex",
+      "content": "Pelajari cara menggunakan regex untuk otomatis menyembunyikan konten tertentu",
+      "comment_1": "Muat dokumen untuk direda",
+      "comment_2": "Tentukan pola regex dan warna overlay",
+      "comment_3": "Terapkan redaksi",
+      "comment_4": "Simpan versi bersih Anda"
+    },
+    "more_features": {
+      "title": "Kemampuan Redaksi Lebih Lanjut",
+      "description": "Gunakan {{ProdFullName}} untuk menghapus baik konten yang terlihat maupun tersembunyi dari file sambil menjaga tata letak tetap utuh.",
+      "image_description": "Output yang sederhana dan bersih",
+      "feature_1": {
+        "title": "Ganti teks",
+        "content": "Tutup kata atau istilah yang seharusnya tidak terlihat."
+      },
+      "feature_2": {
+        "title": "Masker visual",
+        "content": "Gunakan overlay berwarna untuk menyembunyikan gambar atau bagian darinya."
+      },
+      "feature_3": {
+        "title": "Hapus metadata",
+        "content": "Hapus rincian yang tersembunyi dalam properti file."
+      }
+    },
+    "about": {
+      "title": "Kenali {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan pengguna {{ProgLang}} kontrol penuh atas redaksi {{FileFormatUp}}. Sembunyikan apa pun yang Anda inginkan—teks, visual, atau metadata."
+    },
+    "formats": {
+      "title": "Redaksi Konten dalam {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Jaga dokumen {{FileFormatUp}} Anda tetap pribadi dengan menyembunyikan atau menghapus data sensitif menggunakan {{EnvNameShort}}."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Tutup Teks dalam {{FileFormatUp}} dengan Overlay dan {{ProgLang}}",
+      "description": "Lindungi konten sensitif dalam file {{FileFormatUp}} dengan menerapkan overlay warna menggunakan {{ProdFullName}}. Pertahankan tata letak dokumen tetap utuh."
+    },
+    "header": {
+      "title": "Redaksi Data {{FileFormatUp}} dengan Overlay di {{EnvNameShort}}",
+      "description": "Gunakan kode {{ProgLang}} untuk menyembunyikan info sensitif dalam spreadsheet {{FileFormatUp}}. Cara efektif untuk menjaga data tetap pribadi.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sembunyikan Info dalam Spreadsheet {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} membantu pengembang {{EnvName}} melindungi file dengan menyembunyikan info pribadi hanya dalam beberapa baris.",
+        "step_1": "Mulai {{textRedactor}} dan muat spreadsheet Anda.",
+        "step_2": "Atur aturan redaksi yang diperlukan.",
+        "step_3": "Pilih teks dan warna overlay.",
+        "step_4": "Terapkan dan simpan file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Gunakan overlay untuk menyembunyikan teks dalam {{FileFormatUp}}",
+      "comment_2": "Buat {{textRedactor}} dan muat file Anda",
+      "comment_3": "Pilih aturan redaksi",
+      "comment_4": "Masukkan apa yang harus disembunyikan dan pilih warna",
+      "comment_5": "Terapkan redaksi dan simpan file"
+    },
+    "example_bottom": {
+      "title": "Redaksi Menggunakan Regex",
+      "content": "Gunakan regex untuk menemukan dan menyembunyikan teks secara otomatis",
+      "comment_1": "Buka spreadsheet Anda",
+      "comment_2": "Atur pola dan rincian overlay",
+      "comment_3": "Terapkan redaksi",
+      "comment_4": "Simpan versi yang telah dibersihkan"
+    },
+    "more_features": {
+      "title": "Alat Perlindungan Data Dasar",
+      "description": "Sembunyikan atau hapus info sensitif dari spreadsheet Anda tanpa merusak tata letak atau artinya menggunakan {{ProdFullName}}.",
+      "image_description": "Dirancang untuk pembersihan data yang aman",
+      "feature_1": {
+        "title": "Edit atau sembunyikan teks",
+        "content": "Temukan dan tutup teks yang perlu dilindungi."
+      },
+      "feature_2": {
+        "title": "Tutup visual sensitif",
+        "content": "Terapkan blok warna di atas area grafik atau gambar."
+      },
+      "feature_3": {
+        "title": "Hapus metadata",
+        "content": "Bersihkan riwayat dokumen, nama penulis, atau cap waktu."
+      }
+    },
+    "about": {
+      "title": "Mengapa Memilih {{ProdFullName}}",
+      "content": "{{ProdFullName}} dikembangkan untuk pengembang {{ProgLang}} yang ingin menyembunyikan atau membersihkan konten dalam spreadsheet {{FileFormatUp}} dengan cepat."
+    },
+    "formats": {
+      "title": "Redaksi Lembar {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Sembunyikan atau hapus data sensitif dalam {{FileFormatUp}} menggunakan overlay dan alat dari {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Lindungi Teks dalam {{FileFormatUp}} dengan Overlay {{ProgLang}}",
+      "description": "Dengan {{ProdFullName}}, Anda dapat memblokir teks pribadi dalam slide {{FileFormatUp}} menggunakan kotak overlay sederhana—tanpa mengubah tata letaknya."
+    },
+    "header": {
+      "title": "Sembunyikan Teks dalam {{FileFormatUp}} Menggunakan Overlay dan {{EnvNameShort}}",
+      "description": "Gunakan {{ProgLang}} dan {{ProdFullName}} untuk menjaga slide {{FileFormatUp}} Anda aman dengan menyembunyikan konten sensitif.",
+      "subtitle": "Di Dalam {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bersihkan Presentasi {{FileFormatCap}} Sebelum Berbagi",
+      "content": {
+        "title": "Gunakan {{ProdFullName}} di aplikasi {{EnvName}} untuk menyembunyikan atau menghapus bagian sensitif dari slide Anda.",
+        "step_1": "Buat {{textRedactor}} baru dengan jalur file slide Anda.",
+        "step_2": "Tentukan preferensi redaksi Anda.",
+        "step_3": "Atur pola teks dan warna overlay.",
+        "step_4": "Jalankan dan simpan file yang telah direda."
+      }
+    },
+    "example_top": {
+      "comment_1": "Overlay area teks dalam {{FileFormatUp}}",
+      "comment_2": "Buka file dengan {{textRedactor}}",
+      "comment_3": "Sesuaikan pengaturan redaksi",
+      "comment_4": "Masukkan teks dan pilih warna overlay",
+      "comment_5": "Redaksikan dan simpan file yang diperbarui"
+    },
+    "example_bottom": {
+      "title": "Regex untuk Redaksi Teks",
+      "content": "Pelajari cara mendeteksi dan meredaksi teks menggunakan pencocokan pola",
+      "comment_1": "Muat slide deck",
+      "comment_2": "Terapkan aturan regex Anda",
+      "comment_3": "Jalankan redaksi",
+      "comment_4": "Simpan versi final"
+    },
+    "more_features": {
+      "title": "Redaksi Sederhana untuk Slide Sensitif",
+      "description": "{{ProdFullName}} memudahkan untuk memblokir atau menghapus konten dari slide, tidak peduli kasus penggunaannya.",
+      "image_description": "Alat redaksi yang beradaptasi",
+      "feature_1": {
+        "title": "Temukan dan ganti teks",
+        "content": "Lindungi frasa atau label sensitif di mana saja di slide."
+      },
+      "feature_2": {
+        "title": "Tutup bagian visual",
+        "content": "Tambahkan overlay pada area slide yang dipilih atau gambar."
+      },
+      "feature_3": {
+        "title": "Hapus konten tersembunyi",
+        "content": "Bersihkan metadata slide atau catatan revisi sebelum berbagi."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} membantu pengembang {{ProgLang}} membersihkan slide {{FileFormatUp}} dengan memblokir atau menghapus konten sensitif seperti teks, metadata, atau gambar."
+    },
+    "formats": {
+      "title": "Lindungi Slide {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan redaksi overlay dan alat pembersihan dari {{EnvNameShort}} untuk menjaga slide {{FileFormatUp}} Anda tetap pribadi."
+    }
+  }
+}

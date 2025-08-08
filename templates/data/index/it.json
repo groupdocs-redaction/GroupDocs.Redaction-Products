@@ -1,0 +1,385 @@
+{
+  "index-content": {
+    "head_title": "Soluzione di Redazione Documenti. Modifica o rimuovi qualsiasi dato sensibile.",
+    "head_description": "Rimuovi, redigi o nascondi testo, immagini o metadati in PDF, documenti Word, fogli di calcolo Excel, presentazioni PowerPoint, immagini e altro. Utilizza la nostra libreria nelle tue applicazioni .NET, Java, Python o basate su cloud.",
+    "title": "Libreria di Redazione Documenti",
+    "description_0": "Nascondi o rimuovi informazioni riservate da vari tipi di file.",
+    "description_1": "Modifica testo o immagini per eliminare contenuti sensibili.",
+    "description_2": "Gestisci i metadati dei file utilizzando le nostre funzionalità avanzate.",
+    "words_for": "per",
+    "release_title": "Versione {0} Rilasciata",
+    "release_notes": "Scopri le novità",
+    "release_downloads": "Download",
+    "code_more": "Ulteriori esempi",
+    "overview_title": "{{ProdShortName}} a Colpo d'Occhio",
+    "formats_title": "Formati di File Supportati",
+    "platforms": {
+      "title": "Indipendenza della Piattaforma",
+      "head_title": "Scegli la Tua Piattaforma",
+      "description": "La libreria {{ProdShortName}} supporta i seguenti sistemi operativi e framework:",
+      "learn_more": "Scopri di più",
+      "any_other_text_editor": "Qualsiasi altro editor di testo"
+    },
+    "features": {
+      "title": "{{ProdShortName}} a Colpo d'Occhio",
+      "description": "Una soluzione per gestire contenuti in PDF, documenti Office, immagini e altri file aziendali.",
+      "feature_1": {
+        "title": "Rimuovi o Modifica Testo",
+        "content": "Trova e redigi il testo sensibile nei tuoi documenti."
+      },
+      "feature_2": {
+        "title": "Redigi Immagini",
+        "content": "Nascondi aree delle immagini nei tuoi file senza sforzo extra."
+      },
+      "feature_3": {
+        "title": "Gestisci Metadati",
+        "content": "Rimuovi o sostituisci metadati come l'autore nei documenti Word o i dati EXIF nelle immagini."
+      },
+      "feature_4": {
+        "title": "Funzionalità Avanzate",
+        "content": "Cerca dati da redigere utilizzando espressioni regolari o integrazione AI."
+      }
+    },
+    "formats": {
+      "title": "30+ Formati di File Supportati",
+      "description": "La {{ProdShortName}} supporta operazioni di redazione su tutti i formati di file aziendali ampiamente utilizzati."
+    },
+    "code_samples": {
+      "title": "Esempi di Codice",
+      "index_title": "Esempi di Codice {{ProdShortName}}",
+      "index_description": "Casi d'uso tipici delle operazioni di redazione {{ProdShortName}}.",
+      "more_examples": "Ulteriori esempi",
+      "sample_index": {
+        "title": "Come Redigere Testo in Documenti PDF",
+        "content": "{{ProdShortName}} è la migliore soluzione per redigere testo nei tuoi documenti in pochi passaggi.",
+        "comment_1": "Passa il percorso del file da redigere a un'istanza di {{textRedactor}}",
+        "comment_2": "Fornisci opzioni di redazione",
+        "comment_3": "Redigi e salva il risultato"
+      },
+      "sample_1": {
+        "code_title": "Redigi Documenti Word Utilizzando Espressioni Regolari",
+        "comment_1": "Crea un'istanza della classe {{textRedactor}}",
+        "comment_2": "Definisci regole di redazione utilizzando un'espressione regolare",
+        "comment_3": "Maschera tutto il testo corrispondente con sovrapposizioni quadrate blu",
+        "comment_4": "Salva il documento Word redatto"
+      },
+      "sample_2": {
+        "code_title": "Rimuovi Tutti i Metadati dalle Presentazioni",
+        "comment_1": "Fornisci il percorso della presentazione a {{textRedactor}}",
+        "comment_2": "Configura le opzioni di redazione",
+        "comment_3": "Cancella tutti i metadati dalla presentazione",
+        "comment_4": "Salva il file di presentazione pulito"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} Risultati",
+      "description": "Scopri Metriche Chiave che Mettono in Risalto il Successo della Nostra Libreria",
+      "item_1": {
+        "title": "Formati Supportati",
+        "description": "{{ProdShortName}} supporta operazioni con oltre 30 formati di file ampiamente utilizzati."
+      },
+      "item_2": {
+        "title": "Download NuGet",
+        "description": "{{ProdShortName}} per .NET è stato scaricato più di 440.000 volte da NuGet."
+      },
+      "item_3": {
+        "title": "Download Maven",
+        "description": "{{ProdShortName}} ha oltre 12.000 download su Maven, offrendo potenti funzionalità di redazione per Java."
+      },
+      "item_4": {
+        "title": "Clienti Soddisfatti",
+        "description": "Sia le grandi aziende globali che i singoli sviluppatori si affidano ai prodotti di {{NameCompany}} per costruire soluzioni innovative."
+      }
+    },
+    "customers": {
+      "title": "I Nostri Clienti Soddisfatti",
+      "description": "Le librerie {{NameCompany}} sono fidate da marchi riconosciuti e rispettati a livello globale."
+    },
+    "actions": {
+      "alt": "Licenze",
+      "title": "Pronto per Iniziare?",
+      "description": "Prova gratuitamente le funzionalità di {{ProdShortName}} o richiedi una licenza.",
+      "description_index": "Prova gratuitamente le funzionalità di {{ProdShortName}} sulla tua piattaforma."
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "description": "Risposte alle domande più comuni.",
+      "item_1": {
+        "question": "La libreria {{ProdShortName}} richiede software di terze parti per manipolare i documenti?",
+        "answer": "{{ProdShortName}} non richiede software esterni come Adobe Acrobat, Microsoft Office o altri."
+      },
+      "item_2": {
+        "question": "Posso provare la libreria {{ProdShortName}} prima di acquistarla?",
+        "answer": "Sì, puoi provare {{ProdShortName}} senza acquistare una licenza. Funziona in modalità di prova, aggiungendo badge di prova e limitando l'output alle prime 3 pagine. Per testare senza restrizioni, richiedi una licenza temporanea di 30 giorni. Per maggiori dettagli, [vedi]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Quali opzioni di licenza sono disponibili?",
+        "answer": "Offriamo diversi tipi di licenza in base alle tue esigenze di sviluppo e distribuzione. Queste includono licenze basate su sviluppatore, basate su sito e licenze a consumo in base all'uso. Scopri di più [qui]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API Low-Code",
+      "description": "Integra la redazione dei documenti in qualsiasi applicazione utilizzando la nostra API REST basata su cloud.",
+      "item_1": {
+        "content": "Utilizza comandi cURL con la nostra RESTful Cloud API per redigere documenti in una vasta gamma di formati di file supportati."
+      },
+      "item_2": {
+        "content": "Estrai immagini, testo e metadati o redigi documenti utilizzando modelli in applicazioni Microsoft .NET."
+      },
+      "item_3": {
+        "content": "SDK Java per redigere documenti ed estrarre dati all'interno delle tue applicazioni basate su Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} App No-Code",
+      "description": "Un'applicazione web che consente di redigere oltre 30 formati di file popolari direttamente nel tuo browser.",
+      "item_1": {
+        "content": "Strumento online gratuito per redigere Word, Excel, PowerPoint, PDF e oltre 30 altri tipi di file."
+      },
+      "item_2": {
+        "content": "Redigi documenti Word nel tuo browser e estrai immagini, testo o metadati."
+      },
+      "item_3": {
+        "content": "Strumento di redazione PDF gratuito che funziona su qualsiasi dispositivo o piattaforma senza limitazioni."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formati MS Office",
+      "title_2": "Altri Formati Office",
+      "title_3": "Altri Formati",
+      "format_portable": "Portabile",
+      "format_images": "Immagini",
+      "format_other_office": "Formati di Testo",
+      "format_other_web": "Web",
+      "format_other_ebooks": "eBook"
+    }
+  },
+  "index-content-net": {
+    "head_title": "Redigi dati sensibili nei tuoi documenti utilizzando {{EnvNameShort}}",
+    "head_description": "Proteggi i tuoi documenti aziendali con {{ProdFullName}}. Redigi, nascondi o rimuovi facilmente contenuti riservati da file PDF, Word, Excel, PowerPoint e immagini.",
+    "title": "Proteggi i Tuoi Contenuti con {{ProdShortName}}",
+    "description": "Redigi, nascondi o rimuovi permanentemente informazioni sensibili e metadati da PDF, documenti Word, fogli di calcolo, presentazioni e immagini utilizzando la nostra potente soluzione {{EnvNameShort}}.",
+    "actions_main": "Download {{PackageStoreName}}",
+    "code_title": "Come Redigere il Contenuto del File",
+    "code_comment_1": "Passa il file di input a un'istanza di {{textRedactor}}",
+    "code_comment_2": "Configura le opzioni di redazione",
+    "code_comment_3": "Esegui il processo di redazione",
+    "code_comment_4": "Salva il file redatto",
+    "overview_description": "Aggiungi funzionalità di redazione di livello professionale alle tue applicazioni {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Redigi Contenuto Testuale",
+      "description": "{{ProdFullName}} consente di localizzare e redigere testo sensibile. Il testo può essere sostituito o nascosto utilizzando sovrapposizioni di immagini colorate per una maggiore sicurezza. Supportato su una vasta gamma di formati incluso PDF e documenti Office, questa funzionalità aiuta a proteggere i dati privati e a semplificare la conformità aziendale."
+    },
+    "overview_feature_2": {
+      "title": "Redigi Immagini",
+      "description": "Rileva e redigi automaticamente immagini—completamente o parzialmente—sulle pagine del documento. Specifica i criteri di ricerca e le aree target per mascherare contenuti visivi sensibili in modo efficiente."
+    },
+    "overview_feature_3": {
+      "title": "Gestisci i Metadati dei File",
+      "description": "Molti tipi di file contengono metadati nascosti, come nomi di autori in file Word o dati EXIF nelle immagini. {{ProdFullName}} rende semplice trovare e redigere queste informazioni per garantire la privacy completa dei dati."
+    },
+    "overview_feature_4": {
+      "title": "Redigi Oggetti Documentali",
+      "description": "Assicurati una protezione totale del contenuto redigendo elementi specifici del documento come annotazioni, commenti e oggetti incorporati in formati come PDF."
+    },
+    "features": {
+      "title": "Caratteristiche di {{ProdFullName}}",
+      "description": "Estrai e redigi dati da PDF, file Office e immagini con alta velocità e precisione.",
+      "feature_1": {
+        "title": "Ricerca Flessibile",
+        "content": "Esegui ricerche sensibili o insensibili al maiuscolo per redigere frasi o termini specifici."
+      },
+      "feature_2": {
+        "title": "Sostituisci o Rimuovi Testo",
+        "content": "Trova e sostituisci o elimina facilmente testo sensibile in tutto il documento."
+      },
+      "feature_3": {
+        "title": "Nascondi Testo con Immagini",
+        "content": "Utilizza sovrapposizioni di immagini colorate per mascherare visualmente il contenuto redatto invece di sostituire il testo."
+      },
+      "feature_4": {
+        "title": "Capacità di Ricerca Avanzate",
+        "content": "Usa espressioni regolari per una redazione di contenuto precisa e flessibile attraverso set di dati complessi."
+      },
+      "feature_5": {
+        "title": "Redazione a Scopo",
+        "content": "Orientati a pagine specifiche o aree definite per limitare la redazione solo alle sezioni pertinenti."
+      },
+      "feature_6": {
+        "title": "Redazione dei Metadati",
+        "content": "Trova e redigi le proprietà dei metadati per proteggere i dettagli di proprietà e creazione del documento."
+      },
+      "feature_7": {
+        "title": "Formati di Output Flessibili",
+        "content": "Esporta file redatti in PDF o in qualsiasi formato supportato mantenendo l'integrità del layout."
+      },
+      "feature_8": {
+        "title": "Cancellazione Completa dei Metadati",
+        "content": "Cancella tutti i metadati da un documento in un'unica azione per garantire la massima privacy."
+      },
+      "feature_9": {
+        "title": "Regole di Redazione Basate su XML",
+        "content": "Definisci politiche di redazione in formato XML per un'elaborazione ripetibile e automatizzata su più file."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} è compatibile con una vasta gamma di sistemi operativi, framework di sviluppo e gestori di pacchetti.",
+    "formats_description": "{{ProdFullName}} supporta operazioni con i seguenti [formati di file]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Esempi tipici di utilizzo di {{ProdFullName}} in azione",
+    "code_title_sample_1": "Redazione con Espressioni Regolari",
+    "code_samples_sample_1_content": "{{ProdFullName}} consente agli sviluppatori {{ProgLang}} di redigere testo utilizzando [espressioni regolari]({{Sample1Url}}) e nasconderlo con sovrapposizioni di immagini:",
+    "code_title_sample_2": "Pulizia dei Metadati",
+    "code_samples_sample_2_content": "Usa la nostra API per [rimuovere]({{Sample2Url}}) facilmente tutti i metadati dai formati di file supportati:"
+  },
+  "index-content-java": {
+    "head_title": "Rimuovi dati confidenziali dai documenti utilizzando {{EnvNameShort}}",
+    "head_description": "Proteggi le tue informazioni sensibili con {{ProdFullName}}. Nascondi, redigi o elimina senza sforzo contenuti privati in PDF, file Office e immagini.",
+    "title": "Proteggi Dati Confidenziali con {{ProdShortName}}",
+    "description": "Rimuovi facilmente dati privati, redigi testo e pulisci metadati da PDF, Word, Excel, PowerPoint e formati di immagine utilizzando l'affidabile toolkit {{EnvNameShort}}.",
+    "actions_main": "Download {{PackageStoreName}}",
+    "code_title": "Passaggi per Redigere il Contenuto del Documento",
+    "code_comment_1": "Carica il tuo file sorgente con un'istanza di {{textRedactor}}",
+    "code_comment_2": "Definisci i criteri e le impostazioni di redazione",
+    "code_comment_3": "Esegui l'operazione di redazione",
+    "code_comment_4": "Salva il file con le redazioni applicate",
+    "overview_description": "Migliora le tue applicazioni {{EnvNameShort}} con strumenti di redazione professionali",
+    "overview_feature_1": {
+      "title": "Rimuovi Testo Sensibile",
+      "description": "Con {{ProdFullName}}, puoi cercare e nascondere testo privato utilizzando sovrapposizioni o sostituzioni personalizzabili. Compatibile con PDF, Word, Excel e altro, è ideale per la conformità normativa e la condivisione sicura dei documenti."
+    },
+    "overview_feature_2": {
+      "title": "Nascondi Immagini",
+      "description": "Identifica e maschera completamente o parzialmente le immagini in base alle tue esigenze. Definisci regole di rilevamento e coordinate delle aree per proteggere in modo efficiente i dati visivi."
+    },
+    "overview_feature_3": {
+      "title": "Pulisci i Metadati Incorporati",
+      "description": "I file possono contenere informazioni nascoste come nomi di autori, strumenti di creazione o dettagli del dispositivo. {{ProdFullName}} ti consente di rilevare e sanificare i metadati in Word, Excel, immagini e altri formati."
+    },
+    "overview_feature_4": {
+      "title": "Redigi Oggetti Incorporati",
+      "description": "Sanifica approfonditamente i documenti redigendo oggetti come annotazioni PDF, commenti o altri elementi incorporati per eliminare qualsiasi traccia di informazioni confidenziali."
+    },
+    "features": {
+      "title": "Cosa Puoi Fare con {{ProdShortName}}",
+      "description": "Trova e redigi rapidamente contenuti da PDF, documenti Office e immagini con precisione.",
+      "feature_1": {
+        "title": "Cerca con Precisione",
+        "content": "Utilizza modalità di ricerca sensibile e insensibile per trovare e redigere corrispondenze esatte."
+      },
+      "feature_2": {
+        "title": "Trova e Sostituisci Testo",
+        "content": "Rileva automaticamente e sostituisci o elimina testo confidenziale attraverso il documento."
+      },
+      "feature_3": {
+        "title": "Sovrapponi con Immagini Personalizzate",
+        "content": "Usa blocchi immagine per oscurare il testo redatto, mantenendo il layout mentre nascondi i dettagli."
+      },
+      "feature_4": {
+        "title": "Utilizza Regex per Redazioni Avanzate",
+        "content": "Sfrutta espressioni regolari per individuare modelli complessi e redigere in modo intelligente."
+      },
+      "feature_5": {
+        "title": "Redigi Aree Specifiche",
+        "content": "Limita la redazione a pagine selezionate o zone definendo aree di destinazione precise."
+      },
+      "feature_6": {
+        "title": "Pulisci i Campi dei Metadati",
+        "content": "Identifica e ripulisci i metadati del documento, inclusi autore, azienda o dati di tracciamento."
+      },
+      "feature_7": {
+        "title": "Esporta nel Formato Desiderato",
+        "content": "Salva i tuoi file redatti in PDF o in un altro formato supportato senza perdere integrità del layout."
+      },
+      "feature_8": {
+        "title": "Pulizia Completa dei Metadati",
+        "content": "Rimuovi completamente i metadati dai file supportati con un solo comando."
+      },
+      "feature_9": {
+        "title": "Politiche di Redazione Automatizzate",
+        "content": "Crea configurazioni di redazione riutilizzabili memorizzate in XML per una redazione consistente in batch."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} funziona su sistemi operativi principali, framework e piattaforme di sviluppo.",
+    "formats_description": "{{ProdFullName}} supporta l'utilizzo dei seguenti [formati di file]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Esempi comuni di utilizzo di {{ProdFullName}}",
+    "code_title_sample_1": "Redazione Utilizzando Regex",
+    "code_samples_sample_1_content": "{{ProdFullName}} consente gli sviluppatori {{ProgLang}} di applicare [redazione basata su regex]({{Sample1Url}}) con mascheratura delle immagini opzionale:",
+    "code_title_sample_2": "Rimuovi Tutti i Metadati",
+    "code_samples_sample_2_content": "Con la nostra API, puoi [eliminare i metadati]({{Sample2Url}}) attraverso vari tipi di file in un solo passaggio:"
+  },
+  "index-content-python": {
+    "head_title": "Elimina informazioni confidenziali dai documenti con {{EnvNameShort}}",
+    "head_description": "Mantieni i tuoi file sicuri utilizzando {{ProdFullName}}. Redigi, nascondi o elimina rapidamente contenuti sensibili in PDF, Word, Excel, PowerPoint e immagini.",
+    "title": "Mantieni Sicuri i Tuoi Documenti con {{ProdShortName}}",
+    "description": "Rimuovi facilmente dati privati, redigi testo e pulisci metadati nascosti da PDF, file Office e immagini utilizzando l'avanzato toolkit {{EnvNameShort}}.",
+    "actions_main": "Download {{PackageStoreName}}",
+    "code_title": "Redigere il Contenuto del Documento",
+    "code_comment_1": "Carica il tuo file nell'istanza {{textRedactor}}",
+    "code_comment_2": "Regola i parametri di redazione",
+    "code_comment_3": "Avvia il processo di redazione",
+    "code_comment_4": "Esporta il file pulito",
+    "overview_description": "Integra potenti capacità di redazione nei tuoi progetti {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Redigi Testo Sensibile",
+      "description": "Con {{ProdFullName}}, puoi trovare e coprire automaticamente parole o frasi sensibili. Sostituisci o maschera il testo con scatole colorate per una maggiore protezione su PDF, documenti Word e altri formati."
+    },
+    "overview_feature_2": {
+      "title": "Maschera Immagini",
+      "description": "La nostra tecnologia può rilevare immagini e sfocarle, nasconderle o bloccarle in base ai tuoi criteri scelti. Definisci regioni specifiche o consenti il rilevamento automatico per un controllo completo."
+    },
+    "overview_feature_3": {
+      "title": "Rimuovi Metadati Nascosti",
+      "description": "Elimina dettagli personali o di tracciamento nascosti nei metadati, come l'autore o le informazioni sul dispositivo. {{ProdFullName}} garantisce che i tuoi documenti siano completamente puliti e sicuri da condividere."
+    },
+    "overview_feature_4": {
+      "title": "Redigi Elementi Speciali",
+      "description": "Vai oltre il testo redigendo elementi incorporati come commenti, annotazioni e altri elementi specifici del file per ottenere totale riservatezza."
+    },
+    "features": {
+      "title": "Caratteristiche Principali di {{ProdFullName}}",
+      "description": "Scansiona, localizza e redigi contenuti sensibili in PDF, immagini e file Office con facilità.",
+      "feature_1": {
+        "title": "Ricerca Personalizzabile",
+        "content": "Usa modalità di ricerca flessibili per trovare corrispondenze precise o parole chiave per la rimozione."
+      },
+      "feature_2": {
+        "title": "Trova, Sostituisci o Elimina Testo",
+        "content": "Trova dati sensibili e sostituiscili con testo sicuro o cancellali completamente."
+      },
+      "feature_3": {
+        "title": "Mascheramento Visivo",
+        "content": "Sovrapponi forme o pattern colorati per coprire visivamente le sezioni redatte."
+      },
+      "feature_4": {
+        "title": "Rilevazione Basata su Regex",
+        "content": "Sfrutta le espressioni regolari per una precisione massima nelle ricerche di testo avanzate."
+      },
+      "feature_5": {
+        "title": "Redazione Mirata",
+        "content": "Applica redazione solo a determinate pagine o aree definite per risparmiare tempo e concentrarti su aree chiave."
+      },
+      "feature_6": {
+        "title": "Sanificazione dei Metadati",
+        "content": "Cancella facilmente i campi dei metadati come creatore, azienda o timestamp dai tuoi file."
+      },
+      "feature_7": {
+        "title": "Opzioni di Esportazione",
+        "content": "Salva i documenti elaborati in PDF o altri formati compatibili senza compromettere la fedeltà del layout."
+      },
+      "feature_8": {
+        "title": "Cancellazione Completa dei Metadati",
+        "content": "Rimuovi tutti i metadati incorporati con un solo clic per la massima protezione dei dati."
+      },
+      "feature_9": {
+        "title": "Politiche XML Riutilizzabili",
+        "content": "Salva le tue configurazioni di redazione personalizzate come modelli XML per automatizzare le attività future."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} funziona su tutti i principali sistemi operativi, supporta framework popolari e si integra con gestori di pacchetti comuni.",
+    "formats_description": "{{ProdFullName}} supporta i seguenti [formati di file]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Esplora come {{ProdFullName}} semplifica le operazioni di redazione",
+    "code_title_sample_1": "Redazione Basata su Regex",
+    "code_samples_sample_1_content": "Gli sviluppatori che utilizzano {{ProgLang}} possono applicare [regole basate su regex]({{Sample1Url}}) per trovare e coprire testo sensibile con maschere immagine:",
+    "code_title_sample_2": "Rimuovi Metadati",
+    "code_samples_sample_2_content": "Utilizza l'API per [cancellare i metadati]({{Sample2Url}}) attraverso più tipi di file in pochi passaggi:"
+  }
+}

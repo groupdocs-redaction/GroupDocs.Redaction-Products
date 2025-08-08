@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中编辑敏感文本",
+      "description": "使用 {{ProdFullName}} 查找并删除您 {{FileFormatUp}} 文件中的私人数据。简单、快速且可靠的文本编辑。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文件中移除敏感数据",
+      "description": "使用 {{ProgLang}} 和 {{ProdFullName}} 清理 {{FileFormatUp}} 文件。编辑个人、法律或商业内容。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做些什么"
+    },
+    "steps": {
+      "title": "如何在 {{FileFormatCap}} 文件中编辑文本",
+      "content": {
+        "title": "使用 {{ProdFullName}}，{{EnvName}} 开发者可以在几个步骤中移除敏感内容。",
+        "step_1": "创建一个 {{textRedactor}} 并加载您的 {{FileFormatCap}} 文件。",
+        "step_2": "选择您需要的编辑设置。",
+        "step_3": "输入要搜索的文本及其替代内容。",
+        "step_4": "应用编辑并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "如何清理 {{FileFormatUp}} 文件",
+      "comment_2": "创建一个 {{textRedactor}} 并加载文档",
+      "comment_3": "设置您的编辑规则",
+      "comment_4": "添加要移除的文本及其替代文本",
+      "comment_5": "应用编辑并保存新文件"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式编辑文本",
+      "content": "使用正则表达式查找并隐藏电子邮件、ID或自定义格式等模式。",
+      "comment_1": "打开您想要编辑的文档",
+      "comment_2": "添加电子邮件正则表达式和替换文本",
+      "comment_3": "应用编辑于匹配内容",
+      "comment_4": "保存编辑后的版本"
+    },
+    "more_features": {
+      "title": "更多编辑功能",
+      "description": "{{ProdFullName}} 在多种格式中移除敏感信息。编辑文本、图像和元数据，同时保持文件可读。",
+      "image_description": "文本和图像编辑工具",
+      "feature_1": {
+        "title": "查找并替换文本",
+        "content": "搜索任何单词或短语并进行替换。支持纯文本或正则表达式。"
+      },
+      "feature_2": {
+        "title": "隐藏图像内容",
+        "content": "使用彩色遮罩隐藏图片或部分图像。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "在分享之前移除作者姓名、日期或其他隐藏信息。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供了一种简单的方法来清理 {{FileFormatUp}} 文件。移除或替换文本、图像、评论和隐藏数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 编辑 {{FileFormatUp}} 文件",
+      "description": "通过使用 {{EnvNameShort}} 工具来保护个人或商业信息，编辑 {{FileFormatUp}} 内容。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 移除私人文本",
+      "description": "利用 {{ProdFullName}} 保护您 {{FileFormatUp}} 文件中的内容。快速、有效的文本、图像和元数据编辑。"
+    },
+    "header": {
+      "title": "在 {{FileFormatUp}} 文档中使用 {{EnvNameShort}} 编辑或删除文本",
+      "description": "使用 {{ProgLang}} 和 {{ProdFullName}} 保护您 {{FileFormatUp}} 文件中的个人或商业内容。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做些什么"
+    },
+    "steps": {
+      "title": "如何在 {{FileFormatCap}} 文件中编辑内容",
+      "content": {
+        "title": "在您的 {{EnvName}} 项目中使用 {{ProdFullName}}，在分享之前清理文件。",
+        "step_1": "创建一个 {{textRedactor}} 并加载文件。",
+        "step_2": "选择您的编辑选项。",
+        "step_3": "输入要搜索的文本及其替代文本。",
+        "step_4": "应用编辑并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 文件中编辑内容",
+      "comment_2": "使用 {{textRedactor}} 加载文档",
+      "comment_3": "设置编辑选项",
+      "comment_4": "定义要查找和替换的内容",
+      "comment_5": "应用编辑并保存"
+    },
+    "example_bottom": {
+      "title": "基于正则表达式的编辑",
+      "content": "使用正则表达式检测并编辑如电话号码或电子邮件等模式。",
+      "comment_1": "加载文档",
+      "comment_2": "设置电子邮件正则表达式和替换文本",
+      "comment_3": "运行编辑",
+      "comment_4": "保存清理后的文件"
+    },
+    "more_features": {
+      "title": "编辑选项",
+      "description": "{{ProdFullName}} 使您能够清理多种文件类型中的敏感内容。在不丢失结构的情况下保护文件安全。",
+      "image_description": "内容移除工具",
+      "feature_1": {
+        "title": "替换文本",
+        "content": "查找特定内容并在整个文档中替换。"
+      },
+      "feature_2": {
+        "title": "隐藏图像或部分",
+        "content": "用彩色遮罩覆盖敏感视觉内容。"
+      },
+      "feature_3": {
+        "title": "移除隐藏数据",
+        "content": "清理元数据，例如作者姓名、时间戳或文档属性。"
+      }
+    },
+    "about": {
+      "title": "什么是 {{ProdFullName}}?",
+      "content": "{{ProdFullName}} 帮助 {{ProgLang}} 开发者清理和编辑 {{FileFormatUp}} 文件。移除文本、图片、评论和隐藏数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 清理 {{FileFormatUp}} 文件",
+      "description": "使用 {{EnvNameShort}} 提供的工具编辑或替换 {{FileFormatUp}} 文档中的敏感内容。"
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 移除私人文本",
+      "description": "通过使用 {{ProdFullName}} 编辑文本和元数据来保护您的 {{FileFormatUp}} 数据。有效的保护措施。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 清理 {{FileFormatUp}} 文件",
+      "description": "使用 {{ProgLang}} 和 {{ProdFullName}} 从 {{FileFormatUp}} 文件中移除敏感内容。确保电子表格的安全。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做些什么"
+    },
+    "steps": {
+      "title": "从 {{FileFormatCap}} 文件中编辑数据",
+      "content": {
+        "title": "在任何 {{EnvName}} 应用中使用 {{ProdFullName}}，在分享之前移除文本或隐藏内容。",
+        "step_1": "创建一个 {{textRedactor}} 实例并加载您的文件。",
+        "step_2": "选择您想要的编辑选项。",
+        "step_3": "选择要查找的文本及其替代内容。",
+        "step_4": "应用编辑并保存您的文档。"
+      }
+    },
+    "example_top": {
+      "comment_1": "如何编辑 {{FileFormatUp}} 电子表格",
+      "comment_2": "创建一个 {{textRedactor}} 并加载文件",
+      "comment_3": "选择编辑设置",
+      "comment_4": "输入搜索和替换文本",
+      "comment_5": "应用更改并保存"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式编辑",
+      "content": "查找并编辑如账号或模式等值，使用正则表达式。",
+      "comment_1": "打开要处理的文件",
+      "comment_2": "添加电子邮件正则表达式规则和替换",
+      "comment_3": "应用编辑规则",
+      "comment_4": "保存更新后的文件"
+    },
+    "more_features": {
+      "title": "实用的编辑工具",
+      "description": "{{ProdFullName}} 帮助从多种文件中移除私人内容。在不失去格式的情况下清理文档。",
+      "image_description": "智能内容保护",
+      "feature_1": {
+        "title": "搜索和替换文本",
+        "content": "查找并更新或隐藏单元格中的敏感数据。"
+      },
+      "feature_2": {
+        "title": "隐藏视觉内容",
+        "content": "使用彩色遮罩隐藏图表、图像或范围。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "移除作者信息、创建日期以及其他背景数据。"
+      }
+    },
+    "about": {
+      "title": "为什么选择 {{ProdFullName}}?",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供工具来清理 {{FileFormatUp}} 文件。用少量的代码编辑文本、元数据、图像等。"
+    },
+    "formats": {
+      "title": "在 {{EnvNameShort}} 中编辑 {{FileFormatUp}} 内容",
+      "description": "使用 {{EnvNameShort}} 功能清理和保护 {{FileFormatUp}} 文件中的内容。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 移除私人文本",
+      "description": "利用 {{ProdFullName}} 和 {{ProgLang}} 保护您 {{FileFormatUp}} 演示文稿中的敏感细节。快速有效的编辑。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 清理 {{FileFormatUp}} 文件中的文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 隐藏或删除您 {{FileFormatUp}} 幻灯片中的内容。适用于商业、法律或个人用途。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做些什么"
+    },
+    "steps": {
+      "title": "如何在 {{FileFormatCap}} 演示中编辑内容",
+      "content": {
+        "title": "借助 {{ProdFullName}}，您可以在几个步骤中清理 {{EnvName}} 演示文稿。",
+        "step_1": "创建一个 {{textRedactor}} 并加载您的 {{FileFormatCap}} 文件。",
+        "step_2": "选择符合您需求的编辑设置。",
+        "step_3": "设置搜索词和替换内容。",
+        "step_4": "应用更改并保存更新后的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 演示中编辑文本",
+      "comment_2": "使用 {{textRedactor}} 加载您的文档",
+      "comment_3": "设置编辑选项",
+      "comment_4": "选择要查找的文本及其替代文本",
+      "comment_5": "编辑并保存文件"
+    },
+    "example_bottom": {
+      "title": "基于正则表达式的编辑",
+      "content": "使用正则表达式查找和移除电子邮件、电话号码或代码等模式。",
+      "comment_1": "打开您要清理的文件",
+      "comment_2": "定义一个电子邮件正则表达式模式和替换文本",
+      "comment_3": "根据模式应用编辑",
+      "comment_4": "保存清理后的版本"
+    },
+    "more_features": {
+      "title": "更多编辑工具",
+      "description": "{{ProdFullName}} 使您可以轻松隐藏或删除多种文件中的私人内容。在分享之前确保数据的安全。",
+      "image_description": "移除文本、图像和元数据的选项",
+      "feature_1": {
+        "title": "在任何地方替换文本",
+        "content": "在幻灯片中搜索并替换单词或短语。支持完整文本或模式。"
+      },
+      "feature_2": {
+        "title": "隐藏视觉内容",
+        "content": "使用覆盖框遮住幻灯片或图像的部分，选择颜色。"
+      },
+      "feature_3": {
+        "title": "移除元数据",
+        "content": "删除背景数据，如作者、创建日期或可能包含私人信息的注释。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供了一个坚实的方法来编辑或隐藏 {{FileFormatUp}} 文件中的内容。精准地处理文本、图像、元数据和评论。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 编辑 {{FileFormatUp}} 内容",
+      "description": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文档中删除私人或敏感信息。确保您的文件安全无忧。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 移除私人文本",
+      "description": "通过使用 {{ProdFullName}} 和 {{ProgLang}} 保护您的 {{FileFormatUp}} 文件中的敏感数据。快速简单的清理。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中编辑或删除文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 保护您 {{FileFormatUp}} 文件中的重要内容。自信地编辑商业、法律或个人数据。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做些什么"
+    },
+    "steps": {
+      "title": "编辑 {{FileFormatCap}} 文档的步骤",
+      "content": {
+        "title": "在您的 {{EnvName}} 项目中使用 {{ProdFullName}}，在分享前清理文件。",
+        "step_1": "创建一个 {{textRedactor}} 并加载 {{FileFormatCap}} 文档。",
+        "step_2": "设置您想要的编辑选项。",
+        "step_3": "选择您想查找和替换的文本。",
+        "step_4": "应用编辑并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 文档中编辑",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "选择您的编辑规则",
+      "comment_4": "输入搜索和替换文本",
+      "comment_5": "运行编辑并保存新文件"
+    },
+    "example_bottom": {
+      "title": "基于正则表达式的编辑",
+      "content": "使用正则表达式查找文本，从而隐藏如电话号码、日期或 ID 等内容。",
+      "comment_1": "加载您的文档",
+      "comment_2": "设置电子邮件正则表达式模式和替换值",
+      "comment_3": "应用文本编辑",
+      "comment_4": "保存更新后的文档"
+    },
+    "more_features": {
+      "title": "更多编辑功能",
+      "description": "{{ProdFullName}} 可以帮助您清理不同文件类型中的敏感信息。快速移除文本、图片和隐藏的元数据。",
+      "image_description": "编辑文本、图像和元数据",
+      "feature_1": {
+        "title": "搜索和替换文本",
+        "content": "在整个文件中查找特定内容并替换或删除，支持正则表达式。"
+      },
+      "feature_2": {
+        "title": "覆盖页面部分",
+        "content": "使用覆层隐藏照片或文档的某些区域。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "删除额外信息，如作者、时间戳或删除的记录。"
+      }
+    },
+    "about": {
+      "title": "什么是 {{ProdFullName}}?",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供一种可靠的方法来编辑 {{FileFormatUp}} 文件。用少量的代码清理文本、图像、评论和隐藏细节。"
+    },
+    "formats": {
+      "title": "在 {{EnvNameShort}} 中编辑 {{FileFormatUp}} 内容",
+      "description": "使用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文档中的个人和私人内容。轻松保护您的文件。"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 移除私人文本",
+      "description": "利用 {{ProdFullName}} 和 {{ProgLang}} 通过删除敏感内容保护您的 {{FileFormatUp}} 电子表格。快速而简单的编辑。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中编辑或删除文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 清理您的 {{FileFormatUp}} 文件。非常适合保护商业或个人数据。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做些什么"
+    },
+    "steps": {
+      "title": "如何在 {{FileFormatCap}} 文件中编辑内容",
+      "content": {
+        "title": "在您的 {{EnvName}} 项目中使用 {{ProdFullName}}，移除或覆盖您不想分享的文本。",
+        "step_1": "创建一个 {{textRedactor}} 并加载 {{FileFormatCap}} 文件。",
+        "step_2": "选择您的编辑设置。",
+        "step_3": "定义要查找的内容以及替换的内容。",
+        "step_4": "运行编辑并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "如何在 {{FileFormatUp}} 文件中编辑文本",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "设置您的编辑规则",
+      "comment_4": "输入目标文本和替换文本",
+      "comment_5": "应用并保存清理后的文件"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式编辑模式",
+      "content": "使用正则表达式查找并隐藏电子邮件地址或账号等模式。",
+      "comment_1": "打开您想要清理的文件",
+      "comment_2": "创建电子邮件正则表达式并设置替换文本",
+      "comment_3": "运行编辑过程",
+      "comment_4": "保存更新后的版本"
+    },
+    "more_features": {
+      "title": "更多编辑工具",
+      "description": "{{ProdFullName}} 有助于清理许多文档类型中的私人内容。在分享之前完美保护隐私。",
+      "image_description": "文本、图像和元数据编辑功能",
+      "feature_1": {
+        "title": "替换私人文本",
+        "content": "在整个文件中查找并更改匹配的单词或数字。使用搜索模式或精确匹配。"
+      },
+      "feature_2": {
+        "title": "隐藏图像的部分",
+        "content": "添加遮罩框以隐藏图片或单元格，选择颜色、大小和位置。"
+      },
+      "feature_3": {
+        "title": "移除背景信息",
+        "content": "清除隐藏数据，例如作者、时间戳或文档评论。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供了清理 {{FileFormatUp}} 文件所需的一切。精准地编辑或隐藏文本、图像、元数据和注释。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 编辑 {{FileFormatUp}} 中的内容",
+      "description": "清理 {{FileFormatUp}} 文件中的私人数据，使用 {{EnvNameShort}}。确保您的电子表格安全。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 移除私人文本",
+      "description": "利用 {{ProdFullName}} 和 {{ProgLang}} 保护您 {{FileFormatUp}} 文件中的敏感数据。快速、简单的文本编辑。"
+    },
+    "header": {
+      "title": "在 {{FileFormatUp}} 文件中编辑或隐藏敏感文本，使用 {{EnvNameShort}}",
+      "description": "使用 {{ProgLang}} 和 {{ProdFullName}} 保护您 {{FileFormatUp}} 文件中的敏感内容。无论是个人还是商业，您的数据保持隐私。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做些什么"
+    },
+    "steps": {
+      "title": "清理 {{FileFormatCap}} 文档中的内容步骤",
+      "content": {
+        "title": "使用 {{ProdFullName}} 移除或覆盖您 {{EnvName}} 应用中的私人内容。简单、快速的编辑。",
+        "step_1": "初始化一个 {{textRedactor}} 并加载您的 {{FileFormatCap}} 文件。",
+        "step_2": "设置所需的编辑选项。",
+        "step_3": "指定要查找的文本和替代文本。",
+        "step_4": "运行编辑并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 文件中编辑文本的方法",
+      "comment_2": "使用 {{textRedactor}} 构造加载您的文件",
+      "comment_3": "设置您的编辑偏好",
+      "comment_4": "选择要查找的内容及其替代文本",
+      "comment_5": "应用编辑并保存新的 {{FileFormatUp}} 文件"
+    },
+    "example_bottom": {
+      "title": "基于模式的编辑与正则表达式",
+      "content": "使用正则表达式搜索并编辑敏感文本模式，如电子邮件或ID。",
+      "comment_1": "打开您要清理的文档",
+      "comment_2": "定义电子邮件正则表达式模式和要替换的文本",
+      "comment_3": "应用编辑规则",
+      "comment_4": "保存最终编辑后的文件"
+    },
+    "more_features": {
+      "title": "额外的编辑工具",
+      "description": "{{ProdFullName}} 帮助您删除或隐藏多种文件格式中的敏感内容。确保文档在共享之前干净且安全。",
+      "image_description": "编辑工具和选项",
+      "feature_1": {
+        "title": "在文件中替换机密文本",
+        "content": "找到并替换文件中任何地方的匹配文本。支持正则表达式和智能搜索选项。"
+      },
+      "feature_2": {
+        "title": "隐藏敏感图像",
+        "content": "使用覆盖层覆盖图像或特定区域，调整页面设置、颜色等。"
+      },
+      "feature_3": {
+        "title": "清理隐藏的元数据",
+        "content": "移除隐藏的数据，如作者身份、时间戳或可能涉及隐私的评论。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供编辑 {{FileFormatUp}} 内容所需的一切。清理文本、图像、注释、评论和元数据，涵盖流行文件类型。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 编辑 {{FileFormatUp}} 内容",
+      "description": "使用 {{EnvNameShort}} 工具在 {{FileFormatUp}} 文件中保护官方和个人数据。确保文档安全和隐私。"
+    }
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Che Giấu Văn Bản Riêng Tư Trong {{FileFormatUp}} Bằng Cách Sử Dụng Mặt Phủ Trong {{ProgLang}}",
+      "description": "{{ProdFullName}} cho phép bạn che giấu thông tin nhạy cảm trong các tệp {{FileFormatUp}} bằng cách đặt các hộp màu. Bảo vệ dữ liệu mà không thay đổi hình thức tệp của bạn."
+    },
+    "header": {
+      "title": "Che Giấu Văn Bản Trong Tài Liệu {{FileFormatUp}} Sử Dụng Mặt Phủ Trong {{EnvNameShort}}",
+      "description": "Nắm giữ toàn bộ nội dung tệp {{FileFormatUp}} với {{ProgLang}}. Sử dụng phương pháp che giấu để bảo vệ thông tin tài chính, pháp lý hoặc cá nhân.",
+      "subtitle": "Các Tính Năng Nổi Bật Của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo Vệ Thông Tin Bảo Mật Trong Tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các lập trình viên {{EnvName}} che giấu nội dung riêng tư chỉ với vài bước đơn giản.",
+        "step_1": "Khởi động {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Thiết lập các tùy chọn che giấu của bạn.",
+        "step_3": "Chọn nội dung cần tìm và chọn màu mặt phủ.",
+        "step_4": "Áp dụng che giấu và lưu tài liệu của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu văn bản trong {{FileFormatUp}} bằng cách sử dụng mặt phủ màu",
+      "comment_2": "Truyền đường dẫn tệp tới {{textRedactor}}",
+      "comment_3": "Điều chỉnh cài đặt che giấu",
+      "comment_4": "Thiết lập văn bản mục tiêu và màu sắc",
+      "comment_5": "Áp dụng và lưu {{FileFormatUp}} đã được che giấu"
+    },
+    "example_bottom": {
+      "title": "Che Giấu Văn Bản Bằng Regex",
+      "content": "Ví dụ này sử dụng biên thức để tìm và che giấu nội dung cụ thể",
+      "comment_1": "Tải tệp bạn muốn xử lý",
+      "comment_2": "Đặt mẫu văn bản và màu sắc mặt phủ",
+      "comment_3": "Áp dụng che giấu",
+      "comment_4": "Lưu thay đổi của bạn"
+    },
+    "more_features": {
+      "title": "Kiểm Soát Điều Gì Được Hiển Thị Trong Tài Liệu",
+      "description": "{{ProdFullName}} cho phép bạn chặn hoặc loại bỏ các phần của tệp trong khi vẫn giữ cho chúng dễ xem và chia sẻ.",
+      "image_description": "Công Cụ Che Giấu Mạnh Mẽ",
+      "feature_1": {
+        "title": "Nhắm mục tiêu và che giấu văn bản",
+        "content": "Tìm kiếm tài liệu của bạn và che giấu các từ hoặc cụm từ cụ thể để bảo vệ thông tin riêng tư."
+      },
+      "feature_2": {
+        "title": "Che hình ảnh",
+        "content": "Thêm mặt phủ để che hoàn toàn hoặc một phần hình ảnh."
+      },
+      "feature_3": {
+        "title": "Loại bỏ siêu dữ liệu",
+        "content": "Xóa thông tin tài liệu ẩn để tránh phơi bày không mong muốn."
+      }
+    },
+    "about": {
+      "title": "Những Gì {{ProdFullName}} Cung Cấp",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} một cách đơn giản để che hoặc loại bỏ nội dung từ các tệp {{FileFormatUp}}. Che khuất văn bản, hình ảnh và siêu dữ liệu trên nhiều loại tài liệu khác nhau."
+    },
+    "formats": {
+      "title": "Bảo Vệ Các Tệp {{FileFormatUp}} Với {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để che hoặc xóa nội dung trong các tài liệu {{FileFormatUp}}. Một cách tuyệt vời để giữ thông tin riêng tư an toàn và được bảo vệ."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Che Giấu Văn Bản Trong {{FileFormatUp}} Bằng Cách Sử Dụng Mặt Phủ Trong {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để chặn văn bản riêng tư trong các tệp {{FileFormatUp}}. Giữ nguyên bố cục trong khi vẫn giữ dữ liệu nhạy cảm được ẩn."
+    },
+    "header": {
+      "title": "Bảo Vệ Văn Bản {{FileFormatUp}} Bằng Cách Sử Dụng Mặt Phủ Trong {{EnvNameShort}}",
+      "description": "Nhanh chóng che giấu thông tin cá nhân, pháp lý hoặc doanh nghiệp trong các tệp {{FileFormatUp}} bằng {{ProgLang}} và {{ProdFullName}}.",
+      "subtitle": "Các Công Cụ Chính Trong {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Thay Đổi Nội Dung Nhạy Cảm Trong {{FileFormatCap}}",
+      "content": {
+        "title": "Dễ dàng làm sạch tài liệu trong dự án {{EnvName}} của bạn bằng cách sử dụng {{ProdFullName}}.",
+        "step_1": "Khởi tạo {{textRedactor}} với tệp của bạn.",
+        "step_2": "Chọn cách thức che giấu sẽ hoạt động.",
+        "step_3": "Chọn văn bản cần che và màu mặt phủ.",
+        "step_4": "Áp dụng che giấu và lưu tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che văn bản với mặt phủ trong {{FileFormatUp}}",
+      "comment_2": "Tạo một {{textRedactor}} và tải tài liệu của bạn",
+      "comment_3": "Chọn tùy chọn che giấu",
+      "comment_4": "Chọn văn bản và màu sắc",
+      "comment_5": "Lưu phiên bản đã được che giấu"
+    },
+    "example_bottom": {
+      "title": "Tìm Văn Bản Với Regex và Che Giấu Nó",
+      "content": "Sử dụng mẫu để tự động che giấu các cụm từ chủ chốt",
+      "comment_1": "Mở tài liệu bạn muốn che giấu",
+      "comment_2": "Đặt mẫu regex và kiểu mặt phủ",
+      "comment_3": "Áp dụng quy luật che giấu",
+      "comment_4": "Lưu tài liệu đã được làm sạch"
+    },
+    "more_features": {
+      "title": "Công Cụ Che Giấu Dùng Hàng Ngày",
+      "description": "{{ProdFullName}} cung cấp cho bạn các tùy chọn đơn giản để che dấu chi tiết nhạy cảm trên toàn bộ tài liệu trong khi giữ chúng khả dụng.",
+      "image_description": "Tùy chọn che giấu đơn giản",
+      "feature_1": {
+        "title": "Tìm và thay đổi văn bản",
+        "content": "Che giấu hoặc thay thế từ trong vài giây."
+      },
+      "feature_2": {
+        "title": "Chặn phần hình ảnh",
+        "content": "Masque các phần của hình ảnh hoặc nội dung được quét."
+      },
+      "feature_3": {
+        "title": "Xóa thông tin nền",
+        "content": "Loại bỏ siêu dữ liệu ẩn như tác giả hoặc ngày tháng."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} Là Gì",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} công cụ để làm sạch các tệp {{FileFormatUp}}. Che giấu tên, số hoặc ghi chú một cách hiệu quả."
+    },
+    "formats": {
+      "title": "Che Giấu Các Tệp {{FileFormatUp}} Sử Dụng {{EnvNameShort}}",
+      "description": "Bảo vệ nội dung nhạy cảm trong {{FileFormatUp}} bằng cách che hoặc loại bỏ nó bằng các công cụ trong {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Chặn Văn Bản Trong {{FileFormatUp}} Với Mặt Phủ {{ProgLang}}",
+      "description": "{{ProdFullName}} cho phép bạn che giấu thông tin nhạy cảm trong các tệp {{FileFormatUp}} bằng các khối màu. Giữ dữ liệu trong khi vẫn duy trì bố cục."
+    },
+    "header": {
+      "title": "Che Giấu Dữ Liệu Trong {{FileFormatUp}} Bằng Cách Sử Dụng Mặt Phủ Trong {{EnvNameShort}}",
+      "description": "Sử dụng {{ProgLang}} và {{ProdFullName}} để che giấu nội dung riêng tư trong các tệp {{FileFormatUp}} mà không làm ảnh hưởng đến định dạng.",
+      "subtitle": "Các Tính Năng Chính Của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo Vệ Thông Tin Trong Tài Liệu {{FileFormatCap}}",
+      "content": {
+        "title": "Giữ cho tài liệu của bạn an toàn bằng mã đơn giản với {{ProdFullName}} trong {{EnvName}}.",
+        "step_1": "Tạo một {{textRedactor}} với đường dẫn tệp.",
+        "step_2": "Thiết lập logic che giấu của bạn.",
+        "step_3": "Chọn từ khóa và màu mặt phủ.",
+        "step_4": "Che giấu và lưu tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu thông tin trong {{FileFormatUp}} bằng khối",
+      "comment_2": "Tải tệp với {{textRedactor}}",
+      "comment_3": "Thiết lập tùy chọn che giấu",
+      "comment_4": "Thêm văn bản và màu sắc để chặn",
+      "comment_5": "Lưu tài liệu đã cập nhật"
+    },
+    "example_bottom": {
+      "title": "Sử Dụng Regex Để Che Giấu Nội Dung",
+      "content": "Tự động tìm và che giấu văn bản với mẫu tìm kiếm",
+      "comment_1": "Mở bảng tính",
+      "comment_2": "Xác định mẫu và màu sắc mặt phủ",
+      "comment_3": "Áp dụng quy tắc che giấu",
+      "comment_4": "Xuất kết quả của bạn"
+    },
+    "more_features": {
+      "title": "Các Tính Năng Bảo Mật Tích Hợp",
+      "description": "Sử dụng {{ProdFullName}} để chặn hoặc xóa nội dung trong các tệp của bạn mà không làm thay đổi cấu trúc.",
+      "image_description": "Công cụ bảo mật dễ dàng",
+      "feature_1": {
+        "title": "Thay đổi hoặc che giấu văn bản",
+        "content": "Chỉnh sửa hoặc che giấu các từ cụ thể dễ dàng."
+      },
+      "feature_2": {
+        "title": "Masque các phần của hình ảnh",
+        "content": "Thêm mặt phủ để che giấu ảnh hoặc chi tiết đồ họa."
+      },
+      "feature_3": {
+        "title": "Loại bỏ thông tin ẩn",
+        "content": "Xóa siêu dữ liệu như thông tin người dùng hoặc lịch sử tệp."
+      }
+    },
+    "about": {
+      "title": "Tại Sao {{ProdFullName}} Hoạt Động",
+      "content": "{{ProdFullName}} cho phép các lập trình viên {{ProgLang}} bảo mật các tệp {{FileFormatUp}}. Che giấu văn bản, hình ảnh hoặc siêu dữ liệu một cách nhanh chóng."
+    },
+    "formats": {
+      "title": "Che Giấu Dữ Liệu {{FileFormatUp}} Sử Dụng {{EnvNameShort}}",
+      "description": "Sử dụng mặt phủ hoặc xóa nội dung trong {{FileFormatUp}} để giữ thông tin nhạy cảm riêng tư với {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Che Giấu Văn Bản Trong Các Bài Thuyết Trình {{FileFormatUp}} Với Mặt Phủ {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để chặn nội dung nhạy cảm trong các tệp {{FileFormatUp}} bằng cách sử dụng mặt phủ màu. Giữ cho các trang trình bày nguyên vẹn trong khi che giấu thông tin quan trọng."
+    },
+    "header": {
+      "title": "Che Giấu Văn Bản Trong Các Bài Thuyết Trình {{FileFormatUp}} Bằng Cách Sử Dụng {{EnvNameShort}}",
+      "description": "Dễ dàng bảo vệ thông tin cá nhân hoặc doanh nghiệp trong các trang trình bày {{FileFormatUp}} của bạn bằng {{ProgLang}} và {{ProdFullName}}.",
+      "subtitle": "Khám Phá Các Tính Năng Của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Che Giấu Nội Dung Riêng Tư Trong Các Trang {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp việc bảo vệ nội dung trở nên đơn giản cho các lập trình viên {{EnvName}}.",
+        "step_1": "Thiết lập một {{textRedactor}} với đường dẫn bài thuyết trình của bạn.",
+        "step_2": "Chọn cách thức che giấu nên được áp dụng.",
+        "step_3": "Thêm mẫu văn bản và màu mặt phủ.",
+        "step_4": "Che giấu trang và lưu nó."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sử dụng mặt phủ để chặn văn bản trong {{FileFormatUp}}",
+      "comment_2": "Khởi tạo {{textRedactor}} với bài thuyết trình của bạn",
+      "comment_3": "Chọn tùy chọn che giấu của bạn",
+      "comment_4": "Thiết lập văn bản và màu sắc mặt phủ",
+      "comment_5": "Chạy che giấu và lưu bộ tài liệu"
+    },
+    "example_bottom": {
+      "title": "Che Giấu Văn Bản Bằng Regex",
+      "content": "Sử dụng biên thức để tìm và che giấu các từ nhạy cảm",
+      "comment_1": "Mở tệp bài thuyết trình",
+      "comment_2": "Đặt mẫu tìm kiếm và màu mặt phủ",
+      "comment_3": "Chạy quy tắc che giấu",
+      "comment_4": "Lưu phiên bản cuối cùng"
+    },
+    "more_features": {
+      "title": "Công Cụ Che Giấu Mạnh Mẽ",
+      "description": "Với {{ProdFullName}}, bạn có thể chặn hoặc loại bỏ nội dung nhạy cảm trong các bài thuyết trình của bạn mà không làm thay đổi cấu trúc hoặc định dạng.",
+      "image_description": "Các tính năng hoạt động trên các trang",
+      "feature_1": {
+        "title": "Che giấu hoặc thay thế văn bản",
+        "content": "Bảo vệ tên, thuật ngữ hoặc ghi chú không nên nhìn thấy."
+      },
+      "feature_2": {
+        "title": "Che các khu vực trực quan",
+        "content": "Thêm mặt phủ vào hình ảnh hoặc các phần đồ họa của các trang."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Xóa thông tin ẩn có thể tiết lộ tác giả hoặc lịch sử chỉnh sửa."
+      }
+    },
+    "about": {
+      "title": "Những Gì {{ProdFullName}} Là",
+      "content": "{{ProdFullName}} cho phép các lập trình viên {{ProgLang}} che giấu hoặc loại bỏ văn bản, hình ảnh, hoặc siêu dữ liệu trong các bài thuyết trình {{FileFormatUp}} chỉ trong vài bước."
+    },
+    "formats": {
+      "title": "Bảo Vệ Các Trang {{FileFormatUp}} Với Công Cụ {{EnvNameShort}}",
+      "description": "Che giấu nội dung nhạy cảm hoặc loại bỏ hoàn toàn từ các bài thuyết trình {{FileFormatUp}} bằng các tính năng che giấu của {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Che Giấu Văn Bản Trong {{FileFormatUp}} Sử Dụng Mặt Phủ Của {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để che giấu văn bản nhạy cảm trong các tệp {{FileFormatUp}} bằng các khối màu trong khi vẫn giữ nguyên cấu trúc tài liệu."
+    },
+    "header": {
+      "title": "Overlay Che Giấu Trong Các Tệp {{FileFormatUp}} Với {{EnvNameShort}}",
+      "description": "Che giấu các chi tiết quan trọng trong các tài liệu {{FileFormatUp}} của bạn bằng cách sử dụng các mặt phủ màu được hỗ trợ bởi {{ProgLang}} và {{ProdFullName}}.",
+      "subtitle": "Những Gì {{ProdFullName}} Có Thể Thực Hiện"
+    },
+    "steps": {
+      "title": "Bảo Vệ Thông Tin Riêng Tư Trong Định Dạng {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} cung cấp cho các lập trình viên {{EnvName}} những cách nhanh chóng để làm sạch tệp và bảo vệ nội dung của chúng.",
+        "step_1": "Khởi động {{textRedactor}} và tải tệp {{FileFormatCap}}.",
+        "step_2": "Chọn tùy chọn che giấu của bạn.",
+        "step_3": "Thêm mẫu văn bản và màu mặt phủ.",
+        "step_4": "Chạy che giấu và lưu tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu văn bản bằng cách sử dụng mặt phủ trong {{FileFormatUp}}",
+      "comment_2": "Sử dụng {{textRedactor}} để mở tài liệu",
+      "comment_3": "Đặt tùy chọn che giấu",
+      "comment_4": "Thêm từ khóa và chọn màu",
+      "comment_5": "Áp dụng và lưu tệp đã che giấu của bạn"
+    },
+    "example_bottom": {
+      "title": "Che Giấu Được Hỗ Trợ Bằng Regex",
+      "content": "Học cách sử dụng regex để tự động che giấu nội dung cụ thể",
+      "comment_1": "Tải tài liệu cần che giấu",
+      "comment_2": "Định nghĩa mẫu regex của bạn và màu mặt phủ",
+      "comment_3": "Áp dụng che giấu",
+      "comment_4": "Lưu phiên bản đã làm sạch của bạn"
+    },
+    "more_features": {
+      "title": "Nhiều Khả Năng Che Giấu",
+      "description": "Sử dụng {{ProdFullName}} để loại bỏ cả nội dung hiển thị và nội dung ẩn khỏi các tệp trong khi vẫn giữ nguyên bố cục.",
+      "image_description": "Đầu ra sạch sẽ, đơn giản",
+      "feature_1": {
+        "title": "Thay thế văn bản",
+        "content": "Che giấu các từ hoặc thuật ngữ không nên nhìn thấy."
+      },
+      "feature_2": {
+        "title": "Che giấu hình ảnh",
+        "content": "Sử dụng mặt phủ màu để che giấu hình ảnh hoặc các phần của chúng."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Loại bỏ các chi tiết ẩn trong thông tin tệp."
+      }
+    },
+    "about": {
+      "title": "Gặp Gỡ {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho người dùng {{ProgLang}} quyền kiểm soát hoàn toàn đối với việc che giấu {{FileFormatUp}}. Che giấu bất kỳ thứ gì bạn muốn—văn bản, hình ảnh hoặc siêu dữ liệu."
+    },
+    "formats": {
+      "title": "Che Giấu Nội Dung Trong {{FileFormatUp}} Với {{EnvNameShort}}",
+      "description": "Giữ cho các tài liệu {{FileFormatUp}} của bạn riêng tư bằng cách che giấu hoặc loại bỏ dữ liệu nhạy cảm bằng {{EnvNameShort}}."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Che Giấu Văn Bản Trong {{FileFormatUp}} Bằng Mặt Phủ Và {{ProgLang}}",
+      "description": "Bảo vệ nội dung nhạy cảm trong các tệp {{FileFormatUp}} bằng cách áp dụng mặt phủ màu bằng {{ProdFullName}}. Giữ nguyên bố cục của tài liệu."
+    },
+    "header": {
+      "title": "Che Giấu Dữ Liệu {{FileFormatUp}} Với Mặt Phủ Trong {{EnvNameShort}}",
+      "description": "Sử dụng mã {{ProgLang}} để che giấu thông tin nhạy cảm trong các bảng tính {{FileFormatUp}}. Một cách hiệu quả để giữ dữ liệu riêng tư.",
+      "subtitle": "Các Tính Năng Chính Của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Che Giấu Thông Tin Trong Các Bảng Tính {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các lập trình viên {{EnvName}} bảo vệ tệp bằng cách che giấu thông tin riêng tư chỉ trong vài dòng.",
+        "step_1": "Khởi động {{textRedactor}} và tải bảng tính của bạn.",
+        "step_2": "Thiết lập quy tắc che giấu khi cần.",
+        "step_3": "Chọn văn bản và màu mặt phủ.",
+        "step_4": "Áp dụng và lưu tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sử dụng mặt phủ để che giấu văn bản trong {{FileFormatUp}}",
+      "comment_2": "Tạo một {{textRedactor}} và tải tệp của bạn",
+      "comment_3": "Chọn quy tắc che giấu",
+      "comment_4": "Nhập những gì cần che giấu và chọn màu sắc",
+      "comment_5": "Áp dụng che giấu và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Che Giấu Bằng Regex",
+      "content": "Sử dụng regex để tìm và che giấu văn bản một cách tự động",
+      "comment_1": "Mở bảng tính của bạn",
+      "comment_2": "Đặt mẫu và chi tiết mặt phủ",
+      "comment_3": "Áp dụng che giấu",
+      "comment_4": "Lưu phiên bản sạch sẽ"
+    },
+    "more_features": {
+      "title": "Các Công Cụ Bảo Vệ Dữ Liệu Cần Thiết",
+      "description": "Che giấu hoặc xóa thông tin nhạy cảm từ các bảng tính của bạn mà không làm hỏng bố cục hoặc ý nghĩa sử dụng {{ProdFullName}}.",
+      "image_description": "Được thiết kế cho việc làm sạch dữ liệu an toàn",
+      "feature_1": {
+        "title": "Chỉnh sửa hoặc che giấu văn bản",
+        "content": "Tìm và chặn bất kỳ văn bản nào cần được bảo vệ."
+      },
+      "feature_2": {
+        "title": "Che giấu hình ảnh nhạy cảm",
+        "content": "Áp dụng mặt phủ màu lên các khu vực biểu đồ hoặc hình ảnh."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Xóa lịch sử tài liệu, thông tin tác giả hoặc dấu thời gian."
+      }
+    },
+    "about": {
+      "title": "Tại Sao Lại Chọn {{ProdFullName}}",
+      "content": "{{ProdFullName}} được xây dựng cho các lập trình viên {{ProgLang}} muốn che giấu hoặc làm sạch nội dung trong các bảng tính {{FileFormatUp}} một cách nhanh chóng."
+    },
+    "formats": {
+      "title": "Che Giấu Các Bảng {{FileFormatUp}} Với {{EnvNameShort}}",
+      "description": "Che giấu hoặc xóa dữ liệu nhạy cảm trong {{FileFormatUp}} bằng cách sử dụng mặt phủ và công cụ từ {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Bảo Vệ Văn Bản Trong {{FileFormatUp}} Bằng Mặt Phủ Của {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể chặn văn bản riêng tư trong các slide {{FileFormatUp}} bằng cách sử dụng các khối mặt phủ đơn giản—mà không thay đổi bố cục."
+    },
+    "header": {
+      "title": "Che Giấu Văn Bản Trong {{FileFormatUp}} Sử Dụng Các Mặt Phủ Và {{EnvNameShort}}",
+      "description": "Sử dụng {{ProgLang}} và {{ProdFullName}} để giữ cho các slide {{FileFormatUp}} của bạn an toàn bằng cách che giấu nội dung nhạy cảm.",
+      "subtitle": "Bên Trong {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Làm Sạch Các Bài Thuyết Trình {{FileFormatCap}} Trước Khi Chia Sẻ",
+      "content": {
+        "title": "Sử dụng {{ProdFullName}} trong các ứng dụng {{EnvName}} để che giấu hoặc loại bỏ các phần nhạy cảm của các slide của bạn.",
+        "step_1": "Tạo một {{textRedactor}} mới với đường dẫn bộ tài liệu của bạn.",
+        "step_2": "Định nghĩa những tùy chọn che giấu của bạn.",
+        "step_3": "Đặt mẫu văn bản và màu mặt phủ.",
+        "step_4": "Chạy và lưu tệp đã che giấu."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu các khu vực văn bản trong {{FileFormatUp}}",
+      "comment_2": "Mở tệp với {{textRedactor}}",
+      "comment_3": "Điều chỉnh cài đặt che giấu",
+      "comment_4": "Nhập văn bản và chọn màu mặt phủ",
+      "comment_5": "Che giấu và lưu tệp đã cập nhật"
+    },
+    "example_bottom": {
+      "title": "Regex Cho Che Giấu Văn Bản",
+      "content": "Học cách phát hiện và che giấu văn bản bằng cách sử dụng mẫu tìm kiếm",
+      "comment_1": "Tải bộ tài liệu",
+      "comment_2": "Áp dụng quy tắc regex của bạn",
+      "comment_3": "Chạy che giấu",
+      "comment_4": "Lưu phiên bản cuối cùng"
+    },
+    "more_features": {
+      "title": "Che Giấu Đơn Giản Cho Các Slide Nhạy Cảm",
+      "description": "{{ProdFullName}} làm cho việc chặn hoặc loại bỏ nội dung từ các slide trở nên dễ dàng, bất kể trường hợp sử dụng.",
+      "image_description": "Các công cụ che giấu có thể điều chỉnh",
+      "feature_1": {
+        "title": "Tìm và thay thế văn bản",
+        "content": "Bảo vệ các cụm từ hoặc nhãn nhạy cảm ở bất kỳ slide nào."
+      },
+      "feature_2": {
+        "title": "Che các phần hình ảnh",
+        "content": "Thêm mặt phủ vào các khu vực đã chọn của các slide hoặc hình ảnh."
+      },
+      "feature_3": {
+        "title": "Xóa nội dung ẩn",
+        "content": "Xóa siêu dữ liệu hoặc ghi chú sửa đổi của các slide trước khi chia sẻ."
+      }
+    },
+    "about": {
+      "title": "Về {{ProdFullName}}",
+      "content": "{{ProdFullName}} giúp các lập trình viên {{ProgLang}} làm sạch các slide {{FileFormatUp}} bằng cách che giấu hoặc xóa nội dung nhạy cảm như văn bản, siêu dữ liệu hoặc hình ảnh."
+    },
+    "formats": {
+      "title": "Bảo Vệ Các Slide {{FileFormatUp}} Với {{EnvNameShort}}",
+      "description": "Sử dụng các công cụ che giấu và làm sạch từ {{EnvNameShort}} để giữ các slide {{FileFormatUp}} của bạn riêng tư."
+    }
+  }
+}

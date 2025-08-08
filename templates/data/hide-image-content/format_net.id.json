@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Sembunyikan Gambar di {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "Dengan {{ProdFullName}}, Anda dapat melindungi gambar sensitif dalam file {{FileFormatUp}} dengan menambahkan overlay berwarna. Amankan informasi pribadi tanpa mengubah tata letak dokumen."
+    },
+    "header": {
+      "title": "Lindungi Gambar Sensitif dalam Dokumen {{FileFormatUp}} dengan Overlay Menggunakan {{EnvNameShort}}",
+      "description": "Jaga keamanan data bisnis dan pribadi dalam file {{FileFormatUp}} menggunakan {{ProgLang}}. Alat kami membantu Anda mencapai perlindungan data yang kuat.",
+      "subtitle": "Fitur {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Amankan Data Bisnis dalam Dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}}: Dirancang untuk membantu aplikasi {{EnvName}} Anda melindungi dokumen. Redaksi informasi pribadi dengan cepat.",
+        "step_1": "Buat instance {{textRedactor}} dan berikan jalur ke file {{FileFormatCap}} yang ingin Anda amankan.",
+        "step_2": "Sesuaikan pengaturan redaksi untuk mendapatkan hasil yang Anda butuhkan.",
+        "step_3": "Pilih area gambar dan atur warna overlay.",
+        "step_4": "Proses file dan simpan dokumen yang telah direduksi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sembunyikan konten gambar sensitif dalam {{FileFormatUp}}",
+      "comment_2": "Muati file menggunakan konstruktor {{textRedactor}}",
+      "comment_3": "Atur warna dan ukuran overlay",
+      "comment_4": "Pilih area untuk redaksi",
+      "comment_5": "Terapkan overlay pada gambar dan simpan file"
+    },
+    "example_bottom": {
+      "title": "Gunakan Overlay untuk Menyembunyikan Data Gambar",
+      "content": "Contoh ini menunjukkan bagaimana cara menutupi informasi sensitif dalam gambar dokumen.",
+      "comment_1": "Muati dokumen untuk direduksi",
+      "comment_2": "Atur pengaturan overlay: ukuran, posisi, dan warna",
+      "comment_3": "Targetkan area gambar tertentu di halaman pertama",
+      "comment_4": "Terapkan overlay untuk menyembunyikan gambar",
+      "comment_5": "Simpan dokumen yang telah direduksi"
+    },
+    "more_features": {
+      "title": "Redaksi Konten dalam Dokumen",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menyembunyikan atau menghapus konten dalam berbagai format file. Lindungi informasi rahasia sambil menjaga dokumen tetap mudah dibaca dan dibagikan.",
+      "image_description": "Fitur Redaksi Lanjutan",
+      "feature_1": {
+        "title": "Edit Teks di Mana Saja",
+        "content": "Cari dan ganti teks sensitif di seluruh dokumen Anda untuk menjaga data pribadi tetap aman."
+      },
+      "feature_2": {
+        "title": "Tutup Gambar",
+        "content": "Terapkan overlay ke seluruh gambar atau area yang dipilih untuk menyembunyikan visual yang sensitif."
+      },
+      "feature_3": {
+        "title": "Tangani Metadata",
+        "content": "Hapus atau ubah metadata tersembunyi untuk mencegah kebocoran data secara tidak sengaja."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan pengembang {{ProgLang}} alat yang kuat untuk menyembunyikan atau menghapus konten dari file {{FileFormatUp}}. Lindungi dokumen dengan menutup teks, gambar, dan metadata di berbagai format."
+    },
+    "formats": {
+      "title": "Amankan Konten {{FileFormatUp}} dengan Redaksi {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menyembunyikan atau menghapus konten sensitif dalam file {{FileFormatUp}}. Solusi efektif untuk mengamankan dokumen resmi dan rahasia."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Tutup Gambar dalam {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "Gunakan {{ProdFullName}} untuk menutup gambar sensitif dalam file {{FileFormatUp}} dengan overlay berwarna. Lindungi data pribadi sambil menjaga tata letak dokumen tetap tidak berubah."
+    },
+    "header": {
+      "title": "Tutup Gambar Sensitif dalam Dokumen {{FileFormatUp}} Menggunakan Overlay dengan {{EnvNameShort}}",
+      "description": "Lindungi informasi pribadi dan bisnis dalam file {{FileFormatUp}} menggunakan {{ProgLang}}. Alat kami membuat perlindungan data menjadi sederhana dan andal.",
+      "subtitle": "Fitur {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Lindungi Data dalam File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}}: Dibangun untuk membantu aplikasi {{EnvName}} Anda mengamankan dokumen. Redaksi informasi sensitif hanya dalam beberapa langkah.",
+        "step_1": "Inisialisasi {{textRedactor}} dan berikan jalur ke file {{FileFormatCap}} Anda.",
+        "step_2": "Konfigurasi opsi redaksi untuk memenuhi kebutuhan Anda.",
+        "step_3": "Pilih area gambar dan pilih warna overlay.",
+        "step_4": "Jalankan redaksi dan simpan file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Tutup area gambar sensitif dalam {{FileFormatUp}}",
+      "comment_2": "Muati file melalui konstruktor {{textRedactor}}",
+      "comment_3": "Atur warna dan ukuran overlay",
+      "comment_4": "Tentukan area redaksi",
+      "comment_5": "Terapkan overlay dan simpan dokumen"
+    },
+    "example_bottom": {
+      "title": "Terapkan Overlay untuk Menyembunyikan Detail Gambar",
+      "content": "Contoh ini menggambarkan bagaimana menyembunyikan area sensitif dalam gambar dokumen.",
+      "comment_1": "Muati dokumen yang ingin Anda redaksi",
+      "comment_2": "Tentukan parameter overlay: ukuran, posisi, warna",
+      "comment_3": "Targetkan area tertentu di halaman pertama",
+      "comment_4": "Tempatkan overlay pada gambar",
+      "comment_5": "Simpan file yang diperbarui"
+    },
+    "more_features": {
+      "title": "Redaksi Konten dalam File",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menyembunyikan atau menghapus konten sensitif dalam banyak jenis file. Jaga dokumen tetap aman sambil mempertahankan keterbacaan.",
+      "image_description": "Opsi Redaksi Fleksibel",
+      "feature_1": {
+        "title": "Edit Teks dengan Mudah",
+        "content": "Temukan dan ganti teks pribadi di seluruh dokumen Anda untuk meningkatkan keamanan data."
+      },
+      "feature_2": {
+        "title": "Tutup Area Gambar",
+        "content": "Terapkan overlay pada gambar penuh atau bagian tertentu untuk melindungi informasi visual."
+      },
+      "feature_3": {
+        "title": "Bersihkan Metadata",
+        "content": "Hapus atau ubah metadata tersembunyi untuk menghindari kebocoran data yang tidak disengaja."
+      }
+    },
+    "about": {
+      "title": "Pelajari Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan pengembang {{ProgLang}} alat untuk menyembunyikan atau menghapus konten dalam file {{FileFormatUp}}. Lindungi dokumen dengan menutup teks, gambar, dan metadata di berbagai format."
+    },
+    "formats": {
+      "title": "Lindungi File {{FileFormatUp}} dengan Redaksi {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menutup atau menghapus data sensitif dalam file {{FileFormatUp}}. Ideal untuk menjaga dokumen rahasia tetap aman."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Masker Gambar dalam File {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menyembunyikan konten gambar sensitif dalam file {{FileFormatUp}} dengan menerapkan overlay berwarna. Lindungi data penting sambil menjaga struktur dokumen tetap utuh."
+    },
+    "header": {
+      "title": "Masker Gambar Sensitif dalam Dokumen {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+      "description": "Pastikan privasi data dalam file {{FileFormatUp}} menggunakan {{ProgLang}}. Alat kami dirancang untuk membuat redaksi gambar cepat dan efektif.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Lindungi Data Pribadi dalam Dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}}: Membantu aplikasi {{EnvName}} Anda mengamankan dokumen secara efisien.",
+        "step_1": "Buat instance {{textRedactor}} dan muat file {{FileFormatCap}}.",
+        "step_2": "Atur parameter redaksi untuk sesuai dengan kebutuhan Anda.",
+        "step_3": "Tentukan area gambar dan pilih warna overlay.",
+        "step_4": "Terapkan redaksi dan simpan file output."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masker bagian gambar sensitif dalam {{FileFormatUp}}",
+      "comment_2": "Inisialisasi {{textRedactor}} dengan jalur file",
+      "comment_3": "Pilih ukuran dan warna overlay",
+      "comment_4": "Tandai area untuk redaksi",
+      "comment_5": "Terapkan dan simpan perubahan"
+    },
+    "example_bottom": {
+      "title": "Sembunyikan Konten Gambar dengan Overlay",
+      "content": "Pelajari cara menyembunyikan area gambar sensitif dalam dokumen Anda.",
+      "comment_1": "Buka dokumen untuk redaksi",
+      "comment_2": "Definisikan atribut overlay: ukuran, lokasi, warna",
+      "comment_3": "Targetkan area gambar tertentu",
+      "comment_4": "Terapkan overlay pada area gambar",
+      "comment_5": "Simpan dokumen yang telah direduksi"
+    },
+    "more_features": {
+      "title": "Fitur Redaksi Dokumen",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menghapus atau menyembunyikan konten di berbagai format file. Jaga data sensitif tetap pribadi sambil mempertahankan tata letak yang bersih.",
+      "image_description": "Fitur Redaksi yang Kuat",
+      "feature_1": {
+        "title": "Cari dan Ganti Teks",
+        "content": "Cepat temukan dan redaksi teks rahasia untuk melindungi data sensitif."
+      },
+      "feature_2": {
+        "title": "Maskir Konten Gambar",
+        "content": "Terapkan overlay ke seluruh gambar atau area tertentu untuk menyembunyikan visual pribadi."
+      },
+      "feature_3": {
+        "title": "Bersihkan Metadata",
+        "content": "Hapus atau sesuaikan metadata tersembunyi untuk mencegah kebocoran data yang tidak disengaja."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} menawarkan pengembang {{ProgLang}} cara sederhana untuk menyembunyikan atau menghapus konten dari file {{FileFormatUp}}. Lindungi dokumen Anda dengan redaksi teks, gambar, dan metadata di berbagai format."
+    },
+    "formats": {
+      "title": "Maskir Konten {{FileFormatUp}} dengan Redaksi {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menyembunyikan atau menghapus konten sensitif dalam file {{FileFormatUp}}. Solusi praktis untuk mengamankan dokumen bisnis dan pribadi."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Redaksi Gambar dalam {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menyembunyikan konten gambar sensitif dalam file {{FileFormatUp}} dengan menerapkan overlay berwarna. Lindungi data rahasia tanpa mengubah struktur dokumen Anda."
+    },
+    "header": {
+      "title": "Redaksi Gambar Sensitif dalam Dokumen {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+      "description": "Lindungi data pribadi dan bisnis dalam file {{FileFormatUp}} dengan {{ProgLang}}. Alat kami membuat redaksi gambar cepat dan efektif.",
+      "subtitle": "Apa yang Ditawarkan {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Jaga Keamanan Data Bisnis dalam Dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}}: Membantu aplikasi {{EnvName}} mengamankan dokumen dengan menyembunyikan informasi sensitif.",
+        "step_1": "Siapkan instance {{textRedactor}} dan muat file {{FileFormatCap}}.",
+        "step_2": "Konfigurasi pengaturan redaksi sesuai kebutuhan Anda.",
+        "step_3": "Pilih area gambar dan tentukan warna overlay.",
+        "step_4": "Proses redaksi dan simpan file Anda."
+      }
+    },
+    "example_top": {
+      "comment_1": "Redaksi area gambar sensitif dalam {{FileFormatUp}}",
+      "comment_2": "Buka file menggunakan {{textRedactor}}",
+      "comment_3": "Definisikan warna dan dimensi overlay",
+      "comment_4": "Pilih area untuk redaksi",
+      "comment_5": "Terapkan overlay dan simpan dokumen"
+    },
+    "example_bottom": {
+      "title": "Sembunyikan Data Gambar dengan Overlay",
+      "content": "Contoh ini menunjukkan bagaimana cara merevisi gambar yang sensitif dalam dokumen.",
+      "comment_1": "Muati dokumen",
+      "comment_2": "Atur ukuran, posisi, dan warna overlay",
+      "comment_3": "Tentukan area untuk redaksi di halaman satu",
+      "comment_4": "Terapkan overlay",
+      "comment_5": "Simpan file yang telah direduksi"
+    },
+    "more_features": {
+      "title": "Alat Redaksi Dokumen",
+      "description": "{{ProdFullName}} memungkinkan Anda untuk menyembunyikan atau menghapus konten sensitif dalam berbagai jenis file. Lindungi informasi sambil menjaga dokumen tetap bersih dan dapat dibagikan.",
+      "image_description": "Alat Redaksi yang Kuat",
+      "feature_1": {
+        "title": "Cari & Ganti Teks",
+        "content": "Temukan dan redaksi teks pribadi untuk meningkatkan keamanan dokumen."
+      },
+      "feature_2": {
+        "title": "Redaksi Konten Gambar",
+        "content": "Tutup seluruh gambar atau area yang dipilih dengan overlay untuk menyembunyikan visual pribadi."
+      },
+      "feature_3": {
+        "title": "Hapus Metadata",
+        "content": "Hapus atau modifikasi metadata tersembunyi untuk mencegah kebocoran data."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan pengembang {{ProgLang}} alat untuk menyembunyikan atau menghapus konten dari file {{FileFormatUp}}. Lindungi dokumen Anda dengan mereduksi teks, gambar, dan metadata secara efisien."
+    },
+    "formats": {
+      "title": "Redaksi Konten {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menyembunyikan atau menghapus konten sensitif dalam file {{FileFormatUp}}. Solusi yang andal untuk keamanan dokumen."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Tutup Gambar dalam {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "Sembunyikan area gambar sensitif dalam file {{FileFormatUp}} menggunakan {{ProdFullName}}. Tambahkan overlay berwarna untuk melindungi data pribadi sambil menjaga tata letak dokumen tetap utuh."
+    },
+    "header": {
+      "title": "Sembunyikan Gambar Pribadi dalam File {{FileFormatUp}} Menggunakan Overlay dengan {{EnvNameShort}}",
+      "description": "Lindungi data pribadi dan bisnis Anda dalam dokumen {{FileFormatUp}} menggunakan {{ProgLang}}. Dapatkan perlindungan konten yang andal dengan alat sederhana kami.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Lindungi Data Sensitif dalam File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} membantu aplikasi {{EnvName}} Anda dengan cepat menyembunyikan konten pribadi dalam dokumen.",
+        "step_1": "Buat objek {{textRedactor}} dan tentukan jalur file {{FileFormatCap}}.",
+        "step_2": "Atur parameter redaksi untuk memenuhi kebutuhan Anda.",
+        "step_3": "Tandai area gambar dan tentukan warna overlay.",
+        "step_4": "Proses dan simpan file yang telah direduksi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Tutup gambar sensitif dalam {{FileFormatUp}}",
+      "comment_2": "Muati file melalui konstruktor {{textRedactor}}",
+      "comment_3": "Definisikan warna dan dimensi overlay",
+      "comment_4": "Pilih area gambar untuk redaksi",
+      "comment_5": "Terapkan overlay dan simpan dokumen"
+    },
+    "example_bottom": {
+      "title": "Tambahkan Overlay untuk Menyembunyikan Konten Gambar",
+      "content": "Contoh ini menunjukkan bagaimana melindungi data sensitif dalam gambar dokumen menggunakan overlay.",
+      "comment_1": "Buka dokumen untuk pengeditan",
+      "comment_2": "Atur ukuran, lokasi, dan warna overlay",
+      "comment_3": "Fokus pada area gambar tertentu di halaman satu",
+      "comment_4": "Terapkan redaksi overlay",
+      "comment_5": "Simpan perubahan pada file"
+    },
+    "more_features": {
+      "title": "Sembunyikan atau Hapus Konten Dokumen",
+      "description": "{{ProdFullName}} memudahkan untuk menyembunyikan atau menghapus data dalam berbagai format file. Lindungi informasi sensitif sambil menjaga dokumen tetap bersih dan terbaca.",
+      "image_description": "Alat Redaksi yang Detail",
+      "feature_1": {
+        "title": "Ganti Teks di Mana Saja",
+        "content": "Cari dan ubah teks sensitif di seluruh dokumen Anda untuk melindungi informasi pribadi."
+      },
+      "feature_2": {
+        "title": "Masker Gambar",
+        "content": "Tambahkan overlay pada area gambar tertentu atau seluruh gambar untuk menyembunyikan visual pribadi."
+      },
+      "feature_3": {
+        "title": "Bersihkan Metadata",
+        "content": "Hapus atau edit metadata tersembunyi untuk mencegah kebocoran informasi yang tidak disengaja."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan pengembang {{ProgLang}} alat untuk menyembunyikan atau menghapus konten dari file {{FileFormatUp}}. Lindungi dokumen dengan menutup teks sensitif, gambar, dan metadata dengan cepat."
+    },
+    "formats": {
+      "title": "Lindungi Konten {{FileFormatUp}} dengan Redaksi {{EnvNameShort}}",
+      "description": "{{EnvNameShort}} memungkinkan Anda untuk menyembunyikan atau menghapus konten sensitif dalam file {{FileFormatUp}}. Cara yang dapat diandalkan untuk melindungi dokumen resmi dan rahasia."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Masker Gambar dalam {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "Sembunyikan gambar pribadi dalam file {{FileFormatUp}} menggunakan {{ProdFullName}}. Tempatkan overlay berwarna untuk menjaga data sensitif tetap aman sambil menjaga tata letak dokumen."
+    },
+    "header": {
+      "title": "Tutup Gambar Sensitif dalam File {{FileFormatUp}} Menggunakan Overlay dengan {{EnvNameShort}}",
+      "description": "Lindungi data pribadi dan bisnis dalam file {{FileFormatUp}} menggunakan {{ProgLang}}. Dapatkan perlindungan data yang cepat dan andal dengan alat kami.",
+      "subtitle": "Jelajahi Fitur {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Jaga Keamanan Data Anda dalam File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} membantu aplikasi {{EnvName}} Anda mengamankan dokumen dengan menyembunyikan konten sensitif.",
+        "step_1": "Buat instance {{textRedactor}} dan berikan jalur file {{FileFormatCap}}.",
+        "step_2": "Konfigurasi opsi redaksi untuk hasil yang diinginkan.",
+        "step_3": "Pilih area gambar dan warna overlay.",
+        "step_4": "Terapkan redaksi dan simpan file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masker konten gambar dalam {{FileFormatUp}}",
+      "comment_2": "Muati dokumen menggunakan {{textRedactor}}",
+      "comment_3": "Siapkan ukuran dan warna overlay",
+      "comment_4": "Pilih area untuk disembunyikan",
+      "comment_5": "Terapkan dan simpan perubahan"
+    },
+    "example_bottom": {
+      "title": "Masker Data Gambar dengan Overlay",
+      "content": "Contoh ini menunjukkan bagaimana cara menutupi informasi sensitif dalam gambar dokumen.",
+      "comment_1": "Buka file untuk pengeditan",
+      "comment_2": "Tentukan ukuran, warna, dan penempatan overlay",
+      "comment_3": "Targetkan bagian gambar tertentu di halaman pertama",
+      "comment_4": "Terapkan overlay untuk menyembunyikan gambar",
+      "comment_5": "Simpan dokumen akhir"
+    },
+    "more_features": {
+      "title": "Redaksi Konten Apa Saja dalam Dokumen",
+      "description": "{{ProdFullName}} membantu Anda menyembunyikan atau menghapus konten sensitif dalam berbagai format dokumen. Lindungi data sambil menjaga dokumen tetap mudah digunakan.",
+      "image_description": "Opsi Redaksi yang Kuat",
+      "feature_1": {
+        "title": "Cari dan Edit Teks",
+        "content": "Temukan teks sensitif dan ganti untuk melindungi data pribadi dalam dokumen Anda."
+      },
+      "feature_2": {
+        "title": "Overlay Area Gambar",
+        "content": "Tutup gambar atau bagian tertentu dengan overlay untuk menjaga privasi visual."
+      },
+      "feature_3": {
+        "title": "Hapus Metadata",
+        "content": "Hapus bidang metadata tersembunyi untuk menghindari kebocoran informasi yang tidak disengaja."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan pengembang {{ProgLang}} alat untuk menyembunyikan atau menghapus konten sensitif dalam file {{FileFormatUp}}. Tutup teks, gambar, dan metadata untuk menjaga dokumen tetap aman."
+    },
+    "formats": {
+      "title": "Lindungi File {{FileFormatUp}} dengan Alat Redaksi {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menyembunyikan atau menghapus informasi sensitif dalam file {{FileFormatUp}}. Solusi terpercaya untuk keamanan dokumen."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Sembunyikan Gambar Sensitif dalam {{FileFormatUp}} Menggunakan Overlay dengan {{ProgLang}}",
+      "description": "Gunakan {{ProdFullName}} untuk menerapkan overlay pada gambar dalam file {{FileFormatUp}}, menjaga informasi pribadi tersembunyi sambil menjaga tata letak tetap utuh."
+    },
+    "header": {
+      "title": "Sembunyikan Gambar Pribadi dalam Dokumen {{FileFormatUp}} Menggunakan Overlay dengan {{EnvNameShort}}",
+      "description": "Lindungi data pribadi dan perusahaan dalam file {{FileFormatUp}} menggunakan {{ProgLang}}. Alat sederhana untuk privasi dokumen yang kuat.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Lindungi Informasi Sensitif dalam Dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} dirancang untuk membantu aplikasi {{EnvName}} Anda melindungi konten dokumen dengan cepat.",
+        "step_1": "Buat objek {{textRedactor}} dan tentukan file {{FileFormatCap}}.",
+        "step_2": "Sesuaikan pengaturan redaksi sesuai kebutuhan Anda.",
+        "step_3": "Pilih area gambar dan pilih warna overlay.",
+        "step_4": "Terapkan redaksi dan simpan dokumen."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sembunyikan data gambar dalam file {{FileFormatUp}}",
+      "comment_2": "Muati file menggunakan {{textRedactor}}",
+      "comment_3": "Atur warna dan dimensi overlay",
+      "comment_4": "Pilih area untuk ditutup",
+      "comment_5": "Terapkan overlay dan simpan dokumen"
+    },
+    "example_bottom": {
+      "title": "Lindungi Data Gambar dengan Overlay",
+      "content": "Contoh ini menunjukkan bagaimana cara menyembunyikan konten sensitif dalam gambar dokumen.",
+      "comment_1": "Muati dokumen untuk redaksi",
+      "comment_2": "Atur ukuran, posisi, dan warna overlay",
+      "comment_3": "Tandai area gambar di halaman satu",
+      "comment_4": "Terapkan overlay untuk menutupi gambar",
+      "comment_5": "Simpan dokumen yang telah direduksi"
+    },
+    "more_features": {
+      "title": "Redaksi Data Sensitif dalam Dokumen",
+      "description": "{{ProdFullName}} memungkinkan Anda untuk menyembunyikan atau menghapus konten dalam berbagai jenis dokumen. Lindungi data pribadi sambil menjaga file tetap mudah digunakan dan dibagikan.",
+      "image_description": "Alat Redaksi yang Kaya Fitur",
+      "feature_1": {
+        "title": "Temukan dan Edit Teks",
+        "content": "Cari teks sensitif dalam dokumen dan ganti untuk melindungi data pribadi."
+      },
+      "feature_2": {
+        "title": "Tutup Konten Gambar",
+        "content": "Gunakan overlay untuk menutupi gambar atau bagian yang dipilih, memastikan visual pribadi tetap tersembunyi."
+      },
+      "feature_3": {
+        "title": "Bersihkan Metadata Tersembunyi",
+        "content": "Hapus atau ubah metadata tersembunyi untuk mencegah kebocoran data yang tidak disengaja."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} menyediakan pengembang {{ProgLang}} alat sederhana untuk menyembunyikan atau menghapus konten dalam file {{FileFormatUp}}. Lindungi dokumen Anda dengan menutup teks, gambar, dan metadata."
+    },
+    "formats": {
+      "title": "Amankan Konten {{FileFormatUp}} dengan Redaksi {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menutup atau menghapus konten pribadi dalam file {{FileFormatUp}}. Cara yang terpercaya untuk melindungi dokumen sensitif."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Sembunyikan Gambar di {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "Lindungi gambar pribadi dalam file {{FileFormatUp}} dengan {{ProdFullName}} dengan menambahkan overlay berwarna. Jaga informasi sensitif tetap aman tanpa mengubah tata letak file."
+    },
+    "header": {
+      "title": "Tutup Gambar Sensitif dalam File {{FileFormatUp}} dengan Overlay Menggunakan {{EnvNameShort}}",
+      "description": "Jaga keamanan gambar pribadi dan bisnis Anda dalam file {{FileFormatUp}} menggunakan {{ProgLang}}. Alat sederhana kami membuat perlindungan file menjadi mudah dan andal.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Lindungi Data Sensitif dalam File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} dirancang untuk membantu aplikasi {{EnvName}} Anda menyembunyikan konten pribadi dengan cepat.",
+        "step_1": "Buat objek {{textRedactor}} dan berikan jalur ke file {{FileFormatCap}} Anda.",
+        "step_2": "Atur opsi redaksi untuk mencocokkan kebutuhan Anda.",
+        "step_3": "Tandai area gambar dan pilih warna overlay.",
+        "step_4": "Jalankan redaksi dan simpan file yang dilindungi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Tutup konten gambar dalam file {{FileFormatUp}}",
+      "comment_2": "Buka file menggunakan {{textRedactor}}",
+      "comment_3": "Atur ukuran dan warna overlay",
+      "comment_4": "Pilih area untuk overlay",
+      "comment_5": "Terapkan overlay dan simpan file"
+    },
+    "example_bottom": {
+      "title": "Sembunyikan Data Gambar dengan Overlay",
+      "content": "Contoh ini menunjukkan bagaimana cara menyembunyikan area gambar sensitif dalam file.",
+      "comment_1": "Buka file untuk editing",
+      "comment_2": "Atur ukuran, posisi, dan warna overlay",
+      "comment_3": "Pilih area gambar yang spesifik di halaman satu",
+      "comment_4": "Terapkan overlay untuk menyembunyikan gambar",
+      "comment_5": "Simpan file yang telah direduksi"
+    },
+    "more_features": {
+      "title": "Redaksi Konten Apa Saja dalam Dokumen",
+      "description": "{{ProdFullName}} memudahkan untuk menyembunyikan atau menghapus konten dalam berbagai format file. Lindungi informasi sensitif sambil menjaga file Anda tetap rapi dan mudah dibagikan.",
+      "image_description": "Alat Redaksi untuk Kontrol Penuh",
+      "feature_1": {
+        "title": "Edit Teks di Mana Saja",
+        "content": "Temukan dan ganti teks sensitif di seluruh dokumen Anda untuk melindungi data pribadi."
+      },
+      "feature_2": {
+        "title": "Masker Gambar",
+        "content": "Terapkan overlay pada gambar atau area tertentu untuk menjaga visual sensitif tetap tersembunyi."
+      },
+      "feature_3": {
+        "title": "Bersihkan Metadata",
+        "content": "Hapus atau perbarui metadata tersembunyi untuk mencegah kebocoran data yang tidak disengaja."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan pengembang {{ProgLang}} alat untuk menyembunyikan atau menghapus konten dalam file {{FileFormatUp}}. Tutup teks, gambar, dan metadata untuk mengamankan dokumen Anda dengan cepat."
+    },
+    "formats": {
+      "title": "Lindungi File {{FileFormatUp}} dengan Redaksi {{EnvNameShort}}",
+      "description": "Dengan {{EnvNameShort}}, Anda dapat dengan mudah menyembunyikan atau menghapus konten sensitif dalam file {{FileFormatUp}}. Solusi yang dapat diandalkan untuk menjaga dokumen Anda tetap aman dan profesional."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Lindungi Gambar dalam {{FileFormatUp}} dengan Menambahkan Overlay Menggunakan {{ProgLang}}",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menyembunyikan data gambar sensitif dalam file {{FileFormatUp}} menggunakan overlay berwarna. Amankan informasi penting sambil menjaga desain asli file."
+    },
+    "header": {
+      "title": "Sembunyikan Gambar Pribadi dalam File {{FileFormatUp}} Menggunakan Overlay dengan {{EnvNameShort}}",
+      "description": "Jaga gambar bisnis dan pribadi Anda tetap terlindung dalam file {{FileFormatUp}} menggunakan {{ProgLang}}. Alat sederhana untuk perlindungan konten yang cepat dan efektif.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Lindungi Data dalam File {{FileFormatCap}} dengan Overlay",
+      "content": {
+        "title": "Gunakan {{ProdFullName}} untuk dengan cepat menyembunyikan konten pribadi dalam aplikasi {{EnvName}} Anda.",
+        "step_1": "Buat instance {{textRedactor}} dan berikan jalur file {{FileFormatCap}} Anda.",
+        "step_2": "Sesuaikan pengaturan redaksi sesuai kebutuhan.",
+        "step_3": "Pilih area gambar dan tentukan warna overlay.",
+        "step_4": "Proses file dan simpan versi yang aman."
+      }
+    },
+    "example_top": {
+      "comment_1": "Lindungi konten gambar dalam {{FileFormatUp}}",
+      "comment_2": "Buka file menggunakan {{textRedactor}}",
+      "comment_3": "Definisikan dimensi dan warna overlay",
+      "comment_4": "Pilih area yang ingin disembunyikan",
+      "comment_5": "Terapkan overlay dan simpan hasilnya"
+    },
+    "example_bottom": {
+      "title": "Tutup Konten Gambar dengan Overlay",
+      "content": "Contoh kode ini menunjukkan cara menerapkan overlay untuk menyembunyikan konten gambar sensitif.",
+      "comment_1": "Buka file untuk redaksi",
+      "comment_2": "Atur ukuran, warna, dan posisi overlay",
+      "comment_3": "Pilih area gambar di halaman satu",
+      "comment_4": "Tambahkan overlay untuk menyembunyikan konten gambar",
+      "comment_5": "Simpan file yang diperbarui"
+    },
+    "more_features": {
+      "title": "Redaksi Konten dalam Berbagai Format File",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menyembunyikan atau menghapus konten di berbagai format file. Lindungi data sensitif sambil menjaga format yang bersih dan mudah dibaca.",
+      "image_description": "Kontrol Penuh atas Redaksi",
+      "feature_1": {
+        "title": "Cari dan Ganti Teks",
+        "content": "Telusuri dokumen dan ganti teks sensitif untuk melindungi informasi pribadi."
+      },
+      "feature_2": {
+        "title": "Overlay Gambar",
+        "content": "Terapkan overlay berwarna untuk menutupi seluruh gambar atau bagian yang dipilih."
+      },
+      "feature_3": {
+        "title": "Edit Metadata",
+        "content": "Hapus atau ubah bidang metadata tersembunyi untuk mencegah kebocoran data."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} menyediakan pengembang {{ProgLang}} dengan alat yang kuat untuk menyembunyikan atau menghapus konten dalam file {{FileFormatUp}}. Lindungi dokumen Anda dengan menyembunyikan teks, gambar, dan metadata."
+    },
+    "formats": {
+      "title": "Sembunyikan Konten dalam File {{FileFormatUp}} Menggunakan Redaksi {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menyembunyikan atau menghapus data sensitif dalam file {{FileFormatUp}}. Metode yang dapat diandalkan untuk mengamankan dokumen resmi dan melindungi informasi rahasia."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Tambah Overlay untuk Menyembunyikan Gambar dalam {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Sembunyikan konten gambar sensitif dalam file {{FileFormatUp}} dengan {{ProdFullName}} dengan menerapkan overlay. Jaga data pribadi tetap aman sambil menjaga tata letak dokumen tetap utuh."
+    },
+    "header": {
+      "title": "Sembunyikan Konten Gambar dalam File {{FileFormatUp}} Menggunakan Overlay dengan {{EnvNameShort}}",
+      "description": "Lindungi gambar pribadi dan bisnis Anda dalam file {{FileFormatUp}} menggunakan {{ProgLang}}. Alat yang mudah digunakan untuk perlindungan konten yang efektif.",
+      "subtitle": "Fitur Utama {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Amankan Konten dalam File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} membuat perlindungan konten dalam aplikasi {{EnvName}} Anda menjadi cepat dan sederhana.",
+        "step_1": "Buat objek {{textRedactor}} dan tentukan file {{FileFormatCap}} Anda.",
+        "step_2": "Sesuaikan pengaturan redaksi sesuai kebutuhan.",
+        "step_3": "Pilih area gambar dan atur warna overlay.",
+        "step_4": "Jalankan redaksi dan simpan file yang aman."
+      }
+    },
+    "example_top": {
+      "comment_1": "Terapkan overlay untuk menyembunyikan gambar dalam {{FileFormatUp}}",
+      "comment_2": "Muati file dengan {{textRedactor}}",
+      "comment_3": "Atur ukuran dan warna overlay",
+      "comment_4": "Pilih area gambar untuk disembunyikan",
+      "comment_5": "Terapkan overlay dan simpan perubahan"
+    },
+    "example_bottom": {
+      "title": "Sembunyikan Data Gambar dengan Overlay",
+      "content": "Contoh kode ini menunjukkan bagaimana menutupi area gambar dalam file menggunakan overlay.",
+      "comment_1": "Muati file untuk editing",
+      "comment_2": "Tetapkan posisi, ukuran, dan warna overlay",
+      "comment_3": "Tandai area gambar di halaman satu",
+      "comment_4": "Terapkan overlay untuk menutupi gambar",
+      "comment_5": "Simpan file yang direduksi"
+    },
+    "more_features": {
+      "title": "Dengan Mudah Redaksi Konten Sensitif",
+      "description": "{{ProdFullName}} membantu Anda menyembunyikan atau menghapus konten sensitif dalam banyak jenis file. Lindungi data pribadi sambil menjaga dokumen Anda tetap bersih dan mudah dibaca.",
+      "image_description": "Alat Redaksi yang All-in-One",
+      "feature_1": {
+        "title": "Edit Teks dalam Dokumen",
+        "content": "Cari dan ganti teks pribadi dalam dokumen Anda untuk melindungi informasi sensitif."
+      },
+      "feature_2": {
+        "title": "Sembunyikan Area Gambar",
+        "content": "Tambahkan overlay pada gambar atau bagian yang dipilih untuk menutupi visual yang sensitif."
+      },
+      "feature_3": {
+        "title": "Bersihkan Metadata",
+        "content": "Hapus metadata tersembunyi untuk menghindari kebocoran informasi yang tidak disengaja."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan pengembang {{ProgLang}} cara ampuh untuk menyembunyikan atau menghapus konten dalam file {{FileFormatUp}}. Lindungi dokumen Anda dengan menutup teks, gambar, dan metadata dengan cepat."
+    },
+    "formats": {
+      "title": "Amankan File {{FileFormatUp}} dengan Redaksi {{EnvNameShort}}",
+      "description": "Dengan {{EnvNameShort}}, Anda dapat menyembunyikan atau menghapus konten pribadi dalam file {{FileFormatUp}}. Cara yang sederhana dan efektif untuk mengamankan dokumen resmi."
+    }
+  }
+}

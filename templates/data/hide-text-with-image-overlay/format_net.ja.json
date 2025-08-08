@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}内の機密テキストをオーバーレイで隠す",
+      "description": "{{ProdFullName}}を使用すれば、カラフルな四角形のオーバーレイを置くことで、{{FileFormatUp}}ファイル内の機密テキストを隠すことができます。元のレイアウトを変更せずに、プライベートデータを安全に保つことができます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の機密テキストをオーバーレイで隠す",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルの内容を管理します。法的、財務、個人情報を保護するために赤色処理を使用してください。",
+      "subtitle": "{{ProdFullName}}の特徴"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書内のビジネスデータを保護する",
+      "content": {
+        "title": "{{ProdFullName}}: {{EnvName}}アプリで文書を安全に保つために構築。プライベート情報を迅速に赤色処理します。",
+        "step_1": "{{textRedactor}}インスタンスを作成し、赤色処理したい{{FileFormatCap}}ファイルのパスを指定します。",
+        "step_2": "必要な結果を得るために赤色処理の設定を行います。",
+        "step_3": "検索するテキストパターンを設定し、オーバーレイの色を選択します。",
+        "step_4": "文書を赤色処理し、変更を保存します."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の機密テキストをオーバーレイ画像で隠す",
+      "comment_2": "{{textRedactor}}コンストラクタにファイルパスを渡します",
+      "comment_3": "赤色処理オプションを設定します",
+      "comment_4": "テキストパターンとオーバーレイ色を定義します",
+      "comment_5": "赤色処理し、更新された{{FileFormatUp}}ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使用してテキストを隠す",
+      "content": "この例では、正規表現を使用してテキストを見つけて隠す方法を示します",
+      "comment_1": "赤色処理したい文書を読み込みます",
+      "comment_2": "赤色処理の設定を定義します：テキストパターンと色",
+      "comment_3": "コンテンツに赤色処理を適用します",
+      "comment_4": "赤色処理されたバージョンを保存します"
+    },
+    "more_features": {
+      "title": "文書内のコンテンツを赤色処理する",
+      "description": "{{ProdFullName}}を使用すれば、さまざまなファイルタイプでコンテンツを削除または隠すことができます。文書を読みやすく共有しながら機密情報を保護します。",
+      "image_description": "高度な赤色処理オプション",
+      "feature_1": {
+        "title": "任意のテキストを編集",
+        "content": "文書内の一致するテキストを検索し、置き換えて機密データを保護します。"
+      },
+      "feature_2": {
+        "title": "画像を覆う",
+        "content": "全画像または選択した領域にオーバーレイを置いてプライベートビジュアルを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータを処理",
+        "content": "不要なデータ漏洩を防ぐために隠れたメタデータを消去または変更します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者に{{FileFormatUp}}ファイルからコンテンツを隠したり削除したりするためのツールを提供します。多くのファイルタイプでテキスト、画像、またはメタデータをカバーできます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}赤色処理を使用して{{FileFormatUp}}コンテンツを保護",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のコンテンツを覆ったり消去したりします。機密または公式文書を安全に保つためのスマートな選択です。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}内の機密テキストを覆う",
+      "description": "{{ProdFullName}}を使用して、シンプルな四角いオーバーレイで{{FileFormatUp}}ファイル内のプライベートテキストを保護します。ドキュメントのレイアウトを変更せずに、データを隠してください。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}でテキストを覆う",
+      "description": "{{ProgLang}}コードを使用して{{FileFormatUp}}文書内の機密内容を隠します。法的、ビジネス、または個人文書の保護に最適です。",
+      "subtitle": "{{ProdFullName}}の特徴"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書からのプライベートデータを削除する",
+      "content": {
+        "title": "{{ProdFullName}}は{{EnvName}}開発者が数行のコードで文書をクリーンアップするのを助けます。",
+        "step_1": "{{textRedactor}}を作成し、ファイルパスを指定します。",
+        "step_2": "赤色処理の方法を定義します。",
+        "step_3": "隠すテキストを入力し、オーバーレイの色を選択します。",
+        "step_4": "ファイルを赤色処理し、保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "オーバーレイブロックを使用して{{FileFormatUp}}内のテキストを隠す",
+      "comment_2": "{{textRedactor}}を作成し、ファイルを読み込みます",
+      "comment_3": "赤色処理の好みを設定します",
+      "comment_4": "隠すテキストを入力し、ブロックの色を設定します",
+      "comment_5": "赤色処理を行い、更新された文書を保存します"
+    },
+    "example_bottom": {
+      "title": "コンテンツの赤色処理にregexを使用",
+      "content": "正規表現が機密の単語を見つけ、隠す方法を確認してください",
+      "comment_1": "対象ファイルを開きます",
+      "comment_2": "パターンと色を設定します",
+      "comment_3": "赤色処理ロジックを適用します",
+      "comment_4": "赤色処理された文書をエクスポートします"
+    },
+    "more_features": {
+      "title": "文書をクリーンアップする他の方法",
+      "description": "{{ProdFullName}}を使用して、さまざまなファイルタイプを赤色処理し、コンテンツを安全かつプロフェッショナルに保ちます。",
+      "image_description": "内蔵されたスマート赤色処理",
+      "feature_1": {
+        "title": "テキストを編集または削除",
+        "content": "特定のフレーズを見つけて隠すか、置き換えます。"
+      },
+      "feature_2": {
+        "title": "画像エリアを隠す",
+        "content": "写真またはスキャンしたページのセンシティブな場所をカバーします。"
+      },
+      "feature_3": {
+        "title": "隠れたメタデータを消去",
+        "content": "ユーザーやシステムデータが暴露される可能性のある不可視情報を削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは何か？",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者が{{FileFormatUp}}ファイルでプライベートなコンテンツを隠したり消去したりするのを助けます。異なるファイル形式でテキスト、画像、メタデータをブロックするために使用します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のコンテンツを隠す",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の機密データをオーバーレイで覆うか、完全に削除します。"
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}オーバーレイで{{FileFormatUp}}のテキストを隠す",
+      "description": "{{ProdFullName}}はカラーボックスを使用して{{FileFormatUp}}ファイル内のテキストを隠すのを助けます。ドキュメントのフォーマットを変更せずに情報を安全に保ちます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルのテキストをマスク",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内の機密テキストをブロックするシンプルなオーバーレイを追加します。",
+      "subtitle": "{{ProdFullName}}の特徴"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書内の機密情報を安全に保つ",
+      "content": {
+        "title": "{{ProdFullName}}は{{EnvName}}開発者がファイルを保護するのを助けます。数行のコードでプライベートコンテンツを隠すことができます。",
+        "step_1": "{{FileFormatCap}}ファイルパスを指定して新しい{{textRedactor}}オブジェクトを作成します。",
+        "step_2": "必要に応じて赤色処理設定を調整します。",
+        "step_3": "検索パターンを追加し、オーバーレイブロックの色を選択します。",
+        "step_4": "赤色処理を実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "オーバーレイを使用して{{FileFormatUp}}のプライベートテキストを覆う",
+      "comment_2": "{{textRedactor}}でファイルを読み込みます",
+      "comment_3": "赤色処理の実行方法を選択します",
+      "comment_4": "隠すテキストを入力し、オーバーレイ色を選択します",
+      "comment_5": "ファイルを処理し、変更を保存します"
+    },
+    "example_bottom": {
+      "title": "regexで一致して隠す",
+      "content": "正規表現を使用してコンテンツを検出し、赤色処理する方法を学びます",
+      "comment_1": "ターゲット文書を開きます",
+      "comment_2": "パターンとオーバーレイ色を設定します",
+      "comment_3": "赤色処理ルールを適用します",
+      "comment_4": "赤色処理されたバージョンをエクスポートします"
+    },
+    "more_features": {
+      "title": "スマートな赤色処理機能",
+      "description": "{{ProdFullName}}を使用してさまざまなファイルタイプのコンテンツを消去または隠します。プライベートな詳細を公共の目から遠ざけます。",
+      "image_description": "実用的な赤色処理ツール",
+      "feature_1": {
+        "title": "任意のテキストを変更",
+        "content": "文書内の任意の文字列を検索し、データを保護します。"
+      },
+      "feature_2": {
+        "title": "画像コンテンツを隠す",
+        "content": "敏感な部分を覆うために四角や長方形を追加します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーニング",
+        "content": "共有する前にファイルのバックグラウンドの詳細を削除または上書きします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}がどのように役立つか",
+      "content": "{{ProdFullName}}は{{ProgLang}}を使用する開発者が{{FileFormatUp}}ファイル内の不要なコンテンツを隠すことを可能にします。異なるファイルタイプで単語から画像まで、何でもブロックできます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の情報を隠す",
+      "description": "{{EnvNameShort}}の助けを借りて、{{FileFormatUp}}の文書にオーバーレイを追加するか、部分を削除して機密の詳細を保護します。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}内のテキストを赤色処理する",
+      "description": "{{ProdFullName}}を使用すれば、カラフルな四角で{{FileFormatUp}}文書に隠すことができます。レイアウトをそのままにしておきます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のテキストを赤色処理",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内の機密データを視界から隠すオーバーレイを追加します。",
+      "subtitle": "{{ProdFullName}}を探求する"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のプライベートコンテンツを隠す",
+      "content": {
+        "title": "{{ProdFullName}}を使うことで、{{EnvName}}の開発者は数ステップで文書を保護できます。",
+        "step_1": "クリーンアップしたいファイルへのパスを指定した{{textRedactor}}を開始します。",
+        "step_2": "ニーズに合った赤色処理のルールを選択します。",
+        "step_3": "一致させるパターンとオーバーレイの色を選択します。",
+        "step_4": "赤色処理を実行し、更新したファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内のテキストを隠すためにオーバーレイを使用する",
+      "comment_2": "{{textRedactor}}を初期化し、ファイルを指定します",
+      "comment_3": "赤色処理がどのように動作するかを定義します",
+      "comment_4": "隠す内容とオーバーレイの色を設定します",
+      "comment_5": "実行して変更を保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現による赤色処理",
+      "content": "この例では、正規表現を使ってテキストを検索し隠す方法を示します",
+      "comment_1": "赤色処理用のファイルを読み込みます",
+      "comment_2": "赤色処理のルールを設定する：検索テキストとブロック色",
+      "comment_3": "赤色処理のロジックを適用します",
+      "comment_4": "赤色処理された結果を保存します"
+    },
+    "more_features": {
+      "title": "ファイルを保護する方法",
+      "description": "{{ProdFullName}}は、レイアウトを変更せずに異なる形式でデータを隠すツールを提供します。",
+      "image_description": "重要な機能",
+      "feature_1": {
+        "title": "必要に応じてテキストを置き換え",
+        "content": "重要な情報を無許可のユーザーから隠すためにテキストを置き換えます。"
+      },
+      "feature_2": {
+        "title": "画像エリアを隠す",
+        "content": "オーバーレイボックスを描くことで完全な画像や部分を隠します。"
+      },
+      "feature_3": {
+        "title": "隠れたデータを消去",
+        "content": "プライベートな詳細が明かされる可能性のあるメタデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは",
+      "content": "{{ProdFullName}}は{{ProgLang}}を使用して文書内のコンテンツを覆ったり削除したりします。名前からメモまで、数ステップで何でもカバーできます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}ツールを使用して{{FileFormatUp}}のテキストを保護",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のプライベートエリアを覆うか、隠れたデータを削除します。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を介して{{FileFormatUp}}内のテキストを隠すオーバーレイを使用",
+      "description": "{{ProdFullName}}を使用すると、カラーブロックで{{FileFormatUp}}内の機密テキストを隠すのが容易です。重要な情報を隠したままドキュメントをそのままにしておきます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイルのオーバーレイテキスト赤色処理",
+      "description": "プログラミング言語{{ProgLang}}で記述されたオーバーレイを使用して、{{FileFormatUp}}ファイル内の重要な情報を保護します。セキュリティとコンプライアンスに最適です。",
+      "subtitle": "{{ProdFullName}}の機能の詳細"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のプライベートデータを赤色処理",
+      "content": {
+        "title": "{{ProdFullName}}は{{EnvName}}開発者が迅速に機密データを削除できるようにします。ファイルを安全に保護するためにこれらのステップに従ってください。",
+        "step_1": "{{FileFormatCap}}ファイルへのパスを指定して{{textRedactor}}を初期化します。",
+        "step_2": "コンテンツを赤色処理するルールを設定します。",
+        "step_3": "選択したテキストパターンとその色を選択します。",
+        "step_4": "赤色処理を適用して赤色処理されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "画像オーバーレイを使用して{{FileFormatUp}}内のテキストを赤色処理",
+      "comment_2": "{{textRedactor}}でファイルを読み込みます",
+      "comment_3": "赤色処理が必要な内容を定義します",
+      "comment_4": "一致するテキストとオーバーレイ色を追加します",
+      "comment_5": "赤色処理を実行し、最終的なファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現で一致したテキストを隠す",
+      "content": "正規表現を使用して機密コンテンツを見つけてカバーする方法を示すサンプルです。",
+      "comment_1": "赤色処理する文書を開きます",
+      "comment_2": "パターンと色を選択します",
+      "comment_3": "赤色処理のルールを実行します",
+      "comment_4": "赤色処理されたコピーを保存し確認します"
+    },
+    "more_features": {
+      "title": "追加の赤色処理ツール",
+      "description": "{{ProdFullName}}を使用することで、レイアウトを維持しながら可視および隠れた情報を削除します。",
+      "image_description": "クリーンで安全な出力",
+      "feature_1": {
+        "title": "露出したテキストを置き換え",
+        "content": "重要なデータが漏れる可能性のある単語やフレーズを隠します。"
+      },
+      "feature_2": {
+        "title": "画像を覆う",
+        "content": "敏感なビジュアルを固体ブロックで隠します。"
+      },
+      "feature_3": {
+        "title": "隠れた情報を消去",
+        "content": "ファイルのプライバシーを保つために隠れたメタデータをクリアします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは",
+      "content": "{{ProgLang}}を使用する開発者は、必要に応じて{{FileFormatUp}}文書の一部を隠したり削除したりするために{{ProdFullName}}を利用できます。数行のコードで名前、数字、または他のデータを隠します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルを保護",
+      "description": "{{EnvNameShort}}を使用して、レイアウトやフォーマットを壊さずに{{FileFormatUp}}フォーマット内のテキストを隠したりメタデータを消去したりできます。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用したオーバーレッド赤色処理で{{FileFormatUp}}内のコンテンツを隠す",
+      "description": "{{ProdFullName}}を使用して、ファイル内のテキストをオーバーレイで35272836.c41e5bdb4b81b7fcb178f280d102c30e59e7c00a932156f6bed60dc13e82e38a隠します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}の{{FileFormatUp}}ファイルのオーバーレッド赤色処理",
+      "description": "{{ProgLang}}コードを使用して、{{FileFormatUp}}ファイル内のテキストを隠し、データを保護します。文書の安全性を確保するためのクリーンなソリューションです。",
+      "subtitle": "{{ProdFullName}}の詳細"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}形式内の機密情報を赤色処理",
+      "content": {
+        "title": "{{ProdFullName}}は、{{EnvName}}の開発者が共有前に文書をクリーンに保つためのシンプルなツールです。",
+        "step_1": "{{textRedactor}}を開始し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "タスクのために赤色処理の設定を決定します。",
+        "step_3": "赤色処理するキーワードまたはフレーズを追加し、色を選択します。",
+        "step_4": "ツールを実行し、変更を保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内のテキストを隠すためにオーバーレイを使用する",
+      "comment_2": "{{textRedactor}}を作成し、ファイルを読み込みます",
+      "comment_3": "赤色処理のルールを選択します",
+      "comment_4": "隠すテキストを入力し、色を選択します",
+      "comment_5": "赤色処理を適用し、ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "テキスト赤色処理にregexを使用",
+      "content": "ファイル内のコンテンツを見つけて隠すために正規表現を使用する方法を示します",
+      "comment_1": "処理する文書を読み込みます",
+      "comment_2": "パターンとオーバーレイの設定を追加します",
+      "comment_3": "変更を適用します",
+      "comment_4": "赤色処理された文書を保存し、閉じます"
+    },
+    "more_features": {
+      "title": "データ保護のための重要な機能",
+      "description": "{{ProdFullName}}を使用すると、レイアウトや意味を失うことなく文書内のデータを隠したり削除したりできます。",
+      "image_description": "文書の安全性を高めるために作られました",
+      "feature_1": {
+        "title": "テキストコンテンツを変更",
+        "content": "選択した単語をファイル全体にわたって交換したり隠したりします。"
+      },
+      "feature_2": {
+        "title": "ビジュアルを赤色処理",
+        "content": "簡単なブロックで写真やエリアを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータを消去",
+        "content": "作者の名前やタイムスタンプなどのバックグラウンドデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を選ぶ理由",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者向けに設計され、{{FileFormatUp}}ファイル内のコンテンツを赤色処理または削除できます。テキスト、メタデータ、画像で作業するためにそれを使用してください。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルを赤色処理",
+      "description": "{{EnvNameShort}}の機能を使用して、{{FileFormatUp}}内の機密コンテンツをオーバーレイで覆ったり、完全に赤色処理したりします。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}オーバーレイで{{FileFormatUp}}内の機密テキストを隠す",
+      "description": "{{ProdFullName}}は、シンプルなオーバーレッド赤色処理を使用して{{FileFormatUp}}ファイルの一部を隠すことを可能にします。文書の構造を変更せずに安全に保ちます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}内のテキスト赤色処理",
+      "description": "{{ProgLang}}と{{ProdFullName}}の助けを借りて、{{FileFormatUp}}ファイル内のコンテンツをオーバーレイブロックで保護します。",
+      "subtitle": "{{ProdFullName}}の内部ツール"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書内のコンテンツを安全に保つ",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、{{EnvName}}アプリアプリで一般配布前にファイルをクリーンにします。",
+        "step_1": "新しい{{textRedactor}}インスタンスにファイルパスを渡します。",
+        "step_2": "何を、どのように赤色処理したいかを設定します。",
+        "step_3": "テキストパターンを定義し、オーバーレイの色を設定します。",
+        "step_4": "赤色処理を行い、更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内のテキストを隠すためにオーバーレイを使用する",
+      "comment_2": "{{textRedactor}}を使用してファイルを開きます",
+      "comment_3": "赤色処理を調整します",
+      "comment_4": "テキストを選択し、ブロッキング色を決定します",
+      "comment_5": "実行して赤色処理されたファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "Find & redact with regex",
+      "content": "正規表現がテキストを識別し、隠すのに役立つ方法を示します。",
+      "comment_1": "赤色処理が必要なファイルを開きます",
+      "comment_2": "regexを使用してルールを設定します",
+      "comment_3": "赤色処理プロセスを実行します",
+      "comment_4": "クリーンなバージョンを保存します"
+    },
+    "more_features": {
+      "title": "機密データを簡単に隠す",
+      "description": "{{ProdFullName}}を使用して、法律、ビジネス、または個人ファイル内のデータを保護するための文書タイプのコンテンツを削除するか覆い隠すことができます。",
+      "image_description": "柔軟な文書の赤色処理",
+      "feature_1": {
+        "title": "テキストを差し替える",
+        "content": "単語や数字を見つけて、それらを置き換えたり隠したりします。"
+      },
+      "feature_2": {
+        "title": "画像やセクションを隠す",
+        "content": "ページの画像や選択された箇所にオーバーレイを追加します。"
+      },
+      "feature_3": {
+        "title": "追加データを削除",
+        "content": "隠された情報が露出する可能性があるメタデータをクリアします。"
+      }
+    },
+    "about": {
+      "title": "このツールについて",
+      "content": "{{ProdFullName}}は{{ProgLang}}ユーザーが必要に応じて{{FileFormatUp}}文書をクリーンアップできるようにします。テキスト、メタデータ、または画像をカバーまたは削除します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のコンテンツを隠す",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルからオーバーレイを追加したり、データをクリアして機密情報を保持します。"
+    }
+  }
+}

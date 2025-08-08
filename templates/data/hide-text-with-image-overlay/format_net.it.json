@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Nascondi Testo Sensibile in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puoi nascondere il testo sensibile nei file {{FileFormatUp}} posizionando sovrapposizioni quadrate colorate. Mantieni i dati privati al sicuro senza modificare il layout originale."
+    },
+    "header": {
+      "title": "Nascondi Testo Sensibile nei Documenti {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Prendi il controllo del contenuto del file {{FileFormatUp}} utilizzando {{ProgLang}}. Usa redazioni per proteggere informazioni legali, finanziarie e personali.",
+      "subtitle": "Funzionalità di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteggi i dati aziendali nei documenti {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}}: progettato per aiutare le tue app {{EnvName}} a mantenere i documenti sicuri. Redigi informazioni private rapidamente.",
+        "step_1": "Crea un'istanza di {{textRedactor}} e fornisci il percorso del file {{FileFormatCap}} che desideri redigere.",
+        "step_2": "Configura le impostazioni di redazione per ottenere il risultato desiderato.",
+        "step_3": "Imposta il modello di testo da cercare e scegli il colore della sovrapposizione.",
+        "step_4": "Redigi il documento e salva le modifiche."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondi testo sensibile in {{FileFormatUp}} con immagini di sovrapposizione",
+      "comment_2": "Passa il percorso del file al costruttore di {{textRedactor}}",
+      "comment_3": "Imposta le opzioni di redazione",
+      "comment_4": "Definisci il modello di testo e il colore di sovrapposizione",
+      "comment_5": "Redigi e salva il file {{FileFormatUp}} aggiornato"
+    },
+    "example_bottom": {
+      "title": "Usa espressioni regolari per nascondere testo",
+      "content": "Questo esempio mostra come trovare e nascondere testo utilizzando espressioni regolari",
+      "comment_1": "Carica il documento che desideri redigere",
+      "comment_2": "Definisci le impostazioni di redazione: modello di testo e colore",
+      "comment_3": "Applica la redazione al contenuto",
+      "comment_4": "Salva la versione redatta"
+    },
+    "more_features": {
+      "title": "Redigi contenuti nei documenti",
+      "description": "Con {{ProdFullName}}, puoi rimuovere o nascondere contenuti in molti tipi di file. Proteggi informazioni sensibili mantenendo i tuoi documenti facili da leggere e condividere.",
+      "image_description": "Opzioni Avanzate di Redazione",
+      "feature_1": {
+        "title": "Modifica testo ovunque",
+        "content": "Cerca e sostituisci qualsiasi testo corrispondente nel tuo documento per aiutare a proteggere i dati riservati."
+      },
+      "feature_2": {
+        "title": "Copri immagini",
+        "content": "Posiziona sovrapposizioni sopra immagini intere o aree selezionate per nascondere contenuti visuali privati."
+      },
+      "feature_3": {
+        "title": "Gestisci i metadati",
+        "content": "Cancella o modifica i metadati nascosti per prevenire fughe di dati indesiderate."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli sviluppatori {{ProgLang}} gli strumenti per nascondere o rimuovere contenuti dai file {{FileFormatUp}}. È un modo semplice per mantenere i documenti al sicuro. Puoi coprire testo, immagini o metadati in molti tipi di file."
+    },
+    "formats": {
+      "title": "Proteggi il Contenuto {{FileFormatUp}} con Redazioni {{EnvNameShort}}",
+      "description": "Usa {{EnvNameShort}} per coprire o cancellare contenuti nei file {{FileFormatUp}}. È una scelta intelligente per mantenere documenti sensibili o ufficiali sicuri."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Copri Testo Sensibile in {{FileFormatUp}} Utilizzando Sovrapposizioni e {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} per proteggere testo privato in file {{FileFormatUp}} con semplici sovrapposizioni quadrate. Mantieni il layout del tuo documento invariato e i tuoi dati nascosti."
+    },
+    "header": {
+      "title": "Copri Testo in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Nascondi contenuti sensibili nei tuoi documenti {{FileFormatUp}} utilizzando codice {{ProgLang}}. Ottimo per la protezione di documenti legali, aziendali o personali.",
+      "subtitle": "Funzionalità di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Rimuovi dati privati dai documenti {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aiuta gli sviluppatori {{EnvName}} a ripulire i documenti in poche righe di codice.",
+        "step_1": "Crea un {{textRedactor}} e fornisci il tuo percorso file.",
+        "step_2": "Definisci come dovrebbe funzionare la redazione.",
+        "step_3": "Inserisci il testo da nascondere e scegli il colore della sovrapposizione.",
+        "step_4": "Redigi il file e salvalo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondi testo in {{FileFormatUp}} utilizzando blocchi di sovrapposizione",
+      "comment_2": "Crea un {{textRedactor}} e carica il file",
+      "comment_3": "Imposta le tue preferenze di redazione",
+      "comment_4": "Inserisci il testo e imposta il colore del blocco",
+      "comment_5": "Redigi e salva il documento aggiornato"
+    },
+    "example_bottom": {
+      "title": "Regex per redigere contenuti",
+      "content": "Scopri come le espressioni regolari possono trovare e nascondere parole sensibili",
+      "comment_1": "Apri il file target",
+      "comment_2": "Imposta modello e colore",
+      "comment_3": "Applica la logica di redazione",
+      "comment_4": "Esporta il documento redatto"
+    },
+    "more_features": {
+      "title": "Maggiori modi per ripulire i documenti",
+      "description": "Con {{ProdFullName}}, redigi diversi tipi di file per mantenere il tuo contenuto sicuro e professionale.",
+      "image_description": "Redazione intelligente integrata",
+      "feature_1": {
+        "title": "Modifica o rimuovi testo",
+        "content": "Trova frasi specifiche e nascondile o sostituiscile."
+      },
+      "feature_2": {
+        "title": "Nascondi aree delle immagini",
+        "content": "Copri punti sensibili in foto o pagine scannerizzate."
+      },
+      "feature_3": {
+        "title": "Cancella metadati nascosti",
+        "content": "Elimina informazioni invisibili che potrebbero esporre dati utente o di sistema."
+      }
+    },
+    "about": {
+      "title": "Cos'è {{ProdFullName}}?",
+      "content": "{{ProdFullName}} aiuta gli sviluppatori {{ProgLang}} a nascondere o cancellare contenuti privati nei file {{FileFormatUp}}. Usalo per bloccare testo, immagini e metadati in diversi formati di file."
+    },
+    "formats": {
+      "title": "Nascondi Contenuti in {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Proteggi dati sensibili nei documenti {{FileFormatUp}} coprendoli con sovrapposizioni o rimuovendoli completamente utilizzando gli strumenti di {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Nascondi Testo in {{FileFormatUp}} con Sovrapposizioni {{ProgLang}}",
+      "description": "{{ProdFullName}} aiuta a nascondere il testo nei file {{FileFormatUp}} utilizzando scatole colorate. Mantieni le informazioni al sicuro senza cambiare il formato del tuo documento."
+    },
+    "header": {
+      "title": "Maschera il Testo nei file {{FileFormatUp}} Utilizzando Sovrapposizioni e {{EnvNameShort}}",
+      "description": "Usa {{ProgLang}} e {{ProdFullName}} per aggiungere semplici sovrapposizioni che bloccano il testo sensibile nei tuoi file {{FileFormatUp}}.",
+      "subtitle": "Caratteristiche di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Mantieni sicure le informazioni sensibili nei documenti {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aiuta gli sviluppatori {{EnvName}} a proteggere i file. Nascondi contenuti privati con sole poche righe di codice.",
+        "step_1": "Crea un nuovo oggetto {{textRedactor}} con il percorso del tuo file {{FileFormatCap}}.",
+        "step_2": "Regola le impostazioni di redazione secondo necessità.",
+        "step_3": "Aggiungi un modello di ricerca e scegli un colore per il blocco di sovrapposizione.",
+        "step_4": "Esegui la redazione e salva il tuo file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Copri testo privato in {{FileFormatUp}} utilizzando sovrapposizioni",
+      "comment_2": "Carica il file con {{textRedactor}}",
+      "comment_3": "Scegli come funzionerà la redazione",
+      "comment_4": "Inserisci testo da nascondere e seleziona colore di sovrapposizione",
+      "comment_5": "Elabora il file e salva le modifiche"
+    },
+    "example_bottom": {
+      "title": "Corrispondi e nascondi con regex",
+      "content": "Scopri come rilevare e redigere contenuti utilizzando espressioni regolari",
+      "comment_1": "Apri il documento target",
+      "comment_2": "Imposta modello e colore di sovrapposizione",
+      "comment_3": "Applica le regole di redazione",
+      "comment_4": "Esporta la versione redatta"
+    },
+    "more_features": {
+      "title": "Funzionalità di redazione intelligente",
+      "description": "Usa {{ProdFullName}} per cancellare o nascondere contenuti in vari tipi di file. Mantieni i dettagli privati lontano dalla vista pubblica.",
+      "image_description": "Strumenti di redazione pratici",
+      "feature_1": {
+        "title": "Cambia qualsiasi testo",
+        "content": "Cerca e aggiorna qualsiasi stringa nel documento per proteggere i dati."
+      },
+      "feature_2": {
+        "title": "Nascondi contenuto delle immagini",
+        "content": "Aggiungi quadrati o rettangoli per coprire parti sensibili delle immagini."
+      },
+      "feature_3": {
+        "title": "Ripulisci i metadati",
+        "content": "Rimuovi o sovrascrivi i dettagli di file di sfondo prima della condivisione."
+      }
+    },
+    "about": {
+      "title": "Come {{ProdFullName}} Aiuta",
+      "content": "{{ProdFullName}} consente agli sviluppatori che utilizzano {{ProgLang}} di nascondere contenuti indesiderati nei file {{FileFormatUp}}. Block out anything—from words to pictures—across different file types."
+    },
+    "formats": {
+      "title": "Usa {{EnvNameShort}} per Nascondere Info nei file {{FileFormatUp}}",
+      "description": "Aggiungi sovrapposizioni o rimuovi parti dei tuoi documenti {{FileFormatUp}} per proteggere dettagli sensibili con l'aiuto di {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Redigi Testo in {{FileFormatUp}} Utilizzando Sovrapposizioni e {{ProgLang}}",
+      "description": "Nascondi contenuti privati nei documenti {{FileFormatUp}} coprendoli con quadrati colorati utilizzando {{ProdFullName}}. Mantieni il tuo layout così com'è."
+    },
+    "header": {
+      "title": "Redigi Testo in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Con {{ProgLang}} e {{ProdFullName}}, è semplice proteggere dati sensibili nei file {{FileFormatUp}} nascondendoli dalla vista.",
+      "subtitle": "Esplora {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Nascondi contenuti privati nei tuoi file {{FileFormatCap}}",
+      "content": {
+        "title": "Con {{ProdFullName}}, gli sviluppatori {{EnvName}} possono proteggere documenti in pochi semplici passaggi.",
+        "step_1": "Inizia un {{textRedactor}} con il percorso del file che desideri ripulire.",
+        "step_2": "Scegli le regole di redazione che si adattano alle tue esigenze.",
+        "step_3": "Scegli un modello da corrispondere e un colore per la sovrapposizione dell'immagine.",
+        "step_4": "Esegui la redazione e salva il file aggiornato."
+      }
+    },
+    "example_top": {
+      "comment_1": "Usa sovrapposizioni per coprire testo in {{FileFormatUp}}",
+      "comment_2": "Inizializza {{textRedactor}} con il tuo file",
+      "comment_3": "Definisci come dovrebbe comportarsi la redazione",
+      "comment_4": "Imposta cosa nascondere e il colore della sovrapposizione",
+      "comment_5": "Esegui e salva le modifiche"
+    },
+    "example_bottom": {
+      "title": "Redazione con espressione regolare",
+      "content": "Questo esempio mostra come cercare e nascondere testo con espressioni regolari",
+      "comment_1": "Carica un file per la redazione",
+      "comment_2": "Imposta le regole di redazione: testo di ricerca e colore del blocco",
+      "comment_3": "Applica la logica di redazione",
+      "comment_4": "Salva il risultato redatto"
+    },
+    "more_features": {
+      "title": "Altri modi per proteggere i tuoi file",
+      "description": "{{ProdFullName}} ti offre gli strumenti per nascondere dati in diversi formati senza modificare il layout.",
+      "image_description": "Funzionalità che contano",
+      "feature_1": {
+        "title": "Sostituisci testo secondo necessità",
+        "content": "Sostituisci testo per mantenere informazioni chiave lontano da utenti non autorizzati."
+      },
+      "feature_2": {
+        "title": "Nascondi aree delle immagini",
+        "content": "Nascondi intere immagini o determinate parti disegnando caselle di sovrapposizione."
+      },
+      "feature_3": {
+        "title": "Pulisci dati nascosti",
+        "content": "Elimina metadati integrati che potrebbero rivelare dettagli privati."
+      }
+    },
+    "about": {
+      "title": "Cosa Fa {{ProdFullName}}",
+      "content": "{{ProdFullName}} ti dà il potere di coprire o rimuovere contenuti nei documenti {{FileFormatUp}} utilizzando {{ProgLang}}. Nascondi tutto, dai nomi alle note, in pochi passaggi."
+    },
+    "formats": {
+      "title": "Sicurezza del testo {{FileFormatUp}} con Strumenti {{EnvNameShort}}",
+      "description": "Coprire aree private o rimuovere dati nascosti nei file {{FileFormatUp}} utilizzando le funzionalità di redazione {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Usa Sovrapposizioni per Nascondere Testo in {{FileFormatUp}} tramite {{ProgLang}}",
+      "description": "{{ProdFullName}} facilita la copertura di testo sensibile in {{FileFormatUp}} con blocchi di colore. Mantieni il documento intatto mentre nascondi ciò che conta."
+    },
+    "header": {
+      "title": "Redazione del Testo Sovrapposto nei File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Proteggi informazioni importanti nei file {{FileFormatUp}} utilizzando sovrapposizioni quadrate scritte in {{ProgLang}}. Ideale per sicurezza e conformità.",
+      "subtitle": "Scopri cosa può fare {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redigi dati privati nei file {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aiuta gli sviluppatori {{EnvName}} a rimuovere contenuti sensibili rapidamente. Segui questi passaggi per mettere in sicurezza i tuoi file.",
+        "step_1": "Inizializza un {{textRedactor}} con il percorso al tuo file {{FileFormatCap}}.",
+        "step_2": "Imposta le regole per redigere il contenuto.",
+        "step_3": "Scegli il modello testuale e il colore da usare per coprirlo.",
+        "step_4": "Applica la redazione e salva il tuo file redatto."
+      }
+    },
+    "example_top": {
+      "comment_1": "Redigi testo in {{FileFormatUp}} usando sovrapposizioni di immagini",
+      "comment_2": "Carica il tuo file con {{textRedactor}}",
+      "comment_3": "Definisci cosa deve essere redatto",
+      "comment_4": "Aggiungi il testo corrispondente e il colore della sovrapposizione",
+      "comment_5": "Esegui la redazione e salva il file finale"
+    },
+    "example_bottom": {
+      "title": "Nascondi testo corrispondente con regex",
+      "content": "Questo esempio mostra come usare le espressioni regolari per trovare e coprire contenuti sensibili",
+      "comment_1": "Apri il documento da redigere",
+      "comment_2": "Scegli modello e colore",
+      "comment_3": "Esegui le regole di redazione",
+      "comment_4": "Salva e rivedi la copia redatta"
+    },
+    "more_features": {
+      "title": "Strumenti extra di redazione",
+      "description": "Con {{ProdFullName}}, puoi mantenere i file puliti rimuovendo informazioni visibili e nascoste mentre mantieni il layout intatto.",
+      "image_description": "Output pulito e sicuro",
+      "feature_1": {
+        "title": "Sostituisci testo esposto",
+        "content": "Nascondi parole o frasi che potrebbero rivelare dati importanti."
+      },
+      "feature_2": {
+        "title": "Copri immagini",
+        "content": "Segna visivamente i contenuti sensibili con blocchi solidi."
+      },
+      "feature_3": {
+        "title": "Cancella informazioni nascoste",
+        "content": "Pulisci i metadati di sfondo per mantenere i file privati."
+      }
+    },
+    "about": {
+      "title": "Incontra {{ProdFullName}}",
+      "content": "Gli sviluppatori che lavorano con {{ProgLang}} possono usare {{ProdFullName}} per nascondere o rimuovere parti dei documenti {{FileFormatUp}}. Nascondi nomi, numeri o altri dati in poche righe di codice."
+    },
+    "formats": {
+      "title": "Proteggi i tuoi file {{FileFormatUp}} Utilizzando {{EnvNameShort}}",
+      "description": "Con {{EnvNameShort}}, puoi nascondere testo o cancellare metadati in formati {{FileFormatUp}} senza compromettere layout o formattazione."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Nascondi Contenuto in {{FileFormatUp}} con Redazione di Sovrapposizione e {{ProgLang}}",
+      "description": "Copri il testo nei documenti {{FileFormatUp}} utilizzando blocchi di colore solidi con {{ProdFullName}}. Un modo semplice per proteggere contenuti privati."
+    },
+    "header": {
+      "title": "Redazione di Sovrapposizione per i File {{FileFormatUp}} in {{EnvNameShort}}",
+      "description": "Usa codice {{ProgLang}} per nascondere testo e proteggere i dati all'interno dei tuoi file {{FileFormatUp}}. Una soluzione pulita per la sicurezza dei documenti.",
+      "subtitle": "Cosa include {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redigi info sensibili nel formato {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} è uno strumento semplice per gli sviluppatori {{EnvName}} per pulire i documenti prima della condivisione.",
+        "step_1": "Avvia un {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Decidi le impostazioni di redazione per il tuo compito.",
+        "step_3": "Aggiungi una parola chiave o frase da redigere e scegli un colore.",
+        "step_4": "Esegui lo strumento e salva le modifiche."
+      }
+    },
+    "example_top": {
+      "comment_1": "Usa sovrapposizioni per nascondere testo in {{FileFormatUp}}",
+      "comment_2": "Crea un {{textRedactor}} e carica il tuo file",
+      "comment_3": "Scegli regole di redazione",
+      "comment_4": "Inserisci cosa nascondere e scegli un colore",
+      "comment_5": "Applica la redazione e salva il file"
+    },
+    "example_bottom": {
+      "title": "Redazione di testo con regex",
+      "content": "Ecco come usare le regex per trovare e nascondere contenuti in un file",
+      "comment_1": "Carica il documento da elaborare",
+      "comment_2": "Aggiungi modello e impostazioni di sovrapposizione",
+      "comment_3": "Applica le modifiche",
+      "comment_4": "Salva e chiudi il documento redatto"
+    },
+    "more_features": {
+      "title": "Funzionalità chiave per la protezione dei dati",
+      "description": "{{ProdFullName}} ti consente di nascondere o cancellare dati all'interno dei tuoi documenti senza perdere layout o significato.",
+      "image_description": "Costruito per la sicurezza dei documenti",
+      "feature_1": {
+        "title": "Cambia contenuto testuale",
+        "content": "Sostituisci o nascondi parole selezionate in tutto il file."
+      },
+      "feature_2": {
+        "title": "Redigi immagini",
+        "content": "Nascondi foto o aree con semplici blocchi."
+      },
+      "feature_3": {
+        "title": "Pulisci i metadati",
+        "content": "Elimina dati di background come nomi autori o timestamp."
+      }
+    },
+    "about": {
+      "title": "Perché Scegliere {{ProdFullName}}",
+      "content": "{{ProdFullName}} è progettato per sviluppatori {{ProgLang}} che desiderano redigere o cancellare contenuti nei file {{FileFormatUp}}. Usalo per lavorare con testo, metadati e immagini."
+    },
+    "formats": {
+      "title": "Redigi i file {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Copri contenuti sensibili in {{FileFormatUp}} utilizzando sovrapposizioni quadrate o chiare redazioni con le funzionalità {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Nascondi Testo Sensibile in {{FileFormatUp}} con Sovrapposizioni {{ProgLang}}",
+      "description": "{{ProdFullName}} ti consente di nascondere parti di file {{FileFormatUp}} utilizzando semplici redazioni di sovrapposizione. Mantieni i documenti sicuri senza cambiare la struttura."
+    },
+    "header": {
+      "title": "Redazione del Testo in {{FileFormatUp}} con Sovrapposizioni Utilizzando {{EnvNameShort}}",
+      "description": "Proteggi il contenuto nei tuoi file {{FileFormatUp}} posizionando blocchi di sovrapposizione con l'aiuto di {{ProgLang}} e {{ProdFullName}}.",
+      "subtitle": "Strumenti all'interno di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteggi contenuto nei documenti {{FileFormatCap}}",
+      "content": {
+        "title": "Usa {{ProdFullName}} nelle tue app {{EnvName}} per ripulire i file prima della distribuzione.",
+        "step_1": "Passa il percorso del file a una nuova istanza di {{textRedactor}}.",
+        "step_2": "Imposta cosa e come vuoi redigere.",
+        "step_3": "Definisci il modello di testo e imposta il colore della sovrapposizione.",
+        "step_4": "Redigi e salva il tuo file aggiornato."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sovrapponi testo in {{FileFormatUp}} per nascondere dettagli",
+      "comment_2": "Usa {{textRedactor}} per aprire il tuo file",
+      "comment_3": "Regola le impostazioni per la redazione",
+      "comment_4": "Seleziona testo e un colore di blocco",
+      "comment_5": "Esegui e salva il file redatto"
+    },
+    "example_bottom": {
+      "title": "Trova e redigi con regex",
+      "content": "Questo mostra come le regex possono aiutare a identificare e nascondere testo",
+      "comment_1": "Apri il file che necessita di redazione",
+      "comment_2": "Imposta le tue regole utilizzando regex",
+      "comment_3": "Esegui il processo di redazione",
+      "comment_4": "Salva la versione ripulita"
+    },
+    "more_features": {
+      "title": "Nascondi dati sensibili facilmente",
+      "description": "Usa {{ProdFullName}} per rimuovere o coprire contenuti attraverso tipologie di documento, ideale per la protezione dei dati in file legali, aziendali o personali.",
+      "image_description": "Redazione flessibile del documento",
+      "feature_1": {
+        "title": "Sostituisci testo",
+        "content": "Trova parole o numeri e sostituiscili o nascondili."
+      },
+      "feature_2": {
+        "title": "Redigi foto o sezioni",
+        "content": "Aggiungi sovrapposizioni alle immagini o a sezioni selezionate di una pagina."
+      },
+      "feature_3": {
+        "title": "Rimuovi dati extra",
+        "content": "Pulisci metadati che potrebbero rivelare informazioni nascoste."
+      }
+    },
+    "about": {
+      "title": "Informazioni su Questo Strumento",
+      "content": "{{ProdFullName}} aiuta gli utenti {{ProgLang}} a ripulire i documenti {{FileFormatUp}} coprendo o cancellando testo, metadati o immagini secondo necessità."
+    },
+    "formats": {
+      "title": "Nascondi Contenuto in {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Aggiungi sovrapposizioni o dati chiari dai tuoi file {{FileFormatUp}} per mantenere contenuti sensibili privati utilizzando {{EnvNameShort}}."
+    }
+  }
+}

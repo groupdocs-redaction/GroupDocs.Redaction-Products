@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}의 민감한 텍스트 제거하기",
+      "description": "{{ProdFullName}}를 사용하여 {{FileFormatUp}} 파일의 개인 정보를 보호하세요. 민감한 데이터를 빠르게 검색하고 교정할 수 있습니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 이용한 {{FileFormatUp}} 문서의 민감한 텍스트 제거",
+      "description": "{{ProgLang}}와 {{ProdFullName}}를 사용하여 {{FileFormatUp}} 파일의 콘텐츠를 완벽하게 제어하세요. 개인 정보, 법적 데이터 또는 기밀 데이터를 효과적으로 정리할 수 있습니다.",
+      "subtitle": "{{ProdFullName}}로 할 수 있는 일"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일 내용 제거 방법",
+      "content": {
+        "title": "{{ProdFullName}}를 사용하여 어떤 {{EnvName}} 앱에서든 문서를 보호하세요. 민감한 텍스트를 빠르고 정확하게 제거할 수 있습니다.",
+        "step_1": "{{textRedactor}}를 초기화하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "필요한 교정 옵션을 설정합니다.",
+        "step_3": "검색할 텍스트와 대체할 텍스트를 지정합니다.",
+        "step_4": "교정을 실행하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 파일의 텍스트 교정 방법",
+      "comment_2": "{{textRedactor}} 생성자를 사용하여 파일을 로드합니다.",
+      "comment_3": "교정 기본 설정을 선택합니다.",
+      "comment_4": "검색할 내용과 대체할 내용을 선택합니다.",
+      "comment_5": "교정을 적용하고 새로운 {{FileFormatUp}} 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식으로 텍스트 교정하기",
+      "content": "정규 표현식을 사용하여 이메일이나 ID와 같은 민감한 텍스트 패턴을 검색하고 교정합니다.",
+      "comment_1": "정리할 문서를 엽니다.",
+      "comment_2": "EMAIL 정규 표현식 패턴과 대체할 텍스트를 정의합니다.",
+      "comment_3": "교정 규칙을 적용합니다.",
+      "comment_4": "최종 교정된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "문서 교정을 위한 추가 기능",
+      "description": "{{ProdFullName}}는 여러 파일 형식에서 민감한 콘텐츠를 제거하거나 숨기는 데 도움을 줍니다. 문서를 안전하게 공유할 수 있도록 깨끗하게 유지하세요.",
+      "image_description": "교정 도구 및 옵션",
+      "feature_1": {
+        "title": "기밀 텍스트 교체",
+        "content": "파일 어디에서나 일치하는 텍스트를 찾고 교체합니다. 정규 표현식 및 스마트 검색 옵션을 지원합니다."
+      },
+      "feature_2": {
+        "title": "민감한 이미지 숨기기",
+        "content": "오버레이를 사용하여 이미지나 특정 영역을 덮습니다. 페이지 설정, 색상 및 기타를 조정할 수 있습니다."
+      },
+      "feature_3": {
+        "title": "숨겨진 메타데이터 정리",
+        "content": "저자명, 타임스탬프 또는 댓글과 같은 숨겨진 데이터를 제거하여 개인 정보를 보호합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}란?",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 개발자에게 {{FileFormatUp}} 콘텐츠를 교정하는 데 필요한 모든 도구를 제공합니다. 인기 있는 파일 형식에서 텍스트, 이미지, 주석 및 메타데이터를 정리합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}}의 콘텐츠 교정하기",
+      "description": "{{EnvNameShort}} 도구를 사용하여 {{FileFormatUp}} 파일에서 텍스트를 교정하여 공식 및 개인 데이터를 보호합니다. 문서를 안전하고 비공개로 유지하세요."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에서 개인 텍스트 제거하기",
+      "description": "{{ProdFullName}}와 {{ProgLang}}을 사용하여 {{FileFormatUp}} 파일에서 개인 콘텐츠를 빠르게 보호합니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}와 함께 {{FileFormatUp}} 문서에서 민감한 텍스트 찾고 숨기기",
+      "description": "개인용이든 비즈니스용이든 {{ProdFullName}}와 {{ProgLang}}를 사용하여 개인 정보를 보이지 않게 유지하세요.",
+      "subtitle": "{{ProdFullName}}가 당신에게 도움이 되는 방법"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 콘텐츠 제거 방법",
+      "content": {
+        "title": "{{ProdFullName}}를 사용하여 개인 텍스트를 정리하기 위한 간편한 단계입니다.",
+        "step_1": "새 {{textRedactor}}를 시작하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "원하는 교정 설정을 선택합니다.",
+        "step_3": "찾을 텍스트와 대체할 텍스트를 입력합니다.",
+        "step_4": "교정을 실행하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 파일에서 텍스트 교정하기",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 로드합니다.",
+      "comment_3": "필요에 맞는 교정 옵션을 선택합니다.",
+      "comment_4": "검색할 내용을 설정하고 대체할 내용을 선택합니다.",
+      "comment_5": "도구를 실행하고 교정된 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식으로 패턴 찾고 교정하기",
+      "content": "정규 표현식을 사용하여 특정 데이터 유형(예: 이메일 주소 또는 ID 번호)을 검색하고 자동으로 정리합니다.",
+      "comment_1": "정리할 파일을 엽니다.",
+      "comment_2": "EMAIL 정규 표현식 규칙과 대체 문자열을 생성합니다.",
+      "comment_3": "설정에 따라 교정을 실행합니다.",
+      "comment_4": "업데이트된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "추가 교정 기능",
+      "description": "{{ProdFullName}}를 사용하면 다양한 파일 유형의 숨겨진 또는 보이는 콘텐츠를 쉽게 제거할 수 있습니다. 안전하게 공유하기 좋습니다.",
+      "image_description": "교정 도구 개요",
+      "feature_1": {
+        "title": "개인 텍스트 교체",
+        "content": "파일 어디에서나 특정 텍스트를 검색하고 교체합니다. 일반 텍스트 또는 패턴 모두 지원합니다."
+      },
+      "feature_2": {
+        "title": "민감한 이미지 가리기",
+        "content": "이미지의 일부 또는 전체 페이지를 오버레이로 가립니다. 색상, 크기 및 위치를 제어합니다."
+      },
+      "feature_3": {
+        "title": "숨겨진 데이터 삭제",
+        "content": "이름, 댓글 또는 타임스탬프와 같은 메타데이터를 제거하여 남는 것이 없도록 합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}란?",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 민감한 콘텐츠를 찾고 정리하는 도구를 제공합니다. 텍스트, 이미지, 주석 등을 처리합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}} 데이터 교정하기",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 문서에 있는 개인 또는 공식 정보를 숨기세요. 간단하고 효과적입니다."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에서 개인 텍스트 제거하기",
+      "description": "{{ProdFullName}}와 {{ProgLang}}을 사용하여 {{FileFormatUp}} 파일에서 개인 콘텐츠를 빠르게 정리합니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}와 함께 {{FileFormatUp}} 문서에서 민감한 텍스트 편집 또는 숨기기",
+      "description": "{{ProdFullName}}와 {{ProgLang}}을 사용하여 {{FileFormatUp}} 파일에서 개인 또는 비즈니스 정보를 제거하고 안전하게 공유할 수 있게 합니다.",
+      "subtitle": "{{ProdFullName}} 로 할 수 있는 일"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 텍스트 제거 방법",
+      "content": {
+        "title": "{{ProdFullName}}를 사용하여 {{EnvName}} 프로젝트에서 민감한 정보를 숨기거나 삭제하는 단계를 따르세요.",
+        "step_1": "{{textRedactor}}를 생성하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "필요에 맞는 교정 설정을 선택합니다.",
+        "step_3": "찾을 텍스트와 대체할 내용을 입력합니다.",
+        "step_4": "교정을 실행하고 업데이트된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 파일에서 텍스트 교정하기",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 엽니다.",
+      "comment_3": "교정 옵션을 선택합니다.",
+      "comment_4": "검색할 내용과 대체할 내용을 설정합니다.",
+      "comment_5": "교정을 적용하고 정리된 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식을 이용한 교정",
+      "content": "정규 표현식을 사용하여 전화번호, 이메일 또는 다른 개인 세부정보와 같은 패턴을 찾아 정리합니다.",
+      "comment_1": "정리할 파일을 엽니다.",
+      "comment_2": "EMAIL 정규 표현식 규칙을 작성하고 대체할 내용을 선택합니다.",
+      "comment_3": "패턴에 따라 교정을 실행합니다.",
+      "comment_4": "교정된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "교정을 위한 추가 도구",
+      "description": "{{ProdFullName}}는 다양한 콘텐츠(텍스트, 이미지, 메타데이터)를 정리하는 데 도움을 주므로 파일을 안전하게 공유할 수 있습니다.",
+      "image_description": "교정 옵션",
+      "feature_1": {
+        "title": "민감한 텍스트 교체",
+        "content": "파일을 검색하고 기밀 정보를 교체합니다. 일반 텍스트 및 패턴을 지원합니다."
+      },
+      "feature_2": {
+        "title": "이미지 영역 가리기",
+        "content": "오버레이를 사용하여 시각적 데이터를 숨깁니다. 색상, 영역 크기 및 페이지 레이아웃을 선택합니다."
+      },
+      "feature_3": {
+        "title": "여분의 데이터 삭제",
+        "content": "저자 이름, 타임스탬프 또는 내부 노트와 같은 메타데이터를 삭제하여 유출을 방지합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}란?",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 개발자가 {{FileFormatUp}} 파일에서 민감한 정보를 검색하고 제거할 수 있는 도구를 제공합니다. 텍스트, 이미지, 노트 및 파일 데이터를 처리합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}}에서 정보 숨기기",
+      "description": "{{EnvNameShort}} 도구를 사용하여 {{FileFormatUp}} 문서에서 개인 또는 민감한 텍스트를 제거합니다. 데이터를 비공개로 유지하세요."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Remove Private Text from {{FileFormatUp}} Using {{ProgLang}}",
+      "description": "Keep your {{FileFormatUp}} presentations private with {{ProdFullName}} and {{ProgLang}}. Fast redaction, simple setup."
+    },
+    "header": {
+      "title": "Edit or Hide Sensitive Text in {{FileFormatUp}} Documents with {{EnvNameShort}}",
+      "description": "Keep your presentations clean and private. Use {{ProdFullName}} and {{ProgLang}} to remove anything you don’t want shared.",
+      "subtitle": "What You Can Do with {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Steps to Clean {{FileFormatCap}} Presentations",
+      "content": {
+        "title": "Use {{ProdFullName}} in your {{EnvName}} app to remove or cover up sensitive content in just a few steps.",
+        "step_1": "Start a new {{textRedactor}} and load your {{FileFormatCap}} file.",
+        "step_2": "Pick the redaction rules you want to apply.",
+        "step_3": "Set the text to find and what to replace it with.",
+        "step_4": "Run redaction and save your file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Redacting a {{FileFormatUp}} presentation",
+      "comment_2": "Open the file with {{textRedactor}}",
+      "comment_3": "Pick the redaction settings",
+      "comment_4": "Choose the text to search and replace",
+      "comment_5": "Apply changes and save the updated file"
+    },
+    "example_bottom": {
+      "title": "Redact Using Regex Patterns",
+      "content": "Find and clean data like email addresses or IDs using regex. Great for repeatable redaction.",
+      "comment_1": "Open your file",
+      "comment_2": "Write an EMAIL regex pattern and set the replacement",
+      "comment_3": "Apply your redaction settings",
+      "comment_4": "Save the redacted version"
+    },
+    "more_features": {
+      "title": "Redaction Features You Can Use",
+      "description": "{{ProdFullName}} helps you find and hide sensitive text, images, and hidden data across multiple file types. Perfect for sharing files safely.",
+      "image_description": "Available redaction options",
+      "feature_1": {
+        "title": "Replace hidden text",
+        "content": "Search and swap private words or phrases anywhere in the file. Regex is supported too."
+      },
+      "feature_2": {
+        "title": "Cover images",
+        "content": "Use blocks to hide pictures or areas you want to mask. Control shape, size, and color."
+      },
+      "feature_3": {
+        "title": "Delete hidden details",
+        "content": "Clean metadata like author names, last edited dates, or comments to make your file clean."
+      }
+    },
+    "about": {
+      "title": "What is {{ProdFullName}}?",
+      "content": "{{ProdFullName}} gives {{ProgLang}} developers what they need to remove sensitive content from {{FileFormatUp}} files. It handles text, visuals, comments, and metadata."
+    },
+    "formats": {
+      "title": "Clean Up {{FileFormatUp}} Files with {{EnvNameShort}}",
+      "description": "Make your {{FileFormatUp}} documents safer to share by hiding private text with {{EnvNameShort}}. Quick, reliable results."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에서 개인 텍스트 제거하기",
+      "description": "{{ProgLang}}와 {{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 개인 정보를 보호하세요. 빠르고 쉽습니다."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 파일에서 민감한 텍스트 찾기 및 제거하기",
+      "description": "{{ProgLang}}와 {{ProdFullName}}를 사용하여 개인 또는 업무 파일을 보호하세요. 귀하의 개인 정보는 숨겨집니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 내용 제거 방법",
+      "content": {
+        "title": "{{ProdFullName}} 덕분에 {{EnvName}} 앱에서 개인 콘텐츠를 쉽게 찾고 대체할 수 있습니다.",
+        "step_1": "Create a {{textRedactor}} and open your {{FileFormatCap}} file.",
+        "step_2": "Choose your redaction settings.",
+        "step_3": "Tell it what to search and what text to use as a replacement.",
+        "step_4": "Start the redaction and save your updated file."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 문서 콘텐츠 교정 단계",
+      "comment_2": "{{textRedactor}}로 파일을 엽니다.",
+      "comment_3": "교정 설정을 조정합니다.",
+      "comment_4": "검색할 내용과 대체할 내용을 결정합니다.",
+      "comment_5": "교정을 실행하고 새로운 {{FileFormatUp}} 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식으로 스마트하게 교정하기",
+      "content": "이메일이나 ID와 같은 데이터 패턴을 찾고 제거하기 위해 정규 표현식을 사용하세요.",
+      "comment_1": "정리할 파일을 엽니다.",
+      "comment_2": "EMAIL 정규 표현식 패턴을 설정하고 대체할 텍스트를 선택합니다.",
+      "comment_3": "교정 프로세스를 실행합니다.",
+      "comment_4": "최종적으로 교정된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "추가 교정 도구",
+      "description": "{{ProdFullName}}는 다양한 파일 유형에서 개인 정보를 숨기거나 지울 수 있는 강력한 방법을 제공합니다. 안전하게 공유할 수 있습니다.",
+      "image_description": "사용 가능한 교정 도구 및 설정",
+      "feature_1": {
+        "title": "개인 텍스트 교체",
+        "content": "정확한 일치를 검색하고 스마트 텍스트 옵션을 이용해 교체합니다. 정규 표현식도 지원됩니다."
+      },
+      "feature_2": {
+        "title": "개인 이미지 숨기기",
+        "content": "전체 이미지 또는 페이지의 일부를 가립니다. 오버레이 색상과 크기를 조절할 수 있습니다."
+      },
+      "feature_3": {
+        "title": "숨겨진 메타데이터 삭제",
+        "content": "저자 이름, 최근 수정 날짜 또는 댓글과 같은 정보를 제거하여 신원을 보호합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}란?",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 사용자가 {{FileFormatUp}} 문서를 정리하는 데 필요한 도구를 제공합니다. 텍스트, 이미지, 주석 및 백그라운드 데이터를 교정합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}}를 교정하는 방법",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일을 정리하세요. 콘텐츠를 비공개로 안전하게 유지하세요."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에서 개인 텍스트 제거하기",
+      "description": "{{ProdFullName}}와 {{ProgLang}}을 사용하여 {{FileFormatUp}} 파일에서 개인 콘텐츠를 빠르게 정리합니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}와 함께 {{FileFormatUp}} 파일에서 민감한 텍스트 찾고 제거하기",
+      "description": "{{ProdFullName}}와 {{ProgLang}}를 사용하여 개인 또는 업무 파일을 보호하세요. 개인 정보가 숨겨집니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 내용 제거 방법",
+      "content": {
+        "title": "{{ProdFullName}} 덕분에 {{EnvName}} 앱에서 개인 콘텐츠를 쉽게 찾고 교체할 수 있습니다.",
+        "step_1": "새 {{textRedactor}}를 생성하고 {{FileFormatCap}} 파일을 엽니다.",
+        "step_2": "교정 설정을 선택하세요.",
+        "step_3": "어떤 내용을 검색하고 어떤 텍스트를 대체할지 명시합니다.",
+        "step_4": "교정 작업을 시작하고 업데이트된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 문서에서 내용 교정 단계",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 엽니다.",
+      "comment_3": "교정 설정을 조정합니다.",
+      "comment_4": "검색할 내용과 대체할 내용을 설정합니다.",
+      "comment_5": "교정을 실행하고 새 {{FileFormatUp}} 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식을 이용한 스마트한 교정",
+      "content": "이메일이나 ID와 같은 데이터 패턴을 정규 표현식을 사용하여 찾아 제거합니다.",
+      "comment_1": "정리할 파일을 엽니다.",
+      "comment_2": "EMAIL 정규 표현식 패턴을 입력하고 대체할 내용을 선택합니다.",
+      "comment_3": "교정 프로세스를 실행합니다.",
+      "comment_4": "최종적으로 교정된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "추가 교정 도구",
+      "description": "{{ProdFullName}}는 다양한 파일 유형에서 개인 정보를 숨기거나 지울 수 있는 강력한 방법을 제공합니다. 안전하게 공유할 수 있습니다.",
+      "image_description": "사용 가능한 교정 도구 및 설정",
+      "feature_1": {
+        "title": "개인 텍스트 교체",
+        "content": "정확하게 일치하는 내용을 검색하고 스마트 텍스트 옵션을 통해 교체할 수 있습니다. 정규 표현식도 지원됩니다."
+      },
+      "feature_2": {
+        "title": "이미지 숨기기",
+        "content": "오버레이를 통해 전체 이미지 또는 페이지의 일부를 숨깁니다. 색상, 크기 및 레이아웃을 조정할 수 있습니다."
+      },
+      "feature_3": {
+        "title": "여분의 데이터 삭제",
+        "content": "저자 이름, 타임스탬프 또는 댓글과 같은 메타데이터를 삭제하여 유출을 방지합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}란?",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 사용자가 {{FileFormatUp}} 문서를 정리하는 데 필요한 도구를 제공합니다. 텍스트, 이미지, 주석 및 백그라운드 데이터를 처리합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}}를 교정하는 방법",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일을 정리하세요. 콘텐츠를 비공개로 안전하게 유지하세요."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에서 개인 텍스트 제거하기",
+      "description": "{{ProdFullName}}와 {{ProgLang}}을 사용하여 {{FileFormatUp}} 파일에서 개인 정보를 보호하세요. 빠르고 간편한 교정입니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 이용한 {{FileFormatUp}} 문서의 민감한 텍스트 편집 또는 숨기기",
+      "description": "프레젠테이션을 깨끗하고 비공개로 유지하세요. {{ProdFullName}}과 {{ProgLang}}을 사용하여 공유하고 싶지 않은 내용을 제거하세요.",
+      "subtitle": "{{ProdFullName}}로 할 수 있는 일"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 프레젠테이션 정리 단계",
+      "content": {
+        "title": "{{ProdFullName}}를 사용하여 {{EnvName}} 앱에서 민감한 콘텐츠를 제거하거나 가릴 수 있는 몇 가지 단계입니다.",
+        "step_1": "새 {{textRedactor}}를 시작하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "적용할 교정 규칙을 선택합니다.",
+        "step_3": "찾을 텍스트와 대체할 내용을 설정합니다.",
+        "step_4": "교정을 실행하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 프레젠테이션 교정하기",
+      "comment_2": "{{textRedactor}}로 파일을 엽니다.",
+      "comment_3": "교정 설정을 선택합니다.",
+      "comment_4": "검색할 텍스트와 대체할 내용을 설정합니다.",
+      "comment_5": "변경 사항을 적용하고 업데이트된 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식 패턴으로 교정하기",
+      "content": "정규 표현식을 이용해 이메일 주소나 ID 등 데이터를 찾아 정리합니다. 반복 가능한 교정이 가능합니다.",
+      "comment_1": "정리할 파일을 엽니다.",
+      "comment_2": "EMAIL 정규 표현식 패턴을 작성하고 대체 내용을 설정합니다.",
+      "comment_3": "교정 설정을 적용합니다.",
+      "comment_4": "교정된 버전을 저장합니다."
+    },
+    "more_features": {
+      "title": "사용할 수 있는 교정 기능",
+      "description": "{{ProdFullName}}는 다양한 파일 유형에서 민감한 텍스트, 이미지 및 숨겨진 데이터를 찾고 숨기는 데 도움을 줍니다. 안전하게 파일을 공유할 수 있습니다.",
+      "image_description": "사용 가능한 교정 옵션",
+      "feature_1": {
+        "title": "숨겨진 텍스트 치환하기",
+        "content": "파일에서 개인 키워드 또는 문구를 찾아서 교체합니다. 정규 표현식도 지원됩니다."
+      },
+      "feature_2": {
+        "title": "이미지 가리기",
+        "content": "은폐 블록을 사용하여 원하시는 이미지를 가리세요. 모양, 크기, 색상을 조절하세요."
+      },
+      "feature_3": {
+        "title": "숨겨진 세부정보 삭제",
+        "content": "저자 이름, 수정 이력 또는 주석 등의 메타데이터를 정리하여 파일을 깔끔하게 유지합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}란?",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 사용자가 {{FileFormatUp}} 문서에서 민감한 콘텐츠를 제거하기 위한 도구를 제공합니다. 텍스트, 이미지, 주석 및 메타데이터를 처리합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}} 파일 정리하기",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 문서에서 개인 텍스트를 숨겨서 안전하게 공유하세요. 빠르고 신뢰할 수 있는 결과를 제공합니다."
+    }
+  }
+}

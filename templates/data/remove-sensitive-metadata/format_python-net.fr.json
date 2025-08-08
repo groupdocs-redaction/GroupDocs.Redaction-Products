@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Supprimer les métadonnées de {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "{{ProdFullName}} permet de nettoyer les données cachées dans les fichiers {{FileFormatUp}}. Évitez de partager des informations privées en modifiant ou en supprimant les métadonnées."
+    },
+    "header": {
+      "title": "Supprimer les métadonnées des fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{ProgLang}} et {{ProdFullName}} pour nettoyer les informations sensibles de vos documents {{FileFormatUp}}. Gardez le contrôle de vos données grâce à des outils de censure efficaces.",
+      "subtitle": "Ce que {{ProdFullName}} peut faire"
+    },
+    "steps": {
+      "title": "Supprimer les métadonnées des documents {{FileFormatCap}}",
+      "content": {
+        "title": "Commencez à protéger vos fichiers en utilisant {{ProdShortName}} dans les applications {{EnvName}}.",
+        "step_1": "Créez un {{textRedactor}} et chargez votre fichier {{FileFormatCap}}.",
+        "step_2": "Ajoutez des règles pour supprimer les métadonnées cachées.",
+        "step_3": "Exécutez la censure pour supprimer les entrées de métadonnées.",
+        "step_4": "Enregistrez le fichier sans les données cachées."
+      }
+    },
+    "example_top": {
+      "comment_1": "Supprimer les métadonnées des documents {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier avec {{textRedactor}}",
+      "comment_3": "Choisissez les champs de métadonnées à supprimer",
+      "comment_4": "Censurez et enregistrez votre document"
+    },
+    "example_bottom": {
+      "title": "Modifier et supprimer les champs de métadonnées",
+      "content": "Cet exemple explique comment effacer les métadonnées cachées dans un fichier {{FileFormatUp}}.",
+      "comment_1": "Ouvrez le fichier dans {{textRedactor}}",
+      "comment_2": "Supprimez la métadonnée Auteur",
+      "comment_3": "Supprimez la métadonnée Titre",
+      "comment_4": "Exécutez le processus de censure",
+      "comment_5": "Enregistrez le fichier mis à jour"
+    },
+    "more_features": {
+      "title": "Nettoyez le contenu caché dans les documents",
+      "description": "Avec {{ProdFullName}}, vous pouvez supprimer en toute sécurité le texte, les images et les métadonnées. Gardez vos fichiers privés et sécurisés avant de les partager.",
+      "image_description": "Options de censure",
+      "feature_1": {
+        "title": "Suppression de texte",
+        "content": "Recherchez et effacez le texte sensible dans les documents."
+      },
+      "feature_2": {
+        "title": "Masquage d'images",
+        "content": "Cachez des parties spécifiques des images avec des superpositions simples."
+      },
+      "feature_3": {
+        "title": "Nettoyage des métadonnées",
+        "content": "Éliminez les métadonnées indésirables qui pourraient exposer des données privées."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdShortName}} aide les développeurs {{ProgLang}} à nettoyer les documents {{FileFormatUp}} en supprimant le texte, le contenu d'image et les métadonnées."
+    },
+    "formats": {
+      "title": "Nettoyez les métadonnées de {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Supprimez les champs de données cachées dans {{FileFormatUp}} en utilisant {{EnvNameShort}}. Une manière intelligente de protéger la vie privée et de garder vos fichiers propres."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Effacer les métadonnées dans {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProdFullName}} pour effacer les détails cachés dans les fichiers {{FileFormatUp}}. Protégez vos données en supprimant les entrées de métadonnées sensibles."
+    },
+    "header": {
+      "title": "Effacer les métadonnées cachées des fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Avec {{ProgLang}}, vous pouvez supprimer les métadonnées cachées des fichiers {{FileFormatUp}} en utilisant {{ProdFullName}}. Gardez vos fichiers propres et privés.",
+      "subtitle": "Principales fonctionnalités de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Supprimer les métadonnées des fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} offre à vos applications {{EnvName}} les outils nécessaires pour supprimer rapidement les métadonnées.",
+        "step_1": "Démarrez un {{textRedactor}} et chargez votre document {{FileFormatCap}}.",
+        "step_2": "Configurez les champs de métadonnées à supprimer.",
+        "step_3": "Appliquez la censure pour nettoyer le contenu caché.",
+        "step_4": "Enregistrez la version finale du fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nettoyez les métadonnées dans les fichiers {{FileFormatUp}}",
+      "comment_2": "Utilisez {{textRedactor}} pour ouvrir le document",
+      "comment_3": "Choisissez les entrées de métadonnées à supprimer",
+      "comment_4": "Appliquez la censure et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Exemple : Supprimer les métadonnées cachées",
+      "content": "Voici comment vous pouvez supprimer les champs Auteur et Titre d'un document {{FileFormatUp}} en utilisant la censure.",
+      "comment_1": "Ouvrez le fichier {{FileFormatUp}}",
+      "comment_2": "Choisissez de supprimer le champ Auteur",
+      "comment_3": "Choisissez de supprimer le champ Titre",
+      "comment_4": "Exécutez la censure des métadonnées",
+      "comment_5": "Enregistrez le fichier propre"
+    },
+    "more_features": {
+      "title": "Sécurisez chaque partie d'un document",
+      "description": "Avec {{ProdFullName}}, vous pouvez nettoyer le texte, les images et les métadonnées dans plusieurs formats de fichiers. Idéal pour la confidentialité et la sécurité.",
+      "image_description": "Outils de censure de documents en action",
+      "feature_1": {
+        "title": "Nettoyeur de texte",
+        "content": "Trouvez et supprimez les noms, les termes ou tout mot privé."
+      },
+      "feature_2": {
+        "title": "Couverture d'images",
+        "content": "Cachez des parties d'une image en plaçant une superposition colorée."
+      },
+      "feature_3": {
+        "title": "Suppression de métadonnées",
+        "content": "Éliminez les informations cachées des documents, telles que les détails d'auteur ou de logiciel."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}} ?",
+      "content": "{{ProdShortName}} offre aux développeurs {{ProgLang}} la possibilité d'effacer des données cachées dans des fichiers {{FileFormatUp}}. Nettoyez facilement le texte, les visuels et les métadonnées des documents."
+    },
+    "formats": {
+      "title": "Supprimer les métadonnées dans {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Supprimez les métadonnées cachées dans les fichiers {{FileFormatUp}} en utilisant {{EnvNameShort}}. Idéal pour sécuriser vos fichiers avant de les partager ou de les archiver."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Effacer les métadonnées de {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Éliminez les métadonnées cachées dans vos documents {{FileFormatUp}} en utilisant {{ProdFullName}}. Une manière propre de protéger votre vie privée."
+    },
+    "header": {
+      "title": "Supprimer les métadonnées des fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Avec {{ProgLang}}, vous pouvez supprimer en toute sécurité les détails privés de vos fichiers {{FileFormatUp}}. Idéal pour un usage personnel et professionnel.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Essuyez les métadonnées des fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} permet à vos projets {{EnvName}} de supprimer rapidement les données de fichier indésirables.",
+        "step_1": "Créez une instance de {{textRedactor}} et chargez votre fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez les entrées de métadonnées que vous souhaitez effacer.",
+        "step_3": "Exécutez la censure pour supprimer ces entrées.",
+        "step_4": "Enregistrez le fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Supprimer les métadonnées cachées dans votre document {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier en utilisant {{textRedactor}}",
+      "comment_3": "Déterminez les champs de métadonnées à supprimer",
+      "comment_4": "Appliquez les modifications et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Supprimer les métadonnées d'un document",
+      "content": "Voici comment supprimer les métadonnées de votre fichier {{FileFormatUp}} en utilisant quelques lignes de code.",
+      "comment_1": "Ouvrez le document",
+      "comment_2": "Marquez le champ Auteur pour suppression",
+      "comment_3": "Marquez le champ Titre pour suppression",
+      "comment_4": "Exécutez les règles de censure",
+      "comment_5": "Enregistrez le fichier propre"
+    },
+    "more_features": {
+      "title": "Masquez du contenu sensible n'importe où dans le fichier",
+      "description": "{{ProdFullName}} vous permet de nettoyer les informations privées dans plusieurs formats de fichiers. Gardez votre contenu prêt à partager.",
+      "image_description": "Censure des métadonnées et contenu",
+      "feature_1": {
+        "title": "Supprimer le texte sensible",
+        "content": "Trouvez et retirez les noms, les e-mails ou d'autres détails privés des documents."
+      },
+      "feature_2": {
+        "title": "Masquer les zones d'image",
+        "content": "Placez des superpositions pour cacher des zones dans les images qui ne devraient pas être visibles."
+      },
+      "feature_3": {
+        "title": "Nettoyeur de métadonnées",
+        "content": "Supprimez les champs cachés comme Auteur, Titre ou date de création."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}} ?",
+      "content": "{{ProdShortName}} offre aux développeurs {{ProgLang}} des outils pour effacer ou cacher tout contenu sensible dans des fichiers {{FileFormatUp}} — du texte aux images en passant par les métadonnées."
+    },
+    "formats": {
+      "title": "Essuyez les métadonnées dans {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour supprimer les métadonnées privées dans vos fichiers {{FileFormatUp}}. On peut sécuriser le contenu avant de le partager ou de le publier."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Supprimer les métadonnées des fichiers {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "{{ProdFullName}} aide à nettoyer les données cachées dans les fichiers {{FileFormatUp}}. Supprimez les détails qui pourraient révéler des informations sensibles."
+    },
+    "header": {
+      "title": "Supprimer les métadonnées dans {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Effacez les métadonnées privées stockées dans les fichiers {{FileFormatUp}} en utilisant {{ProgLang}}. Une manière intelligente de protéger vos informations.",
+      "subtitle": "Outils principaux dans {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Nettoyer les métadonnées des fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "Utilisez {{ProdShortName}} pour supprimer rapidement les métadonnées de votre application {{EnvName}}.",
+        "step_1": "Créez un {{textRedactor}} et ouvrez le document {{FileFormatCap}}.",
+        "step_2": "Choisissez quelles métadonnées vous souhaitez effacer.",
+        "step_3": "Appliquez la censure pour supprimer les données cachées.",
+        "step_4": "Enregistrez le fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Effacer les métadonnées dans {{FileFormatUp}}",
+      "comment_2": "Ouvrez votre fichier avec {{textRedactor}}",
+      "comment_3": "Choisissez les champs à censurer",
+      "comment_4": "Exécutez et enregistrez les modifications"
+    },
+    "example_bottom": {
+      "title": "Exemple : Supprimer les champs de métadonnées",
+      "content": "Suivez cet exemple pour supprimer des champs de métadonnées courants d'un fichier {{FileFormatUp}} avant de le partager.",
+      "comment_1": "Chargez le fichier",
+      "comment_2": "Marquez le champ Auteur pour censure",
+      "comment_3": "Marquez le champ Titre pour censure",
+      "comment_4": "Appliquez la censure",
+      "comment_5": "Exportez le fichier nettoyé"
+    },
+    "more_features": {
+      "title": "Autres moyens de cacher des informations sensibles",
+      "description": "{{ProdFullName}} prend en charge la censure à travers de nombreux formats. Un moyen rapide de supprimer le contenu personnel des documents.",
+      "image_description": "Outils de censure de fichiers",
+      "feature_1": {
+        "title": "Rechercher et supprimer du texte",
+        "content": "Supprimez rapidement des mots ou des phrases contenant des données personnelles ou sensibles."
+      },
+      "feature_2": {
+        "title": "Ajouter des superpositions d'images",
+        "content": "Couvrez les sections des images qui ne devraient pas être partagées."
+      },
+      "feature_3": {
+        "title": "Supprimer les métadonnées cachées",
+        "content": "Éliminez les noms d'auteurs, les titres et d'autres balises cachées."
+      }
+    },
+    "about": {
+      "title": "En savoir plus sur {{ProdFullName}}",
+      "content": "{{ProdShortName}} est conçu pour les développeurs {{ProgLang}} souhaitant garder leurs documents propres. Utilisez-le pour supprimer du texte, couvrir des images ou supprimer des métadonnées des fichiers {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Utilisez {{EnvNameShort}} pour nettoyer les métadonnées de {{FileFormatUp}}",
+      "description": "Supprimez les données d'arrière-plan de {{FileFormatUp}} avec {{EnvNameShort}}. Parfait pour la confidentialité et la conformité."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Nettoyez les métadonnées des fichiers {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProdFullName}} pour supprimer les métadonnées cachées dans les fichiers {{FileFormatUp}}. Protégez vos documents des révélations d'informations personnelles ou internes."
+    },
+    "header": {
+      "title": "Supprimer les métadonnées dans {{FileFormatUp}} avec les outils {{EnvNameShort}}",
+      "description": "Gardez vos fichiers en sécurité en supprimant les métadonnées indésirables avec {{ProgLang}}. Idéal pour les entreprises et les utilisateurs individuels.",
+      "subtitle": "Fonctionnalités de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Supprimer les métadonnées cachées dans {{FileFormatCap}}",
+      "content": {
+        "title": "Avec {{ProdShortName}}, votre application {{EnvName}} peut rapidement nettoyer les métadonnées du document.",
+        "step_1": "Créez un objet {{textRedactor}} et ouvrez le fichier {{FileFormatCap}}.",
+        "step_2": "Définissez les règles de censure pour les champs de métadonnées.",
+        "step_3": "Exécutez la censure pour supprimer les données sélectionnées.",
+        "step_4": "Enregistrez la version nettoyée du fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nettoyez les métadonnées dans {{FileFormatUp}}",
+      "comment_2": "Ouvrez le document avec {{textRedactor}}",
+      "comment_3": "Sélectionnez les métadonnées à supprimer",
+      "comment_4": "Appliquez la censure et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Supprimer les métadonnées des fichiers {{FileFormatUp}}",
+      "content": "Cet exemple montre comment supprimer des champs comme Auteur et Titre d'un document {{FileFormatUp}}.",
+      "comment_1": "Importez votre document",
+      "comment_2": "Ciblez les métadonnées Auteur",
+      "comment_3": "Ciblez les métadonnées Titre",
+      "comment_4": "Exécutez l'outil de censure",
+      "comment_5": "Enregistrez le fichier mis à jour"
+    },
+    "more_features": {
+      "title": "Protégez plus que de simples métadonnées",
+      "description": "Censurez le texte, couvrez les images et supprimez les métadonnées en utilisant {{ProdFullName}}. Gardez vos documents propres et privés.",
+      "image_description": "Options de protection des documents",
+      "feature_1": {
+        "title": "Trouver et remplacer du texte",
+        "content": "Supprimez ou remplacez les mots et phrases contenant des données privées ou sensibles."
+      },
+      "feature_2": {
+        "title": "Ajouter des couvertures d'images",
+        "content": "Placez des superpositions pour cacher des parties des images dans vos documents."
+      },
+      "feature_3": {
+        "title": "Éliminer les métadonnées",
+        "content": "Nettoyez les noms d'auteurs, les titres, les commentaires et d'autres informations cachées."
+      }
+    },
+    "about": {
+      "title": "Rencontrez {{ProdFullName}}",
+      "content": "{{ProdShortName}} est conçu pour les développeurs {{ProgLang}} qui souhaitent garder les fichiers {{FileFormatUp}} privés. Il vous permet de supprimer du texte, de cacher des parties des images et de nettoyer les métadonnées."
+    },
+    "formats": {
+      "title": "Supprimer les métadonnées dans {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour nettoyer les métadonnées cachées des {{FileFormatUp}}. Gardez vos fichiers en sécurité avant de les partager ou de les archiver."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Effacer les métadonnées de {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProdFullName}} pour supprimer des métadonnées des documents {{FileFormatUp}}. Éliminez les données cachées et protégez les informations sensibles."
+    },
+    "header": {
+      "title": "Supprimer les métadonnées cachées dans {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Prenez le contrôle de vos fichiers {{FileFormatUp}} avec {{ProgLang}}. Éliminez les données indésirables pour garder vos fichiers privés.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Étapes pour nettoyer les métadonnées dans les fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "Dans vos applications {{EnvName}}, {{ProdShortName}} aide à supprimer les métadonnées en quelques étapes seulement.",
+        "step_1": "Démarrez un {{textRedactor}} et ouvrez le fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez les champs de métadonnées à supprimer.",
+        "step_3": "Exécutez le processus de censure.",
+        "step_4": "Exportez le fichier final."
+      }
+    },
+    "example_top": {
+      "comment_1": "Supprimez les données cachées dans {{FileFormatUp}}",
+      "comment_2": "Ouvrez votre fichier avec redactor",
+      "comment_3": "Choisissez les métadonnées à supprimer",
+      "comment_4": "Traitez et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Supprimer les métadonnées Auteur et Titre",
+      "content": "Découvrez comment {{ProdFullName}} efface certains champs de métadonnées des documents {{FileFormatUp}}.",
+      "comment_1": "Ouvrez le document pour censure",
+      "comment_2": "Supprimez les informations sur l'auteur",
+      "comment_3": "Supprimez le champ Titre",
+      "comment_4": "Appliquez les modifications",
+      "comment_5": "Enregistrez le document nettoyé"
+    },
+    "more_features": {
+      "title": "Nettoyez tous les types de données sensibles",
+      "description": "{{ProdFullName}} vous fournit des outils pour effacer les métadonnées, le texte et les images dans de nombreux formats. Parfait pour un partage de documents sécurisé.",
+      "image_description": "Outils de protection des métadonnées et de la confidentialité",
+      "feature_1": {
+        "title": "Supprimer le texte privé",
+        "content": "Détectez et supprimez les informations personnelles ou cachées de vos documents."
+      },
+      "feature_2": {
+        "title": "Masquer les détails d'image",
+        "content": "Couvrez des parties des images pour bloquer des visuels privés."
+      },
+      "feature_3": {
+        "title": "Nettoyez les métadonnées",
+        "content": "Effacez les champs de métadonnées cachés qui pourraient contenir des données sensibles."
+      }
+    },
+    "about": {
+      "title": "Familiarisez-vous avec {{ProdFullName}}",
+      "content": "{{ProdShortName}} est conçu pour les développeurs {{ProgLang}} qui ont besoin de nettoyer et de protéger les fichiers {{FileFormatUp}}. Supprimez facilement les métadonnées, le texte et les images indésirables."
+    },
+    "formats": {
+      "title": "Nettoyez les métadonnées dans {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour supprimer les métadonnées sensibles de vos fichiers {{FileFormatUp}}. Sécurisez le contenu avant de le partager."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Effacer les métadonnées dans {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Sécurisez vos documents {{FileFormatUp}} avec {{ProdFullName}} en effaçant les métadonnées cachées qui peuvent contenir des informations privées."
+    },
+    "header": {
+      "title": "Nettoyez les métadonnées de {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Obtenez un meilleur contrôle de vos fichiers grâce aux outils {{ProgLang}} qui suppriment rapidement les métadonnées cachées.",
+      "subtitle": "Principales fonctionnalités de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Étapes pour effacer les métadonnées dans {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} permet à vos applications {{EnvName}} de nettoyer les métadonnées des documents en quelques clics.",
+        "step_1": "Créez une instance de {{textRedactor}} et ouvrez votre document.",
+        "step_2": "Choisissez quels champs de métadonnées effacer.",
+        "step_3": "Configurez et appliquez les paramètres de censure.",
+        "step_4": "Enregistrez la version finale sans les données cachées."
+      }
+    },
+    "example_top": {
+      "comment_1": "Effacer les métadonnées de {{FileFormatUp}}",
+      "comment_2": "Chargez le fichier dans le redactor",
+      "comment_3": "Choisissez les métadonnées à supprimer",
+      "comment_4": "Nettoyez et enregistrez le document"
+    },
+    "example_bottom": {
+      "title": "Comment supprimer les métadonnées cachées",
+      "content": "Cet exemple montre comment effacer les métadonnées intégrées telles que l'Auteur et le Titre de votre document {{FileFormatUp}}.",
+      "comment_1": "Ouvrez le fichier dans le redactor",
+      "comment_2": "Effacez le champ Auteur",
+      "comment_3": "Effacez le champ Titre",
+      "comment_4": "Effectuez la censure",
+      "comment_5": "Enregistrez le fichier mis à jour"
+    },
+    "more_features": {
+      "title": "Censure avancée pour {{FileFormatUp}}",
+      "description": "{{ProdFullName}} aide à nettoyer les fichiers en supprimant le contenu sensible. Fonctionne avec plusieurs formats de fichiers et types de données.",
+      "image_description": "Options principales de censure",
+      "feature_1": {
+        "title": "Effacer le texte privé",
+        "content": "Recherchez et supprimez des mots ou des phrases qui ne devraient pas être partagés."
+      },
+      "feature_2": {
+        "title": "Couvrir les sections d'image",
+        "content": "Cachez des parties des images contenant des visuels privés ou sensibles."
+      },
+      "feature_3": {
+        "title": "Effacer les métadonnées",
+        "content": "Effacez des champs de métadonnées comme Auteur, Titre et Commentaires de vos fichiers."
+      }
+    },
+    "about": {
+      "title": "En savoir plus sur {{ProdFullName}}",
+      "content": "{{ProdShortName}} est conçu pour aider les développeurs {{ProgLang}} en supprimant le texte, les images et les métadonnées dans les fichiers {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Nettoyage des métadonnées pour {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour effacer les données privées des documents {{FileFormatUp}}. Idéal pour un usage légal, commercial et personnel."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Modifier les métadonnées dans {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "{{ProdFullName}} vous aide à effacer ou à mettre à jour les métadonnées dans les documents {{FileFormatUp}}. Supprimez les champs cachés qui peuvent révéler des détails privés."
+    },
+    "header": {
+      "title": "Nettoyez les métadonnées dans {{FileFormatUp}} via {{EnvNameShort}}",
+      "description": "Sécurisez vos fichiers {{FileFormatUp}} en supprimant les métadonnées cachées à l'aide d'outils simples conçus pour {{ProgLang}}.",
+      "subtitle": "Fonctionnalités essentielles de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Étapes pour nettoyer les métadonnées {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} rend la suppression des métadonnées rapide et simple pour vos applications {{EnvName}}.",
+        "step_1": "Configurez un {{textRedactor}} et ouvrez votre document {{FileFormatCap}}.",
+        "step_2": "Choisissez les options pour supprimer les champs de métadonnées.",
+        "step_3": "Exécutez la censure pour nettoyer le fichier.",
+        "step_4": "Enregistrez la nouvelle version sans données cachées."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nettoyez les métadonnées dans {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier en utilisant {{textRedactor}}",
+      "comment_3": "Choisissez les champs de métadonnées à nettoyer",
+      "comment_4": "Appliquez la censure et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Modifier les champs de métadonnées",
+      "content": "Cet exemple passe en revue la suppression ou la modification de champs tels que Auteur et Titre dans un document {{FileFormatUp}}.",
+      "comment_1": "Ouvrez le fichier {{FileFormatUp}}",
+      "comment_2": "Ciblez le champ Auteur",
+      "comment_3": "Ciblez le champ Titre",
+      "comment_4": "Exécutez le processus de nettoyage",
+      "comment_5": "Enregistrez la nouvelle version"
+    },
+    "more_features": {
+      "title": "Protéger la vie privée dans chaque fichier",
+      "description": "{{ProdFullName}} vous donne le contrôle sur les données sensibles dans les documents. Supprimez le contenu caché dans le texte, les images et les métadonnées.",
+      "image_description": "Fonctionnalités de censure des métadonnées",
+      "feature_1": {
+        "title": "Trouver et effacer du texte",
+        "content": "Scannez à la recherche de mots-clés ou d'informations privées et supprimez-les du document."
+      },
+      "feature_2": {
+        "title": "Masquer les détails des images",
+        "content": "Couvrez les zones d'images qui ne devraient pas être vues par d'autres."
+      },
+      "feature_3": {
+        "title": "Éditer les métadonnées du fichier",
+        "content": "Modifiez ou supprimez les champs de métadonnées pour protéger les informations du document."
+      }
+    },
+    "about": {
+      "title": "En savoir plus sur {{ProdFullName}}",
+      "content": "{{ProdShortName}} fournit aux développeurs {{ProgLang}} des outils simples pour supprimer le texte, les images et les métadonnées des documents {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Nettoyez les métadonnées de {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour supprimer rapidement et facilement les données cachées et privées de vos documents {{FileFormatUp}}."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Nettoyez les métadonnées cachées dans {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "{{ProdFullName}} vous aide à supprimer les métadonnées privées des documents {{FileFormatUp}}. Gardez vos fichiers propres et sécurisés."
+    },
+    "header": {
+      "title": "Supprimer les métadonnées dans les fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez les outils {{ProgLang}} pour protéger les documents {{FileFormatUp}}. Supprimez les informations cachées avant de partager ou de publier.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Comment supprimer les métadonnées des fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} aide les développeurs {{EnvName}} à nettoyer les métadonnées des documents en quelques étapes.",
+        "step_1": "Configurez un {{textRedactor}} et chargez votre fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez les métadonnées à effacer.",
+        "step_3": "Exécutez le processus de censure.",
+        "step_4": "Enregistrez votre fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nettoyez les champs cachés dans les fichiers {{FileFormatUp}}",
+      "comment_2": "Utilisez {{textRedactor}} pour ouvrir le fichier",
+      "comment_3": "Sélectionnez les champs de métadonnées à censurer",
+      "comment_4": "Traitez et exportez"
+    },
+    "example_bottom": {
+      "title": "Supprimer les champs de métadonnées",
+      "content": "Cet exemple montre comment supprimer des métadonnées comme Auteur et Titre dans des fichiers {{FileFormatUp}}.",
+      "comment_1": "Ouvrez le fichier dans le redactor",
+      "comment_2": "Choisissez le champ Auteur",
+      "comment_3": "Choisissez le champ Titre",
+      "comment_4": "Exécutez la censure",
+      "comment_5": "Enregistrez le document final"
+    },
+    "more_features": {
+      "title": "Nettoyez les données sensibles de n'importe quel fichier",
+      "description": "{{ProdFullName}} supprime le texte, les images et les métadonnées qui ne doivent pas être partagées. Fonctionne avec de nombreux formats.",
+      "image_description": "Principaux outils de censure",
+      "feature_1": {
+        "title": "Supprimer le texte",
+        "content": "Effacez des mots ou des motifs de vos fichiers pour protéger des informations sensibles."
+      },
+      "feature_2": {
+        "title": "Masquer les images",
+        "content": "Couvrez des parties des images qui doivent rester privées."
+      },
+      "feature_3": {
+        "title": "Supprimer les métadonnées",
+        "content": "Effacez les données cachées des propriétés de fichier comme Auteur ou Titre."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdShortName}} permet aux développeurs {{ProgLang}} de nettoyer les fichiers en supprimant le contenu sensible dans le texte, les images et les métadonnées des fichiers {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Utilisez {{EnvNameShort}} pour supprimer les métadonnées de {{FileFormatUp}}",
+      "description": "Nettoyez rapidement les métadonnées dans les fichiers {{FileFormatUp}} en utilisant {{EnvNameShort}}. Gardez vos documents en sécurité et privés."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Supprimer les métadonnées dans {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Avec {{ProdFullName}}, vous pouvez effacer les données cachées des fichiers {{FileFormatUp}} et éviter de divulguer des informations privées."
+    },
+    "header": {
+      "title": "Nettoyez les métadonnées de {{FileFormatUp}} à l'aide de {{EnvNameShort}}",
+      "description": "Protégez vos documents {{FileFormatUp}} en effaçant les informations cachées avec des outils {{ProgLang}} faciles à utiliser.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Étapes pour effacer les métadonnées de {{FileFormatCap}}",
+      "content": {
+        "title": "Utilisez {{ProdShortName}} dans votre projet {{EnvName}} pour nettoyer les métadonnées des documents en quelques étapes.",
+        "step_1": "Installez un {{textRedactor}} et ouvrez votre fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez quels champs de métadonnées supprimer.",
+        "step_3": "Appliquez la censure pour nettoyer le fichier.",
+        "step_4": "Enregistrez la version finale."
+      }
+    },
+    "example_top": {
+      "comment_1": "Supprimez les métadonnées dans les documents {{FileFormatUp}}",
+      "comment_2": "Utilisez {{textRedactor}} pour ouvrir votre fichier",
+      "comment_3": "Choisissez les métadonnées à censurer",
+      "comment_4": "Exécutez et enregistrez"
+    },
+    "example_bottom": {
+      "title": "Supprimer des métadonnées spécifiques",
+      "content": "Suivez cet exemple pour supprimer les champs Auteur et Titre dans un document {{FileFormatUp}}.",
+      "comment_1": "Chargez le fichier dans le redactor",
+      "comment_2": "Ciblez le champ Auteur",
+      "comment_3": "Ciblez le champ Titre",
+      "comment_4": "Censurez les métadonnées sélectionnées",
+      "comment_5": "Enregistrez le fichier mis à jour"
+    },
+    "more_features": {
+      "title": "Nettoyez les fichiers avant de partager",
+      "description": "{{ProdFullName}} aide à supprimer les données qui ne devraient pas être vues. Supprimez le texte, les images et les détails cachés en quelques clics.",
+      "image_description": "Fonctionnalités de censure utiles",
+      "feature_1": {
+        "title": "Suppression de texte",
+        "content": "Trouvez et supprimez les mots, chiffres ou motifs sensibles."
+      },
+      "feature_2": {
+        "title": "Masquage d'images",
+        "content": "Couvrez des parties des images contenant des données privées."
+      },
+      "feature_3": {
+        "title": "Nettoyage des métadonnées",
+        "content": "Supprimez les détails du fichier comme Auteur, Titre ou Commentaires."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdShortName}} offre aux utilisateurs {{ProgLang}} un moyen de nettoyer les fichiers en supprimant le contenu caché du texte, des images et des métadonnées dans {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Censurez les métadonnées de {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour effacer les métadonnées cachées des fichiers {{FileFormatUp}}. Gardez les documents propres et sécurisés."
+    }
+  }
+}

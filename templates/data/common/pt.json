@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Redigir Excel",
+        "description": "Planilhas do MS Excel e Open Office"
+      },
+      "word": {
+        "name": "Redigir Word",
+        "description": "Documentos do MS Word e Open Office"
+      },
+      "powerpoint": {
+        "name": "Redigir PowerPoint",
+        "description": "Apresentações do MS PowerPoint e Open Office"
+      },
+      "image": {
+        "name": "Redigir Imagem",
+        "description": "Formatos de imagem populares"
+      },
+      "photo": {
+        "name": "Redigir Foto",
+        "description": "Formatos de foto"
+      },
+      "pdf": {
+        "name": "Redigir PDF",
+        "description": "Formato de Documento Portátil da Adobe"
+      },
+      "doc": {
+        "name": "Redigir DOC",
+        "description": "Documento Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Redigir DOCX",
+        "description": "Documento Microsoft Word Open XML"
+      },
+      "xls": {
+        "name": "Redigir XLS",
+        "description": "Pasta de Trabalho do Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Redigir XLSX",
+        "description": "Planilha do Microsoft Excel Open XML"
+      },
+      "ppt": {
+        "name": "Redigir PPT",
+        "description": "Apresentação PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Redigir PPTX",
+        "description": "Apresentação PowerPoint Open XML"
+      },
+      "jpg": {
+        "name": "Redigir JPEG",
+        "description": "Imagem JPEG"
+      },
+      "jpeg": {
+        "name": "Redigir JPEG",
+        "description": "Imagem JPEG"
+      },
+      "png": {
+        "name": "Redigir PNG",
+        "description": "Gráfico de Rede Portátil"
+      },
+      "tiff": {
+        "name": "Redigir TIFF",
+        "description": "Formato de Arquivo de Imagem Marcada"
+      },
+      "webp": {
+        "name": "Redigir WEBP",
+        "description": "Imagem WEB"
+      },
+      "rtf": {
+        "name": "Redigir RTF",
+        "description": "Formato de Texto Rico"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "result_title": "Redações de exemplo",
+      "result_title_bottom": "Baixar resultado",
+      "copy_tip": "clique para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Mais exemplos",
+        "title_2": "Documentação"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto para começar?",
+      "description": "Experimente os recursos do {{ProdShortName}} gratuitamente ou solicite uma licença",
+      "comment_1": "Download do {{PackageStoreName}}",
+      "comment_2": "Licenciamento"
+    },
+    "texts": {
+      "learn_more": "Saiba mais"
+    }
+  }
+}

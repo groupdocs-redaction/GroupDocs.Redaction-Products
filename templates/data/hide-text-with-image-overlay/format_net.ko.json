@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}의 민감한 텍스트 숨기기",
+      "description": "{{ProdFullName}}을 사용하면 색깔이 입혀진 사각형 오버레이를 통해 {{FileFormatUp}} 파일에서 민감한 텍스트를 숨길 수 있습니다. 원본 레이아웃을 변경하지 않고 개인 데이터를 안전하게 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 문서에서 민감한 텍스트 숨기기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일 콘텐츠를 제어하세요. 법적, 재무적, 개인적 정보를 보호하기 위해 수정 작업을 사용할 수 있습니다.",
+      "subtitle": "{{ProdFullName}} 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 비즈니스 데이터 보호하기",
+      "content": {
+        "title": "{{ProdFullName}}: 귀하의 {{EnvName}} 앱이 문서를 안전하게 유지할 수 있도록 돕기 위해 설계되었습니다. 개인 정보를 신속하게 수정하세요.",
+        "step_1": "{{textRedactor}} 인스턴스를 생성하고 수정하려는 {{FileFormatCap}} 파일의 경로를 제공합니다.",
+        "step_2": "원하는 결과를 얻기 위해 수정 설정을 구성합니다.",
+        "step_3": "검색할 텍스트 패턴을 설정하고 오버레이 색상을 선택합니다.",
+        "step_4": "문서를 수정하고 변경 사항을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 오버레이 이미지를 사용하여 민감한 텍스트 숨기기",
+      "comment_2": "{{textRedactor}} 생성자에게 파일 경로를 전달합니다.",
+      "comment_3": "수정 옵션을 설정합니다.",
+      "comment_4": "텍스트 패턴과 오버레이 색상을 정의합니다.",
+      "comment_5": "{{FileFormatUp}} 파일을 수정하고 업데이트된 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식을 사용하여 텍스트 숨기기",
+      "content": "이 예제는 정규 표현식을 사용하여 텍스트를 찾고 숨기는 방법을 보여줍니다.",
+      "comment_1": "수정할 문서를 로드합니다.",
+      "comment_2": "수정 설정을 정의합니다: 텍스트 패턴과 색상.",
+      "comment_3": "내용에 수정 작업을 적용합니다.",
+      "comment_4": "수정된 버전을 저장합니다."
+    },
+    "more_features": {
+      "title": "문서에서 콘텐츠 수정하기",
+      "description": "{{ProdFullName}}을 사용하면 다양한 파일 유형에서 콘텐츠를 제거하거나 숨길 수 있습니다. 문서를 쉽게 읽고 공유하면서도 민감한 정보를 보호할 수 있습니다.",
+      "image_description": "고급 수정 옵션",
+      "feature_1": {
+        "title": "어디서든 텍스트 수정",
+        "content": "문서에서 일치하는 텍스트를 검색하고 대체하여 기밀 데이터를 보호합니다."
+      },
+      "feature_2": {
+        "title": "이미지 가리기",
+        "content": "개인적인 비주얼을 숨기기 위해 전체 이미지 또는 선택한 영역에 오버레이를 놓습니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 처리",
+        "content": "원치 않는 데이터 유출을 방지하기 위해 숨겨진 메타데이터를 지우거나 변경합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대하여",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 제거할 수 있는 도구를 제공합니다. 텍스트, 이미지 또는 다양한 파일 유형의 메타데이터를 가릴 수 있습니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 수정으로 {{FileFormatUp}} 콘텐츠 보호하기",
+      "description": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}} 파일의 콘텐츠를 가리거나 제거하세요. 민감하거나 공식적인 문서를 안전하게 보호하는 스마트한 선택입니다."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}을 사용하여 오버레이로 {{FileFormatUp}}의 민감한 텍스트 가리기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 개인 텍스트를 간단한 정사각형 오버레이로 보호하세요. 문서 레이아웃은 변경하지 않고 데이터를 숨길 수 있습니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}}에서 텍스트 가리기",
+      "description": "{{ProgLang}} 코드를 사용하여 {{FileFormatUp}} 문서에서 민감한 콘텐츠를 숨깁니다. 법적, 비즈니스 또는 개인 문서 보호에 적합합니다.",
+      "subtitle": "{{ProdFullName}} 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 개인 데이터 제거하기",
+      "content": {
+        "title": "{{ProdFullName}}은 {{EnvName}} 개발자가 몇 줄의 코드로 문서를 정리할 수 있도록 돕습니다.",
+        "step_1": "{{textRedactor}}를 생성하고 파일 경로를 제공합니다.",
+        "step_2": "수정 작업이 작동할 방식을 정의합니다.",
+        "step_3": "숨길 텍스트를 입력하고 오버레이 색상을 선택합니다.",
+        "step_4": "파일을 수정하고 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "오버레이 블록을 사용하여 {{FileFormatUp}}에서 텍스트 숨기기",
+      "comment_2": "{{textRedactor}}를 생성하고 파일을 로드합니다.",
+      "comment_3": "수정 기본 설정을 설정합니다.",
+      "comment_4": "숨길 텍스트를 입력하고 블록 색상을 설정합니다.",
+      "comment_5": "수정하고 업데이트된 문서를 저장합니다."
+    },
+    "example_bottom": {
+      "title": "콘텐츠 수정용 정규 표현식",
+      "content": "정규 표현식이 민감한 단어를 찾고 숨기는 방법을 보여줍니다.",
+      "comment_1": "대상 파일을 엽니다.",
+      "comment_2": "패턴과 색상을 설정합니다.",
+      "comment_3": "수정 논리를 적용합니다.",
+      "comment_4": "수정된 문서를 내보냅니다."
+    },
+    "more_features": {
+      "title": "문서 정리의 다양한 방법",
+      "description": "{{ProdFullName}}과 함께 다양한 파일 유형을 수정하여 콘텐츠를 안전하고 전문적으로 유지하세요.",
+      "image_description": "내장된 스마트 수정 기능",
+      "feature_1": {
+        "title": "텍스트 수정 또는 제거",
+        "content": "특정 구문을 찾아서 숨기거나 대체합니다."
+      },
+      "feature_2": {
+        "title": "이미지 영역 숨기기",
+        "content": "사진이나 스캔 페이지에서 민감한 부분을 가립니다."
+      },
+      "feature_3": {
+        "title": "숨겨진 메타데이터 지우기",
+        "content": "사용자 또는 시스템 데이터를 노출할 수 있는 숨겨진 정보를 삭제합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}이란?",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자가 {{FileFormatUp}} 파일에서 개인 콘텐츠를 숨기거나 삭제하는 데 도움을 줍니다. 다양한 파일 형식에서 텍스트, 이미지, 메타데이터를 차단할 수 있습니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}으로 {{FileFormatUp}}에서 콘텐츠 숨기기",
+      "description": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}} 문서에서 민감한 데이터를 가리거나 완전히 제거하세요."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}} 오버레이로 {{FileFormatUp}}에서 텍스트 숨기기",
+      "description": "{{ProdFullName}}은 색깔이 입혀진 박스를 사용하여 {{FileFormatUp}} 파일의 텍스트를 숨기는 데 도움을 줍니다. 문서 형식을 변경하지 않고 정보를 안전하게 유지하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}} 파일에서 텍스트 마스킹하기",
+      "description": "{{ProgLang}} 및 {{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 민감한 텍스트를 차단하는 간단한 오버레이를 추가하세요.",
+      "subtitle": "{{ProdFullName}}의 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 민감한 정보 안전하게 유지하기",
+      "content": {
+        "title": "{{ProdFullName}}은 {{EnvName}} 개발자가 파일을 보호하는 데 도움을 줍니다. 몇 줄의 코드로 개인 콘텐츠를 숨기세요.",
+        "step_1": "새로운 {{textRedactor}} 객체를 생성하고 {{FileFormatCap}} 파일 경로를 입력합니다.",
+        "step_2": "필요에 따라 수정 설정을 조정합니다.",
+        "step_3": "검색 패턴을 추가하고 오버레이 블록의 색상을 선택합니다.",
+        "step_4": "수정 작업을 실행하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 오버레이를 사용하여 개인 텍스트 숨기기",
+      "comment_2": "{{textRedactor}}로 파일을 로드합니다.",
+      "comment_3": "수정 방식을 선택합니다.",
+      "comment_4": "숨길 텍스트를 입력하고 오버레이 색상을 선택합니다.",
+      "comment_5": "파일을 처리하고 변경 사항을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식으로 일치시키고 숨기기",
+      "content": "정규 표현식을 사용하여 콘텐츠를 감지하고 수정하는 방법을 배워보세요.",
+      "comment_1": "대상 문서를 엽니다.",
+      "comment_2": "패턴과 오버레이 색상을 설정합니다.",
+      "comment_3": "수정 규칙을 적용합니다.",
+      "comment_4": "수정된 버전을 내보냅니다."
+    },
+    "more_features": {
+      "title": "스마트 수정 기능",
+      "description": "{{ProdFullName}}을 사용하여 다양한 파일 유형에서 콘텐츠를 제거하거나 숨길 수 있습니다. 개인 세부정보를 공개되지 않도록 유지하세요.",
+      "image_description": "실용적인 수정 도구",
+      "feature_1": {
+        "title": "모든 텍스트 변경",
+        "content": "문서에서 데이터를 보호하기 위해 문자열을 검색하고 업데이트합니다."
+      },
+      "feature_2": {
+        "title": "이미지 콘텐츠 숨기기",
+        "content": "민감한 부분을 가리기 위해 사각형 또는 직사각형을 추가합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 정리",
+        "content": "공유하기 전에 파일의 배경 세부정보를 제거하거나 덮어씌웁니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}의 도움",
+      "content": "{{ProdFullName}}은 {{ProgLang}}를 사용하는 개발자가 {{FileFormatUp}} 파일에서 원치 않는 콘텐츠를 숨길 수 있게 합니다. 이름부터 그림까지, 다양한 파일 형식에서 완전히 차단하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}}의 정보 숨기기",
+      "description": "{{EnvNameShort}}의 도움을 받아 {{FileFormatUp}} 문서에서 오버레이를 추가하거나 정보를 제거하세요."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 텍스트 수정하기",
+      "description": "{{ProdFullName}}은 색깔이 입혀진 정사각형으로 {{FileFormatUp}} 문서의 개인 정보를 숨길 수 있습니다. 레이아웃을 그대로 유지하면서 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}}에서 텍스트 수정하기",
+      "description": "{{ProgLang}} 및 {{ProdFullName}}과 함께 {{FileFormatUp}} 파일에서 민감한 데이터를 가리거나 보호하기가 간단합니다.",
+      "subtitle": "{{ProdFullName}} 탐색하기"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 개인 콘텐츠 숨기기",
+      "content": {
+        "title": "{{ProdFullName}}을 사용하면 {{EnvName}} 개발자가 몇 가지 간단한 단계로 문서를 보호할 수 있습니다.",
+        "step_1": "정리할 파일의 경로로 {{textRedactor}}를 시작합니다.",
+        "step_2": "필요에 맞는 수정 규칙을 선택합니다.",
+        "step_3": "일치할 패턴과 이미지 오버레이 색상을 선택합니다.",
+        "step_4": "수정 작업을 실행하고 업데이트된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 텍스트를 가리기 위해 오버레이 사용하기",
+      "comment_2": "{{textRedactor}}를 초기화하여 파일을 엽니다.",
+      "comment_3": "수정이 어떻게 작동할지를 정의합니다.",
+      "comment_4": "숨길 항목과 오버레이 색상을 설정합니다.",
+      "comment_5": "작업을 실행하고 변경 사항을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식 수정",
+      "content": "이 예제는 정규 표현식을 사용하여 텍스트를 검색하고 숨기는 방법을 보여줍니다.",
+      "comment_1": "수정할 파일을 엽니다.",
+      "comment_2": "수정 규칙을 설정합니다: 검색 텍스트와 블록 색상.",
+      "comment_3": "수정 논리를 적용합니다.",
+      "comment_4": "수정된 결과를 저장합니다."
+    },
+    "more_features": {
+      "title": "파일을 보호하는 다양한 방법",
+      "description": "{{ProdFullName}}는 구조를 변경하지 않고도 다양한 형식의 데이터를 숨기거나 제거할 수 있는 도구를 제공합니다.",
+      "image_description": "중요한 기능",
+      "feature_1": {
+        "title": "필요에 따라 텍스트 대체",
+        "content": "키 정보를 무단 사용자로부터 지키기 위해 텍스트를 바꿉니다."
+      },
+      "feature_2": {
+        "title": "이미지 영역 숨기기",
+        "content": "오버레이 상자를 그려 전체 이미지 또는 특정 부분을 숨깁니다."
+      },
+      "feature_3": {
+        "title": "숨겨진 데이터 지우기",
+        "content": "프라이빗 세부정보를 드러낼 수 있는 포함된 메타데이터를 삭제합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}의 기능",
+      "content": "{{ProdFullName}}은 {{ProgLang}}를 사용하여 {{FileFormatUp}} 문서에서 콘텐츠를 숨기거나 제거할 수 있는 권한을 제공합니다. 몇 단계로 이름부터 메모까지 모든 것을 숨길 수 있습니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 도구로 {{FileFormatUp}} 텍스트 보호하기",
+      "description": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}} 파일에서 개인 영역을 가리거나 숨겨진 데이터를 제거하세요."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}를 통해 {{FileFormatUp}}에서 텍스트 숨기기",
+      "description": "{{ProdFullName}}은 색상의 블록으로 {{FileFormatUp}}에서 민감한 텍스트를 숨기는 작업을 간편하게 합니다. 중요 내용을 가리는 동안 문서를 완전하게 유지하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}} 파일에서 오버레이 텍스트 수정",
+      "description": "{{ProgLang}}으로 작성된 정사각형 오버레이를 사용하여 {{FileFormatUp}} 파일에서 중요한 정보를 보호하세요. 보안 및 규정 준수에 이상적입니다.",
+      "subtitle": "{{ProdFullName}}의 기능 살펴보기"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 개인 데이터 수정하기",
+      "content": {
+        "title": "{{ProdFullName}}은 {{EnvName}} 개발자가 신속하게 민감한 콘텐츠를 제거할 수 있도록 도와줍니다. 파일을 보호하려면 다음 단계를 따르세요.",
+        "step_1": "{{FileFormatCap}} 파일의 경로로 {{textRedactor}}를 초기화합니다.",
+        "step_2": "콘텐츠를 수정할 규칙을 설정합니다.",
+        "step_3": "텍스트 패턴을 선택하고 가릴 색상을 고릅니다.",
+        "step_4": "수정을 적용하고 수정된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "이미지 오버레이를 사용하여 {{FileFormatUp}}에서 텍스트 수정",
+      "comment_2": "{{textRedactor}}로 파일을 로드합니다.",
+      "comment_3": "어떤 내용을 수정할지 정의합니다.",
+      "comment_4": "일치하는 텍스트와 오버레이 색상을 추가합니다.",
+      "comment_5": "수정을 실행하고 최종 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식으로 일치하는 텍스트 숨기기",
+      "content": "이 샘플은 정규 표현식을 사용하여 민감한 콘텐츠를 찾고 가리는 방법을 보여줍니다.",
+      "comment_1": "수정할 문서를 엽니다.",
+      "comment_2": "패턴과 색상을 선택합니다.",
+      "comment_3": "수정 규칙을 실행합니다.",
+      "comment_4": "수정된 복사본을 저장하고 검토합니다."
+    },
+    "more_features": {
+      "title": "추가 수정 도구",
+      "description": "{{ProdFullName}}을 사용하면 레이아웃을 유지하면서도 가시적 및 숨겨진 정보를 제거하여 파일을 정리할 수 있습니다.",
+      "image_description": "깨끗하고 안전한 출력",
+      "feature_1": {
+        "title": "노출된 텍스트 대체",
+        "content": "중요 데이터 유출 가능성이 있는 단어나 구문을 숨깁니다."
+      },
+      "feature_2": {
+        "title": "이미지 덮기",
+        "content": "민감한 비주얼을 단단한 블록으로 가립니다."
+      },
+      "feature_3": {
+        "title": "숨겨진 정보 지우기",
+        "content": "파일을 비공식적으로 유지하기 위해 배경 메타데이터를 지웁니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 알아보기",
+      "content": "{{ProgLang}}로 작업하는 개발자는 {{ProdFullName}}을 사용하여 {{FileFormatUp}} 문서의 일부를 숨기거나 제거할 수 있습니다. 몇 줄의 코드로 이름, 숫자 또는 기타 데이터를 숨길 수 있습니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일 보호하기",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 형식에서 텍스트를 숨기거나 메타데이터를 삭제하여 레이아웃이나 서식을 깨뜨리지 않고 보호하세요."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}의 오버레이 수정으로 {{FileFormatUp}}의 콘텐츠 숨기기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 문서의 텍스트를 색상의 블록으로 가리세요. 개인 콘텐츠를 보호하는 간단한 방법입니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}의 {{FileFormatUp}} 파일에 대한 오버레이 수정",
+      "description": "{{ProgLang}} 코드를 사용하여 {{FileFormatUp}} 파일 내부의 텍스트를 숨기고 데이터를 보호합니다. 문서 안전을 위한 깔끔한 솔루션입니다.",
+      "subtitle": "{{ProdFullName}}의 포함 사항"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 형식의 민감한 정보 수정하기",
+      "content": {
+        "title": "{{ProdFullName}}은 {{EnvName}} 개발자가 공유 전에 문서를 정리하는 간단한 도구입니다.",
+        "step_1": "{{textRedactor}}를 시작하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "작업을 위해 수정 설정을 결정합니다.",
+        "step_3": "수정할 키워드나 문구를 추가하고 색상을 선택합니다.",
+        "step_4": "도구를 실행하고 변경 사항을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 텍스트를 가리기 위해 오버레이 사용하기",
+      "comment_2": "{{textRedactor}}를 생성하고 파일을 로드합니다.",
+      "comment_3": "수정 규칙을 선택합니다.",
+      "comment_4": "숨길 텍스트를 입력하고 색상을 선택합니다.",
+      "comment_5": "수정 작업을 적용하고 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식 텍스트 수정",
+      "content": "파일에서 콘텐츠를 찾고 숨기기 위해 정규 표현식을 사용하는 방법입니다.",
+      "comment_1": "처리할 문서를 로드합니다.",
+      "comment_2": "패턴 및 오버레이 설정을 추가합니다.",
+      "comment_3": "변경 사항을 적용합니다.",
+      "comment_4": "수정된 문서를 저장하고 닫습니다."
+    },
+    "more_features": {
+      "title": "데이터 보호를 위한 주요 기능",
+      "description": "{{ProdFullName}}을 사용하면 레이아웃이나 의미를 잃지 않고 문서 내부의 데이터를 숨기거나 삭제할 수 있습니다.",
+      "image_description": "문서 안전을 위해 설계됨",
+      "feature_1": {
+        "title": "텍스트 콘텐츠 변경",
+        "content": "선택된 단어를 문서 전역에서 교체하거나 숨깁니다."
+      },
+      "feature_2": {
+        "title": "시각 자료 수정",
+        "content": "간단한 블록으로 사진이나 영역을 숨깁니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 클리어",
+        "content": "저자 이름이나 타임스탬프와 같은 배경 데이터를 제거합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}을 선택해야 하는 이유",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자가 {{FileFormatUp}} 파일에서 콘텐츠를 수정하거나 삭제할 수 있도록 설계되었습니다. 텍스트, 메타데이터 및 이미지를 처리하는 데 사용하세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}} 파일 수정하기",
+      "description": "{{EnvNameShort}} 기능을 사용하여 {{FileFormatUp}}에서 민감한 콘텐츠를 가리거나 지우세요."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}} 오버레이로 {{FileFormatUp}}의 민감한 텍스트 숨기기",
+      "description": "{{ProdFullName}}은 간단한 오버레이 수정으로 {{FileFormatUp}} 파일의 일부를 숨길 수 있습니다. 구조를 변경하지 않고 문서를 안전하게 유지하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}}에서 텍스트 수정",
+      "description": "{{ProgLang}} 및 {{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일의 콘텐츠를 보호하기 위해 오버레이 블록을 사용하세요.",
+      "subtitle": "{{ProdFullName}} 내부 도구"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 콘텐츠 보호하기",
+      "content": {
+        "title": "{{EnvName}} 앱에서 {{ProdFullName}}을 사용하여 파일을 배포 전에 정리합니다.",
+        "step_1": "새 {{textRedactor}} 인스턴스에 파일 경로를 전달합니다.",
+        "step_2": "수정할 대상을 결정합니다.",
+        "step_3": "텍스트 패턴과 오버레이 색상을 설정합니다.",
+        "step_4": "수정하고 업데이트된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 세부사항을 숨기기 위해 오버레이 텍스트 사용하기",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 엽니다.",
+      "comment_3": "수정할 설정을 조정합니다.",
+      "comment_4": "숨길 텍스트와 차단 색상을 선택합니다.",
+      "comment_5": "작업을 실행하고 수정된 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "정규 표현식을 사용해 찾고 수정하기",
+      "content": "이 예제는 정규 표현식이 텍스트를 식별하고 숨기는 데 어떻게 도움이 되는지 보여줍니다.",
+      "comment_1": "수정이 필요한 파일을 엽니다.",
+      "comment_2": "정규 표현식을 사용해 규칙을 설정합니다.",
+      "comment_3": "수정 프로세스를 실행합니다.",
+      "comment_4": "정리된 버전을 저장합니다."
+    },
+    "more_features": {
+      "title": "민감한 데이터 숨기기",
+      "description": "{{ProdFullName}}을 사용하여 법적, 비즈니스 또는 개인 파일에서 데이터를 보호하세요.",
+      "image_description": "유연한 문서 수정",
+      "feature_1": {
+        "title": "텍스트 교체",
+        "content": "단어나 번호를 찾아서 대체하거나 숨깁니다."
+      },
+      "feature_2": {
+        "title": "사진 또는 섹션 수정",
+        "content": "페이지의 이미지나 특정 지점에 오버레이를 추가합니다."
+      },
+      "feature_3": {
+        "title": "불필요한 데이터 삭제",
+        "content": "숨겨진 정보를 드러낼 수 있는 메타데이터를 제거합니다."
+      }
+    },
+    "about": {
+      "title": "이 도구에 대하여",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 사용자가 {{FileFormatUp}} 문서를 정리하기 위해 텍스트, 메타데이터 또는 이미지를 커버하거나 삭제하도록 돕습니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}}에서 콘텐츠 숨기기",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 오버레이를 추가하거나 데이터를 지워 개인 내용을 보호하세요."
+    }
+  }
+}

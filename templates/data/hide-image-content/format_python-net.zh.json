@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "使用{{ProgLang}}在{{FileFormatUp}}中通过覆盖物隐藏敏感图像",
+      "description": "借助{{ProdFullName}}，您可以通过添加覆盖物轻松隐藏{{FileFormatUp}}文件中的敏感图像。保护隐私数据而不改变文档布局。"
+    },
+    "header": {
+      "title": "使用{{EnvNameShort}}通过覆盖物隐藏{{FileFormatUp}}文件中的图像",
+      "description": "使用{{ProgLang}}保护{{FileFormatUp}}文件中的个人和商业图像。我们的工具使数据保护既可靠又高效。",
+      "subtitle": "{{ProdFullName}} 功能"
+    },
+    "steps": {
+      "title": "保护{{FileFormatCap}}文件中的敏感数据",
+      "content": {
+        "title": "{{ProdFullName}}赋予您的{{EnvName}}应用程序保护文档的能力。仅需几次点击即可隐藏私人内容。",
+        "step_1": "创建一个{{textRedactor}}对象并指向{{FileFormatCap}}文件。",
+        "step_2": "调整设置以匹配您的编辑需求。",
+        "step_3": "选择要覆盖的图像区域并选择覆盖物颜色。",
+        "step_4": "处理并保存编辑后的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在{{FileFormatUp}}中覆盖机密图像部分",
+      "comment_2": "使用{{textRedactor}}加载文档",
+      "comment_3": "设置覆盖物颜色和大小",
+      "comment_4": "选择要编辑的区域",
+      "comment_5": "应用覆盖物并保存文档"
+    },
+    "example_bottom": {
+      "title": "使用覆盖物隐藏图像信息",
+      "content": "此示例展示了如何使用覆盖物保护文档中的敏感图像数据。",
+      "comment_1": "打开需要编辑的文件",
+      "comment_2": "调整覆盖物设置：大小、颜色和位置",
+      "comment_3": "选择第一页上的图像区域",
+      "comment_4": "应用覆盖物以遮盖图像",
+      "comment_5": "保存编辑后的文件"
+    },
+    "more_features": {
+      "title": "隐藏文档中的敏感内容",
+      "description": "使用{{ProdFullName}}，您可以在不同文件格式中隐藏或删除数据。在保持文档整洁和可共享的同时保护敏感信息。",
+      "image_description": "关键编辑功能",
+      "feature_1": {
+        "title": "搜索和编辑文本",
+        "content": "查找并更改文档中的敏感文本，以保护私人信息。"
+      },
+      "feature_2": {
+        "title": "覆盖图像区域",
+        "content": "在图像或选定部分上放置覆盖物以隐藏机密视觉内容。"
+      },
+      "feature_3": {
+        "title": "管理元数据",
+        "content": "删除或编辑隐藏的元数据，以防止不必要的数据泄露。"
+      }
+    },
+    "about": {
+      "title": "关于{{ProdFullName}}",
+      "content": "{{ProdFullName}}为{{ProgLang}}开发者提供在{{FileFormatUp}}文件中隐藏或删除内容的工具。遮盖文本、图像和元数据，以保护不同格式的文档。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}保护{{FileFormatUp}}文件",
+      "description": "使用{{EnvNameShort}}在{{FileFormatUp}}文件中隐藏或删除敏感数据。为保护商业和个人文档提供实用解决方案。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "使用{{ProgLang}}在{{FileFormatUp}}中隐藏图像内容通过覆盖物",
+      "description": "通过使用{{ProdFullName}}在{{FileFormatUp}}文件中添加覆盖物来保护敏感图像。在确保文档格式完整的同时保护私人图像。"
+    },
+    "header": {
+      "title": "使用{{EnvNameShort}}通过覆盖物保护{{FileFormatUp}}文档中的图像",
+      "description": "使用{{ProgLang}}保护{{FileFormatUp}}文件中的个人和商业视觉内容。我们的编辑工具使文档安全变得简单。",
+      "subtitle": "{{ProdFullName}}的亮点"
+    },
+    "steps": {
+      "title": "保持{{FileFormatCap}}文件中的数据安全",
+      "content": {
+        "title": "{{ProdFullName}}使{{EnvName}}应用程序能够轻松保护文档。只需几个步骤即可遮盖敏感数据。",
+        "step_1": "创建一个{{textRedactor}}实例并指定{{FileFormatCap}}文件的路径。",
+        "step_2": "根据任务设置编辑首选项。",
+        "step_3": "选择要覆盖的图像部分并确定覆盖物颜色。",
+        "step_4": "运行处理并保存编辑后的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "隐藏{{FileFormatUp}}中图像的敏感部分",
+      "comment_2": "使用{{textRedactor}}加载文件",
+      "comment_3": "定义覆盖物的大小和颜色",
+      "comment_4": "指定编辑区域",
+      "comment_5": "应用覆盖物并保存文档"
+    },
+    "example_bottom": {
+      "title": "使用覆盖物隐藏图像数据",
+      "content": "此示例展示了如何用覆盖物保护文档中的敏感图像区域。",
+      "comment_1": "加载要编辑的文件",
+      "comment_2": "设置覆盖物的颜色、大小和位置",
+      "comment_3": "选择第一页上的编辑区域",
+      "comment_4": "应用覆盖物遮盖图像",
+      "comment_5": "保存编辑后的文件"
+    },
+    "more_features": {
+      "title": "隐藏文档中的内容",
+      "description": "通过{{ProdFullName}}，您可以轻松地从各种文档类型中隐藏或删除敏感信息。保持文件安全和可分享。",
+      "image_description": "有效的编辑功能",
+      "feature_1": {
+        "title": "搜索和编辑文本",
+        "content": "定位敏感单词并进行替换，以保护您的数据。"
+      },
+      "feature_2": {
+        "title": "覆盖图像",
+        "content": "对整个图像或选定部分应用覆盖物，以保护视觉数据。"
+      },
+      "feature_3": {
+        "title": "清理隐藏的元数据",
+        "content": "删除或更新元数据，以防止意外的数据共享。"
+      }
+    },
+    "about": {
+      "title": "关于{{ProdFullName}}",
+      "content": "{{ProdFullName}}使{{ProgLang}}开发者能够在{{FileFormatUp}}文件中隐藏或删除内容。保护跨多种文档格式的文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}在{{FileFormatUp}}文件中隐藏敏感数据",
+      "description": "通过{{EnvNameShort}}在{{FileFormatUp}}文件中覆盖或清除私人数据。保护机密文件的理想工具。"
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "使用{{ProgLang}}在{{FileFormatUp}}文件中通过覆盖物隐藏图像区域",
+      "description": "通过使用{{ProdFullName}}在{{FileFormatUp}}文件中应用覆盖物来保护敏感图像区域。在确保文档的结构不受影响的同时保护私人视觉内容。"
+    },
+    "header": {
+      "title": "使用{{EnvNameShort}}在{{FileFormatUp}}文档中隐藏敏感图像",
+      "description": "使用{{ProgLang}}轻松保护{{FileFormatUp}}文件中的机密图像。我们的工具确保快速有效的图像编辑。",
+      "subtitle": "{{ProdFullName}}的主要功能"
+    },
+    "steps": {
+      "title": "保护{{FileFormatCap}}文件中的敏感数据",
+      "content": {
+        "title": "{{ProdFullName}}使您的{{EnvName}}应用程序能够轻松保护文档。",
+        "step_1": "初始化{{textRedactor}}并加载{{FileFormatCap}}文档。",
+        "step_2": "设置编辑参数以匹配您的任务。",
+        "step_3": "定义要覆盖的图像部分并选择颜色。",
+        "step_4": "应用编辑并保存最终文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在{{FileFormatUp}}中隐藏机密图像部分",
+      "comment_2": "使用{{textRedactor}}加载文档",
+      "comment_3": "选择覆盖物的大小和颜色",
+      "comment_4": "标记编辑区域",
+      "comment_5": "应用更改并保存文件"
+    },
+    "example_bottom": {
+      "title": "用覆盖物遮蔽图像内容",
+      "content": "此指南展示了如何使用覆盖物保护文档中的敏感图像区域。",
+      "comment_1": "打开文件以进行编辑",
+      "comment_2": "定义覆盖物的大小、位置和颜色",
+      "comment_3": "选择特定的图像区域",
+      "comment_4": "应用覆盖物以隐藏该区域",
+      "comment_5": "保存已编辑的文档"
+    },
+    "more_features": {
+      "title": "在文档中编辑内容",
+      "description": "通过{{ProdFullName}}您可以在多种文档格式中隐藏或删除敏感数据。保持文档安全和专业。",
+      "image_description": "高效的编辑工具",
+      "feature_1": {
+        "title": "搜索和替换文本",
+        "content": "轻松找到私人文本并进行替换或隐藏。"
+      },
+      "feature_2": {
+        "title": "使用覆盖物覆盖图像",
+        "content": "隐藏完整图像或特定部分以保护敏感视觉内容。"
+      },
+      "feature_3": {
+        "title": "删除隐藏的元数据",
+        "content": "清除文件中的元数据以避免分享私人信息。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}是什么？",
+      "content": "{{ProdFullName}}为{{ProgLang}}开发者提供工具，以在{{FileFormatUp}}文档中隐藏或清除敏感数据。遮盖文本、图像和元数据，跨不同格式保护文档。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}在{{FileFormatUp}}文件中隐藏内容",
+      "description": "使用{{EnvNameShort}}在{{FileFormatUp}}文件中编辑或删除敏感数据。理想的保护文件的工具。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用{{ProgLang}}在{{FileFormatUp}}文件中用覆盖物遮蔽图像",
+      "description": "使用{{ProdFullName}}通过彩色覆盖物遮盖{{FileFormatUp}}文件中的敏感图像。保护重要数据的同时保持文档格式不变。"
+    },
+    "header": {
+      "title": "使用{{EnvNameShort}}保护{{FileFormatUp}}文档中的私人图像",
+      "description": "使用{{ProgLang}}在{{FileFormatUp}}文件中保护敏感视觉内容。我们的工具使图像编辑简单快速。",
+      "subtitle": "{{ProdFullName}}的功能"
+    },
+    "steps": {
+      "title": "保护{{FileFormatCap}}文件中的敏感数据",
+      "content": {
+        "title": "{{ProdFullName}}帮助{{EnvName}}应用程序通过覆盖敏感内容来保护文档。",
+        "step_1": "创建一个{{textRedactor}}实例并加载{{FileFormatCap}}文件。",
+        "step_2": "根据任务设置编辑选项。",
+        "step_3": "选择图像区域并分配覆盖物颜色。",
+        "step_4": "应用覆盖物并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在{{FileFormatUp}}中遮蔽私人图像区域",
+      "comment_2": "使用{{textRedactor}}打开文档",
+      "comment_3": "设置覆盖物的颜色和大小",
+      "comment_4": "标记要编辑的区域",
+      "comment_5": "应用覆盖物并保存文件"
+    },
+    "example_bottom": {
+      "title": "用彩色覆盖物覆盖图像内容",
+      "content": "查看如何通过覆盖物遮蔽文档中的敏感图像部分。",
+      "comment_1": "加载文档",
+      "comment_2": "定义覆盖物属性：大小、位置、颜色",
+      "comment_3": "选择第一页上的图像区域",
+      "comment_4": "覆盖选定区域",
+      "comment_5": "保存保护文档"
+    },
+    "more_features": {
+      "title": "文档编辑功能",
+      "description": "{{ProdFullName}}允许您在多种文件类型中隐藏或删除机密数据。保持文件安全并随时共享。",
+      "image_description": "全面的编辑工具",
+      "feature_1": {
+        "title": "搜索和替换文本",
+        "content": "查找敏感文本并进行编辑以保护您的信息。"
+      },
+      "feature_2": {
+        "title": "遮蔽图像区域",
+        "content": "使用覆盖物遮盖图像或特定部分，以隐藏私人视觉内容。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "删除或修改隐藏的元数据，以防止意外数据泄露。"
+      }
+    },
+    "about": {
+      "title": "关于{{ProdFullName}}",
+      "content": "{{ProdFullName}}为{{ProgLang}}开发者提供简单的工具来隐藏或删除{{FileFormatUp}}文件中的内容。通过遮盖文本、图像和元数据来保护文档。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}在{{FileFormatUp}}文件中遮蔽内容",
+      "description": "使用{{EnvNameShort}}在{{FileFormatUp}}文件中隐藏或删除私人内容。可靠的文档安全保护工具。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用{{ProgLang}}在{{FileFormatUp}}文件中保护图像",
+      "description": "使用{{ProdFullName}}在{{FileFormatUp}}文件中覆盖敏感图像。应用覆盖物以保护私人数据，同时保留文档布局。"
+    },
+    "header": {
+      "title": "使用{{EnvNameShort}}覆盖{{FileFormatUp}}文件中的私人图像",
+      "description": "使用{{ProgLang}}确保{{FileFormatUp}}文档中的个人和商业视觉内容安全。简洁快速的编辑工具，您可以信赖。",
+      "subtitle": "{{ProdFullName}}的核心功能"
+    },
+    "steps": {
+      "title": "保护{{FileFormatCap}}文件中的敏感信息",
+      "content": {
+        "title": "{{ProdFullName}}帮助您的{{EnvName}}应用程序通过覆盖敏感内容来保护文档。",
+        "step_1": "创建一个{{textRedactor}}对象并加载{{FileFormatCap}}文件。",
+        "step_2": "根据需要调整编辑设置。",
+        "step_3": "选择图像区域并设置覆盖物颜色。",
+        "step_4": "应用覆盖物并保存编辑后的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在{{FileFormatUp}}中覆盖敏感图像部分",
+      "comment_2": "使用{{textRedactor}}加载文件",
+      "comment_3": "指定覆盖物的颜色和大小",
+      "comment_4": "选择要隐藏的图像区域",
+      "comment_5": "应用覆盖物并保存文档"
+    },
+    "example_bottom": {
+      "title": "用覆盖物遮蔽图像内容",
+      "content": "此示例展示了如何使用覆盖物隐藏文档中的敏感图像。",
+      "comment_1": "打开文档",
+      "comment_2": "设置覆盖物的尺寸、颜色和位置",
+      "comment_3": "选择第一页上要覆盖的区域",
+      "comment_4": "应用覆盖物进行编辑",
+      "comment_5": "保存更新后的文档"
+    },
+    "more_features": {
+      "title": "高级编辑功能",
+      "description": "{{ProdFullName}}允许您在多种文档格式中隐藏或删除敏感内容。保持文件整洁安全，便于分享。",
+      "image_description": "一体化的编辑工具箱",
+      "feature_1": {
+        "title": "搜索和替换文本",
+        "content": "查找文档中的敏感文本并进行替换，以确保隐私。"
+      },
+      "feature_2": {
+        "title": "覆盖图像",
+        "content": "遮盖选定的图像区域或整个视觉内容以隐藏私人信息。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "删除隐藏的元数据，以防止共享不可见的数据。"
+      }
+    },
+    "about": {
+      "title": "关于{{ProdFullName}}",
+      "content": "{{ProdFullName}}为{{ProgLang}}开发者提供简单的工具，在{{FileFormatUp}}文件中隐藏或删除内容。保护不同文档格式中的敏感文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}在{{FileFormatUp}}中编辑内容",
+      "description": "{{EnvNameShort}}使您能够在{{FileFormatUp}}中隐藏或删除敏感内容。文档安全的受信赖解决方案。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "使用{{ProgLang}}在{{FileFormatUp}}文件中覆盖图像",
+      "description": "通过使用{{ProdFullName}}在{{FileFormatUp}}文件中保护敏感图像区域。添加覆盖物来隐藏私人视觉内容，而不改变文档的外观。"
+    },
+    "header": {
+      "title": "使用覆盖物保护{{FileFormatUp}}文件中的敏感图像",
+      "description": "使用{{ProgLang}}确保您在{{FileFormatUp}}文件中的个人和商业图像安全。通过我们的易用工具获得可靠的保护。",
+      "subtitle": "{{ProdFullName}}的关键功能"
+    },
+    "steps": {
+      "title": "保护{{FileFormatCap}}文件中的数据",
+      "content": {
+        "title": "{{ProdFullName}}帮助{{EnvName}}应用程序快速有效地隐藏私人信息。",
+        "step_1": "创建一个{{textRedactor}}实例并加载{{FileFormatCap}}文件。",
+        "step_2": "根据需要设置编辑选项。",
+        "step_3": "选择图像区域并选择覆盖物颜色。",
+        "step_4": "应用编辑并保存已修改的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在{{FileFormatUp}}中覆盖图像区域",
+      "comment_2": "使用{{textRedactor}}打开文档",
+      "comment_3": "调整覆盖物的大小和颜色",
+      "comment_4": "选择要遮盖的区域",  
+      "comment_5": "应用覆盖物并保存文件"
+    },
+    "example_bottom": {
+      "title": "使用覆盖物隐藏图像数据",
+      "content": "此示例展示了如何应用覆盖物来遮盖文档中的敏感图像。",
+      "comment_1": "加载文档以进行编辑",
+      "comment_2": "设置覆盖物的颜色、大小和位置",
+      "comment_3": "选择第一页上的特定图像区域",
+      "comment_4": "应用覆盖物以隐藏该内容",
+      "comment_5": "保存更新的文件"
+    },
+    "more_features": {
+      "title": "隐藏或删除敏感内容",
+      "description": "{{ProdFullName}}使您能够通过隐藏或删除各种格式的敏感数据来保护文档。保持文件安全并清晰易分享。",
+      "image_description": "功能丰富的编辑工具",
+      "feature_1": {
+        "title": "安全编辑文本",
+        "content": "查找文档中的敏感文本并替换以保护隐私。"
+      },
+      "feature_2": {
+        "title": "隐藏图像部分",
+        "content": "遮盖选定的图像区域或整个视觉内容。"
+      },
+      "feature_3": {
+        "title": "删除隐藏的元数据",
+        "content": "清除不可见的元数据字段，以防泄露数据。"
+      }
+    },
+    "about": {
+      "title": "关于{{ProdFullName}}",
+      "content": "{{ProdFullName}}为{{ProgLang}}开发者提供简单的工具，以在{{FileFormatUp}}文件中隐藏或删除敏感内容。遮盖图像、文本和元数据以保护您的文档。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}在{{FileFormatUp}}中隐藏内容",
+      "description": "通过{{EnvNameShort}}，您可以轻松地在{{FileFormatUp}}文件中隐藏或删除敏感信息。有效确保文档安全的方法。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用{{ProgLang}}通过覆盖物遮蔽{{FileFormatUp}}中的敏感图像",
+      "description": "通过{{ProdFullName}}，您可以使用覆盖物隐藏{{FileFormatUp}}文件中的私人图像区域。在不更改文档设计的情况下保护信息。"
+    },
+    "header": {
+      "title": "使用{{EnvNameShort}}覆盖{{FileFormatUp}}文档中的私人图像",
+      "description": "使用{{ProgLang}}确保{{FileFormatUp}}文件中的敏感图像安全。设计用于强有力数据保护的简单工具。",
+      "subtitle": "探索{{ProdFullName}}的功能"
+    },
+    "steps": {
+      "title": "保护{{FileFormatCap}}文件中的敏感数据",
+      "content": {
+        "title": "{{ProdFullName}}使{{EnvName}}应用程序简单地通过覆盖敏感内容来保护文档。",
+        "step_1": "创建一个{{textRedactor}}对象并加载{{FileFormatCap}}文件。",
+        "step_2": "根据需要调整编辑选项。",
+        "step_3": "选择图像区域并挑选覆盖物颜色。",
+        "step_4": "应用覆盖物并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在{{FileFormatUp}}文件中遮蔽图像内容",
+      "comment_2": "使用{{textRedactor}}加载文件",
+      "comment_3": "设置覆盖物的大小和颜色",
+      "comment_4": "选择要隐藏的区域",
+      "comment_5": "应用覆盖物并保存文件"
+    },
+    "example_bottom": {
+      "title": "使用覆盖物隐藏图像数据",
+      "content": "此示例展示了如何使用覆盖物保护文档中的敏感图像。",
+      "comment_1": "打开待编辑的文档",
+      "comment_2": "设置覆盖物的大小、位置和颜色",
+      "comment_3": "选择第一页上的图像区域",
+      "comment_4": "应用覆盖物进行编辑",
+      "comment_5": "保存最终文档"
+    },
+    "more_features": {
+      "title": "保护文档中的私人数据",
+      "description": "{{ProdFullName}}允许您在不同文件格式中隐藏或删除敏感内容。确保您的文件安全且可用于共享。",
+      "image_description": "集成全面的编辑功能",
+      "feature_1": {
+        "title": "搜索和编辑文本",
+        "content": "查找文档中的私人文本并替换以保护隐私。"
+      },
+      "feature_2": {
+        "title": "遮蔽图像区域",
+        "content": "用覆盖物遮盖整个图像或选定部分，以隐藏私人视觉内容。"
+      },
+      "feature_3": {
+        "title": "删除隐藏的元数据",
+        "content": "删除元数据，以避免意外共享信息。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}是什么？",
+      "content": "{{ProdFullName}}为{{ProgLang}}开发者提供在{{FileFormatUp}}文件中隐藏或删除敏感内容的工具。通过覆盖私人文本、图像和元数据有效保护您的文档。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}保护{{FileFormatUp}}文件",
+      "description": "借助{{EnvNameShort}}，您可以轻松地在{{FileFormatUp}}文件中隐藏或删除敏感数据。信赖的文档保护解决方案。"
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "使用{{ProgLang}}在{{FileFormatUp}}中隐藏私人图像",
+      "description": "通过{{ProdFullName}}为您的{{FileFormatUp}}文件添加覆盖物以保护敏感图像。在保持文档布局不变的情况下保护视觉内容。"
+    },
+    "header": {
+      "title": "使用{{EnvNameShort}}覆盖{{FileFormatUp}}文件中的敏感图像",
+      "description": "使用{{ProgLang}}保护{{FileFormatUp}}文件中的图像。简单的工具帮助您仅需几步就能保护私人内容。",
+      "subtitle": "{{ProdFullName}}的顶级功能"
+    },
+    "steps": {
+      "title": "保持{{FileFormatCap}}文件的安全",
+      "content": {
+        "title": "{{ProdFullName}}允许您的{{EnvName}}应用程序快速有效地覆盖敏感数据。",
+        "step_1": "创建一个{{textRedactor}}对象并指定{{FileFormatCap}}文件的路径。",
+        "step_2": "根据需要定义编辑设置。",
+        "step_3": "标记图像区域并选择覆盖物颜色。",
+        "step_4": "执行编辑并保存受保护的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在{{FileFormatUp}}文件中隐藏图像区域",
+      "comment_2": "通过{{textRedactor}}加载文件",
+      "comment_3": "定义覆盖物的大小和颜色",
+      "comment_4": "选择要遮盖的区域",
+      "comment_5": "应用覆盖物并保存文档"
+    },
+    "example_bottom": {
+      "title": "使用覆盖物保护图像区域",
+      "content": "此示例指导您如何在文档中覆盖敏感图像部分。",
+      "comment_1": "加载要进行编辑的文件",
+      "comment_2": "设置覆盖物的大小、颜色和位置",
+      "comment_3": "选择第一页上的图像区域",
+      "comment_4": "覆盖所选区域",
+      "comment_5": "保存编辑后的文件"
+    },
+    "more_features": {
+      "title": "跨文档隐藏内容",
+      "description": "{{ProdFullName}}帮助您在多种文件格式中隐藏或删除敏感内容。保护您的文件安全并准备好用于共享。",
+      "image_description": "功能丰富的编辑工具",
+      "feature_1": {
+        "title": "搜索和替换文本",
+        "content": "扫描文档，查找敏感文本并进行替换以确保数据安全。"
+      },
+      "feature_2": {
+        "title": "遮盖图像区域",
+        "content": "添加彩色覆盖物以隐藏图像或其特定部分。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "删除或编辑隐藏的元数据，以确保没有私人数据泄露。"
+      }
+    },
+    "about": {
+      "title": "关于{{ProdFullName}}",
+      "content": "{{ProdFullName}}为{{ProgLang}}开发者提供简单的工具来隐藏或清除{{FileFormatUp}}文件中的内容。通过覆盖文本、图像和元数据有效保护您的文档。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}的编辑工具保护{{FileFormatUp}}文件",
+      "description": "借助{{EnvNameShort}}，您可以在{{FileFormatUp}}文件中隐藏或删除私人数据。可靠的解决方案，确保文档专业和安全。"
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "使用{{ProgLang}}在{{FileFormatUp}}中覆盖图像",
+      "description": "通过{{ProdFullName}}使用彩色覆盖物隐蔽敏感图像内容在{{FileFormatUp}}文件中。保护您的文件的原始布局，同时确保重要的视觉数据安全。"
+    },
+    "header": {
+      "title": "使用{{EnvNameShort}}覆盖{{FileFormatUp}}文件中的敏感图像",
+      "description": "使用{{ProgLang}}保护{{FileFormatUp}}文件中的个人和商业图像数据。简单的工具实现快速有效的保护。",
+      "subtitle": "您需要的{{ProdFullName}}功能"
+    },
+    "steps": {
+      "title": "在{{FileFormatCap}}文件中遮盖私人内容",
+      "content": {
+        "title": "{{ProdFullName}}使在您的{{EnvName}}应用程序中隐藏敏感数据变得简单。",
+        "step_1": "初始化一个{{textRedactor}}并指向您的{{FileFormatCap}}文件。",
+        "step_2": "根据需要配置编辑设置。",
+        "step_3": "选择图像部分并定义覆盖物颜色。",
+        "step_4": "处理文件并保存编辑版本。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在{{FileFormatUp}}中隐藏图像内容",
+      "comment_2": "使用{{textRedactor}}加载文件",
+      "comment_3": "指定覆盖物的大小和颜色",
+      "comment_4": "选择要隐藏的区域",
+      "comment_5": "应用覆盖物并保存文件"
+    },
+    "example_bottom": {
+      "title": "使用覆盖物隐藏图像内容",
+      "content": "本示例展示了如何通过覆盖物保护文档中的敏感图像数据。",
+      "comment_1": "打开待编辑的文件",
+      "comment_2": "设置覆盖的尺寸、颜色和位置",
+      "comment_3": "选择第一页上的图像区域",
+      "comment_4": "应用覆盖物以遮盖图像内容",
+      "comment_5": "保存编辑后的文件"
+    },
+    "more_features": {
+      "title": "跨文档类型保护数据",
+      "description": "{{ProdFullName}}允许您在不同文件格式中隐藏或删除敏感内容。确保您的文档整洁、安全、易于分享。",
+      "image_description": "控制每个编辑的工具",
+      "feature_1": {
+        "title": "搜索和替换敏感文本",
+        "content": "扫描文档并替换私人文本以保护数据安全。"
+      },
+      "feature_2": {
+        "title": "使用覆盖物隐藏图像",
+        "content": "添加彩色覆盖物以隐藏图像或其特定部分。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "删除或编辑隐藏元数据，以确保没有私人数据泄漏。"
+      }
+    },
+    "about": {
+      "title": "了解{{ProdFullName}}",
+      "content": "{{ProdFullName}}为{{ProgLang}}开发者提供工具用于隐藏或删除{{FileFormatUp}}文件中的内容。通过遮盖文本、图像和元数据来有效保护您的文档。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}在{{FileFormatUp}}文件中保护内容",
+      "description": "通过{{EnvNameShort}}，您可以在{{FileFormatUp}}文件中隐藏或删除敏感信息。可靠的方式确保文档安全和专业。"
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "使用{{ProgLang}}覆盖{{FileFormatUp}}文件中的图像",
+      "description": "使用覆盖物隐藏{{FileFormatUp}}文件中的敏感图像数据。利用{{ProdFullName}}，保持文档设计完整，同时保护私人信息。"
+    },
+    "header": {
+      "title": "使用{{EnvNameShort}}覆盖{{FileFormatUp}}文件中的敏感图像",
+      "description": "使用{{ProgLang}}保护{{FileFormatUp}}文件中的图像内容。简单工具实现快速有效的数据保护。",
+      "subtitle": "{{ProdFullName}}的关键功能"
+    },
+    "steps": {
+      "title": "保护{{FileFormatCap}}文件中的图像区域",
+      "content": {
+        "title": "使用{{ProdFullName}}轻松覆盖您{{EnvName}}应用程序中的敏感图像区域。",
+        "step_1": "创建一个{{textRedactor}}对象并连接到您的{{FileFormatCap}}文件。",
+        "step_2": "配置编辑设置以适应您的任务。",
+        "step_3": "高亮图像部分并设置覆盖物颜色。",
+        "step_4": "应用编辑并保存受保护的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "使用覆盖物隐藏{{FileFormatUp}}中的图像数据",
+      "comment_2": "使用{{textRedactor}}加载文件",
+      "comment_3": "设置覆盖物的尺寸和颜色",
+      "comment_4": "选择要遮盖的图像区域",
+      "comment_5": "应用覆盖物，保存文件"
+    },
+    "example_bottom": {
+      "title": "使用覆盖物遮蔽图像区域",
+      "content": "本代码示例展示了在文档中使用覆盖物进行遮盖敏感图像的区域。",
+      "comment_1": "打开文件进行编辑",
+      "comment_2": "定义覆盖物的尺寸、颜色和位置",
+      "comment_3": "选择第一页上的图像区域",
+      "comment_4": "应用覆盖物以隐藏内容",
+      "comment_5": "保存安全的文件"
+    },
+    "more_features": {
+      "title": "在多个格式中隐藏私人数据",
+      "description": "{{ProdFullName}}使您能够在不同文件类型中覆盖或清除敏感内容。保持文档整洁和安全，用于共享。",
+      "image_description": "功能全面的编辑工具",
+      "feature_1": {
+        "title": "查找并编辑文本",
+        "content": "搜索敏感文本并替换以确保您的文档安全。"
+      },
+      "feature_2": {
+        "title": "使用覆盖物隐藏图像",
+        "content": "添加覆盖物以遮盖完整图像或特定区域。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "清除隐藏的元数据库，以防止数据泄漏。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}是什么？",
+      "content": "{{ProdFullName}}为{{ProgLang}}开发者提供强大的工具，以在{{FileFormatUp}}文件中隐藏或删除内容。有效保护重要数据，遮盖文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用{{EnvNameShort}}在{{FileFormatUp}}中编辑敏感内容",
+      "description": "使用{{EnvNameShort}}在{{FileFormatUp}}文件中隐藏或删除私人数据。这是一种简单的方式确保官方文档的安全。"
+    }
+  }
+}

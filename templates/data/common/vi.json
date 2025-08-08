@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Chỉnh sửa Excel",
+        "description": "Bảng tính MS Excel và Open Office"
+      },
+      "word": {
+        "name": "Chỉnh sửa Word",
+        "description": "Tài liệu MS Word và Open Office"
+      },
+      "powerpoint": {
+        "name": "Chỉnh sửa PowerPoint",
+        "description": "Trình bày MS PowerPoint và Open Office"
+      },
+      "image": {
+        "name": "Chỉnh sửa Hình ảnh",
+        "description": "Các định dạng hình ảnh phổ biến"
+      },
+      "photo": {
+        "name": "Chỉnh sửa Ảnh",
+        "description": "Định dạng ảnh"
+      },
+      "pdf": {
+        "name": "Chỉnh sửa PDF",
+        "description": "Định dạng Tài liệu Di động Adobe"
+      },
+      "doc": {
+        "name": "Chỉnh sửa DOC",
+        "description": "Tài liệu Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Chỉnh sửa DOCX",
+        "description": "Tài liệu Open XML của Microsoft Word"
+      },
+      "xls": {
+        "name": "Chỉnh sửa XLS",
+        "description": "Sổ làm việc Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Chỉnh sửa XLSX",
+        "description": "Bảng tính Open XML của Microsoft Excel"
+      },
+      "ppt": {
+        "name": "Chỉnh sửa PPT",
+        "description": "Bài thuyết trình PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Chỉnh sửa PPTX",
+        "description": "Bài thuyết trình Open XML của PowerPoint"
+      },
+      "jpg": {
+        "name": "Chỉnh sửa JPEG",
+        "description": "Hình ảnh JPEG"
+      },
+      "jpeg": {
+        "name": "Chỉnh sửa JPEG",
+        "description": "Hình ảnh JPEG"
+      },
+      "png": {
+        "name": "Chỉnh sửa PNG",
+        "description": "Đồ họa Mạng Di động"
+      },
+      "tiff": {
+        "name": "Chỉnh sửa TIFF",
+        "description": "Định dạng Tập tin Hình ảnh"
+      },
+      "webp": {
+        "name": "Chỉnh sửa WEBP",
+        "description": "Hình ảnh WEB"
+      },
+      "rtf": {
+        "name": "Chỉnh sửa RTF",
+        "description": "Định dạng Văn bản Đặc biệt"
+      }
+    },
+    "format-code": {
+      "copy_title": "Sao chép",
+      "result_title": "Mẫu chỉnh sửa",
+      "result_title_bottom": "Tải xuống kết quả",
+      "copy_tip": "nhấp để sao chép",
+      "copy_done": "đã sao chép",
+      "links": {
+        "title_1": "Nhiều ví dụ hơn",
+        "title_2": "Tài liệu"
+      }
+    },
+    "format-actions": {
+      "title": "Sẵn sàng bắt đầu chưa?",
+      "description": "Thử nghiệm tính năng của {{ProdShortName}} miễn phí hoặc yêu cầu cấp phép",
+      "comment_1": "Tải xuống {{PackageStoreName}}",
+      "comment_2": "Cấp phép"
+    },
+    "texts": {
+      "learn_more": "Tìm hiểu thêm"
+    }
+  }
+}

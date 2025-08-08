@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Cubrir Texto Privado en {{FileFormatUp}} con Superposiciones Usando {{ProgLang}}",
+      "description": "{{ProdFullName}} te permite ocultar información sensible en archivos {{FileFormatUp}} mediante el uso de cajas de colores. Protege los datos sin cambiar la apariencia de tu archivo."
+    },
+    "header": {
+      "title": "Enmascarar Texto en Documentos {{FileFormatUp}} Usando Superposiciones en {{EnvNameShort}}",
+      "description": "Toma el control total del contenido del archivo {{FileFormatUp}} con {{ProgLang}}. Utiliza la redacción para proteger detalles financieros, legales o personales.",
+      "subtitle": "Principales Características de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Asegurar Información Confidencial en Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} facilita a los desarrolladores de {{EnvName}} ocultar contenido privado con unos simples pasos.",
+        "step_1": "Inicia un {{textRedactor}} y carga tu archivo {{FileFormatCap}}.",
+        "step_2": "Configura tus preferencias de redacción.",
+        "step_3": "Elige qué buscar y selecciona el color de superposición.",
+        "step_4": "Aplica la redacción y guarda tu documento."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cubrir texto en {{FileFormatUp}} usando superposiciones de color",
+      "comment_2": "Pasa la ruta del archivo al {{textRedactor}}",
+      "comment_3": "Ajusta la configuración de redacción",
+      "comment_4": "Configura el texto y el color objetivo",
+      "comment_5": "Aplica y guarda el {{FileFormatUp}} redactado"
+    },
+    "example_bottom": {
+      "title": "Ocultar Texto Usando Regex",
+      "content": "Este ejemplo utiliza expresiones regulares para encontrar y ocultar contenido específico",
+      "comment_1": "Cargar el archivo que deseas procesar",
+      "comment_2": "Configura el patrón de texto y el color de superposición",
+      "comment_3": "Aplica la redacción",
+      "comment_4": "Guarda tus cambios"
+    },
+    "more_features": {
+      "title": "Controla Qué es Visible en Documentos",
+      "description": "{{ProdFullName}} te permite bloquear o eliminar partes de tus archivos mientras los mantienes fáciles de visualizar y compartir.",
+      "image_description": "Herramientas de Redacción Poderosas",
+      "feature_1": {
+        "title": "Objetivo y ocultar texto",
+        "content": "Busca en tu documento y oculta palabras o frases específicas para proteger información privada."
+      },
+      "feature_2": {
+        "title": "Cubrir imágenes",
+        "content": "Agrega superposiciones para ocultar totalmente o parcialmente visuales."
+      },
+      "feature_3": {
+        "title": "Eliminar metadatos",
+        "content": "Borra detalles ocultos del documento para evitar exposiciones involuntarias."
+      }
+    },
+    "about": {
+      "title": "Lo que Ofrece {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de {{ProgLang}} una manera efectiva de ocultar o eliminar contenido de archivos {{FileFormatUp}}. Cubre texto, imágenes y metadatos en diferentes tipos de documentos."
+    },
+    "formats": {
+      "title": "Protege Archivos {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Usa {{EnvNameShort}} para cubrir o borrar contenido en documentos {{FileFormatUp}}. Una gran manera de mantener la información privada segura y protegida."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Ocultar Texto en {{FileFormatUp}} con Superposiciones Usando {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} para bloquear texto privado en archivos {{FileFormatUp}}. Mantén el diseño sin cambios mientras ocultas datos sensibles."
+    },
+    "header": {
+      "title": "Proteger Texto {{FileFormatUp}} con Superposiciones en {{EnvNameShort}}",
+      "description": "Oculta rápidamente detalles personales, legales o comerciales en archivos {{FileFormatUp}} con {{ProgLang}} y {{ProdFullName}}.",
+      "subtitle": "Herramientas Clave en {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redactar Contenido Sensible en {{FileFormatCap}}",
+      "content": {
+        "title": "Limpia documentos en tu proyecto {{EnvName}} utilizando {{ProdFullName}}.",
+        "step_1": "Inicializa {{textRedactor}} con tu archivo.",
+        "step_2": "Elige cómo debe funcionar la redacción.",
+        "step_3": "Selecciona el texto a ocultar y el color de superposición.",
+        "step_4": "Aplica la redacción y guarda el archivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cubrir texto con superposiciones en {{FileFormatUp}}",
+      "comment_2": "Crea un {{textRedactor}} y carga tu documento",
+      "comment_3": "Elige opciones de redacción",
+      "comment_4": "Selecciona texto y color",
+      "comment_5": "Guarda la versión redactada"
+    },
+    "example_bottom": {
+      "title": "Encontrar Texto con Regex y Ocultarlo",
+      "content": "Usa coincidencia de patrones para ocultar frases clave automáticamente.",
+      "comment_1": "Abre el documento que deseas redactar",
+      "comment_2": "Configura el patrón regex y el estilo de superposición",
+      "comment_3": "Aplica la lógica de redacción",
+      "comment_4": "Guarda tu documento limpio"
+    },
+    "more_features": {
+      "title": "Herramientas de Redacción para Uso Cotidiano",
+      "description": "{{ProdFullName}} te ofrece opciones simples para ocultar detalles sensibles en documentos mientras los mantienes utilizables.",
+      "image_description": "Opciones de redacción fáciles",
+      "feature_1": {
+        "title": "Encontrar y cambiar texto",
+        "content": "Oculta o reemplaza palabras en segundos."
+      },
+      "feature_2": {
+        "title": "Bloquear partes de imágenes",
+        "content": "Enmascara secciones de imágenes o contenido escaneado."
+      },
+      "feature_3": {
+        "title": "Borrar información de fondo",
+        "content": "Elimina metadatos ocultos como autoría o fechas."
+      }
+    },
+    "about": {
+      "title": "Lo que es {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de {{ProgLang}} herramientas para limpiar archivos {{FileFormatUp}}. Redacta nombres, números o notas con rapidez."
+    },
+    "formats": {
+      "title": "Redactar Archivos {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Protege contenido sensible en {{FileFormatUp}} ocultándolo o eliminándolo utilizando las herramientas en {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Bloquear Texto en {{FileFormatUp}} con Superposiciones de {{ProgLang}}",
+      "description": "{{ProdFullName}} te permite cubrir información sensible en archivos {{FileFormatUp}} con bloques de color. Oculta datos mientras mantienes el diseño intacto."
+    },
+    "header": {
+      "title": "Ocultar Datos en {{FileFormatUp}} con Superposiciones Usando {{EnvNameShort}}",
+      "description": "Usa {{ProgLang}} y {{ProdFullName}} para enmascarar contenido privado en archivos {{FileFormatUp}} sin afectar el formato.",
+      "subtitle": "Principales Características de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteger Información en Documentos {{FileFormatCap}}",
+      "content": {
+        "title": "Mantén tus documentos seguros usando código simple con {{ProdFullName}} en {{EnvName}}.",
+        "step_1": "Crea un {{textRedactor}} con la ruta del archivo.",
+        "step_2": "Configura tu lógica de redacción.",
+        "step_3": "Elige la palabra clave y el color de superposición.",
+        "step_4": "Redacta y guarda el archivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Ocultar información en {{FileFormatUp}} usando bloques",
+      "comment_2": "Carga el archivo con {{textRedactor}}",
+      "comment_3": "Configura preferencias de redacción",
+      "comment_4": "Agrega texto y color para bloquear",
+      "comment_5": "Guarda el documento actualizado"
+    },
+    "example_bottom": {
+      "title": "Usar Regex para Redactar Contenido",
+      "content": "Encuentra y oculta texto automáticamente con coincidencia de patrones.",
+      "comment_1": "Abre la hoja de cálculo",
+      "comment_2": "Define patrón y color de superposición",
+      "comment_3": "Aplica reglas de redacción",
+      "comment_4": "Exporta tu resultado"
+    },
+    "more_features": {
+      "title": "Funciones de Privacidad Integradas",
+      "description": "Usa {{ProdFullName}} para bloquear o eliminar contenido en tus archivos mientras mantienes la estructura intacta.",
+      "image_description": "Herramientas de privacidad fáciles",
+      "feature_1": {
+        "title": "Cambiar u ocultar texto",
+        "content": "Edita o redacta palabras específicas con facilidad."
+      },
+      "feature_2": {
+        "title": "Enmascarar partes de imágenes",
+        "content": "Agrega superposiciones para ocultar fotos o detalles gráficos."
+      },
+      "feature_3": {
+        "title": "Eliminar información oculta",
+        "content": "Borra metadatos como información del usuario o historial de archivos."
+      }
+    },
+    "about": {
+      "title": "Por qué {{ProdFullName}} Funciona",
+      "content": "{{ProdFullName}} permite a los desarrolladores de {{ProgLang}} asegurar archivos {{FileFormatUp}}. Oculta texto, imágenes o metadatos rápidamente."
+    },
+    "formats": {
+      "title": "Redactar Datos {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Usa superposiciones o elimina contenido en archivos {{FileFormatUp}} para mantener datos sensibles privados con {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Ocultar Texto en Presentaciones {{FileFormatUp}} con Superposiciones de {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} para bloquear contenido sensible en archivos {{FileFormatUp}} con superposiciones de color. Mantén las diapositivas intactas mientras escondes información clave."
+    },
+    "header": {
+      "title": "Enmascarar Texto en Presentaciones {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Protege fácilmente detalles personales o comerciales en tus diapositivas {{FileFormatUp}} usando {{ProgLang}} y {{ProdFullName}}.",
+      "subtitle": "Explora las Características de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redactar Contenido Privado en Diapositivas {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} facilita la protección de contenido para los desarrolladores de {{EnvName}}.",
+        "step_1": "Configura un {{textRedactor}} con la ruta de tu presentación.",
+        "step_2": "Elige cómo debe comportarse la redacción.",
+        "step_3": "Agrega el patrón de texto y el color de superposición.",
+        "step_4": "Redacta la diapositiva y guárdala."
+      }
+    },
+    "example_top": {
+      "comment_1": "Usar superposiciones para bloquear texto en {{FileFormatUp}}",
+      "comment_2": "Inicializa {{textRedactor}} con tu presentación",
+      "comment_3": "Selecciona tus preferencias de redacción",
+      "comment_4": "Configura el texto y el color de superposición",
+      "comment_5": "Ejecuta la redacción y guarda el conjunto de diapositivas"
+    },
+    "example_bottom": {
+      "title": "Redactar Texto con Regex",
+      "content": "Usa expresiones regulares para encontrar y cubrir palabras sensibles.",
+      "comment_1": "Abre el archivo de presentación",
+      "comment_2": "Configura el patrón de búsqueda y el color de superposición",
+      "comment_3": "Ejecuta las reglas de redacción",
+      "comment_4": "Guarda la versión final"
+    },
+    "more_features": {
+      "title": "Herramientas de Redacción Poderosas",
+      "description": "Con {{ProdFullName}}, bloquea o elimina contenido sensible en tus presentaciones sin alterar el diseño o formato.",
+      "image_description": "Características que funcionan en varias diapositivas",
+      "feature_1": {
+        "title": "Ocultar o reemplazar texto",
+        "content": "Protege nombres, términos o notas que no deben ser visibles."
+      },
+      "feature_2": {
+        "title": "Cubrir áreas visuales",
+        "content": "Agrega superposiciones a imágenes o secciones gráficas de las diapositivas."
+      },
+      "feature_3": {
+        "title": "Borrar metadatos",
+        "content": "Elimina información privada detrás de escenas que pueda revelar autoría o historial de edición."
+      }
+    },
+    "about": {
+      "title": "Qué Hace {{ProdFullName}}",
+      "content": "{{ProdFullName}} permite a los desarrolladores de {{ProgLang}} ocultar o eliminar texto, imágenes o metadatos en presentaciones {{FileFormatUp}} en solo unos pocos pasos."
+    },
+    "formats": {
+      "title": "Proteger Diapositivas {{FileFormatUp}} con Herramientas {{EnvNameShort}}",
+      "description": "Cubre contenido sensible o elimínalo por completo de presentaciones {{FileFormatUp}} utilizando las características de redacción de {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Redactar Texto en {{FileFormatUp}} Usando Superposiciones de {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} para cubrir texto sensible en archivos {{FileFormatUp}} con bloques de color mientras mantienes la estructura del documento sin cambios."
+    },
+    "header": {
+      "title": "Redacción por Superposición en Archivos {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Oculta detalles importantes en tus documentos {{FileFormatUp}} con superposiciones de color potenciadas por {{ProgLang}} y {{ProdFullName}}.",
+      "subtitle": "Lo que {{ProdFullName}} Puede Hacer"
+    },
+    "steps": {
+      "title": "Proteger Información Privada en Formato {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} proporciona a los desarrolladores de {{EnvName}} formas rápidas de limpiar archivos y asegurar su contenido.",
+        "step_1": "Inicia un {{textRedactor}} y carga el archivo {{FileFormatCap}}.",
+        "step_2": "Elige tus opciones de redacción.",
+        "step_3": "Agrega patrón de texto y color de superposición.",
+        "step_4": "Ejecuta la redacción y guarda el archivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Ocultar texto usando superposiciones en {{FileFormatUp}}",
+      "comment_2": "Usa {{textRedactor}} para abrir el documento",
+      "comment_3": "Ajusta preferencias de redacción",
+      "comment_4": "Agrega palabras clave y selecciona color",
+      "comment_5": "Aplica y guarda tu archivo redactado"
+    },
+    "example_bottom": {
+      "title": "Redacción Potenciada por Regex",
+      "content": "Aprende a usar regex para ocultar automáticamente contenido específico.",
+      "comment_1": "Carga el documento a redactar",
+      "comment_2": "Define tu patrón regex y color de superposición",
+      "comment_3": "Aplica la redacción",
+      "comment_4": "Guarda tu versión limpia"
+    },
+    "more_features": {
+      "title": "Más Capacidades de Redacción",
+      "description": "Usa {{ProdFullName}} para eliminar contenido tanto visible como oculto de los archivos mientras mantienes la estructura intacta.",
+      "image_description": "Salida simple y limpia",
+      "feature_1": {
+        "title": "Reemplazar texto",
+        "content": "Cubre palabras o términos que no deben ser visibles."
+      },
+      "feature_2": {
+        "title": "Enmascarar elementos visuales",
+        "content": "Usa superposiciones de color para ocultar imágenes o partes de ellas."
+      },
+      "feature_3": {
+        "title": "Borrar metadatos",
+        "content": "Elimina detalles ocultos en las propiedades del archivo."
+      }
+    },
+    "about": {
+      "title": "Presentando {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los usuarios de {{ProgLang}} un control total sobre la redacción en {{FileFormatUp}}. Oculta lo que desees: texto, imágenes o metadatos."
+    },
+    "formats": {
+      "title": "Redactar Contenido en {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Mantén tus documentos {{FileFormatUp}} privados ocultando o eliminando datos sensibles utilizando {{EnvNameShort}}."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Cubrir Texto en {{FileFormatUp}} con Superposiciones y {{ProgLang}}",
+      "description": "Protege contenido sensible en archivos {{FileFormatUp}} aplicando superposiciones de color con {{ProdFullName}}. Mantén el diseño del documento intacto."
+    },
+    "header": {
+      "title": "Redactar Datos {{FileFormatUp}} con Superposiciones en {{EnvNameShort}}",
+      "description": "Usa código {{ProgLang}} para enmascarar información sensible en hojas de cálculo {{FileFormatUp}}. Una forma efectiva de mantener los datos privados.",
+      "subtitle": "Características Clave de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Ocultar Información en Hojas de Cálculo {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} ayuda a los desarrolladores de {{EnvName}} a proteger archivos ocultando información privada en solo unas líneas.",
+        "step_1": "Inicia un {{textRedactor}} y carga tu hoja de cálculo.",
+        "step_2": "Establece las reglas de redacción según sea necesario.",
+        "step_3": "Elige texto y color de superposición.",
+        "step_4": "Aplica y guarda el archivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Usa superposiciones para ocultar texto en {{FileFormatUp}}",
+      "comment_2": "Crea un {{textRedactor}} y carga tu archivo",
+      "comment_3": "Elige reglas de redacción",
+      "comment_4": "Ingresa qué ocultar y escoge un color",
+      "comment_5": "Aplica redacción y guarda el archivo"
+    },
+    "example_bottom": {
+      "title": "Redacción con Regex",
+      "content": "Usa regex para encontrar y ocultar texto automáticamente.",
+      "comment_1": "Abre tu hoja de cálculo",
+      "comment_2": "Configura el patrón y los detalles de superposición",
+      "comment_3": "Aplica la redacción",
+      "comment_4": "Guarda la versión limpia"
+    },
+    "more_features": {
+      "title": "Herramientas Esenciales de Protección de Datos",
+      "description": "Oculta o elimina información sensible de tus hojas de cálculo sin romper la estructura o el significado, usando {{ProdFullName}}.",
+      "image_description": "Diseñado para la limpieza segura de datos",
+      "feature_1": {
+        "title": "Editar u ocultar texto",
+        "content": "Encuentra y bloquea cualquier texto que necesite protección."
+      },
+      "feature_2": {
+        "title": "Cubrir visuales sensibles",
+        "content": "Aplica bloques de color sobre áreas de gráficos o imágenes."
+      },
+      "feature_3": {
+        "title": "Eliminar metadatos",
+        "content": "Borra el historial de documentos, nombres de autores o marcas de tiempo."
+      }
+    },
+    "about": {
+      "title": "Por Qué Elegir {{ProdFullName}}",
+      "content": "{{ProdFullName}} está diseñado para desarrolladores {{ProgLang}} que desean ocultar o limpiar contenido en hojas de cálculo {{FileFormatUp}} rápidamente."
+    },
+    "formats": {
+      "title": "Redactar Hojas {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Oculta o limpia datos sensibles en {{FileFormatUp}} usando superposiciones y herramientas de {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Proteger Texto en {{FileFormatUp}} con Superposiciones de {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puedes bloquear texto privado en diapositivas {{FileFormatUp}} utilizando simples cuadros de superposición, sin cambiar el diseño."
+    },
+    "header": {
+      "title": "Ocultar Texto en {{FileFormatUp}} Usando Superposiciones y {{EnvNameShort}}",
+      "description": "Usa {{ProgLang}} y {{ProdFullName}} para mantener tus diapositivas {{FileFormatUp}} seguras, enmascarando contenido sensible.",
+      "subtitle": "Dentro de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Limpiar Presentaciones {{FileFormatCap}} Antes de Compartir",
+      "content": {
+        "title": "Usa {{ProdFullName}} en aplicaciones {{EnvName}} para ocultar o eliminar partes sensibles de tus diapositivas.",
+        "step_1": "Crea un nuevo {{textRedactor}} con la ruta de tu conjunto de diapositivas.",
+        "step_2": "Define tus preferencias de redacción.",
+        "step_3": "Configura el patrón de texto y el color de superposición.",
+        "step_4": "Ejecuta y guarda el archivo redactado."
+      }
+    },
+    "example_top": {
+      "comment_1": "Superponer áreas de texto en {{FileFormatUp}}",
+      "comment_2": "Abre el archivo con {{textRedactor}}",
+      "comment_3": "Ajusta la configuración de redacción",
+      "comment_4": "Ingresa texto y elige color de superposición",
+      "comment_5": "Redacta y guarda el archivo actualizado"
+    },
+    "example_bottom": {
+      "title": "Regex para Redacción de Texto",
+      "content": "Aprende a detectar y redactar texto utilizando coincidencia de patrones.",
+      "comment_1": "Carga el conjunto de diapositivas",
+      "comment_2": "Aplica tus reglas regex",
+      "comment_3": "Ejecuta la redacción",
+      "comment_4": "Guarda la versión final"
+    },
+    "more_features": {
+      "title": "Redacción Simple para Diapositivas Sensibles",
+      "description": "{{ProdFullName}} facilita el bloqueo o la eliminación de contenido de las diapositivas, independientemente del caso de uso.",
+      "image_description": "Herramientas de redacción que se adaptan",
+      "feature_1": {
+        "title": "Encontrar y reemplazar texto",
+        "content": "Protege frases o etiquetas sensibles en cualquier diapositiva."
+      },
+      "feature_2": {
+        "title": "Cubrir partes de visuales",
+        "content": "Agrega superposiciones a áreas seleccionadas de las diapositivas o imágenes."
+      },
+      "feature_3": {
+        "title": "Eliminar contenido oculto",
+        "content": "Borra metadatos de las diapositivas o notas de revisión antes de compartir."
+      }
+    },
+    "about": {
+      "title": "Acerca de {{ProdFullName}}",
+      "content": "{{ProdFullName}} ayuda a los desarrolladores de {{ProgLang}} a limpiar diapositivas {{FileFormatUp}} bloqueando o eliminando contenido sensible como texto, metadatos o imágenes."
+    },
+    "formats": {
+      "title": "Proteger Diapositivas {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Usa herramientas de redacción y limpieza de {{EnvNameShort}} para mantener tus diapositivas {{FileFormatUp}} privadas."
+    }
+  }
+}

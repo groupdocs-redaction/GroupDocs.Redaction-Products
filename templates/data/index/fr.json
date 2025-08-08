@@ -1,0 +1,385 @@
+{
+  "index-content": {
+    "head_title": "Solution de Redaction de Document. Éditez ou supprimez toute donnée sensible.",
+    "head_description": "Supprimez, censurez ou masquez du texte, des images ou des métadonnées dans des fichiers PDF, des documents Word, des tableaux Excel, des présentations PowerPoint, des images, et plus encore. Utilisez notre bibliothèque dans vos applications .NET, Java, Python ou basées sur le cloud.",
+    "title": "Bibliothèque de Redaction de Document",
+    "description_0": "Masquez ou supprimez des informations privées provenant de divers types de fichiers.",
+    "description_1": "Modifiez du texte ou des images pour éliminer le contenu sensible.",
+    "description_2": "Gérez les métadonnées des fichiers grâce à nos fonctionnalités avancées.",
+    "words_for": "pour",
+    "release_title": "Version {0} Publiée",
+    "release_notes": "Voir les nouveautés",
+    "release_downloads": "Téléchargements",
+    "code_more": "Plus d'exemples",
+    "overview_title": "{{ProdShortName}} en un coup d'œil",
+    "formats_title": "Formats de Fichiers Pris en Charge",
+    "platforms": {
+      "title": "Indépendance de Plateforme",
+      "head_title": "Choisissez Votre Plateforme",
+      "description": "La bibliothèque {{ProdShortName}} prend en charge les systèmes d'exploitation et cadres suivants :",
+      "learn_more": "En savoir plus",
+      "any_other_text_editor": "Tout autre éditeur de texte"
+    },
+    "features": {
+      "title": "{{ProdShortName}} en un coup d'œil",
+      "description": "Une solution pour gérer le contenu dans des fichiers PDF, des documents Office, des images et d'autres fichiers commerciaux.",
+      "feature_1": {
+        "title": "Supprimer ou Éditer du Texte",
+        "content": "Trouvez et censurez du texte sensible dans vos documents."
+      },
+      "feature_2": {
+        "title": "Censurer des Images",
+        "content": "Masquez facilement des zones d'images dans vos fichiers."
+      },
+      "feature_3": {
+        "title": "Gérer les Métadonnées",
+        "content": "Supprimez ou remplacez des métadonnées telles que l'auteur dans les documents Word ou les données EXIF dans les images."
+      },
+      "feature_4": {
+        "title": "Fonctionnalités Avancées",
+        "content": "Recherchez des données à censurer à l'aide d'expressions régulières ou d'intégration AI."
+      }
+    },
+    "formats": {
+      "title": "30+ Formats de Fichiers Pris en Charge",
+      "description": "{{ProdShortName}} prend en charge des opérations de censure sur tous les formats de fichiers commerciaux largement utilisés."
+    },
+    "code_samples": {
+      "title": "Exemples de Code",
+      "index_title": "Exemples de Code {{ProdShortName}}",
+      "index_description": "Cas typiques d'opérations de censure {{ProdShortName}}.",
+      "more_examples": "Plus d'exemples",
+      "sample_index": {
+        "title": "Comment Censurer du Texte dans des Documents PDF",
+        "content": "{{ProdShortName}} est la meilleure solution pour censurer du texte dans vos documents en quelques étapes.",
+        "comment_1": "Passez le chemin du fichier à censurer à une instance de {{textRedactor}}",
+        "comment_2": "Fournissez des options de censure",
+        "comment_3": "Censurez et sauvegardez le résultat"
+      },
+      "sample_1": {
+        "code_title": "Censurer des Documents Word à l'aide d'Expressions Régulières",
+        "comment_1": "Créez une instance de la classe {{textRedactor}}",
+        "comment_2": "Définissez des règles de censure à l'aide d'une expression régulière",
+        "comment_3": "Masquez tout texte correspondant avec des superpositions carrées bleues",
+        "comment_4": "Enregistrez le document Word censuré"
+      },
+      "sample_2": {
+        "code_title": "Supprimer Toutes les Métadonnées des Présentations",
+        "comment_1": "Fournissez le chemin de la présentation au {{textRedactor}}",
+        "comment_2": "Configurez les options de censure",
+        "comment_3": "Effacez toutes les métadonnées de la présentation",
+        "comment_4": "Enregistrez le fichier de présentation nettoyé"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} Réalisations",
+      "description": "Découvrez les Métriques Clés qui Soulignent le Succès de Notre Bibliothèque",
+      "item_1": {
+        "title": "Formats Pris en Charge",
+        "description": "{{ProdShortName}} prend en charge des opérations avec plus de 30 formats de fichiers largement utilisés."
+      },
+      "item_2": {
+        "title": "Téléchargements NuGet",
+        "description": "{{ProdShortName}} pour .NET a été téléchargé plus de 440 000 fois sur NuGet."
+      },
+      "item_3": {
+        "title": "Téléchargements Maven",
+        "description": "{{ProdShortName}} a plus de 12 000 téléchargements sur Maven, offrant des fonctionnalités de censure Java puissantes."
+      },
+      "item_4": {
+        "title": "Clients Satisfaits",
+        "description": "Des entreprises mondiales et des développeurs individuels font confiance aux produits de {{NameCompany}} pour construire des solutions innovantes."
+      }
+    },
+    "customers": {
+      "title": "Nos Clients Satisfaits",
+      "description": "Les bibliothèques {{NameCompany}} sont approuvées par des marques mondialement reconnues et respectées."
+    },
+    "actions": {
+      "alt": "Licences",
+      "title": "Prêt à Commencer?",
+      "description": "Essayez gratuitement les fonctionnalités de {{ProdShortName}} ou demandez une licence.",
+      "description_index": "Essayez gratuitement les fonctionnalités de {{ProdShortName}} sur votre plateforme."
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "description": "Réponses aux questions les plus fréquemment posées.",
+      "item_1": {
+        "question": "La bibliothèque {{ProdShortName}} nécessite-t-elle un logiciel tiers pour manipuler des documents?",
+        "answer": "{{ProdShortName}} ne nécessite aucun logiciel externe tel qu'Adobe Acrobat, Microsoft Office ou autres."
+      },
+      "item_2": {
+        "question": "Puis-je essayer la bibliothèque {{ProdShortName}} avant d'acheter?",
+        "answer": "Oui, vous pouvez essayer {{ProdShortName}} sans acheter de licence. Il fonctionne en mode essai, ce qui ajoute des badges d'essai et limite la sortie aux 3 premières pages. Pour tester sans restrictions, demandez une licence temporaire de 30 jours. Pour plus de détails, [voir]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Quelles options de licence sont disponibles?",
+        "answer": "Nous offrons plusieurs types de licences en fonction de vos besoins en développement et distribution. Celles-ci incluent des licences basées sur les développeurs, les sites et les licences mesurées selon l'utilisation. En savoir plus [ici]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} APIs Low-Code",
+      "description": "Intégrez la censure de documents dans n'importe quelle application en utilisant notre API REST basée sur le cloud.",
+      "item_1": {
+        "content": "Utilisez des commandes cURL avec notre API Cloud REST pour censurer des documents dans une large gamme de formats de fichiers pris en charge."
+      },
+      "item_2": {
+        "content": "Extrayez des images, du texte et des métadonnées ou censurez des documents en utilisant des modèles dans des applications Microsoft .NET."
+      },
+      "item_3": {
+        "content": "SDK Java pour censurer des documents et extraire des données dans vos applications basées sur Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Applications Sans Code",
+      "description": "Une application web qui vous permet de censurer plus de 30 formats de fichiers populaires directement dans votre navigateur.",
+      "item_1": {
+        "content": "Outil en ligne gratuit pour censurer Word, Excel, PowerPoint, PDF et plus de 30 autres types de fichiers."
+      },
+      "item_2": {
+        "content": "Censurez des documents Word dans votre navigateur et extrayez des images, du texte ou des métadonnées."
+      },
+      "item_3": {
+        "content": "Outil de censure PDF gratuit qui fonctionne sur n'importe quel appareil ou plateforme sans limitations."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formats MS Office",
+      "title_2": "Autres Formats Office",
+      "title_3": "Autres Formats",
+      "format_portable": "Portable",
+      "format_images": "Images",
+      "format_other_office": "Formats de Texte",
+      "format_other_web": "Web",
+      "format_other_ebooks": "eBooks"
+    }
+  },
+  "index-content-net": {
+    "head_title": "Censurer des données sensibles dans vos documents en utilisant {{EnvNameShort}}",
+    "head_description": "Protégez vos documents d'entreprise avec {{ProdFullName}}. Censurez, masquez ou supprimez facilement du contenu confidentiel des fichiers PDF, Word, Excel, PowerPoint et images.",
+    "title": "Sécurisez Votre Contenu avec {{ProdShortName}}",
+    "description": "Censurez, masquez ou supprimez définitivement des informations sensibles et des métadonnées des fichiers PDF, des documents Word, des feuilles de calcul, des présentations et des images en utilisant notre puissante solution {{EnvNameShort}}.",
+    "actions_main": "{{PackageStoreName}} Téléchargement",
+    "code_title": "Comment Censurer le Contenu d'un Fichier",
+    "code_comment_1": "Passez le fichier d'entrée à une instance de {{textRedactor}}",
+    "code_comment_2": "Configurez les options de censure",
+    "code_comment_3": "Exécutez le processus de censure",
+    "code_comment_4": "Enregistrez le fichier censuré",
+    "overview_description": "Ajoutez des capacités de censure de contenu de grade professionnel à vos applications {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Censurer le Contenu Textuel",
+      "description": "{{ProdFullName}} vous permet de localiser et de censurer du texte sensible. Le texte peut être remplacé ou masqué à l'aide de superpositions d'images colorées pour plus de sécurité. Prise en charge d'une grande variété de formats, y compris les fichiers PDF et Office, cette fonctionnalité aide à protéger les données privées et à rationaliser la conformité commerciale."
+    },
+    "overview_feature_2": {
+      "title": "Censurer des Images",
+      "description": "Détectez et censurez automatiquement des images—totalement ou partiellement—sur les pages de documents. Spécifiez des critères de recherche et des régions ciblées pour masquer efficacement le contenu visuel sensible."
+    },
+    "overview_feature_3": {
+      "title": "Gérer les Métadonnées de Fichier",
+      "description": "De nombreux types de fichiers contiennent des métadonnées cachées, telles que les noms d'auteur dans les fichiers Word ou les données EXIF dans les images. {{ProdFullName}} facilite la recherche et la censure de ces informations pour garantir la confidentialité des données."
+    },
+    "overview_feature_4": {
+      "title": "Censurer les Objets de Document",
+      "description": "Assurez une protection complète du contenu en censurant les éléments spécifiques au document tels que les annotations, les commentaires et les objets intégrés dans des formats comme les fichiers PDF."
+    },
+    "features": {
+      "title": "Fonctionnalités de {{ProdFullName}}",
+      "description": "Extrayez et censurez des données des fichiers PDF, des fichiers Office et des images avec rapidité et précision.",
+      "feature_1": {
+        "title": "Recherche Flexible",
+        "content": "Effectuez des recherches sensibles ou insensibles à la casse pour censurer des phrases ou des termes spécifiques."
+      },
+      "feature_2": {
+        "title": "Remplacer ou Supprimer du Texte",
+        "content": "Trouvez et remplacez ou supprimez facilement du texte sensible dans vos documents."
+      },
+      "feature_3": {
+        "title": "Masquer le Texte avec des Images",
+        "content": "Utilisez des superpositions d'images colorées pour masquer visuellement le contenu censuré plutôt que de remplacer le texte."
+      },
+      "feature_4": {
+        "title": "Capacités de Recherche Avancées",
+        "content": "Utilisez des expressions régulières pour une censure de contenu précise et flexible à travers des ensembles de données complexes."
+      },
+      "feature_5": {
+        "title": "Censure Spécifiée",
+        "content": "Ciblez des pages spécifiques ou des zones définies pour limiter la censure uniquement aux sections pertinentes."
+      },
+      "feature_6": {
+        "title": "Censure des Métadonnées",
+        "content": "Trouvez et censurez les propriétés des métadonnées pour protéger les détails de propriété et de création du document."
+      },
+      "feature_7": {
+        "title": "Formats de Sortie Flexibles",
+        "content": "Exploitez les fichiers censurés au format PDF ou dans tout format pris en charge tout en préservant l'intégrité de la mise en page."
+      },
+      "feature_8": {
+        "title": "Effacement Complet des Métadonnées",
+        "content": "Effacez toutes les métadonnées d'un document en une seule action afin de garantir une confidentialité absolue."
+      },
+      "feature_9": {
+        "title": "Règles de Censure Basées sur XML",
+        "content": "Définissez des politiques de censure au format XML pour un traitement automatisé répétable à travers plusieurs fichiers."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} est compatible avec une large gamme de systèmes d'exploitation, de cadres de développement et de gestionnaires de packages.",
+    "formats_description": "{{ProdFullName}} prend en charge des opérations avec les [formats de fichiers suivants]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Exemples d'utilisation typiques de {{ProdFullName}}",
+    "code_title_sample_1": "Censure avec des Expressions Régulières",
+    "code_samples_sample_1_content": "{{ProdFullName}} permet aux développeurs {{ProgLang}} de censurer du texte à l'aide [d'expressions régulières]({{Sample1Url}}) et de le masquer avec des superpositions d'images :",
+    "code_title_sample_2": "Nettoyage des Métadonnées",
+    "code_samples_sample_2_content": "Utilisez notre API pour [supprimer facilement]({{Sample2Url}}) toutes les métadonnées des formats de fichiers pris en charge :"
+  },
+  "index-content-java": {
+    "head_title": "Supprimez des données confidentielles des documents en utilisant {{EnvNameShort}}",
+    "head_description": "Protégez vos informations sensibles avec {{ProdFullName}}. Masquez, censurez ou supprimez sans effort du contenu privé dans des fichiers PDF, des fichiers Office et des images.",
+    "title": "Protégez les Données Confidentielles avec {{ProdShortName}}",
+    "description": "Supprimez facilement des données privées, censurez du texte et nettoyez les métadonnées des fichiers PDF, Word, Excel, PowerPoint et des formats image en utilisant la boîte à outils fiable {{EnvNameShort}}.",
+    "actions_main": "{{PackageStoreName}} Téléchargement",
+    "code_title": "Étapes pour Censurer le Contenu d'un Document",
+    "code_comment_1": "Chargez votre fichier source avec une instance de {{textRedactor}}",
+    "code_comment_2": "Définissez les critères et les paramètres de censure",
+    "code_comment_3": "Exécutez l'opération de censure",
+    "code_comment_4": "Enregistrez le fichier avec des censure appliquées",
+    "overview_description": "Améliorez vos applications {{EnvNameShort}} avec des outils de censure professionnels",
+    "overview_feature_1": {
+      "title": "Supprimer le Texte Sensible",
+      "description": "Avec {{ProdFullName}}, vous pouvez rechercher et masquer du texte privé à l'aide de superpositions ou de remplacements personnalisables. Compatible avec les fichiers PDF, Word, Excel et plus encore, il est idéal pour la conformité réglementaire et le partage sécurisé de documents."
+    },
+    "overview_feature_2": {
+      "title": "Cacher des Images",
+      "description": "Identifiez et masquez complètement ou partiellement les images selon vos besoins. Définissez des règles de détection et des coordonnées de zone pour sécuriser efficacement les données visuelles."
+    },
+    "overview_feature_3": {
+      "title": "Nettoyer les Métadonnées Intégrées",
+      "description": "Les fichiers peuvent contenir des informations cachées telles que les noms d'auteur, les outils de création ou les détails d'appareil. {{ProdFullName}} vous permet de détecter et de désinfecter les métadonnées dans Word, Excel, images et autres formats."
+    },
+    "overview_feature_4": {
+      "title": "Censurer des Objets Intégrés",
+      "description": "Assainissez complètement les documents en censurant des objets tels que les annotations de PDF, les commentaires ou d'autres éléments intégrés afin d'éliminer toute trace d'informations confidentielles."
+    },
+    "features": {
+      "title": "Ce que Vous Pouvez Faire avec {{ProdShortName}}",
+      "description": "Localisez et censurez rapidement le contenu des fichiers PDF, des documents Office et des images avec précision.",
+      "feature_1": {
+        "title": "Recherche Précise",
+        "content": "Utilisez des modes de recherche sensibles et insensibles à la casse pour trouver et censurer des correspondances exactes."
+      },
+      "feature_2": {
+        "title": "Trouver et Remplacer du Texte",
+        "content": "Détectez automatiquement et remplacez ou supprimez du texte confidentiel dans tout le document."
+      },
+      "feature_3": {
+        "title": "Superposer avec des Images Personnalisées",
+        "content": "Utilisez des blocs d'image pour obscurcir le texte censuré tout en préservant la mise en page."
+      },
+      "feature_4": {
+        "title": "Utilisez Regex pour une Censure Avancée",
+        "content": "Exploitez les expressions régulières pour détecter des modèles complexes et censurer intelligemment."
+      },
+      "feature_5": {
+        "title": "Censurer des Zones Spécifiques",
+        "content": "Limitez la censure aux pages sélectionnées ou aux zones définies en définissant des zones cibles précises."
+      },
+      "feature_6": {
+        "title": "Nettoyer les Champs de Métadonnées",
+        "content": "Identifiez et nettoyez les métadonnées du document, y compris l'auteur, l'entreprise ou les données de suivi."
+      },
+      "feature_7": {
+        "title": "Exporter dans le Format Souhaité",
+        "content": "Enregistrez vos fichiers censurés au format PDF ou dans un autre format pris en charge sans perdre l'intégrité de la mise en page."
+      },
+      "feature_8": {
+        "title": "Épurer Toutes les Métadonnées",
+        "content": "Supprimez complètement les métadonnées des fichiers pris en charge en une seule commande."
+      },
+      "feature_9": {
+        "title": "Politiques de Censure Automatisées",
+        "content": "Créez des configurations de censure réutilisables stockées en XML pour une censure cohérente par lots."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} fonctionne sur les principaux systèmes d'exploitation, frameworks et plateformes de développement.",
+    "formats_description": "{{ProdFullName}} prend en charge le traitement des [formats de fichiers suivants]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Exemples courants d'utilisation de {{ProdFullName}}",
+    "code_title_sample_1": "Censurer en Utilisant Regex",
+    "code_samples_sample_1_content": "{{ProdFullName}} permet aux développeurs {{ProgLang}} d'appliquer [censure basée sur regex]({{Sample1Url}}) avec un masquage d'image optionnel :",
+    "code_title_sample_2": "Supprimer Toutes les Métadonnées",
+    "code_samples_sample_2_content": "Avec notre API, vous pouvez [supprimer des métadonnées]({{Sample2Url}}) à travers plusieurs types de fichiers en une seule étape :"
+  },
+  "index-content-python": {
+    "head_title": "Effacez des informations confidentielles des documents avec {{EnvNameShort}}",
+    "head_description": "Gardez vos fichiers sécurisés avec {{ProdFullName}}. Censurez rapidement, masquez ou supprimez du contenu sensible dans des fichiers PDF, Word, Excel, PowerPoint, et des fichiers image.",
+    "title": "Gardez Vos Documents Sécurisés avec {{ProdShortName}}",
+    "description": "Supprimez facilement des données privées, censurez du texte et nettoyez les métadonnées cachées des fichiers PDF, des fichiers Office et des images en utilisant la boîte à outils avancée {{EnvNameShort}}.",
+    "actions_main": "{{PackageStoreName}} Téléchargement",
+    "code_title": "Censure du Contenu d'un Document",
+    "code_comment_1": "Chargez votre fichier dans l'instance {{textRedactor}}",
+    "code_comment_2": "Ajustez les paramètres de censure",
+    "code_comment_3": "Démarrez le processus de censure",
+    "code_comment_4": "Exportez le fichier nettoyé",
+    "overview_description": "Intégrez des capacités de censure puissantes dans vos projets {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Censurer le Texte Sensible",
+      "description": "Avec {{ProdFullName}}, vous pouvez automatiquement trouver et couvrir des mots ou des phrases sensibles. Remplacez ou masquez le texte avec des boîtes colorées pour une protection renforcée à travers les fichiers PDF, les documents Word, et d'autres formats."
+    },
+    "overview_feature_2": {
+      "title": "Masquer des Images",
+      "description": "Notre technologie peut détecter des images et les flouter, les masquer ou les bloquer selon vos critères choisis. Définissez des régions spécifiques ou laissez une détection automatique pour un contrôle complet."
+    },
+    "overview_feature_3": {
+      "title": "Supprimer les Métadonnées Cachées",
+      "description": "Éliminez les détails personnels ou de suivi cachés dans les métadonnées, tels que l'auteur ou les informations sur l'appareil. {{ProdFullName}} s'assure que vos documents sont complètement nettoyés et sûrs à partager."
+    },
+    "overview_feature_4": {
+      "title": "Censurer des Éléments Spéciaux",
+      "description": "Allez au-delà du texte en censurant des éléments intégrés comme des commentaires, des annotations et d'autres éléments spécifiques aux fichiers pour atteindre une confidentialité totale."
+    },
+    "features": {
+      "title": "Fonctionnalités Clés de {{ProdFullName}}",
+      "description": "Scanner, localiser et censurer sans effort du contenu sensible dans des fichiers PDF, des images et des fichiers Office.",
+      "feature_1": {
+        "title": "Recherche Personnalisable",
+        "content": "Utilisez des modes de recherche flexibles pour trouver des correspondances précises ou des mots-clés à supprimer."
+      },
+      "feature_2": {
+        "title": "Trouver, Remplacer ou Supprimer du Texte",
+        "content": "Localisez des données sensibles et soit substituez-les avec un texte sûr, soit effacez-les complètement."
+      },
+      "feature_3": {
+        "title": "Masquage Visuel",
+        "content": "Superposez des formes ou des motifs colorés pour couvrir visuellement les sections censurées."
+      },
+      "feature_4": {
+        "title": "Détection Alimentée par Regex",
+        "content": "Profitez des expressions régulières pour une précision ciblée dans des recherches textuelles avancées."
+      },
+      "feature_5": {
+        "title": "Censure Ciblée",
+        "content": "Appliquez la censure uniquement à certaines pages ou régions définies pour gagner du temps et vous concentrer sur des zones clés."
+      },
+      "feature_6": {
+        "title": "Sanitisation des Métadonnées",
+        "content": "Effacez facilement des champs de métadonnées tels que le créateur, l'entreprise ou les horodatages de vos fichiers."
+      },
+      "feature_7": {
+        "title": "Options d'Exportation",
+        "content": "Enregistrez les documents traités au format PDF ou dans d'autres formats compatibles sans perdre la fidélité de la mise en page."
+      },
+      "feature_8": {
+        "title": "Élimination Complète des Métadonnées",
+        "content": "Effacez toutes les métadonnées intégrées d'un seul clic pour une protection maximale des données."
+      },
+      "feature_9": {
+        "title": "Politiques XML Réutilisables",
+        "content": "Enregistrez vos configurations de censure personnalisées en tant que modèles XML pour automatiser les tâches futures."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} fonctionne sur tous les principaux systèmes d'exploitation, prend en charge des frameworks populaires et s'intègre avec des gestionnaires de packages courants.",
+    "formats_description": "{{ProdFullName}} prend en charge les [formats de fichiers suivants]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Découvrez comment {{ProdFullName}} simplifie les tâches de censure",
+    "code_title_sample_1": "Censure Basée sur Regex",
+    "code_samples_sample_1_content": "Les développeurs utilisant {{ProgLang}} peuvent appliquer [règles basées sur regex]({{Sample1Url}}) pour trouver et couvrir du texte sensible avec des masques d'images :",
+    "code_title_sample_2": "Supprimer les Métadonnées",
+    "code_samples_sample_2_content": "Utilisez l'API pour [effacer les métadonnées]({{Sample2Url}}) à travers plusieurs types de fichiers en quelques étapes seulement :"
+  }
+}

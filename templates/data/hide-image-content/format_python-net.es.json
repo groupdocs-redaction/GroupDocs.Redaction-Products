@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Cubrir Imágenes Sensibles en {{FileFormatUp}} con Superposiciones Usando {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puede ocultar imágenes sensibles en archivos {{FileFormatUp}} agregando superposiciones. Proteja datos privados sin alterar el diseño del documento."
+    },
+    "header": {
+      "title": "Ocultar Imágenes en Archivos {{FileFormatUp}} con Superposiciones Usando {{EnvNameShort}}",
+      "description": "Mantenga seguras las imágenes personales y comerciales en archivos {{FileFormatUp}} con {{ProgLang}}. Nuestras herramientas hacen que la protección de datos sea confiable.",
+      "subtitle": "Características de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteger Datos Sensibles en Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} brinda a sus aplicaciones {{EnvName}} la capacidad de proteger documentos. Oculte contenido privado con solo unos clics.",
+        "step_1": "Cree un objeto {{textRedactor}} y apúntelo al archivo {{FileFormatCap}}.",
+        "step_2": "Ajuste la configuración para adaptarse a sus necesidades de redacción.",
+        "step_3": "Seleccione qué área de la imagen cubrir y elija un color de superposición.",
+        "step_4": "Procese y guarde el archivo redactado."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cubrir partes confidenciales de imágenes en {{FileFormatUp}}",
+      "comment_2": "Cargue el documento utilizando {{textRedactor}}",
+      "comment_3": "Configure el color y tamaño de la superposición",
+      "comment_4": "Elija el área a redactar",
+      "comment_5": "Aplique la superposición y guarde el documento"
+    },
+    "example_bottom": {
+      "title": "Ocultar Información de Imágenes con Superposiciones",
+      "content": "Este ejemplo muestra cómo cubrir datos de imagen sensibles en documentos usando superposiciones.",
+      "comment_1": "Abra el archivo para redacción",
+      "comment_2": "Ajuste la configuración de la superposición: tamaño, color y ubicación",
+      "comment_3": "Elija el área de la imagen en la primera página",
+      "comment_4": "Aplique la superposición para ocultar la imagen",
+      "comment_5": "Guarde el archivo redactado"
+    },
+    "more_features": {
+      "title": "Ocultar Contenido Sensible en Documentos",
+      "description": "Con {{ProdFullName}}, puede ocultar o borrar datos en diferentes formatos de archivo. Proteja información sensible mientras mantiene los documentos limpios y compartibles.",
+      "image_description": "Funciones Clave de Redacción",
+      "feature_1": {
+        "title": "Buscar y Editar Texto",
+        "content": "Encuentre y cambie texto sensible en su documento para proteger información privada."
+      },
+      "feature_2": {
+        "title": "Cubrir Áreas de Imágenes",
+        "content": "Coloque superposiciones en imágenes o partes seleccionadas para ocultar visuales confidenciales."
+      },
+      "feature_3": {
+        "title": "Gestionar Metadatos",
+        "content": "Elimine o edite metadatos ocultos para prevenir filtraciones de datos no deseadas."
+      }
+    },
+    "about": {
+      "title": "Acerca de {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de {{ProgLang}} herramientas para ocultar o eliminar contenido en archivos {{FileFormatUp}}. Oculte texto, imágenes y metadatos para proteger documentos en diferentes formatos."
+    },
+    "formats": {
+      "title": "Proteger Archivos {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Utilice {{EnvNameShort}} para ocultar o eliminar datos sensibles en archivos {{FileFormatUp}}. Una solución práctica para asegurar documentos comerciales y privados."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Ocultar Contenido de Imagen en {{FileFormatUp}} con Superposiciones Usando {{ProgLang}}",
+      "description": "Proteja imágenes sensibles en archivos {{FileFormatUp}} agregando superposiciones con {{ProdFullName}}. Mantenga la formateo del documento intacto mientras asegura visuales privadas."
+    },
+    "header": {
+      "title": "Proteger Imágenes en Documentos {{FileFormatUp}} Usando Superposiciones con {{EnvNameShort}}",
+      "description": "Mantenga seguras las visuales personales y comerciales en archivos {{FileFormatUp}} utilizando {{ProgLang}}. Nuestras herramientas de redacción facilitan la seguridad de documentos.",
+      "subtitle": "Aspectos Destacados de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Mantenga los Datos Seguros en Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} facilita que las aplicaciones {{EnvName}} protejan documentos. Redacte datos sensibles en solo unos pocos pasos.",
+        "step_1": "Cree una instancia de {{textRedactor}} y especifique la ruta al archivo {{FileFormatCap}}.",
+        "step_2": "Configure las preferencias de redacción según su tarea.",
+        "step_3": "Elija la parte de la imagen que desea cubrir y defina el color de la superposición.",
+        "step_4": "Ejecute el proceso y guarde el archivo redactado."
+      }
+    },
+    "example_top": {
+      "comment_1": "Ocultar partes sensibles de imágenes en {{FileFormatUp}}",
+      "comment_2": "Cargue el archivo utilizando {{textRedactor}}",
+      "comment_3": "Defina el tamaño y color de la superposición",
+      "comment_4": "Especifique el área para la redacción",
+      "comment_5": "Aplique la superposición y guarde su documento"
+    },
+    "example_bottom": {
+      "title": "Ocultar Datos de Imagen Usando Superposiciones",
+      "content": "Este ejemplo muestra cómo proteger áreas de imagen sensibles en documentos con superposiciones.",
+      "comment_1": "Cargue el archivo que desea redactar",
+      "comment_2": "Establezca la configuración de la superposición: color, tamaño, posición",
+      "comment_3": "Elija un área para redactar en la página uno",
+      "comment_4": "Aplique la superposición para cubrir la imagen",
+      "comment_5": "Guarde el archivo redactado"
+    },
+    "more_features": {
+      "title": "Ocultar Contenido en Documentos",
+      "description": "Con {{ProdFullName}}, puede ocultar o eliminar información sensible de varios tipos de documentos. Mantenga los archivos seguros y compartibles.",
+      "image_description": "Características de Redacción Efectivas",
+      "feature_1": {
+        "title": "Buscar y Editar Texto",
+        "content": "Localice palabras sensibles y cámbielas para proteger sus datos."
+      },
+      "feature_2": {
+        "title": "Cubrir Imágenes",
+        "content": "Aplique superposiciones a imágenes completas o partes seleccionadas para proteger datos visuales."
+      },
+      "feature_3": {
+        "title": "Limpiar Metadatos Ocultos",
+        "content": "Elimine o actualice metadatos para prevenir compartir accidentalmente datos."
+      }
+    },
+    "about": {
+      "title": "Acerca de {{ProdFullName}}",
+      "content": "{{ProdFullName}} otorga a los desarrolladores de {{ProgLang}} la capacidad de ocultar o eliminar contenido en archivos {{FileFormatUp}}. Proteja texto, imágenes y metadatos en múltiples formatos de documentos."
+    },
+    "formats": {
+      "title": "Ocultar Datos Sensibles en Archivos {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Utilice {{EnvNameShort}} para cubrir o borrar datos privados en archivos {{FileFormatUp}}. La herramienta adecuada para mantener documentos confidenciales seguros."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Ocultar Áreas de Imágenes en Archivos {{FileFormatUp}} con Superposiciones Usando {{ProgLang}}",
+      "description": "Proteja regiones de imágenes sensibles en archivos {{FileFormatUp}} aplicando superposiciones con {{ProdFullName}}. Mantenga la estructura de su documento intacta mientras asegura visuales privadas."
+    },
+    "header": {
+      "title": "Ocultar Imágenes Sensibles en Documentos {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Proteja fácilmente imágenes confidenciales en archivos {{FileFormatUp}} con {{ProgLang}}. Nuestras herramientas garantizan una redacción de imágenes rápida y efectiva.",
+      "subtitle": "Características Principales de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteger Datos Sensibles en Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} facilita a sus aplicaciones {{EnvName}} asegurar documentos.",
+        "step_1": "Inicialice {{textRedactor}} y cargue el documento {{FileFormatCap}}.",
+        "step_2": "Configure los parámetros de redacción para que coincidan con su tarea.",
+        "step_3": "Defina qué parte de la imagen cubrir y elija un color.",
+        "step_4": "Aplique la redacción y guarde el archivo final."
+      }
+    },
+    "example_top": {
+      "comment_1": "Ocultar secciones confidenciales de imágenes en {{FileFormatUp}}",
+      "comment_2": "Cargue el documento con {{textRedactor}}",
+      "comment_3": "Seleccione el tamaño y color de la superposición",
+      "comment_4": "Marque el área de redacción",
+      "comment_5": "Aplique los cambios y guarde el archivo"
+    },
+    "example_bottom": {
+      "title": "Enmascarar Contenido de Imagen con Superposiciones",
+      "content": "Esta guía muestra cómo ocultar áreas sensibles de imagen en documentos utilizando superposiciones.",
+      "comment_1": "Abra el archivo para redacción",
+      "comment_2": "Defina tamaño, posición y color de la superposición",
+      "comment_3": "Seleccione la sección específica de la imagen",
+      "comment_4": "Aplique la superposición para ocultar el área",
+      "comment_5": "Guarde el documento modificado"
+    },
+    "more_features": {
+      "title": "Redactar Contenido en Documentos",
+      "description": "Con {{ProdFullName}}, puede ocultar o eliminar datos sensibles en muchos formatos de documentos. Mantenga los documentos seguros y con aspecto profesional.",
+      "image_description": "Herramientas Eficientes de Redacción",
+      "feature_1": {
+        "title": "Buscar y Reemplazar Texto",
+        "content": "Ubique texto privado y reemplácelo o oculte."
+      },
+      "feature_2": {
+        "title": "Cubrir Imágenes con Superposiciones",
+        "content": "Oculte imágenes completas o secciones específicas para proteger visuales sensibles."
+      },
+      "feature_3": {
+        "title": "Eliminar Metadatos Ocultos",
+        "content": "Limpie metadatos de archivos para evitar compartir información privada."
+      }
+    },
+    "about": {
+      "title": "¿Qué es {{ProdFullName}}?",
+      "content": "{{ProdFullName}} ofrece a los desarrolladores de {{ProgLang}} herramientas para ocultar o borrar datos sensibles de documentos {{FileFormatUp}}. Redacte texto, imágenes y metadatos en diferentes formatos."
+    },
+    "formats": {
+      "title": "Ocultar Contenido en Archivos {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Utilice {{EnvNameShort}} para redactar o eliminar datos sensibles de archivos {{FileFormatUp}}. Ideal para empresas e individuos que buscan proteger sus documentos."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Enmascarar Imágenes en Archivos {{FileFormatUp}} con Superposiciones Usando {{ProgLang}}",
+      "description": "Utilice {{ProdFullName}} para enmascarar imágenes sensibles en archivos {{FileFormatUp}} con superposiciones de colores. Proteja datos importantes mientras mantiene el formato del documento intacto."
+    },
+    "header": {
+      "title": "Enmascarar Imágenes Privadas en Documentos {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Proteja visuales sensibles en archivos {{FileFormatUp}} utilizando {{ProgLang}}. Nuestras herramientas hacen que redactar imágenes sea simple y rápido.",
+      "subtitle": "Características de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteger Datos Sensibles en Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} ayuda a las aplicaciones {{EnvName}} a proteger documentos cubriendo contenido sensible.",
+        "step_1": "Cree una instancia de {{textRedactor}} y cargue el archivo {{FileFormatCap}}.",
+        "step_2": "Establezca las opciones de redacción según su tarea.",
+        "step_3": "Seleccione el área de la imagen y asigne un color de superposición.",
+        "step_4": "Aplique la superposición y guarde el archivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Enmascarar regiones de imagen privadas en {{FileFormatUp}}",
+      "comment_2": "Abra el documento con {{textRedactor}}",
+      "comment_3": "Defina el color y el tamaño de la superposición",
+      "comment_4": "Marque el área para redactar",
+      "comment_5": "Aplique la superposición y guarde el archivo"
+    },
+    "example_bottom": {
+      "title": "Cubrir Contenido de Imagen con Superposiciones de Color",
+      "content": "Vea cómo enmascarar partes sensibles de imagen en documentos utilizando superposiciones.",
+      "comment_1": "Cargue el documento",
+      "comment_2": "Defina las propiedades de la superposición: tamaño, ubicación, color",
+      "comment_3": "Elija el área de la imagen en la primera página",
+      "comment_4": "Superponga el área seleccionada",
+      "comment_5": "Guarde el documento protegido"
+    },
+    "more_features": {
+      "title": "Funciones para Redacción de Documentos",
+      "description": "{{ProdFullName}} le permite ocultar o eliminar datos confidenciales en muchos tipos de documentos. Mantenga sus archivos limpios y protegidos.",
+      "image_description": "Completa gama de herramientas de redacción",
+      "feature_1": {
+        "title": "Buscar y Reemplazar Texto",
+        "content": "Encuentre texto sensible y redactelo para proteger su información."
+      },
+      "feature_2": {
+        "title": "Cubrir Áreas de Imágenes",
+        "content": "Cubra imágenes completas o secciones específicas con superposiciones para ocultar información privada."
+      },
+      "feature_3": {
+        "title": "Limpiar Metadatos",
+        "content": "Elimine o cambie metadatos ocultos para evitar exponer datos privados."
+      }
+    },
+    "about": {
+      "title": "Acerca de {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de {{ProgLang}} herramientas simples para ocultar o borrar contenido en archivos {{FileFormatUp}}. Redacte texto, imágenes y metadatos en varios formatos."
+    },
+    "formats": {
+      "title": "Ocultar Contenido en Archivos {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Utilice {{EnvNameShort}} para ocultar o eliminar contenido privado en archivos {{FileFormatUp}}. Una herramienta confiable para la seguridad de documentos."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Proteger Imágenes en {{FileFormatUp}} con Superposiciones Usando {{ProgLang}}",
+      "description": "Cubra imágenes sensibles en archivos {{FileFormatUp}} con {{ProdFullName}}. Aplique superposiciones para proteger datos privados mientras preserva el diseño del documento."
+    },
+    "header": {
+      "title": "Cubrir Imágenes Privadas en Archivos {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Mantenga las visuales personales y comerciales seguras en documentos {{FileFormatUp}} con {{ProgLang}}. Herramientas de redacción simples y rápidas en las que puede confiar.",
+      "subtitle": "Características Clave de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Asegurar Información Sensible en Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} ayuda a sus aplicaciones {{EnvName}} a proteger documentos cubriendo contenido privado con superposiciones.",
+        "step_1": "Cree un objeto {{textRedactor}} y cargue el archivo {{FileFormatCap}}.",
+        "step_2": "Ajuste la configuración de redacción según sea necesario.",
+        "step_3": "Seleccione el área de la imagen y configure el color de la superposición.",
+        "step_4": "Aplique la superposición y guarde el archivo redactado."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cubrir partes sensibles de imagen en {{FileFormatUp}}",
+      "comment_2": "Cargue el archivo utilizando {{textRedactor}}",
+      "comment_3": "Especifique el color y tamaño de la superposición",
+      "comment_4": "Elija el área de la imagen a ocultar",
+      "comment_5": "Aplique y guarde el documento"
+    },
+    "example_bottom": {
+      "title": "Cubrir Contenido de Imagen con Superposiciones",
+      "content": "Este ejemplo muestra cómo ocultar imágenes sensibles en documentos utilizando superposiciones.",
+      "comment_1": "Abra el documento",
+      "comment_2": "Establezca dimensiones de la superposición, color y ubicación",
+      "comment_3": "Seleccione el área en la primera página para cubrir",
+      "comment_4": "Aplique la redacción de la superposición",
+      "comment_5": "Guarde el documento actualizado"
+    },
+    "more_features": {
+      "title": "Funciones Avanzadas de Redacción",
+      "description": "{{ProdFullName}} le permite ocultar o eliminar contenido sensible en diferentes formatos de documentos. Mantenga los archivos limpios y seguros para compartir.",
+      "image_description": "Kit de herramientas de redacción todo en uno",
+      "feature_1": {
+        "title": "Buscar y Reemplazar Texto",
+        "content": "Encuentre texto sensible en documentos y reemplácelo para garantizar la privacidad."
+      },
+      "feature_2": {
+        "title": "Superponer Imágenes",
+        "content": "Cubra áreas de imagen seleccionadas o completas para ocultar información privada."
+      },
+      "feature_3": {
+        "title": "Eliminar Metadatos",
+        "content": "Elimine metadatos ocultos para evitar compartir datos invisibles."
+      }
+    },
+    "about": {
+      "title": "Acerca de {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de {{ProgLang}} herramientas simples para ocultar o borrar contenido de archivos {{FileFormatUp}}. Proteja texto, imágenes y metadatos sensibles en diferentes formatos de documentos."
+    },
+    "formats": {
+      "title": "Redactar Contenido en {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "{{EnvNameShort}} le permite ocultar o eliminar contenido sensible en archivos {{FileFormatUp}}. Una solución confiable para la seguridad de los documentos."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Cubrir Imágenes en {{FileFormatUp}} Usando Superposiciones en {{ProgLang}}",
+      "description": "Proteja áreas de imagen sensibles en archivos {{FileFormatUp}} con {{ProdFullName}}. Añada superposiciones para ocultar visuales privadas sin cambiar el aspecto del documento."
+    },
+    "header": {
+      "title": "Proteger Imágenes Sensibles en Archivos {{FileFormatUp}} con Superposiciones Usando {{EnvNameShort}}",
+      "description": "Asegure sus imágenes personales y comerciales en archivos {{FileFormatUp}} con {{ProgLang}}. Obtenga protección confiable con nuestras herramientas fáciles de usar.",
+      "subtitle": "Características Clave de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteger Datos en Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} ayuda a las aplicaciones {{EnvName}} a ocultar información privada en documentos de manera rápida.",
+        "step_1": "Cree una instancia de {{textRedactor}} y cargue el archivo {{FileFormatCap}}.",
+        "step_2": "Configure las opciones de redacción según sea necesario.",
+        "step_3": "Seleccione el área de la imagen y elija un color de superposición.",
+        "step_4": "Aplique la redacción y guarde el archivo editado."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cubrir áreas de imagen en {{FileFormatUp}}",
+      "comment_2": "Abra el documento con {{textRedactor}}",
+      "comment_3": "Ajuste el tamaño y color de la superposición",
+      "comment_4": "Elija el área a cubrir",
+      "comment_5": "Aplique la superposición y guarde el archivo"
+    },
+    "example_bottom": {
+      "title": "Utilizar Superposiciones para Ocultar Datos de Imagen",
+      "content": "Este ejemplo muestra cómo aplicar superposiciones para cubrir imágenes sensibles en documentos.",
+      "comment_1": "Cargue el documento para editar",
+      "comment_2": "Establezca color, tamaño y posición de la superposición",
+      "comment_3": "Seleccione una sección específica de imagen en la página uno",
+      "comment_4": "Aplique la superposición para ocultar",
+      "comment_5": "Guarde el archivo actualizado"
+    },
+    "more_features": {
+      "title": "Ocultar o Eliminar Contenido Sensible",
+      "description": "{{ProdFullName}} le permite proteger documentos ocultando o eliminando datos sensibles en varios formatos. Mantenga los archivos seguros y claros para compartir.",
+      "image_description": "Herramientas de Redacción Ricas en Funcionalidades",
+      "feature_1": {
+        "title": "Editar Texto de Forma Segura",
+        "content": "Busque texto sensible en documentos y reemplácelo para proteger la privacidad."
+      },
+      "feature_2": {
+        "title": "Ocultar Partes de Imagen",
+        "content": "Cubra áreas seleccionadas de imagen o visuales completas con superposiciones."
+      },
+      "feature_3": {
+        "title": "Eliminar Metadatos Ocultos",
+        "content": "Borre campos de metadatos invisibles para prevenir fugas de datos."
+      }
+    },
+    "about": {
+      "title": "Acerca de {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de {{ProgLang}} herramientas simples para ocultar o eliminar contenido en archivos {{FileFormatUp}}. Cubra imágenes, texto y metadatos para proteger sus documentos."
+    },
+    "formats": {
+      "title": "Ocultar Contenido en {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Con {{EnvNameShort}}, puede ocultar o eliminar información sensible en archivos {{FileFormatUp}}. Una manera efectiva de asegurar la seguridad de los documentos."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Enmascarar Imágenes Sensibles en {{FileFormatUp}} Usando Superposiciones con {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puede ocultar áreas de imagen privadas en archivos {{FileFormatUp}} utilizando superposiciones. Proteja la información sin alterar el diseño del documento."
+    },
+    "header": {
+      "title": "Cubrir Imágenes Privadas en Documentos {{FileFormatUp}} Usando Superposiciones de {{EnvNameShort}}",
+      "description": "Mantenga seguras las imágenes sensibles en archivos {{FileFormatUp}} con {{ProgLang}}. Herramientas sencillas diseñadas para una fuerte protección de datos.",
+      "subtitle": "Explora las Características de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Mantenga Sus Documentos {{FileFormatCap}} Seguros",
+      "content": {
+        "title": "{{ProdFullName}} facilita a las aplicaciones {{EnvName}} proteger contenido sensible en documentos.",
+        "step_1": "Cree un objeto {{textRedactor}} y cargue el archivo {{FileFormatCap}}.",
+        "step_2": "Ajuste las opciones de redacción según sus requisitos.",
+        "step_3": "Seleccione el área de la imagen y elija un color de superposición.",
+        "step_4": "Aplique la redacción y guarde su documento."
+      }
+    },
+    "example_top": {
+      "comment_1": "Enmascarar contenido de imagen en archivos {{FileFormatUp}}",
+      "comment_2": "Cargue el archivo con {{textRedactor}}",
+      "comment_3": "Establezca el tamaño y color de la superposición",
+      "comment_4": "Elija el área a ocultar",
+      "comment_5": "Aplique la superposición y guarde el archivo"
+    },
+    "example_bottom": {
+      "title": "Utilizar Superposiciones para Ocultar Datos de Imagen",
+      "content": "Este ejemplo muestra cómo proteger imágenes sensibles en documentos utilizando superposiciones.",
+      "comment_1": "Abra el documento para la redacción",
+      "comment_2": "Establezca dimensiones, posición y color de la superposición",
+      "comment_3": "Marque el área de imagen en la primera página",
+      "comment_4": "Aplique la superposición para enmascarar datos",
+      "comment_5": "Guarde el documento final"
+    },
+    "more_features": {
+      "title": "Proteger Datos Privados en Documentos",
+      "description": "{{ProdFullName}} le permite ocultar o eliminar contenido sensible en diferentes formatos de archivo. Mantenga sus archivos seguros y listos para compartir.",
+      "image_description": "Características de Redacción Todo en Uno",
+      "feature_1": {
+        "title": "Buscar y Editar Texto",
+        "content": "Encuentre texto privado en documentos y reemplácelo para garantizar la privacidad."
+      },
+      "feature_2": {
+        "title": "Enmascarar Áreas de Imágenes",
+        "content": "Cubra imágenes completas o partes seleccionadas con superposiciones para mantenerlas privadas."
+      },
+      "feature_3": {
+        "title": "Borrar Metadatos Ocultos",
+        "content": "Elimine metadatos para prevenir compartir accidentalmente información."
+      }
+    },
+    "about": {
+      "title": "¿Qué es {{ProdFullName}}?",
+      "content": "{{ProdFullName}} dota a los desarrolladores de {{ProgLang}} con herramientas para ocultar o eliminar contenido sensible en archivos {{FileFormatUp}}. Proteja sus documentos cubriendo texto privado, imágenes y metadatos."
+    },
+    "formats": {
+      "title": "Mantenga Seguros los Archivos {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Con {{EnvNameShort}}, puede ocultar o eliminar datos sensibles en archivos {{FileFormatUp}}. Una solución confiable para proteger documentos importantes."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Ocultar Imágenes Privadas en {{FileFormatUp}} con Superposiciones Usando {{ProgLang}}",
+      "description": "Asegure sus archivos {{FileFormatUp}} agregando superposiciones a las imágenes con {{ProdFullName}}. Proteja visuales sensibles mientras mantiene el diseño del documento sin cambios."
+    },
+    "header": {
+      "title": "Proteger Imágenes Sensibles en Archivos {{FileFormatUp}} con Superposiciones Usando {{EnvNameShort}}",
+      "description": "Mantenga sus imágenes seguras en archivos {{FileFormatUp}} utilizando {{ProgLang}}. Herramientas fáciles para ayudarle a proteger contenido privado en solo unos pasos.",
+      "subtitle": "Características Principales de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Mantenga Seguros los Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} permite que sus aplicaciones {{EnvName}} cubran datos sensibles de manera rápida y efectiva.",
+        "step_1": "Cree un objeto {{textRedactor}} y especifique la ruta del archivo {{FileFormatCap}}.",
+        "step_2": "Defina la configuración de redacción según sea necesario.",
+        "step_3": "Marque el área de la imagen y seleccione el color de superposición.",
+        "step_4": "Ejecute la redacción y guarde el archivo protegido."
+      }
+    },
+    "example_top": {
+      "comment_1": "Ocultar áreas de imagen en archivos {{FileFormatUp}}",
+      "comment_2": "Cargue el archivo a través de {{textRedactor}}",
+      "comment_3": "Defina el tamaño y color de la superposición",
+      "comment_4": "Seleccione el área a enmascarar",
+      "comment_5": "Aplique la superposición y guarde el documento"
+    },
+    "example_bottom": {
+      "title": "Proteger Áreas de Imagen con Superposiciones",
+      "content": "Este ejemplo le guía sobre cómo cubrir partes sensibles de imagen en un documento.",
+      "comment_1": "Cargue el archivo para editar",
+      "comment_2": "Establezca el tamaño, color y posición de la superposición",
+      "comment_3": "Elija un área de imagen en la página uno",
+      "comment_4": "Aplique la superposición para ocultar el área",
+      "comment_5": "Guarde el archivo redactado"
+    },
+    "more_features": {
+      "title": "Redactar Contenido en Varios Documentos",
+      "description": "{{ProdFullName}} le ayuda a ocultar o eliminar contenido sensible en múltiples formatos de archivo. Mantenga sus archivos seguros y listos para compartir.",
+      "image_description": "Herramientas de Redacción Ricas en Funciones",
+      "feature_1": {
+        "title": "Buscar y Reemplazar Texto",
+        "content": "Busque texto privado en documentos y reemplácelo para asegurar sus datos."
+      },
+      "feature_2": {
+        "title": "Cubrir Áreas de Imagen",
+        "content": "Aplique superposiciones para ocultar imágenes o secciones seleccionadas y proteger visuales sensibles."
+      },
+      "feature_3": {
+        "title": "Limpiar Metadatos",
+        "content": "Elimine metadatos ocultos para evitar filtraciones de datos involuntarias."
+      }
+    },
+    "about": {
+      "title": "Acerca de {{ProdFullName}}",
+      "content": "{{ProdFullName}} brinda a los desarrolladores de {{ProgLang}} herramientas simples para ocultar o borrar contenido en archivos {{FileFormatUp}}. Proteja texto sensible, imágenes y metadatos con facilidad."
+    },
+    "formats": {
+      "title": "Proteger Archivos {{FileFormatUp}} con Herramientas de Redacción de {{EnvNameShort}}",
+      "description": "Con {{EnvNameShort}}, puede ocultar o eliminar datos privados en archivos {{FileFormatUp}}. Una solución confiable para mantener los documentos profesionales y seguros."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Enmascarar Imágenes en {{FileFormatUp}} con Superposiciones Usando {{ProgLang}}",
+      "description": "Oculte contenido de imagen sensible en archivos {{FileFormatUp}} utilizando superposiciones de colores con {{ProdFullName}}. Mantenga el diseño original de su archivo intacto mientras asegura visuales importantes."
+    },
+    "header": {
+      "title": "Cubrir Imágenes Sensibles en Archivos {{FileFormatUp}} Usando Superposiciones de {{EnvNameShort}}",
+      "description": "Proteja datos de imágenes personales y comerciales en archivos {{FileFormatUp}} usando {{ProgLang}}. Herramientas simples para una protección rápida y efectiva.",
+      "subtitle": "Características de {{ProdFullName}} que Necesitarás"
+    },
+    "steps": {
+      "title": "Cubrir Contenido Privado en Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} facilita ocultar datos sensibles en sus aplicaciones {{EnvName}}.",
+        "step_1": "Inicialice un {{textRedactor}} y apúntelo a su archivo {{FileFormatCap}}.",
+        "step_2": "Configure las configuraciones de redacción según sea necesario.",
+        "step_3": "Elija las secciones de la imagen y defina los colores de superposición.",
+        "step_4": "Procese el archivo y guarde la versión redactada."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cubrir contenido de imagen en {{FileFormatUp}}",
+      "comment_2": "Cargue el archivo usando {{textRedactor}}",
+      "comment_3": "Especifique el tamaño y los colores de la superposición",
+      "comment_4": "Seleccione el área a ocultar",
+      "comment_5": "Aplique la superposición y guarde el archivo"
+    },
+    "example_bottom": {
+      "title": "Ocultar Contenido de Imagen con Superposiciones",
+      "content": "Este ejemplo muestra cómo aplicar superposiciones para proteger datos de imagen sensibles en un documento.",
+      "comment_1": "Abra el archivo para redactar",
+      "comment_2": "Establezca dimensiones, color y posición de la superposición",
+      "comment_3": "Elija un área de imagen en la página uno",
+      "comment_4": "Aplique la superposición para enmascarar contenido de la imagen",
+      "comment_5": "Guarde el archivo después de la redacción"
+    },
+    "more_features": {
+      "title": "Proteger Datos a Través de Tipos de Documentos",
+      "description": "{{ProdFullName}} le permite ocultar o eliminar contenido sensible en diferentes formatos de archivo. Mantenga sus documentos limpios, seguros y fáciles de compartir.",
+      "image_description": "Herramientas para Controlar Cada Redacción",
+      "feature_1": {
+        "title": "Buscar y Reemplazar Texto Sensible",
+        "content": "Explora sus documentos para reemplazar texto privado y mantener los datos seguros."
+      },
+      "feature_2": {
+        "title": "Enmascarar Imágenes con Superposiciones",
+        "content": "Agregue superposiciones de colores para ocultar imágenes o partes específicas de las mismas."
+      },
+      "feature_3": {
+        "title": "Eliminar Metadatos",
+        "content": "Elimine o edite metadatos ocultos para asegurar que no se filtren datos privados."
+      }
+    },
+    "about": {
+      "title": "Aprenda Acerca de {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de {{ProgLang}} herramientas para ocultar o eliminar contenido en archivos {{FileFormatUp}}. Asegure sus documentos cubriendo texto, imágenes y metadatos."
+    },
+    "formats": {
+      "title": "Proteger Contenido en Archivos {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Con {{EnvNameShort}}, puede ocultar o eliminar información sensible en archivos {{FileFormatUp}}. Una forma confiable de mantener los documentos seguros y profesionales."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Cubrir Imágenes en Archivos {{FileFormatUp}} Usando Superposiciones con {{ProgLang}}",
+      "description": "Aplique superposiciones para ocultar datos de imagen sensibles en archivos {{FileFormatUp}} con {{ProdFullName}}. Mantenga el diseño de su documento intacto mientras protege información privada."
+    },
+    "header": {
+      "title": "Ocultar Imágenes Sensibles en Archivos {{FileFormatUp}} con Superposiciones a través de {{EnvNameShort}}",
+      "description": "Proteja el contenido de imagen en archivos {{FileFormatUp}} con {{ProgLang}}. Herramientas sencillas para una protección de datos rápida y efectiva.",
+      "subtitle": "Características Clave de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteger Áreas de Imagen en Archivos {{FileFormatCap}}",
+      "content": {
+        "title": "Use {{ProdFullName}} para cubrir fácilmente áreas de imagen sensibles en sus aplicaciones {{EnvName}}.",
+        "step_1": "Cree un objeto {{textRedactor}} y conéctelo a su archivo {{FileFormatCap}}.",
+        "step_2": "Configure las configuraciones de redacción para adaptarse a su tarea.",
+        "step_3": "Resalte secciones de imagen y establezca los colores de superposición.",
+        "step_4": "Aplique las redacciones y guarde el archivo protegido."
+      }
+    },
+    "example_top": {
+      "comment_1": "Utilice superposiciones para ocultar datos de imagen en {{FileFormatUp}}",
+      "comment_2": "Abra el archivo con {{textRedactor}}",
+      "comment_3": "Establezca dimensiones y color de la superposición",
+      "comment_4": "Seleccione áreas de imagen para enmascarar",
+      "comment_5": "Aplique la superposición y guarde el archivo"
+    },
+    "example_bottom": {
+      "title": "Cubrir Secciones de Imagen con Superposiciones",
+      "content": "Este ejemplo de código muestra cómo enmascarar áreas sensibles de imagen en un documento utilizando superposiciones.",
+      "comment_1": "Abra el archivo para la redacción",
+      "comment_2": "Defina el tamaño, color y ubicación de la superposición",
+      "comment_3": "Seleccione un área de imagen en la primera página",
+      "comment_4": "Aplique la superposición para ocultar contenido",
+      "comment_5": "Guarde el archivo asegurado"
+    },
+    "more_features": {
+      "title": "Redactar Datos Privados en Múltiples Formatos",
+      "description": "{{ProdFullName}} le permite cubrir o borrar contenido sensible en diferentes tipos de archivos. Mantenga los documentos limpios y seguros para compartir.",
+      "image_description": "Funciones de Redacción Todo en Uno",
+      "feature_1": {
+        "title": "Buscar y Editar Texto",
+        "content": "Busque texto sensible y reemplácelo para proteger sus documentos."
+      },
+      "feature_2": {
+        "title": "Ocultar Imágenes con Superposiciones",
+        "content": "Agregue superposiciones para cubrir imágenes completas o secciones específicas."
+      },
+      "feature_3": {
+        "title": "Eliminar Metadatos",
+        "content": "Borre metadatos ocultos para evitar filtraciones de datos."
+      }
+    },
+    "about": {
+      "title": "¿Qué es {{ProdFullName}}?",
+      "content": "{{ProdFullName}} ofrece a los desarrolladores de {{ProgLang}} herramientas poderosas para ocultar o borrar contenido en archivos {{FileFormatUp}}. Proteja datos importantes enmascarando texto, imágenes y metadatos de manera eficiente."
+    },
+    "formats": {
+      "title": "Redactar Contenido Sensible en {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Oculte o elimine datos privados en archivos {{FileFormatUp}} usando {{EnvNameShort}}. Una forma simple de asegurar documentos oficiales."
+    }
+  }
+}

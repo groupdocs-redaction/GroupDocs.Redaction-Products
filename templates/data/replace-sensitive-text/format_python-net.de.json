@@ -1,0 +1,429 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Sensible Inhalte in {{FileFormatUp}} mit {{ProgLang}} schwärzen",
+      "description": "Schützen Sie private Details in Ihren {{FileFormatUp}}-Dokumenten mit {{ProdFullName}}. Finden und verbergen Sie vertrauliche Informationen schnell."
+    },
+    "header": {
+      "title": "Sensible Inhalte aus {{FileFormatUp}}-Dateien mit {{EnvNameShort}} entfernen",
+      "description": "Verwenden Sie {{ProgLang}} und {{ProdFullName}}, um private, rechtliche oder persönliche Daten aus Ihren {{FileFormatUp}}-Dateien zu suchen und zu entfernen.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "So schwärzen Sie Inhalte in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Schützen Sie Ihren Inhalt in jeder {{EnvName}}-App mit {{ProdFullName}}.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie die gewünschten Schwärzungsoptionen.",
+        "step_3": "Geben Sie den zu suchenden Text und das Ersetzungstextfeld ein.",
+        "step_4": "Wenden Sie die Schwärzung an und speichern Sie Ihre Datei."
+      }
+    },
+    "example_bottom": {
+      "title": "Mit Regex schwärzen",
+      "content": "Verwenden Sie Regex, um Muster wie E-Mails, IDs oder Nummern zu finden und zu entfernen.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bereinigen möchten",
+      "comment_2": "Legen Sie ein Regex-Muster und den Ersetzungstext fest",
+      "comment_3": "Wenden Sie Ihre Schwärzungsregeln an",
+      "comment_4": "Speichern Sie Ihre geschwärzte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Schwärzungsfunktionen",
+      "description": "{{ProdFullName}} ermöglicht das Verbergen privater Inhalte in vielen Dateiformaten. Halten Sie Ihre Daten sicher und bereit zum Teilen.",
+      "image_description": "Werkzeuge zur Schwärzung von Texten, Bildern und Metadaten",
+      "feature_1": {
+        "title": "Privaten Text finden und ersetzen",
+        "content": "Suchen und ersetzen Sie übereinstimmenden Text. Funktioniert mit Regex und Schlüsselsuche."
+      },
+      "feature_2": {
+        "title": "Verdeckte private Bilder",
+        "content": "Maskieren Sie vollständige Bilder oder Teile davon mit Überlagerungen. Passen Sie die Anzeigeeinstellungen an."
+      },
+      "feature_3": {
+        "title": "Verborgene Metadaten löschen",
+        "content": "Entfernen Sie versteckte Informationen wie Autorennamen, Zeitstempel und Überarbeitungsnotizen."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern alle erforderlichen Werkzeuge, um Inhalte in {{FileFormatUp}}-Dateien zu schwärzen – Texte, Bilder, Kommentare und mehr."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} schwärzen",
+      "description": "Halten Sie persönliche oder geschäftliche Daten durch Schwärzen von Texten in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}-Tools sicher."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Privaten Text aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Schützen Sie Ihre {{FileFormatUp}}-Dateien, indem Sie empfindliche Inhalte mit {{ProdFullName}} und {{ProgLang}} entfernen. Schnelle und gründliche Schwärzung."
+    },
+    "header": {
+      "title": "Privaten Text in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} bearbeiten oder verbergen",
+      "description": "Erhalten Sie die Kontrolle über Ihre {{FileFormatUp}}-Inhalte mithilfe von {{ProdFullName}} und {{ProgLang}}. Ideal für persönliche oder geschäftliche Nutzung.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "So bereinigen Sie Text in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}} in Ihren {{EnvName}}-Apps, um privaten Text zu entfernen oder zu verbergen. Schneller und einfacher Schwärzungsprozess.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und öffnen Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Legen Sie die gewünschten Schwärzungsregeln fest.",
+        "step_3": "Wählen Sie den zu findenden Text und den Ersetzungstext.",
+        "step_4": "Führen Sie die Schwärzung aus und speichern Sie Ihre neue Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "So schwärzen Sie Text in einer {{FileFormatUp}}-Datei",
+      "comment_2": "Öffnen Sie Ihre Datei mit dem {{textRedactor}}-Generator",
+      "comment_3": "Wählen Sie Ihre Schwärzungsoptionen aus",
+      "comment_4": "Geben Sie an, was gesucht werden soll und was ersetzt werden soll",
+      "comment_5": "Änderungen anwenden und die aktualisierte {{FileFormatUp}}-Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Verwenden Sie Regex, um Muster zu schwärzen",
+      "content": "Suchen Sie nach E-Mails, IDs oder Mustern mithilfe regulärer Ausdrücke und ersetzen Sie diese prompt.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bereinigen möchten",
+      "comment_2": "Legen Sie ein E-MAIL-Reguläres Ausdrucksmuster und den Ersetzungstext fest",
+      "comment_3": "Wenden Sie Ihre Schwärzungssetups an",
+      "comment_4": "Speichern Sie das geschwärzte Dokument"
+    },
+    "more_features": {
+      "title": "Weitere Schwärzungswerkzeuge",
+      "description": "{{ProdFullName}} ermöglicht das Löschen oder Maskieren sensibler Texte in verschiedenen Formaten. Teilen Sie saubere und sichere Dateien mit Vertrauen.",
+      "image_description": "Werkzeuge zur Schwärzung von Texten, Bildern und Metadaten",
+      "feature_1": {
+        "title": "Privaten Text finden und ersetzen",
+        "content": "Suchen Sie nach bestimmten Wörtern oder Mustern und ersetzen Sie diese. Funktioniert mit regulären Ausdrücken und Schlüsselwortoptionen."
+      },
+      "feature_2": {
+        "title": "Verdeckte sensible Bilder",
+        "content": "Überlagern oder verbergen Sie Bildbereiche. Passen Sie Farben, Transparenz und Größe bei Bedarf an."
+      },
+      "feature_3": {
+        "title": "Metadaten entfernen",
+        "content": "Schwärzen Sie versteckte Informationen wie Autorennamen, Zeitstempel und interne Notizen, um Ihre Dateien privat zu halten."
+      }
+    },
+    "about": {
+      "title": "Lernen Sie {{ProdFullName}} kennen",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern die Werkzeuge zur Bereinigung von Inhalten in {{FileFormatUp}}-Dateien. Schwärzen Sie Texte, Bilder, Kommentare und Metadaten effektiv."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} schwärzen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um vertrauliche Texte aus {{FileFormatUp}}-Dateien zu entfernen. Halten Sie persönliche und Arbeitsdokumente geschützt."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Privaten Text aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Schützen Sie Ihre {{FileFormatUp}}-Dateien, indem Sie sensible Daten mit {{ProdFullName}} und {{ProgLang}} verbergen oder entfernen."
+    },
+    "header": {
+      "title": "Privaten Text in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} verbergen oder löschen",
+      "description": "Mit {{ProdFullName}} und {{ProgLang}} können Sie privaten Text aus {{FileFormatUp}}-Dokumenten schnell und zuverlässig entfernen.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "So entfernen Sie Inhalte in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}} in Ihrer {{EnvName}}-App, um sensible Inhalte schnell zu bereinigen oder zu verbergen.",
+        "step_1": "Starten Sie einen {{textRedactor}} und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie die benötigten Schwärzungsoptionen.",
+        "step_3": "Legen Sie den zu suchenden Text und das Ersetzungstextfeld fest.",
+        "step_4": "Wenden Sie die Schwärzung an und speichern Sie Ihre Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "So schwärzen Sie Text in einer {{FileFormatUp}}-Datei",
+      "comment_2": "Verwenden Sie den {{textRedactor}}-Generator, um Ihre Datei zu laden",
+      "comment_3": "Wählen Sie Ihre Schwärzungspräferenzen aus",
+      "comment_4": "Legen Sie die Such- und Ersetzungswerte fest",
+      "comment_5": "Änderungen anwenden und die aktualisierte {{FileFormatUp}} speichern"
+    },
+    "example_bottom": {
+      "title": "Verwenden Sie Regex-Muster zur Schwärzung",
+      "content": "Finden Sie Textmuster wie Telefonnummern, IDs oder E-Mails mit Regex und entfernen Sie diese schnell.",
+      "comment_1": "Öffnen Sie das Dokument, das Sie bereinigen möchten",
+      "comment_2": "Legen Sie Ihr E-MAIL-Reguläres Ausdrucksmuster und den Ersetzungstext fest",
+      "comment_3": "Wenden Sie Schwärzungsregeln an",
+      "comment_4": "Speichern Sie Ihre geschwärzte Datei"
+    },
+    "more_features": {
+      "title": "Zusätzliche Schwärzungsfunktionen",
+      "description": "{{ProdFullName}} erleichtert das Verbergen oder Löschen privater Informationen in verschiedenen Dateiformaten. Teilen Sie nur das, was gesehen werden soll.",
+      "image_description": "Funktionen zum Schwärzen von Texten, Bildern und Metadaten",
+      "feature_1": {
+        "title": "Privaten Text ersetzen",
+        "content": "Finden und tauschen Sie übereinstimmende Wörter oder Muster aus. Unterstützt Regex und Schlüsselwortsuche."
+      },
+      "feature_2": {
+        "title": "Sensible Bilder verbergen",
+        "content": "Decken Sie Teile Ihrer Datei mit Überlagerungen ab. Passen Sie das Aussehen und die versteckten Inhalte an."
+      },
+      "feature_3": {
+        "title": "Metadaten löschen",
+        "content": "Entfernen Sie versteckte Informationen wie Dokumentenhistorie, Autorennamen oder interne Tags."
+      }
+    },
+    "about": {
+      "title": "Lernen Sie {{ProdFullName}} kennen",
+      "content": "{{ProdFullName}} gibt {{ProgLang}}-Entwicklern alles, was sie benötigen, um private Daten in {{FileFormatUp}}-Dateien zu entfernen oder zu verbergen – Texte, Bilder, Notizen und mehr."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} schwärzen",
+      "description": "Halten Sie sensible Daten privat, indem Sie sie aus {{FileFormatUp}}-Dateien mit {{EnvNameShort}}-Tools entfernen."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Privaten Text aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Schützen Sie Ihre {{FileFormatUp}}-Dateien mit {{ProdFullName}} und {{ProgLang}}. Finden und entfernen Sie schnell vertrauliche Inhalte."
+    },
+    "header": {
+      "title": "Privaten Text in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} bearbeiten oder entfernen",
+      "description": "Verwenden Sie {{ProdFullName}} und {{ProgLang}}, um empfindliche Daten in Ihren {{FileFormatUp}}-Dokumenten zu finden und zu bereinigen. Halten Sie persönliche oder geschäftliche Dateien privat.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "So schwärzen Sie Text in {{FileFormatCap}}-Dokumenten",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}} in Ihrer {{EnvName}}-Umgebung, um sensible Inhalte schnell zu verbergen oder zu entfernen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie Ihre Schwärzungsoptionen.",
+        "step_3": "Geben Sie den zu suchenden Text und das Ersetzungstextfeld ein.",
+        "step_4": "Wenden Sie die Schwärzung an und speichern Sie Ihre aktualisierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "So schwärzen Sie Text in einer {{FileFormatUp}}-Datei",
+      "comment_2": "Verwenden Sie den {{textRedactor}}-Generator, um Ihre Datei zu laden",
+      "comment_3": "Legen Sie Ihre Schwärzungsoptionen fest",
+      "comment_4": "Wählen Sie den zu suchenden Text und den Ersetzungstext",
+      "comment_5": "Führen Sie die Schwärzung aus und speichern Sie die aktualisierte {{FileFormatUp}}"
+    },
+    "example_bottom": {
+      "title": "Schwärzen nach Muster mit Regex",
+      "content": "Verwenden Sie reguläre Ausdrücke, um Textmuster wie E-Mail-Adressen, Telefonnummern oder IDs zu durchsuchen und bereinigen.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bearbeiten möchten",
+      "comment_2": "Legen Sie ein E-MAIL-Regex-Muster und den Ersetzungstext fest",
+      "comment_3": "Führen Sie den Schwärzungsprozess durch",
+      "comment_4": "Speichern Sie die bereinigte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Schwärzungsfunktionen",
+      "description": "{{ProdFullName}} unterstützt Sie dabei, sensible Daten in verschiedenen Formaten zu entfernen oder zu verbergen. Dokumente sicher teilen.",
+      "image_description": "Übersicht über Schwärzungsfunktionen",
+      "feature_1": {
+        "title": "Privaten Text ersetzen",
+        "content": "Suchen Sie nach und tauschen Sie spezifische Wörter oder Phrasen aus. Funktioniert mit Regex und intelligenten Filtern."
+      },
+      "feature_2": {
+        "title": "Privaten Bilder abdecken",
+        "content": "Überlagern oder verbergen Sie spezifische Bereiche in Bildern. Passen Sie Farb- und Layout-Einstellungen an."
+      },
+      "feature_3": {
+        "title": "Verborgene Informationen entfernen",
+        "content": "Bereinigen Sie Metadaten wie Autorennamen, Zeitstempel oder interne Notizen."
+      }
+    },
+    "about": {
+      "title": "Lernen Sie {{ProdFullName}} kennen",
+      "content": "{{ProdFullName}} gibt {{ProgLang}}-Entwicklern die vollständige Kontrolle über {{FileFormatUp}}-Inhalte. Bereinigen Sie Texte, Bilder, Notizen und Metadaten effizient."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} schwärzen",
+      "description": "Mit {{EnvNameShort}} können Sie sensible Texte aus {{FileFormatUp}}-Dokumenten entfernen und Ihre Daten sicher halten."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Privaten Text aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Schützen Sie private Daten in Ihren {{FileFormatUp}}-Dateien mit {{ProdFullName}} und {{ProgLang}}. Schnelle und zuverlässige Textentfernung."
+    },
+    "header": {
+      "title": "Privaten Text in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} bearbeiten oder verbergen",
+      "description": "Bereinigen Sie empfindliche Inhalte in Ihren {{FileFormatUp}}-Dateien mit {{ProdFullName}} und {{ProgLang}}. Halten Sie persönliche oder geschäftliche Dokumente sicher.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "Schritte zur Schwärzung von Text in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}} in Ihren {{EnvName}}-Apps, um sensible Informationen schnell zu entfernen oder zu verbergen.",
+        "step_1": "Starten Sie einen {{textRedactor}} und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie die benötigten Schwärzungsoptionen.",
+        "step_3": "Geben Sie den zu findenden Text und das Ersetzungstextfeld ein.",
+        "step_4": "Führen Sie die Schwärzung aus und speichern Sie Ihr Dokument."
+      }
+    },
+    "example_top": {
+      "comment_1": "So schwärzen Sie Text in einer {{FileFormatUp}}-Datei",
+      "comment_2": "Laden Sie die Datei mit dem {{textRedactor}}-Generator",
+      "comment_3": "Legen Sie die Optionen für die Schwärzung fest",
+      "comment_4": "Wählen Sie den zu ersetzenden Text und den neuen Wert",
+      "comment_5": "Änderungen anwenden und Ihre geschwärzte {{FileFormatUp}}-Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Muster mit Regex schwärzen",
+      "content": "Verwenden Sie reguläre Ausdrücke, um Textmuster wie E-Mails, Namen oder IDs zu finden und zu bereinigen.",
+      "comment_1": "Öffnen Sie Ihr Dokument",
+      "comment_2": "Legen Sie eine E-MAIL-Regex-Regel und den Ersetzungstext fest",
+      "comment_3": "Wenden Sie die Schwärzungseinstellungen an",
+      "comment_4": "Speichern Sie die endgültige Version"
+    },
+    "more_features": {
+      "title": "Weitere Tools zur Schwärzung",
+      "description": "{{ProdFullName}} bietet Ihnen die Werkzeuge, um sensible Inhalte in vielen Dateiformaten zu bereinigen. Halten Sie Ihre Dokumente zum Teilen sicher.",
+      "image_description": "Überblick über Schwärzungsoptionen",
+      "feature_1": {
+        "title": "Sensible Texte ersetzen",
+        "content": "Suchen Sie nach Text oder Mustern und ersetzen Sie diese durch etwas anderes. Regex wird ebenfalls unterstützt."
+      },
+      "feature_2": {
+        "title": "Verdecken privater Bilder",
+        "content": "Verstecken oder überlagern Sie Teile von Bildern. Passen Sie das Aussehen und die Größe nach Bedarf an."
+      },
+      "feature_3": {
+        "title": "Verborgene Metadaten löschen",
+        "content": "Beseitigen Sie versteckte Details wie Autorennamen, Erstellungsdaten und Kommentare."
+      }
+    },
+    "about": {
+      "title": "Lernen Sie {{ProdFullName}} kennen",
+      "content": "{{ProdFullName}} hilft {{ProgLang}}-Entwicklern, {{FileFormatUp}}-Dateien effektiv zu bereinigen. Entfernen Sie Texte, Bilder, Notizen und Metadaten in nur wenigen Schritten."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} schwärzen",
+      "description": "Verwenden Sie {{EnvNameShort}}-Tools, um {{FileFormatUp}}-Dokumente zu bereinigen und zu schützen, indem Sie vertrauliche Texte und Details schwärzen."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Privaten Text aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Bereinigen Sie schnell sensible Informationen aus Ihren {{FileFormatUp}}-Dateien mit {{ProdFullName}} und {{ProgLang}}."
+    },
+    "header": {
+      "title": "Suchen und Entfernen privater Texte in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}",
+      "description": "Verwenden Sie {{ProgLang}} und {{ProdFullName}}, um sensible Details aus Ihren {{FileFormatUp}}-Dokumenten zu bereinigen. Egal ob für die Arbeit oder persönliche Nutzung, Ihr Inhalt bleibt sicher.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "So schwärzen Sie Text in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Mit {{ProdFullName}} in Ihren {{EnvName}}-Projekten können Sie private Inhalte leicht entfernen oder verbergen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und öffnen Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie Ihre Schwärzungsoptionen.",
+        "step_3": "Geben Sie den zu suchenden Text und den Ersetzungstext ein.",
+        "step_4": "Führen Sie die Schwärzung aus und speichern Sie Ihre aktualisierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "So schwärzen Sie Text in einer {{FileFormatUp}}-Datei",
+      "comment_2": "Öffnen Sie Ihre Datei mit dem {{textRedactor}}-Generator",
+      "comment_3": "Richten Sie Ihre Schwärzungsoptionen ein",
+      "comment_4": "Wählen Sie den Text, den Sie suchen und ersetzen möchten",
+      "comment_5": "Änderungen anwenden und Ihre neue {{FileFormatUp}}-Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Muster mit Regex schwärzen",
+      "content": "Verwenden Sie Regex, um Textmuster wie E-Mails, Telefonnummern oder Kontoinformationen zu finden und zu bereinigen.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bereinigen möchten",
+      "comment_2": "Definieren Sie Ihr E-MAIL-Regex-Muster und den Ersetzungstext",
+      "comment_3": "Wenden Sie die Schwärzungsregeln an",
+      "comment_4": "Speichern Sie die endgültige Version der Datei"
+    },
+    "more_features": {
+      "title": "Weitere Schwärzungsfunktionen",
+      "description": "{{ProdFullName}} hilft Ihnen, sensible Inhalte in vielen Dateiformaten zu bereinigen. Halten Sie Ihre Dokumente sicher und teilbar.",
+      "image_description": "Schwärzungswerkzeuge in Aktion",
+      "feature_1": {
+        "title": "Privaten Text ersetzen",
+        "content": "Suchen und ersetzen Sie jedes übereinstimmende Wort. Funktioniert mit intelligenter Suche und Regex-Mustern."
+      },
+      "feature_2": {
+        "title": "Bildinhalte abdecken",
+        "content": "Verstecken Sie Teile von Bildern mit Überlagerungen. Passen Sie an, wie es auf der Seite aussieht."
+      },
+      "feature_3": {
+        "title": "Verborgene Details entfernen",
+        "content": "Entfernen Sie Metadaten wie Autorinformationen, Kommentare und Zeitstempel."
+      }
+    },
+    "about": {
+      "title": "Lernen Sie {{ProdFullName}} kennen",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern alles, was sie brauchen, um {{FileFormatUp}}-Dateien zu bereinigen. Entfernen Sie Texte, Bilder, Kommentare und Metadaten mit einfachem Code."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} schwärzen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um private Texte aus {{FileFormatUp}}-Dateien zu entfernen. Stellen Sie sicher, dass Ihr Inhalt sicher zu speichern oder zu teilen ist."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Privaten Text aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Schützen Sie schnell sensible Daten in Ihren {{FileFormatUp}}-Dateien mit {{ProdFullName}} und {{ProgLang}}."
+    },
+    "header": {
+      "title": "Suchen und verstecken Sie empfindlichen Text in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}",
+      "description": "Verwenden Sie {{ProdFullName}} und {{ProgLang}}, um private Inhalte in Ihren {{FileFormatUp}}-Dateien zu entfernen oder zu verbergen. Halten Sie alles vertraulich, egal ob es sich um persönliche oder geschäftliche Informationen handelt.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "So bereinigen Sie Text in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}} in Ihren {{EnvName}}-Apps, um sensible Daten schnell zu entfernen oder zu ersetzen.",
+        "step_1": "Starten Sie einen {{textRedactor}} und öffnen Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie die benötigten Schwärzungsoptionen.",
+        "step_3": "Geben Sie den zu suchenden Text und das Ersetzungstextfeld ein.",
+        "step_4": "Führen Sie die Schwärzung durch und speichern Sie die endgültige Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "So schwärzen Sie Text in einer {{FileFormatUp}}-Datei",
+      "comment_2": "Laden Sie Ihre Datei mit dem {{textRedactor}}-Generator",
+      "comment_3": "Wählen Sie die Schwärzungsoptionen aus, die Sie benötigen",
+      "comment_4": "Geben Sie an, welcher Text gesucht und durch was ersetzt werden soll",
+      "comment_5": "Führen Sie die Schwärzung aus und speichern Sie die finale {{FileFormatUp}}-Datei"
+    },
+    "example_bottom": {
+      "title": "Muster-Schwärzung mit Regex",
+      "content": "Verwenden Sie reguläre Ausdrücke, um Muster wie E-Mails, Kontaktdaten oder andere private Details zu finden und zu schwärzen.",
+      "comment_1": "Öffnen Sie die Präsentation zur Bereinigung",
+      "comment_2": "Legen Sie ein E-MAIL-Regex-Muster und den Ersetzungswert fest",
+      "comment_3": "Wenden Sie die Schwärzungs-Schritte an",
+      "comment_4": "Speichern Sie Ihre endgültige geschwärzte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Werkzeuge zum Entfernen privater Daten",
+      "description": "{{ProdFullName}} ermöglicht Ihnen das Bereinigen privater Inhalte in vielen Formaten. Perfekt zum sicheren Teilen oder Archivieren von Dateien.",
+      "image_description": "Überblick über Schwärzungsoptionen und -werkzeuge",
+      "feature_1": {
+        "title": "Text finden und ersetzen",
+        "content": "Schnell sensible Wörter oder Nummern austauschen. Funktioniert mit Regex und Schlüsselsuche."
+      },
+      "feature_2": {
+        "title": "Teile von Bildern verbergen",
+        "content": "Decken Sie spezifische Bereiche mit Formen oder Überlagerungen ab. Passen Sie die Visuals Ihren Bedürfnissen an."
+      },
+      "feature_3": {
+        "title": "Verborgene Informationen löschen",
+        "content": "Löschen Sie Metadaten wie wer die Datei erstellt hat, Kommentare oder Änderungsverlauf."
+      }
+    },
+    "about": {
+      "title": "Lernen Sie {{ProdFullName}} kennen",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern die Werkzeuge zur Bereinigung von {{FileFormatUp}}-Dateien umfassend. Entfernen Sie Inhalte, Bilder, Notizen und Metadaten effizient."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} schwärzen",
+      "description": "Mit {{EnvNameShort}} können Sie {{FileFormatUp}}-Dateien bereinigen, indem Sie private Texte entfernen oder verbergen. Halten Sie alles sicher."
+    }
+  }
+}

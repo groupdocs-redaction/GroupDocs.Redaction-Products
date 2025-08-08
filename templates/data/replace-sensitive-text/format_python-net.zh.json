@@ -1,0 +1,429 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "使用 {{ProgLang}} 对 {{FileFormatUp}} 中的敏感文本进行删除",
+      "description": "使用 {{ProdFullName}} 保护您的 {{FileFormatUp}} 文档中的私人信息。快速查找并隐藏敏感信息。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文件中删除敏感文本",
+      "description": "使用 {{ProgLang}} 和 {{ProdFullName}} 搜索并删除您的 {{FileFormatUp}} 文件中的私人、法律或个人数据。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做什么"
+    },
+    "steps": {
+      "title": "如何在 {{FileFormatCap}} 文件中删除内容",
+      "content": {
+        "title": "在任何 {{EnvName}} 应用中使用 {{ProdFullName}} 保护您的内容安全。",
+        "step_1": "创建一个 {{textRedactor}} 并加载您的 {{FileFormatCap}} 文件。",
+        "step_2": "选择您需要的删除设置。",
+        "step_3": "输入要搜索的文本，以及要替换成的内容。",
+        "step_4": "应用删除并保存您的文件。"
+      }
+    },
+    "example_bottom": {
+      "title": "使用正则表达式进行删除",
+      "content": "使用正则表达式查找和删除像电子邮件、身份证或数字的模式。",
+      "comment_1": "打开您想要清理的文件",
+      "comment_2": "设置正则表达式模式和替换文本",
+      "comment_3": "应用您的删除规则",
+      "comment_4": "保存您的删除文件"
+    },
+    "more_features": {
+      "title": "更多删除功能",
+      "description": "{{ProdFullName}} 让您可以在多种文件类型中隐藏私人内容。确保您的数据安全并随时可共享。",
+      "image_description": "文本、图像和元数据删除工具",
+      "feature_1": {
+        "title": "查找和替换私人文本",
+        "content": "搜索并替换匹配文本。支持正则表达式和关键词搜索。"
+      },
+      "feature_2": {
+        "title": "覆盖私人图像",
+        "content": "使用覆盖层来遮蔽完整图像或部分图像。自定义外观设置。"
+      },
+      "feature_3": {
+        "title": "擦除隐藏的元数据",
+        "content": "删除隐藏的信息，如作者姓名、时间戳和修订注释。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 是什么？",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供了所有在 {{FileFormatUp}} 文件中删除内容所需的工具——文本、图像、评论等。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中删除内容",
+      "description": "通过使用 {{EnvNameShort}} 工具，在 {{FileFormatUp}} 文件中删除文本，以保护个人或业务数据。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的私人文本",
+      "description": "通过使用 {{ProdFullName}} 和 {{ProgLang}} 删除敏感内容，保护您的 {{FileFormatUp}} 文件。快速且方便的删除。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中编辑或隐藏私人文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 控制您的 {{FileFormatUp}} 内容。适合个人或商业用途。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做什么"
+    },
+    "steps": {
+      "title": "如何清理 {{FileFormatCap}} 文件中的文本",
+      "content": {
+        "title": "在您的 {{EnvName}} 应用中使用 {{ProdFullName}} 删除或隐藏私人文本。快速简便的删除过程。",
+        "step_1": "创建一个 {{textRedactor}} 并打开您的 {{FileFormatCap}} 文件。",
+        "step_2": "设置您需要的删除规则。",
+        "step_3": "选择要查找的文本及其替换内容。",
+        "step_4": "运行删除并保存您的新文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "如何在 {{FileFormatUp}} 文件中删除文本",
+      "comment_2": "使用 {{textRedactor}} 构造函数打开您的文件",
+      "comment_3": "选择您的删除设置",
+      "comment_4": "输入要查找的内容和其替换文本",
+      "comment_5": "应用更改并保存更新后的 {{FileFormatUp}} 文件"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式删除模式",
+      "content": "使用正则表达式查找电子邮件、ID 或模式，并轻松替换它们。",
+      "comment_1": "打开您想要清理的文件",
+      "comment_2": "设置电子邮件正则表达式模式和替换文本",
+      "comment_3": "应用您的删除设置",
+      "comment_4": "保存删除后的文档"
+    },
+    "more_features": {
+      "title": "更多删除工具",
+      "description": "{{ProdFullName}} 让您可以在不同格式中删除或遮蔽敏感文本。自信分享干净且安全的文件。",
+      "image_description": "文本、图像和元数据删除工具",
+      "feature_1": {
+        "title": "查找和替换私人文本",
+        "content": "搜索特定词或模式并替换。支持正则表达式和关键词选项。"
+      },
+      "feature_2": {
+        "title": "遮蔽敏感图像",
+        "content": "覆盖或隐藏图像区域。根据需要更改颜色、透明度和大小。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "擦除隐藏的信息，如作者姓名、时间戳和内部注释，以保护文件隐私。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供了在 {{FileFormatUp}} 文件中清理内容的工具。轻松删除文本、图像、评论和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中删除内容",
+      "description": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文件中删除敏感文本。确保个人和工作文件受到保护。"
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的私人文本",
+      "description": "通过使用 {{ProdFullName}} 和 {{ProgLang}} 来隐藏或删除敏感数据，保护您的 {{FileFormatUp}} 文件。"
+    },
+    "header": {
+      "title": "在 {{FileFormatUp}} 文件中使用 {{EnvNameShort}} 隐藏或删除私人文本",
+      "description": "借助 {{ProdFullName}} 和 {{ProgLang}}，您可以从 {{FileFormatUp}} 文档中快速可靠地删除私人文本。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做什么"
+    },
+    "steps": {
+      "title": "如何在 {{FileFormatCap}} 文件中删除内容",
+      "content": {
+        "title": "在您的 {{EnvName}} 应用中使用 {{ProdFullName}} 快速删除或隐藏敏感内容。",
+        "step_1": "启动一个 {{textRedactor}} 并加载 {{FileFormatCap}} 文件。",
+        "step_2": "选择您需要的删除设置。",
+        "step_3": "设置搜索文本以及要替换的内容。",
+        "step_4": "应用删除并保存您的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "如何在 {{FileFormatUp}} 文件中删除文本",
+      "comment_2": "使用 {{textRedactor}} 构造函数加载您的文件",
+      "comment_3": "选择您的删除偏好",
+      "comment_4": "设置搜索和替换值",
+      "comment_5": "应用更改并保存更新后的 {{FileFormatUp}}"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式删除模式",
+      "content": "使用正则表达式查找电话号码、ID 或电子邮件文本模式，并快速删除它们。",
+      "comment_1": "打开您想要清理的文档",
+      "comment_2": "设置电子邮件正则表达式模式和替换文本",
+      "comment_3": "应用删除规则",
+      "comment_4": "保存您的删除后的文件"
+    },
+    "more_features": {
+      "title": "额外的删除功能",
+      "description": "{{ProdFullName}} 可以方便地在不同文件格式中隐藏或删除私人信息。仅分享您希望别人看到的内容。",
+      "image_description": "用于删除文本、图像和元数据的功能",
+      "feature_1": {
+        "title": "替换私人文本",
+        "content": "查找并替换任何匹配的单词或模式。支持正则表达式和关键词搜索。"
+      },
+      "feature_2": {
+        "title": "隐藏敏感图像",
+        "content": "使用覆盖来遮蔽文件的部分。根据需要自定义其外观。"
+      },
+      "feature_3": {
+        "title": "擦除元数据",
+        "content": "删除隐藏的信息，如文档历史、作者姓名或内部标签。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供了一切所需的工具，以在 {{FileFormatUp}} 文件中删除或隐藏私人数据——文本、图像、注释等。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中删除内容",
+      "description": "在 {{FileFormatUp}} 文件中使用 {{EnvNameShort}} 工具删除敏感数据。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的私人文本",
+      "description": "通过使用 {{ProdFullName}} 和 {{ProgLang}} 来保护您的 {{FileFormatUp}} 文件。快速查找并删除私人内容。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中编辑或删除私人文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 在您的 {{FileFormatUp}} 文档中查找并清理敏感数据。保持个人或工作文件的私密性。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做什么"
+    },
+    "steps": {
+      "title": "如何在 {{FileFormatCap}} 文档中删除文本",
+      "content": {
+        "title": "在您的 {{EnvName}} 环境中使用 {{ProdFullName}} 快速隐藏或删除敏感内容。",
+        "step_1": "创建一个 {{textRedactor}} 并加载您的 {{FileFormatCap}} 文件。",
+        "step_2": "选择您的删除设置。",
+        "step_3": "输入要搜索的文本以及要替换成的内容。",
+        "step_4": "应用删除并保存您的更新文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "如何在 {{FileFormatUp}} 文件中删除文本",
+      "comment_2": "使用 {{textRedactor}} 构造函数加载您的文件",
+      "comment_3": "设置删除选项",
+      "comment_4": "选择要查找的文本和替换内容",
+      "comment_5": "运行删除并保存更新后的 {{FileFormatUp}}"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式删除模式",
+      "content": "使用正则表达式查找并清理文本，比如电子邮件地址、电话号码或身份证件。",
+      "comment_1": "打开您想要编辑的文件",
+      "comment_2": "设置电子邮件正则表达式模式和替换文本",
+      "comment_3": "运行删除过程",
+      "comment_4": "保存清理后的文件"
+    },
+    "more_features": {
+      "title": "更多删除功能",
+      "description": "{{ProdFullName}} 帮助您在不同格式中删除或隐藏敏感数据。安全共享文档。",
+      "image_description": "删除功能概述",
+      "feature_1": {
+        "title": "查找和替换私人文本",
+        "content": "快速替换敏感的单词或数字。支持正则表达式和关键词搜索。"
+      },
+      "feature_2": {
+        "title": "覆盖私人图像",
+        "content": "使用形状或覆盖隐藏特定区域。根据需要调整视觉效果。"
+      },
+      "feature_3": {
+        "title": "删除隐藏信息",
+        "content": "擦除元数据，如编写文件的人、注释或更改历史。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供了完全控制 {{FileFormatUp}} 内容的能力。轻松清理文本、图像、注释和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中删除内容",
+      "description": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文档中删除敏感文本，确保您的数据安全。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的私人文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 保护您的 {{FileFormatUp}} 文件中的私人数据。快速和简单的文本移除。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中编辑或隐藏私人文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 清理您的 {{FileFormatUp}} 文件中的敏感内容。保持个人或工作文件的安全。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做什么"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文件中删除文本的步骤",
+      "content": {
+        "title": "在您的 {{EnvName}} 应用中使用 {{ProdFullName}} 快速删除或隐藏敏感信息。",
+        "step_1": "启动一个 {{textRedactor}} 并加载 {{FileFormatCap}} 文件。",
+        "step_2": "选择您需要的删除设置。",
+        "step_3": "输入要查找的文本以及要替换成的内容。",
+        "step_4": "运行删除并保存您的文档。"
+      }
+    },
+    "example_top": {
+      "comment_1": "如何在 {{FileFormatUp}} 文件中删除文本",
+      "comment_2": "使用 {{textRedactor}} 构造函数加载文件",
+      "comment_3": "设置删除选项",
+      "comment_4": "选择要替换的文本和新值",
+      "comment_5": "应用并保存您的删除后的 {{FileFormatUp}} 文件"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式删除模式",
+      "content": "使用正则表达式查找并清理文本模式，如电子邮件、名称或 ID。",
+      "comment_1": "打开您的文档",
+      "comment_2": "设置电子邮件正则表达式规则和替换文本",
+      "comment_3": "应用删除设置",
+      "comment_4": "保存文件的最终版本"
+    },
+    "more_features": {
+      "title": "更多删除工具",
+      "description": "{{ProdFullName}} 为您提供了在多个文件格式中清除敏感内容的工具。保持您的文档安全以便共享。",
+      "image_description": "删除选项概述",
+      "feature_1": {
+        "title": "替换敏感文本",
+        "content": "查找文本或模式并将其替换为其他内容。支持正则表达式。"
+      },
+      "feature_2": {
+        "title": "遮蔽私人图像",
+        "content": "隐藏或覆盖图像的部分内容。根据需要调整外观和大小。"
+      },
+      "feature_3": {
+        "title": "清除隐藏元数据",
+        "content": "擦除隐藏的细节，如作者姓名、创建日期和注释。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 帮助 {{ProgLang}} 开发者轻松清理 {{FileFormatUp}} 文件。只需几个步骤即可删除文本、图像、注释和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中删除内容",
+      "description": "使用 {{EnvNameShort}} 工具通过删除敏感文本和信息来清理和保护 {{FileFormatUp}} 文档。"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的私人文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 快速清理 {{FileFormatUp}} 文件中的敏感信息。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中查找和删除私人文本",
+      "description": "使用 {{ProgLang}} 和 {{ProdFullName}} 清除 {{FileFormatUp}} 文档中的敏感细节。无论是工作还是个人用途，您的内容都保持安全。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做什么"
+    },
+    "steps": {
+      "title": "如何在 {{FileFormatCap}} 文件中删除文本",
+      "content": {
+        "title": "使用 {{ProdFullName}} 在您的 {{EnvName}} 项目中轻松删除或隐藏私人内容。",
+        "step_1": "创建一个 {{textRedactor}} 并打开您的 {{FileFormatCap}} 文件。",
+        "step_2": "选择所需的删除设置。",
+        "step_3": "输入您要搜索的文本及其替换内容。",
+        "step_4": "运行删除并保存您的更新文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "如何在 {{FileFormatUp}} 文件中删除文本",
+      "comment_2": "使用 {{textRedactor}} 构造函数打开您的文件",
+      "comment_3": "设置您的删除选项",
+      "comment_4": "选择要查找的文本及其替换内容",
+      "comment_5": "应用删除并保存您的新 {{FileFormatUp}} 文件"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式删除模式",
+      "content": "使用正则表达式查找并清理文本模式，如电子邮件、电话号码或账户细节。",
+      "comment_1": "打开您需要清理的文件",
+      "comment_2": "定义您的电子邮件正则表达式模式和替换文本",
+      "comment_3": "应用删除规则",
+      "comment_4": "保存文件的最终版本"
+    },
+    "more_features": {
+      "title": "更多删除功能",
+      "description": "{{ProdFullName}} 帮助您在许多文件格式中清除敏感内容。确保您的文件安全和可共享。",
+      "image_description": "删除工具的使用情况",
+      "feature_1": {
+        "title": "替换私人文本",
+        "content": "搜索并替换任何匹配的文本。支持智能搜索和正则表达式。"
+      },
+      "feature_2": {
+        "title": "覆盖图像内容",
+        "content": "使用覆盖隐藏图像的部分。根据需要个性化外观。"
+      },
+      "feature_3": {
+        "title": "删除隐藏细节",
+        "content": "擦除元数据，如作者信息、注释和时间戳。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供了清理 {{FileFormatUp}} 文件所需的一切。使用简单的代码删除文本、图像、注释和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中删除内容",
+      "description": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文件中删除私人文本。确保您的内容安全以保存或共享。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的私人文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 快速保护您的 {{FileFormatUp}} 文件中的敏感数据。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中查找和隐藏敏感文本",
+      "description": "使用 {{ProdFullName}} 和 {{ProgLang}} 删除或隐藏您的 {{FileFormatUp}} 文件中的私人内容。无论是个人用途还是工作用途，请保持一切机密。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做什么"
+    },
+    "steps": {
+      "title": "如何在 {{FileFormatCap}} 文件中清理文本",
+      "content": {
+        "title": "在您的 {{EnvName}} 应用中使用 {{ProdFullName}} 快速删除或替换敏感数据。",
+        "step_1": "启动一个 {{textRedactor}} 并打开您的 {{FileFormatCap}} 文件。",
+        "step_2": "选择您所需的删除选项。",
+        "step_3": "设置您要搜索的文本以及要替换的内容。",
+        "step_4": "运行删除并保存最终文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "如何在 {{FileFormatUp}} 文件中删除文本",
+      "comment_2": "使用 {{textRedactor}} 构造函数加载您的文件",
+      "comment_3": "选择所需的删除设置",
+      "comment_4": "输入要查找的文本及其替换内容",
+      "comment_5": "运行删除并保存最终的 {{FileFormatUp}} 文件"
+    },
+    "example_bottom": {
+      "title": "使用正则表达式模式进行删除",
+      "content": "使用正则表达式查找并删除模式，如电子邮件、联系信息或其他私人细节。",
+      "comment_1": "打开需要清理的演示文稿",
+      "comment_2": "设置电子邮件正则表达式模式和替换值",
+      "comment_3": "应用删除步骤",
+      "comment_4": "保存最终的删除文件"
+    },
+    "more_features": {
+      "title": "更多工具来删除私人数据",
+      "description": "{{ProdFullName}} 让您在多种格式中清理私人内容。适合方便共享或安全存档文件。",
+      "image_description": "删除选项及工具",
+      "feature_1": {
+        "title": "查找和替换文本",
+        "content": "快速替换敏感单词或数字。支持正则表达式和关键词搜索。"
+      },
+      "feature_2": {
+        "title": "隐藏图像的部分",
+        "content": "使用形状或覆盖隐藏特定区域。根据需要调整视觉效果。"
+      },
+      "feature_3": {
+        "title": "删除隐藏信息",
+        "content": "擦除元数据，例如文件的创建者、注释或变更历史。"
+      }
+    },
+    "about": {
+      "title": "认识 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供了在 {{FileFormatUp}} 文件中轻松清理文件的工具。轻松删除文本、图像、注释和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中删除内容",
+      "description": "使用 {{EnvNameShort}}，您可以通过删除或隐藏私人文本来清理 {{FileFormatUp}} 文件。确保一切安全。"
+    }
+  }
+}

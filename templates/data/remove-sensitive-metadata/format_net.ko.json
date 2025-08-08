@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}의 메타데이터 삭제하기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일의 메타데이터를 삭제하거나 업데이트 할 수 있습니다. 개인 정보를 드러낼 수 있는 숨겨진 데이터를 정리하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}에서 {{FileFormatUp}} 파일의 메타데이터 정리하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일의 민감한 사업 및 개인 정보를 보호하세요. 신뢰할 수 있는 데이터 보호를 위한 사용이 간편한 도구입니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 메타데이터 삭제하기",
+      "content": {
+        "title": "{{ProdShortName}}을 사용하여 {{EnvName}} 앱에서 문서 메타데이터를 신속하게 보호하세요.",
+        "step_1": "{{textRedactor}} 인스턴스를 생성하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "모든 숨겨진 메타데이터를 삭제하기 위해 수정 설정을 합니다.",
+        "step_3": "문서를 정리하기 위해 수정사항을 적용합니다.",
+        "step_4": "업데이트된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 파일에서 메타데이터 지우기",
+      "comment_2": "{{textRedactor}}로 파일을 로드합니다.",
+      "comment_3": "메타데이터 제거 수정을 구성합니다.",
+      "comment_4": "변경사항을 적용하고 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "숨겨진 메타데이터 항목 삭제하기",
+      "content": "이 예제는 {{FileFormatUp}} 파일의 메타데이터를 수정하는 방법을 보여줍니다.",
+      "comment_1": "{{FileFormatUp}} 파일을 정리기기로 로드합니다.",
+      "comment_2": "저자 속성을 위한 수정 설정을 합니다.",
+      "comment_3": "제목 속성을 위한 수정 설정을 합니다.",
+      "comment_4": "문서에서 수정 작업을 실행합니다.",
+      "comment_5": "정리된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "문서에서 민감한 데이터 삭제하기",
+      "description": "{{ProdFullName}}는 다양한 파일 형식에서 기밀 콘텐츠를 숨기거나 지우는 데 도움을 줍니다. 문서를 투명하고 전문적으로 유지하면서 개인 데이터를 안전하게 보호하세요.",
+      "image_description": "강력한 수정 기능",
+      "feature_1": {
+        "title": "텍스트 찾기 및 변경",
+        "content": "문서에서 민감한 텍스트를 검색하고 개인 정보를 보호하기 위해 교체하거나 삭제합니다."
+      },
+      "feature_2": {
+        "title": "이미지 콘텐츠 숨기기",
+        "content": "민감한 시각적 정보를 가리기 위해 이미지나 특정 영역에 오버레이를 추가합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 정리",
+        "content": "원치 않는 데이터 유출을 방지하기 위해 숨겨진 메타데이터를 삭제하거나 편집합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 개발자들에게 {{FileFormatUp}} 파일에서 콘텐츠를 수정하기 위한 사용이 간편한 도구들을 제공합니다. 여러 형식에서 텍스트, 이미지 및 메타데이터를 마스킹합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 메타데이터 수정으로 {{FileFormatUp}} 파일 보호하기",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일의 숨겨진 데이터를 삭제하세요. 문서에서 민감한 정보를 안전하게 보호하는 간단하고 효과적인 방법입니다."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 메타데이터 삭제하기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일의 숨겨진 메타데이터를 삭제하거나 변경하세요. 문서를 쉽게 개인적 세부 사항으로부터 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일의 메타데이터 삭제",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에서 민감한 메타데이터를 정리하세요. 귀사의 사업 및 개인 데이터를 보호하세요.",
+      "subtitle": "{{ProdFullName}}의 대표 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 숨겨진 데이터 정리하기",
+      "content": {
+        "title": "{{ProdShortName}}는 귀하의 {{EnvName}} 프로젝트가 원치 않는 메타데이터를 빠르게 제거하도록 돕습니다.",
+        "step_1": "{{textRedactor}} 인스턴스를 만들고 {{FileFormatCap}} 파일을 엽니다.",
+        "step_2": "메타데이터 항목 대상의 수정 설정을 합니다.",
+        "step_3": "문서를 정리하기 위해 변경 사항을 적용합니다.",
+        "step_4": "정리된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 문서에서 메타데이터 지우기",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 로드합니다.",
+      "comment_3": "메타데이터 제거 설정을 구성합니다.",
+      "comment_4": "변경 사항을 적용하고 저장합니다."
+    },
+    "example_bottom": {
+      "title": "메타데이터 필드 정리하기",
+      "content": "이 예제는 {{FileFormatUp}} 파일에서 숨겨진 데이터를 제거하는 방법을 보여줍니다.",
+      "comment_1": "{{FileFormatUp}} 파일을 로드합니다.",
+      "comment_2": "제거를 위해 저자 필드를 대상으로 합니다.",
+      "comment_3": "제거를 위해 제목 필드를 대상으로 합니다.",
+      "comment_4": "수정 프로세스를 실행합니다.",
+      "comment_5": "업데이트된 파일을 저장합니다."
+    },
+    "more_features": {
+      "title": "문서에서 민감한 정보 숨기기",
+      "description": "{{ProdFullName}}는 다양한 파일 유형에서 민감한 콘텐츠를 정리할 수 있도록 합니다. 문서를 안전하게 공유하거나 저장할 수 있습니다.",
+      "image_description": "스마트 수정 옵션",
+      "feature_1": {
+        "title": "개인 텍스트 제거",
+        "content": "파일에서 개인 또는 사업 관련 텍스트를 검색하고 삭제합니다."
+      },
+      "feature_2": {
+        "title": "이미지 마스킹",
+        "content": "비밀 콘텐츠를 숨기기 위해 이미지나 선택한 영역을 가리세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 삭제",
+        "content": "배경 세부 정보를 유출하지 않기 위해 숨겨진 메타데이터 항목을 삭제합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}란?",
+      "content": "{{ProdShortName}}은 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 제거하는 도구를 제공합니다. 텍스트, 이미지 및 메타데이터를 빠르게 정리할 수 있습니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 사용한 {{FileFormatUp}}의 메타데이터 삭제",
+      "description": "{{EnvNameShort}}을 이용하여 {{FileFormatUp}} 파일에서 원치 않는 메타데이터를 제거하세요. 파일의 숨겨진 세부 사항을 보호하는 간단한 방법입니다."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}을 사용하여 {{FileFormatUp}} 파일의 메타데이터 정리하기",
+      "description": "{{ProdFullName}}를 사용하여 {{FileFormatUp}} 파일의 메타데이터를 안전하게 제거할 수 있습니다. 개인 정보를 드러낼 수 있는 숨겨진 정보를 정리하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일의 메타데이터 삭제",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일의 민감한 세부 정보를 보호하세요. 개인 및 작업 문서를 위한 간편한 수정.",
+      "subtitle": "{{ProdFullName}}의 가능성 탐구하기"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 메타데이터 정리하기",
+      "content": {
+        "title": "{{ProdShortName}}을 사용하면 {{EnvName}} 앱이 빠르게 숨겨진 데이터를 제거할 수 있습니다.",
+        "step_1": "{{textRedactor}}를 설정하고 {{FileFormatCap}} 파일을 엽니다.",
+        "step_2": "어떤 메타데이터를 삭제할 것인지 정의합니다.",
+        "step_3": "수정 규칙을 적용합니다.",
+        "step_4": "최종 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 숨겨진 메타데이터 정리하기",
+      "comment_2": "{{textRedactor}}로 파일을 엽니다.",
+      "comment_3": "삭제할 메타데이터를 설정합니다.",
+      "comment_4": "수정을 적용하고 저장합니다."
+    },
+    "example_bottom": {
+      "title": "메타데이터 삭제 방법",
+      "content": "이 샘플 코드는 {{FileFormatUp}} 문서의 메타데이터 속성을 제거합니다.",
+      "comment_1": "문서를 엽니다.",
+      "comment_2": "저자 메타데이터를 대상으로 합니다.",
+      "comment_3": "제목 메타데이터를 대상으로 합니다.",
+      "comment_4": "수정 프로세스를 실행합니다.",
+      "comment_5": "정리된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "문서에서 민감한 정보 보호하기",
+      "description": "{{ProdFullName}}를 사용하여 다양한 파일 형식에서 콘텐츠를 제거하거나 숨길 수 있습니다. 파일을 비공식적으로 안전하게 유지하고 준비되도록 합니다.",
+      "image_description": "올인원 수정 기능",
+      "feature_1": {
+        "title": "텍스트 교체 또는 삭제",
+        "content": "민감한 텍스트를 찾아 제거하여 개인 데이터를 보호하세요."
+      },
+      "feature_2": {
+        "title": "이미지 섹션 숨기기",
+        "content": "사적인 시각 정보를 가리기 위해 오버레이를 사용하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 제거",
+        "content": "개인 또는 사업 세부 사항을 포함할 수 있는 숨겨진 메타데이터 필드를 정리하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdShortName}}에 대해",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 개발자에게 {{FileFormatUp}} 문서에서 콘텐츠를 정리하기 위한 도구를 제공합니다. 텍스트, 이미지 및 메타데이터를 간단하게 마스킹하거나 삭제합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}}에서 메타데이터 제거하기",
+      "description": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}} 파일의 개인 메타데이터를 제거하세요. 문서를 깔끔하고 안전하게 유지하십시오."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에서 메타데이터 삭제하기",
+      "description": "{{ProdFullName}}은 {{FileFormatUp}} 파일의 메타데이터를 삭제하거나 수정하는 데 도움을 줍니다. 개인 배경 데이터를 제거함으로써 문서를 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}} 도구를 사용한 {{FileFormatUp}}의 메타데이터 제거",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에서 민감한 메타데이터를 숨기세요. 비즈니스 및 개인 프라이버시를 위한 최적의 솔루션.",
+      "subtitle": "{{ProdFullName}}의 핵심 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 숨겨진 메타데이터 지우기",
+      "content": {
+        "title": "{{ProdShortName}}은 귀하의 {{EnvName}} 솔루션이 숨겨진 데이터를 쉽게 정리하도록 돕습니다.",
+        "step_1": "{{textRedactor}} 인스턴스를 생성하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "메타데이터 필드를 위한 수정 규칙을 구성합니다.",
+        "step_3": "데이터를 제거하기 위해 수정을 적용합니다.",
+        "step_4": "수정된 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 메타데이터 삭제하기",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 엽니다.",
+      "comment_3": "메타데이터 정리 설정을 합니다.",
+      "comment_4": "수정하고 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "메타데이터 필드 정리하기",
+      "content": "이 예제는 {{FileFormatUp}} 파일의 메타데이터를 안전하게 지우는 방법을 보여줍니다.",
+      "comment_1": "{{FileFormatUp}} 파일을 가져옵니다.",
+      "comment_2": "저자 필드를 수정합니다.",
+      "comment_3": "제목 필드를 수정합니다.",
+      "comment_4": "수정 프로세스를 실행합니다.",
+      "comment_5": "수정된 파일을 내보냅니다."
+    },
+    "more_features": {
+      "title": "모든 파일을 위한 추가 수정 도구",
+      "description": "{{ProdFullName}}는 다양한 형식에서 콘텐츠 수정 기능을 지원합니다. 개인 데이터를 비공식적으로 보호하고 파일이 정리되도록 하세요.",
+      "image_description": "내장된 프라이버시 도구",
+      "feature_1": {
+        "title": "텍스트 찾기 및 삭제",
+        "content": "파일에서 개인 텍스트 항목을 신속하게 삭제하세요."
+      },
+      "feature_2": {
+        "title": "오버레이로 이미지 가리기",
+        "content": "보이지 말아야 할 이미지 부분을 가리기 위해 오버레이를 사용하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 삭제",
+        "content": "숨겨진 정보를 담고 있을 수 있는 메타데이터 필드를 지우세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해 알아보세요",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 개발자를 위한 데이터 수정 도구 세트로, {{FileFormatUp}} 파일에서 텍스트, 이미지 및 메타데이터를 정리하는 데 도움을 줍니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}}에서 메타데이터 정리하기",
+      "description": "{{EnvNameShort}}를 활용하여 {{FileFormatUp}} 파일의 숨겨진 데이터를 제거하세요. 문서의 안전성을 보장합니다."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 메타데이터 삭제하기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일의 숨겨진 메타데이터를 찾아 삭제하세요. 원치 않는 노출로부터 문서를 개인적이고 안전하게 유지하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}} 파일의 메타데이터 삭제",
+      "description": "{{ProgLang}}로 {{FileFormatUp}} 파일에서 개인 및 기업 데이터를 보호하세요. 신뢰할 수 있는 파일 개인화를 위한 간단한 도구입니다.",
+      "subtitle": "{{ProdFullName}}으로 무엇을 할 수 있는가"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 메타데이터 삭제하기",
+      "content": {
+        "title": "{{ProdShortName}}을 사용하면 귀하의 {{EnvName}} 환경에서 문서 메타데이터를 쉽게 정리할 수 있습니다.",
+        "step_1": "{{textRedactor}} 객체를 초기화하고 {{FileFormatCap}} 문서를 엽니다.",
+        "step_2": "모든 숨겨진 메타데이터를 삭제하기 위한 규칙을 설정합니다.",
+        "step_3": "민감한 태그를 제거하기 위해 수정을 실행합니다.",
+        "step_4": "정리된 문서를 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 파일에서 메타데이터 지우기",
+      "comment_2": "{{textRedactor}}를 사용하여 문서를 엽니다.",
+      "comment_3": "메타데이터 삭제 옵션을 설정합니다.",
+      "comment_4": "수정 후 정리된 파일을 저장합니다."
+    },
+    "example_bottom": {
+      "title": "숨겨진 메타데이터 수정 또는 삭제",
+      "content": "이 예제는 {{FileFormatUp}} 문서에서 메타데이터 항목을 지정하고 정리하는 방법을 보여줍니다.",
+      "comment_1": "수정을 위해 파일을 로드합니다.",
+      "comment_2": "저자 메타데이터를 제거합니다.",
+      "comment_3": "제목 메타데이터를 제거합니다.",
+      "comment_4": "수정 프로세스를 실행합니다.",
+      "comment_5": "정리된 문서를 내보냅니다."
+    },
+    "more_features": {
+      "title": "문서에서 기밀 데이터 삭제하기",
+      "description": "{{ProdFullName}}를 사용하면 다양한 형식에서 개인 콘텐츠를 삭제할 수 있습니다. 구조를 유지하면서 파일을 안전하게 보호하세요.",
+      "image_description": "메타데이터 및 콘텐츠 수정 도구",
+      "feature_1": {
+        "title": "민감한 텍스트 교체",
+        "content": "문서에서 텍스트를 찾아 안전하게 제거하거나 변경하여 개인 정보를 보호하세요."
+      },
+      "feature_2": {
+        "title": "이미지 마스킹",
+        "content": "시각적 데이터를 숨기기 위해 이미지의 민감한 영역을 오버레이로 가립니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 삭제",
+        "content": "정보 유출을 방지하기 위해 숨겨진 데이터를 찾아 정리합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 개발자가 {{FileFormatUp}} 파일에서 텍스트, 이미지 및 메타데이터를 신속히 정리할 수 있는 도구를 제공합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}}에서 메타데이터 수정하기",
+      "description": "{{EnvNameShort}}을 사용해 {{FileFormatUp}} 파일의 숨겨진 메타데이터를 정리하세요. 민감한 정보를 안전하게 보호하세요."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}을 통해 {{FileFormatUp}}에서 메타데이터 편집 및 제거하기",
+      "description": "{{ProdFullName}}을 사용하여 메타데이터를 제거함으로써 {{FileFormatUp}} 문서를 안전하게 유지하세요. 개인 정보를 침해할 수 있는 숨겨진 데이터를 제거하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}을 통한 {{FileFormatUp}} 파일의 메타데이터 보호",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일의 민감한 데이터를 정리하세요. 정보를 보호하기 위해 설계된 도구.",
+      "subtitle": "{{ProdFullName}}의 주요 이점"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 메타데이터 정리하기",
+      "content": {
+        "title": "{{ProdShortName}}을 사용하여 문서 메타데이터를 안전하게 처리하세요.",
+        "step_1": "{{textRedactor}} 객체를 생성하고 대상 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "숨겨진 메타데이터를 제거하는 수정 설정을 구성합니다.",
+        "step_3": "정리 프로세스를 실행합니다.",
+        "step_4": "최종 버전을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 메타데이터 정리하기",
+      "comment_2": "수정기를 초기화하고 파일을 로드합니다.",
+      "comment_3": "메타데이터 제거 옵션을 설정합니다.",
+      "comment_4": "수정 후 결과를 저장합니다."
+    },
+    "example_bottom": {
+      "title": "수정할 메타데이터 지정하기",
+      "content": "문서에서 저자 또는 제목과 같은 메타데이터를 찾아 삭제하는 방법을 알아보세요.",
+      "comment_1": "문서를 수정기로 가져옵니다.",
+      "comment_2": "저자 메타데이터를 대상으로 합니다.",
+      "comment_3": "제목 메타데이터를 대상으로 합니다.",
+      "comment_4": "변경 사항을 적용합니다.",
+      "comment_5": "업데이트된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "파일에서 개인 데이터 삭제하기",
+      "description": "{{ProdFullName}}은 여러 형식에서 텍스트, 이미지 및 메타데이터를 정리할 수 있습니다. 개인적, 법적 및 기업 문서에 완벽합니다.",
+      "image_description": "메타데이터 삭제 도구",
+      "feature_1": {
+        "title": "텍스트 검색 및 삭제",
+        "content": "문서에서 개인적이거나 민감한 텍스트를 찾아 안전하게 제거하세요."
+      },
+      "feature_2": {
+        "title": "시각적 요소 가리기",
+        "content": "이미지의 민감한 부분에 오버레이를 추가하여 보기 제한합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 제거",
+        "content": "민감한 정보를 누출할 수 있는 포함된 데이터를 제거하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}란?",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 수정 작업을 관리하는 신뢰할 수 있는 방법을 제공합니다. 텍스트, 이미지 및 메타데이터 작업을 지원합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}}에서 메타데이터 제거하기",
+      "description": "{{EnvNameShort}}을 통해 {{FileFormatUp}} 파일에서 개인 메타데이터를 제거하세요. 문서를 깔끔하고 안전하게 유지하세요."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}을 사용하여 {{FileFormatUp}}의 메타데이터 정리하기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일에서 원치 않는 메타데이터를 제거하세요. 숨겨진 데이터를 지워서 프라이버시를 지키세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 통한 {{FileFormatUp}}에서 메타데이터 삭제",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일의 데이터를 보호하세요. 메타데이터를 간단히 삭제할 수 있습니다.",
+      "subtitle": "{{ProdFullName}}의 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 메타데이터 정리하기",
+      "content": {
+        "title": "{{ProdShortName}}을 사용하면 귀하의 {{EnvName}} 앱이 쉽게 문서에서 메타데이터를 제거할 수 있습니다.",
+        "step_1": "{{textRedactor}} 객체로 시작하여 파일을 로드합니다.",
+        "step_2": "삭제할 메타데이터 필드를 선택합니다.",
+        "step_3": "수정 설정을 적용합니다.",
+        "step_4": "최종 클린 문서를 내보냅니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 메타데이터 제거하기",
+      "comment_2": "문서를 수정자로 엽니다.",
+      "comment_3": "메타데이터 정리 옵션을 설정합니다.",
+      "comment_4": "수정을 적용하고 저장합니다."
+    },
+    "example_bottom": {
+      "title": "숨겨진 메타데이터 필드 정리하기",
+      "content": "이 예제는 {{FileFormatUp}} 파일에서 저자 및 제목과 같이 포함된 데이터 제거 과정을 안내합니다.",
+      "comment_1": "파일을 수정기로 가져옵니다.",
+      "comment_2": "저자 데이터를 제거합니다.",
+      "comment_3": "제목 데이터를 제거합니다.",
+      "comment_4": "수정을 실행합니다.",
+      "comment_5": "정리된 버전을 저장합니다."
+    },
+    "more_features": {
+      "title": "수정으로 문서 보호하기",
+      "description": "{{ProdFullName}}은 문서에서 숨겨진 콘텐츠를 제거하여 안전하게 공유할 수 있도록 돕습니다. 여러 형식과 콘텐츠 유형에서 작동합니다.",
+      "image_description": "수정 기능",
+      "feature_1": {
+        "title": "개인 텍스트 제거",
+        "content": "민감한 단어나 문구를 찾아 문서에서 제거합니다."
+      },
+      "feature_2": {
+        "title": "이미지 데이터 마스킹",
+        "content": "숨겨야할 이미지 부분을 가리기 위해 오버레이를 사용합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 삭제",
+        "content": "숨겨진 정보를 유지할 수 있는 메타데이터 필드를 정리합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해 더 알아보세요",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 개발자를 위한 수정 도구 세트로, {{FileFormatUp}} 파일에서 텍스트, 이미지, 메타데이터 작업을 할 수 있게 도와줍니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}} 파일 정리하기",
+      "description": "{{EnvNameShort}}을 통해 {{FileFormatUp}} 파일에서 숨겨진 데이터를 삭제하세요. 개인적인 의미에서 문서의 안전함을 보장합니다."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}의 메타데이터 편집하기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일의 메타데이터를 정리하거나 변경할 수 있습니다. 개인 정보를 포함할 수 있는 숨겨진 세부 정보를 제거하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일에서 메타데이터 제거하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일의 개인적인 세부 정보를 보호하세요. 문서 보안을 위해 간단한 도구입니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 메타데이터 정리하기",
+      "content": {
+        "title": "{{ProdShortName}}은 {{EnvName}} 애플리케이션에서 메타데이터를 쉽게 삭제할 수 있도록 합니다.",
+        "step_1": "{{textRedactor}}을 설정하고 정리할 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "모든 메타데이터를 지울 설정을 선택합니다.",
+        "step_3": "파일을 정리하기 위해 수정을 실행합니다.",
+        "step_4": "정리된 메타데이터로 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 파일에서 메타데이터 제거하기",
+      "comment_2": "{{textRedactor}}를 사용하여 파일을 로드합니다.",
+      "comment_3": "메타데이터 정리 구성을 설정합니다.",
+      "comment_4": "적용 및 저장합니다."
+    },
+    "example_bottom": {
+      "title": "숨겨진 메타데이터 필드 정리하기",
+      "content": "이 예제는 {{FileFormatUp}} 문서에서 숨겨진 메타데이터를 삭제하거나 수정하는 방법을 보여줍니다.",
+      "comment_1": "수정기를 사용하여 {{FileFormatUp}} 파일을 엽니다.",
+      "comment_2": "저자 필드 수정 추가합니다.",
+      "comment_3": "제목 필드 수정 추가합니다.",
+      "comment_4": "수정 프로세스를 실행합니다.",
+      "comment_5": "정리된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "문서에서 민감한 데이터 제거하기",
+      "description": "{{ProdFullName}}은 다양한 형식에서 개인 콘텐츠를 숨기거나 정리할 수 있습니다. 민감한 데이터를 보호하고 파일의 유용성과 명확성을 유지하세요.",
+      "image_description": "주요 수정 기능",
+      "feature_1": {
+        "title": "텍스트 검색 및 제거",
+        "content": "파일에서 민감한 단어 또는 구를 찾아 청소합니다."
+      },
+      "feature_2": {
+        "title": "발리 지역 가리기",
+        "content": "개인적인 부분을 숨기기 위해 오버레이를 사용하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 편집",
+        "content": "개인 데이터를 공유하지 않도록 메타데이터를 삭제하거나 수정하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해",
+      "content": "{{ProdShortName}}은 {{ProgLang}} 개발자가 {{FileFormatUp}} 파일에서 텍스트, 이미지 및 메타데이터를 정리하는 데 도움을 주는 간단한 도구입니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 통한 {{FileFormatUp}}의 메타데이터 정리",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 문서에서 숨겨진 데이터를 제거하세요. 민감한 세부정보를 보호하는 훌륭한 방법입니다."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 숨겨진 메타데이터 제거하기",
+      "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 파일의 메타데이터를 정리하세요. 개인 세부 정보가 개인으로 남도록 하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 통한 {{FileFormatUp}} 파일의 메타데이터 삭제",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일을 안전하게 유지하세요. 비즈니스 및 개인 데이터를 쉽게 보호하세요.",
+      "subtitle": "{{ProdFullName}}로 얻는 것"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 메타데이터 정리하기",
+      "content": {
+        "title": "{{ProdShortName}}으로 {{EnvName}} 앱에서 파일 메타데이터를 정리하는 작업을 시작하세요.",
+        "step_1": "{{textRedactor}}를 생성하고 {{FileFormatCap}} 파일을 엽니다.",
+        "step_2": "숨겨진 메타데이터 항목 제거 옵션을 선택합니다.",
+        "step_3": "수정 설정을 적용합니다.",
+        "step_4": "결과를 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 파일에서 숨겨진 메타데이터 제거하기",
+      "comment_2": "{{textRedactor}}로 파일을 엽니다.",
+      "comment_3": "메타데이터에 대한 수정 규칙 추가합니다.",
+      "comment_4": "처리하고 저장합니다."
+    },
+    "example_bottom": {
+      "title": "민감한 메타데이터 지우기",
+      "content": "이 샘플은 {{FileFormatUp}} 문서에서 특정 메타데이터 필드를 제거하는 방법을 설명합니다.",
+      "comment_1": "수정기를 사용하여 {{FileFormatUp}} 파일을 엽니다.",
+      "comment_2": "저자 필드를 대상으로 합니다.",
+      "comment_3": "제목 필드를 대상으로 합니다.",
+      "comment_4": "필드를 수정합니다.",
+      "comment_5": "문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "어떤 문서에서든 콘텐츠 정리하기",
+      "description": "{{ProdFullName}}는 개인 텍스트, 이미지 부분 또는 숨겨진 필드를 제거합니다. 문서를 안전하게 공유할 수 있도록 합니다.",
+      "image_description": "주요 기능",
+      "feature_1": {
+        "title": "텍스트 수정",
+        "content": "개인 단어 및 숫자를 찾아 제거하세요."
+      },
+      "feature_2": {
+        "title": "이미지 가리기",
+        "content": "시각적 정보를 가리기 위해 이미지 마스크를 추가하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 수정",
+        "content": "정보 유출이 가능할 수 있는 메타데이터 필드를 정리하세요."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 사용자가 {{FileFormatUp}} 파일에서 원하지 않는 텍스트, 이미지 부분 및 메타데이터를 제거할 수 있도록 돕습니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}}에서 메타데이터 제거하기",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 문서에서 민감한 데이터를 지우세요. 공유하거나 보관하기에 안전한 상태로 유지하세요."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 메타데이터 삭제하기",
+      "description": "{{ProdFullName}}은 {{FileFormatUp}} 파일에서 숨겨진 데이터를 제거하여 개인 또는 기업 정보를 드러낼 수 있습니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 통해 {{FileFormatUp}}에서 메타데이터 제거하기",
+      "description": "{{ProgLang}}를 사용하여 숨겨진 정보를 제거하여 문서를 안전하게 보호하세요.",
+      "subtitle": "{{ProdFullName}}의 하이라이트"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 메타데이터 삭제하기",
+      "content": {
+        "title": "귀하의 {{EnvName}} 프로젝트에서 문서 메타데이터를 정리하기 위해 {{ProdShortName}}을 사용하세요.",
+        "step_1": "{{textRedactor}}를 시작하고 {{FileFormatCap}} 파일을 엽니다.",
+        "step_2": "메타데이터를 삭제하기 위한 규칙을 설정합니다.",
+        "step_3": "수정을 실행하여 문서를 정리합니다.",
+        "step_4": "결과 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 문서에서 메타데이터 삭제하기",
+      "comment_2": "{{textRedactor}}를 사용하여 문서를 로드합니다.",
+      "comment_3": "메타데이터 필드를 수정하여 삭제합니다.",
+      "comment_4": "문서를 정리하고 저장합니다."
+    },
+    "example_bottom": {
+      "title": "숨겨진 메타데이터 필드 삭제하기",
+      "content": "이 예제는 {{FileFormatUp}} 문서에서 메타데이터를 제거하는 방법을 안내합니다.",
+      "comment_1": "{{FileFormatUp}} 파일을 로드합니다.",
+      "comment_2": "저자 필드를 수정합니다.",
+      "comment_3": "제목 필드를 수정합니다.",
+      "comment_4": "문서를 처리합니다.",
+      "comment_5": "정리된 결과를 저장합니다."
+    },
+    "more_features": {
+      "title": "파일에서 개인 정보 삭제하기",
+      "description": "{{ProdFullName}}는 텍스트, 이미지 및 파일 세부 정보를 제거하는 방법을 제공합니다. 데이터 보안에 이상적입니다.",
+      "image_description": "유용한 수정 기능",
+      "feature_1": {
+        "title": "텍스트 정리",
+        "content": "공유하면 안 되는 텍스트를 스캔하여 지워주세요."
+      },
+      "feature_2": {
+        "title": "이미지 영역 가리기",
+        "content": "개인 정보가 포함된 이미지 부분 위에 가리개를 추가하세요."
+      },
+      "feature_3": {
+        "title": "메타데이터 삭제",
+        "content": "공유 또는 게시 전에 숨겨진 파일 데이터를 삭제합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 개발자들이 {{FileFormatUp}} 파일에서 텍스트, 이미지 및 메타데이터를 숨기는 데 도움을 주는 도구입니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}을 사용하여 {{FileFormatUp}} 메타데이터 수정하기",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일의 민감한 데이터를 제거하세요. 안전하게 공유하세요."
+    }
+  }
+}

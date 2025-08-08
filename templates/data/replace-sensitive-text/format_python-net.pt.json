@@ -1,0 +1,429 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Redija Texto Sensível em {{FileFormatUp}} com {{ProgLang}}",
+      "description": "Mantenha detalhes privados seguros em seus documentos {{FileFormatUp}} com {{ProdFullName}}. Encontre e esconda informações sensíveis rapidamente."
+    },
+    "header": {
+      "title": "Apague Texto Sensível de Arquivos {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Utilize {{ProgLang}} e {{ProdFullName}} para pesquisar e remover dados privados, legais ou pessoais de seus arquivos {{FileFormatUp}}.",
+      "subtitle": "O Que Você Pode Fazer com {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Como Redigir Conteúdo em Arquivos {{FileFormatCap}}",
+      "content": {
+        "title": "Mantenha seu conteúdo seguro em qualquer aplicativo {{EnvName}} usando {{ProdFullName}}.",
+        "step_1": "Crie um {{textRedactor}} e carregue seu arquivo {{FileFormatCap}}.",
+        "step_2": "Escolha as configurações de redcação que deseja.",
+        "step_3": "Digite o texto a ser pesquisado e o que deverá substituí-lo.",
+        "step_4": "Aplique a redatação e salve seu arquivo."
+      }
+    },
+    "example_bottom": {
+      "title": "Redate com Regex",
+      "content": "Use regex para encontrar e remover padrões como e-mails, IDs ou números.",
+      "comment_1": "Abra o arquivo que deseja limpar.",
+      "comment_2": "Defina um padrão regex e texto de substituição.",
+      "comment_3": "Aplique suas regras de redatação.",
+      "comment_4": "Salve seu arquivo redatado."
+    },
+    "more_features": {
+      "title": "Mais Recursos de Redação",
+      "description": "{{ProdFullName}} permite que você esconda conteúdo privado em muitos tipos de arquivos. Mantenha seus dados seguros e prontos para compartilhar.",
+      "image_description": "Ferramentas para redatação de texto, imagem e metadados",
+      "feature_1": {
+        "title": "Localizar e Substituir Texto Privado",
+        "content": "Pesquise e troque textos correspondentes. Funciona com regex e busca por palavras-chave."
+      },
+      "feature_2": {
+        "title": "Cobrir Imagens Privadas",
+        "content": "Mascarar imagens inteiras ou partes delas usando sobreposições. Personalize as configurações de aparência."
+      },
+      "feature_3": {
+        "title": "Apagar Metadados Ocultos",
+        "content": "Remova informações ocultas como nomes de autores, carimbos de data/hora e notas de revisão."
+      }
+    },
+    "about": {
+      "title": "O que é {{ProdFullName}}?",
+      "content": "{{ProdFullName}} fornece aos desenvolvedores {{ProgLang}} todas as ferramentas necessárias para redigir conteúdo em arquivos {{FileFormatUp}} — texto, imagens, comentários e mais."
+    },
+    "formats": {
+      "title": "Redigir Conteúdo em {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Mantenha dados pessoais ou empresariais seguros ao redigir texto em arquivos {{FileFormatUp}} com as ferramentas {{EnvNameShort}}."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Remover Texto Privado de {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Mantenha seus arquivos {{FileFormatUp}} seguros ao remover conteúdo sensível com {{ProdFullName}} e {{ProgLang}}. Redação rápida e eficaz."
+    },
+    "header": {
+      "title": "Editar ou Ocultar Texto Privado em Arquivos {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Tome controle de seu conteúdo {{FileFormatUp}} usando {{ProdFullName}} e {{ProgLang}}. Ótimo para uso pessoal ou empresarial.",
+      "subtitle": "O Que Você Pode Fazer com {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Como Limpar Texto em Arquivos {{FileFormatCap}}",
+      "content": {
+        "title": "Use {{ProdFullName}} dentro de seus aplicativos {{EnvName}} para remover ou ocultar texto privado. Processo de redação rápido e direto.",
+        "step_1": "Crie um {{textRedactor}} e abra seu arquivo {{FileFormatCap}}.",
+        "step_2": "Defina as regras de redatação que deseja.",
+        "step_3": "Escolha o texto para encontrar e o que substituir.",
+        "step_4": "Execute a redatação e salve seu novo arquivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Como redigir texto em um arquivo {{FileFormatUp}}",
+      "comment_2": "Abra seu arquivo com o construtor {{textRedactor}}.",
+      "comment_3": "Escolha suas configurações de redatação.",
+      "comment_4": "Digite o que buscar e o que substituir.",
+      "comment_5": "Aplique as alterações e salve o arquivo {{FileFormatUp}} atualizado."
+    },
+    "example_bottom": {
+      "title": "Use Regex para Redigir Padrões",
+      "content": "Pesquise e remova e-mails, IDs ou padrões usando expressões regulares.",
+      "comment_1": "Abra o arquivo que deseja limpar.",
+      "comment_2": "Defina um padrão EMAIL regex e texto de substituição.",
+      "comment_3": "Aplique sua configuração de redatação.",
+      "comment_4": "Salve o documento redatado."
+    },
+    "more_features": {
+      "title": "Mais Ferramentas de Redação",
+      "description": "{{ProdFullName}} permite que você exclua ou oculte texto sensível em diferentes formatos. Compartilhe arquivos limpos e seguros com confiança.",
+      "image_description": "Ferramentas para redatação de texto, imagem e metadados",
+      "feature_1": {
+        "title": "Localizar e Substituir Texto Privado",
+        "content": "Pesquise por palavras ou padrões específicos e troque-os. Funciona com expressões regulares e opções de palavras-chave."
+      },
+      "feature_2": {
+        "title": "Cobrir Imagens Sensíveis",
+        "content": "Sobreponha ou oculte áreas de imagem. Altere cores, opacidade e tamanho conforme necessário."
+      },
+      "feature_3": {
+        "title": "Remover Metadados",
+        "content": "Apague informações ocultas como nomes de autoria, carimbos de tempo e notas internas para manter seus arquivos privados."
+      }
+    },
+    "about": {
+      "title": "Conheça {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornece aos desenvolvedores {{ProgLang}} as ferramentas para limpar conteúdo em arquivos {{FileFormatUp}}. Redija texto, imagens, comentários e metadados de forma simples."
+    },
+    "formats": {
+      "title": "Redigir Conteúdo em {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} para remover texto sensível de arquivos {{FileFormatUp}}. Mantenha documentos pessoais e de trabalho protegidos."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Remover Texto Privado de {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Proteja seus arquivos {{FileFormatUp}} ocultando ou removendo dados sensíveis com {{ProdFullName}} e {{ProgLang}}."
+    },
+    "header": {
+      "title": "Ocultar ou Excluir Texto Privado em Arquivos {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Com {{ProdFullName}} e {{ProgLang}}, você pode remover texto privado de documentos {{FileFormatUp}} — rápido e confiável.",
+      "subtitle": "O que Você Pode Fazer com {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Como Remover Conteúdo em Arquivos {{FileFormatCap}}",
+      "content": {
+        "title": "Use {{ProdFullName}} em seu aplicativo {{EnvName}} para limpar ou ocultar conteúdo sensível rapidamente.",
+        "step_1": "Inicie um {{textRedactor}} e carregue o arquivo {{FileFormatCap}}.",
+        "step_2": "Escolha as configurações de redatação necessárias.",
+        "step_3": "Defina o texto de pesquisa e o que deve substituí-lo.",
+        "step_4": "Aplique a redatação e salve seu arquivo."
+      }
+    },
+    "example_top": {
+      "comment_1": "Como redigir texto em um arquivo {{FileFormatUp}}",
+      "comment_2": "Use o construtor {{textRedactor}} para carregar seu arquivo.",
+      "comment_3": "Escolha suas preferências de redatação.",
+      "comment_4": "Defina os valores de pesquisa e substituição.",
+      "comment_5": "Aplique as alterações e salve o {{FileFormatUp}} atualizado."
+    },
+    "example_bottom": {
+      "title": "Redigir Usando Padrões Regex",
+      "content": "Encontre padrões de texto, como números de telefone, IDs ou e-mails com regex e remova-os rapidamente.",
+      "comment_1": "Abra o documento que deseja limpar.",
+      "comment_2": "Defina seu padrão EMAIL regex e texto de substituição.",
+      "comment_3": "Aplique regras de redatação.",
+      "comment_4": "Salve seu arquivo redatado."
+    },
+    "more_features": {
+      "title": "Recursos Extras de Redação",
+      "description": "{{ProdFullName}} facilita ocultar ou excluir informações privadas em diferentes formatos de arquivo. Compartilhe apenas o que deve ser visto.",
+      "image_description": "Recursos para redatar texto, imagens e metadados",
+      "feature_1": {
+        "title": "Substituir Texto Privado",
+        "content": "Encontre e troque palavras ou padrões correspondentes. Suporta regex e pesquisa por palavras-chave."
+      },
+      "feature_2": {
+        "title": "Ocultar Imagens Sensíveis",
+        "content": "Cubra partes do seu arquivo com sobreposições. Personalize a aparência e o que ele oculta."
+      },
+      "feature_3": {
+        "title": "Apagar Metadados",
+        "content": "Remova informações ocultas, como histórico de documentos, nomes de autores ou tags internas."
+      }
+    },
+    "about": {
+      "title": "Conheça {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornece aos desenvolvedores {{ProgLang}} tudo o que precisam para remover ou ocultar dados privados em arquivos {{FileFormatUp}} — texto, imagens, notas e mais."
+    },
+    "formats": {
+      "title": "Redigir Conteúdo em {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Mantenha dados sensíveis privados ao removê-los de arquivos {{FileFormatUp}} usando as ferramentas {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Remover Texto Privado de {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Mantenha seus arquivos {{FileFormatUp}} seguros com {{ProdFullName}} e {{ProgLang}}. Encontre e remova conteúdo privado rapidamente."
+    },
+    "header": {
+      "title": "Editar ou Remover Texto Privado em Arquivos {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Use {{ProdFullName}} e {{ProgLang}} para encontrar e limpar dados sensíveis em seus documentos {{FileFormatUp}}. Mantenha seus arquivos pessoais ou de trabalho privados.",
+      "subtitle": "O Que Você Pode Fazer com {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Como Redigir Texto em Documentos {{FileFormatCap}}",
+      "content": {
+        "title": "Use {{ProdFullName}} em seu ambiente {{EnvName}} para ocultar ou remover conteúdo sensível rapidamente.",
+        "step_1": "Crie um {{textRedactor}} e carregue seu arquivo {{FileFormatCap}}.",
+        "step_2": "Escolha suas configurações de redatação.",
+        "step_3": "Digite o texto a ser pesquisado e o que deverá substituí-lo.",
+        "step_4": "Aplique a redatação e salve seu arquivo atualizado."
+      }
+    },
+    "example_top": {
+      "comment_1": "Como redigir texto em um arquivo {{FileFormatUp}}",
+      "comment_2": "Use o construtor {{textRedactor}} para carregar seu arquivo.",
+      "comment_3": "Defina suas opções de redatação.",
+      "comment_4": "Escolha o texto a ser encontrado e o que substituir.",
+      "comment_5": "Execute as redações e salve o arquivo {{FileFormatUp}} atualizado."
+    },
+    "example_bottom": {
+      "title": "Redigir por Padrão com Regex",
+      "content": "Use expressões regulares para pesquisar e limpar texto como endereços de e-mail, números de telefone ou IDs.",
+      "comment_1": "Abra o arquivo que deseja editar.",
+      "comment_2": "Defina um padrão EMAIL regex e texto de substituição.",
+      "comment_3": "Execute o processo de redatação.",
+      "comment_4": "Salve o arquivo final limpo."
+    },
+    "more_features": {
+      "title": "Mais Recursos de Redação",
+      "description": "{{ProdFullName}} ajuda você a remover ou ocultar dados sensíveis em diferentes formatos. Compartilhe documentos com segurança.",
+      "image_description": "Visão geral de recursos de redatação",
+      "feature_1": {
+        "title": "Substituir texto privado",
+        "content": "Pesquise e troque palavras ou frases específicas. Funciona com regex e filtros inteligentes."
+      },
+      "feature_2": {
+        "title": "Cobrir imagens privadas",
+        "content": "Sobreponha ou oculte áreas específicas em imagens. Personalize configurações como cores e layout."
+      },
+      "feature_3": {
+        "title": "Remover informações ocultas",
+        "content": "Limpe metadados como nomes de autores, carimbos de data e notas internas."
+      }
+    },
+    "about": {
+      "title": "Conheça {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornece aos desenvolvedores {{ProgLang}} total controle sobre o conteúdo {{FileFormatUp}}. Limpe texto, imagens, notas e metadados facilmente."
+    },
+    "formats": {
+      "title": "Redigir Conteúdo em {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Com {{EnvNameShort}}, você pode remover texto sensível de documentos {{FileFormatUp}} e manter seus dados seguros."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Remover Texto Privado de {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Proteja dados privados em seus arquivos {{FileFormatUp}} com {{ProdFullName}} e {{ProgLang}}. Remoção rápida e eficaz de texto."
+    },
+    "header": {
+      "title": "Editar ou Ocultar Texto Privado em Arquivos {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Limpe conteúdo sensível em seus arquivos {{FileFormatUp}} usando {{ProdFullName}} e {{ProgLang}}. Mantenha documentos pessoais ou de trabalho seguros.",
+      "subtitle": "O Que Você Pode Fazer com {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Passos para Redigir Texto em Arquivos {{FileFormatCap}}",
+      "content": {
+        "title": "Use {{ProdFullName}} em seus aplicativos {{EnvName}} para remover ou ocultar rapidamente informações sensíveis.",
+        "step_1": "Inicie um {{textRedactor}} e carregue o arquivo {{FileFormatCap}}.",
+        "step_2": "Escolha as configurações de redatação desejadas.",
+        "step_3": "Digite o texto a ser encontrado e o que substituí-lo.",
+        "step_4": "Execute a redatação e salve seu documento."
+      }
+    },
+    "example_top": {
+      "comment_1": "Como redigir texto em um arquivo {{FileFormatUp}}",
+      "comment_2": "Carregue o arquivo usando o construtor {{textRedactor}}.",
+      "comment_3": "Defina as opções de redatação.",
+      "comment_4": "Escolha o texto a ser substituído e o novo valor.",
+      "comment_5": "Aplique e salve seu arquivo {{FileFormatUp}} redigido."
+    },
+    "example_bottom": {
+      "title": "Redigir Padrões com Regex",
+      "content": "Use expressões regulares para encontrar e limpar padrões de texto como e-mails, nomes ou IDs.",
+      "comment_1": "Abra seu documento.",
+      "comment_2": "Defina uma regra EMAIL regex e texto de substituição.",
+      "comment_3": "Aplique as configurações de redatação.",
+      "comment_4": "Salve a versão final."
+    },
+    "more_features": {
+      "title": "Mais Ferramentas para Redação",
+      "description": "{{ProdFullName}} fornece as ferramentas para limpar conteúdo sensível em muitos formatos de arquivo. Mantenha seus documentos seguros para compartilhar.",
+      "image_description": "Visão geral das opções de redatação",
+      "feature_1": {
+        "title": "Substituir texto sensível",
+        "content": "Pesquise por texto ou padrões e substitua-os por algo diferente. Regex também é suportado."
+      },
+      "feature_2": {
+        "title": "Cobrir imagens privadas",
+        "content": "Oculte ou sobreponha partes das imagens. Ajuste a aparência e o tamanho conforme necessário."
+      },
+      "feature_3": {
+        "title": "Limpar metadados ocultos",
+        "content": "Apague detalhes ocultos como nomes de autores, datas de criação e comentários."
+      }
+    },
+    "about": {
+      "title": "Conheça {{ProdFullName}}",
+      "content": "{{ProdFullName}} ajuda os desenvolvedores {{ProgLang}} a limpar arquivos {{FileFormatUp}} facilmente. Remova texto, imagens, notas e metadados com apenas alguns passos."
+    },
+    "formats": {
+      "title": "Redigir Conteúdo em {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Use as ferramentas {{EnvNameShort}} para limpar e proteger documentos {{FileFormatUp}} ao redigir texto e detalhes sensíveis."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Remover Texto Privado de {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Limpe rapidamente informações sensíveis de seus arquivos {{FileFormatUp}} com {{ProdFullName}} e {{ProgLang}}."
+    },
+    "header": {
+      "title": "Encontrar e Remover Texto Privado em Arquivos {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Use {{ProgLang}} e {{ProdFullName}} para limpar detalhes sensíveis de seus documentos {{FileFormatUp}}. Seja para trabalho ou uso pessoal, seu conteúdo permanece seguro.",
+      "subtitle": "O Que Você Pode Fazer com {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Como Redigir Texto em Arquivos {{FileFormatCap}}",
+      "content": {
+        "title": "Com {{ProdFullName}} em seus projetos {{EnvName}}, você pode facilmente remover ou ocultar conteúdo privado.",
+        "step_1": "Crie um {{textRedactor}} e abra seu arquivo {{FileFormatCap}}.",
+        "step_2": "Escolha suas configurações de redatação.",
+        "step_3": "Digite o texto que deseja pesquisar e o que substituí-lo.",
+        "step_4": "Executar a redatação e salvar seu arquivo atualizado."
+      }
+    },
+    "example_top": {
+      "comment_1": "Como redigir texto em um arquivo {{FileFormatUp}}",
+      "comment_2": "Abra seu arquivo com o construtor {{textRedactor}}.",
+      "comment_3": "Configure suas opções de redatação.",
+      "comment_4": "Escolha o texto a ser pesquisado e o que substituir.",
+      "comment_5": "Aplique as redatações e salve seu novo arquivo {{FileFormatUp}}."
+    },
+    "example_bottom": {
+      "title": "Redigir Padrões com Regex",
+      "content": "Use regex para encontrar e limpar padrões de texto como e-mails, números de telefone ou detalhes de conta.",
+      "comment_1": "Abra o arquivo que precisa ser limpo.",
+      "comment_2": "Defina seu padrão EMAIL regex e texto de substituição.",
+      "comment_3": "Aplique as regras de redatação.",
+      "comment_4": "Salve a versão final do arquivo."
+    },
+    "more_features": {
+      "title": "Mais Recursos de Redação",
+      "description": "{{ProdFullName}} ajuda você a limpar conteúdo sensível em muitos formatos de arquivo. Mantenha seus documentos seguros e compartilháveis.",
+      "image_description": "Ferramentas de redatação em ação",
+      "feature_1": {
+        "title": "Substituir texto privado",
+        "content": "Pesquise e substitua qualquer texto correspondente. Funciona com buscas inteligentes e padrões regex."
+      },
+      "feature_2": {
+        "title": "Cobrir conteúdo de imagem",
+        "content": "Oculte partes de imagens com sobreposições. Personalize a aparência como desejar."
+      },
+      "feature_3": {
+        "title": "Remover detalhes ocultos",
+        "content": "Apague metadados como informações de autoria, comentários e carimbos de data."
+      }
+    },
+    "about": {
+      "title": "Conheça {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornece aos desenvolvedores {{ProgLang}} tudo o que precisam para limpar arquivos {{FileFormatUp}}. Remova texto, imagens, comentários e metadados com um código simples."
+    },
+    "formats": {
+      "title": "Redigir Conteúdo em {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Use {{EnvNameShort}} para remover texto privado de arquivos {{FileFormatUp}}. Certifique-se de que seu conteúdo seja seguro para armazenar ou compartilhar."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Remover Texto Privado de {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Proteja rapidamente dados sensíveis em seus arquivos {{FileFormatUp}} usando {{ProdFullName}} e {{ProgLang}}."
+    },
+    "header": {
+      "title": "Encontrar e Ocultar Texto Sensível em Arquivos {{FileFormatUp}} com {{EnvNameShort}}",
+      "description": "Use {{ProdFullName}} e {{ProgLang}} para remover ou ocultar conteúdo privado em seus arquivos {{FileFormatUp}}. Mantenha tudo confidencial, seja pessoal ou relacionado ao trabalho.",
+      "subtitle": "O Que Você Pode Fazer com {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Como Limpar Texto em Arquivos {{FileFormatCap}}",
+      "content": {
+        "title": "Use {{ProdFullName}} dentro de seus aplicativos {{EnvName}} para remover ou substituir dados sensíveis rapidamente.",
+        "step_1": "Inicie um {{textRedactor}} e abra seu arquivo {{FileFormatCap}}.",
+        "step_2": "Escolha as opções de redatação que você precisa.",
+        "step_3": "Defina o texto que deseja pesquisar e o que deve ser trocado.",
+        "step_4": "Execute a redatação e salve o arquivo final."
+      }
+    },
+    "example_top": {
+      "comment_1": "Como redigir texto em um arquivo {{FileFormatUp}}",
+      "comment_2": "Carregue seu arquivo usando o construtor {{textRedactor}}.",
+      "comment_3": "Selecione as configurações de redatação necessárias.",
+      "comment_4": "Digite quais textos encontrar e o que substituir.",
+      "comment_5": "Execute as redatações e salve o arquivo {{FileFormatUp}} final."
+    },
+    "example_bottom": {
+      "title": "Redação de Padrões Usando Regex",
+      "content": "Use expressões regulares para encontrar e redigir padrões como e-mails, informações de contato ou outros detalhes privados.",
+      "comment_1": "Abra a apresentação que deseja limpar.",
+      "comment_2": "Defina um padrão EMAIL regex e valor de substituição.",
+      "comment_3": "Aplique os passos de redatação.",
+      "comment_4": "Salve seu arquivo redatado final."
+    },
+    "more_features": {
+      "title": "Mais Ferramentas para Remover Dados Privados",
+      "description": "{{ProdFullName}} permite que você limpe conteúdo privado em muitos formatos. Perfeito para compartilhar ou arquivar arquivos com segurança.",
+      "image_description": "Opções e ferramentas de redatação",
+      "feature_1": {
+        "title": "Encontrar e substituir texto",
+        "content": "Rapidamente troque palavras ou números sensíveis. Funciona com regex e busca por palavras-chave."
+      },
+      "feature_2": {
+        "title": "Ocultar partes de imagens",
+        "content": "Cubra áreas específicas com formas ou sobreposições. Ajuste os visuais conforme necessário."
+      },
+      "feature_3": {
+        "title": "Deletar informações ocultas",
+        "content": "Limpe metadados, como quem fez o arquivo, comentários ou o histórico de alterações."
+      }
+    },
+    "about": {
+      "title": "Conheça {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornece aos desenvolvedores {{ProgLang}} as ferramentas para limpar arquivos {{FileFormatUp}} de dentro para fora. Remova conteúdo, imagens, notas e metadados facilmente."
+    },
+    "formats": {
+      "title": "Redigir Conteúdo em {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Com {{EnvNameShort}}, você pode limpar arquivos {{FileFormatUp}} removendo ou escondendo texto privado. Mantenha tudo seguro."
+    }
+  }
+}

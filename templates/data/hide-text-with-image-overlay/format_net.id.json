@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Sembunyikan Teks Sensitif dalam {{FileFormatUp}} dengan Overlay Menggunakan {{ProgLang}}",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menyembunyikan teks sensitif dalam file {{FileFormatUp}} dengan menempatkan overlay berbentuk persegi berwarna. Jaga data pribadi Anda tetap aman tanpa mengubah tata letak aslinya."
+    },
+    "header": {
+      "title": "Sembunyikan Teks Sensitif dalam Dokumen {{FileFormatUp}} dengan Overlay Menggunakan {{EnvNameShort}}",
+      "description": "Kendalikan konten file {{FileFormatUp}} menggunakan {{ProgLang}}. Gunakan penghapusan untuk melindungi informasi hukum, keuangan, dan pribadi.",
+      "subtitle": "Fitur {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Lindungi data bisnis dalam dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}}: dirancang untuk membantu aplikasi {{EnvName}} Anda menjaga dokumen tetap aman. Hapus informasi pribadi dengan cepat.",
+        "step_1": "Buat instance {{textRedactor}} dan berikan jalur ke file {{FileFormatCap}} yang ingin Anda hapus.",
+        "step_2": "Konfigurasikan pengaturan penghapusan untuk mendapatkan hasil yang Anda butuhkan.",
+        "step_3": "Tetapkan pola teks yang akan dicari dan pilih warna overlay.",
+        "step_4": "Redak dokumen dan simpan perubahannya."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sembunyikan teks sensitif dalam {{FileFormatUp}} dengan gambar overlay",
+      "comment_2": "Berikan jalur file ke konstruktor {{textRedactor}}",
+      "comment_3": "Atur opsi penghapusan",
+      "comment_4": "Tentukan pola teks dan warna overlay",
+      "comment_5": "Redak dan simpan file {{FileFormatUp}} yang diperbarui"
+    },
+    "example_bottom": {
+      "title": "Gunakan ekspresi reguler untuk menyembunyikan teks",
+      "content": "Contoh ini menunjukkan cara mencari dan menyembunyikan teks menggunakan ekspresi reguler",
+      "comment_1": "Muatan dokumen yang ingin Anda hapus",
+      "comment_2": "Tentukan pengaturan penghapusan: pola teks dan warna",
+      "comment_3": "Terapkan penghapusan ke konten",
+      "comment_4": "Simpan versi yang telah dihapus"
+    },
+    "more_features": {
+      "title": "Hapus konten dalam dokumen",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menghapus atau menyembunyikan konten di berbagai jenis file. Lindungi informasi sensitif sambil menjaga dokumen Anda mudah dibaca dan dibagikan.",
+      "image_description": "Opsi Penghapusan Lanjutan",
+      "feature_1": {
+        "title": "Edit teks di mana saja",
+        "content": "Cari dan ganti teks yang cocok dalam dokumen Anda untuk membantu mengamankan data rahasia."
+      },
+      "feature_2": {
+        "title": "Tutup gambar",
+        "content": "Tempatkan overlay di atas gambar penuh atau area yang dipilih untuk menyembunyikan visual pribadi."
+      },
+      "feature_3": {
+        "title": "Tangani metadata",
+        "content": "Hapus atau ubah metadata tersembunyi untuk mencegah kebocoran data yang tidak diinginkan."
+      }
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan kepada pengembang {{ProgLang}} alat untuk menyembunyikan atau menghapus konten dari file {{FileFormatUp}}. Ini adalah cara yang sederhana untuk menjaga dokumen tetap aman. Anda dapat menutup teks, gambar, atau metadata dalam banyak jenis file."
+    },
+    "formats": {
+      "title": "Lindungi Konten {{FileFormatUp}} dengan Redaksi {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk menutupi atau menghapus konten dalam file {{FileFormatUp}}. Ini adalah pilihan cerdas untuk menjaga dokumen sensitif atau resmi tetap aman."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Tutup Teks Sensitif dalam {{FileFormatUp}} Menggunakan Overlay dan {{ProgLang}}",
+      "description": "Gunakan {{ProdFullName}} untuk melindungi teks pribadi dalam file {{FileFormatUp}} dengan overlay persegi sederhana. Jaga tata letak dokumen Anda tetap utuh dan data Anda tersembunyi."
+    },
+    "header": {
+      "title": "Tutup Teks dalam {{FileFormatUp}} dengan Overlay Menggunakan {{EnvNameShort}}",
+      "description": "Sembunyikan konten sensitif dalam dokumen {{FileFormatUp}} Anda menggunakan kode {{ProgLang}}. Sangat baik untuk perlindungan dokumen hukum, bisnis, atau pribadi.",
+      "subtitle": "Fitur {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Hapus data pribadi dari dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} membantu pengembang {{EnvName}} membersihkan dokumen hanya dengan beberapa baris kode.",
+        "step_1": "Buat {{textRedactor}} dan berikan jalur file Anda.",
+        "step_2": "Tentukan bagaimana penghapusan harus bekerja.",
+        "step_3": "Masukkan teks yang ingin disembunyikan dan pilih warna overlay.",
+        "step_4": "Redak file dan simpan."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sembunyikan teks di {{FileFormatUp}} menggunakan blok overlay",
+      "comment_2": "Buat {{textRedactor}} dan muat file",
+      "comment_3": "Atur preferensi penghapusan Anda",
+      "comment_4": "Masukkan teks dan atur warna blok",
+      "comment_5": "Redak dan simpan dokumen yang diperbarui"
+    },
+    "example_bottom": {
+      "title": "Regex untuk menghapus konten",
+      "content": "Lihat bagaimana ekspresi reguler dapat menemukan dan menyembunyikan kata-kata sensitif",
+      "comment_1": "Buka file target",
+      "comment_2": "Tentukan pola dan warna",
+      "comment_3": "Terapkan logika penghapusan",
+      "comment_4": "Ekspor dokumen yang telah dihapus"
+    },
+    "more_features": {
+      "title": "Lebih banyak cara untuk membersihkan dokumen",
+      "description": "Dengan {{ProdFullName}}, hapus tipe file yang berbeda untuk menjaga konten Anda tetap aman dan profesional.",
+      "image_description": "Penghapusan cerdas yang terintegrasi",
+      "feature_1": {
+        "title": "Edit atau hapus teks",
+        "content": "Temukan frasa tertentu dan sembunyikan atau ganti mereka."
+      },
+      "feature_2": {
+        "title": "Sembunyikan area gambar",
+        "content": "Tutup titik sensitif dalam gambar atau halaman yang dipindai."
+      },
+      "feature_3": {
+        "title": "Hapus metadata tersembunyi",
+        "content": "Hapus info tak terlihat yang dapat mengekspos data pengguna atau sistem."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} membantu pengembang {{ProgLang}} menyembunyikan atau menghapus konten pribadi dalam file {{FileFormatUp}}. Gunakan untuk menutup teks, gambar, dan metadata dalam berbagai format file."
+    },
+    "formats": {
+      "title": "Sembunyikan Konten dalam {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Lindungi data sensitif dalam dokumen {{FileFormatUp}} dengan menutupnya menggunakan overlay atau menghapusnya sepenuhnya menggunakan alat {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Sembunyikan Teks dalam {{FileFormatUp}} dengan Overlay {{ProgLang}}",
+      "description": "{{ProdFullName}} membantu menyembunyikan teks dalam file {{FileFormatUp}} menggunakan kotak berwarna. Jaga informasi tetap aman tanpa mengubah format dokumen Anda."
+    },
+    "header": {
+      "title": "Tutupi Teks dalam File {{FileFormatUp}} Menggunakan Overlay dan {{EnvNameShort}}",
+      "description": "Gunakan {{ProgLang}} dan {{ProdFullName}} untuk menambahkan overlay sederhana yang memblokir teks sensitif dalam file {{FileFormatUp}} Anda.",
+      "subtitle": "Fitur {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Tetap aman dengan informasi sensitif dalam dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} membantu pengembang {{EnvName}} melindungi file. Sembunyikan konten pribadi dengan hanya beberapa baris kode.",
+        "step_1": "Buat objek {{textRedactor}} baru dengan jalur file {{FileFormatCap}} Anda.",
+        "step_2": "Sesuaikan pengaturan penghapusan sesuai kebutuhan.",
+        "step_3": "Tambahkan pola pencarian dan pilih warna untuk blok overlay.",
+        "step_4": "Jalankan penghapusan dan simpan file Anda."
+      }
+    },
+    "example_top": {
+      "comment_1": "Tutupi teks pribadi dalam {{FileFormatUp}} menggunakan overlay",
+      "comment_2": "Muat file dengan {{textRedactor}}",
+      "comment_3": "Pilih bagaimana penghapusan akan bekerja",
+      "comment_4": "Masukkan teks yang ingin disembunyikan dan pilih warna overlay",
+      "comment_5": "Proses file dan simpan perubahan"
+    },
+    "example_bottom": {
+      "title": "Cocokkan dan sembunyikan dengan regex",
+      "content": "Pelajari cara mendeteksi dan meredaksi konten menggunakan ekspresi reguler",
+      "comment_1": "Buka dokumen target",
+      "comment_2": "Siapkan pola dan warna overlay",
+      "comment_3": "Terapkan aturan penghapusan",
+      "comment_4": "Ekspor versi yang telah dihapus"
+    },
+    "more_features": {
+      "title": "Fitur penghapusan cerdas",
+      "description": "Gunakan {{ProdFullName}} untuk menghapus atau menyembunyikan konten dalam berbagai jenis file. Jaga detail pribadi jauh dari pandangan publik.",
+      "image_description": "Alat redaksi yang praktis",
+      "feature_1": {
+        "title": "Ubah teks apa pun",
+        "content": "Cari dan perbarui string apa pun dalam dokumen untuk melindungi data."
+      },
+      "feature_2": {
+        "title": "Sembunyikan konten gambar",
+        "content": "Tambahkan kotak atau persegi panjang untuk menutupi bagian sensitif dari gambar."
+      },
+      "feature_3": {
+        "title": "Bersihkan metadata",
+        "content": "Hapus atau timpa detail file latar belakang sebelum berbagi."
+      }
+    },
+    "about": {
+      "title": "Bagaimana {{ProdFullName}} Membantu",
+      "content": "{{ProdFullName}} memungkinkan pengembang yang menggunakan {{ProgLang}} untuk menyembunyikan konten yang tidak diinginkan dalam file {{FileFormatUp}}. Tutup apa saja — dari kata hingga gambar — di berbagai jenis file."
+    },
+    "formats": {
+      "title": "Gunakan {{EnvNameShort}} untuk Menyembunyikan Info dalam File {{FileFormatUp}}",
+      "description": "Tambahkan overlay atau hapus bagian dari dokumen {{FileFormatUp}} Anda untuk melindungi detail sensitif dengan bantuan {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Redaksi Teks dalam {{FileFormatUp}} Menggunakan Overlay dan {{ProgLang}}",
+      "description": "Sembunyikan konten pribadi dalam dokumen {{FileFormatUp}} dengan menutupnya menggunakan persegi berwarna melalui {{ProdFullName}}. Jaga tata letak tetap seperti semula."
+    },
+    "header": {
+      "title": "Redaksi Teks dalam {{FileFormatUp}} dengan Overlay Menggunakan {{EnvNameShort}}",
+      "description": "Dengan {{ProgLang}} dan {{ProdFullName}}, mudah untuk melindungi data sensitif dalam file {{FileFormatUp}} dengan menyembunyikannya dari pandangan.",
+      "subtitle": "Jelajahi {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sembunyikan konten pribadi dalam file {{FileFormatCap}} Anda",
+      "content": {
+        "title": "Dengan {{ProdFullName}}, pengembang {{EnvName}} dapat melindungi dokumen dalam beberapa langkah sederhana.",
+        "step_1": "Mulai {{textRedactor}} dengan jalur ke file yang ingin Anda bersihkan.",
+        "step_2": "Pilih aturan penghapusan yang sesuai dengan kebutuhan Anda.",
+        "step_3": "Pilih pola untuk dicocokkan dan warna untuk overlay gambar.",
+        "step_4": "Jalankan penghapusan dan simpan file yang diperbarui."
+      }
+    },
+    "example_top": {
+      "comment_1": "Gunakan overlay untuk menutupi teks dalam {{FileFormatUp}}",
+      "comment_2": "Inisialisasi {{textRedactor}} dengan file Anda",
+      "comment_3": "Tentukan bagaimana penghapusan harus berperilaku",
+      "comment_4": "Atur apa yang harus disembunyikan dan warna overlay",
+      "comment_5": "Jalankan dan simpan perubahan"
+    },
+    "example_bottom": {
+      "title": "Redaksi ekspresi reguler",
+      "content": "Contoh ini menunjukkan bagaimana mencari dan menyembunyikan teks dengan ekspresi reguler",
+      "comment_1": "Muat file untuk redaksi",
+      "comment_2": "Atur aturan redaksi: teks yang dicari dan warna blok",
+      "comment_3": "Terapkan logika penghapusan",
+      "comment_4": "Simpan hasil yang telah dihapus"
+    },
+    "more_features": {
+      "title": "Lebih banyak cara untuk melindungi file Anda",
+      "description": "{{ProdFullName}} memberi Anda alat untuk menyembunyikan data dalam berbagai format tanpa mengubah tata letak.",
+      "image_description": "Fitur yang penting",
+      "feature_1": {
+        "title": "Ganti teks sesuai kebutuhan",
+        "content": "Tukar teks untuk menjaga informasi penting agar tidak diakses oleh pengguna yang tidak berwenang."
+      },
+      "feature_2": {
+        "title": "Sembunyikan area gambar",
+        "content": "Sembunyikan gambar sepenuhnya atau bagian tertentu dengan menggambar kotak overlay."
+      },
+      "feature_3": {
+        "title": "Hapus data tersembunyi",
+        "content": "Hapus metadata yang ter嵌入 yang bisa mengungkap rincian pribadi."
+      }
+    },
+    "about": {
+      "title": "Apa yang Dilakukan {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberi Anda kekuatan untuk menutupi atau menghapus konten dalam dokumen {{FileFormatUp}} menggunakan {{ProgLang}}. Sembunyikan apa pun mulai dari nama hingga catatan, dalam beberapa langkah saja."
+    },
+    "formats": {
+      "title": "Amankan Teks {{FileFormatUp}} dengan Alat {{EnvNameShort}}",
+      "description": "Tutup area pribadi atau hapus data tersembunyi dalam file {{FileFormatUp}} dengan menggunakan fitur redaksi {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Gunakan Overlay untuk Menyembunyikan Teks dalam {{FileFormatUp}} melalui {{ProgLang}}",
+      "description": "{{ProdFullName}} memudahkan untuk menutup teks sensitif dalam {{FileFormatUp}} dengan blok warna. Jaga dokumen tetap utuh saat menyembunyikan apa yang penting."
+    },
+    "header": {
+      "title": "Overlay Redaksi Teks dalam File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Lindungi informasi penting dalam file {{FileFormatUp}} menggunakan overlay persegi yang ditulis dalam {{ProgLang}}. Ideal untuk keamanan dan kepatuhan.",
+      "subtitle": "Lihat apa yang bisa dilakukan {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redak data pribadi dalam file {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} membantu pengembang {{EnvName}} menghapus konten sensitif dengan cepat. Ikuti langkah-langkah ini untuk mengamankan file Anda.",
+        "step_1": "Inisialisasi {{textRedactor}} dengan jalur ke file {{FileFormatCap}} Anda.",
+        "step_2": "Tetapkan aturan untuk meredaksi konten.",
+        "step_3": "Pilih pola teks dan warna untuk menutupinya.",
+        "step_4": "Terapkan redaksi dan simpan file yang telah diedit."
+      }
+    },
+    "example_top": {
+      "comment_1": "Redaksi teks dalam {{FileFormatUp}} menggunakan overlay gambar",
+      "comment_2": "Muat file Anda dengan {{textRedactor}}",
+      "comment_3": "Tentukan apa yang perlu dihapus",
+      "comment_4": "Tambahkan teks yang cocok dan warna overlay",
+      "comment_5": "Jalankan penghapusan dan simpan file akhir"
+    },
+    "example_bottom": {
+      "title": "Sembunyikan teks yang cocok dengan regex",
+      "content": "Contoh ini menunjukkan bagaimana menggunakan ekspresi reguler untuk menemukan dan menutup konten sensitif",
+      "comment_1": "Buka dokumen untuk dihapus",
+      "comment_2": "Pilih pola dan warna",
+      "comment_3": "Jalankan aturan penghapusan",
+      "comment_4": "Simpan dan tinjau salinan yang telah dihapus"
+    },
+    "more_features": {
+      "title": "Alat redaksi tambahan",
+      "description": "Dengan {{ProdFullName}}, Anda dapat menjaga file tetap bersih dengan menghapus informasi yang terlihat dan tersembunyi sambil mempertahankan tata letak.",
+      "image_description": "Output yang bersih dan aman",
+      "feature_1": {
+        "title": "Ganti teks yang terbuka",
+        "content": "Sembunyikan kata atau frasa yang mungkin melanggar data penting."
+      },
+      "feature_2": {
+        "title": "Tutup gambar",
+        "content": "Tandai gambar sensitif dengan blok padat."
+      },
+      "feature_3": {
+        "title": "Hapus info tersembunyi",
+        "content": "Bersihkan metadata latar belakang untuk menjaga file pribadi."
+      }
+    },
+    "about": {
+      "title": "Kenalkan {{ProdFullName}}",
+      "content": "Pengembang yang bekerja dengan {{ProgLang}} dapat menggunakan {{ProdFullName}} untuk menyembunyikan atau menghapus bagian dari dokumen {{FileFormatUp}}. Sembunyikan nama, angka, atau data lainnya dalam beberapa baris kode."
+    },
+    "formats": {
+      "title": "Lindungi File {{FileFormatUp}} Anda Menggunakan {{EnvNameShort}}",
+      "description": "Dengan {{EnvNameShort}}, Anda dapat menyembunyikan teks atau menghapus metadata dalam format {{FileFormatUp}} tanpa merusak tata letak atau format."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Sembunyikan Konten dalam {{FileFormatUp}} dengan Penghapusan Overlay dan {{ProgLang}}",
+      "description": "Tutup teks dalam dokumen {{FileFormatUp}} menggunakan blok warna solid dengan {{ProdFullName}}. Cara mudah untuk melindungi konten pribadi."
+    },
+    "header": {
+      "title": "Penghapusan Overlay untuk File {{FileFormatUp}} di {{EnvNameShort}}",
+      "description": "Gunakan kode {{ProgLang}} untuk menyembunyikan teks dan melindungi data di dalam file {{FileFormatUp}} Anda. Solusi bersih untuk keamanan dokumen.",
+      "subtitle": "Apa yang Termasuk dalam {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redak info sensitif dalam format {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} adalah alat sederhana bagi pengembang {{EnvName}} untuk membersihkan dokumen sebelum dibagikan.",
+        "step_1": "Mulai {{textRedactor}} dan muat file {{FileFormatCap}} Anda.",
+        "step_2": "Tentukan pengaturan penghapusan untuk tugas Anda.",
+        "step_3": "Tambahkan kata kunci atau frasa untuk dihapus dan pilih warna.",
+        "step_4": "Jalankan alat dan simpan perubahannya."
+      }
+    },
+    "example_top": {
+      "comment_1": "Gunakan overlay untuk menyembunyikan teks dalam {{FileFormatUp}}",
+      "comment_2": "Buat {{textRedactor}} dan muat file Anda",
+      "comment_3": "Pilih aturan penghapusan",
+      "comment_4": "Masukkan apa yang ingin disembunyikan dan pilih warna",
+      "comment_5": "Terapkan penghapusan dan simpan file"
+    },
+    "example_bottom": {
+      "title": "Redaksi teks regex",
+      "content": "Berikut cara menggunakan regex untuk menemukan dan menyembunyikan konten dalam file",
+      "comment_1": "Muat dokumen untuk diproses",
+      "comment_2": "Tambahkan pola dan pengaturan overlay",
+      "comment_3": "Terapkan perubahannya",
+      "comment_4": "Simpan dan tutup dokumen yang telah dihapus"
+    },
+    "more_features": {
+      "title": "Fitur kunci untuk perlindungan data",
+      "description": "{{ProdFullName}} memungkinkan Anda untuk menyembunyikan atau menghapus data di dalam dokumen Anda tanpa kehilangan tata letak atau makna.",
+      "image_description": "Dirancang untuk keamanan dokumen",
+      "feature_1": {
+        "title": "Ubah konten teks",
+        "content": "Ganti atau sembunyikan kata-kata yang dipilih di seluruh file."
+      },
+      "feature_2": {
+        "title": "Redaksi visual",
+        "content": "Sembunyikan foto atau area dengan blok sederhana."
+      },
+      "feature_3": {
+        "title": "Bersihkan metadata",
+        "content": "Hapus data latar belakang seperti nama penulis atau stempel waktu."
+      }
+    },
+    "about": {
+      "title": "Mengapa Memilih {{ProdFullName}}",
+      "content": "{{ProdFullName}} dibuat untuk pengembang {{ProgLang}} yang ingin meredaksi atau menghapus konten di file {{FileFormatUp}}. Gunakan untuk bekerja dengan teks, metadata, dan gambar."
+    },
+    "formats": {
+      "title": "Redaksi File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Tutupi konten sensitif dalam {{FileFormatUp}} menggunakan overlay persegi atau redaksi bersih dengan fitur {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Sembunyikan Teks Sensitif dalam {{FileFormatUp}} dengan Overlay {{ProgLang}}",
+      "description": "{{ProdFullName}} memungkinkan Anda menyembunyikan bagian dari file {{FileFormatUp}} dengan penghapusan overlay sederhana. Jaga dokumen tetap aman tanpa mengubah struktur."
+    },
+    "header": {
+      "title": "Redaksi Teks dalam {{FileFormatUp}} dengan Overlay Menggunakan {{EnvNameShort}}",
+      "description": "Lindungi konten dalam file {{FileFormatUp}} Anda dengan menempatkan blok overlay dengan bantuan {{ProgLang}} dan {{ProdFullName}}.",
+      "subtitle": "Alat di dalam {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Amankan konten dalam dokumen {{FileFormatCap}}",
+      "content": {
+        "title": "Gunakan {{ProdFullName}} dalam aplikasi {{EnvName}} Anda untuk membersihkan file sebelum distribusi.",
+        "step_1": "Berikan jalur file ke instance {{textRedactor}} baru.",
+        "step_2": "Tetapkan apa dan bagaimana Anda ingin meredaksi.",
+        "step_3": "Tentukan pola teks dan atur warna overlay.",
+        "step_4": "Redak dan simpan file Anda yang diperbarui."
+      }
+    },
+    "example_top": {
+      "comment_1": "Overlay teks dalam {{FileFormatUp}} untuk menyembunyikan rincian",
+      "comment_2": "Gunakan {{textRedactor}} untuk membuka file Anda",
+      "comment_3": "Sesuaikan pengaturan untuk redaksi",
+      "comment_4": "Pilih teks dan warna pemblokiran",
+      "comment_5": "Jalankan dan simpan file yang telah dihapus"
+    },
+    "example_bottom": {
+      "title": "Temukan & redaksi dengan regex",
+      "content": "Ini menunjukkan bagaimana regex dapat membantu mengidentifikasi dan menyembunyikan teks",
+      "comment_1": "Buka file yang perlu diradaksi",
+      "comment_2": "Siapkan aturan Anda menggunakan regex",
+      "comment_3": "Jalankan proses redaksi",
+      "comment_4": "Simpan versi yang telah dibersihkan"
+    },
+    "more_features": {
+      "title": "Sembunyikan data sensitif dengan mudah",
+      "description": "Gunakan {{ProdFullName}} untuk menghapus atau menutup konten di berbagai jenis dokumen — ideal untuk melindungi data dalam file hukum, bisnis, atau pribadi.",
+      "image_description": "Penghapusan dokumen yang fleksibel",
+      "feature_1": {
+        "title": "Tukar teks",
+        "content": "Cari kata atau angka dan ganti atau sembunyikan mereka."
+      },
+      "feature_2": {
+        "title": "Redaksi foto atau bagian",
+        "content": "Tambahkan overlay pada gambar atau titik tertentu di halaman."
+      },
+      "feature_3": {
+        "title": "Hapus data tambahan",
+        "content": "Bersihkan metadata yang dapat mengungkap informasi tersembunyi."
+      }
+    },
+    "about": {
+      "title": "Tentang Alat Ini",
+      "content": "{{ProdFullName}} membantu pengguna {{ProgLang}} membersihkan dokumen {{FileFormatUp}} dengan menutupi atau menghapus teks, metadata, atau gambar sesuai kebutuhan."
+    },
+    "formats": {
+      "title": "Sembunyikan Konten dalam {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+      "description": "Tambahkan overlay atau hapus data dari file {{FileFormatUp}} Anda untuk menjaga konten sensitif tetap pribadi menggunakan {{EnvNameShort}}."
+    }
+  }
+}

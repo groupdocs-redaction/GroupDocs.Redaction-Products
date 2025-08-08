@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}内の画像をオーバーレイで隠す",
+      "description": "{{ProdFullName}}を使用すると、{{FileFormatUp}}ファイル内の機密画像をカラフルなオーバーレイで保護できます。文書のレイアウトを変更することなく、プライベート情報を安全に保ちます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の機密画像をオーバーレイで保護",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイル内のビジネス及び個人データを安全に保つ。私たちのツールは、強力なデータ保護を実現します。",
+      "subtitle": "{{ProdFullName}}の機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書内のビジネスデータを保護",
+      "content": {
+        "title": "{{ProdFullName}}: {{EnvName}}アプリが文書を保護するために設計されています。プライベート情報を迅速に隠します。",
+        "step_1": "{{textRedactor}}インスタンスを作成し、保護したい{{FileFormatCap}}ファイルへのパスを提供します。",
+        "step_2": "必要な結果を得るために赤action設定を調整します。",
+        "step_3": "画像領域を選択し、オーバーレイの色を設定します。",
+        "step_4": "ファイルを処理し、赤action済みの文書を保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の機密画像コンテンツを隠す",
+      "comment_2": "{{textRedactor}}コンストラクターを使用してファイルをロード",
+      "comment_3": "オーバーレイの色とサイズを設定",
+      "comment_4": "赤actionする領域を選択",
+      "comment_5": "画像にオーバーレイを適用し、ファイルを保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを使用して画像データを隠す",
+      "content": "この例は、文書の画像内の機密情報を覆う方法を示しています。",
+      "comment_1": "赤action用に文書をロード",
+      "comment_2": "オーバーレイ設定：サイズ、位置、色を設定",
+      "comment_3": "1ページ目の特定の画像領域を対象とする",
+      "comment_4": "画像を隠すためにオーバーレイを適用",
+      "comment_5": "赤action済み文書を保存"
+    },
+    "more_features": {
+      "title": "文書内のコンテンツを赤action",
+      "description": "{{ProdFullName}}を使用すると、さまざまなファイル形式のコンテンツを隠したり削除したりできます。簡単に読み取りやすく共有できる形で機密情報を保護します。",
+      "image_description": "高度な赤action機能",
+      "feature_1": {
+        "title": "どこでもテキストを編集",
+        "content": "文書全体の機密テキストを検索して置き換え、プライベートデータを保護します。"
+      },
+      "feature_2": {
+        "title": "画像を覆う",
+        "content": "機密ビジュアルを隠すために、全画像または選択した領域にオーバーレイを適用します。"
+      },
+      "feature_3": {
+        "title": "メタデータを処理",
+        "content": "事故によるデータ漏洩を防ぐために、隠れたメタデータを削除または修正します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりするための強力なツールを提供します。複数の形式でテキスト、画像、メタデータを覆い、文書を保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}赤actionで{{FileFormatUp}}コンテンツを保護",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の機密コンテンツを隠したり削除したりします。公式および機密文書を保護するための効果的なソリューションです。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使って{{FileFormatUp}}の画像をオーバーレイで覆う",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内の機密画像をカラフルなオーバーレイで覆います。文書のレイアウトを変えずにプライベートデータを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の機密画像を覆う",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイル内の個人情報やビジネス情報を安全に保つ。私たちのツールはデータ保護をシンプルで信頼性の高いものにします。",
+      "subtitle": "{{ProdFullName}}の機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のデータを保護",
+      "content": {
+        "title": "{{ProdFullName}}: {{EnvName}}アプリが文書を保護するために構築されています。数ステップで機密情報を赤actionします。",
+        "step_1": "{{textRedactor}}を初期化し、{{FileFormatCap}}ファイルへのパスを提供します。",
+        "step_2": "ニーズに応じて赤actionオプションを構成します。",
+        "step_3": "画像領域を選択し、オーバーレイの色を選びます。",
+        "step_4": "赤actionを実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の機密画像領域を覆う",
+      "comment_2": "{{textRedactor}}コンストラクターを介してファイルをロード",
+      "comment_3": "オーバーレイの色とサイズを設定",
+      "comment_4": "赤action領域を定義",
+      "comment_5": "オーバーレイを適用して文書を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを適用して画像の詳細を隠す",
+      "content": "この例は、文書内の機密エリアを隠す方法を示しています。",
+      "comment_1": "赤action用に文書をロード",
+      "comment_2": "オーバーレイのパラメータ：サイズ、位置、色を指定",
+      "comment_3": "特定の領域を1ページ目で対象とする",
+      "comment_4": "画像にオーバーレイを置く",
+      "comment_5": "更新されたファイルを保存"
+    },
+    "more_features": {
+      "title": "ファイル内のコンテンツを赤action",
+      "description": "{{ProdFullName}}を使用すると、多くのファイルタイプの機密コンテンツを隠したり削除できます。文書を安全に保ちながら、可読性を維持します。",
+      "image_description": "柔軟な赤actionオプション",
+      "feature_1": {
+        "title": "テキストを簡単に編集",
+        "content": "プライベートテキストを文書全体で検索し、より良いデータセキュリティを提供します。"
+      },
+      "feature_2": {
+        "title": "画像領域を覆う",
+        "content": "ビジュアル情報を保護するために全画像または特定の部分にオーバーレイを適用します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "事故によるデータ漏洩を避けるために、隠れたメタデータを削除または変更します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりするためのツールを提供します。さまざまな形式でテキスト、画像、メタデータを赤actionして文書を保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}赤actionで{{FileFormatUp}}ファイルを保護",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の機密データを覆ったり削除したりします。機密文書を安全に保つために理想的です。"
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}ファイル内の画像をマスク",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内の機密画像コンテンツをカラフルなオーバーレイでマスクします。文書の構造を保持しつつ重要なデータを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の機密画像をマスク",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイルのデータプライバシーを確保します。当社のツールは、画像の赤actionを迅速かつ効果的に行うように設計されています。",
+      "subtitle": "{{ProdFullName}}の主要な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書内のプライベートデータを保護",
+      "content": {
+        "title": "{{ProdFullName}}: あなたの{{EnvName}}アプリが文書を効率的に保護するのを助けます。",
+        "step_1": "{{textRedactor}}インスタンスを作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "ニーズに合った赤actionパラメータを設定します。",
+        "step_3": "画像領域を定義して、オーバーレイの色を選択します。",
+        "step_4": "赤actionを適用して出力ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の機密画像をマスク",
+      "comment_2": "{{textRedactor}}を初期化し、ファイルパスを指定",
+      "comment_3": "オーバーレイのサイズと色を選択",
+      "comment_4": "隠したい領域をマーク",
+      "comment_5": "変更を適用して保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイで画像コンテンツを隠す",
+      "content": "機密の画像領域を文書内でマスクする方法を学びます。",
+      "comment_1": "赤action用に文書を開く",
+      "comment_2": "オーバーレイの属性を定義する：サイズ、位置、色",
+      "comment_3": "特定の画像領域に焦点を合わせる",
+      "comment_4": "画像領域にオーバーレイを適用する",
+      "comment_5": "赤action済みの文書を保存"
+    },
+    "more_features": {
+      "title": "文書の赤action機能",
+      "description": "{{ProdFullName}}を使用すると、さまざまなファイル形式でコンテンツを隠したり削除したりできます。きれいなレイアウトを維持しつつ、機密データを保護します。",
+      "image_description": "堅牢な赤action機能",
+      "feature_1": {
+        "title": "テキストを検索して置き換え",
+        "content": "迅速に機密テキストを見つけて赤actionし、機密データを保護します。"
+      },
+      "feature_2": {
+        "title": "画像コンテンツをマスク",
+        "content": "全画像や特定の領域にオーバーレイを適用して、プライベートなビジュアルを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "事故によるデータ漏洩を防ぐために、隠れたメタデータを削除または調整します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者に、{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりするためのシンプルなツールを提供します。テキスト、画像、メタデータを赤actionして文書を保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}赤actionを使用して{{FileFormatUp}}コンテンツを保護",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイル内の機密情報を隠したり削除したりします。文書セキュリティのための信頼できるソリューションです。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}内の画像を赤action",
+      "description": "{{ProdFullName}}を使用すると、{{FileFormatUp}}ファイル内の機密画像コンテンツをカラフルなオーバーレイで隠せます。文書の構造を変更することなく機密データを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の機密画像を赤action",
+      "description": "{{ProgLang}}を使って{{FileFormatUp}}ファイル内の個人情報やビジネス情報を保護します。私たちのツールは画像赤actionを迅速かつ容易にします。",
+      "subtitle": "{{ProdFullName}}が提供するもの"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書でビジネスデータを保護",
+      "content": {
+        "title": "{{ProdFullName}}: 機密情報を隠すことで文書を保護する{{EnvName}}アプリの手助けをします。",
+        "step_1": "{{textRedactor}}インスタンスを設定し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "ニーズに合わせて赤action設定を行います。",
+        "step_3": "画像領域を選択し、オーバーレイの色を設定します。",
+        "step_4": "赤actionを処理し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の機密画像領域を赤action",
+      "comment_2": "{{textRedactor}}を使用してファイルを開く",
+      "comment_3": "オーバーレイの色とサイズを定義",
+      "comment_4": "赤action領域を選択",
+      "comment_5": "オーバーレイを適用して文書を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイで画像データを隠す",
+      "content": "この例は、文書内の機密画像を赤actionする方法を示しています。",
+      "comment_1": "文書をロード",
+      "comment_2": "オーバーレイのサイズ、位置、および色を設定",
+      "comment_3": "1ページ目の赤actionする領域を指定",
+      "comment_4": "オーバーレイを適用",
+      "comment_5": "赤action済みのファイルを保存"
+    },
+    "more_features": {
+      "title": "文書赤actionツール",
+      "description": "{{ProdFullName}}を使うことで、さまざまなファイルタイプで機密コンテンツを隠したり削除できます。情報を保護しつつ文書をきれいで共有可能なままにします。",
+      "image_description": "強力な赤actionツール",
+      "feature_1": {
+        "title": "テキストの検索と置換",
+        "content": "プライベートテキストを見つけて赤actionすることで、文書のセキュリティを強化します。"
+      },
+      "feature_2": {
+        "title": "画像コンテンツを赤action",
+        "content": "全画像または選択した領域をオーバーレイで覆うことで、プライベートビジュアルを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除",
+        "content": "データ漏洩を防ぐために隠れたメタデータを消去または修正します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりするためのシンプルなツールを提供します。文書を保護するためにテキスト、画像、メタデータを赤actionします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使った{{FileFormatUp}}コンテンツの赤action",
+      "description": "{{EnvNameShort}}を利用することで、{{FileFormatUp}}ファイル内の機密データを隠したり削除したりします。文書セキュリティのための信頼性のあるソリューションです。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使って{{FileFormatUp}}内の画像をオーバーレイで覆う",
+      "description": "{{ProdFullName}}を使って、{{FileFormatUp}}ファイル内の機密画像領域を隠します。プライベートデータを保護しながら文書のオリジナルレイアウトを保持します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使って{{FileFormatUp}}ファイル内のプライベート画像を隠す",
+      "description": "{{ProgLang}}を用いて{{FileFormatUp}}文書内の個人およびビジネスデータを守ります。信頼できるコンテンツ保護を実現する簡単なツールです。",
+      "subtitle": "{{ProdFullName}}の主要な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内の機密データを保護",
+      "content": {
+        "title": "{{ProdFullName}}は、あなたの{{EnvName}}アプリが迅速にプライベートコンテンツを隠すのを手助けします。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、{{FileFormatCap}}ファイルのパスを指定します。",
+        "step_2": "ニーズに合った赤actionパラメータを設定します。",
+        "step_3": "画像エリアをマークし、オーバーレイの色を定義します。",
+        "step_4": "処理を行い、赤action済みのファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の機密画像を覆う",
+      "comment_2": "{{textRedactor}}コンストラクターを介してファイルをロード",
+      "comment_3": "オーバーレイの色とサイズを選択",
+      "comment_4": "赤actionする画像エリアを選択",
+      "comment_5": "オーバーレイを適用して文書を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを追加して画像コンテンツを隠す",
+      "content": "この例は、オーバーレイを使って文書の画像データを保護する方法を示しています。",
+      "comment_1": "編集用に文書をロード",
+      "comment_2": "オーバーレイのサイズ、位置、色を設定",
+      "comment_3": "ページ1の特定の画像エリアに焦点を当てる",
+      "comment_4": "オーバーレイを適用する",
+      "comment_5": "ファイルの変更を保存"
+    },
+    "more_features": {
+      "title": "ドキュメントのコンテンツを隠すまたは削除",
+      "description": "{{ProdFullName}}を使用すると、さまざまなファイル形式でデータを簡単に隠したり削除したりできます。データを保護しつつ、文書をきれいで読みやすく保ちます。",
+      "image_description": "詳細な赤actionツール",
+      "feature_1": {
+        "title": "どこでもテキストを置き換え",
+        "content": "文書全体で機密テキストを検索して修正し、プライベートデータを保護します。"
+      },
+      "feature_2": {
+        "title": "画像をマスク",
+        "content": "特定の画像領域または全体にオーバーレイを追加して、プライベートなビジュアルを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "事故を避けるために隠されたメタデータを削除または修正します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりするためのツールを提供します。テキスト、画像、メタデータを覆って文書を保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}赤actionで{{FileFormatUp}}コンテンツを保護",
+      "description": "{{EnvNameShort}}を使って機密コンテンツを{{FileFormatUp}}ファイル内で隠したり削除したりします。機密および公式文書の保護に信頼できる方法です。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}内の画像をマスク",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内のプライベート画像を隠します。カラフルなオーバーレイを配置して、データの安全を保ちながら文書のレイアウトを保持します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の機密画像を覆う",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイル内の個人情報やビジネスデータを保護します。迅速で信頼できるデータ保護を実現するツールです。",
+      "subtitle": "{{ProdFullName}}の機能を探る"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のデータを安全に保つ",
+      "content": {
+        "title": "{{ProdFullName}}は、機密コンテンツを隠すことで文書を保護するのを助けます。",
+        "step_1": "{{textRedactor}}インスタンスを作成し、{{FileFormatCap}}ファイルへのパスを提供します。",
+        "step_2": "所望の結果に向けて赤actionオプションを構成します。",
+        "step_3": "画像エリアを選択し、オーバーレイの色を設定します。",
+        "step_4": "赤actionを適用してファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の画像コンテンツをマスク",
+      "comment_2": "{{textRedactor}}を使用して文書をロード",
+      "comment_3": "オーバーレイのサイズと色を設定",
+      "comment_4": "隠すエリアを選択",
+      "comment_5": "変更を適用して保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイで画像データをマスク",
+      "content": "この例は、文書内の機密情報を隠す方法を示しています。",
+      "comment_1": "編集用にファイルを開く",
+      "comment_2": "オーバーレイのサイズ、色、および配置を定義",
+      "comment_3": "ページ1の特定の画像セクションを対象とする",
+      "comment_4": "画像にオーバーレイを適用してマスクする",
+      "comment_5": "最終文書を保存"
+    },
+    "more_features": {
+      "title": "さまざまな文書内の任意のコンテンツを赤action",
+      "description": "{{ProdFullName}}を使用すると、さまざまな文書形式で機密コンテンツを隠したり削除したりできます。容易に使える文書を保護します。",
+      "image_description": "強力な赤actionオプション",
+      "feature_1": {
+        "title": "テキストを検索して編集",
+        "content": "文書内で機密テキストを見つけて置き換え、プライベートデータを保護します。"
+      },
+      "feature_2": {
+        "title": "画像エリアをオーバーレイ",
+        "content": "全画像または選択した部分をオーバーレイで覆い、映像をプライベートに保ちます。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除",
+        "content": "事故による情報漏洩を防ぐために、隠されたメタデータフィールドを消去します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内の機密内容を隠したり削除したりするためのツールを提供します。テキスト、画像、メタデータを覆うことで文書を守ります。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}赤actionツールで{{FileFormatUp}}ファイルを保護",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイル内の機密情報を隠したり削除したりします。文書セキュリティのための信頼できるソリューションです。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使って{{FileFormatUp}}内の画像をオーバーレイで隠す",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内の画像にオーバーレイを配置し、プライベート情報を隠しつつレイアウトを維持できます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内のプライベート画像を隠す",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイル内の個人情報および法人データを保護します。文書のプライバシーを強化するための簡単なツールです。",
+      "subtitle": "{{ProdFullName}}の主な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書内の機密情報を保護",
+      "content": {
+        "title": "{{ProdFullName}}は、あなたの{{EnvName}}アプリが文書コンテンツを迅速に保護するために構築されています。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、{{FileFormatCap}}ファイルを指定します。",
+        "step_2": "ニーズに合わせて赤action設定を調整します。",
+        "step_3": "画像の領域を選択し、オーバーレイの色を選びます。",
+        "step_4": "赤actionを適用して文書を保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の画像データを隠す",
+      "comment_2": "{{textRedactor}}を使用してファイルをロード",
+      "comment_3": "オーバーレイの色とサイズを設定",
+      "comment_4": "覆いたい領域を選択",
+      "comment_5": "オーバーレイを適用して文書を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを使用して画像データを保護",
+      "content": "この例は、文書内の機密コンテンツを隠す方法を示しています。",
+      "comment_1": "赤action用にファイルをロード",
+      "comment_2": "オーバーレイのサイズ、位置、および色を設定",
+      "comment_3": "ページ1での赤actionする領域をマーク",
+      "comment_4": "オーバーレイを適用して画像を隠す",
+      "comment_5": "赤action済みの文書を保存"
+    },
+    "more_features": {
+      "title": "文書内の機密データを赤action",
+      "description": "{{ProdFullName}}を使用すると、さまざまな文書タイプでデータを隠したり削除したりできます。プライベートデータを保護しつつ、ファイルを使いやすく共有可能にします。",
+      "image_description": "機能豊富な赤actionツール",
+      "feature_1": {
+        "title": "テキストを検索・編集",
+        "content": "文書内で機密テキストを検索して赤actionでき、プライベートデータを保護します。"
+      },
+      "feature_2": {
+        "title": "画像コンテンツを覆う",
+        "content": "画像全体または選択した領域をオーバーレイで覆い、プライベートビジュアルを隠します。"
+      },
+      "feature_3": {
+        "title": "隠れたメタデータを削除",
+        "content": "データ漏洩を防ぐために隠れたメタデータを消去または変更します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりするための簡単なツールを提供します。プライベートなテキスト、画像、メタデータを保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}赤actionで{{FileFormatUp}}コンテンツを保護",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の機密データを隠したり削除したりします。機密文書の保護に信頼できるソリューションです。"
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "{{ProgLang}}を使って{{FileFormatUp}}の画像をオーバーレイで隠す",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内のプライベート画像をカラフルなオーバーレイで保護。ファイルのレイアウトを変更することなく、機密情報を安全に保つ。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の機密画像を覆う",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の個人およびビジネス画像を安全に保ちます。私たちのシンプルなツールはファイル保護を容易にします。",
+      "subtitle": "{{ProdFullName}}の主要な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内の機密データを保護",
+      "content": {
+        "title": "{{ProdFullName}}は、あなたの{{EnvName}}アプリが迅速にプライベートコンテンツを隠すのを手助けします。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、ファイルへのパスを提供します。",
+        "step_2": "ニーズに合った赤actionオプションを設定します。",
+        "step_3": "画像エリアを選択し、オーバーレイの色を選びます。",
+        "step_4": "赤actionを実行し、保護されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内の画像コンテンツを覆う",
+      "comment_2": "{{textRedactor}}を使用してファイルを開く",
+      "comment_3": "オーバーレイのサイズと色を選択",
+      "comment_4": "覆いたいエリアを選択",
+      "comment_5": "オーバーレイを適用し、ファイルを保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイで画像データを隠す",
+      "content": "この例は、ファイル内の機密画像領域をマスクする方法を示しています。",
+      "comment_1": "編集のためにファイルを開く",
+      "comment_2": "オーバーレイのサイズ、位置、および色を設定",
+      "comment_3": "ページ1の特定の画像エリアを選択",
+      "comment_4": "オーバーレイを適用し、画像を隠す",
+      "comment_5": "赤action済みのファイルを保存"
+    },
+    "more_features": {
+      "title": "文書内の任意のコンテンツを赤action",
+      "description": "{{ProdFullName}}は、さまざまなファイル形式でコンテンツを隠したり削除したりするのを簡単にします。機密情報を安全に保ちながら、文書を読みやすく保ちます。",
+      "image_description": "完全な制御の赤actionツール",
+      "feature_1": {
+        "title": "どこでもテキストを編集",
+        "content": "文書で機密テキストを検索して置き換え、プライベートデータを保護します。"
+      },
+      "feature_2": {
+        "title": "画像をオーバーレイ",
+        "content": "全画像または特定のエリアにカラフルなオーバーレイを適用し、機密なビジュアルを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータを編集",
+        "content": "隠れたメタデータフィールドを削除または修正し、データの漏洩を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者に、{{FileFormatUp}}ファイル内でコンテンツを隠したり削除したりするための強力なツールを提供します。テキスト、画像、メタデータをマスクして文書を保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}赤actionで{{FileFormatUp}}ファイルを保護",
+      "description": "{{EnvNameShort}}を使用すると、{{FileFormatUp}}ファイル内の機密コンテンツを簡単に隠したり削除したりできます。公式なファイルのセキュリティを確保するための信頼できる手段です。"
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}内の画像を保護するためにオーバーレイを追加",
+      "description": "{{ProdFullName}}を使用すれば、{{FileFormatUp}}ファイル内の機密の画像データを隠すためにカラフルなオーバーレイを使用できます。ファイルの元々のデザインを維持しながら重要な情報を守ります。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のプライベート画像を隠す",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の機密ビジネスと個人の画像を安全に保つ。迅速かつ効果的なコンテンツ保護のためのシンプルなツールです。",
+      "subtitle": "{{ProdFullName}}の重要な機能"
+    },
+    "steps": {
+      "title": "オーバーレイを使用して{{FileFormatCap}}ファイル内のデータを保護",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、あなたの{{EnvName}}アプリですぐにプライベートコンテンツを隠すことができます。",
+        "step_1": "{{textRedactor}}インスタンスを作成し、{{FileFormatCap}}ファイルへのパスを提供します。",
+        "step_2": "赤action設定を必要に応じて調整します。",
+        "step_3": "画像領域を選択し、オーバーレイの色を選びます。",
+        "step_4": "ファイルを処理し、安全なバージョンを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の画像コンテンツを保護",
+      "comment_2": "{{textRedactor}}を使用してファイルを開く",
+      "comment_3": "オーバーレイのサイズと色を定義",
+      "comment_4": "隠したいエリアを選択",
+      "comment_5": "オーバーレイを適用し、結果を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイを使って画像コンテンツを覆う",
+      "content": "このコード例は、機密の画像コンテンツを隠すためにオーバーレイを適用する方法を示しています。",
+      "comment_1": "赤action用にファイルを読み込む",
+      "comment_2": "オーバーレイのサイズ、色、および位置を設定",
+      "comment_3": "ページ1の画像エリアを選択",
+      "comment_4": "画像コンテンツを隠すためにオーバーレイを追加",
+      "comment_5": "更新したファイルを保存"
+    },
+    "more_features": {
+      "title": "さまざまなファイル形式のコンテンツを赤action",
+      "description": "{{ProdFullName}}を使用して、異なるファイル形式でコンテンツを隠したり削除したりします。機密データを保護しながらきれいで読みやすいフォーマットを維持します。",
+      "image_description": "赤actionの完全な制御",
+      "feature_1": {
+        "title": "テキストを検索して置き換え",
+        "content": "文書を検索し、機密テキストを置き換えてプライベート情報を守ります。"
+      },
+      "feature_2": {
+        "title": "画像をオーバーレイ",
+        "content": "全画像または選択された部分にオーバーレイを適用して、機密ビジュアルを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータを編集",
+        "content": "隠されたメタデータフィールドを削除または変更し、データの漏洩を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりするための強力なツールを提供します。テキスト、画像、メタデータをマスクして文書を保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルのコンテンツを隠す",
+      "description": "{{EnvNameShort}}を利用して、{{FileFormatUp}}ファイル内の機密データを隠したり削除したりします。公式ファイルのセキュリティを強化するための信頼できる方法です。"
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "{{ProgLang}}を使って{{FileFormatUp}}内の画像を隠すためにオーバーレイを追加",
+      "description": "{{ProdFullName}}を使用すれば、{{FileFormatUp}}ファイル内の機密画像をオーバーレイで貫通し、文書のレイアウトを intactに保ちながらプライベートデータを守ります。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の画像コンテンツを隠す",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイルの個人および会社の画像を保護します。効果的なコンテンツ保護のためのシンプルなツールです。",
+      "subtitle": "{{ProdFullName}}の主要功能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のコンテンツを安全に保護",
+      "content": {
+        "title": "{{ProdFullName}}は、あなたの{{EnvName}}アプリですばやくコンテンツを隠すのを助けます。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、{{FileFormatCap}}ファイルを指定します。",
+        "step_2": "赤action設定を必要に応じて調整します。",
+        "step_3": "画像エリアを選択し、オーバーレイの色を選びます。",
+        "step_4": "赤actionを適用し、保護されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}内の画像コンテンツを保護",
+      "comment_2": "{{textRedactor}}を使用してファイルを開く",
+      "comment_3": "オーバーレイのサイズと色を定義",
+      "comment_4": "隠したいエリアを選択",
+      "comment_5": "オーバーレイを適用し、結果を保存"
+    },
+    "example_bottom": {
+      "title": "オーバーレイで画像コンテンツを隠す",
+      "content": "このコード例は、機密の画像コンテンツを隠すためにオーバーレイを適用する方法を示しています。",
+      "comment_1": "赤action用にファイルを読み込む",
+      "comment_2": "オーバーレイのサイズ、色、および位置を設定",
+      "comment_3": "ページ1の画像エリアを選択",
+      "comment_4": "オーバーレイを使用して画像を隠し",
+      "comment_5": "更新したファイルを保存"
+    },
+    "more_features": {
+      "title": "簡単に機密コンテンツを赤action",
+      "description": "{{ProdFullName}}は、多くのファイルタイプの機密コンテンツを隠したり削除したりします。文書をきれいで読みやすく保ちながらプライベートデータを守ります。",
+      "image_description": "オールインワン赤actionツール",
+      "feature_1": {
+        "title": "文書内のテキストを編集",
+        "content": "プライベートテキストを検索し、置き換えることで機密情報を保護します。"
+      },
+      "feature_2": {
+        "title": "画像エリアを隠す",
+        "content": "画像または選択された部分にオーバーレイを追加して、プライベートビジュアルを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "隠れたメタデータを削除して、事故的なデータ漏洩を避けます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のコンテンツを隠したり削除したりするための強力なツールを提供します。プライベートなテキスト、画像、メタデータを保護します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使った{{FileFormatUp}}ファイルのコンテンツを隠す",
+      "description": "{{EnvNameShort}}を利用して、{{FileFormatUp}}ファイル内の機密データを隠したり削除したりします。公式なファイルのセキュリティを確保するための信頼できる手段です。"
+    }
+  }
+}

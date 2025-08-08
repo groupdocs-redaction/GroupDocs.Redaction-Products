@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "红行动 Excel",
+        "description": "MS Excel 和 Open Office 电子表格"
+      },
+      "word": {
+        "name": "红行动 Word",
+        "description": "MS Word 和 Open Office 文档"
+      },
+      "powerpoint": {
+        "name": "红行动 PowerPoint",
+        "description": "MS PowerPoint 和 Open Office 演示文稿"
+      },
+      "image": {
+        "name": "红行动 图像",
+        "description": "常见图像格式"
+      },
+      "photo": {
+        "name": "红行动 照片",
+        "description": "照片格式"
+      },
+      "pdf": {
+        "name": "红行动 PDF",
+        "description": "Adobe 便携式文档格式"
+      },
+      "doc": {
+        "name": "红行动 DOC",
+        "description": "Microsoft Word 97 - 2007 文档"
+      },
+      "docx": {
+        "name": "红行动 DOCX",
+        "description": "Microsoft Word 开放 XML 文档"
+      },
+      "xls": {
+        "name": "红行动 XLS",
+        "description": "Microsoft Excel 工作簿 97-2003"
+      },
+      "xlsx": {
+        "name": "红行动 XLSX",
+        "description": "Microsoft Excel 开放 XML 电子表格"
+      },
+      "ppt": {
+        "name": "红行动 PPT",
+        "description": "PowerPoint 演示文稿 97-2003"
+      },
+      "pptx": {
+        "name": "红行动 PPTX",
+        "description": "PowerPoint 开放 XML 演示文稿"
+      },
+      "jpg": {
+        "name": "红行动 JPEG",
+        "description": "JPEG 图像"
+      },
+      "jpeg": {
+        "name": "红行动 JPEG",
+        "description": "JPEG 图像"
+      },
+      "png": {
+        "name": "红行动 PNG",
+        "description": "可移植网络图形"
+      },
+      "tiff": {
+        "name": "红行动 TIFF",
+        "description": "标签图像文件格式"
+      },
+      "webp": {
+        "name": "红行动 WEBP",
+        "description": "WEB 图片"
+      },
+      "rtf": {
+        "name": "红行动 RTF",
+        "description": "富文本格式"
+      }
+    },
+    "format-code": {
+      "copy_title": "复制",
+      "result_title": "样本删除内容",
+      "result_title_bottom": "下载结果",
+      "copy_tip": "点击复制",
+      "copy_done": "已复制",
+      "links": {
+        "title_1": "更多示例",
+        "title_2": "文档"
+      }
+    },
+    "format-actions": {
+      "title": "准备好开始了吗？",
+      "description": "免费尝试 {{ProdShortName}} 的功能或请求许可证",
+      "comment_1": "{{PackageStoreName}} 下载",
+      "comment_2": "许可证"
+    },
+    "texts": {
+      "learn_more": "了解更多"
+    }
+  }
+}

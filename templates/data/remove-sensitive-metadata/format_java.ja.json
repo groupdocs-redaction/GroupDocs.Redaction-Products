@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}を使用した{{FileFormatUp}}のメタデータクリーンアップ",
+      "description": "{{ProdFullName}}を使用して{{FileFormatUp}}ファイルの隠れたメタデータを削除または更新します。文書を共有する前にプライベート情報を除去します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイルのメタデータ削除",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルの個人情報やビジネス情報を安全に保ちましょう。データを保護するためのシンプルなツールです。",
+      "subtitle": "{{ProdFullName}}の主な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書のメタデータクリーンアップ",
+      "content": {
+        "title": "{{ProdShortName}}を使用して、あなたの{{EnvName}}プロジェクトのメタデータを保護しましょう。",
+        "step_1": "{{textRedactor}}を設定し、{{FileFormatCap}}ファイルを開きます。",
+        "step_2": "すべてのメタデータフィールドを削除するオプションを選択します。",
+        "step_3": "赤塗りを実行して、隠れたデータをクリアします。",
+        "step_4": "メタデータを削除してファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルのメタデータをクリーンアップ",
+      "comment_2": "{{textRedactor}}を使用してファイルを開きます",
+      "comment_3": "メタデータの赤塗り設定をします",
+      "comment_4": "変更を適用して保存します"
+    },
+    "example_bottom": {
+      "title": "隠れたメタデータをクリア",
+      "content": "この例では、{{FileFormatUp}}ファイルのメタデータを変更または削除する方法を示します。",
+      "comment_1": "{{FileFormatUp}}ファイルを赤塗りで開きます",
+      "comment_2": "著者メタデータフィールドをターゲットにします",
+      "comment_3": "タイトルメタデータフィールドをターゲットにします",
+      "comment_4": "メタデータクリーンアップを実行します",
+      "comment_5": "最終ファイルを保存します"
+    },
+    "more_features": {
+      "title": "ファイルから機密情報を削除",
+      "description": "{{ProdFullName}}を使って様々な文書フォーマットからプライベートコンテンツをクリーンアップします。ファイルを安全に保ち、簡単に共有できます。",
+      "image_description": "コア赤塗り機能",
+      "feature_1": {
+        "title": "テキスト赤塗り",
+        "content": "文書内の個人または機密の単語を見つけて削除します。"
+      },
+      "feature_2": {
+        "title": "画像をカバー",
+        "content": "私的なビジュアルを隠すために画像にオーバーレイを置きます。"
+      },
+      "feature_3": {
+        "title": "メタデータ削除",
+        "content": "プライベート情報が漏れる危険性のある隠れたメタデータを消去します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者に、{{FileFormatUp}}文書内のテキスト、画像コンテンツ、およびメタデータを隠すためのツールを提供します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}メタデータ赤塗りによる{{FileFormatUp}}ファイルのセキュア",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルの隠れたフィールドを消去します。シンプルなメタデータクリーンアップツールでプライバシーを保護します。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用した{{FileFormatUp}}のメタデータ削除",
+      "description": "{{ProdFullName}}を使用して{{FileFormatUp}}ファイルの隠れたメタデータをクリーンアップします。文書がプライベート情報を明らかにしないようにします。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}文書のメタデータクリーンアップ",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルから不要なメタデータを削除します。共有や保存用にファイルをプライベートかつ安全に保ちます。",
+      "subtitle": "{{ProdFullName}}の主要ツール"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルから隠れた情報を消去",
+      "content": {
+        "title": "{{ProdShortName}}を使用すれば、{{EnvName}}アプリで簡単にメタデータを削除できます。",
+        "step_1": "{{textRedactor}}を初期化し、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "特定のメタデータフィールドを削除するよう設定します。",
+        "step_3": "赤塗りを適用して隠れた情報を削除します。",
+        "step_4": "更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルからメタデータを削除",
+      "comment_2": "{{textRedactor}}でファイルを開きます",
+      "comment_3": "削除するメタデータを選択します",
+      "comment_4": "変更を適用して保存します"
+    },
+    "example_bottom": {
+      "title": "メタデータの削除方法",
+      "content": "この例では、{{FileFormatUp}}ファイルの著者やタイトルのような隠れたプロパティを削除する方法を示します。",
+      "comment_1": "あなたの{{FileFormatUp}}文書を開きます",
+      "comment_2": "クリーンアップするために著者フィールドを選択します",
+      "comment_3": "クリーンアップするためにタイトルフィールドを選択します",
+      "comment_4": "赤塗りを実行します",
+      "comment_5": "最終ファイルを保存します"
+    },
+    "more_features": {
+      "title": "文書内の機密データを保護",
+      "description": "{{ProdFullName}}を使用すると、すべての種類のファイルからプライベートコンテンツを隠すことができます。隠れたデータが共有されないようにしましょう。",
+      "image_description": "メタデータ、テキスト、画像赤塗りツール",
+      "feature_1": {
+        "title": "テキスト赤塗り",
+        "content": "文書全体で機密テキストを見つけて削除します。"
+      },
+      "feature_2": {
+        "title": "画像オーバーレイ",
+        "content": "プライベートなビジュアルを隠すために画像の一部をカバーします。"
+      },
+      "feature_3": {
+        "title": "メタデータクリーニング",
+        "content": "隠れた情報を明らかにする可能性のあるバックグラウンドメタデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者が{{FileFormatUp}}ファイルからプライベートコンテンツを削除できるようにします。テキスト、画像、メタデータを簡単に赤塗りします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}のメタデータクリーンアップ",
+      "description": "{{EnvNameShort}}を利用して{{FileFormatUp}}文書から隠れたメタデータを削除します。プライバシーとデータ保護に最適です。"
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}のメタデータを削除",
+      "description": "{{ProdFullName}}は{{FileFormatUp}}ファイルから隠れたメタデータをクリーンアップするのに役立ちます。文書をプライベートで不要な詳細から解放します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイルのメタデータのクリーンアップ",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}文書の個人または隠れた詳細を取り除きます。ビジネスでもプライベートでも理想的です。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルからメタデータを削除",
+      "content": {
+        "title": "{{ProdShortName}}はお使いの{{EnvName}}プロジェクトの敏感なメタデータをすばやくクリアします。",
+        "step_1": "{{textRedactor}}を開始し、{{FileFormatCap}}ファイルを開きます。",
+        "step_2": "削除するメタデータフィールドを選択します。",
+        "step_3": "赤塗りを実行してファイルからそれを消去します。",
+        "step_4": "クリーンバージョンを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}から隠れたメタデータを削除",
+      "comment_2": "{{textRedactor}}を使用してファイルを開きます",
+      "comment_3": "削除するメタデータフィールドを選択します",
+      "comment_4": "赤塗りを適用してファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "特定のメタデータフィールドの削除",
+      "content": "この例では、{{FileFormatUp}}ファイルからの著者やタイトルのようなフィールドを削除する方法を示します。",
+      "comment_1": "ファイルを赤塗りに読み込みます",
+      "comment_2": "著者フィールドを選択します",
+      "comment_3": "タイトルフィールドを選択します",
+      "comment_4": "赤塗りを適用します",
+      "comment_5": "最終ファイルを保存します"
+    },
+    "more_features": {
+      "title": "ファイルから機密コンテンツを削除",
+      "description": "{{ProdFullName}}を使用すると、複数の文書タイプのメタデータを削除し、テキストや画像の領域をマスクできます。法的、個人的、または企業用に最適です。",
+      "image_description": "メタデータとコンテンツのクリーニングツール",
+      "feature_1": {
+        "title": "テキストを検索して削除",
+        "content": "機密のテキストを検索して削除し、情報を保護します。"
+      },
+      "feature_2": {
+        "title": "画像内容をカバー",
+        "content": "オーバーレイを使用して機密の画像部分を隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除",
+        "content": "プライベートデータが含まれる可能性のある埋め込まれた詳細を削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者に、{{FileFormatUp}}ファイル内のコンテンツを制御するためのツールを提供します。必要に応じてテキスト、メタデータ、および画像を削除します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のメタデータをクリーンアップ",
+      "description": "{{EnvNameShort}}ツールを利用して{{FileFormatUp}}ファイルから隠れたデータを削除します。整理された、セキュアな文書を共有してください。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルからメタデータを削除",
+      "description": "{{ProdFullName}}を使用して{{FileFormatUp}}ファイル内の隠れたメタデータを削除または編集します。コンテンツを保護し、文書を清潔に保ちます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}のメタデータのクリーンアップ",
+      "description": "{{ProgLang}}を使用してメタデータに保存された個人情報をクリアします。個人的およびビジネス文書に最適です。",
+      "subtitle": "{{ProdFullName}}の主な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのメタデータを削除",
+      "content": {
+        "title": "{{ProdShortName}}を使えば、{{EnvName}}プロジェクトで隠れたメタデータを数ステップでクリーンアップできます。",
+        "step_1": "{{textRedactor}}を設定し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "削除するメタデータフィールドを選択します。",
+        "step_3": "赤塗りプロセスを実行します。",
+        "step_4": "メタデータを削除したファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}からメタデータを削除",
+      "comment_2": "赤塗りを使用してファイルを開きます",
+      "comment_3": "削除するメタデータを設定します",
+      "comment_4": "変更を適用して保存します"
+    },
+    "example_bottom": {
+      "title": "メタデータフィールド削除の例",
+      "content": "この例では、{{FileFormatUp}}ファイルから著者やタイトルのようなメタデータを削除する方法を説明します。",
+      "comment_1": "赤塗りでファイルを開きます",
+      "comment_2": "著者フィールドをターゲットにします",
+      "comment_3": "タイトルフィールドをターゲットにします",
+      "comment_4": "赤塗りルールを適用します",
+      "comment_5": "赤塗りされたファイルを保存します"
+    },
+    "more_features": {
+      "title": "使用できる他の赤塗りツール",
+      "description": "{{ProdFullName}}はすべての主要なファイルタイプから敏感な情報をクリアするのに役立ちます。文書を清潔に保ち、共有準備万端にしましょう。",
+      "image_description": "組み込まれたプライバシー機能",
+      "feature_1": {
+        "title": "敏感なテキストを削除",
+        "content": "ファイルから名前、メールアドレス、その他の個人情報を見つけて削除します。"
+      },
+      "feature_2": {
+        "title": "画像の一部を隠す",
+        "content": "見えないようにするためのオーバーレイを追加します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "非公開情報が含まれる可能性のあるバックグラウンドデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のプライベートコンテンツを削除するためのツールを提供します。メタデータを削除し、画像を隠し、テキストをクリーンアップします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}のメタデータの削除",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル中の隠れたデータを削除します。共有する前に文書を安全に保つための素晴らしい方法です。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用した{{FileFormatUp}}のメタデータ削除",
+      "description": "{{ProdFullName}}を使用することで、{{FileFormatUp}}ファイルから隠れたメタデータを迅速に削除できます。文書を安全に、プライベートに保ちます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイルの隠れたメタデータのクリア",
+      "description": "{{ProgLang}}ツールを使用してプライベート情報を削除すれば、{{FileFormatUp}}ファイルを保護できます。ビジネスや個人の使用に最適です。",
+      "subtitle": "{{ProdFullName}}があなたをサポートする方法"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのメタデータをクリア",
+      "content": {
+        "title": "{{ProdShortName}}を使用して{{EnvName}}アプリの文書からメタデータをクリアします。",
+        "step_1": "{{textRedactor}}オブジェクトを開始し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "隠れたメタデータフィールドを削除するためのルールを定義します。",
+        "step_3": "メタデータを消去するために赤塗りを適用します。",
+        "step_4": "更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}から隠れたメタデータを削除",
+      "comment_2": "{{textRedactor}}でファイルをロードします",
+      "comment_3": "メタデータ赤塗り設定を構成します",
+      "comment_4": "赤塗りを実行して保存します"
+    },
+    "example_bottom": {
+      "title": "文書内のメタデータフィールドをクリア",
+      "content": "このサンプルでは、{{FileFormatUp}}ファイルの著者やタイトルのメタデータを消去する方法を説明します。",
+      "comment_1": "処理するファイルをロードします",
+      "comment_2": "著者フィールドを消去します",
+      "comment_3": "タイトルフィールドを消去します",
+      "comment_4": "赤塗りを実行します",
+      "comment_5": "クリアされたファイルを保存します"
+    },
+    "more_features": {
+      "title": "プライベート情報を削除するための他のツール",
+      "description": "{{ProdFullName}}を使用して多くのファイルフォーマットからテキスト、画像、およびメタデータをクリーンアップすることができます。機密データを公開せずにファイルを共有できます。",
+      "image_description": "メタデータとコンテンツ赤塗り機能",
+      "feature_1": {
+        "title": "プライベートテキストを削除",
+        "content": "ファイル内の機密コンテンツを検索して削除します。"
+      },
+      "feature_2": {
+        "title": "画像エリアをカバー",
+        "content": "プライベートな詳細が含まれる画像の特定部分を隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータフィールドを削除",
+        "content": "プライバシーを確保するために、著者、タイトルなどの隠れたタグを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について学ぶ",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者に{{FileFormatUp}}ファイルからデータを削除するために必要なすべてを提供します。メタデータ、テキスト、画像をクリーンアップします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}で{{FileFormatUp}}のメタデータを消去",
+      "description": "{{EnvNameShort}}を利用して{{FileFormatUp}}ファイルから隠れたメタデータをクリーンアップします。文書を保護するためのシンプルな方法です。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}のメタデータを削除",
+      "description": "{{ProdFullName}}を使用して隠れたメタデータをクリアして、{{FileFormatUp}}文書を保護します。露出することのないプライベート詳細を保持します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイル内のメタデータのクリア",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}ファイルから敏感なデータを削除します。文書を安全に保つための賢い方法です。",
+      "subtitle": "{{ProdFullName}}の理由"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルからメタデータを削除する方法",
+      "content": {
+        "title": "{{EnvName}}内で、{{ProdShortName}}が文書メタデータのクリーニングを簡素化します。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "隠れたデータフィールドを削除するためのルールを設定します。",
+        "step_3": "クリーンアッププロセスを実行します。",
+        "step_4": "クリアされた文書を保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}から隠れたメタデータを削除",
+      "comment_2": "赤塗りを開始し、ファイルを開きます",
+      "comment_3": "メタデータ削除のオプションを設定します",
+      "comment_4": "クリーンアップして文書を保存します"
+    },
+    "example_bottom": {
+      "title": "特定のメタデータフィールドに焦点を当てる",
+      "content": "この例では、{{FileFormatUp}}ファイルから著者やタイトルのフィールドを削除する方法を説明します。",
+      "comment_1": "赤塗りにファイルをロードします",
+      "comment_2": "著者フィールドを選択します",
+      "comment_3": "タイトルフィールドを選択します",
+      "comment_4": "赤塗りを適用します",
+      "comment_5": "最終ファイルを保存します"
+    },
+    "more_features": {
+      "title": "ファイルから機密コンテンツを削除",
+      "description": "{{ProdFullName}}を使用すると、複数の文書タイプからメタデータを削除し、テキスト及び画像のエリアをマスクできます。法的、個人的または企業の使用に適しています。",
+      "image_description": "メタデータとコンテンツのクリーニングツール",
+      "feature_1": {
+        "title": "テキストを検索して削除",
+        "content": "敏感なテキストを検索し、情報を保護するために削除します。"
+      },
+      "feature_2": {
+        "title": "画像の内容を隠す",
+        "content": "オーバーレイを使って機密の画像部分を隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除",
+        "content": "プライベートなデータが含まれる可能性のある埋め込まれた詳細を削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者に{{FileFormatUp}}ファイルのコンテンツを管理するためのツールを提供します。必要に応じてテキスト、メタデータ、および画像を削除できます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}のメタデータクリーニング",
+      "description": "{{EnvNameShort}}のツールを使用して{{FileFormatUp}}ファイルから隠れたデータを消去します。文書を共有する前に安全に保ちます。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用した{{FileFormatUp}}ファイルのメタデータ削除",
+      "description": "{{ProdFullName}}を使用して{{FileFormatUp}}ファイルの隠れたメタデータをクリーンアップし、文書をプライベートかつ安全に保ちます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}でメタデータを削除",
+      "description": "{{ProgLang}}用に作られた使いやすいツールでファイルを保護します。数ステップでメタデータを削除できます。",
+      "subtitle": "{{ProdFullName}}で得られるもの"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのメタデータをクリーンアップする方法",
+      "content": {
+        "title": "{{ProdShortName}}を使用すると、{{EnvName}}アプリで文書のメタデータをすばやくクリーンアップできます。",
+        "step_1": "{{textRedactor}}オブジェクトを作成し、文書を読み込みます。",
+        "step_2": "削除したいメタデータフィールドを選択します。",
+        "step_3": "赤塗り設定を適用します。",
+        "step_4": "隠れたデータなしで文書をエクスポートします。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルからメタデータを削除",
+      "comment_2": "赤塗りを使用してファイルを開きます",
+      "comment_3": "削除するメタデータを設定します",
+      "comment_4": "ファイルをクリーンアップして保存します"
+    },
+    "example_bottom": {
+      "title": "隠れたメタデータフィールドを削除する例",
+      "content": "このサンプルは、{{FileFormatUp}}文書から著者やタイトルのようなメタデータを削除する方法を示します。",
+      "comment_1": "赤塗りでファイルを開きます",
+      "comment_2": "著者フィールドを削除します",
+      "comment_3": "タイトルフィールドを削除します",
+      "comment_4": "赤塗りを適用します",
+      "comment_5": "更新された文書を保存します"
+    },
+    "more_features": {
+      "title": "赤塗りでファイルを安全に保つ",
+      "description": "{{ProdFullName}}はプライベートまたは隠れたコンテンツをきれいにするのを助け、文書を安全に共有できるようにします。多くのファイルタイプをサポートしています。",
+      "image_description": "赤塗り機能",
+      "feature_1": {
+        "title": "敏感なテキストを削除",
+        "content": "ファイルから個人または機密の単語を見つけて削除します。"
+      },
+      "feature_2": {
+        "title": "画像の一部を隠す",
+        "content": "見られたくない画像を覆うためのオーバーレイを追加します。"
+      },
+      "feature_3": {
+        "title": "メタデータのクリア",
+        "content": "隠れた詳細を明らかにする可能性のあるフィールドを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは何ですか？",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者向けの赤塗りツールです。{{FileFormatUp}}ファイルのテキスト、画像、メタデータをクリーンアップします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}メタデータクリーニング",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルからプライベートデータを削除します。機密文書を整理し、共有する前に安全に保つのに最適です。"
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}のメタデータを編集",
+      "description": "{{ProdFullName}}を使用して{{FileFormatUp}}ファイルのメタデータをクリーンアップまたは変更し、隠れたデータを削除してプライバシーを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイルのメタデータ削除",
+      "description": "プライベートな詳細を削除するシンプルな{{ProgLang}}ツールで、{{FileFormatUp}}文書を安全に保ちましょう。",
+      "subtitle": "{{ProdFullName}}の主な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}文書のメタデータクリーンアップ",
+      "content": {
+        "title": "{{ProdShortName}}を使って、あなたの{{EnvName}}プロジェクトでメタデータを簡単に削除します。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "すべてのメタデータフィールドを削除するオプションを選択します。",
+        "step_3": "赤塗りを実行してファイルをクリアします。",
+        "step_4": "隠れたデータがない更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルのメタデータをクリア",
+      "comment_2": "{{textRedactor}}を使ってファイルを開きます",
+      "comment_3": "メタデータのクリーンアップを設定します",
+      "comment_4": "変更を実行して保存します"
+    },
+    "example_bottom": {
+      "title": "隠れたメタデータフィールドを削除",
+      "content": "この例では、{{FileFormatUp}}文書から著者やタイトルのメタデータを削除または変更する方法を示します。",
+      "comment_1": "{{FileFormatUp}}ファイルを赤塗りで開きます",
+      "comment_2": "著者メタデータをターゲットにします",
+      "comment_3": "タイトルメタデータをターゲットにします",
+      "comment_4": "赤塗りを実行します",
+      "comment_5": "クリーンファイルを保存します"
+    },
+    "more_features": {
+      "title": "文書を保護",
+      "description": "{{ProdFullName}}は多くの文書タイプからプライベートコンテンツを削除するのに役立ちます。共有ファイルから敏感な情報を除外します。",
+      "image_description": "主な赤塗り機能",
+      "feature_1": {
+        "title": "テキストを削除",
+        "content": "ファイルから個人の単語やフレーズを見つけて削除します。"
+      },
+      "feature_2": {
+        "title": "画像コンテンツを隠す",
+        "content": "機密情報を含む画像の部分を隠すためにオーバーレイを追加します。"
+      },
+      "feature_3": {
+        "title": "メタデータを編集",
+        "content": "プライベート情報を明らかにしないようにメタデータフィールドをクリーンアップまたは変更します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者に、{{FileFormatUp}}ファイルから不要なテキスト、画像、およびメタデータを削除するためのツールを提供します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のメタデータを削除",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルから隠れたデータを削除し、機密情報を保護します。"
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}の隠れたメタデータを削除",
+      "description": "{{ProdFullName}}を使用して{{FileFormatUp}}ファイルのメタデータをクリーンアップします。プライベート情報が隠されたままになるようにしましょう。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイルのメタデータを消去",
+      "description": "{{ProgLang}}に特化したツールを使用して、あなたの{{FileFormatUp}}文書を安全に保ちます。機密の詳細を簡単に削除します。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのメタデータをクリーンアップする方法",
+      "content": {
+        "title": "{{ProdShortName}}を使用してあなたの{{EnvName}}アプリで隠れたメタデータを迅速に削除しましょう。",
+        "step_1": "{{textRedactor}}を作成し、あなたの{{FileFormatCap}}文書を開きます。",
+        "step_2": "削除するメタデータフィールドを選択します。",
+        "step_3": "赤塗り設定を適用します。",
+        "step_4": "クリアされたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}から隠れたメタデータをクリア",
+      "comment_2": "あなたのファイルを{{textRedactor}}で読み込む",
+      "comment_3": "メタデータフィールドを設定して消去する",
+      "comment_4": "変更を適用して保存"
+    },
+    "example_bottom": {
+      "title": "機密メタデータを削除",
+      "content": "このガイドは、{{FileFormatUp}}文書から著者やタイトルのようなフィールドをクリーンアップする方法を示します。",
+      "comment_1": "{{FileFormatUp}}を赤塗りで開きます",
+      "comment_2": "著者メタデータを選択します",
+      "comment_3": "タイトルメタデータを選択します",
+      "comment_4": "赤塗りを適用します",
+      "comment_5": "最終ファイルを保存します"
+    },
+    "more_features": {
+      "title": "あらゆるファイルのコンテンツをクリーンアップ",
+      "description": "{{ProdFullName}}を使用して、文書を共有する前にプライベートテキスト、隠れた画像詳細、およびメタデータを削除します。",
+      "image_description": "主な機能",
+      "feature_1": {
+        "title": "テキストクリーンアップ",
+        "content": "プライベートな単語や数字を検索して安全に削除します。"
+      },
+      "feature_2": {
+        "title": "画像のエリアを隠す",
+        "content": "オーバーレイを使用して、機密情報を含む画像の領域を隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータの削除",
+        "content": "プライベート情報が含まれる可能性のあるメタデータフィールドをクリアします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdShortName}}を使用することで、{{ProgLang}}開発者は{{FileFormatUp}}ファイルからテキスト、画像、メタデータなどの敏感なコンテンツを削除できます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のメタデータをクリーンアップ",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルの隠れたデータを削除します。共有またはアーカイブする前に文書をきれいに整えます。"
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}のメタデータを削除",
+      "description": "{{ProdFullName}}は、個人またはビジネスの詳細を露出する可能性のある隠れたデータを{{FileFormatUp}}ファイルから削除するのを助けます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のメタデータを削除",
+      "description": "{{ProgLang}}ツールを使用して隠れたメタデータを削除し、{{FileFormatUp}}ファイルを安全に保ちます。",
+      "subtitle": "{{ProdFullName}}の見どころ"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルからメタデータを削除する方法",
+      "content": {
+        "title": "{{ProdShortName}}を使用してあなたの{{EnvName}}アプリで文書からメタデータを削除します。",
+        "step_1": "{{textRedactor}}を開始し、{{FileFormatCap}}ファイルを開きます。",
+        "step_2": "隠れているフィールドを削除するためのルールを設定します。",
+        "step_3": "ファイルをクリーンアップするために赤塗りを適用します。",
+        "step_4": "更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルのメタデータをクリーンアップ",
+      "comment_2": "{{textRedactor}}でファイルを開きます",
+      "comment_3": "メタデータフィールドを赤塗りします",
+      "comment_4": "適用してファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "隠れたメタデータフィールドを削除",
+      "content": "この例では、{{FileFormatUp}}文書から著者やタイトルのフィールドを削除する方法を示します。",
+      "comment_1": "赤塗りで{{FileFormatUp}}ファイルを開きます",
+      "comment_2": "著者フィールドを赤塗りします",
+      "comment_3": "タイトルフィールドを赤塗りします",
+      "comment_4": "プロセスを実行します",
+      "comment_5": "クリーンファイルを保存します"
+    },
+    "more_features": {
+      "title": "文書からプライベート情報を削除",
+      "description": "{{ProdFullName}}は、敏感なテキスト、画像コンテンツ、メタデータを削除することでファイルをクリーンアップします。プライバシーとセキュリティに最適です。",
+      "image_description": "役立つ赤塗り機能",
+      "feature_1": {
+        "title": "テキストクリーンアップ",
+        "content": "公開するべきでない単語や数字を見つけて削除します。"
+      },
+      "feature_2": {
+        "title": "画像赤塗り",
+        "content": "機密内容を含む画像の一部にカバーを追加します。"
+      },
+      "feature_3": {
+        "title": "メタデータ削除",
+        "content": "プライベート情報を含む可能性のあるファイル詳細をクリーンアップします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者に、{{FileFormatUp}}ファイルからプライベートコンテンツを隠すためのツールを提供します。テキスト、画像セクション、およびメタデータを含みます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のメタデータを削除",
+      "description": "{{EnvNameShort}}を使用することで、メタデータを削除して{{FileFormatUp}}文書を保護できます。"
+    }
+  }
+}

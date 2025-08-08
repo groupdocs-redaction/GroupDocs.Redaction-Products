@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}で{{FileFormatUp}}内の敏感なテキストを赤act",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内の個人情報を保護します。敏感なデータを迅速に検索し、赤actします。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書から敏感なテキストを削除する",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使って、{{FileFormatUp}}ファイル内のコンテンツを完全に管理できます。個人情報、法的データ、または機密データを赤actします。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのコンテンツを赤actする方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、すべての{{EnvName}}アプリ内で文書を保護します。敏感なテキストを迅速かつ正確に赤actします。",
+        "step_1": "{{textRedactor}}を初期化し、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "必要な赤actionオプションを設定します。",
+        "step_3": "検索するテキストと置き換えテキストを指定します。",
+        "step_4": "赤actを実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内のテキストを赤actする方法",
+      "comment_2": "{{textRedactor}}コンストラクタを用いてファイルを読み込みます",
+      "comment_3": "赤actの設定を適用します",
+      "comment_4": "検索する内容と置き換える内容を選択します",
+      "comment_5": "赤actを適用し、新しい{{FileFormatUp}}ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使用したテキストの赤act",
+      "content": "メールアドレスやIDのような敏感なテキストパターンを検索し、赤actするために正規表現を使用します。",
+      "comment_1": "クリーンにしたい文書を開きます",
+      "comment_2": "EMAILの正規表現パターンを定義し、置き換えとして使用するテキストを設定します",
+      "comment_3": "赤actルールを適用します",
+      "comment_4": "最終的な赤actされたファイルを保存します"
+    },
+    "more_features": {
+      "title": "文書を赤actするその他の方法",
+      "description": "{{ProdFullName}}は、複数のファイルフォーマットで敏感なコンテンツを削除または隠すのに役立ちます。文書をクリーンで安全に保ち、共有できます。",
+      "image_description": "赤actツールとオプション",
+      "feature_1": {
+        "title": "機密テキストを置き換える",
+        "content": "ファイル内のどこでも一致するテキストを見つけて置き換えます。正規表現やスマート検索オプションをサポートしています。"
+      },
+      "feature_2": {
+        "title": "敏感な画像を隠す",
+        "content": "画像や特定の領域をオーバーレイでカバーします。ページ設定、色などを調整します。"
+      },
+      "feature_3": {
+        "title": "隠しメタデータをクリーンにする",
+        "content": "著作権、タイムスタンプ、コメントなどの隠れたデータを削除してプライバシーを保護します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}コンテンツを赤actするために必要なすべてのツールを提供します。人気のファイルタイプ内のテキスト、画像、注釈、コメント、およびメタデータをクリーンアップします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを赤actする",
+      "description": "{{EnvNameShort}}のツールを使用して{{FileFormatUp}}ファイル内のテキストを赤actすることにより、公式情報や個人データを保護します。文書を安全でプライベートに保ちます。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内のプライベートコンテンツを迅速に保護します。使用が簡単で、すぐに結果が得られます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の敏感なテキストを見つけて隠す",
+      "description": "個人用またはビジネス用に関わらず、{{ProdFullName}}と{{ProgLang}}はプライベート情報を視界から外します。",
+      "subtitle": "{{ProdFullName}}があなたをどう助けるか"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのコンテンツを赤actする方法",
+      "content": {
+        "title": "{{ProdFullName}}でプライベートテキストをクリーンアップするために、{{EnvName}}プロジェクト内でこれらの簡単なステップに従います。",
+        "step_1": "新しい{{textRedactor}}を開始し、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "希望する赤act設定を選択します。",
+        "step_3": "見つけるテキストと何を置き換えるかを入力します。",
+        "step_4": "赤actを実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルのテキストを赤actする手順",
+      "comment_2": "{{textRedactor}}を使用してファイルを読み込みます",
+      "comment_3": "必要な赤actオプションを選択します",
+      "comment_4": "検索する内容と置き換える内容を設定します",
+      "comment_5": "ツールを実行し、赤actされたファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使用してパターンを見つけて赤act",
+      "content": "特定のデータタイプ（メールアドレスやID番号など）を検索し、自動的にクリーニングします。",
+      "comment_1": "クリーンにしたいファイルを開きます",
+      "comment_2": "EMAILの正規表現ルールと置き換え文字列を作成します",
+      "comment_3": "設定を使用して赤actを実行します",
+      "comment_4": "更新されたファイルを保存します"
+    },
+    "more_features": {
+      "title": "その他の赤act機能",
+      "description": "{{ProdFullName}}を使用すると、さまざまなファイルの隠れたまたは表示されたコンテンツを簡単に削除できます。安全に共有するのに最適です。",
+      "image_description": "赤actツールの概要",
+      "feature_1": {
+        "title": "プライベートテキストを置き換える",
+        "content": "ファイル内の特定のテキストを検索し、置き換えます。プレーンテキストまたはパターンで動作します。"
+      },
+      "feature_2": {
+        "title": "敏感な画像を隠す",
+        "content": "画像の一部またはページ全体をオーバーレイでマスクします。サイズや位置を調整できます。"
+      },
+      "feature_3": {
+        "title": "隠れたデータを消去する",
+        "content": "名前、コメント、タイムスタンプなどのメタデータを削除し、すべてをクリアに保ちます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルのセンシティブなコンテンツを見つけて掃除するためのツールを提供します。テキスト、画像、ノートなどを扱います。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のデータを赤actする",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の情報を隠し、プライベートで安全に保ちます。"
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内のプライベートコンテンツを迅速にクリーンアップします。迅速かつ簡単な赤act方法。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の敏感なテキストを編集または隠す",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用すれば、プライベートまたはビジネス情報を{{FileFormatUp}}ファイルから削除し、安心して共有できます。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのテキストを赤actする方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用して{{EnvName}}プロジェクト内で敏感な情報を隠すか削除できます。",
+        "step_1": "{{textRedactor}}を作成して、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "必要な赤act設定を選択します。",
+        "step_3": "見つけるテキストと何に置き換えるかを入力します。",
+        "step_4": "赤actプロセスを実行し、更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルからテキストを赤actする手順",
+      "comment_2": "{{textRedactor}}を使用してファイルを開きます",
+      "comment_3": "赤actオプションを選択します",
+      "comment_4": "検索と置き換えに使うテキストを設定します",
+      "comment_5": "赤actを適用し、クリーンなファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現ルールで赤act",
+      "content": "電話番号、メールアドレス、またはその他の個人情報のパターンを検索し、クリーンアップします。",
+      "comment_1": "開始するためにファイルを開きます",
+      "comment_2": "EMAILの正規表現ルールを書き、置き換え文字列を選択します",
+      "comment_3": "パターンに基づいて赤actを実行します",
+      "comment_4": "赤actされたファイルを保存します"
+    },
+    "more_features": {
+      "title": "赤actツールのさらなる機能",
+      "description": "{{ProdFullName}}は、テキスト、画像、メタデータなど、さまざまなコンテンツをクリーンにするのに役立ちますので、ファイルを安全に共有できます。",
+      "image_description": "赤actオプションの表示",
+      "feature_1": {
+        "title": "敏感なテキストを置き換える",
+        "content": "ファイル内の任意の場所で機密情報を検索し、置き換えます。正規表現や特定のパターンがサポートされています。"
+      },
+      "feature_2": {
+        "title": "画像領域を隠す",
+        "content": "オーバーレイを使用して視覚データを隠します。色や面積のサイズ、ページレイアウトを選択できます。"
+      },
+      "feature_3": {
+        "title": "余分なデータを削除する",
+        "content": "著者名、タイムスタンプ、内部ノートなどのメタデータを削除して情報漏洩を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルからセンシティブな情報を検索し削除するためのツールを提供します。テキスト、画像、ノート、ファイルデータのすべてを扱います。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内の情報を隠す",
+      "description": "{{EnvNameShort}}ツールを使用して、{{FileFormatUp}}文書内の個人または敏感なテキストを削除します。データをプライベートに保つことができます。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使って{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使って、{{FileFormatUp}}プレゼンテーション内のプライベートコンテンツを迅速に隠します。素早い赤act、シンプルなセットアップ。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の敏感なテキストを編集または隠す",
+      "description": "プレゼンテーションをクリーンかつプライベートに保つ。{{ProdFullName}}と{{ProgLang}}を使用して、共有したくないものを削除します。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}プレゼンテーションのクリーンアップ手順",
+      "content": {
+        "title": "{{ProdFullName}}をあなたの{{EnvName}}アプリ内で使用して、敏感なコンテンツをわずか数ステップで削除または隠します。",
+        "step_1": "新しい{{textRedactor}}を始めて、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "適用したい赤actルールを選択します。",
+        "step_3": "検索するテキストと置き換える内容を設定します。",
+        "step_4": "赤actを実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}プレゼンテーションを赤actする",
+      "comment_2": "{{textRedactor}}でファイルを開きます",
+      "comment_3": "赤act設定を選択します",
+      "comment_4": "検索内容を選び、置き換えるテキストを決定します",
+      "comment_5": "変更を適用し、更新されたファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現パターンを使用して赤act",
+      "content": "メールアドレスやIDのようなデータを見つけてクリーニング。繰り返し利用可能な赤actに最適。",
+      "comment_1": "ファイルを開きます",
+      "comment_2": "EMAILの正規表現パターンを記述し、置き換えを設定します",
+      "comment_3": "赤act設定を適用します",
+      "comment_4": "赤actされたバージョンを保存します"
+    },
+    "more_features": {
+      "title": "使用可能な赤act機能",
+      "description": "{{ProdFullName}}は、多くのファイルタイプ内で敏感なテキスト、画像、隠れたデータを見つけて隠すのに役立ちます。ファイルを安全に共有するのに最適です。",
+      "image_description": "利用可能な赤actオプション",
+      "feature_1": {
+        "title": "隠れたテキストを置き換える",
+        "content": "ファイル内の任意の場所でプライベートな単語やフレーズを検索して置き換えます。正規表現もサポートされています。"
+      },
+      "feature_2": {
+        "title": "画像を隠す",
+        "content": "形やサイズ、色を調整して、隠すべき写真や領域をマスクします。"
+      },
+      "feature_3": {
+        "title": "隠れた詳細を削除する",
+        "content": "著者名、最終編集日、コメントなどのメタデータを削除して、ファイルをクリーンにします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルからセンシティブな内容を削除するために必要なツールを提供します。テキスト、画像、コメント、メタデータを管理します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のクリーンアップ方法",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイルをクリーニングできます。プライベートなコンテンツを安全に保護します。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイルをプライベートに保っています。迅速で簡単な方法でテキストを赤actできます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の敏感なテキストを見つけて削除する",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して、個人または仕事のファイルを保護します。あなたのプライベート情報は隠れています。",
+      "subtitle": "{{ProdFullName}}の主要機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルの赤act方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用すれば、{{EnvName}}アプリ内のプライベートコンテンツを見つけて置き換えるのが簡単です。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルを開きます。",
+        "step_2": "赤act設定を選択します。",
+        "step_3": "検索する内容と何に置き換えるかを指定します。",
+        "step_4": "赤actを開始し、更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}文書内のコンテンツを赤actする手順",
+      "comment_2": "{{textRedactor}}でファイルを開きます",
+      "comment_3": "赤act設定を調整します",
+      "comment_4": "検索したい内容と置き換える内容を選択します",
+      "comment_5": "赤actを実行し、新しい{{FileFormatUp}}ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "スマートな赤actのために正規表現を使用",
+      "content": "メールアドレスやIDのようなデータパターンを見つけて削除します。",
+      "comment_1": "クリーンにしたいファイルを開きます",
+      "comment_2": "EMAILの正規表現パターンをセットし、置き換えテキストを選択します",
+      "comment_3": "赤actプロセスを実行します",
+      "comment_4": "最終的な赤actされたファイルを保存します"
+    },
+    "more_features": {
+      "title": "赤actのためのさらなるツール",
+      "description": "{{ProdFullName}}は、多くのファイルタイプにわたるプライベート情報を隠す、または消去するのに強力な方法を提供します。安全に共有するのに適しています。",
+      "image_description": "利用可能な赤actツールと設定",
+      "feature_1": {
+        "title": "プライベートテキストを入れ替える",
+        "content": "スマートテキストオプションを使用して、正確な一致を検索して置き換えることができます。"
+      },
+      "feature_2": {
+        "title": "プライベート画像を隠す",
+        "content": "フル画像やページの一部を隠すために、オーバーレイでカバーします。オーバーレイの色やサイズを調整できます。"
+      },
+      "feature_3": {
+        "title": "隠しメタデータを消去する",
+        "content": "著者名、編集履歴、コメントなどの情報を削除して、個人情報を保護します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}ユーザーに{{FileFormatUp}}文書をクリーンにするためのツールを提供します。テキスト、画像、ノート、およびバックグラウンドデータを赤actします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}を赤actする方法",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルをクリーンにしましょう。内容をプライベートかつ安全に保ちます。"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内のプライベートコンテンツを迅速にクリーンアップします。迅速かつ簡単な赤act方法。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の敏感なテキストを見つけて削除する",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して、個人または仕事のファイルを保護します。あなたのプライベート情報は隠れています。",
+      "subtitle": "{{ProdFullName}}の主要機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルの赤act方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用すれば、{{EnvName}}アプリ内のプライベートコンテンツを見つけて置き換えるのが簡単です。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルを開きます。",
+        "step_2": "赤act設定を選択します。",
+        "step_3": "検索する内容と何に置き換えるかを指定します。",
+        "step_4": "赤actを開始し、更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}文書内のコンテンツを赤actする手順",
+      "comment_2": "{{textRedactor}}でファイルを開きます",
+      "comment_3": "赤act設定を調整します",
+      "comment_4": "検索したい内容と置き換える内容を選択します",
+      "comment_5": "赤actを実行し、新しい{{FileFormatUp}}ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "スマートな赤actのために正規表現を使用",
+      "content": "メールアドレスやIDのようなデータパターンを見つけて削除します。",
+      "comment_1": "クリーンにしたいファイルを開きます",
+      "comment_2": "EMAILの正規表現パターンをセットして、置き換えテキストを選択します",
+      "comment_3": "赤actプロセスを実行します",
+      "comment_4": "最終的な赤actされたファイルを保存します"
+    },
+    "more_features": {
+      "title": "赤actのためのさらなるツール",
+      "description": "{{ProdFullName}}は、さまざまなファイルタイプにわたるプライベート情報を隠す、または消去するのに強力な方法を提供します。安全に共有するのに適しています。",
+      "image_description": "利用可能な赤actツールと設定",
+      "feature_1": {
+        "title": "プライベートテキストを入れ替える",
+        "content": "正確な一致を検索し、スマートテキストオプション、正規表現サポートを使用して置き換えます。"
+      },
+      "feature_2": {
+        "title": "プライベート画像を隠す",
+        "content": "フル画像またはページの一部を隠すためのオーバーレイを使用します。色、サイズ、および位置を調整できます。"
+      },
+      "feature_3": {
+        "title": "隠しメタデータを消去する",
+        "content": "著者名、タイムスタンプ、コメント等の情報を削除して、情報漏洩を防ぎます。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}ユーザーに{{FileFormatUp}}文書をクリーンにするためのツールを提供します。テキスト、画像、ノート、ファイルデータなどを赤actします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}を赤actする方法",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルをクリーンにしましょう。プライベートなコンテンツを安全に保護します。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使って{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使って、{{FileFormatUp}}プレゼンテーション内のプライベートコンテンツを迅速に隠します。素早い赤act、シンプルなセットアップ。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}文書内の敏感なテキストを編集または隠す",
+      "description": "プレゼンテーションをクリーンかつプライベートに保つ。{{ProdFullName}}と{{ProgLang}}を使用して、共有したくないものを削除します。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}プレゼンテーションのクリーンアップ手順",
+      "content": {
+        "title": "{{ProdFullName}}をあなたの{{EnvName}}アプリ内で使用して、敏感なコンテンツをわずか数ステップで削除または隠します。",
+        "step_1": "新しい{{textRedactor}}を始めて、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "適用したい赤actルールを選択します。",
+        "step_3": "検索するテキストと置き換える内容を設定します。",
+        "step_4": "赤actを実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}プレゼンテーションを赤actする",
+      "comment_2": "{{textRedactor}}でファイルを開きます",
+      "comment_3": "赤act設定を選択します",
+      "comment_4": "検索内容を選び、置き換えるテキストを決定します",
+      "comment_5": "変更を適用し、更新されたファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現パターンを使用して赤act",
+      "content": "メールアドレスやIDのようなデータを見つけてクリーニング。繰り返し利用可能な赤actに最適。",
+      "comment_1": "ファイルを開きます",
+      "comment_2": "EMAILの正規表現パターンを記述し、置き換えを設定します",
+      "comment_3": "赤act設定を適用します",
+      "comment_4": "赤actされたバージョンを保存します"
+    },
+    "more_features": {
+      "title": "使用可能な赤act機能",
+      "description": "{{ProdFullName}}は、多くのファイルタイプ内で敏感なテキスト、画像、隠れたデータを見つけて隠すのに役立ちます。ファイルを安全に共有するのに最適です。",
+      "image_description": "利用可能な赤actオプション",
+      "feature_1": {
+        "title": "隠れたテキストを置き換える",
+        "content": "ファイル内の任意の場所でプライベートな単語やフレーズを検索して置き換えます。正規表現もサポートされています。"
+      },
+      "feature_2": {
+        "title": "画像を隠す",
+        "content": "形やサイズ、色を調整して、隠すべき写真や領域をマスクします。"
+      },
+      "feature_3": {
+        "title": "隠れた詳細を削除する",
+        "content": "著者名、最終編集日、コメントなどのメタデータを削除して、ファイルをクリーンにします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルからセンシティブな情報を削除するために必要なツールを提供します。テキスト、画像、コメント、メタデータを管理します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}を赤actする方法",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルをクリーンにしましょう。プライベートなコンテンツを安全に保護します。"
+    }
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}의 개인 정보 보호",
+      "description": "{{ProdFullName}}는 색상 박스를 사용하여 {{FileFormatUp}} 파일에서 민감한 정보를 숨길 수 있게 해줍니다. 파일의 모양을 변경하지 않고 데이터를 보호하세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}에서 오버레이를 사용하여 {{FileFormatUp}} 문서의 텍스트 마스킹",
+      "description": "{{ProgLang}}를 통해 {{FileFormatUp}} 파일 내용을 완벽하게 제어하세요. 재단을 사용하여 금융, 법적 또는 개인 정보를 보호합니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 파일에서 기밀 정보 보호하기",
+      "content": {
+        "title": "{{ProdFullName}}는 {{EnvName}} 개발자가 간단한 단계로 개인 콘텐츠를 숨길 수 있도록 해줍니다.",
+        "step_1": "{{textRedactor}}를 시작하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "레다션 환경 설정을 구성합니다.",
+        "step_3": "찾을 내용을 선택하고 오버레이 색상을 설정합니다.",
+        "step_4": "레다션을 적용하고 문서를 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "색상 오버레이를 사용하여 {{FileFormatUp}}에서 텍스트 커버",
+      "comment_2": "{{textRedactor}}에 파일 경로 전달",
+      "comment_3": "레다션 설정 조정",
+      "comment_4": "대상 텍스트 및 색설정",
+      "comment_5": "레다션 적용 후 {{FileFormatUp}} 저장"
+    },
+    "example_bottom": {
+      "title": "정규 표현식을 사용하여 텍스트 숨기기",
+      "content": "이 예제에서는 특정 콘텐츠를 찾고 숨기기 위해 정규 표현식을 사용합니다.",
+      "comment_1": "처리할 파일을 로드합니다.",
+      "comment_2": "텍스트 패턴과 오버레이 색상을 설정합니다.",
+      "comment_3": "레다션을 적용합니다.",
+      "comment_4": "변경 사항을 저장합니다."
+    },
+    "more_features": {
+      "title": "문서에서 보이는 내용 제어",
+      "description": "{{ProdFullName}}는 파일의 일부를 차단하거나 제거하면서도 쉽게 보기 및 공유할 수 있도록 해줍니다.",
+      "image_description": "강력한 레다션 도구",
+      "feature_1": {
+        "title": "대상 텍스트 숨기기",
+        "content": "문서를 검색하고 특정 단어 또는 구문을 숨겨 개인정보를 보호합니다."
+      },
+      "feature_2": {
+        "title": "이미지 가리기",
+        "content": "비주얼을 완전 또는 부분적으로 숨기기 위한 오버레이를 추가합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 제거",
+        "content": "우발적 노출을 피하기 위해 숨겨진 문서 세부정보를 제거합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}가 제공하는 기능",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일에서 콘텐츠를 숨기거나 제거하는 간단한 방법을 제공합니다. 다양한 문서 유형에서 텍스트, 이미지 및 메타데이터를 덮어주세요."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일 보호하기",
+      "description": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 문서에서 콘텐츠를 덮거나 지웁니다. 개인 정보를 안전하게 보호하는 좋은 방법입니다."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}의 텍스트 숨기기",
+      "description": "{{ProdFullName}}를 사용하여 {{FileFormatUp}} 파일에서 개인 텍스트를 차단하세요. 레이아웃을 변경하지 않으면서 민감한 데이터를 숨기세요."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}에서 오버레이로 {{FileFormatUp}} 텍스트 보호하기",
+      "description": "빠르게 {{FileFormatUp}} 파일에서 개인, 법적 또는 비즈니스 세부정보를 {{ProgLang}}와 {{ProdFullName}}로 숨깁니다.",
+      "subtitle": "{{ProdFullName}}의 주요 도구"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}의 민감한 콘텐츠 표시",
+      "content": {
+        "title": "{{ProdFullName}}를 사용하여 {{EnvName}} 프로젝트에서 문서를 쉽게 정리합니다.",
+        "step_1": "파일로 {{textRedactor}}를 초기화합니다.",
+        "step_2": "레다ctions 방식 설정.",
+        "step_3": "숨길 텍스트 및 오버레이 색상 선택.",
+        "step_4": "레다 레션을 적용하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 오버레이로 텍스트 가리기",
+      "comment_2": "{{textRedactor}}를 생성하고 문서를 로드합니다.",
+      "comment_3": "레다션 옵션 선택",
+      "comment_4": "텍스트 및 색상 선택",
+      "comment_5": "레다션된 버전 저장"
+    },
+    "example_bottom": {
+      "title": "정규 표현식을 사용하여 텍스트 찾고 숨기기",
+      "content": "패턴 일치를 사용하여 주요 구를 자동으로 숨깁니다.",
+      "comment_1": "레다션할 문서를 엽니다.",
+      "comment_2": "정규식 패턴과 오버레이 스타일을 설정합니다.",
+      "comment_3": "레다션 로직 적용",
+      "comment_4": "정리된 문서를 저장합니다."
+    },
+    "more_features": {
+      "title": "일상적인 사용을 위한 레다션 도구",
+      "description": "{{ProdFullName}}는 사용 가능성을 유지하면서 문서 전반에 걸쳐 민감한 세부 정보를 숨길 수 있는 간단한 옵션을 제공합니다.",
+      "image_description": "쉬운 레다션 옵션",
+      "feature_1": {
+        "title": "찾고 텍스트 변경",
+        "content": "몇 초 만에 단어를 숨기거나 바꿉니다."
+      },
+      "feature_2": {
+        "title": "이미지의 일부 차단",
+        "content": "사진 또는 스캔된 콘텐츠의 부분을 마스킹합니다."
+      },
+      "feature_3": {
+        "title": "배경 정보 지우기",
+        "content": "작성자 또는 날짜와 같은 숨겨진 메타데이터를 제거합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}란",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 개발자에게 {{FileFormatUp}} 파일을 정리하는 도구를 제공합니다. 이름, 숫자 또는 메모를 쉽고 빠르게 레다션합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}} 파일 레다이션",
+      "description": "{{EnvNameShort}}의 도구를 사용하여 {{FileFormatUp}}에서 민감한 콘텐츠를 숨기거나 제거하세요."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}} 오버레이로 {{FileFormatUp}}의 텍스트 차단",
+      "description": "{{ProdFullName}}는 색상 블록을 사용하여 {{FileFormatUp}} 파일에서 민감한 정보를 숨길 수 있게 해줍니다. 레이아웃을 유지하면서 데이터 숨기기."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}}에서 데이터 숨기기",
+      "description": "{{ProgLang}}와 {{ProdFullName}}를 사용하여 {{FileFormatUp}} 파일에서 개인 콘텐츠를 마스킹하면서 형식에 영향을 주지 않습니다.",
+      "subtitle": "{{ProdFullName}}의 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 문서에서 정보 보호하기",
+      "content": {
+        "title": "{{ProdFullName}}를 사용하여 간단한 코드로 파일을 안전하게 유지하십시오 {{EnvName}}.",
+        "step_1": "파일 경로로 {{textRedactor}} 생성.",
+        "step_2": "레다션 로직을 설정합니다.",
+        "step_3": "키워드 및 오버레이 색상 선택.",
+        "step_4": "레다션하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 블록을 사용하여 정보 숨기기",
+      "comment_2": "{{textRedactor}}로 파일 로드",
+      "comment_3": "레다션 기본 설정 지정",
+      "comment_4": "텍스트 및 색상 추가",
+      "comment_5": "업데이트된 문서 저장"
+    },
+    "example_bottom": {
+      "title": "정규 표현식을 사용하여 콘텐츠 레다션",
+      "content": "패턴 일치로 텍스트를 자동으로 찾고 숨기세요.",
+      "comment_1": "스프레드시트 열기",
+      "comment_2": "패턴 및 오버레이 색상 정의하기",
+      "comment_3": "레다션 규칙 적용",
+      "comment_4": "결과 내보내기"
+    },
+    "more_features": {
+      "title": "내장된 개인정보 보호 기능",
+      "description": "{{ProdFullName}}를 사용하여 구조를 손상시키지 않고 파일에서 콘텐츠를 차단하거나 삭제합니다.",
+      "image_description": "쉬운 개인정보 도구",
+      "feature_1": {
+        "title": "텍스트 편집 또는 숨기기",
+        "content": "보호가 필요한 텍스트를 찾아 차단합니다."
+      },
+      "feature_2": {
+        "title": "이미지 부분 가리기",
+        "content": "차트 영역이나 이미지 위에 색상 블록을 적용합니다."
+      },
+      "feature_3": {
+        "title": "숨겨진 정보 제거하기",
+        "content": "사용자 정보나 파일 기록과 같은 메타데이터를 삭제합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}의 장점",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 개발자가 {{FileFormatUp}} 스프레드시트에서 콘텐츠를 숨기거나 정리하는 데 빠르고 효과적인 도구를 제공합니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}} 시트 레다션",
+      "description": "{{EnvNameShort}}의 도구를 사용하여 {{FileFormatUp}}에서 민감한 데이터를 숨기거나 정리합니다."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}} 오버레이로 {{FileFormatUp}} 프레젠테이션의 텍스트 숨기기",
+      "description": "{{ProdFullName}}는 색상 오버레이를 사용하여 {{FileFormatUp}} 파일에서 민감한 콘텐츠를 차단합니다. 슬라이드를 손상시키지 않으면서 주요 정보를 숨깁니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 활용하여 {{FileFormatUp}} 프레젠테이션에서 텍스트 마스킹",
+      "description": "{{ProgLang}}와 {{ProdFullName}}를 사용하여 {{FileFormatUp}} 슬라이드에서 개인 정보나 비즈니스 세부정보를 보호합니다.",
+      "subtitle": "{{ProdFullName}}의 기능 탐색"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 슬라이드에서 개인 콘텐츠 레다션",
+      "content": {
+        "title": "{{ProdFullName}}은 {{EnvName}} 개발자를 위한 콘텐츠 보호를 간단하게 만듭니다.",
+        "step_1": "프레젠테이션 경로로 {{textRedactor}}를 설정합니다.",
+        "step_2": "레다션 동작을 선택합니다.",
+        "step_3": "텍스트 패턴과 오버레이 색상을 추가합니다.",
+        "step_4": "슬라이드를 레다션하고 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}의 텍스트를 차단하기 위해 오버레이 사용",
+      "comment_2": "프레젠테이션으로 {{textRedactor}} 초기화",
+      "comment_3": "레다션 기본 설정 선택",
+      "comment_4": "텍스트 및 오버레이 색상 설정",
+      "comment_5": "레다션 수행 후 슬라이드 덱 저장"
+    },
+    "example_bottom": {
+      "title": "정규 표현식으로 텍스트 레다션",
+      "content": "정규 표현식을 사용하여 민감한 단어를 찾아서 가리도록 합니다.",
+      "comment_1": "프레젠테이션 파일 열기",
+      "comment_2": "검색 패턴과 오버레이 색상 설정",
+      "comment_3": "레다션 규칙 실행",
+      "comment_4": "최종 버전 저장"
+    },
+    "more_features": {
+      "title": "강력한 레다션 도구",
+      "description": "{{ProdFullName}}를 사용하여 레이아웃이나 포맷을 변경하지 않고 프레젠테이션의 민감한 콘텐츠를 차단하거나 제거하세요.",
+      "image_description": "슬라이드 전반에 걸쳐 작동하는 기능",
+      "feature_1": {
+        "title": "텍스트 숨기기 또는 바꾸기",
+        "content": "보여주지 말아야 할 이름, 용어 또는 메모를 보호합니다."
+      },
+      "feature_2": {
+        "title": "시각적 영역 가리기",
+        "content": "슬라이드의 사진이나 그래픽 섹션에 오버레이를 추가합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 지우기",
+        "content": "저자 정보나 편집 이력을 드러낼 수 있는 비하인드 씬 정보를 삭제합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}의 기능",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 개발자가 {{FileFormatUp}} 프레젠테이션에서 텍스트, 이미지 또는 메타데이터를 숨기거나 제거할 수 있도록 도와줍니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} 도구로 {{FileFormatUp}} 슬라이드 보호하기",
+      "description": "{{EnvNameShort}} 레다션 기능을 사용하여 {{FileFormatUp}} 프레젠테이션에서 민감한 콘텐츠를 덮거나 완전히 제거합니다."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}} 오버레이로 {{FileFormatUp}}에서 텍스트 레다션",
+      "description": "{{ProdFullName}}를 사용하여 문서 구조를 유지하면서 {{FileFormatUp}} 파일에서 민감한 텍스트를 색 블록으로 가릴 수 있습니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}와 함께 {{FileFormatUp}} 파일에서 레이아웃 마스킹",
+      "description": "{{ProgLang}}와 {{ProdFullName}}를 사용하여 {{FileFormatUp}} 문서에서 중요한 세부정보를 숨깁니다.",
+      "subtitle": "{{ProdFullName}}의 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 형식에서 개인 정보 보호",
+      "content": {
+        "title": "{{ProdFullName}}은 {{EnvName}} 개발자에게 파일을 정리하고 콘텐츠를 안전하게 보호하는 빠른 방법을 제공합니다.",
+        "step_1": "{{textRedactor}}를 시작하고 {{FileFormatCap}} 파일을 로드합니다.",
+        "step_2": "레다션 옵션을 선택합니다.",
+        "step_3": "텍스트 패턴 및 오버레이 색상을 추가합니다.",
+        "step_4": "레다션을 실행하고 파일을 저장합니다."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 오버레이를 사용하여 텍스트 숨기기",
+      "comment_2": "{{textRedactor}}로 문서를 여세요",
+      "comment_3": "레다션 기본 설정을 설정합니다.",
+      "comment_4": "키워드 추가 후 색상 선택",
+      "comment_5": "레다션을 적용하고 결과 저장"
+    },
+    "example_bottom": {
+      "title": "정규 표현식으로 레다션",
+      "content": "정규 표현식을 사용하여 특정 콘텐츠를 자동으로 숨기는 방법을 알아보세요.",
+      "comment_1": "레다션할 문서를 로드하세요.",
+      "comment_2": "정규식 패턴과 오버레이 색상을 정의하세요.",
+      "comment_3": "레다션을 적용합니다.",
+      "comment_4": "정리된 버전을 저장합니다."
+    },
+    "more_features": {
+      "title": "레다션 기능 추가",
+      "description": "{{ProdFullName}}를 사용하여 파일에서 가시적 및 숨겨진 콘텐츠를 제거하면서 레이아웃을 유지하세요.",
+      "image_description": "간단하고 깔끔한 출력",
+      "feature_1": {
+        "title": "텍스트 교체",
+        "content": "보여 주면 안 되는 단어 또는 용어를 가립니다."
+      },
+      "feature_2": {
+        "title": "비주얼 마스킹",
+        "content": "사진이나 그 일부분을 숨기기 위해 색상 오버레이를 사용합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 지우기",
+        "content": "파일 속성에 숨겨진 세부정보를 제거합니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 사용자가 {{FileFormatUp}} 레다션을 완벽하게 제어할 수 있도록 도와줍니다. 원하는 것을 숨기십시오—텍스트, 비주얼 또는 메타데이터."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}를 사용하여 {{FileFormatUp}}에서 콘텐츠 레다션",
+      "description": "{{EnvNameShort}}를 사용하여 민감한 데이터를 숨기거나 제거하여 {{FileFormatUp}} 문서를 비공식적으로 유지하세요."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}와 오버레이를 사용하여 {{FileFormatUp}}의 텍스트 가리기",
+      "description": "{{ProdFullName}}를 사용하여 색상 오버레이를 적용하여 {{FileFormatUp}} 파일에서 민감한 콘텐츠를 보호하세요. 문서 레이아웃을 유지합니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}에서 오버레이로 {{FileFormatUp}} 데이터 레다션",
+      "description": "{{ProgLang}} 코드를 사용하여 {{FileFormatUp}} 스프레드시트에서 민감한 정보를 마스킹하세요. 데이터를 비공식으로 유지하는 효과적인 방법입니다.",
+      "subtitle": "{{ProdFullName}} 주요 기능"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} 스프레드시트에서 정보 숨기기",
+      "content": {
+        "title": "{{ProdFullName}}는 {{EnvName}} 개발자가 민감한 정보를 숨기는 파일 보호 작업을 몇 줄의 코드로 도와줍니다.",
+        "step_1": "{{textRedactor}}를 시작하고 스프레드시트를 로드하세요.",
+        "step_2": "필요한 경우 레다션 규칙을 설정하세요.",
+        "step_3": "텍스트 및 오버레이 색상 선택.",
+        "step_4": "적용 후 파일을 저장하세요."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}에서 텍스트 숨기기 위해 오버레이 사용하기",
+      "comment_2": "{{textRedactor}}를 생성하고 파일을 로드합니다.",
+      "comment_3": "레다션 기본 설정 선택",
+      "comment_4": "숨길 내용 입력 후 색상 선택",
+      "comment_5": "레다션 적용 후 파일 저장"
+    },
+    "example_bottom": {
+      "title": "정규 표현식 레다션",
+      "content": "정규 표현식을 사용하여 텍스트를 자동으로 찾고 숨깁니다.",
+      "comment_1": "스프레드시트 열기",
+      "comment_2": "패턴 및 오버레이 세부정보 설정",
+      "comment_3": "레다션 적용",
+      "comment_4": "정리된 버전을 저장"
+    },
+    "more_features": {
+      "title": "필수 데이터 보호 도구",
+      "description": "{{ProdFullName}}를 사용하여 레이아웃이나 의미를 손상시키지 않고 스프레드시트에서 민감한 정보를 숨기거나 삭제할 수 있습니다.",
+      "image_description": "안전한 데이터 정리를 위해 설계된",
+      "feature_1": {
+        "title": "텍스트 편집 또는 숨기기",
+        "content": "보호해야 할 텍스트를 찾아 차단합니다."
+      },
+      "feature_2": {
+        "title": "민감한 비주얼 가리기",
+        "content": "차트 영역이나 이미지 위에 색상 블록을 적용합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 제거",
+        "content": "문서 기록, 작가 이름 또는 타임스탬프를 지웁니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}를 선택해야 하는 이유",
+      "content": "{{ProdFullName}}은 {{ProgLang}} 개발자를 위해 {{FileFormatUp}} 스프레드시트에서 콘텐츠를 빠르게 숨기거나 정리하는 데 좋은 선택입니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}} 시트 레다션",
+      "description": "{{EnvNameShort}}의 도구를 사용하여 {{FileFormatUp}}에서 민감한 데이터를 숨기거나 삭제하세요."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}} 오버레이로 {{FileFormatUp}}에서 텍스트 보호",
+      "description": "{{ProdFullName}}를 통해 간단한 오버레이 상자를 사용하여 {{FileFormatUp}} 슬라이드에서 개인 텍스트를 차단할 수 있습니다. 레이아웃을 변경하지 않고도 가능합니다."
+    },
+    "header": {
+      "title": "{{EnvNameShort}}를 사용한 {{FileFormatUp}}의 텍스트 숨기기",
+      "description": "{{ProgLang}}와 {{ProdFullName}}를 사용하여 {{FileFormatUp}} 슬라이드를 안전하게 보호하여 민감한 내용을 마스킹합니다.",
+      "subtitle": "{{ProdFullName}} 내부"
+    },
+    "steps": {
+      "title": "공유 전 {{FileFormatCap}} 프레젠테이션 청소하기",
+      "content": {
+        "title": "{{ProdFullName}}를 사용하여 {{EnvName}} 앱에서 슬라이드의 민감한 부분을 숨기거나 제거하세요.",
+        "step_1": "슬라이드 덱 경로로 새로운 {{textRedactor}}를 생성하세요.",
+        "step_2": "레다션 기본 설정을 정의하세요.",
+        "step_3": "텍스트 패턴과 오버레이 색상을 설정하세요.",
+        "step_4": "레다션을 실행하고 파일을 저장하세요."
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}의 텍스트 영역 오버레이",
+      "comment_2": "{{textRedactor}}와 함께 파일 열기",
+      "comment_3": "레다션 설정 조정",
+      "comment_4": "텍스트를 입력하고 오버레이 색상 선택",
+      "comment_5": "레다션 후 업데이트된 파일 저장"
+    },
+    "example_bottom": {
+      "title": "텍스트 레다션을 위한 정규 표현식",
+      "content": "패턴 일치를 사용하여 텍스트를 찾고 레다션하는 법을 배웁니다.",
+      "comment_1": "슬라이드 덱 열기",
+      "comment_2": "정규 표현식 규칙 적용",
+      "comment_3": "레다션 실행",
+      "comment_4": "최종 버전 저장"
+    },
+    "more_features": {
+      "title": "민감한 슬라이드용 간단한 레다션",
+      "description": "{{ProdFullName}}는 사용 사례에 관계없이 슬라이드에서 콘텐츠를 차단하거나 제거하는 것을 쉽게 만듭니다.",
+      "image_description": "조정 가능한 레다션 도구",
+      "feature_1": {
+        "title": "텍스트 찾아 바꾸기",
+        "content": "슬라이드에서 민감한 구문이나 레이블을 보호하세요."
+      },
+      "feature_2": {
+        "title": "비주얼의 일부 가리기",
+        "content": "선택한 슬라이드 영역이나 이미지에 오버레이를 추가하세요."
+      },
+      "feature_3": {
+        "title": "숨겨진 콘텐츠 제거하기",
+        "content": "슬라이드 메타데이터나 수정 노트를 공유 전에 지웁니다."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} 소개",
+      "content": "{{ProdFullName}}는 {{ProgLang}} 개발자가 {{FileFormatUp}} 슬라이드에서 텍스트, 이미지 또는 메타데이터를 차단하거나 삭제하는 데 도움을 줍니다."
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}로 {{FileFormatUp}}의 슬라이드 보호하기",
+      "description": "{{EnvNameShort}}의 오버레이 레다션 및 클린업 도구를 사용하여 {{FileFormatUp}} 슬라이드를 비공식적으로 유지하세요."
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Redactar Excel",
+        "description": "Hojas de cálculo de MS Excel y Open Office"
+      },
+      "word": {
+        "name": "Redactar Word",
+        "description": "Documentos de MS Word y Open Office"
+      },
+      "powerpoint": {
+        "name": "Redactar PowerPoint",
+        "description": "Presentaciones de MS PowerPoint y Open Office"
+      },
+      "image": {
+        "name": "Redactar Imagen",
+        "description": "Formatos de imagen populares"
+      },
+      "photo": {
+        "name": "Redactar Foto",
+        "description": "Formatos de foto"
+      },
+      "pdf": {
+        "name": "Redactar PDF",
+        "description": "Formato de Documento Portátil de Adobe"
+      },
+      "doc": {
+        "name": "Redactar DOC",
+        "description": "Documento de Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Redactar DOCX",
+        "description": "Documento XML Abierto de Microsoft Word"
+      },
+      "xls": {
+        "name": "Redactar XLS",
+        "description": "Libro de trabajo de Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Redactar XLSX",
+        "description": "Hoja de cálculo XML Abierta de Microsoft Excel"
+      },
+      "ppt": {
+        "name": "Redactar PPT",
+        "description": "Presentación de PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Redactar PPTX",
+        "description": "Presentación XML Abierta de PowerPoint"
+      },
+      "jpg": {
+        "name": "Redactar JPEG",
+        "description": "Imagen JPEG"
+      },
+      "jpeg": {
+        "name": "Redactar JPEG",
+        "description": "Imagen JPEG"
+      },
+      "png": {
+        "name": "Redactar PNG",
+        "description": "Gráfico de Red Portátil"
+      },
+      "tiff": {
+        "name": "Redactar TIFF",
+        "description": "Formato de Archivo de Etiquetas de Imagen"
+      },
+      "webp": {
+        "name": "Redactar WEBP",
+        "description": "Imagen WEB"
+      },
+      "rtf": {
+        "name": "Redactar RTF",
+        "description": "Formato de Texto Enriquecido"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "result_title": "Redacciones de muestra",
+      "result_title_bottom": "Descargar resultado",
+      "copy_tip": "haz clic para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Más ejemplos",
+        "title_2": "Documentación"
+      }
+    },
+    "format-actions": {
+      "title": "¿Listo para empezar?",
+      "description": "Prueba las características de {{ProdShortName}} gratis o solicita una licencia",
+      "comment_1": "Descarga de {{PackageStoreName}}",
+      "comment_2": "Licenciamiento"
+    },
+    "texts": {
+      "learn_more": "Saber más"
+    }
+  }
+}

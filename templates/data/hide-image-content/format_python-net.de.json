@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Sensible Bilder in {{FileFormatUp}} mit Überlagerungen in {{ProgLang}} verbergen",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, sensible Bilder in {{FileFormatUp}}-Dateien durch das Hinzufügen von Überlagerungen zu verbergen. Schützen Sie private Daten, ohne das Layout des Dokuments zu ändern."
+    },
+    "header": {
+      "title": "Bilder in {{FileFormatUp}}-Dateien mit Überlagerungen über {{EnvNameShort}} verbergen",
+      "description": "Halten Sie persönliche und geschäftliche Bilder in {{FileFormatUp}}-Dateien mit {{ProgLang}} sicher. Unsere Werkzeuge machen den Datenschutz zuverlässig.",
+      "subtitle": "{{ProdFullName}}-Funktionen"
+    },
+    "steps": {
+      "title": "Sensible Daten in {{FileFormatCap}}-Dateien schützen",
+      "content": {
+        "title": "{{ProdFullName}} gibt Ihren {{EnvName}}-Apps die Möglichkeit, Dokumente zu schützen. Verbergen Sie private Inhalte mit nur wenigen Klicks.",
+        "step_1": "Erstellen Sie ein {{textRedactor}}-Objekt und verweisen Sie auf die {{FileFormatCap}}-Datei.",
+        "step_2": "Passen Sie die Einstellungen an, um Ihre Anforderungen an die Schwärzung zu erfüllen.",
+        "step_3": "Wählen Sie den Bereich des Bildes aus, den Sie abdecken möchten, und wählen Sie eine Überlagerungsfarbe.",
+        "step_4": "Verarbeiten Sie die Datei und speichern Sie die geschwärzte Version."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verbergen Sie vertrauliche Bildteile in {{FileFormatUp}}",
+      "comment_2": "Laden Sie das Dokument mit {{textRedactor}}",
+      "comment_3": "Legen Sie die Überlagerungsfarbe und -größe fest",
+      "comment_4": "Wählen Sie den Bereich aus, den Sie schwärzen möchten",
+      "comment_5": "Wenden Sie die Überlagerung an und speichern Sie das Dokument"
+    },
+    "example_bottom": {
+      "title": "Bildinformationen mit Überlagerungen verbergen",
+      "content": "Dieses Beispiel zeigt, wie man sensible Bilddaten in Dokumenten mit Überlagerungen abdeckt.",
+      "comment_1": "Öffnen Sie die Datei zur Schwärzung",
+      "comment_2": "Passen Sie die Überlagerungseinstellungen an: Größe, Farbe und Position",
+      "comment_3": "Wählen Sie den Bildbereich auf der ersten Seite aus",
+      "comment_4": "Wenden Sie die Überlagerung an, um das Bild zu verbergen",
+      "comment_5": "Speichern Sie die geschwärzte Datei"
+    },
+    "more_features": {
+      "title": "Sensible Inhalte in Dokumenten verbergen",
+      "description": "Mit {{ProdFullName}} können Sie Daten in verschiedenen Dateiformaten verbergen oder löschen. Schützen Sie sensible Informationen und halten Sie Dokumente sauber und teilbar.",
+      "image_description": "Wichtige Schwärzungsfunktionen",
+      "feature_1": {
+        "title": "Text suchen und bearbeiten",
+        "content": "Suchen und ändern Sie sensible Texte in Ihrem Dokument, um private Informationen zu schützen."
+      },
+      "feature_2": {
+        "title": "Bildbereiche abdecken",
+        "content": "Platzieren Sie Überlagerungen auf Bildern oder ausgewählten Teilen, um vertrauliche visuelle Inhalte zu verbergen."
+      },
+      "feature_3": {
+        "title": "Metadaten verwalten",
+        "content": "Entfernen oder bearbeiten Sie versteckte Metadaten, um unerwünschte Datenlecks zu verhindern."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern die Werkzeuge, um Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Verbergen Sie Text, Bilder und Metadaten, um Dokumente in verschiedenen Formaten zu schützen."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Dateien mit {{EnvNameShort}} schützen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um sensible Daten in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Eine praktische Lösung zum Sichern von Geschäfts- und Privatsachen."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Bildinhalte in {{FileFormatUp}} mit Überlagerungen in {{ProgLang}} verbergen",
+      "description": "Schützen Sie sensible Bilder in {{FileFormatUp}}-Dateien, indem Sie mit {{ProdFullName}} Überlagerungen hinzufügen. Halten Sie das Dokumentenformat intakt, während Sie private visuelle Daten sichern."
+    },
+    "header": {
+      "title": "Bilder in {{FileFormatUp}}-Dokumenten mit Überlagerungen über {{EnvNameShort}} schützen",
+      "description": "Halten Sie persönliche und geschäftliche visuelle Inhalte sicher in {{FileFormatUp}}-Dateien mit {{ProgLang}}. Unsere Schwärzungswerkzeuge machen die Dokumentensicherheit zuverlässig.",
+      "subtitle": "Highlights von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Daten in {{FileFormatCap}}-Dateien sicher halten",
+      "content": {
+        "title": "{{ProdFullName}} ermöglicht es {{EnvName}}-Anwendungen, Dokumente zu schützen. Schwärzen Sie sensible Daten in nur wenigen Schritten.",
+        "step_1": "Erstellen Sie eine Instanz von {{textRedactor}} und geben Sie den Pfad zur {{FileFormatCap}}-Datei an.",
+        "step_2": "Stellen Sie die Schwärzungspräferenzen entsprechend Ihrer Aufgabe ein.",
+        "step_3": "Wählen Sie den Bildteil aus, den Sie abdecken möchten, und definieren Sie die Überlagerungsfarbe.",
+        "step_4": "Führen Sie den Prozess aus und speichern Sie die geschwärzte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verbergen Sie empfindliche Teile von Bildern in {{FileFormatUp}}",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Definieren Sie Größe und Farbe der Überlagerung",
+      "comment_4": "Geben Sie den Bereich für die Schwärzung an",
+      "comment_5": "Überlagerung anwenden und Ihr Dokument speichern"
+    },
+    "example_bottom": {
+      "title": "Bilddaten mit Überlagerungen verbergen",
+      "content": "Dieses Beispiel zeigt, wie man sensible Bildbereiche in Dokumenten mit Überlagerungen schützt.",
+      "comment_1": "Laden Sie die Datei, die Sie schwärzen möchten",
+      "comment_2": "Legen Sie Überlagerungseinstellungen fest: Farbe, Größe, Position",
+      "comment_3": "Wählen Sie einen Bereich für die Schwärzung auf Seite eins",
+      "comment_4": "Überlagerung anwenden, um das Bild abzudecken",
+      "comment_5": "Speichern Sie die geschwärzte Datei"
+    },
+    "more_features": {
+      "title": "Inhalte in Dokumenten verbergen",
+      "description": "Mit {{ProdFullName}} können Sie empfindliche Informationen aus verschiedenen Dokumenttypen verbergen oder entfernen. Halten Sie Dateien sicher und teilbar.",
+      "image_description": "Effektive Schwärzungsfunktionen",
+      "feature_1": {
+        "title": "Text suchen und bearbeiten",
+        "content": "Sensible Wörter finden und ersetzen, um Ihre Daten zu schützen."
+      },
+      "feature_2": {
+        "title": "Bilder abdecken",
+        "content": "Überlagerungen auf vollständige Bilder oder ausgewählte Teile anwenden, um visuelle Daten zu schützen."
+      },
+      "feature_3": {
+        "title": "Versteckte Metadaten bereinigen",
+        "content": "Metadaten entfernen oder aktualisieren, um versehentliches Teilen zu verhindern."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} gibt {{ProgLang}}-Entwicklern die Möglichkeit, Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Schützen Sie Text, Bilder und Metadaten in verschiedenen Dokumentformaten."
+    },
+    "formats": {
+      "title": "Verstecken Sie sensible Daten in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}",
+      "description": "Verwenden Sie {{EnvNameShort}}, um private Daten in {{FileFormatUp}}-Dateien zu überdecken oder zu löschen. Das richtige Werkzeug zum Sichern vertraulicher Dokumente."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Bildbereiche in {{FileFormatUp}}-Dateien mit Überlagerungen in {{ProgLang}} verbergen",
+      "description": "Schützen Sie sensible Bildregionen in {{FileFormatUp}}-Dateien, indem Sie mit {{ProdFullName}} Überlagerungen anwenden. Halten Sie die Struktur Ihres Dokuments unberührt, während Sie private visuelle Daten sichern."
+    },
+    "header": {
+      "title": "Verbergen Sie empfindliche Bilder in {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}}",
+      "description": "Schützen Sie vertrauliche Bilder in {{FileFormatUp}}-Dateien mit {{ProgLang}}. Unsere Werkzeuge gewährleisten eine schnelle und effektive Bildschwärzung.",
+      "subtitle": "Hauptmerkmale von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sensible Daten in {{FileFormatCap}}-Dateien schützen",
+      "content": {
+        "title": "{{ProdFullName}} macht es einfach, Ihre {{EnvName}}-Apps die Dokumente zu sichern.",
+        "step_1": "Initialisieren Sie {{textRedactor}} und laden Sie das {{FileFormatCap}}-Dokument.",
+        "step_2": "Stellen Sie die Schwärzungsparameter ein, um Ihre Aufgabe zu entsprechen.",
+        "step_3": "Definieren Sie, welcher Teil des Bildes abzudecken ist, und wählen Sie eine Farbe.",
+        "step_4": "Wenden Sie die Schwärzung an und speichern Sie die endgültige Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verbergen Sie vertrauliche Bildabschnitte in {{FileFormatUp}}",
+      "comment_2": "Laden Sie das Dokument mit {{textRedactor}}",
+      "comment_3": "Wählen Sie die Überlagerungsgröße und -farbe aus",
+      "comment_4": "Markieren Sie den Schwärzungsbereich",
+      "comment_5": "Änderungen vornehmen und die Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Bildinhalte mit Überlagerungen maskieren",
+      "content": "Dieser Leitfaden zeigt, wie man sensible Bildbereiche in Dokumenten mit Überlagerungen verbirgt.",
+      "comment_1": "Öffnen Sie die Datei zur Schwärzung",
+      "comment_2": "Definieren Sie die Überlagerungsgröße, Position und Farbe",
+      "comment_3": "Wählen Sie den spezifischen Bildabschnitt",
+      "comment_4": "Wenden Sie die Überlagerung an, um den Bereich zu verbergen",
+      "comment_5": "Speichern Sie das modifizierte Dokument"
+    },
+    "more_features": {
+      "title": "Inhalte in Dokumenten schwärzen",
+      "description": "Mit {{ProdFullName}} können Sie sensible Daten in vielen Dokumentformaten verbergen oder entfernen. Halten Sie Dokumente sicher und professionell.",
+      "image_description": "Effiziente Schwärzungswerkzeuge",
+      "feature_1": {
+        "title": "Text suchen und ersetzen",
+        "content": "Sensible Texte leicht finden und ersetzen oder verbergen."
+      },
+      "feature_2": {
+        "title": "Bilder mit Überlagerungen abdecken",
+        "content": "Verbergen Sie vollständige Bilder oder spezifische Abschnitte, um sensible visuelle Inhalte zu schützen."
+      },
+      "feature_3": {
+        "title": "Versteckte Metadaten entfernen",
+        "content": "Bereinigen Sie Metadaten in Dateien, um das Teilen privater Informationen zu vermeiden."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern Werkzeuge, um sensible Daten aus {{FileFormatUp}}-Dokumenten zu verbergen oder zu löschen. Schwärzen Sie Texte, Bilder und Metadaten in verschiedenen Formaten."
+    },
+    "formats": {
+      "title": "Verstecken Sie Inhalte in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}",
+      "description": "Verwenden Sie {{EnvNameShort}}, um sensible Daten aus {{FileFormatUp}}-Dateien zu schwärzen oder zu löschen. Ideal für Unternehmen und Personen, die ihre Dokumente schützen möchten."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Bilder in {{FileFormatUp}}-Dateien mit Überlagerungen in {{ProgLang}} maskieren",
+      "description": "Verwenden Sie {{ProdFullName}}, um sensible Bilder in {{FileFormatUp}}-Dateien mit farblichen Überlagerungen zu maskieren. Schützen Sie wichtige Daten, während das Format des Dokuments intakt bleibt."
+    },
+    "header": {
+      "title": "Private Bilder in {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}} maskieren",
+      "description": "Schützen Sie sensible visuelle Inhalte in {{FileFormatUp}}-Dateien mit {{ProgLang}}. Unsere Werkzeuge machen das Schwärzen von Bildern einfach und schnell.",
+      "subtitle": "Funktionen von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sensible Daten in {{FileFormatCap}}-Dateien schützen",
+      "content": {
+        "title": "{{ProdFullName}} hilft {{EnvName}}-Apps, Dokumente zu schützen, indem private Inhalte abgedeckt werden.",
+        "step_1": "Erstellen Sie eine {{textRedactor}}-Instanz und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Stellen Sie die Schwärzungsoptionen nach Ihren Anforderungen ein.",
+        "step_3": "Wählen Sie den Bildbereich aus und weisen Sie eine Überlagerungsfarbe zu.",
+        "step_4": "Wenden Sie die Überlagerung an und speichern Sie die Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Maskieren Sie private Bildbereiche in {{FileFormatUp}}",
+      "comment_2": "Öffnen Sie das Dokument mit {{textRedactor}}",
+      "comment_3": "Legen Sie die Überlagerungsfarbe und -größe fest",
+      "comment_4": "Markieren Sie den Bereich für die Schwärzung",
+      "comment_5": "Überlagerung anwenden und Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Bildinhalte mit farbigen Überlagerungen abdecken",
+      "content": "Sehen Sie, wie man sensible Bildteile in Dokumenten mit Überlagerungen maskiert.",
+      "comment_1": "Laden Sie das Dokument",
+      "comment_2": "Definieren Sie die Überlagerungseigenschaften: Größe, Position, Farbe",
+      "comment_3": "Wählen Sie den Bildbereich auf der ersten Seite aus",
+      "comment_4": "Überlagern Sie den ausgewählten Bereich",
+      "comment_5": "Speichern Sie das geschützte Dokument"
+    },
+    "more_features": {
+      "title": "Funktionen für die Schwärzung von Dokumenten",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, vertrauliche Daten in vielen Dokumenttypen zu verbergen oder zu löschen. Halten Sie Ihre Dateien sauber und geschützt.",
+      "image_description": "Vollständige Palette von Schwärzungswerkzeugen",
+      "feature_1": {
+        "title": "Text suchen und ersetzen",
+        "content": "Sensible Texte finden und schwärzen, um Ihre Informationen zu schützen."
+      },
+      "feature_2": {
+        "title": "Bildbereiche maskieren",
+        "content": "Bedecken Sie Bilder oder spezifische Abschnitte mit Überlagerungen, um private Informationen zu verbergen."
+      },
+      "feature_3": {
+        "title": "Metadaten bereinigen",
+        "content": "Löschen oder ändern Sie versteckte Metadaten, um private Daten nicht zu gefährden."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern einfache Werkzeuge, um Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Schwärzen Sie Texte, Bilder und Metadaten in verschiedenen Formaten."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} maskieren",
+      "description": "Verwenden Sie {{EnvNameShort}}, um private Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Ein zuverlässiges Werkzeug für die Dokumentensicherheit."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Bilder in {{FileFormatUp}} mit Überlagerungen in {{ProgLang}} schützen",
+      "description": "Decken Sie sensible Bilder in {{FileFormatUp}}-Dateien mit {{ProdFullName}} ab. Wenden Sie Überlagerungen an, um private Daten zu schützen und dabei das Layout des Dokuments zu bewahren."
+    },
+    "header": {
+      "title": "Private Bilder in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} abdecken",
+      "description": "Halten Sie persönliche und geschäftliche visuelle Inhalte in {{FileFormatUp}}-Dokumenten mit {{ProgLang}} sicher. Zuverlässige und schnelle Schwärzungswerkzeuge für Sie.",
+      "subtitle": "Kernfunktionen von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sensible Informationen in {{FileFormatCap}}-Dateien sichern",
+      "content": {
+        "title": "{{ProdFullName}} hilft Ihren {{EnvName}}-Apps, Dokumente zu schützen, indem private Inhalte mit Überlagerungen abgedeckt werden.",
+        "step_1": "Erstellen Sie ein {{textRedactor}}-Objekt und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Passen Sie die Schwärzungseinstellungen nach Bedarf an.",
+        "step_3": "Wählen Sie den Bildbereich aus und legen Sie die Überlagerungsfarbe fest.",
+        "step_4": "Wenden Sie die Überlagerung an und speichern Sie die geschwärzte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verdecken Sie sensible Bildteile in {{FileFormatUp}}",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Geben Sie die Überlagerungsfarbe und -größe an",
+      "comment_4": "Wählen Sie den Bildbereich, den Sie verbergen möchten",
+      "comment_5": "Überlagerung anwenden und das Dokument speichern"
+    },
+    "example_bottom": {
+      "title": "Bildinhalte mit Überlagerungen abdecken",
+      "content": "Dieses Beispiel zeigt, wie man sensible Bilder in Dokumenten mittels Überlagerungen verbirgt.",
+      "comment_1": "Öffnen Sie das Dokument",
+      "comment_2": "Legen Sie die Überlagerungsdimensionen, -farbe und -position fest",
+      "comment_3": "Wählen Sie den Bereich auf der ersten Seite aus, der abgedeckt werden soll",
+      "comment_4": "Überlagern Sie die Schwärzung",
+      "comment_5": "Speichern Sie das aktualisierte Dokument"
+    },
+    "more_features": {
+      "title": "Erweiterte Schwärzungsfunktionen",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, sensible Inhalte in mehreren Dokumentformaten zu verbergen oder zu löschen. Halten Sie Dateien sauber und sicher zum Teilen.",
+      "image_description": "All-in-One Schwärzungswerkzeuge",
+      "feature_1": {
+        "title": "Text suchen und ersetzen",
+        "content": "Finden Sie sensiblen Text in Dokumenten und ersetzen Sie ihn, um die Privatsphäre zu garantieren."
+      },
+      "feature_2": {
+        "title": "Bilder überlagern",
+        "content": "Bedecken Sie ausgewählte Bildbereiche oder ganze visuelle Inhalte, um private Informationen zu verbergen."
+      },
+      "feature_3": {
+        "title": "Metadaten entfernen",
+        "content": "Löschen Sie ungenutzte Metadaten, um das Teilen unsichtbarer Daten zu verhindern."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern einfache Werkzeuge, um Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Schützen Sie sensible Texte, Bilder und Metadaten in verschiedenen Dokumentformaten."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} schwärzen",
+      "description": "{{EnvNameShort}} ermöglicht es Ihnen, sensible Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu entfernen. Eine vertrauenswürdige Lösung für die Dokumentensicherheit."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Bilder in {{FileFormatUp}} mit Überlagerungen in {{ProgLang}} abdecken",
+      "description": "Schützen Sie sensible Bildbereiche in {{FileFormatUp}}-Dateien mit {{ProdFullName}}. Fügen Sie Überlagerungen hinzu, um private visuelle Inhalte zu verbergen, ohne das Aussehen des Dokuments zu ändern."
+    },
+    "header": {
+      "title": "Sensible Bilder in {{FileFormatUp}}-Dateien mit Überlagerungen über {{EnvNameShort}} schützen",
+      "description": "Sichern Sie Ihre persönlichen und geschäftlichen Bilder in {{FileFormatUp}}-Dateien mit {{ProgLang}}. Zuverlässiger Schutz mit unseren benutzerfreundlichen Werkzeugen.",
+      "subtitle": "Wichtige Funktionen von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Daten in {{FileFormatCap}}-Dateien schützen",
+      "content": {
+        "title": "{{ProdFullName}} hilft {{EnvName}}-Apps, private Informationen schnell und direkt zu verbergen.",
+        "step_1": "Erstellen Sie eine {{textRedactor}}-Instanz und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Stellen Sie die Schwärzungsoptionen nach Bedarf ein.",
+        "step_3": "Wählen Sie den Bildbereich aus und wählen Sie die Überlagerungsfarbe.",
+        "step_4": "Wenden Sie die Schwärzung an und speichern Sie die bearbeitete Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verbergen Sie Bildbereiche in {{FileFormatUp}}",
+      "comment_2": "Öffnen Sie das Dokument mit {{textRedactor}}",
+      "comment_3": "Passen Sie die Größe und Farbe der Überlagerung an",
+      "comment_4": "Wählen Sie den Bereich aus, den Sie abdecken möchten",
+      "comment_5": "Überlagerung anwenden und die Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Verwenden Sie Überlagerungen, um Bilddaten zu verbergen",
+      "content": "Dieses Beispiel zeigt, wie man Überlagerungen anwendet, um sensible Bilder in Dokumenten abzudecken.",
+      "comment_1": "Laden Sie das Dokument zur Bearbeitung",
+      "comment_2": "Stellen Sie die Überlagerungsfarbe, -größe und -position ein",
+      "comment_3": "Wählen Sie einen bestimmten Bildabschnitt auf Seite eins",
+      "comment_4": "Wenden Sie die Überlagerung an, um ihn zu verbergen",
+      "comment_5": "Speichern Sie die aktualisierte Datei"
+    },
+    "more_features": {
+      "title": "Sensible Inhalte verbergen oder entfernen",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, Dokumente zu schützen, indem Sie sensible Daten in verschiedenen Formaten verbergen oder löschen. Halten Sie Dateien sicher und übersichtlich für das Teilen.",
+      "image_description": "Funktionsreiche Schwärzungswerkzeuge",
+      "feature_1": {
+        "title": "Text sicher bearbeiten",
+        "content": "Suchen Sie sensible Texte in Dokumenten und ersetzen Sie sie, um die Privatsphäre zu schützen."
+      },
+      "feature_2": {
+        "title": "Bilder abdecken",
+        "content": "Verbergen Sie ausgewählte Bildbereiche oder gesamte visuelle Inhalte mit Überlagerungen."
+      },
+      "feature_3": {
+        "title": "Versteckte Metadaten löschen",
+        "content": "Löschen Sie unsichtbare Metadatenfelder, um Datenlecks zu verhindern."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern einfache Werkzeuge, um sensible Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu entfernen. Decken Sie Bilder, Texte und Metadaten ab, um Ihre Dokumente zu schützen."
+    },
+    "formats": {
+      "title": "Verstecken Sie Inhalte in {{FileFormatUp}} mit {{EnvNameShort}}",
+      "description": "Mit {{EnvNameShort}} können Sie leicht sensible Informationen in {{FileFormatUp}}-Dateien verbergen oder löschen. Ein effektiver Weg, um die Sicherheit von Dokumenten zu gewährleisten."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Sensible Bilder in {{FileFormatUp}} mit Überlagerungen in {{ProgLang}} maskieren",
+      "description": "Mit {{ProdFullName}} können Sie private Bildbereiche in {{FileFormatUp}}-Dateien mit Überlagerungen verbergen. Schützen Sie Informationen, ohne das Design des Dokuments zu verändern."
+    },
+    "header": {
+      "title": "Private Bilder in {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}}-Überlagerungen abdecken",
+      "description": "Halten Sie sensible Bilder in {{FileFormatUp}}-Dateien mit {{ProgLang}} sicher. Einfache Werkzeuge, die für starken Datenschutz entwickelt wurden.",
+      "subtitle": "Erkunden Sie die Funktionen von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Halten Sie Ihre {{FileFormatCap}}-Dokumente sicher",
+      "content": {
+        "title": "{{ProdFullName}} erleichtert es {{EnvName}}-Apps, sensible Inhalte in Dokumenten zu schützen.",
+        "step_1": "Erstellen Sie ein {{textRedactor}}-Objekt und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Passen Sie die Schwärzungsoptionen an Ihre Anforderungen an.",
+        "step_3": "Wählen Sie den Bildbereich aus und wählen Sie eine Überlagerungsfarbe.",
+        "step_4": "Wenden Sie die Schwärzung an und speichern Sie Ihr Dokument."
+      }
+    },
+    "example_top": {
+      "comment_1": "Maskieren Sie Bildinhalte in {{FileFormatUp}}-Dateien",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Legen Sie die Überlagerungsgröße und -farbe fest",
+      "comment_4": "Wählen Sie den Bereich aus, den Sie verbergen möchten",
+      "comment_5": "Wenden Sie die Überlagerung an und speichern Sie die Datei"
+    },
+    "example_bottom": {
+      "title": "Verwenden Sie Überlagerungen, um Bilddaten zu verbergen",
+      "content": "Dieses Beispiel zeigt, wie man sensible Bilder in Dokumenten mit Überlagerungen schützt.",
+      "comment_1": "Öffnen Sie das Dokument zur Schwärzung",
+      "comment_2": "Legen Sie die Überlagerungsdimensionen, -position und -farbe fest",
+      "comment_3": "Markieren Sie den Bildbereich auf der ersten Seite",
+      "comment_4": "Überlagerung anwenden, um Daten zu maskieren",
+      "comment_5": "Speichern Sie das finale Dokument"
+    },
+    "more_features": {
+      "title": "Schützen Sie private Daten in Dokumenten",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, sensible Inhalte in unterschiedlichen Dateiformaten zu verbergen oder zu löschen. Halten Sie Ihre Dateien sicher und bereit zum Teilen.",
+      "image_description": "All-in-One Schwärzungsfunktionen",
+      "feature_1": {
+        "title": "Text suchen und bearbeiten",
+        "content": "Finden Sie private Texte in Dokumenten und ersetzen Sie sie, um die Privatsphäre sicherzustellen."
+      },
+      "feature_2": {
+        "title": "Bildbereiche maskieren",
+        "content": "Bedecken Sie gesamte Bilder oder ausgewählte Teile mit Überlagerungen, um private Informationen zu schützen."
+      },
+      "feature_3": {
+        "title": "Versteckte Metadaten löschen",
+        "content": "Löschen Sie Metadaten, um ein versehentliches Teilen zu verhindern."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} statten {{ProgLang}}-Entwickler mit Werkzeugen aus, um sensible Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Schützen Sie Ihre Dokumente, indem Sie private Texte, Bilder und Metadaten abdecken."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Dateien mit {{EnvNameShort}} sicher halten",
+      "description": "Mit {{EnvNameShort}} können Sie sensible Daten in {{FileFormatUp}}-Dateien leicht verbergen oder entfernen. Eine vertrauenswürdige Lösung zum Schutz wichtiger Dokumente."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Private Bilder in {{FileFormatUp}} mit Überlagerungen in {{ProgLang}} verbergen",
+      "description": "Sichern Sie Ihre {{FileFormatUp}}-Dateien, indem Sie mit {{ProdFullName}} Überlagerungen auf Bilder anwenden. Schützen Sie sensible visuelle Daten, während das Layout des Dokuments unverändert bleibt."
+    },
+    "header": {
+      "title": "Sensible Bilder in {{FileFormatUp}}-Dateien mit Überlagerungen in {{EnvNameShort}} schützen",
+      "description": "Halten Sie Ihre Bilder in {{FileFormatUp}}-Dateien mithilfe von {{ProgLang}} sicher. Einfache Werkzeuge, die Ihnen helfen, private Inhalte in nur wenigen Schritten zu schützen.",
+      "subtitle": "Top-Funktionen von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}-Dateien sicher halten",
+      "content": {
+        "title": "{{ProdFullName}} ermöglicht es Ihren {{EnvName}}-Anwendungen, sensible Daten schnell und effektiv zu verbergen.",
+        "step_1": "Erstellen Sie ein {{textRedactor}}-Objekt und geben Sie den Pfad zur {{FileFormatCap}}-Datei an.",
+        "step_2": "Definieren Sie die Schwärzungseinstellungen nach Bedarf.",
+        "step_3": "Markieren Sie den Bildbereich und wählen Sie die Überlagerungsfarbe aus.",
+        "step_4": "Führen Sie die Schwärzung aus und speichern Sie die geschützte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verbergen Sie Bildbereiche in {{FileFormatUp}}-Dateien",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Definieren Sie die Größe und Farbe der Überlagerung",
+      "comment_4": "Wählen Sie den Bereich, den Sie maskieren möchten",
+      "comment_5": "Überlagerung anwenden und das Dokument speichern"
+    },
+    "example_bottom": {
+      "title": "Schützen Sie Bildbereiche mit Überlagerungen",
+      "content": "Dieses Beispiel zeigt Ihnen, wie Sie sensible Bildteile in einem Dokument abdecken.",
+      "comment_1": "Laden Sie die Datei zur Schwärzung",
+      "comment_2": "Legen Sie die Überlagerungsgröße, -farbe und -position fest",
+      "comment_3": "Wählen Sie einen Bildbereich auf Seite eins aus",
+      "comment_4": "Wenden Sie die Überlagerung an, um den Bereich zu verbergen",
+      "comment_5": "Speichern Sie die geschwärzte Datei"
+    },
+    "more_features": {
+      "title": "In Dokumenten Inhalte schwärzen",
+      "description": "{{ProdFullName}} hilft Ihnen, sensible Inhalte in mehreren Dateiformaten zu verbergen oder zu löschen. Halten Sie Ihre Dateien sicher und bereit zum Teilen.",
+      "image_description": "Funktionsreiche Schwärzungswerkzeuge",
+      "feature_1": {
+        "title": "Text suchen und ersetzen",
+        "content": "Suchen Sie aus privatem Text in Dokumenten und ersetzen Sie ihn, um Ihre Daten zu sichern."
+      },
+      "feature_2": {
+        "title": "Bildbereiche abdecken",
+        "content": "Wenden Sie Überlagerungen an, um Bilder oder ausgewählte Abschnitte zu verbergen, um sensible visuelle Inhalte zu schützen."
+      },
+      "feature_3": {
+        "title": "Metadaten bereinigen",
+        "content": "Löschen Sie versteckte Metadaten, um unbeabsichtigte Datenlecks zu vermeiden."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} stattet {{ProgLang}}-Entwickler mit einfachen Werkzeugen aus, um Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Schützen Sie sensible Texte, Bilder und Metadaten mit geringem Aufwand."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Dateien mit {{EnvNameShort}}-Schwärzungswerkzeugen sichern",
+      "description": "Mit {{EnvNameShort}} können Sie private Daten in {{FileFormatUp}}-Dateien verbergen oder löschen. Eine zuverlässige Lösung, um Dokumente professionell und sicher zu halten."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Bilder in {{FileFormatUp}} mit Überlagerungen in {{ProgLang}} maskieren",
+      "description": "Verbergen Sie sensible Bildinhalte in {{FileFormatUp}}-Dateien mit farbigen Überlagerungen von {{ProdFullName}}. Halten Sie das ursprüngliche Layout Ihrer Datei intakt, während Sie wichtige visuelle Daten sichern."
+    },
+    "header": {
+      "title": "Sensible Bilder in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}-Überlagerungen abdecken",
+      "description": "Schützen Sie persönliche und geschäftliche Bilddaten in {{FileFormatUp}}-Dateien mit {{ProgLang}}. Einfache Werkzeuge für einen schnellen und effektiven Schutz.",
+      "subtitle": "Funktionen von {{ProdFullName}}, die Sie benötigen"
+    },
+    "steps": {
+      "title": "Private Inhalte in {{FileFormatCap}}-Dateien abdecken",
+      "content": {
+        "title": "{{ProdFullName}} erleichtert es, sensible Daten in Ihren {{EnvName}}-Anwendungen zu verbergen.",
+        "step_1": "Initialisieren Sie einen {{textRedactor}} und verweisen Sie auf Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Konfigurieren Sie die Schwärzungseinstellungen nach Bedarf.",
+        "step_3": "Wählen Sie die Bildabschnitte aus und definieren Sie die Überlagerungsfarben.",
+        "step_4": "Verarbeiten Sie die Datei und speichern Sie die geschwärzte Version."
+      }
+    },
+    "example_top": {
+      "comment_1": "Bildinhalte in {{FileFormatUp}} abdecken",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Legen Sie die Überlagerungsgröße und -farben fest",
+      "comment_4": "Wählen Sie den Bereich zum Verbergen aus",
+      "comment_5": "Überlagerung anwenden und die Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Bildinhalte mit Überlagerungen verbergen",
+      "content": "Dieses Beispiel zeigt, wie man Überlagerungen anwendet, um sensible Bilddaten in einem Dokument zu schützen.",
+      "comment_1": "Öffnen Sie die Datei zur Schwärzung",
+      "comment_2": "Legen Sie die Überlagerungsdimensionen, -farbe und -position fest",
+      "comment_3": "Wählen Sie einen Bildbereich auf der ersten Seite aus",
+      "comment_4": "Wenden Sie die Überlagerung an, um den Bildinhalt zu maskieren",
+      "comment_5": "Speichern Sie die Datei nach der Schwärzung"
+    },
+    "more_features": {
+      "title": "Daten in verschiedenen Dokumenttypen schützen",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, sensible Inhalte in unterschiedlichen Dateiformaten zu verbergen oder zu löschen. Halten Sie Ihre Dokumente sauber, sicher und leicht zu teilen.",
+      "image_description": "Werkzeuge zur Kontrolle jeder Schwärzung",
+      "feature_1": {
+        "title": "Sensible Texte suchen und ersetzen",
+        "content": "Durchsuchen Sie Ihre Dokumente, um privaten Text zu ersetzen und Ihre Daten sicher zu halten."
+      },
+      "feature_2": {
+        "title": "Bilder mit Überlagerungen maskieren",
+        "content": "Fügen Sie farbige Überlagerungen hinzu, um Bilder oder spezifische Teile davon zu verbergen."
+      },
+      "feature_3": {
+        "title": "Metadaten entfernen",
+        "content": "Löschen oder bearbeiten Sie versteckte Metadaten, um sicherzustellen, dass keine privaten Daten durchsickern."
+      }
+    },
+    "about": {
+      "title": "Erfahren Sie mehr über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern Werkzeuge, um Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu entfernen. Sichern Sie Ihre Dokumente, indem Sie Texte, Bilder und Metadaten abdecken."
+    },
+    "formats": {
+      "title": "Schützen Sie Inhalte in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}",
+      "description": "Mit {{EnvNameShort}} können Sie sensible Informationen in {{FileFormatUp}}-Dateien verbergen oder löschen. Ein zuverlässiger Weg, um Dokumente sicher und professionell zu halten."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Bilder in {{FileFormatUp}}-Dateien mit {{ProgLang}}-Überlagerungen abdecken",
+      "description": "Wenden Sie Überlagerungen an, um sensible Bilddaten in {{FileFormatUp}}-Dateien mit {{ProdFullName}} zu verbergen. Halten Sie das Design Ihres Dokuments intakt, während Sie private Informationen schützen."
+    },
+    "header": {
+      "title": "Sensible Bilder in {{FileFormatUp}}-Dateien mit Überlagerungen über {{EnvNameShort}} verbergen",
+      "description": "Schützen Sie Bildinhalte in {{FileFormatUp}}-Dateien mit {{ProgLang}}. Einfache Werkzeuge für schnellen und effektiven Datenschutz.",
+      "subtitle": "{{ProdFullName}} Hauptmerkmale"
+    },
+    "steps": {
+      "title": "Bildbereiche in {{FileFormatCap}}-Dateien schützen",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}}, um sensible Bildbereiche in Ihren {{EnvName}}-Anwendungen abzudecken.",
+        "step_1": "Erstellen Sie ein {{textRedactor}}-Objekt und verknüpfen Sie es mit Ihrer {{FileFormatCap}}-Datei.",
+        "step_2": "Konfigurieren Sie die Schwärzungseinstellungen entsprechend Ihrer Aufgabe.",
+        "step_3": "Heben Sie die Bildabschnitte hervor und setzen Sie Überlagerungsfarben.",
+        "step_4": "Wenden Sie die Schwärzung an und speichern Sie die geschützte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verwenden Sie Überlagerungen, um Bilddaten in {{FileFormatUp}} zu verbergen",
+      "comment_2": "Öffnen Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Legen Sie die Dimensions- und Überlagerungsfarbe fest",
+      "comment_4": "Wählen Sie die Bildbereiche zum Maskieren aus",
+      "comment_5": "Überlagerung anwenden und die Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Bildabschnitte mit Überlagerungen abdecken",
+      "content": "Dieses Codebeispiel zeigt, wie man sensible Bildbereiche in einem Dokument mit Überlagerungen maskiert.",
+      "comment_1": "Öffnen Sie die Datei zur Schwärzung",
+      "comment_2": "Definieren Sie die Überlagerungsgröße, -farbe und -platzierung",
+      "comment_3": "Wählen Sie einen Bildbereich auf der ersten Seite aus",
+      "comment_4": "Wenden Sie die Überlagerung an, um den Inhalt zu verbergen",
+      "comment_5": "Speichern Sie die gesicherte Datei"
+    },
+    "more_features": {
+      "title": "Sensible Daten in mehreren Formaten schwärzen",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, sensible Inhalte in verschiedenen Dateitypen zu verbergen oder zu löschen. Halten Sie die Dokumente sauber und sicher zum Teilen.",
+      "image_description": "All-in-One Schwärzungsfunktionen",
+      "feature_1": {
+        "title": "Text finden und bearbeiten",
+        "content": "Suchen Sie nach sensiblen Texten und ersetzen Sie diese, um Ihre Dokumente zu sichern."
+      },
+      "feature_2": {
+        "title": "Bilder mit Überlagerungen verbergen",
+        "content": "Fügen Sie Überlagerungen hinzu, um vollständige Bilder oder spezifische Abschnitte abzudecken."
+      },
+      "feature_3": {
+        "title": "Metadaten löschen",
+        "content": "Entfernen Sie versteckte Metadaten, um Datenlecks zu vermeiden."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern leistungsstarke Werkzeuge, um sensible Inhalte in {{FileFormatUp}}-Dateien zu verbergen oder zu löschen. Schützen Sie wichtige Daten, indem Sie Texte, Bilder und Metadaten effizient maskieren."
+    },
+    "formats": {
+      "title": "Sensible Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} schwärzen",
+      "description": "Verbergen oder löschen Sie private Daten in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}. Ein einfacher Weg, um offizielle Dokumente zu sichern."
+    }
+  }
+}

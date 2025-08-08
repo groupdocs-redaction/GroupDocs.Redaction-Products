@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "ลบข้อมูลใน Excel",
+        "description": "ไฟล์ตารางข้อมูล MS Excel และ Open Office"
+      },
+      "word": {
+        "name": "ลบข้อมูลใน Word",
+        "description": "เอกสาร MS Word และ Open Office"
+      },
+      "powerpoint": {
+        "name": "ลบข้อมูลใน PowerPoint",
+        "description": "การนำเสนอ MS PowerPoint และ Open Office"
+      },
+      "image": {
+        "name": "ลบข้อมูลในรูปภาพ",
+        "description": "รูปแบบภาพที่นิยม"
+      },
+      "photo": {
+        "name": "ลบข้อมูลในรูปถ่าย",
+        "description": "รูปถ่าย"
+      },
+      "pdf": {
+        "name": "ลบข้อมูลใน PDF",
+        "description": "รูปแบบเอกสารที่พกพา Adobe"
+      },
+      "doc": {
+        "name": "ลบข้อมูลใน DOC",
+        "description": "เอกสาร Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "ลบข้อมูลใน DOCX",
+        "description": "เอกสาร Microsoft Word Open XML"
+      },
+      "xls": {
+        "name": "ลบข้อมูลใน XLS",
+        "description": "แฟ้มงาน Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "ลบข้อมูลใน XLSX",
+        "description": "ตารางข้อมูล Microsoft Excel Open XML"
+      },
+      "ppt": {
+        "name": "ลบข้อมูลใน PPT",
+        "description": "การเสนอ PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "ลบข้อมูลใน PPTX",
+        "description": "การเสนอ PowerPoint Open XML"
+      },
+      "jpg": {
+        "name": "ลบข้อมูลใน JPEG",
+        "description": "ภาพ JPEG"
+      },
+      "jpeg": {
+        "name": "ลบข้อมูลใน JPEG",
+        "description": "ภาพ JPEG"
+      },
+      "png": {
+        "name": "ลบข้อมูลใน PNG",
+        "description": "กราฟิกเครือข่ายที่พกพา"
+      },
+      "tiff": {
+        "name": "ลบข้อมูลใน TIFF",
+        "description": "รูปแบบไฟล์ภาพแท็ก"
+      },
+      "webp": {
+        "name": "ลบข้อมูลใน WEBP",
+        "description": "ภาพ WEB"
+      },
+      "rtf": {
+        "name": "ลบข้อมูลใน RTF",
+        "description": "รูปแบบข้อความที่มีคุณสมบัติ"
+      }
+    },
+    "format-code": {
+      "copy_title": "คัดลอก",
+      "result_title": "การลบข้อมูลตัวอย่าง",
+      "result_title_bottom": "ดาวน์โหลดผลลัพธ์",
+      "copy_tip": "คลิ๊กเพื่อคัดลอก",
+      "copy_done": "คัดลอกแล้ว",
+      "links": {
+        "title_1": "ตัวอย่างเพิ่มเติม",
+        "title_2": "เอกสารประกอบ"
+      }
+    },
+    "format-actions": {
+      "title": "พร้อมเริ่มต้นหรือยัง?",
+      "description": "ลองฟีเจอร์ของ {{ProdShortName}} ฟรี หรือขอใบอนุญาต",
+      "comment_1": "ดาวน์โหลด {{PackageStoreName}}",
+      "comment_2": "การออกใบอนุญาต"
+    },
+    "texts": {
+      "learn_more": "เรียนรู้เพิ่มเติม"
+    }
+  }
+}

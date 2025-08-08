@@ -1,0 +1,385 @@
+{
+  "index-content": {
+    "head_title": "Solusi Redaksi Dokumen. Edit atau hapus data sensitif.",
+    "head_description": "Hapus, redaksi, atau sembunyikan teks, gambar, atau metadata dalam file PDF, dokumen Word, spreadsheet Excel, presentasi PowerPoint, gambar, dan lainnya. Gunakan perpustakaan kami dalam aplikasi .NET, Java, Python, atau berbasis cloud Anda.",
+    "title": "Perpustakaan Redaksi Dokumen",
+    "description_0": "Sembunyikan atau hapus informasi pribadi dari berbagai jenis file.",
+    "description_1": "Edit teks atau gambar untuk menghilangkan konten sensitif.",
+    "description_2": "Kelola metadata file menggunakan fitur canggih kami.",
+    "words_for": "untuk",
+    "release_title": "Versi {0} Diluncurkan",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "overview_title": "{{ProdShortName}} Dalam Sekilas",
+    "formats_title": "Format File yang Didukung",
+    "platforms": {
+      "title": "Independensi Platform",
+      "head_title": "Pilih Platform Anda",
+      "description": "Perpustakaan {{ProdShortName}} mendukung sistem operasi dan kerangka kerja berikut:",
+      "learn_more": "Pelajari lebih lanjut",
+      "any_other_text_editor": "Editor teks lainnya"
+    },
+    "features": {
+      "title": "{{ProdShortName}} Dalam Sekilas",
+      "description": "Solusi untuk mengelola konten dalam file PDF, dokumen Office, gambar, dan file bisnis lainnya.",
+      "feature_1": {
+        "title": "Hapus atau Edit Teks",
+        "content": "Temukan dan redaksi teks sensitif dalam dokumen Anda."
+      },
+      "feature_2": {
+        "title": "Redaksi Gambar",
+        "content": "Sembunyikan area gambar dalam file Anda tanpa usaha tambahan."
+      },
+      "feature_3": {
+        "title": "Kelola Metadata",
+        "content": "Hapus atau ganti metadata seperti pengarang dalam dokumen Word atau data EXIF dalam gambar."
+      },
+      "feature_4": {
+        "title": "Fitur Canggih",
+        "content": "Cari data untuk direduksi menggunakan ekspresi reguler atau integrasi AI."
+      }
+    },
+    "formats": {
+      "title": "30+ Format File Didukung",
+      "description": "{{ProdShortName}} mendukung operasi redaksi di semua format file bisnis yang umum digunakan."
+    },
+    "code_samples": {
+      "title": "Contoh Kode",
+      "index_title": "Contoh Kode {{ProdShortName}}",
+      "index_description": "Kasus penggunaan tipikal operasi redaksi {{ProdShortName}}.",
+      "more_examples": "Lebih banyak contoh",
+      "sample_index": {
+        "title": "Cara Meredaksi Teks dalam Dokumen PDF",
+        "content": "{{ProdShortName}} adalah solusi terbaik untuk meredaksi teks dalam dokumen Anda hanya dengan beberapa langkah.",
+        "comment_1": "Pass file path yang akan direduksi ke instance {{textRedactor}}",
+        "comment_2": "Berikan opsi redaksi",
+        "comment_3": "Redaksi dan simpan hasilnya"
+      },
+      "sample_1": {
+        "code_title": "Redaksi Dokumen Word Menggunakan Ekspresi Reguler",
+        "comment_1": "Buat instance dari kelas {{textRedactor}}",
+        "comment_2": "Tentukan aturan redaksi menggunakan ekspresi reguler",
+        "comment_3": "Sembunyikan semua teks yang cocok dengan overlay kotak biru",
+        "comment_4": "Simpan dokumen Word yang telah direduksi"
+      },
+      "sample_2": {
+        "code_title": "Hapus Semua Metadata dari Presentasi",
+        "comment_1": "Berikan path presentasi ke {{textRedactor}}",
+        "comment_2": "Konfigurasikan opsi redaksi",
+        "comment_3": "Hapus semua metadata dari presentasi",
+        "comment_4": "Simpan file presentasi yang telah dibersihkan"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} Pencapaian",
+      "description": "Temukan Metrik Kunci Yang Menyoroti Keberhasilan Perpustakaan Kami",
+      "item_1": {
+        "title": "Format yang Didukung",
+        "description": "{{ProdShortName}} mendukung operasi dengan lebih dari 30 format file yang umum digunakan."
+      },
+      "item_2": {
+        "title": "Unduhan NuGet",
+        "description": "{{ProdShortName}} untuk .NET telah diunduh lebih dari 440.000 kali dari NuGet."
+      },
+      "item_3": {
+        "title": "Unduhan Maven",
+        "description": "{{ProdShortName}} memiliki lebih dari 12.000 unduhan di Maven, menawarkan fitur redaksi Java yang kuat."
+      },
+      "item_4": {
+        "title": "Pelanggan Puas",
+        "description": "Baik perusahaan global maupun pengembang individu mengandalkan produk {{NameCompany}} untuk membangun solusi inovatif."
+      }
+    },
+    "customers": {
+      "title": "Pelanggan Kami yang Puas",
+      "description": "Perpustakaan {{NameCompany}} dipercaya oleh merek-merek yang diakui dan dihormati secara global."
+    },
+    "actions": {
+      "alt": "Lisensi",
+      "title": "Siap untuk Memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi.",
+      "description_index": "Coba fitur {{ProdShortName}} secara gratis di platform Anda."
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "description": "Jawaban untuk pertanyaan yang paling umum diajukan.",
+      "item_1": {
+        "question": "Apakah perpustakaan {{ProdShortName}} memerlukan perangkat lunak pihak ketiga untuk memanipulasi dokumen?",
+        "answer": "{{ProdShortName}} tidak memerlukan perangkat lunak eksternal seperti Adobe Acrobat, Microsoft Office, atau lainnya."
+      },
+      "item_2": {
+        "question": "Bisakah saya mencoba perpustakaan {{ProdShortName}} sebelum membeli?",
+        "answer": "Ya, Anda dapat mencoba {{ProdShortName}} tanpa membeli lisensi. Ini berfungsi dalam mode percobaan, yang menambahkan lencana percobaan dan membatasi output ke halaman pertama 3. Untuk menguji tanpa batasan, minta lisensi sementara selama 30 hari. Untuk informasi lebih lanjut, [lihat]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Opsi lisensi apa yang tersedia?",
+        "answer": "Kami menawarkan beberapa jenis lisensi berdasarkan kebutuhan pengembangan dan distribusi Anda. Ini termasuk lisensi berbasis pengembang, berbasis situs, dan lisensi Metered tergantung pada penggunaan. Pelajari lebih lanjut [di sini]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API Low-Code",
+      "description": "Integrasikan redaksi dokumen ke dalam aplikasi apa pun menggunakan API REST berbasis cloud kami.",
+      "item_1": {
+        "content": "Gunakan perintah cURL dengan API Cloud RESTful kami untuk meredaksi dokumen dalam berbagai format file yang didukung."
+      },
+      "item_2": {
+        "content": "Ekstrak gambar, teks, dan metadata atau redaksi dokumen menggunakan template dalam aplikasi Microsoft .NET."
+      },
+      "item_3": {
+        "content": "SDK Java untuk meredaksi dokumen dan mengekstrak data dalam aplikasi berbasis Java Anda."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Aplikasi Tanpa Kode",
+      "description": "Aplikasi berbasis web yang memungkinkan Anda meredaksi lebih dari 30 format file populer langsung di browser Anda.",
+      "item_1": {
+        "content": "Alat online gratis untuk meredaksi Word, Excel, PowerPoint, PDF, dan lebih dari 30 jenis file lainnya."
+      },
+      "item_2": {
+        "content": "Redaksi dokumen Word di browser Anda dan ekstrak gambar, teks, atau metadata."
+      },
+      "item_3": {
+        "content": "Alat redaksi PDF gratis yang berfungsi di perangkat atau platform apa pun tanpa batasan."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Format MS Office",
+      "title_2": "Format Office Lainnya",
+      "title_3": "Format Lainnya",
+      "format_portable": "Portabel",
+      "format_images": "Gambar",
+      "format_other_office": "Format Teks",
+      "format_other_web": "Web",
+      "format_other_ebooks": "eBook"
+    }
+  },
+  "index-content-net": {
+    "head_title": "Redaksi data sensitif dalam dokumen Anda menggunakan {{EnvNameShort}}",
+    "head_description": "Lindungi dokumen bisnis Anda dengan {{ProdFullName}}. Meredaksi, menyembunyikan, atau menghapus konten rahasia dari file PDF, dokumen Word, Excel, PowerPoint, dan gambar dengan mudah.",
+    "title": "Aman kan Konten Anda dengan {{ProdShortName}}",
+    "description": "Redaksi, sembunyikan, atau hapus secara permanen informasi sensitif dan metadata dari PDF, dokumen Word, spreadsheet, presentasi, dan gambar menggunakan solusi {{EnvNameShort}} kami yang kuat.",
+    "actions_main": "Unduh {{PackageStoreName}}",
+    "code_title": "Cara Meredaksi Konten File",
+    "code_comment_1": "Serahkan file input ke instance {{textRedactor}}",
+    "code_comment_2": "Konfigurasikan opsi redaksi",
+    "code_comment_3": "Jalankan proses redaksi",
+    "code_comment_4": "Simpan file yang sudah direduksi",
+    "overview_description": "Tambahkan redaksi konten bertipe profesional ke aplikasi {{EnvNameShort}} Anda",
+    "overview_feature_1": {
+      "title": "Redaksi Konten Teks",
+      "description": "{{ProdFullName}} memungkinkan Anda untuk menemukan dan meredaksi teks sensitif. Teks dapat diganti atau disembunyikan menggunakan overlay gambar berwarna untuk keamanan tambahan. Didukung di berbagai format termasuk PDF dan dokumen Office, fitur ini membantu melindungi data pribadi dan memperlancar kepatuhan bisnis."
+    },
+    "overview_feature_2": {
+      "title": "Redaksi Gambar",
+      "description": "Secara otomatis deteksi dan redaksi gambar—baik sepenuhnya atau sebagian—pada halaman dokumen. Tentukan kriteria pencarian dan area target untuk menyembunyikan konten visual sensitif secara efisien."
+    },
+    "overview_feature_3": {
+      "title": "Kelola Metadata File",
+      "description": "Banyak jenis file mengandung metadata tersembunyi, seperti nama pengarang dalam file Word atau data EXIF dalam gambar. {{ProdFullName}} memudahkan untuk menemukan dan meredaksi informasi ini demi memastikan privasi data yang komprehensif."
+    },
+    "overview_feature_4": {
+      "title": "Redaksi Objek Dokumen",
+      "description": "Pastikan perlindungan konten lengkap dengan meredaksi elemen spesifik dokumen seperti anotasi, komentar, dan objek tersemat dalam format seperti PDF."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Fitur",
+      "description": "Ekstrak dan redaksi data dari PDF, dokumen Office, dan gambar dengan kecepatan dan ketepatan tinggi.",
+      "feature_1": {
+        "title": "Pencarian Fleksibel",
+        "content": "Lakukan pencarian sensitif dapat menggunakan opsi pencarian peka huruf besar-kecil atau tidak peka huruf besar-kecil untuk meredaksi frasa atau istilah tertentu."
+      },
+      "feature_2": {
+        "title": "Ganti atau Hapus Teks",
+        "content": "Temukan dan ganti atau hapus teks sensitif di seluruh dokumen Anda."
+      },
+      "feature_3": {
+        "title": "Sembunyikan Teks dengan Gambar",
+        "content": "Gunakan overlay gambar berwarna untuk menutupi konten yang direduksi secara visual alih-alih mengganti teks."
+      },
+      "feature_4": {
+        "title": "Kemampuan Pencarian Canggih",
+        "content": "Gunakan ekspresi reguler untuk redaksi konten yang tepat dan fleksibel di set data yang kompleks."
+      },
+      "feature_5": {
+        "title": "Redaksi Terbatas",
+        "content": "Target halaman tertentu atau area halaman yang ditentukan untuk membatasi redaksi hanya pada bagian yang relevan."
+      },
+      "feature_6": {
+        "title": "Redaksi Metadata",
+        "content": "Temukan dan redaksi properti metadata untuk melindungi kepemilikan dan detail pembuatan dokumen."
+      },
+      "feature_7": {
+        "title": "Format Output Fleksibel",
+        "content": "Ekspor file yang telah direduksi ke PDF atau format lain yang didukung sambil menjaga integritas tata letak."
+      },
+      "feature_8": {
+        "title": "Penghapusan Metadata Lengkap",
+        "content": "Hapus semua metadata dari dokumen dalam satu tindakan untuk memastikan privasi mutlak."
+      },
+      "feature_9": {
+        "title": "Aturan Redaksi Berbasis XML",
+        "content": "Tentukan kebijakan redaksi dalam format XML untuk pemrosesan otomatis yang dapat diulang di berbagai file."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} kompatibel dengan berbagai sistem operasi, kerangka kerja pengembangan, dan manajer paket.",
+    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file]({{SupportedFormatsUrl}}) berikut.",
+    "code_samples_description": "Contoh penggunaan umum {{ProdFullName}} dalam aksi",
+    "code_title_sample_1": "Redaksi dengan Ekspresi Reguler",
+    "code_samples_sample_1_content": "{{ProdFullName}} memungkinkan pengembang {{ProgLang}} untuk meredaksi teks menggunakan [ekspresi reguler]({{Sample1Url}}) dan menyembunyikannya dengan overlay gambar:",
+    "code_title_sample_2": "Pembersihan Metadata",
+    "code_samples_sample_2_content": "Gunakan API kami untuk [menghapus]({{Sample2Url}}) semua metadata dari format file yang didukung:"
+  },
+  "index-content-java": {
+    "head_title": "Hapus data rahasia dari dokumen menggunakan {{EnvNameShort}}",
+    "head_description": "Lindungi informasi sensitif Anda dengan {{ProdFullName}}. Sembunyikan, redaksi, atau hapus konten pribadi dalam file PDF, dokumen Office, dan gambar dengan mudah.",
+    "title": "Lindungi Data Rahasia dengan {{ProdShortName}}",
+    "description": "Hapus data pribadi, redaksi teks, dan bersihkan metadata dari PDF, Word, Excel, PowerPoint, dan format gambar menggunakan toolkit {{EnvNameShort}} yang andal.",
+    "actions_main": "Unduh {{PackageStoreName}}",
+    "code_title": "Langkah-langkah untuk Meredaksi Konten Dokumen",
+    "code_comment_1": "Muat file sumber Anda dengan instance {{textRedactor}}",
+    "code_comment_2": "Tentukan kriteria dan pengaturan redaksi",
+    "code_comment_3": "Laksanakan operasi redaksi",
+    "code_comment_4": "Simpan file dengan redaksi yang diterapkan",
+    "overview_description": "Tingkatkan aplikasi {{EnvNameShort}} Anda dengan alat redaksi profesional",
+    "overview_feature_1": {
+      "title": "Hapus Teks Sensitif",
+      "description": "Dengan {{ProdFullName}}, Anda dapat mencari dan menyembunyikan teks pribadi menggunakan overlay atau penggantian yang dapat disesuaikan. Kompatibel dengan PDF, Word, Excel, dan lainnya, ideal untuk kepatuhan regulasi dan berbagi dokumen yang aman."
+    },
+    "overview_feature_2": {
+      "title": "Sembunyikan Gambar",
+      "description": "Identifikasi dan blokir gambar sepenuhnya atau sebagian berdasarkan persyaratan Anda. Tentukan aturan deteksi dan koordinat area untuk mengamankan data visual secara efisien."
+    },
+    "overview_feature_3": {
+      "title": "Bersihkan Metadata Tertanam",
+      "description": "File-file dapat menyimpan informasi tersembunyi seperti nama pengarang, alat pembuatan, atau rincian perangkat. {{ProdFullName}} memungkinkan Anda mendeteksi dan menyanitasi metadata dalam Word, Excel, gambar, dan format lainnya."
+    },
+    "overview_feature_4": {
+      "title": "Redaksi Objek Tertanam",
+      "description": "Mensterilkan dokumen secara menyeluruh melalui redaksi objek seperti anotasi PDF, komentar, atau item tertanam lain untuk menghilangkan segala jejak informasi rahasia."
+    },
+    "features": {
+      "title": "Apa yang Dapat Anda Lakukan dengan {{ProdShortName}}",
+      "description": "Dengan cepat menemukan dan meredaksi konten dari PDF, dokumen Office, dan gambar dengan ketepatan.",
+      "feature_1": {
+        "title": "Pencarian Dengan Ketepatan",
+        "content": "Gunakan mode pencarian sensitif dan tidak sensitif untuk menemukan dan meredaksi kesesuaian yang tepat."
+      },
+      "feature_2": {
+        "title": "Temukan dan Ganti Teks",
+        "content": "Secara otomatis mendeteksi dan mengganti atau menghapus teks rahasia di seluruh dokumen."
+      },
+      "feature_3": {
+        "title": "Overlay dengan Gambar Kustom",
+        "content": "Gunakan blok gambar untuk menyembunyikan teks yang direduksi, menjaga tata letak sambil menyembunyikan detail."
+      },
+      "feature_4": {
+        "title": "Gunakan Regex untuk Redaksi Canggih",
+        "content": "Manfaatkan ekspresi reguler untuk mendeteksi pola kompleks dan meredaksi secara cerdas."
+      },
+      "feature_5": {
+        "title": "Redaksi Area Tertentu",
+        "content": "Batasi redaksi hanya pada halaman atau zona yang dipilih dengan menentukan area yang tepat untuk ditargetkan."
+      },
+      "feature_6": {
+        "title": "Bersihkan Bidang Metadata",
+        "content": "Identifikasi dan bersihkan metadata dokumen, termasuk pengarang, perusahaan, atau data pelacakan."
+      },
+      "feature_7": {
+        "title": "Ekspor dalam Format yang Diinginkan",
+        "content": "Simpan file yang telah direduksi dalam format PDF atau format lain yang didukung tanpa kehilangan integritas tata letak."
+      },
+      "feature_8": {
+        "title": "Hapus Semua Metadata",
+        "content": "Sepenuhnya menghapus metadata dari file yang didukung dalam satu perintah."
+      },
+      "feature_9": {
+        "title": "Kebijakan Redaksi Otomatis",
+        "content": "Buat konfigurasi redaksi yang dapat digunakan kembali yang disimpan dalam XML untuk redaksi yang konsisten dan batch."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} berfungsi di semua sistem operasi utama, kerangka kerja, dan platform pengembangan.",
+    "formats_description": "{{ProdFullName}} mendukung bekerja dengan format [file]({{SupportedFormatsUrl}}) berikut.",
+    "code_samples_description": "Contoh penggunaan umum {{ProdFullName}}",
+    "code_title_sample_1": "Redaksi Menggunakan Regex",
+    "code_samples_sample_1_content": "{{ProdFullName}} memberdayakan pengembang {{ProgLang}} untuk menerapkan [redaksi berbasis regex]({{Sample1Url}}) dengan opsi pengaburan gambar:",
+    "code_title_sample_2": "Hapus Semua Metadata",
+    "code_samples_sample_2_content": "Dengan API kami, Anda dapat [menghapus metadata]({{Sample2Url}}) di berbagai jenis file dalam satu langkah:"
+  },
+  "index-content-python": {
+    "head_title": "Hapus informasi rahasia dari dokumen dengan {{EnvNameShort}}",
+    "head_description": "Amankan file Anda menggunakan {{ProdFullName}}. Dengan cepat meredaksi, menyembunyikan, atau menghapus konten sensitif dalam file PDF, Word, Excel, PowerPoint, dan gambar.",
+    "title": "Pastikan Dokumen Anda Aman dengan {{ProdShortName}}",
+    "description": "Hapus data pribadi dengan mudah, redaksi teks, dan bersihkan metadata tersembunyi dari PDF, file Office, dan gambar menggunakan toolkit {{EnvNameShort}} yang canggih.",
+    "actions_main": "Unduh {{PackageStoreName}}",
+    "code_title": "Meredaksi Konten Dokumen",
+    "code_comment_1": "Muat file Anda ke dalam instance {{textRedactor}}",
+    "code_comment_2": "Atur parameter redaksi",
+    "code_comment_3": "Mulai proses redaksi",
+    "code_comment_4": "Ekspor file yang telah dibersihkan",
+    "overview_description": "Integrasikan kemampuan redaksi yang kuat ke dalam proyek {{EnvNameShort}} Anda",
+    "overview_feature_1": {
+      "title": "Redaksi Teks Sensitif",
+      "description": "Dengan {{ProdFullName}}, Anda dapat secara otomatis menemukan dan menutup kata atau frasa sensitif. Ganti atau tutupi teks dengan kotak berwarna untuk perlindungan lebih baik di seluruh PDF, dokumen Word, dan format lainnya."
+    },
+    "overview_feature_2": {
+      "title": "Menutupi Gambar",
+      "description": "Teknologi kami dapat mendeteksi gambar dan memburamkan, menyembunyikan, atau memblokirnya berdasarkan kriteria yang Anda pilih. Tentukan area spesifik atau biarkan deteksi otomatis untuk kontrol penuh."
+    },
+    "overview_feature_3": {
+      "title": "Hapus Metadata Tersembunyi",
+      "description": "Hilangkan detail pribadi atau pelacakan yang tersembunyi dalam metadata, seperti kepemilikan atau informasi perangkat. {{ProdFullName}} memastikan dokumen Anda benar-benar bersih dan aman untuk dibagikan."
+    },
+    "overview_feature_4": {
+      "title": "Redaksi Elemen Khusus",
+      "description": "Melangkah lebih jauh dari teks dengan meredaksi item tertanam seperti komentar, anotasi, dan elemen spesifik file lainnya untuk mencapai kerahasiaan total."
+    },
+    "features": {
+      "title": "Fitur Utama {{ProdFullName}}",
+      "description": "Dengan mudah memindai, menemukan, dan meredaksi konten sensitif dalam PDF, gambar, dan file Office.",
+      "feature_1": {
+        "title": "Pencarian yang Dapat Disesuaikan",
+        "content": "Gunakan mode pencarian fleksibel untuk menemukan kecocokan yang tepat atau kata kunci untuk dihapus."
+      },
+      "feature_2": {
+        "title": "Temukan, Ganti, atau Hapus Teks",
+        "content": "Temukan data sensitif dan ganti dengan teks yang aman atau hapus sepenuhnya."
+      },
+      "feature_3": {
+        "title": "Penutupan Visual",
+        "content": "Tumpangkan bentuk atau pola berwarna untuk secara visual menutup bagian yang telah direduksi."
+      },
+      "feature_4": {
+        "title": "Deteksi Berbasis Regex",
+        "content": "Manfaatkan ekspresi reguler untuk ketepatan penentuan dalam pencarian teks canggih."
+      },
+      "feature_5": {
+        "title": "Redaksi Tertarget",
+        "content": "Terapkan redaksi hanya ke halaman tertentu atau wilayah yang ditentukan untuk menghemat waktu dan fokus pada area kunci."
+      },
+      "feature_6": {
+        "title": "Sanitasi Metadata",
+        "content": "Dengan mudah menghapus bidang metadata seperti pencipta, perusahaan, atau timestamp dari file Anda."
+      },
+      "feature_7": {
+        "title": "Opsi Ekspor",
+        "content": "Simpan dokumen yang telah diproses dalam PDF atau format lain yang kompatibel tanpa kehilangan fidelitas tata letak."
+      },
+      "feature_8": {
+        "title": "Pembersihan Metadata Lengkap",
+        "content": "Hapus semua metadata tertanam dengan satu klik untuk perlindungan data maksimum."
+      },
+      "feature_9": {
+        "title": "Kebijakan XML yang Dapat Digunakan Ulang",
+        "content": "Simpan konfigurasi redaksi kustom Anda sebagai template XML untuk mengotomatisasi tugas di masa depan."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} berfungsi di semua sistem operasi utama, mendukung kerangka kerja populer, dan terintegrasi dengan manajer paket umum.",
+    "formats_description": "{{ProdFullName}} mendukung format [file]({{SupportedFormatsUrl}}) berikut.",
+    "code_samples_description": "Jelajahi bagaimana {{ProdFullName}} menyederhanakan tugas redaksi",
+    "code_title_sample_1": "Redaksi Berbasis Regex",
+    "code_samples_sample_1_content": "Pengembang yang menggunakan {{ProgLang}} dapat menerapkan [aturan berbasis regex]({{Sample1Url}}) untuk menemukan dan menutupi teks sensitif dengan masker gambar:",
+    "code_title_sample_2": "Hapus Metadata",
+    "code_samples_sample_2_content": "Gunakan API untuk [menghapus metadata]({{Sample2Url}}) di berbagai jenis file dalam beberapa langkah:"
+  }
+}

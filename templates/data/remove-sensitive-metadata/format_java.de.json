@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Saubere Metadaten in {{FileFormatUp}} mit {{ProgLang}}",
+      "description": "{{ProdFullName}} ermöglicht das Löschen oder Aktualisieren von versteckten Metadaten in {{FileFormatUp}}-Dateien. Entfernen Sie private Informationen vor dem Teilen Ihrer Dokumente."
+    },
+    "header": {
+      "title": "Entfernen von Metadaten aus {{FileFormatUp}}-Dateien mit {{EnvNameShort}}",
+      "description": "Schützen Sie persönliche und geschäftliche Informationen in Ihren {{FileFormatUp}}-Dateien mit {{ProgLang}}. Effektive Werkzeuge zum Schutz Ihrer Daten.",
+      "subtitle": "Hauptmerkmale von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Metadaten in {{FileFormatCap}}-Dokumenten bereinigen",
+      "content": {
+        "title": "Beginnen Sie mit {{ProdShortName}}, um Metadaten in Ihren {{EnvName}}-Projekten zu schützen.",
+        "step_1": "Richten Sie einen {{textRedactor}} ein und öffnen Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie zum Löschen aller Metadatenfelder.",
+        "step_3": "Führen Sie die Redaktion durch, um versteckte Daten zu löschen.",
+        "step_4": "Speichern Sie die Datei ohne Metadaten."
+      }
+    },
+    "example_top": {
+      "comment_1": "Metadaten in {{FileFormatUp}}-Dateien bereinigen",
+      "comment_2": "Verwenden Sie {{textRedactor}}, um die Datei zu öffnen",
+      "comment_3": "Legen Sie die Einstellungen zur Metadatenredaktion fest",
+      "comment_4": "Änderungen anwenden und speichern"
+    },
+    "example_bottom": {
+      "title": "Versteckte Metadaten bereinigen",
+      "content": "Dieses Beispiel zeigt, wie Metadaten in {{FileFormatUp}}-Dateien geändert oder gelöscht werden.",
+      "comment_1": "Öffnen Sie die {{FileFormatUp}}-Datei mit dem Redaktor",
+      "comment_2": "Ziel das Metadatenfeld Autor",
+      "comment_3": "Ziel das Metadatenfeld Titel",
+      "comment_4": "Führen Sie die Bereinigung der Metadaten durch",
+      "comment_5": "Speichern Sie die endgültige Datei"
+    },
+    "more_features": {
+      "title": "Entfernen Sie sensible Informationen aus Dateien",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, private Inhalte in verschiedenen Dokumentenformaten zu bereinigen. Halten Sie Ihre Dateien sicher und leicht teilbar.",
+      "image_description": "Kernmerkmale der Redaktion",
+      "feature_1": {
+        "title": "Textredaktion",
+        "content": "Finden und löschen Sie persönliche oder sensible Wörter in Ihren Dokumenten."
+      },
+      "feature_2": {
+        "title": "Bilder abdecken",
+        "content": "Überlagerungen auf Bildern anbringen, um private visuelle Inhalte zu verbergen."
+      },
+      "feature_3": {
+        "title": "Entfernen von Metadaten",
+        "content": "Löschen Sie versteckte Metadaten, die private Informationen preisgeben könnten."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdShortName}} bietet {{ProgLang}}-Entwicklern Werkzeuge zum Verbergen von Text, Bildinhalten und Metadaten in {{FileFormatUp}}-Dokumenten."
+    },
+    "formats": {
+      "title": "Sichern Sie {{FileFormatUp}}-Dateien mit {{EnvNameShort}} Metadatenredaktion",
+      "description": "Löschen Sie versteckte Felder in Ihren {{FileFormatUp}}-Dateien mit {{EnvNameShort}}. Schützen Sie die Privatsphäre mit einem einfachen Metadatenbereinigungswerkzeug."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Metadaten aus {{FileFormatUp}} mit {{ProgLang}} löschen",
+      "description": "Verwenden Sie {{ProdFullName}}, um versteckte Metadaten in Ihren {{FileFormatUp}}-Dateien zu bereinigen. Stellen Sie sicher, dass Ihre Dokumente keine privaten Informationen offenbaren."
+    },
+    "header": {
+      "title": "Metadaten in {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}} bereinigen",
+      "description": "Entfernen Sie unerwünschte Metadaten aus Ihren {{FileFormatUp}}-Dateien mit {{ProgLang}}. Halten Sie Ihre Dateien privat und sicher für das Teilen oder Speichern.",
+      "subtitle": "Schlüsselwerkzeuge in {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Versteckte Informationen aus {{FileFormatCap}}-Dateien löschen",
+      "content": {
+        "title": "{{ProdShortName}} erleichtert das Löschen von Metadaten in Ihren {{EnvName}}-Apps.",
+        "step_1": "Initialisieren Sie {{textRedactor}} und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Legen Sie das Werkzeug so fest, dass bestimmte Metadatenfelder entfernt werden.",
+        "step_3": "Wenden Sie die Redaktion an, um die versteckten Informationen zu löschen.",
+        "step_4": "Speichern Sie die aktualisierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Löschen Sie Metadaten aus {{FileFormatUp}}-Dateien",
+      "comment_2": "Öffnen Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Wählen Sie, welche Metadaten entfernt werden sollen",
+      "comment_4": "Änderungen anwenden und speichern"
+    },
+    "example_bottom": {
+      "title": "So entfernen Sie Metadaten",
+      "content": "Dieses Beispiel zeigt, wie Sie versteckte Eigenschaften wie Autor und Titel aus einer {{FileFormatUp}}-Datei löschen können.",
+      "comment_1": "Öffnen Sie Ihr {{FileFormatUp}}-Dokument",
+      "comment_2": "Wählen Sie das Feld Autor zur Bereinigung aus",
+      "comment_3": "Wählen Sie das Feld Titel zur Bereinigung aus",
+      "comment_4": "Führen Sie die Redaktion durch",
+      "comment_5": "Speichern Sie die endgültige Datei"
+    },
+    "more_features": {
+      "title": "Schutz sensibler Daten in Dokumenten",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, private Inhalte aus allen Arten von Dateien zu verbergen. Stellen Sie sicher, dass keine versteckten Daten geteilt werden.",
+      "image_description": "Metadaten-, Text- und Bildredaktionswerkzeuge",
+      "feature_1": {
+        "title": "Textredaktion",
+        "content": "Finden und löschen Sie sensible Texte in Ihrem Dokument."
+      },
+      "feature_2": {
+        "title": "Bildüberlagerungen",
+        "content": "Verbergen Sie Teile von Bildern, um private visuelle Inhalte zu schützen."
+      },
+      "feature_3": {
+        "title": "Metadatenbereinigung",
+        "content": "Entfernen Sie Hintergrundmetadaten, die versteckte Informationen offenbaren könnten."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdShortName}} hilft {{ProgLang}}-Entwicklern, private Inhalte aus {{FileFormatUp}}-Dateien zu entfernen. Verstecken Sie Text, Bilder und Metadaten."
+    },
+    "formats": {
+      "title": "Metadaten aus {{FileFormatUp}} mit {{EnvNameShort}} reinigen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um versteckte Metadaten aus {{FileFormatUp}}-Dokumenten zu entfernen. Gut für Datenschutz und Datensicherung."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Entfernen von Metadaten aus {{FileFormatUp}} mit {{ProgLang}}",
+      "description": "{{ProdFullName}} hilft, versteckte Metadaten aus {{FileFormatUp}}-Dateien zu bereinigen. Halten Sie Ihre Dokumente privat und frei von unerwünschten Details."
+    },
+    "header": {
+      "title": "Metadaten in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} bereinigen",
+      "description": "Verwenden Sie {{ProgLang}}, um persönliche oder versteckte Details in Ihren {{FileFormatUp}}-Dokumenten zu entfernen. Ideal für Arbeits- und Privatnutzung.",
+      "subtitle": "Sehen Sie, was Sie mit {{ProdFullName}} erreichen können"
+    },
+    "steps": {
+      "title": "Metadaten aus {{FileFormatCap}}-Dateien löschen",
+      "content": {
+        "title": "{{ProdShortName}} unterstützt Ihr {{EnvName}}-Projekt, um sensible Metadaten schnell zu bereinigen.",
+        "step_1": "Starten Sie einen {{textRedactor}} und öffnen Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie, welche Metadatenfelder entfernt werden sollen.",
+        "step_3": "Führen Sie die Redaktion durch, um sie aus der Datei zu löschen.",
+        "step_4": "Speichern Sie die bereinigte Version."
+      }
+    },
+    "example_top": {
+      "comment_1": "Versteckte Metadaten aus {{FileFormatUp}}-Dateien löschen",
+      "comment_2": "Öffnen Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Wählen Sie die Metadatenfelder aus, die entfernt werden sollen",
+      "comment_4": "Änderungen anwenden und Ihre Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Beispiel zur Entfernung von Metadaten",
+      "content": "Dieses Beispiel zeigt, wie Metadaten wie Autor oder Titel aus einer {{FileFormatUp}}-Datei gelöscht werden können.",
+      "comment_1": "Öffnen Sie Ihr Dokument",
+      "comment_2": "Wählen Sie das Autorfeld zur Redaktion aus",
+      "comment_3": "Wählen Sie das Titelfeld zur Redaktion aus",
+      "comment_4": "Führen Sie das Redaktionswerkzeug aus",
+      "comment_5": "Speichern Sie das Ergebnis"
+    },
+    "more_features": {
+      "title": "Sichern Sie Ihre Dateien, indem Sie sensible Informationen verbergen",
+      "description": "Mit {{ProdFullName}} können Sie private Daten aus verschiedenen Dokumenttypen bereinigen. Ein einfacher Weg, um Ihre Dateien sicher zu halten.",
+      "image_description": "Werkzeuge zur Bereinigung von Metadaten und Inhalten",
+      "feature_1": {
+        "title": "Text entfernen",
+        "content": "Suchen Sie nach Wörtern oder Phrasen, die private Daten enthalten, und löschen Sie sie."
+      },
+      "feature_2": {
+        "title": "Bilder abdecken",
+        "content": "Verbergen Sie Bildabschnitte, die private oder sensible Teile enthalten."
+      },
+      "feature_3": {
+        "title": "Metadaten löschen",
+        "content": "Entfernen Sie Hintergrundinformationen, die persönliche oder geschäftliche Details offenbaren könnten."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdShortName}} bietet {{ProgLang}}-Entwicklern die Werkzeuge, um Inhalte in {{FileFormatUp}}-Dateien zu kontrollieren. Entfernen Sie Text, Metadaten und Bilder nach Bedarf."
+    },
+    "formats": {
+      "title": "Metadatenbereinigung in {{FileFormatUp}} mit {{EnvNameShort}}",
+      "description": "Verwenden Sie {{EnvNameShort}}-Werkzeuge, um versteckte Daten aus {{FileFormatUp}}-Dateien zu entfernen. Teilen Sie saubere, sichere Dokumente."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Entfernen von Metadaten aus {{FileFormatUp}}-Dateien mit {{ProgLang}}",
+      "description": "Verwenden Sie {{ProdFullName}}, um versteckte Metadaten in Ihren {{FileFormatUp}}-Dateien zu löschen oder zu bearbeiten. Schützen Sie Ihre Inhalte und halten Sie Ihre Dokumente sauber."
+    },
+    "header": {
+      "title": "Metadaten in {{FileFormatUp}} mit {{EnvNameShort}}-Werkzeugen bereinigen",
+      "description": "Löschen Sie persönliche Details, die in Metadaten gespeichert sind, mit {{ProgLang}}. Funktioniert hervorragend für persönliche und geschäftliche Dokumente.",
+      "subtitle": "Hauptmerkmale von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Entfernen von Metadaten in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Mit {{ProdShortName}} können Ihre {{EnvName}}-Projekte versteckte Metadaten in nur wenigen Schritten bereinigen.",
+        "step_1": "Richten Sie einen {{textRedactor}} ein und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie die Metadatenfelder aus, die gelöscht werden sollen.",
+        "step_3": "Führen Sie den Redaktionsprozess durch.",
+        "step_4": "Speichern Sie die Datei ohne Metadaten."
+      }
+    },
+    "example_top": {
+      "comment_1": "Entfernen Sie Metadaten aus {{FileFormatUp}}-Dateien",
+      "comment_2": "Verwenden Sie {{textRedactor}}, um die Datei zu öffnen",
+      "comment_3": "Legen Sie die zu entfernenden Metadatenfelder fest",
+      "comment_4": "Änderungen anwenden und speichern"
+    },
+    "example_bottom": {
+      "title": "Beispiel zum Entfernen von Metadatenfeldern",
+      "content": "Dieses Beispiel zeigt, wie Sie Metadaten wie Autor und Titel aus einer {{FileFormatUp}}-Datei löschen können.",
+      "comment_1": "Öffnen Sie Ihre {{FileFormatUp}}-Datei",
+      "comment_2": "Ziel die Autorenmetadaten",
+      "comment_3": "Ziel die Titelmetadaten",
+      "comment_4": "Anwenden von Redaktionsregeln",
+      "comment_5": "Speichern Sie die redigierte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Redaktionswerkzeuge, die Sie verwenden können",
+      "description": "{{ProdFullName}} hilft Ihnen, sensible Informationen aus allen gängigen Dateitypen zu löschen. Halten Sie Dokumente sauber und bereit zum Teilen.",
+      "image_description": "Datenschutzmerkmale integriert",
+      "feature_1": {
+        "title": "Sensible Texte löschen",
+        "content": "Finden und löschen Sie Namen, E-Mails und andere persönliche Informationen in Ihren Dateien."
+      },
+      "feature_2": {
+        "title": "Teile von Bildern verbergen",
+        "content": "Fügen Sie Überlagerungen hinzu, um Bereiche in Bildern zu verdecken, die Sie privat halten möchten."
+      },
+      "feature_3": {
+        "title": "Metadaten bereinigen",
+        "content": "Löschen Sie Hintergrunddaten wie Autor oder Titel, bevor Sie Ihre Dateien teilen."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdShortName}} ist ein Redaktionswerkzeug für {{ProgLang}}-Entwickler. Es hilft Ihnen, Text, Bilder und Metadaten in {{FileFormatUp}}-Dateien zu bereinigen."
+    },
+    "formats": {
+      "title": "Metadaten aus {{FileFormatUp}} mit {{EnvNameShort}} entfernen",
+      "description": "{{EnvNameShort}} ermöglicht es, versteckte Daten in {{FileFormatUp}}-Dateien einfach zu löschen. Ideal zum Schutz der Dokumente vor dem Teilen."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Metadaten aus {{FileFormatUp}} mit {{ProgLang}} löschen",
+      "description": "Mit {{ProdFullName}} können Sie versteckte Metadaten aus {{FileFormatUp}}-Dateien schnell entfernen. Halten Sie Ihre Dokumente sicher und privat."
+    },
+    "header": {
+      "title": "Versteckte Metadaten in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} bereinigen",
+      "description": "Schützen Sie Ihre {{FileFormatUp}}-Dateien, indem Sie private Informationen mit {{ProgLang}}-Werkzeugen entfernen. Ideal für geschäftliche und private Nutzung.",
+      "subtitle": "Wie {{ProdFullName}} Ihnen hilft"
+    },
+    "steps": {
+      "title": "Metadaten in {{FileFormatCap}}-Dateien bereinigen",
+      "content": {
+        "title": "Verwenden Sie {{ProdShortName}}, um Metadaten aus Dokumenten in Ihren {{EnvName}}-Apps zu bereinigen.",
+        "step_1": "Starten Sie ein {{textRedactor}}-Objekt und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Definieren Sie Regeln, um versteckte Metadatenfelder zu löschen.",
+        "step_3": "Wenden Sie die Redaktion an, um Metadaten zu löschen.",
+        "step_4": "Speichern Sie die aktualisierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Entfernen Sie versteckte Metadaten aus {{FileFormatUp}}",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Konfigurieren Sie die Einstellungen zur Metadatenredaktion",
+      "comment_4": "Führen Sie die Redaktion durch und speichern Sie"
+    },
+    "example_bottom": {
+      "title": "Bereinigen von Metadatenfeldern in Dokumenten",
+      "content": "Dieses Beispiel erklärt, wie Sie Metadaten wie Autor und Titel in einer {{FileFormatUp}}-Datei löschen.",
+      "comment_1": "Laden Sie die Datei zur Verarbeitung",
+      "comment_2": "Löschen Sie das Autorenfeld",
+      "comment_3": "Löschen Sie das Titelfeld",
+      "comment_4": "Führen Sie die Redaktion durch",
+      "comment_5": "Speichern Sie die bereinigte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Werkzeuge zum Entfernen privater Informationen",
+      "description": "Verwenden Sie {{ProdFullName}}, um Text, Bilder und Metadaten aus vielen Dateiformaten zu bereinigen. Teilen Sie Ihre Dateien, ohne sensible Daten preiszugeben.",
+      "image_description": "Metadaten- und Inhaltsredaktionsfunktionen",
+      "feature_1": {
+        "title": "Gelöschter privater Text",
+        "content": "Suchen Sie nach sensiblen Inhalten in Dateien und entfernen oder ändern Sie diese nach Bedarf."
+      },
+      "feature_2": {
+        "title": "Bereiche von Bildern abdecken",
+        "content": "Verstecken Sie bestimmte Teile von Bildern, die vertrauliche Details enthalten könnten."
+      },
+      "feature_3": {
+        "title": "Löschen von Metadatenfeldern",
+        "content": "Löschen Sie versteckte Tags wie Autor, Titel und mehr, um die Privatsphäre zu gewährleisten."
+      }
+    },
+    "about": {
+      "title": "Erfahren Sie mehr über {{ProdFullName}}",
+      "content": "{{ProdShortName}} bietet {{ProgLang}}-Entwicklern alles, was sie benötigen, um Daten aus {{FileFormatUp}}-Dateien zu entfernen. Bereinigen Sie Metadaten, Text und Bilder."
+    },
+    "formats": {
+      "title": "Metadaten in {{FileFormatUp}} mit {{EnvNameShort}} löschen",
+      "description": "{{EnvNameShort}} ermöglicht es Ihnen, versteckte Metadaten in {{FileFormatUp}}-Dateien zu bereinigen. Ein einfacher Weg, um Ihre Dokumente zu schützen."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Entfernen von Metadaten aus {{FileFormatUp}} mit {{ProgLang}}",
+      "description": "Schützen Sie Ihre {{FileFormatUp}}-Dokumente, indem Sie versteckte Metadaten mit {{ProdFullName}} bereinigen. Halten Sie private Details davon ab, offengelegt zu werden."
+    },
+    "header": {
+      "title": "Metadaten in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} bereinigen",
+      "description": "Mit {{ProgLang}} entfernen Sie sensible Daten aus {{FileFormatUp}}-Dateien. Eine intelligente Methode, um Ihre Dokumente sicher zu halten.",
+      "subtitle": "Warum {{ProdFullName}} wählen"
+    },
+    "steps": {
+      "title": "So entfernen Sie Metadaten aus {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "In {{EnvName}} macht {{ProdShortName}} es einfach, Dokumentmetadaten zu bereinigen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Legen Sie Regeln fest, um versteckte Datenfelder zu entfernen.",
+        "step_3": "Führen Sie den Bereinigungsprozess durch.",
+        "step_4": "Speichern Sie das bereinigte Dokument."
+      }
+    },
+    "example_top": {
+      "comment_1": "Entfernen Sie versteckte Metadaten aus {{FileFormatUp}}",
+      "comment_2": "Starten Sie den Redaktor und öffnen Sie die Datei",
+      "comment_3": "Legen Sie Optionen für die Metadatenentfernung fest",
+      "comment_4": "Bereinigen und speichern Sie das Dokument"
+    },
+    "example_bottom": {
+      "title": "Fokussieren Sie auf spezifische Metadatenfelder",
+      "content": "Dieses Beispiel führt Sie durch das Entfernen von Feldern wie Autor und Titel aus einer {{FileFormatUp}}-Datei.",
+      "comment_1": "Laden Sie die Datei in den Redaktor",
+      "comment_2": "Wählen Sie das Autorenfeld aus",
+      "comment_3": "Wählen Sie das Titelfeld aus",
+      "comment_4": "Führen Sie die Redaktion durch",
+      "comment_5": "Speichern Sie die endgültige Datei"
+    },
+    "more_features": {
+      "title": "Entfernen Sie sensible Inhalte aus Dateien",
+      "description": "Mit {{ProdFullName}} können Sie Metadaten löschen, Texte redigieren und Bildbereiche in vielen Dateitypen abdecken. Ideal für rechtliche, persönliche oder geschäftliche Nutzung.",
+      "image_description": "Werkzeuge zur Bereinigung von Metadaten und Inhalten",
+      "feature_1": {
+        "title": "Finden und Text löschen",
+        "content": "Suchen Sie nach sensiblen Texten und entfernen Sie diese, um Informationen zu schützen."
+      },
+      "feature_2": {
+        "title": "Bildinhalte abdecken",
+        "content": "Verstecken Sie vertrauliche Bildabschnitte mithilfe von Überlagerungen."
+      },
+      "feature_3": {
+        "title": "Metadaten löschen",
+        "content": "Entfernen Sie eingebettete Details, die private Daten enthalten könnten."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdShortName}} bietet {{ProgLang}}-Entwicklern die Werkzeuge, um Inhalte in {{FileFormatUp}}-Dateien zu kontrollieren. Entfernen Sie Texte, Metadaten und Bilder nach Bedarf."
+    },
+    "formats": {
+      "title": "Metadatenbereinigung in {{FileFormatUp}} mit {{EnvNameShort}}",
+      "description": "Verwenden Sie {{EnvNameShort}}-Werkzeuge, um versteckte Daten in {{FileFormatUp}}-Dateien zu entfernen. Teilen Sie saubere, sichere Dokumente."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Löschen von Metadaten aus {{FileFormatUp}} mit {{ProgLang}}",
+      "description": "Verwenden Sie {{ProdFullName}}, um versteckte Metadaten aus {{FileFormatUp}}-Dateien zu bereinigen und Ihre Dokumente privat und sicher zu halten."
+    },
+    "header": {
+      "title": "Metadaten in {{FileFormatUp}} löschen mit {{EnvNameShort}}",
+      "description": "Schützen Sie Ihre Dateien mit benutzerfreundlichen Werkzeugen, die für {{ProgLang}} erstellt wurden. Entfernen Sie Metadaten in nur wenigen Schritten.",
+      "subtitle": "Was Sie mit {{ProdFullName}} erhalten"
+    },
+    "steps": {
+      "title": "So bereinigen Sie Metadaten aus {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Mit {{ProdShortName}} können Ihre {{EnvName}}-Apps Metadaten aus Dokumenten schnell bereinigen.",
+        "step_1": "Erstellen Sie ein {{textRedactor}}-Objekt und laden Sie das Dokument.",
+        "step_2": "Wählen Sie die Metadatenfelder aus, die Sie löschen möchten.",
+        "step_3": "Wenden Sie Ihre Redaktionsanpassungen an.",
+        "step_4": "Exportieren Sie Ihr Dokument ohne die versteckten Daten."
+      }
+    },
+    "example_top": {
+      "comment_1": "Löschen Sie Metadaten aus {{FileFormatUp}}-Dateien",
+      "comment_2": "Öffnen Sie Ihre Datei mit dem Redaktor",
+      "comment_3": "Legen Sie fest, welche Metadaten entfernt werden sollen",
+      "comment_4": "Bereinigen und speichern Sie die Datei"
+    },
+    "example_bottom": {
+      "title": "Entfernen versteckter Metadatenfelder",
+      "content": "Diese Vorlage zeigt, wie Sie eingebettete Informationen wie Autor und Titel aus einem {{FileFormatUp}}-Dokument löschen können.",
+      "comment_1": "Öffnen Sie die Datei mit dem Redaktor",
+      "comment_2": "Löschen Sie das Autorenfeld",
+      "comment_3": "Löschen Sie das Titelfeld",
+      "comment_4": "Wenden Sie die Redaktion an",
+      "comment_5": "Speichern Sie das aktualisierte Dokument"
+    },
+    "more_features": {
+      "title": "Halten Sie Ihre Dateien mit der Redaktionsfunktion sicher",
+      "description": "{{ProdFullName}} hilft, private oder versteckte Inhalte zu reinigen, damit Dokumente sicher geteilt werden können. Unterstützt viele Dateitypen.",
+      "image_description": "Was Sie redigieren können",
+      "feature_1": {
+        "title": "Sensible Texte entfernen",
+        "content": "Finden und löschen Sie persönliche oder vertrauliche Wörter aus Ihren Dateien."
+      },
+      "feature_2": {
+        "title": "Bildbereiche verstecken",
+        "content": "Verbergen Sie Teile von Bildern, die nicht sichtbar sein sollten."
+      },
+      "feature_3": {
+        "title": "Metadaten bereinigen",
+        "content": "Löschen Sie Felder, die versteckte Details offenbaren könnten."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdShortName}} ist ein Redaktionswerkzeug für {{ProgLang}}-Entwickler. Es hilft Ihnen, Text, Bilder und Metadaten in {{FileFormatUp}}-Dateien zu bereinigen."
+    },
+    "formats": {
+      "title": "Bereinigen Sie {{FileFormatUp}}-Metadaten in {{EnvNameShort}}",
+      "description": "Verwenden Sie {{EnvNameShort}}, um private Daten aus {{FileFormatUp}}-Dateien zu entfernen. Perfekt zum Bereinigen und Teilen sensibler Dokumente."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Metadaten in {{FileFormatUp}} mit {{ProgLang}} bearbeiten",
+      "description": "Verwenden Sie {{ProdFullName}}, um Metadaten in {{FileFormatUp}}-Dateien zu bereinigen oder zu ändern. Schützen Sie die Privatsphäre, indem Sie versteckte Daten entfernen."
+    },
+    "header": {
+      "title": "Metadaten aus {{FileFormatUp}}-Dateien mit {{EnvNameShort}} entfernen",
+      "description": "Halten Sie Ihre {{FileFormatUp}}-Dokumente mit einfachen {{ProgLang}}-Werkzeugen, die private Details entfernen, sicher.",
+      "subtitle": "Hauptmerkmale von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Metadaten in {{FileFormatCap}}-Dokumenten bereinigen",
+      "content": {
+        "title": "{{ProdShortName}} macht es einfach, Metadaten in Ihren {{EnvName}}-Projekten zu löschen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie Optionen zum Entfernen aller Metadatenfelder.",
+        "step_3": "Führen Sie die Redaktion durch, um die Datei zu bereinigen.",
+        "step_4": "Speichern Sie die aktualisierte Datei ohne versteckte Daten."
+      }
+    },
+    "example_top": {
+      "comment_1": "Metadaten aus {{FileFormatUp}}-Dateien bereinigen",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Legen Sie die Metadatenbereinigung fest",
+      "comment_4": "Führen Sie aus und speichern Sie die Änderungen"
+    },
+    "example_bottom": {
+      "title": "Versteckte Metadatenfelder löschen",
+      "content": "Dieses Beispiel zeigt, wie Sie Metadaten wie Autor und Titel in {{FileFormatUp}}-Dokumenten entfernen oder bearbeiten können.",
+      "comment_1": "Öffnen Sie die {{FileFormatUp}}-Datei mit dem Redaktor",
+      "comment_2": "Ziel die Autorenmetadaten",
+      "comment_3": "Ziel die Titelmetadaten",
+      "comment_4": "Führen Sie die Redaktion durch",
+      "comment_5": "Speichern Sie die bereinigte Datei"
+    },
+    "more_features": {
+      "title": "Schützen Sie Ihre Dokumente",
+      "description": "{{ProdFullName}} hilft, private Inhalte aus vielen Dokumenttypen zu entfernen. Halten Sie sensible Informationen aus Ihren gemeinsam genutzten Dateien fern.",
+      "image_description": "Wichtige Redaktionsmerkmale",
+      "feature_1": {
+        "title": "Text entfernen",
+        "content": "Suchen Sie und löschen Sie persönliche Wörter oder Phrasen aus Ihren Dateien."
+      },
+      "feature_2": {
+        "title": "Inhalte von Bildern verbergen",
+        "content": "Fügen Sie Überlagerungen hinzu, um Bereiche von Bildern mit sensiblen Informationen abzudecken."
+      },
+      "feature_3": {
+        "title": "Metadaten bearbeiten",
+        "content": "Bereinigen oder ändern Sie Metadatenfelder, um privates Wissen zu vermeiden."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdShortName}} bietet {{ProgLang}}-Entwicklern die Werkzeuge, um unerwünschte Texte, Bilder und Metadaten aus {{FileFormatUp}}-Dateien zu entfernen."
+    },
+    "formats": {
+      "title": "Metadaten aus {{FileFormatUp}} mit {{EnvNameShort}} entfernen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um versteckte Daten aus {{FileFormatUp}}-Dateien zu entfernen und sensible Informationen zu schützen."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Entfernen Sie versteckte Metadaten in {{FileFormatUp}} mit {{ProgLang}}",
+      "description": "Verwenden Sie {{ProdFullName}}, um Metadaten in {{FileFormatUp}}-Dateien zu bereinigen. Stellen Sie sicher, dass private Informationen verborgen bleiben."
+    },
+    "header": {
+      "title": "Metadaten aus {{FileFormatUp}}-Dateien mit {{EnvNameShort}} entfernen",
+      "description": "Halten Sie Ihre {{FileFormatUp}}-Dokumente sicher mit Werkzeugen, die für {{ProgLang}} entwickelt wurden. Entfernen Sie sensible Details schrittweise.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "Wie man Metadaten in {{FileFormatCap}}-Dateien bereinigt",
+      "content": {
+        "title": "Beginnen Sie mit der Verwendung von {{ProdShortName}} in Ihrer {{EnvName}}-App, um versteckte Metadaten schnell zu entfernen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und öffnen Sie Ihr {{FileFormatCap}}-Dokument.",
+        "step_2": "Wählen Sie die zu entfernenden Metadatenfelder aus.",
+        "step_3": "Wenden Sie die Redaktionsanpassungen an.",
+        "step_4": "Speichern Sie die bereinigte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Bereinigen Sie versteckte Metadaten aus {{FileFormatUp}}",
+      "comment_2": "Laden Sie Ihre Datei mit {{textRedactor}}",
+      "comment_3": "Legen Sie die Metadatenfelder fest, die gelöscht werden sollen",
+      "comment_4": "Änderungen anwenden und speichern"
+    },
+    "example_bottom": {
+      "title": "Sensible Metadaten löschen",
+      "content": "Dieser Leitfaden zeigt, wie Sie Felder wie Autor und Titel aus einem {{FileFormatUp}}-Dokument bereinigen können.",
+      "comment_1": "Öffnen Sie {{FileFormatUp}} im Redactor",
+      "comment_2": "Wählen Sie die Autorenmetadaten aus",
+      "comment_3": "Wählen Sie die Titelmetadaten aus",
+      "comment_4": "Wenden Sie die Redaktion an",
+      "comment_5": "Speichern Sie die endgültige Datei"
+    },
+    "more_features": {
+      "title": "Inhalte in jeder Datei bereinigen",
+      "description": "{{ProdFullName}} hilft, privaten Text, versteckte Bilddetails und Metadaten aus Ihren Dokumenten vor dem Teilen zu entfernen.",
+      "image_description": "Hauptmerkmale",
+      "feature_1": {
+        "title": "Textbereinigung",
+        "content": "Suchen Sie nach privaten Wörtern oder Zahlen und entfernen Sie sie sicher."
+      },
+      "feature_2": {
+        "title": "Bildbereiche abdecken",
+        "content": "Verstecken Sie sensible Teile von Bildern mit Überlagerungen."
+      },
+      "feature_3": {
+        "title": "Metadaten entfernen",
+        "content": "Löschen Sie Metadatenfelder, die private Informationen enthalten könnten."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdShortName}} ermöglicht {{ProgLang}}-Entwicklern, sensible Inhalte — einschließlich Text, Bilder und Metadaten — aus {{FileFormatUp}}-Dateien zu entfernen."
+    },
+    "formats": {
+      "title": "Metadaten in {{FileFormatUp}} mit {{EnvNameShort}} bereinigen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um versteckte Daten in {{FileFormatUp}}-Dateien zu löschen. Ideal für die Dokumentenbereinigung vor dem Teilen oder Archivieren."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Metadaten in {{FileFormatUp}} mit {{ProgLang}} löschen",
+      "description": "{{ProdFullName}} hilft Ihnen, versteckte Daten aus {{FileFormatUp}}-Dateien zu entfernen, die persönliche oder geschäftliche Details offenbaren könnten."
+    },
+    "header": {
+      "title": "Metadaten aus {{FileFormatUp}} mit {{EnvNameShort}} entfernen",
+      "description": "Halten Sie Ihre {{FileFormatUp}}-Dateien sicher, indem Sie versteckte Metadaten mit {{ProgLang}}-Werkzeugen entfernen.",
+      "subtitle": "Highlights von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "So entfernen Sie Metadaten aus {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Verwenden Sie {{ProdShortName}} in Ihrer {{EnvName}}-App, um Metadaten aus Dokumenten zu löschen.",
+        "step_1": "Starten Sie einen {{textRedactor}} und öffnen Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Legen Sie die Regeln fest, um versteckte Felder zu löschen.",
+        "step_3": "Wenden Sie die Redaktion an, um die Datei zu bereinigen.",
+        "step_4": "Speichern Sie die aktualisierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Bereinigen Sie Metadaten in {{FileFormatUp}}-Dateien",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Wählen Sie zu redigende Metadatenfelder aus",
+      "comment_4": "Änderungen anwenden und Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Versteckte Metadatenfelder löschen",
+      "content": "Dieses Beispiel zeigt, wie Sie Felder wie Autor und Titel aus einem {{FileFormatUp}}-Dokument entfernen.",
+      "comment_1": "Öffnen Sie die {{FileFormatUp}}-Datei im Redaktor",
+      "comment_2": "Redigieren Sie das Autorenfeld",
+      "comment_3": "Redigieren Sie das Titelfeld",
+      "comment_4": "Führen Sie den Prozess aus",
+      "comment_5": "Speichern Sie die bereinigte Datei"
+    },
+    "more_features": {
+      "title": "Entfernen Sie private Informationen aus Dokumenten",
+      "description": "{{ProdFullName}} hilft Ihnen, Dateien zu reinigen, indem Sie sensible Texte, Bildinhalte und Metadaten löschen. Ideal für Datenschutz und Sicherheit.",
+      "image_description": "Nützliche Redaktionsmerkmale",
+      "feature_1": {
+        "title": "Textbereinigung",
+        "content": "Finden und löschen Sie Wörter oder Zahlen, die nicht geteilt werden sollten."
+      },
+      "feature_2": {
+        "title": "Bildredaktion",
+        "content": "Fügen Sie Abdeckungen über Teile von Bildern mit sensiblen Inhalten hinzu."
+      },
+      "feature_3": {
+        "title": "Metadatenlöschung",
+        "content": "Bereinigen Sie Dateidetails, die private Informationen enthalten könnten."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdShortName}} bietet {{ProgLang}}-Entwicklern Werkzeuge, um sensible Inhalte in {{FileFormatUp}}-Dateien zu verbergen, einschließlich Text, Bildabschnitte und Metadaten."
+    },
+    "formats": {
+      "title": "Verwenden Sie {{EnvNameShort}}, um {{FileFormatUp}}-Metadaten zu entfernen",
+      "description": "Schützen Sie Ihre {{FileFormatUp}}-Dokumente, indem Sie Metadaten mit {{EnvNameShort}}-Werkzeugen löschen."
+    }
+  }
+}

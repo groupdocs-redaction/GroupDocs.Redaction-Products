@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Sensible Texte in {{FileFormatUp}} mit {{ProgLang}} redigieren",
+      "description": "Schützen Sie private Informationen in Ihren {{FileFormatUp}}-Dateien mit {{ProdFullName}}. Suchen und redigieren Sie sensible Daten schnell."
+    },
+    "header": {
+      "title": "Sensible Texte aus {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}} entfernen",
+      "description": "Nutzen Sie {{ProgLang}} und {{ProdFullName}}, um die Kontrolle über den Inhalt Ihrer {{FileFormatUp}}-Dateien zu übernehmen. Redigieren Sie persönliche, rechtliche oder vertrauliche Daten.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "So redigieren Sie Inhalte in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Schützen Sie Ihre Dokumente in jeder {{EnvName}}-Anwendung mit {{ProdFullName}}. Redigieren Sie sensible Texte schnell und präzise.",
+        "step_1": "Initialisieren Sie einen {{textRedactor}} und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Richten Sie die gewünschten Redaktionsoptionen ein.",
+        "step_3": "Geben Sie den zu suchenden Text und den Ersetzungstext an.",
+        "step_4": "Führen Sie die Redigierung durch und speichern Sie die Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "So redigieren Sie Texte in einer {{FileFormatUp}}-Datei",
+      "comment_2": "Laden Sie Ihre Datei mit dem {{textRedactor}}-Konstruktor",
+      "comment_3": "Setzen Sie Ihre Redaktionspräferenzen",
+      "comment_4": "Wählen Sie aus, wonach Sie suchen und womit Sie es ersetzen möchten",
+      "comment_5": "Wenden Sie die Redigierungen an und speichern Sie die neue {{FileFormatUp}}-Datei"
+    },
+    "example_bottom": {
+      "title": "Texte mit Regex redigieren",
+      "content": "Verwenden Sie reguläre Ausdrücke, um sensible Textmuster wie E-Mails oder IDs zu suchen und zu redigieren.",
+      "comment_1": "Öffnen Sie das Dokument, das Sie bereinigen möchten",
+      "comment_2": "Definieren Sie ein EMAIL-Regex-Muster und den zu verwendenden Ersetzungstext",
+      "comment_3": "Wenden Sie die Redaktionsregeln an",
+      "comment_4": "Speichern Sie die endgültige redigierte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Möglichkeiten zur Redigierung von Dokumenten",
+      "description": "{{ProdFullName}} hilft dabei, sensible Inhalte in mehreren Dateiformaten zu entfernen oder zu verbergen. Halten Sie Dokumente sauber und sicher zum Teilen.",
+      "image_description": "Redaktionswerkzeuge und -optionen",
+      "feature_1": {
+        "title": "Vertrauliche Texte ersetzen",
+        "content": "Finden und ersetzen Sie übereinstimmende Texte überall in Ihrer Datei. Unterstützt Regex und intelligente Suchoptionen."
+      },
+      "feature_2": {
+        "title": "Sensible Bilder verbergen",
+        "content": "Decken Sie Bilder oder bestimmte Bereiche mit Überlagerungen ab. Passen Sie Seiteneinstellungen, Farben und mehr an."
+      },
+      "feature_3": {
+        "title": "Versteckte Metadaten bereinigen",
+        "content": "Entfernen Sie versteckte Daten wie Urheberschaft, Zeitstempel oder Kommentare, um die Privatsphäre zu schützen."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern alles, was sie benötigen, um Inhalte in {{FileFormatUp}} zu redigieren. Bereinigen Sie Texte, Bilder, Anmerkungen, Kommentare und Metadaten in gängigen Dateitypen."
+    },
+    "formats": {
+      "title": "Inhalte in {{FileFormatUp}} mit {{EnvNameShort}} redigieren",
+      "description": "Schützen Sie offizielle und persönliche Daten, indem Sie Texte in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}-Werkzeugen redigieren. Halten Sie Dokumente sicher und privat."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Private Texte aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Schützen Sie schnell private Inhalte in Ihren {{FileFormatUp}}-Dateien mit {{ProdFullName}} und {{ProgLang}}. Schnell und effektiv, um Ergebnisse zu erhalten."
+    },
+    "header": {
+      "title": "Sensible Texte in {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}} finden und verbergen",
+      "description": "Ob für persönliche oder geschäftliche Zwecke, {{ProdFullName}} und {{ProgLang}} helfen dabei, private Informationen aus dem Blickfeld zu verschwinden.",
+      "subtitle": "Wie {{ProdFullName}} Ihnen hilft"
+    },
+    "steps": {
+      "title": "So redigieren Sie Inhalte in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Befolgen Sie diese schnellen Schritte in Ihrem {{EnvName}}-Projekt, um private Texte mit {{ProdFullName}} zu bereinigen.",
+        "step_1": "Starten Sie einen neuen {{textRedactor}} und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie die gewünschten Redaktionsoptionen aus.",
+        "step_3": "Geben Sie den zu suchenden Text und den Ersetzungstext an.",
+        "step_4": "Führen Sie die Redigierung durch und speichern Sie Ihre Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Texte in einer {{FileFormatUp}}-Datei redigieren",
+      "comment_2": "Laden Sie Ihre Datei mit {{textRedactor}}",
+      "comment_3": "Wählen Sie die Redaktionsoptionen, die Ihren Anforderungen entsprechen",
+      "comment_4": "Legen Sie fest, wonach Sie suchen und womit Sie es ersetzen möchten",
+      "comment_5": "Führen Sie das Tool aus und speichern Sie Ihre redigierte Datei"
+    },
+    "example_bottom": {
+      "title": "Muster mit Regex finden und redigieren",
+      "content": "Verwenden Sie Regex, um nach bestimmten Datentypen wie E-Mail-Adressen oder ID-Nummern zu suchen und sie automatisch zu bereinigen.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bereinigen müssen",
+      "comment_2": "Erstellen Sie eine EMAIL-Regex-Regel und eine Ersetzungszeichenfolge",
+      "comment_3": "Führen Sie die Redigierung basierend auf Ihren Einstellungen aus",
+      "comment_4": "Speichern Sie die aktualisierte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Redaktionsfunktionen",
+      "description": "Mit {{ProdFullName}} können Sie versteckte oder sichtbare Inhalte aus verschiedenen Dateitypen entfernen. Ideal zum sicheren Teilen.",
+      "image_description": "Übersicht über Redaktionsinstrumente",
+      "feature_1": {
+        "title": "Private Texte ersetzen",
+        "content": "Suchen Sie nach spezifischen Texten in der Datei und ersetzen Sie sie. Funktioniert mit einfachem Text oder Mustern."
+      },
+      "feature_2": {
+        "title": "Sensible Bilder abdecken",
+        "content": "Maskieren Sie Teile eines Bildes oder ganze Seiten mit Überlagerungen. Sie kontrollieren Farben, Größen und Positionen."
+      },
+      "feature_3": {
+        "title": "Versteckte Daten löschen",
+        "content": "Entfernen Sie Metadaten wie Namen, Kommentare oder Zeitstempel, um sicherzustellen, dass nichts zurückbleibt."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern die Werkzeuge, um sensible Inhalte in {{FileFormatUp}}-Dateien zu finden und zu bereinigen. Es funktioniert mit Text, Bildern, Notizen und mehr."
+    },
+    "formats": {
+      "title": "Daten in {{FileFormatUp}} mit {{EnvNameShort}} redigieren",
+      "description": "Schützen Sie persönliche oder offizielle Informationen, indem Sie sie in {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}} verbergen. Einfach und effektiv."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Private Texte aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Bereinigen Sie private Inhalte in Ihren {{FileFormatUp}}-Dateien schnell mit {{ProdFullName}} und {{ProgLang}}. Schnelle und effektive Redigierung."
+    },
+    "header": {
+      "title": "Sensible Texte in {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}} bearbeiten oder verbergen",
+      "description": "Mit {{ProdFullName}} und {{ProgLang}} können Sie persönliche oder geschäftliche Informationen aus Ihren {{FileFormatUp}}-Dateien entfernen und sicher zum Teilen aufbewahren.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "So redigieren Sie Texte in {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}} in Ihrem {{EnvName}}-Projekt, um sensible Infos in wenigen Schritten zu verbergen oder zu löschen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie die passenden Redaktionsoptionen aus.",
+        "step_3": "Geben Sie den zu suchenden Text und den Ersetzungstext an.",
+        "step_4": "Führen Sie den Redigierungsprozess durch und speichern Sie Ihre aktualisierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Texte aus einer {{FileFormatUp}}-Datei redigieren",
+      "comment_2": "Verwenden Sie {{textRedactor}}, um die Datei zu öffnen",
+      "comment_3": "Wählen Sie Ihre Redaktionsoptionen aus",
+      "comment_4": "Legen Sie den Such- und Ersetzungstext fest",
+      "comment_5": "Wenden Sie die Redigierungen an und speichern Sie die bereinigte Datei"
+    },
+    "example_bottom": {
+      "title": "Mit Regex-Regeln redigieren",
+      "content": "Verwenden Sie Regex, um Muster wie Telefonnummern, E-Mails oder andere persönliche Daten zu finden und zu bereinigen.",
+      "comment_1": "Öffnen Sie die Datei, um zu beginnen",
+      "comment_2": "Erstellen Sie eine EMAIL-Regex-Regel und wählen Sie eine Ersetzung aus",
+      "comment_3": "Führen Sie die Redigierung basierend auf Ihrem Muster durch",
+      "comment_4": "Speichern Sie die redigierte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Werkzeuge zum Redigieren",
+      "description": "{{ProdFullName}} hilft dabei, unterschiedliche Inhalte—Texte, Bilder oder Metadaten—zu bereinigen, damit Ihre Dateien zum sicheren Teilen bereit sind.",
+      "image_description": "Angezeigte Redaktionsoptionen",
+      "feature_1": {
+        "title": "Sensiblen Text ersetzen",
+        "content": "Durchsuchen Sie die Datei und ersetzen Sie vertrauliche Daten. Unterstützt einfache Texte und Muster."
+      },
+      "feature_2": {
+        "title": "Bereiche von Bildern abdecken",
+        "content": "Verwenden Sie Überlagerungen, um visuelle Daten zu verbergen. Wählen Sie die Farbe, die Größe und das Layout der Seite."
+      },
+      "feature_3": {
+        "title": "Zusätzliche Daten entfernen",
+        "content": "Löschen Sie Metadaten wie Autorennamen, Zeitstempel oder interne Notizen, um Lecks zu vermeiden."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} ermöglicht es {{ProgLang}}-Entwicklern, sensitive Informationen aus {{FileFormatUp}}-Dateien zu suchen und zu entfernen. Es funktioniert mit Text, Bildern, Notizen und Dateidaten."
+    },
+    "formats": {
+      "title": "Info in {{FileFormatUp}} mit {{EnvNameShort}} verbergen",
+      "description": "Reinigen Sie Ihre {{FileFormatUp}}-Dokumente, indem Sie persönliche oder sensible Texte mit {{EnvNameShort}}-Werkzeugen entfernen. Halten Sie Ihre Daten privat."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Private Texte aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Halten Sie Ihre {{FileFormatUp}}-Präsentationen privat mit {{ProdFullName}} und {{ProgLang}}. Schnelle Redigierung, einfache Einrichtung."
+    },
+    "header": {
+      "title": "Sensible Texte in {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}} bearbeiten oder verbergen",
+      "description": "Halten Sie Ihre Präsentationen sauber und privat. Verwenden Sie {{ProdFullName}} und {{ProgLang}}, um alles zu entfernen, was Sie nicht teilen möchten.",
+      "subtitle": "Was Sie mit {{ProdFullName}} tun können"
+    },
+    "steps": {
+      "title": "Schritte zur Bereinigung von {{FileFormatCap}}-Präsentationen",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}} in Ihrer {{EnvName}}-Anwendung, um sensible Inhalte in wenigen Schritten zu entfernen oder zu verdecken.",
+        "step_1": "Starten Sie einen neuen {{textRedactor}} und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie die Redaktionsregeln aus, die Sie anwenden möchten.",
+        "step_3": "Legen Sie den zu suchenden Text und den Ersetzungstext fest.",
+        "step_4": "Führen Sie die Redigierung durch und speichern Sie Ihre Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Redigieren einer {{FileFormatUp}}-Präsentation",
+      "comment_2": "Öffnen Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Wählen Sie die Redaktionsoptionen",
+      "comment_4": "Wählen Sie den zu suchenden und zu ersetzenden Text",
+      "comment_5": "Wenden Sie die Änderungen an und speichern Sie die aktualisierte Datei"
+    },
+    "example_bottom": {
+      "title": "Redigieren mit Regex-Mustern",
+      "content": "Finden und bereinigen Sie Daten wie E-Mail-Adressen oder IDs mithilfe von Regex. Ideal für wiederholbare Redigierungen.",
+      "comment_1": "Öffnen Sie Ihre Datei",
+      "comment_2": "Schreiben Sie ein EMAIL-Regex-Muster und legen Sie die Ersetzung fest",
+      "comment_3": "Wenden Sie Ihre Redaktionsoptionen an",
+      "comment_4": "Speichern Sie die redigierte Version"
+    },
+    "more_features": {
+      "title": "Redaktionsfunktionen, die Sie nutzen können",
+      "description": "{{ProdFullName}} hilft Ihnen, sensible Texte, Bilder und versteckte Daten in mehreren Dateitypen zu finden und zu verbergen. Perfekt zum sicheren Teilen von Dateien.",
+      "image_description": "Verfügbare Redaktionsoptionen",
+      "feature_1": {
+        "title": "Versteckte Texte ersetzen",
+        "content": "Suchen und ersetzen Sie private Wörter oder Phrasen überall in der Datei. Regex wird ebenfalls unterstützt."
+      },
+      "feature_2": {
+        "title": "Bilder abdecken",
+        "content": "Verwenden Sie Blöcke, um Bilder oder Bereiche zu verbergen, die Sie maskieren möchten. Kontrollieren Sie Form, Größe und Farbe."
+      },
+      "feature_3": {
+        "title": "Versteckte Details löschen",
+        "content": "Bereinigen Sie Metadaten wie Autorennamen, zuletzt bearbeitete Daten oder Kommentare, um Ihre Datei sauber zu machen."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Entwicklern alles, um sensible Inhalte aus {{FileFormatUp}}-Dateien zu entfernen. Es verarbeitet Texte, Visuals, Kommentare und Metadaten."
+    },
+    "formats": {
+      "title": "Bereinigen Sie {{FileFormatUp}}-Dateien mit {{EnvNameShort}}",
+      "description": "Machen Sie Ihre {{FileFormatUp}}-Dokumente sicherer zu teilen, indem Sie private Texte mit {{EnvNameShort}} verbergen. Schnelle, zuverlässige Ergebnisse."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Private Texte aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Halten Sie Ihre {{FileFormatUp}}-Dateien privat mit {{ProdFullName}} und {{ProgLang}}. Schnelle und effektive Möglichkeit, Texte zu redigieren."
+    },
+    "header": {
+      "title": "Sensible Texte in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} finden und entfernen",
+      "description": "Verwenden Sie {{ProgLang}} und {{ProdFullName}}, um Ihre persönlichen oder Arbeitsdateien zu schützen. Ihre privaten Informationen bleiben verborgen.",
+      "subtitle": "Hauptmerkmale von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "So redigieren Sie {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Mit {{ProdFullName}} ist es einfach, private Inhalte in {{EnvName}}-Apps zu finden und zu ersetzen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und öffnen Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie Ihre Redaktionsoptionen.",
+        "step_3": "Sagen Sie, wonach gesucht werden soll und welchen Text Sie als Ersatz verwenden möchten.",
+        "step_4": "Starten Sie die Redigierung und speichern Sie Ihre aktualisierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Schritte zur Redigierung von Inhalten in einem {{FileFormatUp}}-Dokument",
+      "comment_2": "Öffnen Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Passen Sie Ihre Redaktionsoptionen an",
+      "comment_4": "Wählen Sie aus, wonach gesucht werden soll und womit es ersetzt werden soll",
+      "comment_5": "Führen Sie die Redigierung durch und speichern Sie Ihre neue {{FileFormatUp}}-Datei"
+    },
+    "example_bottom": {
+      "title": "Verwenden Sie Regex für intelligentere Redigierungen",
+      "content": "Finden und entfernen Sie Datenmuster wie E-Mails oder IDs mit regulären Ausdrücken.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bereinigen möchten",
+      "comment_2": "Setzen Sie ein EMAIL-Regex-Muster und wählen Sie den Ersetzungstext aus",
+      "comment_3": "Führen Sie den Redigierungsprozess aus",
+      "comment_4": "Speichern Sie Ihre endgültige redigierte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Redaktionswerkzeuge",
+      "description": "{{ProdFullName}} bietet Ihnen leistungsstarke Möglichkeiten, private Informationen über viele Dateitypen zu verbergen oder zu löschen. Ideal zum sicheren Teilen.",
+      "image_description": "Verfügbare Redaktionswerkzeuge und -einstellungen",
+      "feature_1": {
+        "title": "Vertraulichen Text ersetzen",
+        "content": "Suchen und ersetzen Sie genaue Übereinstimmungen mit intelligenten Textoptionen, einschließlich Unterstützung für Regex."
+      },
+      "feature_2": {
+        "title": "Private Bilder verbergen",
+        "content": "Decken Sie vollständige Bilder oder nur Teile einer Seite ab. Sie können die Farbe und Größe der Überlagerung anpassen."
+      },
+      "feature_3": {
+        "title": "Versteckte Metadaten löschen",
+        "content": "Entfernen Sie Informationen wie Autorennamen, Bearbeitungsverlauf und Kommentare, um Ihre Identität zu schützen."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Benutzern die Werkzeuge, um {{FileFormatUp}}-Dokumente zu bereinigen. Redigieren Sie Texte, Bilder, Notizen und Hintergrunddaten."
+    },
+    "formats": {
+      "title": "Wie man {{FileFormatUp}} mit {{EnvNameShort}} redigiert",
+      "description": "Verwenden Sie {{EnvNameShort}}, um {{FileFormatUp}}-Dateien zu bereinigen. Halten Sie Ihre Inhalte privat und sicher vor Lecks."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Private Texte aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Halten Sie Ihre {{FileFormatUp}}-Dateien privat mit {{ProdFullName}} und {{ProgLang}}. Schnelle und unkomplizierte Möglichkeit, Texte zu redigieren."
+    },
+    "header": {
+      "title": "Sensible Texte in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} finden und entfernen",
+      "description": "Verwenden Sie {{ProgLang}} und {{ProdFullName}}, um Ihre persönlichen oder geschäftlichen Dateien zu schützen. Ihre privaten Informationen bleiben verborgen.",
+      "subtitle": "Hauptmerkmale von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "So redigieren Sie {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Mit {{ProdFullName}} ist es einfach, private Inhalte in {{EnvName}}-Apps zu finden und zu ersetzen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und öffnen Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie Ihre Redaktionsoptionen.",
+        "step_3": "Sagen Sie, wonach gesucht werden soll und welchen Text Sie als Ersatz verwenden möchten.",
+        "step_4": "Starten Sie die Redigierung und speichern Sie Ihre aktualisierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Schritte zur Redigierung von Inhalten in einem {{FileFormatUp}}-Dokument",
+      "comment_2": "Öffnen Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Passen Sie Ihre Redaktionsoptionen an",
+      "comment_4": "Wählen Sie aus, wonach gesucht werden soll und was ersetzt werden soll",
+      "comment_5": "Führen Sie die Redigierung durch und speichern Sie Ihre neue {{FileFormatUp}}-Datei"
+    },
+    "example_bottom": {
+      "title": "Verwenden Sie Regex für intelligentere Redigierungen",
+      "content": "Finden und entfernen Sie Datenmuster wie E-Mails oder IDs mit regulären Ausdrücken.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bereinigen möchten",
+      "comment_2": "Setzen Sie ein EMAIL-Regex-Muster und wählen Sie den Ersetzungstext aus",
+      "comment_3": "Führen Sie den Redigierungsprozess aus",
+      "comment_4": "Speichern Sie Ihre endgültige redigierte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Redaktionswerkzeuge",
+      "description": "{{ProdFullName}} bietet Ihnen leistungsstarke Möglichkeiten, private Informationen über viele Dateitypen zu verbergen oder zu löschen. Ideal zum sicheren Teilen.",
+      "image_description": "Verfügbare Redaktionswerkzeuge und -einstellungen",
+      "feature_1": {
+        "title": "Vertraulichen Text ersetzen",
+        "content": "Suchen und ersetzen Sie genaue Übereinstimmungen mit intelligenten Textoptionen, einschließlich Unterstützung für Regex."
+      },
+      "feature_2": {
+        "title": "Private Bilder verbergen",
+        "content": "Decken Sie vollständige Bilder oder nur Teile einer Seite ab. Sie können die Farbe und Größe der Überlagerung anpassen."
+      },
+      "feature_3": {
+        "title": "Versteckte Metadaten löschen",
+        "content": "Entfernen Sie Informationen wie Autorennamen, Bearbeitungsverlauf und Kommentare, um Ihre Identität zu schützen."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Benutzern die Werkzeuge, um {{FileFormatUp}}-Dokumente zu bereinigen. Redigieren Sie Texte, Bilder, Notizen und Hintergrunddaten."
+    },
+    "formats": {
+      "title": "Wie man {{FileFormatUp}} mit {{EnvNameShort}} redigiert",
+      "description": "Verwenden Sie {{EnvNameShort}}, um {{FileFormatUp}}-Dateien zu bereinigen. Halten Sie Ihre Inhalte privat und sicher vor Lecks."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Private Texte aus {{FileFormatUp}} mit {{ProgLang}} entfernen",
+      "description": "Halten Sie Ihre {{FileFormatUp}}-Dateien privat mit {{ProdFullName}} und {{ProgLang}}. Schnelle und einfache Möglichkeit, Texte zu redigieren."
+    },
+    "header": {
+      "title": "Sensible Texte in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} finden und entfernen",
+      "description": "Verwenden Sie {{ProgLang}} und {{ProdFullName}}, um Ihre persönlichen oder geschäftlichen Dateien zu schützen. Ihre privaten Informationen bleiben verborgen.",
+      "subtitle": "Hauptmerkmale von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "So redigieren Sie {{FileFormatCap}}-Dateien",
+      "content": {
+        "title": "Mit {{ProdFullName}} ist es einfach, private Inhalte in {{EnvName}}-Apps zu finden und zu ersetzen.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} und öffnen Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie Ihre Redaktionsoptionen.",
+        "step_3": "Sagen Sie, wonach gesucht werden soll und welcher Text als Ersatz verwendet werden soll.",
+        "step_4": "Starten Sie die Redigierung und speichern Sie Ihre aktualisierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Schritte zur Redigierung von Inhalten in einem {{FileFormatUp}}-Dokument",
+      "comment_2": "Öffnen Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Passen Sie Ihre Redaktionsoptionen an",
+      "comment_4": "Wählen Sie aus, wonach gesucht werden soll und was ersetzt werden soll",
+      "comment_5": "Führen Sie die Redigierung durch und speichern Sie Ihre neue {{FileFormatUp}}-Datei"
+    },
+    "example_bottom": {
+      "title": "Verwenden Sie Regex für intelligentere Redigierungen",
+      "content": "Finden und entfernen Sie Datenmuster wie E-Mails oder IDs mit regulären Ausdrücken.",
+      "comment_1": "Öffnen Sie die Datei, die Sie bereinigen möchten",
+      "comment_2": "Setzen Sie ein EMAIL-Regex-Muster und wählen Sie den Ersetzungstext aus",
+      "comment_3": "Führen Sie den Redigierungsprozess aus",
+      "comment_4": "Speichern Sie Ihre endgültige redigierte Datei"
+    },
+    "more_features": {
+      "title": "Weitere Redaktionswerkzeuge",
+      "description": "{{ProdFullName}} bietet Ihnen leistungsstarke Möglichkeiten, private Informationen über viele Dateitypen zu verbergen oder zu löschen. Ideal zum sicheren Teilen.",
+      "image_description": "Verfügbare Redaktionswerkzeuge und -einstellungen",
+      "feature_1": {
+        "title": "Vertraulichen Text ersetzen",
+        "content": "Suchen und ersetzen Sie genaue Übereinstimmungen mit intelligenten Textoptionen, einschließlich Unterstützung für Regex."
+      },
+      "feature_2": {
+        "title": "Private Bilder verbergen",
+        "content": "Decken Sie vollständige Bilder oder nur Teile einer Seite ab. Sie können die Farbe und Größe der Überlagerung anpassen."
+      },
+      "feature_3": {
+        "title": "Versteckte Metadaten löschen",
+        "content": "Entfernen Sie Informationen wie Autorennamen, Bearbeitungsverlauf und Kommentare, um Ihre Identität zu schützen."
+      }
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} bietet {{ProgLang}}-Benutzern die Werkzeuge, um {{FileFormatUp}}-Dokumente zu bereinigen. Redigieren Sie Texte, Bilder, Notizen und Hintergrunddaten."
+    },
+    "formats": {
+      "title": "Wie man {{FileFormatUp}} mit {{EnvNameShort}} redigiert",
+      "description": "Verwenden Sie {{EnvNameShort}}, um {{FileFormatUp}}-Dateien zu bereinigen. Halten Sie Ihre Inhalte privat und sicher vor Lecks."
+    }
+  }
+}

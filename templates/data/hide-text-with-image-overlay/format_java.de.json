@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Vertraulichen Text in {{FileFormatUp}} mit Überlagerungen verstecken, mithilfe von {{ProgLang}}",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, sensible Informationen in {{FileFormatUp}}-Dateien zu verbergen, indem farbige Boxen platziert werden. Schützen Sie Daten, ohne das Erscheinungsbild Ihrer Datei zu ändern."
+    },
+    "header": {
+      "title": "Text in {{FileFormatUp}}-Dokumenten mit Überlagerungen in {{EnvNameShort}} maskieren",
+      "description": "Übernehmen Sie die vollständige Kontrolle über den Inhalt von {{FileFormatUp}}-Dateien mit {{ProgLang}}. Verwenden Sie Redaktionen, um finanzielle, rechtliche oder persönliche Details zu schützen.",
+      "subtitle": "Top-Features von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Vertrauliche Informationen in {{FileFormatCap}}-Dateien schützen",
+      "content": {
+        "title": "{{ProdFullName}} ermöglicht es {{EnvName}}-Entwicklern, private Inhalte mit wenigen einfachen Schritten zu verbergen.",
+        "step_1": "Starten Sie einen {{textRedactor}} und laden Sie Ihre {{FileFormatCap}}-Datei.",
+        "step_2": "Legen Sie Ihre Redaktionspräferenzen fest.",
+        "step_3": "Wählen Sie, was gefunden werden soll, und wählen Sie Ihre Überlagerungsfarbe.",
+        "step_4": "Wenden Sie die Redaktion an und speichern Sie Ihr Dokument."
+      }
+    },
+    "example_top": {
+      "comment_1": "Text in {{FileFormatUp}} mit farbigen Überlagerungen verdecken",
+      "comment_2": "Übergeben Sie den Dateipfad an den {{textRedactor}}",
+      "comment_3": "Passen Sie die Redaktionseinstellungen an",
+      "comment_4": "Legen Sie den Zielttext und die Farbe fest",
+      "comment_5": "Anwenden und das redigierte {{FileFormatUp}} speichern"
+    },
+    "example_bottom": {
+      "title": "Text mit Regex verstecken",
+      "content": "Dieses Beispiel verwendet reguläre Ausdrücke, um spezifische Inhalte zu finden und zu verstecken.",
+      "comment_1": "Laden Sie die Datei, die Sie bearbeiten möchten",
+      "comment_2": "Legen Sie das Textmuster und die Überlagerungsfarbe fest",
+      "comment_3": "Wenden Sie die Redaktion an",
+      "comment_4": "Speichern Sie Ihre Änderungen"
+    },
+    "more_features": {
+      "title": "Kontrollieren, was in Dokumenten sichtbar ist",
+      "description": "{{ProdFullName}} erlaubt es Ihnen, Teile Ihrer Dateien zu blockieren oder zu entfernen, während sie weiterhin einfach zu betrachten und zu teilen bleiben.",
+      "image_description": "Leistungsstarke Redaktionswerkzeuge",
+      "feature_1": {
+        "title": "Zielgerichtet Text verbergen",
+        "content": "Durchsuchen Sie Ihr Dokument und verstecken Sie spezifische Wörter oder Phrasen, um private Infos zu schützen."
+      },
+      "feature_2": {
+        "title": "Bilder verdecken",
+        "content": "Fügen Sie Überlagerungen hinzu, um visuelle Elemente vollständig oder teilweise zu verstecken."
+      },
+      "feature_3": {
+        "title": "Metadaten entfernen",
+        "content": "Löschen Sie versteckte Dokumentendetails, um unbeabsichtigte Offenlegungen zu vermeiden."
+      }
+    },
+    "about": {
+      "title": "Was {{ProdFullName}} bietet",
+      "content": "{{ProdFullName}} gibt {{ProgLang}}-Entwicklern eine einfache Möglichkeit, Inhalte aus {{FileFormatUp}}-Dateien zu verbergen oder zu entfernen. Decken Sie Text, Bilder und Metadaten in verschiedenen Dokumenttypen ab."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Dateien mit {{EnvNameShort}} schützen",
+      "description": "Verwenden Sie {{EnvNameShort}}, um Inhalte in {{FileFormatUp}}-Dokumenten zu verdecken oder zu löschen. Eine großartige Möglichkeit, private Informationen sicher zu halten."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Text in {{FileFormatUp}} mit Überlagerungen verstecken, mithilfe von {{ProgLang}}",
+      "description": "Verwenden Sie {{ProdFullName}} zum Blockieren privaten Textes in {{FileFormatUp}}-Dateien. Halten Sie das Layout unverändert, während sensible Daten verborgen bleiben."
+    },
+    "header": {
+      "title": "Schützen Sie {{FileFormatUp}}-Text mit Überlagerungen in {{EnvNameShort}}",
+      "description": "Verbergen Sie schnell persönliche, rechtliche oder geschäftliche Details in {{FileFormatUp}}-Dateien mit {{ProgLang}} und {{ProdFullName}}.",
+      "subtitle": "Wichtige Werkzeuge in {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sensible Inhalte in {{FileFormatCap}} redigieren",
+      "content": {
+        "title": "Reinigen Sie Dokumente in Ihrem {{EnvName}}-Projekt mit {{ProdFullName}}.",
+        "step_1": "Initialisieren Sie den {{textRedactor}} mit Ihrer Datei.",
+        "step_2": "Wählen Sie, wie die Redaktion erfolgen soll.",
+        "step_3": "Wählen Sie den zu versteckenden Text und die Überlagerungsfarbe.",
+        "step_4": "Wenden Sie die Redaktion an und speichern Sie die Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Text mit Überlagerungen in {{FileFormatUp}} abdecken",
+      "comment_2": "Erstellen Sie einen {{textRedactor}} und laden Sie Ihr Dokument",
+      "comment_3": "Wählen Sie Redaktionsoptionen",
+      "comment_4": "Wählen Sie Text und Farbe aus",
+      "comment_5": "Speichern Sie die redigierte Version"
+    },
+    "example_bottom": {
+      "title": "Text mit Regex finden und verstecken",
+      "content": "Verwenden Sie Musterabgleich, um Schlüsselphrasen automatisch zu verstecken.",
+      "comment_1": "Öffnen Sie das Dokument, das Sie redigieren möchten",
+      "comment_2": "Legen Sie das Regex-Muster und den Überlagerungsstil fest",
+      "comment_3": "Wenden Sie die Redaktionslogik an",
+      "comment_4": "Speichern Sie Ihr bereinigtes Dokument"
+    },
+    "more_features": {
+      "title": "Redaktionswerkzeuge für den Alltag",
+      "description": "{{ProdFullName}} bietet Ihnen einfache Optionen, um sensible Details in Dokumenten zu verbergen, während die Benutzbarkeit erhalten bleibt.",
+      "image_description": "Einfache Redaktionsoptionen",
+      "feature_1": {
+        "title": "Text finden und ändern",
+        "content": "Wörter in Sekundenschnelle verstecken oder ersetzen."
+      },
+      "feature_2": {
+        "title": "Teile von Bildern blockieren",
+        "content": "Maskieren Sie Abschnitte von Bildern oder gescannten Inhalten."
+      },
+      "feature_3": {
+        "title": "Hintergrundinformationen löschen",
+        "content": "Versteckte Metadaten wie Urheberschaft oder Daten entfernen."
+      }
+    },
+    "about": {
+      "title": "Was {{ProdFullName}} ist",
+      "content": "{{ProdFullName}} gibt {{ProgLang}}-Entwicklern Werkzeuge an die Hand, um {{FileFormatUp}}-Dateien aufzuräumen. Redigieren Sie Namen, Zahlen oder Anmerkungen."
+    },
+    "formats": {
+      "title": "Redigieren Sie {{FileFormatUp}}-Dateien mithilfe von {{EnvNameShort}}",
+      "description": "Schützen Sie sensible Inhalte in {{FileFormatUp}} durch Verbergen oder Entfernen mit den Werkzeugen in {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Text in {{FileFormatUp}} mit {{ProgLang}}-Überlagerungen blockieren",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, sensible Informationen in {{FileFormatUp}}-Dateien mit farbigen Blocks zu verdecken. Daten verbergen und dabei das Layout intakt halten."
+    },
+    "header": {
+      "title": "Daten in {{FileFormatUp}} mit Überlagerungen in {{EnvNameShort}} verbergen",
+      "description": "Verwenden Sie {{ProgLang}} und {{ProdFullName}}, um private Inhalte in {{FileFormatUp}}-Dateien zu maskieren, ohne das Format zu beeinflussen.",
+      "subtitle": "Hauptfunktionen von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Informationen in {{FileFormatCap}}-Dokumenten schützen",
+      "content": {
+        "title": "Halten Sie Ihre Dokumente mit simplem Code in {{ProdFullName}} in {{EnvName}} sicher.",
+        "step_1": "Erstellen Sie einen {{textRedactor}} mit dem Datei-Pfad.",
+        "step_2": "Richten Sie Ihre Redaktionslogik ein.",
+        "step_3": "Wählen Sie das Schlüsselwort und die Überlagerungsfarbe.",
+        "step_4": "Redigieren und speichern Sie die Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verstecken Sie Informationen in {{FileFormatUp}} mit Blocks",
+      "comment_2": "Laden Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Legen Sie redaktionspräferenzen fest",
+      "comment_4": "Fügen Sie Text und Farbe zum Block hinzu",
+      "comment_5": "Speichern Sie das aktualisierte Dokument"
+    },
+    "example_bottom": {
+      "title": "Verwenden Sie Regex, um Inhalte zu redigieren",
+      "content": "Finden und verstecken Sie Text automatisch mit Musterabgleich.",
+      "comment_1": "Öffnen Sie die Tabelle",
+      "comment_2": "Definieren Sie das Muster und die Überlagerungsfarbe",
+      "comment_3": "Wenden Sie die Redaktionsregeln an",
+      "comment_4": "Exportieren Sie Ihr Ergebnis"
+    },
+    "more_features": {
+      "title": "Integrierte Datenschutzfunktionen",
+      "description": "Verwenden Sie {{ProdFullName}}, um Inhalte in Ihren Dateien zu blockieren oder zu löschen, ohne die Struktur zu gefährden.",
+      "image_description": "Einfache Datenschutzelemente",
+      "feature_1": {
+        "title": "Text ändern oder verstecken",
+        "content": "Bearbeiten oder redigieren Sie spezifische Wörter problemlos."
+      },
+      "feature_2": {
+        "title": "Teile von Bildern maskieren",
+        "content": "Fügen Sie Überlagerungen hinzu, um Fotos oder grafische Details zu verdecken."
+      },
+      "feature_3": {
+        "title": "Versteckte Informationen entfernen",
+        "content": "Löschen Sie Metadaten wie Benutzerdaten oder Dateihistorie."
+      }
+    },
+    "about": {
+      "title": "Warum {{ProdFullName}} funktioniert",
+      "content": "{{ProdFullName}} ermöglicht es {{ProgLang}}-Entwicklern, {{FileFormatUp}}-Dateien abzusichern. Verstecken Sie Text, Bilder oder Metadaten schnell."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Daten mithilfe von {{EnvNameShort}} redactieren",
+      "description": "Verwenden Sie Überlagerungen oder löschen Sie Inhalte in {{FileFormatUp}}-Dateien, um sensible Daten privat zu halten mit {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Text in {{FileFormatUp}}-Präsentationen mit {{ProgLang}}-Überlagerungen verstecken",
+      "description": "Verwenden Sie {{ProdFullName}}, um sensible Inhalte in {{FileFormatUp}}-Dateien mit farbigen Überlagerungen zu blockieren. Halten Sie Folien intakt, während Sie wichtige Informationen verbergen."
+    },
+    "header": {
+      "title": "Text in {{FileFormatUp}}-Präsentationen mit {{EnvNameShort}} maskieren",
+      "description": "Schützen Sie mühelos persönliche oder geschäftliche Details in Ihren {{FileFormatUp}}-Folien mithilfe von {{ProgLang}} und {{ProdFullName}}.",
+      "subtitle": "Entdecken Sie die Funktionen von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Private Inhalte in {{FileFormatCap}}-Folien redigieren",
+      "content": {
+        "title": "{{ProdFullName}} macht den Inhaltschutz einfach für {{EnvName}}-Entwickler.",
+        "step_1": "Richten Sie einen {{textRedactor}} mit Ihrem Präsentationspfad ein.",
+        "step_2": "Wählen Sie, wie die Redaktion arbeiten soll.",
+        "step_3": "Fügen Sie das Textmuster und die Überlagerungsfarbe hinzu.",
+        "step_4": "Redigieren Sie die Folie und speichern Sie sie."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verwenden Sie Überlagerungen, um Text in {{FileFormatUp}} zu blockieren",
+      "comment_2": "Initialisieren Sie {{textRedactor}} mit Ihrer Präsentation",
+      "comment_3": "Wählen Sie Ihre Redaktionspräferenzen aus",
+      "comment_4": "Legen Sie den Text und die Überlagerungsfarbe fest",
+      "comment_5": "Führen Sie die Redaktion durch und speichern Sie das Folienpaket"
+    },
+    "example_bottom": {
+      "title": "Text mit Regex redigieren",
+      "content": "Verwenden Sie reguläre Ausdrücke, um sensible Wörter zu finden und zu verdecken.",
+      "comment_1": "Öffnen Sie die Präsentationsdatei",
+      "comment_2": "Legen Sie Suchmuster und Überlagerungsfarbe fest",
+      "comment_3": "Führen Sie die Redaktionsregeln aus",
+      "comment_4": "Speichern Sie die finale Version"
+    },
+    "more_features": {
+      "title": "Leistungsstarke Redaktionswerkzeuge",
+      "description": "Mit {{ProdFullName}} können Sie sensible Inhalte in Ihren Präsentationen blockieren oder entfernen, ohne Layout oder Formatierung zu berühren.",
+      "image_description": "Funktionen, die über Folien hinweg funktionieren",
+      "feature_1": {
+        "title": "Text verstecken oder ersetzen",
+        "content": "Schützen Sie Namen, Begriffe oder Notizen, die nicht sichtbar sein sollten."
+      },
+      "feature_2": {
+        "title": "Visuelle Bereiche abdecken",
+        "content": "Fügen Sie Überlagerungen zu Bildern oder grafischen Abschnitten von Folien hinzu."
+      },
+      "feature_3": {
+        "title": "Metadaten löschen",
+        "content": "Löschen Sie Informationen, die möglicherweise Urheberschaft oder Bearbeitungshistorie offenbaren."
+      }
+    },
+    "about": {
+      "title": "Was {{ProdFullName}} tut",
+      "content": "{{ProdFullName}} ermöglicht es {{ProgLang}}-Entwicklern, Text, Bilder oder Metadaten in {{FileFormatUp}}-Präsentationen in nur wenigen Schritten zu verbergen oder zu entfernen."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Folien mit {{EnvNameShort}}-Tools schützen",
+      "description": "Bedecken oder entfernen Sie sensible Inhalte vollständig aus {{FileFormatUp}}-Präsentationen mithilfe von {{EnvNameShort}}-Redaktionsfunktionen."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Text in {{FileFormatUp}} mithilfe von {{ProgLang}}-Überlagerungen redigieren",
+      "description": "Verwenden Sie {{ProdFullName}}, um sensiblen Text in {{FileFormatUp}}-Dateien mit farbigen Blöcken zu verdecken, während die Dokumentstruktur unverändert bleibt."
+    },
+    "header": {
+      "title": "Überlagerungsredaktion in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}",
+      "description": "Verstecken Sie wichtige Details in Ihren {{FileFormatUp}}-Dokumenten mithilfe von farbigen Überlagerungen, die von {{ProgLang}} und {{ProdFullName}} unterstützt werden.",
+      "subtitle": "Was {{ProdFullName}} leisten kann"
+    },
+    "steps": {
+      "title": "Private Informationen im {{FileFormatCap}}-Format schützen",
+      "content": {
+        "title": "{{ProdFullName}} bietet {{EnvName}}-Entwicklern schnelle Möglichkeiten, Dateien aufzuräumen und ihre Inhalte zu sichern.",
+        "step_1": "Starten Sie einen {{textRedactor}} und laden Sie die {{FileFormatCap}}-Datei.",
+        "step_2": "Wählen Sie Ihre Redaktionsoptionen.",
+        "step_3": "Fügen Sie das Textmuster und die Überlagerungsfarbe hinzu.",
+        "step_4": "Führen Sie die Redaktion aus und speichern Sie die Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Text mithilfe von Überlagerungen in {{FileFormatUp}} verstecken",
+      "comment_2": "Verwenden Sie {{textRedactor}}, um das Dokument zu öffnen",
+      "comment_3": "Stellen Sie die Redaktionspräferenzen ein",
+      "comment_4": "Fügen Sie Schlüsselwörter und Farbe hinzu",
+      "comment_5": "Anwenden und speichern Sie die redigierte Datei"
+    },
+    "example_bottom": {
+      "title": "Regex-gesteuerte Redaktion",
+      "content": "Erfahren Sie, wie Sie Regex verwenden, um spezifische Inhalte automatisch zu verstecken.",
+      "comment_1": "Laden Sie das Dokument, das Sie redigieren möchten",
+      "comment_2": "Definieren Sie Ihr Regex-Muster und die Überlagerungsfarbe",
+      "comment_3": "Wenden Sie die Redaktion an",
+      "comment_4": "Speichern Sie Ihre bereinigte Version"
+    },
+    "more_features": {
+      "title": "Weitere Redaktionsfähigkeiten",
+      "description": "Verwenden Sie {{ProdFullName}}, um sowohl sichtbare als auch versteckte Inhalte aus Dateien zu entfernen, während das Layout intakt bleibt.",
+      "image_description": "Einfache, saubere Ausgabe",
+      "feature_1": {
+        "title": "Text ersetzen",
+        "content": "Bedecken Sie Wörter oder Begriffe, die nicht sichtbar sein sollten."
+      },
+      "feature_2": {
+        "title": "Visuelle Elemente maskieren",
+        "content": "Verwenden Sie farbige Überlagerungen, um Bilder oder Teile davon zu verdecken."
+      },
+      "feature_3": {
+        "title": "Metadaten löschen",
+        "content": "Entfernen Sie Details, die in den Dateieigenschaften verborgen sind."
+      }
+    },
+    "about": {
+      "title": "Lernen Sie {{ProdFullName}} kennen",
+      "content": "{{ProdFullName}} gibt {{ProgLang}}-Benutzern die vollständige Kontrolle über die Redaktion von {{FileFormatUp}}. Verstecken Sie alles, was Sie wollen - Text, Grafiken oder Metadaten."
+    },
+    "formats": {
+      "title": "Inhalt in {{FileFormatUp}} mit {{EnvNameShort}} redigieren",
+      "description": "Halten Sie Ihre {{FileFormatUp}}-Dokumente privat, indem Sie sensible Daten mit {{EnvNameShort}} verbergen oder entfernen."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Schützen Sie Text in {{FileFormatUp}} mit Überlagerungen und {{ProgLang}}",
+      "description": "Schützen Sie sensible Inhalte in {{FileFormatUp}}-Dateien, indem Sie farbige Überlagerungen mithilfe von {{ProdFullName}} anwenden. Halten Sie das Layout des Dokuments intakt."
+    },
+    "header": {
+      "title": "Redigieren Sie {{FileFormatUp}}-Daten mit Überlagerungen in {{EnvNameShort}}",
+      "description": "Verwenden Sie {{ProgLang}}-Code, um sensible Informationen in {{FileFormatUp}}-Tabellen zu maskieren. Eine effektive Möglichkeit, Daten privat zu halten.",
+      "subtitle": "Wichtige Funktionen von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Informationen in {{FileFormatCap}}-Tabellen verbergen",
+      "content": {
+        "title": "{{ProdFullName}} hilft {{EnvName}}-Entwicklern, Dateien zu schützen, indem sie private Informationen in nur wenigen Zeilen verbergen.",
+        "step_1": "Starten Sie einen {{textRedactor}} und laden Sie Ihr Spreadsheet.",
+        "step_2": "Legen Sie nach Bedarf Redaktionsregeln fest.",
+        "step_3": "Wählen Sie den Text und die Überlagerungsfarbe.",
+        "step_4": "Anwenden und die Datei speichern."
+      }
+    },
+    "example_top": {
+      "comment_1": "Verwenden Sie Überlagerungen, um Text in {{FileFormatUp}} zu verstecken",
+      "comment_2": "Erstellen Sie einen {{textRedactor}} und laden Sie Ihre Datei",
+      "comment_3": "Wählen Sie Redaktionsregeln",
+      "comment_4": "Geben Sie ein, was versteckt werden soll, und wählen Sie eine Farbe",
+      "comment_5": "Anwenden und die Datei speichern"
+    },
+    "example_bottom": {
+      "title": "Regex-Redaktion",
+      "content": "Verwenden Sie Regex, um Text automatisch zu finden und zu verstecken.",
+      "comment_1": "Öffnen Sie Ihr Spreadsheet",
+      "comment_2": "Legen Sie das Muster und die Überlagerungsdetails fest",
+      "comment_3": "Wenden Sie die Redaktion an",
+      "comment_4": "Speichern Sie die bereinigte Version"
+    },
+    "more_features": {
+      "title": "Wichtige Datenschutzwerkzeuge",
+      "description": "Verbergen oder löschen Sie sensible Informationen aus Ihren Tabellen, ohne das Layout oder die Bedeutung zu beeinträchtigen, mithilfe von {{ProdFullName}}.",
+      "image_description": "Entwickelt für sichere Datenbereinigung",
+      "feature_1": {
+        "title": "Text bearbeiten oder verbergen",
+        "content": "Finden und blockieren Sie jeden Text, der geschützt werden muss."
+      },
+      "feature_2": {
+        "title": "Sensible visuelle Elemente abdecken",
+        "content": "Wenden Sie farbige Blöcke über Diagrammbereiche oder Bilder an."
+      },
+      "feature_3": {
+        "title": "Metadaten entfernen",
+        "content": "Löschen Sie die Dokumenthistorie, Autorennamen oder Zeitstempel."
+      }
+    },
+    "about": {
+      "title": "Warum {{ProdFullName}} wählen",
+      "content": "{{ProdFullName}} ist für {{ProgLang}}-Entwickler konzipiert, die Inhalte in {{FileFormatUp}}-Tabellen schnell verstecken oder bereinigen möchten."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Tabellen mit {{EnvNameShort}} redigieren",
+      "description": "Verbergen oder löschen Sie sensible Daten in {{FileFormatUp}}-Tabellen mithilfe von Überlagerungen und Werkzeugen von {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Text in {{FileFormatUp}} mit {{ProgLang}}-Überlagerungen schützen",
+      "description": "Mit {{ProdFullName}} können Sie privaten Text in {{FileFormatUp}}-Folien mithilfe einfacher Überlagerungsboxen blockieren – ohne das Layout zu ändern."
+    },
+    "header": {
+      "title": "Text in {{FileFormatUp}} mithilfe von Überlagerungen und {{EnvNameShort}} verbergen",
+      "description": "Verwenden Sie {{ProgLang}} und {{ProdFullName}}, um Ihre {{FileFormatUp}}-Folien durch Maskierung sensibler Inhalte zu sichern.",
+      "subtitle": "Innerhalb von {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}-Präsentationen vor dem Teilen bereinigen",
+      "content": {
+        "title": "Verwenden Sie {{ProdFullName}} in {{EnvName}}-Apps, um sensible Teile Ihrer Folien zu verbergen oder zu entfernen.",
+        "step_1": "Erstellen Sie einen neuen {{textRedactor}} mit Ihrem Folienpaket-Pfad.",
+        "step_2": "Definieren Sie Ihre Redaktionspräferenzen.",
+        "step_3": "Legen Sie das Textmuster und die Überlagerungsfarbe fest.",
+        "step_4": "Führen Sie die Redaktion durch und speichern Sie die redigierte Datei."
+      }
+    },
+    "example_top": {
+      "comment_1": "Überlagern Sie Textbereiche in {{FileFormatUp}}",
+      "comment_2": "Öffnen Sie die Datei mit {{textRedactor}}",
+      "comment_3": "Passen Sie die Redaktionsparameter an",
+      "comment_4": "Geben Sie Text und wählen Sie die Überlagerungsfarbe aus",
+      "comment_5": "Redigieren und speichern Sie die aktualisierte Datei"
+    },
+    "example_bottom": {
+      "title": "Regex für die Textredaktion",
+      "content": "Erfahren Sie, wie Sie Text mithilfe von Musterabgleich erkennen und redigieren.",
+      "comment_1": "Laden Sie das Folienpaket",
+      "comment_2": "Wenden Sie Ihre Regex-Regeln an",
+      "comment_3": "Führen Sie die Redaktion durch",
+      "comment_4": "Speichern Sie die finale Version"
+    },
+    "more_features": {
+      "title": "Einfache Redaktion für sensitive Folien",
+      "description": "{{ProdFullName}} erleichtert das Blockieren oder Entfernen von Inhalten aus Folien, unabhängig vom Anwendungsfall.",
+      "image_description": "Redaktionswerkzeuge, die sich anpassen",
+      "feature_1": {
+        "title": "Text finden und ersetzen",
+        "content": "Schützen Sie sensible Phrasen oder Beschriftungen auf jeder Folie."
+      },
+      "feature_2": {
+        "title": "Teile von visuellen Elementen abdecken",
+        "content": "Fügen Sie Überlagerungen zu ausgewählten Folienbereichen oder Bildern hinzu."
+      },
+      "feature_3": {
+        "title": "Versteckte Inhalte entfernen",
+        "content": "Löschen Sie Folienmetadaten oder Änderungsnotizen vor dem Teilen."
+      }
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} hilft {{ProgLang}}-Entwicklern, {{FileFormatUp}}-Folien zu bereinigen, indem sie sensible Inhalte wie Text, Metadaten oder Bilder blockieren oder löschen."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}-Folien mit {{EnvNameShort}} schützen",
+      "description": "Verwenden Sie Overlay-Redaktion und Bereinigungstools von {{EnvNameShort}}, um Ihre {{FileFormatUp}}-Folien privat zu halten."
+    }
+  }
+}

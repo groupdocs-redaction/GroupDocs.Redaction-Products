@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Редактировать Excel",
+        "description": "Таблицы MS Excel и Open Office"
+      },
+      "word": {
+        "name": "Редактировать Word",
+        "description": "Документы MS Word и Open Office"
+      },
+      "powerpoint": {
+        "name": "Редактировать PowerPoint",
+        "description": "Презентации MS PowerPoint и Open Office"
+      },
+      "image": {
+        "name": "Редактировать Изображения",
+        "description": "Популярные форматы изображений"
+      },
+      "photo": {
+        "name": "Редактировать Фото",
+        "description": "Форматы фотографий"
+      },
+      "pdf": {
+        "name": "Редактировать PDF",
+        "description": "Формат Adobe Portable Document"
+      },
+      "doc": {
+        "name": "Редактировать DOC",
+        "description": "Документ Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Редактировать DOCX",
+        "description": "Документ Microsoft Word Open XML"
+      },
+      "xls": {
+        "name": "Редактировать XLS",
+        "description": "Рабочая книга Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Редактировать XLSX",
+        "description": "Электронная таблица Microsoft Excel Open XML"
+      },
+      "ppt": {
+        "name": "Редактировать PPT",
+        "description": "Презентация PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Редактировать PPTX",
+        "description": "Презентация PowerPoint Open XML"
+      },
+      "jpg": {
+        "name": "Редактировать JPEG",
+        "description": "Изображение JPEG"
+      },
+      "jpeg": {
+        "name": "Редактировать JPEG",
+        "description": "Изображение JPEG"
+      },
+      "png": {
+        "name": "Редактировать PNG",
+        "description": "Графика в формате Portable Network"
+      },
+      "tiff": {
+        "name": "Редактировать TIFF",
+        "description": "Формат файла тега изображения"
+      },
+      "webp": {
+        "name": "Редактировать WEBP",
+        "description": "WEB-изображение"
+      },
+      "rtf": {
+        "name": "Редактировать RTF",
+        "description": "Формат Rich Text"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копировать",
+      "result_title": "Примеры редактирования",
+      "result_title_bottom": "Скачать результат",
+      "copy_tip": "нажмите для копирования",
+      "copy_done": "скопировано",
+      "links": {
+        "title_1": "Больше примеров",
+        "title_2": "Документация"
+      }
+    },
+    "format-actions": {
+      "title": "Готовы начать?",
+      "description": "Попробуйте функции {{ProdShortName}} бесплатно или запросите лицензию",
+      "comment_1": "Скачать {{PackageStoreName}}",
+      "comment_2": "Лицензирование"
+    },
+    "texts": {
+      "learn_more": "Узнать больше"
+    }
+  }
+}

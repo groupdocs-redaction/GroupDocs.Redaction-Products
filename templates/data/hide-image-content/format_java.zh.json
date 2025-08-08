@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中以叠加效果隐藏封面图像",
+      "description": "借助 {{ProdFullName}}，您可以通过放置彩色叠加层来隐藏 {{FileFormatUp}} 文件中的私人图像。在保护敏感视觉信息的同时保持文档设计的完整性。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中以叠加层隐藏机密图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和商业数据。我们的工具使图像删除简单有效。",
+      "subtitle": "{{ProdFullName}} 特性"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文件中的商业信息",
+      "content": {
+        "title": "{{ProdFullName}}帮助您的 {{EnvName}} 应用程序保护文档。仅需几步即可删除私人图像。",
+        "step_1": "初始化 {{textRedactor}} 并设置 {{FileFormatCap}} 文件的路径。",
+        "step_2": "选择最佳效果的删除设置。",
+        "step_3": "选择图像区域并选择叠加色。",
+        "step_4": "处理并保存安全文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中覆盖敏感图像",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "设置叠加层颜色和尺寸",
+      "comment_4": "选择要删除的目标区域",
+      "comment_5": "应用叠加层并保存文件"
+    },
+    "example_bottom": {
+      "title": "使用叠加层覆盖图像数据",
+      "content": "此示例展示如何使用叠加层在文档中隐藏机密视觉信息。",
+      "comment_1": "打开文档进行编辑",
+      "comment_2": "定义叠加层的大小、颜色和位置",
+      "comment_3": "选择第一页上的图像区域进行删除",
+      "comment_4": "添加叠加层以覆盖敏感数据",
+      "comment_5": "保存更新的文档"
+    },
+    "more_features": {
+      "title": "在文档中隐藏内容",
+      "description": "通过 {{ProdFullName}}，您可以在各种文件格式中隐藏或删除敏感数据。在保持文件易读和可分发的同时保护私人信息。",
+      "image_description": "强大的删除选项",
+      "feature_1": {
+        "title": "在任何位置修改文本",
+        "content": "在整个文档中查找和替换敏感字词，以保护私人内容。"
+      },
+      "feature_2": {
+        "title": "隐藏图像",
+        "content": "为图像或其部分添加叠加层，以保持敏感视觉信息隐藏。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "删除或编辑隐藏的元数据，以防止意外的信息泄露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供有效的工具，以在 {{FileFormatUp}} 文件中隐藏或删除内容。覆盖文本、图像和元数据，以在多种格式中保持文档安全。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 删除保护 {{FileFormatUp}} 文件",
+      "description": "使用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感数据。适合保护正式和私人文档。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中隐藏图像和叠加效果",
+      "description": "使用 {{ProdFullName}}，您可以通过应用彩色叠加层轻松隐藏 {{FileFormatUp}} 文件中的敏感图像。在不改变文档布局的情况下保护私人信息。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文档中以叠加层隐藏机密图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的业务和个人数据。我们的工具帮助您保持敏感信息安全，文档整洁。",
+      "subtitle": "{{ProdFullName}} 的关键功能"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文档中保护数据",
+      "content": {
+        "title": "{{ProdFullName}} 赋予您的 {{EnvName}} 应用程序删除文档的能力。快速而高效地遮盖私人内容。",
+        "step_1": "创建一个 {{textRedactor}} 并设置到您的 {{FileFormatCap}} 文档的文件路径。",
+        "step_2": "调整删除设置以满足您的需求。",
+        "step_3": "选择要遮盖的图像区域并选择叠加颜色。",
+        "step_4": "运行删除过程并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中隐藏敏感图像部分",
+      "comment_2": "使用 {{textRedactor}} 加载文档",
+      "comment_3": "设置叠加颜色和尺寸",
+      "comment_4": "标记要删除的区域",
+      "comment_5": "应用叠加层并保存文件"
+    },
+    "example_bottom": {
+      "title": "使用叠加层隐藏敏感数据",
+      "content": "此示例展示如何在文档中应用叠加层来遮盖机密图像区域。",
+      "comment_1": "打开文档进行编辑",
+      "comment_2": "设置叠加层大小、颜色和位置",
+      "comment_3": "选择第一页上的目标区域",
+      "comment_4": "应用叠加层以覆盖图像",
+      "comment_5": "保存已删除的文档"
+    },
+    "more_features": {
+      "title": "隐藏文件中的敏感内容",
+      "description": "使用 {{ProdFullName}}，您可以轻松地在多个文件类型中删除或移除内容。保持文档安全且可读。",
+      "image_description": "文档的删除功能",
+      "feature_1": {
+        "title": "编辑文本内容",
+        "content": "搜索并替换文件中的敏感文本，以维护数据隐私。"
+      },
+      "feature_2": {
+        "title": "叠加图像",
+        "content": "遮盖整个图像或所选部分以隐藏机密视觉信息。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "清理文档中的隐藏元数据，以避免数据暴露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供工具以在 {{FileFormatUp}} 文件中隐藏或删除内容。保护各种文档格式中的文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 文件",
+      "description": "使用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的私人数据。完美保护商业和敏感文档。"
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 文件中覆盖图像和叠加效果",
+      "description": "使用 {{ProdFullName}} 通过添加彩色叠加层在 {{FileFormatUp}} 文件中覆盖敏感图像。在保留文档结构不变的情况下保护重要数据。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文档中覆盖私人图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的敏感图像内容。我们的易用工具使图像删除迅速可靠。",
+      "subtitle": "{{ProdFullName}} 的关键功能"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文档中保持私人数据安全",
+      "content": {
+        "title": "{{ProdFullName}}帮助您的 {{EnvName}} 应用程序通过简单的步骤保护文档。",
+        "step_1": "初始化一个 {{textRedactor}} 并加载您的 {{FileFormatCap}} 文档。",
+        "step_2": "根据您的项目设置删除选项。",
+        "step_3": "选择图像部分并选择叠加颜色。",
+        "step_4": "应用删除并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中遮盖敏感图像区域",
+      "comment_2": "创建 {{textRedactor}} 并设置文件路径",
+      "comment_3": "选择叠加层尺寸和颜色",
+      "comment_4": "选择要删除的区域",
+      "comment_5": "应用叠加并保存文档"
+    },
+    "example_bottom": {
+      "title": "使用叠加层隐藏图像细节",
+      "content": "了解如何使用叠加层保护文档中敏感部分的图像。",
+      "comment_1": "加载要删除的文档",
+      "comment_2": "设置叠加层的大小、颜色和位置",
+      "comment_3": "选择特定图像区域",
+      "comment_4": "应用叠加层以遮盖图像",
+      "comment_5": "保存更新的文件"
+    },
+    "more_features": {
+      "title": "高级删除功能",
+      "description": "使用 {{ProdFullName}}，您可以在多种文件类型中隐藏或删除敏感内容，同时保持文档布局整洁可读。",
+      "image_description": "强大的删除工具",
+      "feature_1": {
+        "title": "查找和替换文本",
+        "content": "搜索私人文本并进行替换，以确保文档的安全。"
+      },
+      "feature_2": {
+        "title": "覆盖图像内容",
+        "content": "应用叠加层以隐藏机密图像或特定区域。"
+      },
+      "feature_3": {
+        "title": "清理隐藏的元数据",
+        "content": "删除或更新元数据以避免意外共享私人信息。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供简单的工具，用于在 {{FileFormatUp}} 文件中隐藏或删除敏感内容。在多种文档格式中删除文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 覆盖 {{FileFormatUp}} 内容",
+      "description": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中遮蔽或删除私人内容。确保商务和个人文档安全的明智选择。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中隐藏图像及叠加层",
+      "description": "使用 {{ProdFullName}}，您可以通过添加颜色叠加层在 {{FileFormatUp}} 文件中隐藏敏感图像。保护机密信息的同时保持文档布局完整。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文档中隐藏敏感图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和商业数据。我们的工具使图像删除迅速且简单。",
+      "subtitle": "{{ProdFullName}} 的关键好处"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文档中的私人数据",
+      "content": {
+        "title": "{{ProdFullName}} 使得 {{EnvName}} 应用程序轻松通过隐藏敏感内容来保护文档。",
+        "step_1": "初始化 {{textRedactor}} 并加载 {{FileFormatCap}} 文件。",
+        "step_2": "根据您的需求设置删除选项。",
+        "step_3": "选择图像区域并定义叠加的颜色。",
+        "step_4": "应用删除并保存更新的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中隐藏敏感图像部分",
+      "comment_2": "使用 {{textRedactor}} 打开文档",
+      "comment_3": "选择叠加颜色和大小",
+      "comment_4": "高亮要隐藏的区域",
+      "comment_5": "应用更改并保存文档"
+    },
+    "example_bottom": {
+      "title": "使用叠加层覆盖图像数据",
+      "content": "此示例展示如何在文档中覆盖敏感图像。",
+      "comment_1": "加载您的文档",
+      "comment_2": "定义叠加层的大小、颜色和位置",
+      "comment_3": "选择第一页面的图像区域",
+      "comment_4": "应用叠加层以进行覆盖",
+      "comment_5": "保存已删除的文档"
+    },
+    "more_features": {
+      "title": "内容删除工具",
+      "description": "{{ProdFullName}} 帮助您在多种文件格式中隐藏或删除敏感信息。在维护专业外观的同时保持文档安全。",
+      "image_description": "先进的删除功能",
+      "feature_1": {
+        "title": "查找和替换文本",
+        "content": "快速搜索私人文本并进行替换，以确保文档的安全性。"
+      },
+      "feature_2": {
+        "title": "使用叠加层覆盖图像",
+        "content": "通过应用叠加层隐藏整个图像或选择的区域。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "删除或编辑隐蔽的元数据，以防止共享机密信息。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供实用工具，用于在 {{FileFormatUp}} 文件中隐藏或删除敏感内容。通过遮盖文本、图像和元数据来保护您的文档。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 内容",
+      "description": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中隐藏或删除敏感内容。可信赖的文档保护解决方案。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中隐藏图像及叠加层",
+      "description": "使用 {{ProdFullName}}，您可以通过彩色叠加层在 {{FileFormatUp}} 文件中覆盖敏感图像。在不改变文档布局的情况下保护私人数据。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 保护 {{FileFormatUp}} 文件中的敏感图像",
+      "description": "使用 {{ProgLang}} 在 {{FileFormatUp}} 文档中保护个人和商业视觉信息。快速可靠的图像删除变得简单。",
+      "subtitle": "{{ProdFullName}} 的主要特性"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文件中保持机密数据安全",
+      "content": {
+        "title": "{{ProdFullName}} 使得 {{EnvName}} 应用程序可以轻松隐藏文档内的私人信息。",
+        "step_1": "初始化 {{textRedactor}} 并加载 {{FileFormatCap}} 文件。",
+        "step_2": "定义所需的删除设置。",
+        "step_3": "标记图像区域并选择叠加颜色。",
+        "step_4": "运行删除并保存更新的文档。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中隐藏敏感图像内容",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "选择叠加层颜色和大小",
+      "comment_4": "标记要覆盖的图像区域",
+      "comment_5": "应用叠加层并保存文件"
+    },
+    "example_bottom": {
+      "title": "使用叠加层隐藏图像数据",
+      "content": "此示例展示了如何使用叠加层保护文档中的敏感图像内容。",
+      "comment_1": "加载文档",
+      "comment_2": "设置叠加层属性，如大小、位置和颜色",
+      "comment_3": "标记第一页的图像区域",
+      "comment_4": "用叠加层覆盖该区域",
+      "comment_5": "保存已删除的文档"
+    },
+    "more_features": {
+      "title": "隐藏和删除内容的工具",
+      "description": "{{ProdFullName}} 帮助您在多种文件格式中隐藏或删除敏感数据。保持文档的安全与良好结构。",
+      "image_description": "有效的删除特性",
+      "feature_1": {
+        "title": "查找与替换文本",
+        "content": "在文档中查找私人文本并替换，以确保数据安全。"
+      },
+      "feature_2": {
+        "title": "覆盖图像区域",
+        "content": "通过应用叠加层隐藏完整图像或选择区域。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "移除或修改隐藏的元数据，以保护机密信息。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供简单易用的工具，用于在 {{FileFormatUp}} 文件中隐藏或删除内容。在各种格式中删除文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中隐藏内容",
+      "description": "使用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感数据。有效的文档保护方法。"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中隐藏图像及叠加层",
+      "description": "使用 {{ProdFullName}} 在 {{FileFormatUp}} 文件中覆盖敏感图像。添加彩色叠加层，以保护私人信息并保持文档设计完整。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中隐藏敏感图像",
+      "description": "使用 {{ProgLang}} 在 {{FileFormatUp}} 文件中保护私人和商业视觉信息。快速简单的工具，提供可靠的数据保护。",
+      "subtitle": "{{ProdFullName}} 的功能"
+    },
+    "steps": {
+      "title": "保护 {{FileFormatCap}} 文件中的数据",
+      "content": {
+        "title": "{{ProdFullName}} 帮助 {{EnvName}} 应用程序轻松隐藏文档中的敏感内容。",
+        "step_1": "创建一个 {{textRedactor}} 对象并加载 {{FileFormatCap}} 文件。",
+        "step_2": "设置删除选项以匹配您的需求。",
+        "step_3": "选择图像区域并挑选叠加颜色。",
+        "step_4": "应用删除并保存您的文档。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中隐藏图像内容",
+      "comment_2": "使用 {{textRedactor}} 打开文件",
+      "comment_3": "定义叠加层大小和颜色",
+      "comment_4": "标记要隐藏的区域",
+      "comment_5": "应用更改并保存文件"
+    },
+    "example_bottom": {
+      "title": "使用叠加层隐藏图像数据",
+      "content": "此示例展示如何使用叠加层在文档中遮盖敏感图像区域。",
+      "comment_1": "打开文件进行编辑",
+      "comment_2": "设置叠加层尺寸、颜色和位置",
+      "comment_3": "选择第一页上的图像部分",
+      "comment_4": "应用叠加层以隐藏数据",
+      "comment_5": "保存您的已删除文档"
+    },
+    "more_features": {
+      "title": "在文档中隐藏或删除内容",
+      "description": "{{ProdFullName}} 允许您在多种文件类型中覆盖或删除敏感数据。确保文档保持整洁和安全。",
+      "image_description": "高级删除功能",
+      "feature_1": {
+        "title": "查找和替换文本",
+        "content": "在文档中搜索私人文本并进行替换，以确保数据安全。"
+      },
+      "feature_2": {
+        "title": "覆盖图像区域",
+        "content": "使用彩色叠加层隐藏图像的部分或整个视觉内容。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "删除隐藏的元数据，以避免共享多余的信息。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供工具，以隐藏或删除 {{FileFormatUp}} 文件中的内容。覆盖文本、图像和元数据以保护敏感数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 文件",
+      "description": "使用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感数据。确保文档隐私的简单方法。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中遮盖敏感图像及叠加层",
+      "description": "使用 {{ProdFullName}} 在 {{FileFormatUp}} 文件中隐藏私人图像内容。添加叠加层以确保文档安全而不影响布局。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文档中保护私人图像",
+      "description": "使用 {{ProgLang}} 在 {{FileFormatUp}} 文件中保护个人和商业视觉信息。便于使用的工具，提供强大的隐私保护。 ",
+      "subtitle": "{{ProdFullName}} 的关键功能"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文档中隐藏敏感数据",
+      "content": {
+        "title": "{{ProdFullName}} 使您的 {{EnvName}} 应用程序快速隐藏文档中的私人内容。",
+        "step_1": "创建一个 {{textRedactor}} 对象并加载 {{FileFormatCap}} 文件。",
+        "step_2": "根据任务设置删除选项。",
+        "step_3": "选择图像区域并选择叠加颜色。",
+        "step_4": "应用删除并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 文件中隐藏图像数据",
+      "comment_2": "使用 {{textRedactor}} 打开文件",
+      "comment_3": "设置叠加层颜色和尺寸",
+      "comment_4": "选择要遮蔽的区域",
+      "comment_5": "应用叠加层并保存更改"
+    },
+    "example_bottom": {
+      "title": "使用叠加层隐藏图像内容",
+      "content": "此示例展示如何在文档中对敏感图像区域应用叠加层。",
+      "comment_1": "加载待删除的文件",
+      "comment_2": "定义叠加层的大小、颜色和位置",
+      "comment_3": "标记第一页的图像部分",
+      "comment_4": "应用叠加层以进行保护",
+      "comment_5": "保存更新的文档"
+    },
+    "more_features": {
+      "title": "在文档中隐藏敏感数据",
+      "description": "{{ProdFullName}} 帮您在不同的文档格式中删除或覆盖私人内容。确保文件安全以便分享和存储。",
+      "image_description": "针对每种需求的删除工具",
+      "feature_1": {
+        "title": "搜索并替换文本",
+        "content": "定位敏感词并替换，以确保数据隐私。"
+      },
+      "feature_2": {
+        "title": "使用叠加层遮盖图像",
+        "content": "通过应用叠加层对图像或部分图像进行遮盖，以保护它们的私密性。"
+      },
+      "feature_3": {
+        "title": "删除隐藏的元数据",
+        "content": "清除看不见的元数据，以避免数据泄露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供隐藏或删除 {{FileFormatUp}} 文件中内容的工具。通过遮盖文本、图像和元数据来保护文档。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 保护 {{FileFormatUp}} 文件",
+      "description": "使用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感内容。文档安全的可靠解决方案。"
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中覆盖图像及叠加层",
+      "description": "使用 {{ProdFullName}} 在 {{FileFormatUp}} 文件中保持敏感图像的私密性。添加叠加层以隐藏信息而不改变您的文档布局。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中遮盖敏感图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和商业图像。简单的工具可帮助您轻松保护文档。",
+      "subtitle": "{{ProdFullName}} 的核心特性"
+    },
+    "steps": {
+      "title": "在 {{FileFormatCap}} 文件中隐藏私人数据",
+      "content": {
+        "title": "{{ProdFullName}} 使您的 {{EnvName}} 应用程序能快速覆盖私人内容。",
+        "step_1": "初始化一个 {{textRedactor}} 对象并加载 {{FileFormatCap}} 文件。",
+        "step_2": "根据需要调整删除设置。",
+        "step_3": "选择图像区域并选择叠加颜色。",
+        "step_4": "应用删除并保存文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中遮盖图像数据",
+      "comment_2": "使用 {{textRedactor}} 打开文件",
+      "comment_3": "设置叠加层大小和颜色",
+      "comment_4": "选择要遮盖的区域",
+      "comment_5": "应用叠加层并保存更改"
+    },
+    "example_bottom": {
+      "title": "使用叠加层隐藏图像内容",
+      "content": "此示例演示如何使用叠加层防止文档中敏感图像区域的暴露。",
+      "comment_1": "加载文件进行删除",
+      "comment_2": "设置叠加层的大小、位置和颜色",
+      "comment_3": "选择第一页的图像区域",
+      "comment_4": "应用叠加层以隐藏图像",
+      "comment_5": "保存更新的文件"
+    },
+    "more_features": {
+      "title": "在文档中隐藏敏感数据",
+      "description": "{{ProdFullName}} 帮助您从多种文件类型中隐藏或删除私人内容。确保您的文档保持整洁且适合分享。",
+      "image_description": "一体化删除功能",
+      "feature_1": {
+        "title": "查找和替换文本",
+        "content": "在文档中查找私人文本并替换，以保护敏感数据。"
+      },
+      "feature_2": {
+        "title": "覆盖图像内容",
+        "content": "使用叠加层隐藏整个图像或所选部分，以保持私人视觉内容的安全。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "删除隐藏的元数据，以防止无意中暴露敏感信息。"
+      }
+    },
+    "about": {
+      "title": "什么是 {{ProdFullName}}？",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供工具以隐藏或删除 {{FileFormatUp}} 文件中的内容。通过遮盖文本、图像和元数据来保护文档的安全。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 保护 {{FileFormatUp}} 文件",
+      "description": "使用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感数据。可靠的解决方案以保护您的重要文档。"
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中隐藏图像及叠加层",
+      "description": "使用 {{ProdFullName}} 在 {{FileFormatUp}} 文件中通过彩色叠加层隐藏敏感图像区域。在不改变文档布局的情况下保护重要数据。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中保护私人图像",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的商业和个人图像。简单的工具可以快速可靠地提供数据保护。",
+      "subtitle": "{{ProdFullName}} 的主要特性"
+    },
+    "steps": {
+      "title": "使用叠加层保护 {{FileFormatCap}} 文件中的内容",
+      "content": {
+        "title": "借助 {{ProdFullName}}，在您的 {{EnvName}} 应用程序中快速遮盖敏感区域。",
+        "step_1": "创建一个 {{textRedactor}} 对象并指定您的 {{FileFormatCap}} 文件路径。",
+        "step_2": "根据要求设置删除选项。",
+        "step_3": "标记图像区域并选择叠加色。",
+        "step_4": "处理并保存您的已删除文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中隐藏图像内容",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "设置叠加层的尺寸和颜色",
+      "comment_4": "选择要保护的区域",
+      "comment_5": "应用叠加层并保存文件"
+    },
+    "example_bottom": {
+      "title": "使用叠加层遮盖图像区域",
+      "content": "此代码示例展示如何使用叠加层隐藏敏感图像部分。",
+      "comment_1": "打开文件以便编辑",
+      "comment_2": "定义叠加层的大小、颜色和位置",
+      "comment_3": "选择第一页上的图像区域",
+      "comment_4": "应用叠加层以遮盖内容",
+      "comment_5": "保存已修改的文件"
+    },
+    "more_features": {
+      "title": "在任何文档中删除敏感内容",
+      "description": "{{ProdFullName}} 帮助您在多种文件格式中隐藏或删除私人内容。确保文档干净且安全，以便分发。",
+      "image_description": "全面控制的删除工具",
+      "feature_1": {
+        "title": "查找和替换文本",
+        "content": "在文档中查找敏感文本并替换，以保护信息的安全。"
+      },
+      "feature_2": {
+        "title": "覆盖图像",
+        "content": "使用叠加层隐藏整个图像或特定区域。"
+      },
+      "feature_3": {
+        "title": "清理元数据",
+        "content": "删除或编辑隐藏的元数据以防止数据泄露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 {{ProgLang}} 开发者能够在 {{FileFormatUp}} 文件中隐藏或删除内容。通过遮盖敏感的文本、图像和元数据来保护文件。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 保护 {{FileFormatUp}} 文件",
+      "description": "通过使用 {{EnvNameShort}}，您可以轻松隐藏或删除 {{FileFormatUp}} 文件中的敏感内容。这是确保文档安全和机密的可靠解决方案。"
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中隐藏图像及叠加层",
+      "description": "使用 {{ProdFullName}} 在 {{FileFormatUp}} 文件中通过叠加层遮盖敏感图像区域。在保持文件布局不变的情况下保护私人内容。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中保护图像内容",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和商业图像数据。为快速有效的保护而设计的简单工具。",
+      "subtitle": "{{ProdFullName}} 的主要特性"
+    },
+    "steps": {
+      "title": "使用叠加层在 {{FileFormatCap}} 文件中隐藏内容",
+      "content": {
+        "title": "{{ProdFullName}} 使您在 {{EnvName}} 应用程序中轻松隐藏敏感区域。",
+        "step_1": "初始化一个 {{textRedactor}} 并加载您的 {{FileFormatCap}} 文件。",
+        "step_2": "根据需要设置删除首选项。",
+        "step_3": "选择图像区域并选择叠加颜色。",
+        "step_4": "运行删除并保存该文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "使用叠加层覆盖 {{FileFormatUp}} 中的图像部分",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "定义叠加层的颜色和大小",
+      "comment_4": "标记要遮蔽的图像区域",
+      "comment_5": "应用叠加层并保存结果"
+    },
+    "example_bottom": {
+      "title": "使用叠加层遮盖图像数据",
+      "content": "此示例展示如何在文档中覆盖图像内容。",
+      "comment_1": "加载文档进行编辑",
+      "comment_2": "设置叠加层的大小、颜色和位置",
+      "comment_3": "标记第一页的图像部分",
+      "comment_4": "应用叠加层以遮盖内容",
+      "comment_5": "保存编辑后的文件"
+    },
+    "more_features": {
+      "title": "轻松删除敏感内容",
+      "description": "{{ProdFullName}} 允许您在各种文档类型中隐藏或删除私人数据。保持文件清晰并准备好分享。",
+      "image_description": "对删除内容的全面控制",
+      "feature_1": {
+        "title": "查找和替换文本",
+        "content": "在文档中找到敏感文本并进行替换，以保护信息。"
+      },
+      "feature_2": {
+        "title": "叠加图像区域",
+        "content": "使用叠加层覆盖完整图像或选择部分。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "清理隐藏的元数据以避免意外的数据暴露。"
+      }
+    },
+    "about": {
+      "title": "了解 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 {{ProgLang}} 开发者拥有可靠的工具，以隐藏或删除 {{FileFormatUp}} 文件中的内容。在遮盖文本、图像和元数据的同时保护文档。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 保护 {{FileFormatUp}} 文件",
+      "description": "使用 {{EnvNameShort}} 隐藏或删除 {{FileFormatUp}} 文件中的敏感数据。这是一种有效保护正式文档的方法。"
+    }
+  }
+}

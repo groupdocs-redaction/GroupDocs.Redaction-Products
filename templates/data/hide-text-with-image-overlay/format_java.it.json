@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Proteggi Testo Riservato in {{FileFormatUp}} con Overlay Utilizzando {{ProgLang}}",
+      "description": "{{ProdFullName}} ti consente di nascondere informazioni sensibili nei file {{FileFormatUp}} posizionando riquadri colorati. Proteggi i dati senza modificare l'aspetto del tuo file."
+    },
+    "header": {
+      "title": "Maschera Testo in Documenti {{FileFormatUp}} Utilizzando Overlay in {{EnvNameShort}}",
+      "description": "Prendi il pieno controllo del contenuto del file {{FileFormatUp}} con {{ProgLang}}. Usa la redazione per proteggere dettagli finanziari, legali o personali.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteggi Informazioni Riservate in File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} facilita la vita ai programmatori {{EnvName}} per nascondere contenuti privati con pochi passaggi.",
+        "step_1": "Avvia un {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Imposta le tue preferenze di redazione.",
+        "step_3": "Scegli cosa cercare e seleziona il tuo colore di overlay.",
+        "step_4": "Applica la redazione e salva il tuo documento."
+      }
+    },
+    "example_top": {
+      "comment_1": "Copri testo in {{FileFormatUp}} utilizzando overlay colorati",
+      "comment_2": "Passa il percorso del file al {{textRedactor}}",
+      "comment_3": "Regola le impostazioni di redazione",
+      "comment_4": "Imposta testo e colore target",
+      "comment_5": "Applica e salva il {{FileFormatUp}} redatto"
+    },
+    "example_bottom": {
+      "title": "Nascondi Testo Utilizzando Regex",
+      "content": "Questo esempio utilizza espressioni regolari per trovare e nascondere contenuti specifici",
+      "comment_1": "Carica il file che desideri elaborare",
+      "comment_2": "Imposta il modello di testo e il colore di overlay",
+      "comment_3": "Applica la redazione",
+      "comment_4": "Salva le tue modifiche"
+    },
+    "more_features": {
+      "title": "Controlla Cosa è Visibile nei Documenti",
+      "description": "{{ProdFullName}} ti consente di oscurare o rimuovere parti dei tuoi file mantenendoli facili da visualizzare e condividere.",
+      "image_description": "Strumenti di Redazione Potenti",
+      "feature_1": {
+        "title": "Identifica e nascondi testo",
+        "content": "Cerca nel tuo documento e nascondi parole o frasi specifiche per proteggere informazioni private."
+      },
+      "feature_2": {
+        "title": "Copri immagini",
+        "content": "Aggiungi overlay per nascondere completamente o parzialmente visuali."
+      },
+      "feature_3": {
+        "title": "Rimuovi metadata",
+        "content": "Elimina dettagli nascosti nel documento per evitare esposizioni involontarie."
+      }
+    },
+    "about": {
+      "title": "Cosa Offre {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce agli sviluppatori {{ProgLang}} un modo semplice per nascondere o rimuovere contenuti dai file {{FileFormatUp}}. Copri testo, immagini e metadati attraverso diversi tipi di documenti."
+    },
+    "formats": {
+      "title": "Proteggi File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Usa {{EnvNameShort}} per coprire o cancellare contenuti nei documenti {{FileFormatUp}}. Un ottimo modo per mantenere le informazioni riservate sicure."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Nascondi Testo in {{FileFormatUp}} con Overlay Utilizzando {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} per oscurare testo privato nei file {{FileFormatUp}}. Mantieni il layout invariato mentre nascondi dati sensibili."
+    },
+    "header": {
+      "title": "Proteggi Testo {{FileFormatUp}} con Overlay in {{EnvNameShort}}",
+      "description": "Nascondi rapidamente dettagli personali, legali o aziendali in file {{FileFormatUp}} con {{ProgLang}} e {{ProdFullName}}.",
+      "subtitle": "Strumenti Chiave in {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redigi Contenuti Sensibili in {{FileFormatCap}}",
+      "content": {
+        "title": "Rendi semplici i documenti nel tuo progetto {{EnvName}} utilizzando {{ProdFullName}}.",
+        "step_1": "Inizializza {{textRedactor}} con il tuo file.",
+        "step_2": "Scegli come deve funzionare la redazione.",
+        "step_3": "Seleziona il testo da nascondere e il colore di overlay.",
+        "step_4": "Applica la redazione e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Copri testo con overlay in {{FileFormatUp}}",
+      "comment_2": "Crea un {{textRedactor}} e carica il tuo documento",
+      "comment_3": "Scegli le opzioni di redazione",
+      "comment_4": "Seleziona testo e colore",
+      "comment_5": "Salva la versione redatta"
+    },
+    "example_bottom": {
+      "title": "Trova Testo con Regex e Nascondilo",
+      "content": "Usa la corrispondenza di pattern per nascondere automaticamente frasi chiave",
+      "comment_1": "Apri il documento che desideri redigere",
+      "comment_2": "Imposta il modello regex e lo stile di overlay",
+      "comment_3": "Applica la logica di redazione",
+      "comment_4": "Salva il tuo documento ripulito"
+    },
+    "more_features": {
+      "title": "Strumenti di Redazione per Uso Quotidiano",
+      "description": "{{ProdFullName}} ti offre opzioni semplici per nascondere dettagli sensibili in diversi documenti mantenendoli utilizzabili.",
+      "image_description": "Opzioni di redazione facili",
+      "feature_1": {
+        "title": "Trova e modifica testo",
+        "content": "Nascondi o sostituisci parole in pochi secondi."
+      },
+      "feature_2": {
+        "title": "Oscura parti delle immagini",
+        "content": "Maschera sezioni di immagini o contenuti scansionati."
+      },
+      "feature_3": {
+        "title": "Cancella informazioni di sfondo",
+        "content": "Rimuovi metadati nascosti come paternità o date."
+      }
+    },
+    "about": {
+      "title": "Cosa È {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli sviluppatori {{ProgLang}} strumenti per ripulire i file {{FileFormatUp}}. Redigi nomi, numeri o note senza complicazioni."
+    },
+    "formats": {
+      "title": "Redigi File {{FileFormatUp}} Utilizzando {{EnvNameShort}}",
+      "description": "Proteggi contenuti sensibili in {{FileFormatUp}} nascondendoli o rimuovendoli utilizzando gli strumenti in {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Blocca Testo in {{FileFormatUp}} con Overlay {{ProgLang}}",
+      "description": "{{ProdFullName}} ti consente di coprire informazioni sensibili nei file {{FileFormatUp}} con blocchi colorati. Nascondi i dati mantenendo il layout intatto."
+    },
+    "header": {
+      "title": "Nascondi Dati in {{FileFormatUp}} con Overlay Utilizzando {{EnvNameShort}}",
+      "description": "Usa {{ProgLang}} e {{ProdFullName}} per mascherare contenuti privati nei file {{FileFormatUp}} senza influenzare il formato.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteggi Info in Documenti {{FileFormatCap}}",
+      "content": {
+        "title": "Mantieni i tuoi documenti al sicuro utilizzando codice semplice con {{ProdFullName}} in {{EnvName}}.",
+        "step_1": "Crea un {{textRedactor}} con il percorso del file.",
+        "step_2": "Imposta la tua logica di redazione.",
+        "step_3": "Scegli la parola chiave e il colore di overlay.",
+        "step_4": "Redigi e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondi informazioni in {{FileFormatUp}} utilizzando blocchi",
+      "comment_2": "Carica il file con {{textRedactor}}",
+      "comment_3": "Imposta preferenze di redazione",
+      "comment_4": "Aggiungi testo e colore da bloccare",
+      "comment_5": "Salva il documento aggiornato"
+    },
+    "example_bottom": {
+      "title": "Usa Regex per Redigere Contenuti",
+      "content": "Trova e nascondi automaticamente il testo con la corrispondenza di pattern",
+      "comment_1": "Apri il foglio di calcolo",
+      "comment_2": "Definisci il modello e il colore di overlay",
+      "comment_3": "Applica le regole di redazione",
+      "comment_4": "Esporta il tuo risultato"
+    },
+    "more_features": {
+      "title": "Funzionalità di Privacy Integrate",
+      "description": "Usa {{ProdFullName}} per bloccare o eliminare contenuti nei tuoi file mantenendo la struttura intatta.",
+      "image_description": "Strumenti di privacy facili",
+      "feature_1": {
+        "title": "Modifica o nascondi testo",
+        "content": "Trova e blocca qualsiasi testo che richiede protezione."
+      },
+      "feature_2": {
+        "title": "Oscura contenuti visivi",
+        "content": "Applica blocchi colorati su aree grafiche o immagini."
+      },
+      "feature_3": {
+        "title": "Rimuovi metadati",
+        "content": "Cancella la cronologia del documento, i nomi degli autori o le date."
+      }
+    },
+    "about": {
+      "title": "Perché {{ProdFullName}} Funziona",
+      "content": "{{ProdFullName}} consente agli sviluppatori {{ProgLang}} di proteggere i file {{FileFormatUp}}. Nascondi testo, immagini o metadati rapidamente."
+    },
+    "formats": {
+      "title": "Redigi Dati {{FileFormatUp}} Utilizzando {{EnvNameShort}}",
+      "description": "Usa overlay o elimina contenuti nei file {{FileFormatUp}} per mantenere i dati sensibili privati con {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Nascondi Testo in Presentazioni {{FileFormatUp}} con Overlay {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} per bloccare contenuti sensibili nei file {{FileFormatUp}} con overlay colorati. Mantieni le diapositive intatte mentre nascondi informazioni chiave."
+    },
+    "header": {
+      "title": "Maschera Testo in Presentazioni {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Proteggi facilmente dettagli personali o aziendali nelle tue diapositive {{FileFormatUp}} usando {{ProgLang}} e {{ProdFullName}}.",
+      "subtitle": "Esplora le Caratteristiche di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Redigi Contenuti Privati in Diapositive {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} semplifica la protezione dei contenuti per gli sviluppatori {{EnvName}}.",
+        "step_1": "Imposta un {{textRedactor}} con il percorso della tua presentazione.",
+        "step_2": "Scegli come deve comportarsi la redazione.",
+        "step_3": "Aggiungi il modello di testo e il colore di overlay.",
+        "step_4": "Redigi la diapositiva e salvala."
+      }
+    },
+    "example_top": {
+      "comment_1": "Usa overlay per bloccare testo in {{FileFormatUp}}",
+      "comment_2": "Inizializza {{textRedactor}} con la tua presentazione",
+      "comment_3": "Seleziona le tue preferenze di redazione",
+      "comment_4": "Imposta il testo e il colore di overlay",
+      "comment_5": "Esegui la redazione e salvala"
+    },
+    "example_bottom": {
+      "title": "Redigi Testo con Regex",
+      "content": "Usa espressioni regolari per trovare e coprire parole sensibili",
+      "comment_1": "Apri il file di presentazione",
+      "comment_2": "Imposta il modello di ricerca e il colore di overlay",
+      "comment_3": "Esegui le regole di redazione",
+      "comment_4": "Salva la versione finale"
+    },
+    "more_features": {
+      "title": "Strumenti di Redazione Potenti",
+      "description": "{{ProdFullName}} ti consente di bloccare o rimuovere contenuti sensibili nelle tue presentazioni senza alterare layout o formattazione.",
+      "image_description": "Funzionalità che funzionano attraverso le diapositive",
+      "feature_1": {
+        "title": "Nascondi o sostituisci testo",
+        "content": "Proteggi nomi, termini o note che non dovrebbero essere visibili."
+      },
+      "feature_2": {
+        "title": "Coprire aree visive",
+        "content": "Aggiungi overlay a foto o sezioni grafiche delle diapositive."
+      },
+      "feature_3": {
+        "title": "Elimina metadati",
+        "content": "Cancella informazioni dietro le quinte che potrebbero rivelare paternità o cronologia delle modifiche."
+      }
+    },
+    "about": {
+      "title": "Cosa Fa {{ProdFullName}}",
+      "content": "{{ProdFullName}} consente agli sviluppatori {{ProgLang}} di nascondere o rimuovere testo, immagini o metadati nelle presentazioni {{FileFormatUp}} in pochi passaggi."
+    },
+    "formats": {
+      "title": "Proteggi Diapositive {{FileFormatUp}} con Strumenti {{EnvNameShort}}",
+      "description": "Copri contenuti sensibili o rimuovili completamente dalle presentazioni {{FileFormatUp}} utilizzando le funzionalità di redazione di {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Redigi Testo in {{FileFormatUp}} Utilizzando Overlay {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} per coprire testo sensibile nei file {{FileFormatUp}} con blocchi di colore mantenendo la struttura del documento invariata."
+    },
+    "header": {
+      "title": "Redazione Overlay in File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Nascondi dettagli importanti nei tuoi documenti {{FileFormatUp}} utilizzando overlay colorati alimentati da {{ProgLang}} e {{ProdFullName}}.",
+      "subtitle": "Cosa Può Fare {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Proteggi Info Private in Formato {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} offre agli sviluppatori {{EnvName}} modi rapidi per ripulire file e proteggere il loro contenuto.",
+        "step_1": "Avvia un {{textRedactor}} e carica il file {{FileFormatCap}}.",
+        "step_2": "Scegli le tue opzioni di redazione.",
+        "step_3": "Aggiungi modello di testo e colore di overlay.",
+        "step_4": "Esegui la redazione e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Nascondi testo utilizzando overlay in {{FileFormatUp}}",
+      "comment_2": "Usa {{textRedactor}} per aprire il documento",
+      "comment_3": "Imposta preferenze di redazione",
+      "comment_4": "Aggiungi parole chiave e seleziona colore",
+      "comment_5": "Applica e salva il tuo file redatto"
+    },
+    "example_bottom": {
+      "title": "Redazione Alimentata da Regex",
+      "content": "Impara a utilizzare regex per nascondere automaticamente contenuti specifici",
+      "comment_1": "Carica il documento da redigere",
+      "comment_2": "Definisci il tuo modello regex e il colore di overlay",
+      "comment_3": "Applica la redazione",
+      "comment_4": "Salva la tua versione pulita"
+    },
+    "more_features": {
+      "title": "Ulteriori Capacità di Redazione",
+      "description": "Usa {{ProdFullName}} per rimuovere contenuti sia visibili che nascosti dai file mantenendo il layout intatto.",
+      "image_description": "Output semplice e pulito",
+      "feature_1": {
+        "title": "Sostituisci testo",
+        "content": "Copri parole o termini che non dovrebbero essere visibili."
+      },
+      "feature_2": {
+        "title": "Maschera visivi",
+        "content": "Usa overlay colorati per nascondere immagini o parti di esse."
+      },
+      "feature_3": {
+        "title": "Cancella metadati",
+        "content": "Rimuovi dettagli nascosti nelle proprietà del file."
+      }
+    },
+    "about": {
+      "title": "Scopri {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli utenti {{ProgLang}} pieno controllo sulla redazione di {{FileFormatUp}}. Nascondi qualsiasi cosa tu voglia: testo, visuali o metadati."
+    },
+    "formats": {
+      "title": "Redigi Contenuto in {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Mantieni i tuoi documenti {{FileFormatUp}} privati nascondendo o rimuovendo dati sensibili utilizzando {{EnvNameShort}}."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Coprire Testo in {{FileFormatUp}} con Overlay e {{ProgLang}}",
+      "description": "Proteggi contenuti sensibili nei file {{FileFormatUp}} applicando overlay colorati utilizzando {{ProdFullName}}. Mantieni il layout del documento intatto."
+    },
+    "header": {
+      "title": "Redigi Dati {{FileFormatUp}} con Overlay in {{EnvNameShort}}",
+      "description": "Usa codice {{ProgLang}} per mascherare informazioni sensibili in fogli di calcolo {{FileFormatUp}}. Un modo efficace per mantenere i dati privati.",
+      "subtitle": "Caratteristiche Chiave di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Nascondi Info in Fatture {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aiuta gli sviluppatori {{EnvName}} a proteggere i file nascondendo informazioni private in pochi righe.",
+        "step_1": "Inizia un {{textRedactor}} e carica il tuo foglio di calcolo.",
+        "step_2": "Imposta le regole di redazione secondo necessità.",
+        "step_3": "Scegli il testo e il colore di overlay.",
+        "step_4": "Applica e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Usa overlay per nascondere testo in {{FileFormatUp}}",
+      "comment_2": "Crea un {{textRedactor}} e carica il tuo file",
+      "comment_3": "Scegli regole di redazione",
+      "comment_4": "Inserisci cosa nascondere e scegli un colore",
+      "comment_5": "Applica redazione e salva il file"
+    },
+    "example_bottom": {
+      "title": "Redazione Regex",
+      "content": "Usa regex per trovare e nascondere testo automaticamente",
+      "comment_1": "Apri il tuo foglio di calcolo",
+      "comment_2": "Imposta il modello e i dettagli di overlay",
+      "comment_3": "Applica la redazione",
+      "comment_4": "Salva la versione ripulita"
+    },
+    "more_features": {
+      "title": "Strumenti di Protezione Dati Essenziali",
+      "description": "Nascondi o elimina informazioni sensibili dai tuoi fogli di calcolo senza compromettere layout o significato utilizzando {{ProdFullName}}.",
+      "image_description": "Progettato per una pulizia dei dati sicura",
+      "feature_1": {
+        "title": "Modifica o nascondi testo",
+        "content": "Trova e blocca qualsiasi testo che necessita di protezione."
+      },
+      "feature_2": {
+        "title": "Coprire visivi sensibili",
+        "content": "Applica blocchi colorati su aree di grafico o immagini."
+      },
+      "feature_3": {
+        "title": "Rimuovi metadati",
+        "content": "Cancella la cronologia del documento, i nomi degli autori o i timestamp."
+      }
+    },
+    "about": {
+      "title": "Perché Scegliere {{ProdFullName}}",
+      "content": "{{ProdFullName}} è progettato per gli sviluppatori {{ProgLang}} che desiderano nascondere o ripulire contenuti nei fogli di calcolo {{FileFormatUp}} rapidamente."
+    },
+    "formats": {
+      "title": "Redigi Fogli {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Nascondi o cancella dati sensibili in {{FileFormatUp}} utilizzando overlay e strumenti di {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Proteggi Testo in {{FileFormatUp}} con Overlay {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puoi bloccare testo privato in diapositive {{FileFormatUp}} utilizzando semplici riquadri di overlay—senza cambiare il layout."
+    },
+    "header": {
+      "title": "Nascondi Testo in {{FileFormatUp}} Utilizzando Overlay e {{EnvNameShort}}",
+      "description": "Usa {{ProgLang}} e {{ProdFullName}} per mantenere sicure le tue diapositive {{FileFormatUp}} mascherando contenuti sensibili.",
+      "subtitle": "All'interno di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Pulisci Presentazioni {{FileFormatCap}} Prima di Condividerle",
+      "content": {
+        "title": "Usa {{ProdFullName}} nelle app {{EnvName}} per nascondere o rimuovere parti sensibili delle tue diapositive.",
+        "step_1": "Crea un nuovo {{textRedactor}} con il percorso della tua presentazione.",
+        "step_2": "Definisci le tue preferenze di redazione.",
+        "step_3": "Imposta il modello di testo e il colore di overlay.",
+        "step_4": "Esegui e salva il file redatto."
+      }
+    },
+    "example_top": {
+      "comment_1": "Overlay aree di testo in {{FileFormatUp}}",
+      "comment_2": "Apri il file con {{textRedactor}}",
+      "comment_3": "Regola le impostazioni di redazione",
+      "comment_4": "Inserisci testo e scegli colore di overlay",
+      "comment_5": "Redigi e salva il file aggiornato"
+    },
+    "example_bottom": {
+      "title": "Regex per Redazione del Testo",
+      "content": "Impara a rilevare e redigere testo utilizzando la corrispondenza di pattern",
+      "comment_1": "Carica il file delle diapositive",
+      "comment_2": "Applica le tue regole regex",
+      "comment_3": "Esegui la redazione",
+      "comment_4": "Salva la versione finale"
+    },
+    "more_features": {
+      "title": "Redazione Semplice per Diapositive Sensibili",
+      "description": "{{ProdFullName}} rende facile bloccare o rimuovere contenuti dalle diapositive, indipendentemente dall'uso.",
+      "image_description": "Strumenti di redazione che si adattano",
+      "feature_1": {
+        "title": "Trova e sostituisci testo",
+        "content": "Proteggi frasi o etichette sensibili su qualsiasi diapositiva."
+      },
+      "feature_2": {
+        "title": "Coprire parti visive",
+        "content": "Aggiungi overlay a aree selezionate delle diapositive o immagini."
+      },
+      "feature_3": {
+        "title": "Rimuovi contenuti nascosti",
+        "content": "Cancella metadati o note di revisione dalle diapositive prima di condividerle."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} aiuta gli sviluppatori {{ProgLang}} a pulire le diapositive {{FileFormatUp}} bloccando o eliminando contenuti sensibili come testo, metadati o immagini."
+    },
+    "formats": {
+      "title": "Proteggi Diapositive {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Usa redazione overlay e strumenti di ripulitura di {{EnvNameShort}} per mantenere private le tue diapositive {{FileFormatUp}}."
+    }
+  }
+}

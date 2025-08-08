@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Che dấu hình ảnh trong {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể che giấu hình ảnh riêng tư trong các tệp {{FileFormatUp}} bằng cách sử dụng các lớp phủ màu. Bảo vệ hình ảnh nhạy cảm trong khi giữ nguyên thiết kế của tài liệu."
+    },
+    "header": {
+      "title": "Che giấu hình ảnh bí mật trong các tệp {{FileFormatUp}} bằng lớp phủ với {{EnvNameShort}}",
+      "description": "Bảo vệ dữ liệu cá nhân và doanh nghiệp trong các tệp {{FileFormatUp}} với {{ProgLang}}. Công cụ của chúng tôi giúp việc che giấu hình ảnh trở nên đơn giản và hiệu quả.",
+      "subtitle": "Các tính năng của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo vệ thông tin doanh nghiệp trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các ứng dụng {{EnvName}} của bạn bảo vệ tài liệu. Che giấu hình ảnh riêng tư trong vài bước đơn giản.",
+        "step_1": "Khởi tạo một {{textRedactor}} và đặt đường dẫn đến tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn cài đặt che giấu để đạt được kết quả tốt nhất.",
+        "step_3": "Chọn vùng hình ảnh và chọn màu lớp phủ.",
+        "step_4": "Xử lý và lưu tệp đã được bảo vệ."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu hình ảnh nhạy cảm trong {{FileFormatUp}}",
+      "comment_2": "Tải tệp bằng {{textRedactor}}",
+      "comment_3": "Đặt màu lớp phủ và kích thước",
+      "comment_4": "Chọn vùng mục tiêu để che giấu",
+      "comment_5": "Áp dụng lớp phủ và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Che giấu dữ liệu hình ảnh bằng các lớp phủ",
+      "content": "Ví dụ này minh họa cách che giấu hình ảnh bí mật trong tài liệu bằng lớp phủ.",
+      "comment_1": "Mở tài liệu để chỉnh sửa",
+      "comment_2": "Xác định kích thước, màu sắc và vị trí lớp phủ",
+      "comment_3": "Chọn vùng hình ảnh cần che giấu ở trang đầu",
+      "comment_4": "Thêm lớp phủ để che dữ liệu nhạy cảm",
+      "comment_5": "Lưu tài liệu đã cập nhật"
+    },
+    "more_features": {
+      "title": "Che giấu nội dung trong tài liệu",
+      "description": "Với {{ProdFullName}}, bạn có thể che giấu hoặc xóa dữ liệu nhạy cảm trong nhiều định dạng tệp khác nhau. Bảo vệ thông tin cá nhân trong khi giữ cho các tệp dễ đọc và phân phối.",
+      "image_description": "Tùy chọn che giấu mạnh mẽ",
+      "feature_1": {
+        "title": "Sửa đổi văn bản ở bất kỳ đâu",
+        "content": "Tìm và thay thế những từ nhạy cảm trên toàn bộ tài liệu của bạn để bảo vệ nội dung riêng tư."
+      },
+      "feature_2": {
+        "title": "Che giấu hình ảnh",
+        "content": "Thêm lớp phủ vào hình ảnh hoặc một phần của nó để giữ cho hình ảnh nhạy cảm được giấu kín."
+      },
+      "feature_3": {
+        "title": "Dọn dẹp siêu dữ liệu",
+        "content": "Xóa hoặc chỉnh sửa siêu dữ liệu ẩn để ngăn chặn thông tin không mong muốn bị rò rỉ."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} các công cụ hiệu quả để che giấu hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Che khuất văn bản, hình ảnh và siêu dữ liệu để bảo vệ tài liệu của bạn trên nhiều định dạng khác nhau."
+    },
+    "formats": {
+      "title": "Bảo vệ các tệp {{FileFormatUp}} với các lớp phủ của {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để che giấu hoặc xóa dữ liệu nhạy cảm trong các tệp {{FileFormatUp}}. Hoàn hảo để bảo vệ tài liệu chính thức và cá nhân."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Che giấu hình ảnh trong {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể che giấu hình ảnh nhạy cảm trong các tệp {{FileFormatUp}} bằng cách áp dụng các lớp phủ màu. Bảo vệ thông tin cá nhân mà không thay đổi bố cục tài liệu."
+    },
+    "header": {
+      "title": "Che giấu hình ảnh bí mật trong các tài liệu {{FileFormatUp}} bằng lớp phủ với {{EnvNameShort}}",
+      "description": "Bảo vệ dữ liệu doanh nghiệp và cá nhân trong các tệp {{FileFormatUp}} bằng {{ProgLang}}. Công cụ của chúng tôi giúp bạn giữ thông tin nhạy cảm an toàn và tài liệu của bạn sạch sẽ.",
+      "subtitle": "Các tính năng chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo mật dữ liệu trong các tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} cung cấp cho các ứng dụng {{EnvName}} sức mạnh để che giấu tài liệu. Che giấu nội dung cá nhân nhanh chóng và hiệu quả.",
+        "step_1": "Tạo một {{textRedactor}} và đặt đường dẫn tệp đến tài liệu {{FileFormatCap}} của bạn.",
+        "step_2": "Điều chỉnh các cài đặt che giấu để phù hợp với nhu cầu của bạn.",
+        "step_3": "Chọn vùng hình ảnh bạn muốn che và chọn màu lớp phủ.",
+        "step_4": "Chạy quá trình che giấu và lưu tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu các phần hình ảnh nhạy cảm trong {{FileFormatUp}}",
+      "comment_2": "Tải tài liệu bằng {{textRedactor}}",
+      "comment_3": "Đặt màu lớp phủ và kích thước",
+      "comment_4": "Đánh dấu vùng cần che giấu",
+      "comment_5": "Áp dụng lớp phủ và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Áp dụng lớp phủ để che giấu dữ liệu nhạy cảm",
+      "content": "Ví dụ này cho thấy cách áp dụng lớp phủ để che giấu các vùng hình ảnh bí mật trong tài liệu.",
+      "comment_1": "Mở tài liệu để chỉnh sửa",
+      "comment_2": "Đặt kích thước, màu sắc và vị trí lớp phủ",
+      "comment_3": "Chọn một vùng mục tiêu ở trang đầu",
+      "comment_4": "Áp dụng lớp phủ để che giấu hình ảnh",
+      "comment_5": "Lưu tài liệu đã che giấu"
+    },
+    "more_features": {
+      "title": "Che giấu nội dung nhạy cảm trong các tệp",
+      "description": "Với {{ProdFullName}}, bạn có thể che giấu hoặc xóa nội dung từ nhiều loại tệp khác nhau. Giữ cho tài liệu của bạn an toàn và dễ đọc.",
+      "image_description": "Các tính năng của việc che giấu tài liệu",
+      "feature_1": {
+        "title": "Chỉnh sửa nội dung văn bản",
+        "content": "Tìm và thay thế văn bản nhạy cảm trong các tệp của bạn để duy trì sự riêng tư của dữ liệu."
+      },
+      "feature_2": {
+        "title": "Đắp lớp phủ lên hình ảnh",
+        "content": "Che toàn bộ hình ảnh hoặc các phần được chọn để giữ thông tin hình ảnh bí mật."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Dọn dẹp siêu dữ liệu ẩn trong tài liệu để ngăn ngừa rò rỉ dữ liệu."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} các công cụ để che giấu hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Bảo vệ văn bản, hình ảnh và siêu dữ liệu trong nhiều định dạng tài liệu khác nhau."
+    },
+    "formats": {
+      "title": "Che giấu các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để che giấu hoặc xóa dữ liệu cá nhân trong các tệp {{FileFormatUp}}. Hoàn hảo để giữ an toàn cho tài liệu kinh doanh và bí mật."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Che giấu hình ảnh trong các tệp {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để che giấu hình ảnh nhạy cảm trong các tệp {{FileFormatUp}} bằng cách thêm các lớp phủ màu. Bảo vệ dữ liệu quan trọng trong khi giữ cấu trúc tài liệu không đổi."
+    },
+    "header": {
+      "title": "Che giấu hình ảnh riêng tư trong các tài liệu {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Giữ cho nội dung hình ảnh nhạy cảm an toàn trong các tệp {{FileFormatUp}} với {{ProgLang}}. Các công cụ dễ sử dụng giúp việc che giấu hình ảnh nhanh chóng và đáng tin cậy.",
+      "subtitle": "Các tính năng chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo vệ thông tin riêng tư trong các tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các ứng dụng {{EnvName}} bảo vệ tài liệu với các bước đơn giản.",
+        "step_1": "Khởi tạo một {{textRedactor}} và tải tài liệu {{FileFormatCap}} của bạn.",
+        "step_2": "Đặt tùy chọn che giấu để phù hợp với dự án của bạn.",
+        "step_3": "Chọn phần hình ảnh và chọn màu lớp phủ.",
+        "step_4": "Áp dụng quá trình che giấu và lưu tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu các vùng hình ảnh nhạy cảm trong {{FileFormatUp}}",
+      "comment_2": "Tạo {{textRedactor}} với đường dẫn tệp",
+      "comment_3": "Chọn kích thước và màu lớp phủ",
+      "comment_4": "Chọn khu vực để che giấu",
+      "comment_5": "Áp dụng lớp phủ và lưu tài liệu"
+    },
+    "example_bottom": {
+      "title": "Che giấu chi tiết hình ảnh bằng các lớp phủ",
+      "content": "Tìm hiểu cách bảo vệ các phần nhạy cảm của hình ảnh trong tài liệu của bạn bằng các lớp phủ.",
+      "comment_1": "Tải tài liệu để che giấu",
+      "comment_2": "Đặt kích thước, màu sắc và vị trí lớp phủ",
+      "comment_3": "Chọn một vùng hình ảnh cụ thể",
+      "comment_4": "Áp dụng lớp phủ để che giấu hình ảnh",
+      "comment_5": "Lưu tài liệu đã che giấu"
+    },
+    "more_features": {
+      "title": "Các tính năng che dấu nâng cao",
+      "description": "Với {{ProdFullName}}, bạn có thể che giấu hoặc xóa nội dung nhạy cảm trong nhiều loại tệp khác nhau mà vẫn giữ bố cục tài liệu sạch và dễ đọc.",
+      "image_description": "Công cụ che dấu mạnh mẽ",
+      "feature_1": {
+        "title": "Tìm kiếm và thay thế văn bản",
+        "content": "Tìm văn bản cá nhân và che giấu nó để bảo vệ tài liệu của bạn."
+      },
+      "feature_2": {
+        "title": "Che giấu nội dung hình ảnh",
+        "content": "Áp dụng lớp phủ để che giấu các hình ảnh bí mật hoặc các phần cụ thể."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Dọn dẹp siêu dữ liệu ẩn để tránh lộ thông tin."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} các công cụ đơn giản để che giấu hoặc xóa nội dung từ các tệp {{FileFormatUp}}. Che giấu văn bản, hình ảnh và siêu dữ liệu trên nhiều loại tài liệu."
+    },
+    "formats": {
+      "title": "Che giấu nội dung {{FileFormatUp}} với các lớp phủ của {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để che giấu hoặc xóa dữ liệu cá nhân trong các tệp {{FileFormatUp}}. Là lựa chọn thông minh để bảo vệ tài liệu doanh nghiệp và các tài liệu cá nhân."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Che giấu hình ảnh trong {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể che giấu hình ảnh nhạy cảm trong các tệp {{FileFormatUp}} bằng cách thêm lớp phủ màu. Bảo vệ thông tin bí mật trong khi giữ nguyên bố cục tài liệu."
+    },
+    "header": {
+      "title": "Che giấu hình ảnh nhạy cảm trong các tài liệu {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Bảo vệ dữ liệu cá nhân và doanh nghiệp trong các tệp {{FileFormatUp}} với {{ProgLang}}. Các công cụ của chúng tôi giúp việc che giấu hình ảnh nhanh chóng và đơn giản.",
+      "subtitle": "Lợi ích chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo vệ dữ liệu riêng tư trong các tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các ứng dụng {{EnvName}} dễ dàng bảo mật tài liệu bằng cách che giấu nội dung nhạy cảm.",
+        "step_1": "Khởi tạo một {{textRedactor}} và tải tệp {{FileFormatCap}}.",
+        "step_2": "Đặt các tùy chọn che giấu theo yêu cầu của bạn.",
+        "step_3": "Chọn vùng hình ảnh và xác định màu sắc lớp phủ.",
+        "step_4": "Áp dụng che giấu và lưu tệp đã cập nhật."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu các phần hình ảnh nhạy cảm trong {{FileFormatUp}}",
+      "comment_2": "Mở tài liệu bằng {{textRedactor}}",
+      "comment_3": "Chọn màu sắc và kích thước lớp phủ",
+      "comment_4": "Đánh dấu vùng cần che giấu",
+      "comment_5": "Áp dụng thay đổi và lưu tài liệu"
+    },
+    "example_bottom": {
+      "title": "Che giấu dữ liệu hình ảnh bằng lớp phủ",
+      "content": "Ví dụ này cho thấy cách che giấu các hình ảnh nhạy cảm trong tài liệu của bạn.",
+      "comment_1": "Tải tài liệu của bạn",
+      "comment_2": "Đặt kích thước, màu sắc và vị trí lớp phủ",
+      "comment_3": "Chọn vùng hình ảnh ở trang đầu tiên",
+      "comment_4": "Áp dụng lớp phủ để che giấu",
+      "comment_5": "Lưu tài liệu đã che giấu"
+    },
+    "more_features": {
+      "title": "Công cụ che dấu nội dung",
+      "description": "{{ProdFullName}} giúp bạn che giấu hoặc xóa thông tin nhạy cảm trong nhiều định dạng tệp. Giữ cho tài liệu bảo mật trong khi vẫn duy trì diện mạo chuyên nghiệp.",
+      "image_description": "Các tính năng che giấu nâng cao",
+      "feature_1": {
+        "title": "Tìm kiếm và thay thế văn bản",
+        "content": "Tìm nhanh chóng văn bản nhạy cảm và che giấu nó để bảo vệ tài liệu."
+      },
+      "feature_2": {
+        "title": "Che hình ảnh bằng lớp phủ",
+        "content": "Che hoàn toàn hình ảnh hoặc các khu vực đã chọn bằng cách áp dụng lớp phủ."
+      },
+      "feature_3": {
+        "title": "Dọn dẹp siêu dữ liệu",
+        "content": "Xóa hoặc chỉnh sửa siêu dữ liệu ẩn để ngăn chia sẻ thông tin bí mật."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} các công cụ thực tế để che giấu hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Che khuất văn bản, hình ảnh và siêu dữ liệu trên nhiều loại tài liệu khác nhau."
+    },
+    "formats": {
+      "title": "Che giấu nội dung {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Áp dụng {{EnvNameShort}} để che giấu hoặc xóa nội dung nhạy cảm trong các tệp {{FileFormatUp}}. Giải pháp đáng tin cậy cho việc bảo vệ tài liệu."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Che giấu hình ảnh trong {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể che giấu hình ảnh nhạy cảm trong các tệp {{FileFormatUp}} bằng cách sử dụng các lớp phủ màu. Bảo vệ dữ liệu riêng tư mà không thay đổi bố cục tài liệu."
+    },
+    "header": {
+      "title": "Bảo vệ hình ảnh nhạy cảm trong các tệp {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Bảo mật các hình ảnh cá nhân và doanh nghiệp trong các tài liệu {{FileFormatUp}} với {{ProgLang}}. Che giấu hình ảnh nhanh chóng và đáng tin cậy.",
+      "subtitle": "Các tính năng chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo vệ dữ liệu bí mật trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} làm cho các ứng dụng {{EnvName}} dễ dàng che giấu thông tin cá nhân bên trong tài liệu.",
+        "step_1": "Khởi tạo một {{textRedactor}} và tải tệp {{FileFormatCap}}.",
+        "step_2": "Xác định các cài đặt che giấu mà bạn cần.",
+        "step_3": "Đánh dấu vùng hình ảnh và chọn màu lớp phủ.",
+        "step_4": "Chạy quá trình che giấu và lưu tài liệu đã cập nhật."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu nội dung hình ảnh nhạy cảm trong {{FileFormatUp}}",
+      "comment_2": "Tải tệp bằng {{textRedactor}}",
+      "comment_3": "Chọn màu sắc và kích thước lớp phủ",
+      "comment_4": "Đánh dấu khu vực hình ảnh để che",
+      "comment_5": "Áp dụng lớp phủ và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Sử dụng lớp phủ để che giấu dữ liệu hình ảnh",
+      "content": "Ví dụ này cho thấy cách bảo vệ nội dung hình ảnh nhạy cảm trong tài liệu bằng cách sử dụng lớp phủ.",
+      "comment_1": "Tải tài liệu",
+      "comment_2": "Xác định các thuộc tính lớp phủ như kích thước, vị trí và màu",
+      "comment_3": "Đánh dấu vùng hình ảnh ở trang đầu tiên",
+      "comment_4": "Che khuất khu vực bằng lớp phủ",
+      "comment_5": "Lưu tài liệu đã che giấu"
+    },
+    "more_features": {
+      "title": "Công cụ để che giấu và xóa nội dung",
+      "description": "{{ProdFullName}} giúp bạn che giấu hoặc xóa dữ liệu nhạy cảm trong nhiều định dạng tệp khác nhau. Giữ cho tài liệu của bạn an toàn và có cấu trúc tốt.",
+      "image_description": "Các tính năng che giấu hiệu quả",
+      "feature_1": {
+        "title": "Tìm & thay thế văn bản",
+        "content": "Tìm kiếm tài liệu để tìm văn bản cá nhân và thay thế nó để đảm bảo an toàn cho dữ liệu."
+      },
+      "feature_2": {
+        "title": "Che giấu các vùng hình ảnh",
+        "content": "Che toàn bộ hình ảnh hoặc các vùng đã chọn bằng cách sử dụng lớp phủ."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Loại bỏ hoặc chỉnh sửa siêu dữ liệu ẩn để bảo vệ thông tin bí mật."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} các công cụ hữu ích để che giấu hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Che văn bản, hình ảnh và siêu dữ liệu trên nhiều định dạng khác nhau."
+    },
+    "formats": {
+      "title": "Che giấu nội dung trong các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để che giấu hoặc xóa dữ liệu nhạy cảm trong các tệp {{FileFormatUp}}. Một cách hiệu quả để giữ cho tài liệu an toàn."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Che giấu hình ảnh trong {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để che giấu các hình ảnh nhạy cảm trong các tệp {{FileFormatUp}}. Thêm lớp phủ màu để bảo vệ thông tin riêng trong khi giữ nguyên thiết kế của tài liệu."
+    },
+    "header": {
+      "title": "Che giấu hình ảnh nhạy cảm trong các tệp {{FileFormatUp}} với lớp phủ bằng {{EnvNameShort}}",
+      "description": "Bảo vệ một cách nhanh chóng và dễ dàng các hình ảnh cá nhân và doanh nghiệp trong các tệp {{FileFormatUp}} với {{ProgLang}}. Khám phá các tính năng của {{ProdFullName}}.",
+      "subtitle": "Khám phá các tính năng của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo mật dữ liệu của bạn trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các ứng dụng {{EnvName}} che giấu nội dung nhạy cảm bên trong tài liệu với sự hiệu quả.",
+        "step_1": "Tạo một đối tượng {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Đặt tùy chọn che giấu để phù hợp với nhu cầu của bạn.",
+        "step_3": "Chọn vùng hình ảnh và chọn màu lớp phủ.",
+        "step_4": "Áp dụng che giấu và lưu tài liệu của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu nội dung hình ảnh trong {{FileFormatUp}}",
+      "comment_2": "Mở tệp bằng {{textRedactor}}",
+      "comment_3": "Đặt kích thước và màu sắc lớp phủ",
+      "comment_4": "Đánh dấu vùng bạn muốn che",
+      "comment_5": "Áp dụng thay đổi và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Che giấu dữ liệu hình ảnh với lớp phủ",
+      "content": "Ví dụ này cho thấy cách che giấu các phần nhạy cảm của hình ảnh trong tài liệu bằng cách sử dụng lớp phủ.",
+      "comment_1": "Mở tệp để chỉnh sửa",
+      "comment_2": "Đặt kích thước, màu sắc và vị trí lớp phủ",
+      "comment_3": "Chọn một vùng hình ảnh trên trang đầu",
+      "comment_4": "Áp dụng lớp phủ để che dữ liệu",
+      "comment_5": "Lưu tài liệu đã che giấu"
+    },
+    "more_features": {
+      "title": "Che giấu hoặc xóa nội dung trong tài liệu",
+      "description": "{{ProdFullName}} cho phép bạn che giấu hoặc xóa dữ liệu nhạy cảm trong nhiều loại tệp. Giữ cho tài liệu của bạn sạch sẽ và an toàn.",
+      "image_description": "Các tính năng che giấu nâng cao",
+      "feature_1": {
+        "title": "Tìm và thay thế văn bản",
+        "content": "Tìm kiếm các tài liệu để tìm văn bản riêng tư và thay thế nó để giữ an toàn cho dữ liệu."
+      },
+      "feature_2": {
+        "title": "Che giấu các vùng hình ảnh",
+        "content": "Che giấu các phần của hình ảnh hoặc toàn bộ hình ảnh bằng cách sử dụng lớp phủ màu."
+      },
+      "feature_3": {
+        "title": "Dọn dẹp siêu dữ liệu",
+        "content": "Loại bỏ siêu dữ liệu ẩn để tránh chia sẻ thông tin bổ sung."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} các công cụ để che giấu hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Che văn bản, hình ảnh và siêu dữ liệu để bảo vệ dữ liệu nhạy cảm."
+    },
+    "formats": {
+      "title": "Bảo vệ các tệp {{FileFormatUp}} với lớp phủ của {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để che giấu hoặc xóa thông tin riêng tư trong các tệp {{FileFormatUp}}. Cách đơn giản để đảm bảo quyền riêng tư tài liệu."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Che giấu hình ảnh nhạy cảm trong {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Che giấu nội dung hình ảnh riêng trong các tệp {{FileFormatUp}} với {{ProdFullName}}. Thêm lớp phủ để giữ cho tài liệu an toàn mà không ảnh hưởng tới bố cục."
+    },
+    "header": {
+      "title": "Bảo vệ hình ảnh riêng tư trong các tài liệu {{FileFormatUp}} bằng lớp phủ với {{EnvNameShort}}",
+      "description": "Giữ an toàn cho các hình ảnh cá nhân và doanh nghiệp trong các tệp {{FileFormatUp}} với {{ProgLang}}. Công cụ dễ sử dụng cho việc bảo vệ riêng tư mạnh mẽ.",
+      "subtitle": "Các tính năng chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Che giấu dữ liệu nhạy cảm trong các tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các ứng dụng {{EnvName}} nhanh chóng che giấu nội dung riêng trong tài liệu.",
+        "step_1": "Tạo một đối tượng {{textRedactor}} và tải tệp {{FileFormatCap}}.",
+        "step_2": "Đặt những sở thích che giấu cho nhiệm vụ.",
+        "step_3": "Chọn vùng hình ảnh và chọn màu lớp phủ.",
+        "step_4": "Áp dụng che giấu và lưu tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu dữ liệu hình ảnh trong các tệp {{FileFormatUp}}",
+      "comment_2": "Mở tệp với {{textRedactor}}",
+      "comment_3": "Đặt màu sắc và kích thước lớp phủ",
+      "comment_4": "Chọn khu vực cần che giấu",
+      "comment_5": "Áp dụng lớp phủ và lưu thay đổi"
+    },
+    "example_bottom": {
+      "title": "Che giấu nội dung hình ảnh bằng lớp phủ",
+      "content": "Ví dụ này cho thấy cách áp dụng lớp phủ cho các phần hình ảnh nhạy cảm trong tài liệu.",
+      "comment_1": "Tải tệp để che giấu",
+      "comment_2": "Xác định kích thước, màu sắc và vị trí lớp phủ",
+      "comment_3": "Đánh dấu phần hình ảnh ở trang đầu",
+      "comment_4": "Áp dụng lớp phủ để che giấu dữ liệu",
+      "comment_5": "Lưu tài liệu đã sửa đổi"
+    },
+    "more_features": {
+      "title": "Che giấu dữ liệu nhạy cảm trong tài liệu",
+      "description": "{{ProdFullName}} giúp bạn che giấu hoặc xóa nội dung riêng trong nhiều định dạng tài liệu khác nhau. Giữ cho tệp của bạn an toàn cho việc chia sẻ và lưu trữ.",
+      "image_description": "Công cụ che giấu dành cho mọi nhu cầu",
+      "feature_1": {
+        "title": "Tìm kiếm và thay thế văn bản",
+        "content": "Tìm các từ nhạy cảm và thay thế chúng để đảm bảo sự riêng tư dữ liệu."
+      },
+      "feature_2": {
+        "title": "Che giấu các vùng hình ảnh",
+        "content": "Áp dụng lớp phủ vào hình ảnh hoặc các phần của hình ảnh để giữ chúng bí mật."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu ẩn",
+        "content": "Xóa siêu dữ liệu ẩn để tránh rò rỉ dữ liệu."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} khả năng che giấu hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Bảo vệ tài liệu của bạn bằng cách che khuất văn bản, hình ảnh và siêu dữ liệu."
+    },
+    "formats": {
+      "title": "Bảo vệ các tệp {{FileFormatUp}} với lớp phủ của {{EnvNameShort}}",
+      "description": "Với {{EnvNameShort}}, bạn có thể che giấu hoặc xóa dữ liệu nhạy cảm trong các tệp {{FileFormatUp}}. Một giải pháp đáng tin cậy cho việc bảo vệ tài liệu."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Che giấu hình ảnh trong {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Giữ cho các hình ảnh nhạy cảm riêng tư trong các tệp {{FileFormatUp}} với {{ProdFullName}}. Thêm lớp phủ để che giấu thông tin mà không thay đổi bố cục tài liệu của bạn."
+    },
+    "header": {
+      "title": "Che giấu hình ảnh nhạy cảm trong các tệp {{FileFormatUp}} với lớp phủ bằng {{EnvNameShort}}",
+      "description": "Bảo vệ hình ảnh cá nhân và doanh nghiệp trong các tệp {{FileFormatUp}} bằng {{ProgLang}}. Các công cụ đơn giản giúp bạn an toàn tài liệu một cách hiệu quả.",
+      "subtitle": "Các tính năng chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Che giấu dữ liệu riêng tư trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các ứng dụng {{EnvName}} của bạn nhanh chóng che giấu nội dung riêng.",
+        "step_1": "Khởi tạo một đối tượng {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Điều chỉnh cài đặt che giấu để phù hợp với yêu cầu của bạn.",
+        "step_3": "Chọn vùng hình ảnh và chọn màu lớp phủ.",
+        "step_4": "Áp dụng che giấu và lưu tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu dữ liệu hình ảnh trong các tệp {{FileFormatUp}}",
+      "comment_2": "Tải tệp bằng {{textRedactor}}",
+      "comment_3": "Đặt kích thước và màu sắc lớp phủ",
+      "comment_4": "Chọn khu vực cần che giấu",
+      "comment_5": "Áp dụng lớp phủ và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Sử dụng lớp phủ để che giấu nội dung hình ảnh",
+      "content": "Ví dụ này cho thấy cách bảo vệ các phần nhạy cảm của hình ảnh bằng lớp phủ trong tài liệu.",
+      "comment_1": "Mở tệp để sửa đổi",
+      "comment_2": "Xác định kích thước, màu sắc và vị trí lớp phủ",
+      "comment_3": "Chọn một vùng hình ảnh ở trang đầu",
+      "comment_4": "Áp dụng lớp phủ để che dấu hình ảnh",
+      "comment_5": "Lưu tài liệu đã cập nhật"
+    },
+    "more_features": {
+      "title": "Che giấu dữ liệu nhạy cảm trong tài liệu",
+      "description": "{{ProdFullName}} giúp bạn che giấu hoặc xóa nội dung riêng từ nhiều loại tệp. Đảm bảo tài liệu của bạn luôn sạch sẽ và sẵn sàng cho việc chia sẻ.",
+      "image_description": "Các tính năng che giấu tất cả trong một",
+      "feature_1": {
+        "title": "Tìm và thay thế văn bản",
+        "content": "Tìm kiếm tài liệu để tìm văn bản nhạy cảm và thay thế nó để bảo vệ thông tin."
+      },
+      "feature_2": {
+        "title": "Che giấu nội dung hình ảnh",
+        "content": "Sử dụng lớp phủ để che toàn bộ hình ảnh hoặc các phần đã chọn để giữ cho hình ảnh riêng tư."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Cắt bỏ siêu dữ liệu ẩn để tránh lộ thông tin nhạy cảm."
+      }
+    },
+    "about": {
+      "title": "Đây là {{ProdFullName}}?",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} các công cụ để che giấu hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Bảo vệ tài liệu của bạn bằng cách che giấu văn bản, hình ảnh và siêu dữ liệu một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Bảo vệ các tệp {{FileFormatUp}} với lớp phủ của {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để che giấu hoặc xóa dữ liệu nhạy cảm trong các tệp {{FileFormatUp}}. Một giải pháp đáng tin cậy để bảo vệ tài liệu quan trọng của bạn."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Che giấu hình ảnh trong {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để che giấu các vùng hình ảnh nhạy cảm trong các tệp {{FileFormatUp}} bằng các lớp phủ màu. Giữ thông tin quan trọng an toàn mà không làm thay đổi bố cục tài liệu."
+    },
+    "header": {
+      "title": "Bảo vệ hình ảnh riêng tư trong các tệp {{FileFormatUp}} bằng lớp phủ với {{EnvNameShort}}",
+      "description": "Bảo vệ hình ảnh cá nhân và doanh nghiệp trong các tệp {{FileFormatUp}} với {{ProgLang}}. Công cụ dễ dàng cho việc bảo vệ dữ liệu nhanh chóng và đáng tin cậy.",
+      "subtitle": "Các tính năng chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo mật nội dung trong các tệp {{FileFormatCap}} bằng lớp phủ",
+      "content": {
+        "title": "Che giấu nhanh chóng các khu vực nhạy cảm trong các ứng dụng của bạn với {{ProdFullName}}.",
+        "step_1": "Tạo một đối tượng {{textRedactor}} và chỉ định đường dẫn tệp của bạn đến {{FileFormatCap}}.",
+        "step_2": "Đặt tùy chọn che giấu theo yêu cầu.",
+        "step_3": "Đánh dấu các phần hình ảnh và chọn màu lớp phủ.",
+        "step_4": "Xử lý và lưu tệp đã che giấu."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu nội dung hình ảnh trong {{FileFormatUp}}",
+      "comment_2": "Tải tệp bằng {{textRedactor}}",
+      "comment_3": "Đặt kích thước và màu sắc lớp phủ",
+      "comment_4": "Chọn khu vực bạn muốn bảo vệ",
+      "comment_5": "Áp dụng lớp phủ và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Che giấu khu vực hình ảnh bằng lớp phủ",
+      "content": "Ví dụ mã này trình bày cách che giấu các phần nhạy cảm của hình ảnh bằng lớp phủ.",
+      "comment_1": "Mở tệp để chỉnh sửa",
+      "comment_2": "Xác định kích thước, màu sắc và vị trí lớp phủ",
+      "comment_3": "Chọn vùng hình ảnh trên trang đầu",
+      "comment_4": "Thêm lớp phủ để che dấu nội dung",
+      "comment_5": "Lưu tệp đã sửa đổi"
+    },
+    "more_features": {
+      "title": "Che giấu nội dung nhạy cảm trong bất kỳ tài liệu nào",
+      "description": "{{ProdFullName}} giúp bạn che giấu hoặc xóa nội dung cá nhân trong nhiều định dạng tệp. Bảo đảm tài liệu luôn sạch sẽ và an toàn cho việc phân phối.",
+      "image_description": "Các công cụ che giấu với sự kiểm soát đầy đủ",
+      "feature_1": {
+        "title": "Tìm và thay thế văn bản",
+        "content": "Tìm văn bản nhạy cảm trong các tài liệu và thay thế nó để bảo vệ thông tin."
+      },
+      "feature_2": {
+        "title": "Che giấu hình ảnh bằng lớp phủ",
+        "content": "Sử dụng lớp phủ để che toàn bộ hình ảnh hoặc các phần riêng lẻ."
+      },
+      "feature_3": {
+        "title": "Dọn dẹp siêu dữ liệu",
+        "content": "Xóa hoặc chỉnh sửa siêu dữ liệu ẩn để ngăn chặn rò rỉ dữ liệu."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} khả năng che giấu hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Bảo vệ tài liệu bằng cách che giấu văn bản, hình ảnh và siêu dữ liệu."
+    },
+    "formats": {
+      "title": "Bảo vệ các tệp {{FileFormatUp}} với lớp phủ của {{EnvNameShort}}",
+      "description": "Với {{EnvNameShort}}, bạn có thể dễ dàng che giấu hoặc xóa dữ liệu nhạy cảm trong các tệp {{FileFormatUp}}. Một giải pháp đáng tin cậy để giữ tài liệu an toàn và bảo mật."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Che giấu hình ảnh trong {{FileFormatUp}} với lớp phủ bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để che giấu các vùng hình ảnh nhạy cảm trong các tệp {{FileFormatUp}} bằng lớp phủ. Bảo vệ nội dung riêng trong khi vẫn giữ nguyên bố cục của tệp."
+    },
+    "header": {
+      "title": "Bảo vệ dữ liệu hình ảnh trong các tệp {{FileFormatUp}} với lớp phủ bằng {{EnvNameShort}}",
+      "description": "Bảo vệ dữ liệu hình ảnh cá nhân và doanh nghiệp trong các tệp {{FileFormatUp}} bằng {{ProgLang}}. Các công cụ đơn giản được thiết kế cho việc bảo vệ nhanh chóng và hiệu quả.",
+      "subtitle": "Các tính năng chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Che giấu nội dung trong các tệp {{FileFormatCap}} với lớp phủ",
+      "content": {
+        "title": "{{ProdFullName}} giúp bạn dễ dàng che giấu các vùng nhạy cảm trong ứng dụng của bạn.",
+        "step_1": "Khởi tạo một {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Đặt các tùy chọn che giấu theo yêu cầu.",
+        "step_3": "Chọn vùng hình ảnh và chọn màu lớp phủ.",
+        "step_4": "Chạy quá trình che giấu và lưu tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che giấu các phần hình ảnh trong {{FileFormatUp}} bằng lớp phủ",
+      "comment_2": "Tải tệp bằng {{textRedactor}}",
+      "comment_3": "Xác định màu sắc và kích thước lớp phủ",
+      "comment_4": "Đánh dấu khu vực hình ảnh cần bảo vệ",
+      "comment_5": "Áp dụng lớp phủ và lưu kết quả"
+    },
+    "example_bottom": {
+      "title": "Che giấu dữ liệu hình ảnh bằng lớp phủ",
+      "content": "Ví dụ này cho thấy cách bảo vệ nội dung hình ảnh trong tài liệu bằng lớp phủ.",
+      "comment_1": "Tải tài liệu để chỉnh sửa",
+      "comment_2": "Đặt kích thước, màu sắc và vị trí lớp phủ",
+      "comment_3": "Đánh dấu phần hình ảnh ở trang đầu",
+      "comment_4": "Áp dụng lớp phủ để che giấu dữ liệu",
+      "comment_5": "Lưu tài liệu đã chỉnh sửa"
+    },
+    "more_features": {
+      "title": "Che giấu nội dung nhạy cảm một cách nhanh chóng",
+      "description": "{{ProdFullName}} cho phép bạn che giấu hoặc xóa dữ liệu riêng trong nhiều loại tài liệu. Giữ cho tệp của bạn sạch sẽ và sẵn sàng để chia sẻ.",
+      "image_description": "Kiểm soát toàn bộ về việc che giấu",
+      "feature_1": {
+        "title": "Tìm và thay thế văn bản",
+        "content": "Tìm văn bản nhạy cảm trong tài liệu và thay thế nó để bảo vệ thông tin."
+      },
+      "feature_2": {
+        "title": "Che giấu các vùng hình ảnh",
+        "content": "Sử dụng lớp phủ để che dấu toàn bộ hình ảnh hoặc các phần đã chọn."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Xóa hoặc chỉnh sửa siêu dữ liệu ẩn để tránh bất kỳ rò rỉ nào về thông tin."
+      }
+    },
+    "about": {
+      "title": "Tìm hiểu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các lập trình viên {{ProgLang}} các công cụ đáng tin cậy để che giấu hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Bảo vệ tài liệu bằng cách che giấu văn bản, hình ảnh và siêu dữ liệu."
+    },
+    "formats": {
+      "title": "Bảo vệ các tệp {{FileFormatUp}} với lớp phủ của {{EnvNameShort}}",
+      "description": "Với {{EnvNameShort}}, bạn có thể che giấu hoặc xóa dữ liệu nhạy cảm từ các tệp {{FileFormatUp}}. Một cách đáng tin cậy để bảo vệ tài liệu chính thức."
+    }
+  }
+}

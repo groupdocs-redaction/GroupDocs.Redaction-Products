@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Masquer du texte sensible dans {{FileFormatUp}} avec des superpositions utilisant {{ProgLang}}",
+      "description": "Avec {{ProdFullName}}, vous pouvez masquer du texte sensible dans des fichiers {{FileFormatUp}} en plaçant des superpositions carrées colorées. Protégez les données privées sans modifier la mise en page originale."
+    },
+    "header": {
+      "title": "Masquer du texte sensible dans des documents {{FileFormatUp}} avec des superpositions utilisant {{EnvNameShort}}",
+      "description": "Prenez le contrôle du contenu des fichiers {{FileFormatUp}} en utilisant {{ProgLang}}. Utilisez les redactions pour protéger les informations juridiques, financières et personnelles.",
+      "subtitle": "Fonctionnalités de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Protéger les données professionnelles dans des documents {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} : conçu pour aider vos applications {{EnvName}} à garder les documents en sécurité. Rédigez rapidement des informations privées.",
+        "step_1": "Créez une instance de {{textRedactor}} et fournissez le chemin vers le fichier {{FileFormatCap}} que vous souhaitez rédiger.",
+        "step_2": "Configurez les paramètres de redaction pour obtenir le résultat souhaité.",
+        "step_3": "Il vous suffit de définir le motif de texte à rechercher et de choisir la couleur de la superposition.",
+        "step_4": "Rédigez le document et enregistrez les modifications."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer du texte sensible dans {{FileFormatUp}} avec des images de superposition",
+      "comment_2": "Passez le chemin de fichier au constructeur {{textRedactor}}",
+      "comment_3": "Configurez les options de redaction",
+      "comment_4": "Définissez le motif de texte et la couleur de superposition",
+      "comment_5": "Rédigez et enregistrez le fichier {{FileFormatUp}} mis à jour"
+    },
+    "example_bottom": {
+      "title": "Utilisez des expressions régulières pour masquer le texte",
+      "content": "Cet exemple montre comment trouver et masquer du texte en utilisant des expressions régulières",
+      "comment_1": "Chargez le document que vous souhaitez rédiger",
+      "comment_2": "Définissez les paramètres de redaction : motif de texte et couleur",
+      "comment_3": "Appliquez la redaction au contenu",
+      "comment_4": "Enregistrez la version rédigée"
+    },
+    "more_features": {
+      "title": "Rédigez du contenu dans des documents",
+      "description": "Avec {{ProdFullName}}, vous pouvez supprimer ou masquer du contenu à travers de nombreux types de fichiers. Protégez les informations sensibles tout en maintenant vos documents faciles à lire et à partager.",
+      "image_description": "Options de redaction avancées",
+      "feature_1": {
+        "title": "Modifier le texte n'importe où",
+        "content": "Recherchez et remplacez tout texte correspondant dans votre document pour aider à sécuriser des données confidentielles."
+      },
+      "feature_2": {
+        "title": "Couvrir les images",
+        "content": "Placez des superpositions sur des images entières ou des zones sélectionnées pour cacher des visuels privés."
+      },
+      "feature_3": {
+        "title": "Gérer les métadonnées",
+        "content": "Effacez ou modifiez des métadonnées cachées pour éviter les fuites de données indésirables."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit aux développeurs {{ProgLang}} les outils pour cacher ou supprimer du contenu dans des fichiers {{FileFormatUp}}. C'est une manière simple de garder les documents en sécurité. Vous pouvez couvrir du texte, des images ou des métadonnées dans de nombreux types de fichiers."
+    },
+    "formats": {
+      "title": "Protégez le contenu {{FileFormatUp}} avec des redactions {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour couvrir ou effacer du contenu dans des fichiers {{FileFormatUp}}. C'est un choix intelligent pour garder des documents sensibles ou officiels sécurisés."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Couvrir du texte sensible dans {{FileFormatUp}} en utilisant des superpositions et {{ProgLang}}",
+      "description": "Utilisez {{ProdFullName}} pour protéger du texte privé dans des fichiers {{FileFormatUp}} avec de simples superpositions carrées. Gardez votre mise en page de document inchangée et vos données cachées."
+    },
+    "header": {
+      "title": "Couvrir le texte dans {{FileFormatUp}} avec des superpositions utilisant {{EnvNameShort}}",
+      "description": "Masquez le contenu sensible dans vos documents {{FileFormatUp}} en utilisant du code {{ProgLang}}. Idéal pour la protection des documents juridiques, commerciaux ou personnels.",
+      "subtitle": "Fonctionnalités de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Supprimer des données privées des documents {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aide les développeurs {{EnvName}} à nettoyer les documents en quelques lignes de code.",
+        "step_1": "Créez un {{textRedactor}} et fournissez le chemin de votre fichier.",
+        "step_2": "Définissez comment la redaction doit fonctionner.",
+        "step_3": "Entrez le texte à masquer et choisissez la couleur de superposition.",
+        "step_4": "Rédigez le fichier et enregistrez-le."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer du texte dans {{FileFormatUp}} en utilisant des blocs de superposition",
+      "comment_2": "Créez un {{textRedactor}} et chargez le fichier",
+      "comment_3": "Définissez vos préférences de redaction",
+      "comment_4": "Entrez le texte et définissez la couleur du bloc",
+      "comment_5": "Rédigez et enregistrez le document mis à jour"
+    },
+    "example_bottom": {
+      "title": "Regex pour rédiger du contenu",
+      "content": "Découvrez comment les expressions régulières peuvent trouver et masquer des mots sensibles",
+      "comment_1": "Ouvrez le fichier cible",
+      "comment_2": "Définissez le motif et la couleur",
+      "comment_3": "Appliquez la logique de redaction",
+      "comment_4": "Exécutez le document rédigé"
+    },
+    "more_features": {
+      "title": "Plus de façons de nettoyer des documents",
+      "description": "Avec {{ProdFullName}}, rédigez différents types de fichiers pour garder votre contenu sûr et professionnel.",
+      "image_description": "Redaction intelligente intégrée",
+      "feature_1": {
+        "title": "Modifier ou supprimer du texte",
+        "content": "Trouvez des phrases spécifiques et cachez-les ou remplacez-les."
+      },
+      "feature_2": {
+        "title": "Masquer des zones d'image",
+        "content": "Couvrez les endroits sensibles dans les images ou les pages scannées."
+      },
+      "feature_3": {
+        "title": "Effacer les métadonnées cachées",
+        "content": "Supprimez des informations invisibles qui pourraient exposer des données utilisateur ou système."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} aide les développeurs {{ProgLang}} à cacher ou supprimer du contenu privé dans des fichiers {{FileFormatUp}}. Utilisez-le pour masquer des textes, des images et des métadonnées dans différents formats de fichiers."
+    },
+    "formats": {
+      "title": "Masquer le contenu dans {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Protégez des données sensibles dans des documents {{FileFormatUp}} en les recouvrant avec des superpositions ou en les supprimant complètement à l'aide des outils {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Masquer du texte dans {{FileFormatUp}} avec des superpositions {{ProgLang}}",
+      "description": "{{ProdFullName}} aide à masquer du texte dans des fichiers {{FileFormatUp}} en utilisant des blocs colorés. Gardez les informations en sécurité sans changer le format de votre document."
+    },
+    "header": {
+      "title": "Masquer du texte dans des fichiers {{FileFormatUp}} en utilisant des superpositions et {{EnvNameShort}}",
+      "description": "Utilisez {{ProgLang}} et {{ProdFullName}} pour ajouter de simples superpositions qui bloquent le texte sensible dans vos fichiers {{FileFormatUp}}.",
+      "subtitle": "Fonctionnalités de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Protégez les informations sensibles dans des documents {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aide les développeurs {{EnvName}} à protéger des fichiers. Masquez le contenu privé avec juste quelques lignes de code.",
+        "step_1": "Créez un nouvel objet {{textRedactor}} avec le chemin de votre fichier {{FileFormatCap}}.",
+        "step_2": "Ajustez les paramètres de redaction selon vos besoins.",
+        "step_3": "Ajoutez un motif de recherche et choisissez une couleur pour le bloc de superposition.",
+        "step_4": "Exécutez la redaction et enregistrez votre fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Couvrir du texte privé dans {{FileFormatUp}} en utilisant des superpositions",
+      "comment_2": "Chargez le fichier avec {{textRedactor}}",
+      "comment_3": "Choisissez comment la redaction fonctionnera",
+      "comment_4": "Entrez le texte à masquer et sélectionnez la couleur de superposition",
+      "comment_5": "Traitez le fichier et enregistrez les modifications"
+    },
+    "example_bottom": {
+      "title": "Correspondre et masquer avec des expressions régulières",
+      "content": "Apprenez à détecter et à rédiger du contenu en utilisant des expressions régulières",
+      "comment_1": "Ouvrez le document cible",
+      "comment_2": "Configurez le motif et la couleur de superposition",
+      "comment_3": "Appliquez les règles de redaction",
+      "comment_4": "Exportez la version rédigée"
+    },
+    "more_features": {
+      "title": "Fonctionnalités de redaction intelligentes",
+      "description": "Utilisez {{ProdFullName}} pour effacer ou masquer du contenu dans divers types de fichiers. Gardez les détails privés à l'abri des regards.",
+      "image_description": "Outils de redaction pratiques",
+      "feature_1": {
+        "title": "Modifier n'importe quel texte",
+        "content": "Recherchez et mettez à jour toute chaîne dans le document pour protéger les données."
+      },
+      "feature_2": {
+        "title": "Masquer le contenu d'images",
+        "content": "Ajoutez des carrés ou des rectangles pour couvrir des parties sensibles des images."
+      },
+      "feature_3": {
+        "title": "Nettoyer les métadonnées",
+        "content": "Supprimez ou écrasez les détails de fichier en arrière-plan avant de partager."
+      }
+    },
+    "about": {
+      "title": "Comment {{ProdFullName}} aide",
+      "content": "{{ProdFullName}} permet aux développeurs utilisant {{ProgLang}} de cacher du contenu indésirable dans des fichiers {{FileFormatUp}}. Masquez tout, des mots aux images, à travers différents types de fichiers."
+    },
+    "formats": {
+      "title": "Utilisez {{EnvNameShort}} pour masquer des informations dans des fichiers {{FileFormatUp}}",
+      "description": "Ajoutez des superpositions ou supprimez des parties de vos documents {{FileFormatUp}} pour protéger les détails sensibles avec l'aide de {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Rédiger du texte dans {{FileFormatUp}} en utilisant des superpositions et {{ProgLang}}",
+      "description": "Masquez le contenu privé dans des documents {{FileFormatUp}} en le couvrant avec des carrés colorés à l'aide de {{ProdFullName}}. Gardez votre mise en page telle qu'elle est."
+    },
+    "header": {
+      "title": "Rédaction de texte dans {{FileFormatUp}} avec des superpositions utilisant {{EnvNameShort}}",
+      "description": "Avec {{ProgLang}} et {{ProdFullName}}, il est simple de protéger des données sensibles dans des fichiers {{FileFormatUp}} en les cachant.",
+      "subtitle": "Explorez {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Masquer du contenu privé dans vos fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "Avec {{ProdFullName}}, les développeurs {{EnvName}} peuvent protéger les documents en quelques étapes simples.",
+        "step_1": "Démarrez un {{textRedactor}} avec le chemin vers le fichier que vous souhaitez nettoyer.",
+        "step_2": "Choisissez les règles de redaction qui correspondent à vos besoins.",
+        "step_3": "Choisissez un motif à correspondre et une couleur pour la superposition d'image.",
+        "step_4": "Exécutez la redaction et enregistrez votre fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Utilisez des superpositions pour couvrir du texte dans {{FileFormatUp}}",
+      "comment_2": "Initialisez {{textRedactor}} avec votre fichier",
+      "comment_3": "Définissez comment la redaction doit se comporter",
+      "comment_4": "Définissez ce qui doit être masqué et la couleur de la superposition",
+      "comment_5": "Exécutez et enregistrez les modifications"
+    },
+    "example_bottom": {
+      "title": "Rédaction avec des expressions régulières",
+      "content": "Cet exemple montre comment chercher et masquer du texte avec des expressions régulières",
+      "comment_1": "Chargez un fichier à rédiger",
+      "comment_2": "Définissez les règles de redaction : texte à rechercher et couleur du bloc",
+      "comment_3": "Appliquez la logique de redaction",
+      "comment_4": "Enregistrez le résultat rédigé"
+    },
+    "more_features": {
+      "title": "Plus de façons de protéger vos fichiers",
+      "description": "{{ProdFullName}} vous donne les outils pour cacher des données dans différents formats sans changer la mise en page.",
+      "image_description": "Fonctionnalités qui comptent",
+      "feature_1": {
+        "title": "Remplacer le texte selon les besoins",
+        "content": "Échangez du texte pour garder des informations clés à l'abri des utilisateurs non autorisés."
+      },
+      "feature_2": {
+        "title": "Masquer des zones d'images",
+        "content": "Masquez des images complètes ou certaines parties en dessinant des boîtes de superposition."
+      },
+      "feature_3": {
+        "title": "Effacer des données cachées",
+        "content": "Supprimez des métadonnées intégrées qui pourraient révéler des détails privés."
+      }
+    },
+    "about": {
+      "title": "Que fait {{ProdFullName}}",
+      "content": "{{ProdFullName}} vous donne la possibilité de couvrir ou de supprimer du contenu dans des documents {{FileFormatUp}} en utilisant {{ProgLang}}. Masquez tout, des noms aux notes, en quelques étapes."
+    },
+    "formats": {
+      "title": "Sécurisez le texte {{FileFormatUp}} avec les outils {{EnvNameShort}}",
+      "description": "Couvrez des zones privées ou supprimez des données cachées dans des fichiers {{FileFormatUp}} en utilisant les fonctionnalités de redaction {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Utilisez des superpositions pour cacher du texte dans {{FileFormatUp}} via {{ProgLang}}",
+      "description": "{{ProdFullName}} facilite la couverture de texte sensible dans {{FileFormatUp}} avec des blocs de couleur. Gardez le document intact tout en cachant ce qui compte."
+    },
+    "header": {
+      "title": "Redaction de texte par superposition dans des fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Protégez les informations importantes dans des fichiers {{FileFormatUp}} en utilisant des superpositions carrées écrites en {{ProgLang}}. Idéal pour la sécurité et la conformité.",
+      "subtitle": "Voir ce que {{ProdFullName}} peut faire"
+    },
+    "steps": {
+      "title": "Rédiger des données privées dans des fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aide les développeurs {{EnvName}} à supprimer rapidement du contenu sensible. Suivez ces étapes pour sécuriser vos fichiers.",
+        "step_1": "Initialisez un {{textRedactor}} avec le chemin vers votre fichier {{FileFormatCap}}.",
+        "step_2": "Définissez les règles pour rédiger du contenu.",
+        "step_3": "Choisissez le motif de texte et la couleur pour le couvrir.",
+        "step_4": "Appliquez la redaction et enregistrez votre fichier rédigé."
+      }
+    },
+    "example_top": {
+      "comment_1": "Rédiger du texte dans {{FileFormatUp}} en utilisant des images de superposition",
+      "comment_2": "Chargez votre fichier avec le {{textRedactor}}",
+      "comment_3": "Définissez ce qui doit être rédigé",
+      "comment_4": "Ajoutez le texte correspondant et la couleur de superposition",
+      "comment_5": "Exécutez la redaction et enregistrez le fichier final"
+    },
+    "example_bottom": {
+      "title": "Masquez le texte correspondant avec regex",
+      "content": "Cet exemple montre comment utiliser des expressions régulières pour trouver et couvrir du contenu sensible",
+      "comment_1": "Ouvrez le document à rédiger",
+      "comment_2": "Choisissez le motif et la couleur",
+      "comment_3": "Exécutez les règles de redaction",
+      "comment_4": "Enregistrez et révisez la copie rédigée"
+    },
+    "more_features": {
+      "title": "Outils de redaction supplémentaires",
+      "description": "Avec {{ProdFullName}}, vous pouvez garder vos fichiers propres en supprimant les informations visibles et cachées tout en gardant la mise en page intacte.",
+      "image_description": "Sortie propre et sécurisée",
+      "feature_1": {
+        "title": "Remplacez le texte exposé",
+        "content": "Masquez des mots ou des phrases qui pourraient révéler des données importantes."
+      },
+      "feature_2": {
+        "title": "Masquez des images",
+        "content": "Marquez des visuels sensibles avec des blocs solides."
+      },
+      "feature_3": {
+        "title": "Effacez les informations cachées",
+        "content": "Effacez les métadonnées d'arrière-plan pour garder les fichiers privés."
+      }
+    },
+    "about": {
+      "title": "Rencontrez {{ProdFullName}}",
+      "content": "Les développeurs travaillant avec {{ProgLang}} peuvent utiliser {{ProdFullName}} pour cacher ou supprimer des parties de documents {{FileFormatUp}}. Masquez des noms, des chiffres ou d'autres données en juste quelques lignes de code."
+    },
+    "formats": {
+      "title": "Protégez vos fichiers {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+      "description": "Avec {{EnvNameShort}}, vous pouvez masquer du texte ou effacer des métadonnées dans des formats {{FileFormatUp}} sans altérer la mise en page ou le formatage."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Masquer du contenu dans {{FileFormatUp}} avec des redactions par superposition et {{ProgLang}}",
+      "description": "Couvrez le texte dans des documents {{FileFormatUp}} en utilisant des blocs de couleur solide avec {{ProdFullName}}. Une manière efficace de protéger le contenu privé."
+    },
+    "header": {
+      "title": "Redaction par superposition pour des fichiers {{FileFormatUp}} dans {{EnvNameShort}}",
+      "description": "Utilisez du code {{ProgLang}} pour masquer du texte et protéger des données à l'intérieur de vos fichiers {{FileFormatUp}}. Une solution propre pour la sécurité des documents.",
+      "subtitle": "Ce que {{ProdFullName}} inclut"
+    },
+    "steps": {
+      "title": "Rédiger des informations sensibles au format {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} est un outil simple pour les développeurs {{EnvName}} afin de nettoyer des documents avant de les partager.",
+        "step_1": "Commencez un {{textRedactor}} et chargez votre fichier {{FileFormatCap}}.",
+        "step_2": "Décidez des paramètres de redaction pour votre tâche.",
+        "step_3": "Ajoutez un mot-clé ou une phrase à rédiger et choisissez une couleur.",
+        "step_4": "Exécutez l'outil et enregistrez les modifications."
+      }
+    },
+    "example_top": {
+      "comment_1": "Utilisez des superpositions pour masquer du texte dans {{FileFormatUp}}",
+      "comment_2": "Créez un {{textRedactor}} et chargez votre fichier",
+      "comment_3": "Choisissez les règles de redaction",
+      "comment_4": "Entrez ce qu'il faut masquer et choisissez une couleur",
+      "comment_5": "Appliquez la redaction et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Redaction de texte par regex",
+      "content": "Voici comment utiliser regex pour trouver et masquer du contenu dans un fichier",
+      "comment_1": "Charger le document à traiter",
+      "comment_2": "Ajouter le motif et les paramètres de superposition",
+      "comment_3": "Appliquez les modifications",
+      "comment_4": "Enregistrez et fermez le document rédigé"
+    },
+    "more_features": {
+      "title": "Fonctionnalités clés pour la protection des données",
+      "description": "{{ProdFullName}} vous permet de masquer ou de supprimer des données à l'intérieur de vos documents sans perdre de mise en page ou de sens.",
+      "image_description": "Conçu pour la sécurité des documents",
+      "feature_1": {
+        "title": "Modifier le contenu du texte",
+        "content": "Remplacez ou cachez les mots sélectionnés dans l'intégralité du fichier."
+      },
+      "feature_2": {
+        "title": "Rédiger des visuels",
+        "content": "Masquez des photos ou des zones avec des blocs simples."
+      },
+      "feature_3": {
+        "title": "Nettoyer les métadonnées",
+        "content": "Débarrassez-vous des données d'arrière-plan comme les noms d'auteur ou les horodatages."
+      }
+    },
+    "about": {
+      "title": "Pourquoi choisir {{ProdFullName}}",
+      "content": "{{ProdFullName}} est conçu pour les développeurs {{ProgLang}} qui souhaitent rédiger ou supprimer du contenu dans des fichiers {{FileFormatUp}}. Utilisez-le pour travailler avec du texte, des métadonnées et des images."
+    },
+    "formats": {
+      "title": "Rédiger des fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Couvrez du contenu sensible dans {{FileFormatUp}} en utilisant des superpositions carrées ou des redactions claires avec les fonctionnalités {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Masquer du texte sensible dans {{FileFormatUp}} avec des superpositions {{ProgLang}}",
+      "description": "{{ProdFullName}} vous permet de masquer des parties de fichiers {{FileFormatUp}} en utilisant de simples redactions par superposition. Gardez les documents en sécurité sans changer la structure."
+    },
+    "header": {
+      "title": "Redaction de texte dans {{FileFormatUp}} avec des superpositions utilisant {{EnvNameShort}}",
+      "description": "Protégez le contenu de vos fichiers {{FileFormatUp}} en plaçant des blocs de superposition avec l'aide de {{ProgLang}} et {{ProdFullName}}.",
+      "subtitle": "Outils à l'intérieur de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sécurisez le contenu dans des documents {{FileFormatCap}}",
+      "content": {
+        "title": "Utilisez {{ProdFullName}} dans vos applications {{EnvName}} pour nettoyer des fichiers avant distribution.",
+        "step_1": "Passez le chemin du fichier à une nouvelle instance de {{textRedactor}}.",
+        "step_2": "Déterminez ce que et comment vous souhaitez rédiger.",
+        "step_3": "Définissez le motif de texte et choisissez la couleur de la superposition.",
+        "step_4": "Rédigez et sauvegardez votre fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Superposer du texte dans {{FileFormatUp}} pour masquer des détails",
+      "comment_2": "Utiliser {{textRedactor}} pour ouvrir votre fichier",
+      "comment_3": "Ajustez les réglages pour la redaction",
+      "comment_4": "Sélectionnez le texte et une couleur de blocage",
+      "comment_5": "Exécutez et enregistrez votre fichier rédigé"
+    },
+    "example_bottom": {
+      "title": "Trouver et rédiger avec regex",
+      "content": "Cela montre comment regex peut aider à identifier et masquer du texte",
+      "comment_1": "Ouvrez le fichier qui nécessite une rédaction",
+      "comment_2": "Configurez vos règles en utilisant regex",
+      "comment_3": "Exécutez le processus de redaction",
+      "comment_4": "Enregistrez la version nettoyée"
+    },
+    "more_features": {
+      "title": "Masquer facilement des données sensibles",
+      "description": "Utilisez {{ProdFullName}} pour supprimer ou recouvrir du contenu dans différents types de documents — idéal pour protéger des données dans des fichiers juridiques, commerciaux ou personnels.",
+      "image_description": "Redaction de documents flexible",
+      "feature_1": {
+        "title": "Échanger du texte",
+        "content": "Recherchez des mots ou des numéros et remplacez-les ou cachez-les."
+      },
+      "feature_2": {
+        "title": "Rédiger des photos ou des sections",
+        "content": "Ajoutez des superpositions aux images ou aux endroits sélectionnés sur une page."
+      },
+      "feature_3": {
+        "title": "Supprimer des données supplémentaires",
+        "content": "Nettoyez les métadonnées qui pourraient révéler des informations cachées."
+      }
+    },
+    "about": {
+      "title": "À propos de cet outil",
+      "content": "{{ProdFullName}} aide les utilisateurs {{ProgLang}} à nettoyer les documents {{FileFormatUp}} en masquant ou en supprimant du texte, des métadonnées ou des images selon les besoins."
+    },
+    "formats": {
+      "title": "Masquer le contenu dans {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+      "description": "Ajoutez des superpositions ou supprimez des données de vos fichiers {{FileFormatUp}} pour garder le contenu sensible privé à l'aide de {{EnvNameShort}}."
+    }
+  }
+}

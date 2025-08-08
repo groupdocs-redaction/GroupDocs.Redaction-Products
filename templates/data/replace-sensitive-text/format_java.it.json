@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Rimuovi Testo Sensibile in {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Usa {{ProdFullName}} per trovare e rimuovere dati privati dai tuoi file {{FileFormatUp}}. Rimozione di testo semplice, veloce e affidabile."
+    },
+    "header": {
+      "title": "Rimuovi Dati Sensibili da File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Pulisci i file {{FileFormatUp}} utilizzando {{ProgLang}} e {{ProdFullName}}. Rimuovi contenuti personali, legali o aziendali.",
+      "subtitle": "Cosa Puoi Fare con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Come Rimuovere Testo dai File {{FileFormatCap}}",
+      "content": {
+        "title": "Con {{ProdFullName}}, gli sviluppatori {{EnvName}} possono rimuovere contenuti sensibili in pochi passaggi.",
+        "step_1": "Crea un {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Scegli le impostazioni di riduzione che desideri.",
+        "step_3": "Inserisci il testo da cercare e la sua sostituzione.",
+        "step_4": "Applica la riduzione e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Come pulire un file {{FileFormatUp}}",
+      "comment_2": "Crea un {{textRedactor}} e carica il documento",
+      "comment_3": "Imposta le tue regole di riduzione",
+      "comment_4": "Aggiungi il testo da rimuovere e con cosa sostituirlo",
+      "comment_5": "Applica la riduzione e salva il nuovo file"
+    },
+    "example_bottom": {
+      "title": "Rimuovi Testo con Regex",
+      "content": "Usa regex per trovare e nascondere modelli come email, ID o formati personalizzati.",
+      "comment_1": "Apri il documento che vuoi modificare",
+      "comment_2": "Aggiungi un modello EMAIL regex e il testo di sostituzione",
+      "comment_3": "Applica la riduzione sui contenuti corrispondenti",
+      "comment_4": "Salva la versione ridotta"
+    },
+    "more_features": {
+      "title": "Altre Funzionalità di Riduzione",
+      "description": "{{ProdFullName}} rimuove informazioni sensibili attraverso molti formati. Riduci testo, immagini e metadati mantenendo i file leggibili.",
+      "image_description": "Strumenti per la riduzione di testo e immagini",
+      "feature_1": {
+        "title": "Trova e sostituisci testo",
+        "content": "Cerca parole o frasi e sostituiscile. Funziona con testo normale o regex."
+      },
+      "feature_2": {
+        "title": "Copri contenuti immagine",
+        "content": "Nascondi immagini o parti di immagini utilizzando sovrapposizioni colorate."
+      },
+      "feature_3": {
+        "title": "Pulisci metadati",
+        "content": "Rimuovi nomi degli autori, date o altri dettagli nascosti prima della condivisione."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli sviluppatori {{ProgLang}} un modo semplice per pulire i file {{FileFormatUp}}. Rimuovi o sostituisci testo, immagini, commenti e dati nascosti."
+    },
+    "formats": {
+      "title": "Rimuovi File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Proteggi informazioni personali o aziendali riducendo contenuti {{FileFormatUp}} con gli strumenti di {{EnvNameShort}}."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Rimuovi Testo Privato da {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Proteggi contenuti nei tuoi file {{FileFormatUp}} utilizzando {{ProdFullName}}. Riduzione di testo, immagini e metadati veloce ed efficace."
+    },
+    "header": {
+      "title": "Modifica o Rimuovi Testo in Documenti {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Proteggi contenuti personali o aziendali nei tuoi file {{FileFormatUp}} con {{ProgLang}} e {{ProdFullName}}.",
+      "subtitle": "Cosa Puoi Fare con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Come Ridurre Contenuti nei File {{FileFormatCap}}",
+      "content": {
+        "title": "Usa {{ProdFullName}} nei tuoi progetti {{EnvName}} per pulire i file prima della condivisione.",
+        "step_1": "Crea un {{textRedactor}} e carica il file.",
+        "step_2": "Scegli le opzioni di riduzione.",
+        "step_3": "Inserisci il testo da cercare e la sua sostituzione.",
+        "step_4": "Applica le riduzioni e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Riduci contenuti in un file {{FileFormatUp}}",
+      "comment_2": "Carica il documento utilizzando {{textRedactor}}",
+      "comment_3": "Imposta le opzioni di riduzione",
+      "comment_4": "Definisci cosa trovare e sostituire",
+      "comment_5": "Applica la riduzione e salva"
+    },
+    "example_bottom": {
+      "title": "Riduzione Basata su Regex",
+      "content": "Usa espressioni regolari per rilevare e ridurre modelli come numeri di telefono o email.",
+      "comment_1": "Carica il documento",
+      "comment_2": "Imposta un modello EMAIL regex e il testo di sostituzione",
+      "comment_3": "Esegui la riduzione",
+      "comment_4": "Salva il file pulito"
+    },
+    "more_features": {
+      "title": "Opzioni di Riduzione",
+      "description": "{{ProdFullName}} ti consente di pulire contenuti sensibili da molti tipi di file. Mantieni i tuoi documenti al sicuro senza perdere struttura.",
+      "image_description": "Strumenti per rimuovere contenuti",
+      "feature_1": {
+        "title": "Sostituisci testo",
+        "content": "Trova contenuti specifici e sostituiscili nel documento."
+      },
+      "feature_2": {
+        "title": "Nascondi immagini o parti",
+        "content": "Copri visuali sensibili con sovrapposizioni colorate."
+      },
+      "feature_3": {
+        "title": "Rimuovi dati nascosti",
+        "content": "Cancella metadati come nomi degli autori, timestamp o proprietà del documento."
+      }
+    },
+    "about": {
+      "title": "Cos'è {{ProdFullName}}?",
+      "content": "{{ProdFullName}} aiuta gli sviluppatori {{ProgLang}} a pulire e ridurre file {{FileFormatUp}}. Rimuovi testo, immagini, commenti e dati nascosti con precisione."
+    },
+    "formats": {
+      "title": "Pulisci File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Riduci o sostituisci contenuti sensibili in documenti {{FileFormatUp}} utilizzando gli strumenti forniti da {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "Rimuovi Testo Privato da {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Mantieni al sicuro i tuoi dati {{FileFormatUp}} riducendo testo e metadati con {{ProdFullName}}. Protezione efficace e semplice."
+    },
+    "header": {
+      "title": "Pulisci File {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Rimuovi contenuti sensibili dai file {{FileFormatUp}} con {{ProgLang}} e {{ProdFullName}}. Mantieni i tuoi fogli di calcolo sicuri.",
+      "subtitle": "Cosa Puoi Fare con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Riduci Dati da File {{FileFormatCap}}",
+      "content": {
+        "title": "Usa {{ProdFullName}} in qualsiasi app {{EnvName}} per rimuovere testo o contenuto nascosto prima della condivisione.",
+        "step_1": "Crea un'istanza di {{textRedactor}} e carica il tuo file.",
+        "step_2": "Seleziona le opzioni di riduzione che desideri.",
+        "step_3": "Scegli il testo da trovare e il suo replacement.",
+        "step_4": "Applica la riduzione e salva il tuo documento."
+      }
+    },
+    "example_top": {
+      "comment_1": "Come ridurre un foglio di calcolo {{FileFormatUp}}",
+      "comment_2": "Crea un {{textRedactor}} e carica il tuo file",
+      "comment_3": "Scegli le tue impostazioni di riduzione",
+      "comment_4": "Inserisci testo di ricerca e sostituzione",
+      "comment_5": "Applica modifiche e salva"
+    },
+    "example_bottom": {
+      "title": "Riduzione con Regex",
+      "content": "Trova e riduci valori come numeri di conto o modelli utilizzando regex.",
+      "comment_1": "Apri il file da processare",
+      "comment_2": "Aggiungi una regola EMAIL regex e sostituzione",
+      "comment_3": "Applica le regole di riduzione",
+      "comment_4": "Salva il file aggiornato"
+    },
+    "more_features": {
+      "title": "Strumenti di Riduzione Utili",
+      "description": "{{ProdFullName}} aiuta a rimuovere contenuti privati da vari file. Pulisci i documenti senza perdere formattazione.",
+      "image_description": "Protezione intelligente dei contenuti",
+      "feature_1": {
+        "title": "Cerca e sostituisci testo",
+        "content": "Trova e aggiorna o nascondi dati sensibili nelle celle."
+      },
+      "feature_2": {
+        "title": "Copri immagini",
+        "content": "Nascondi grafici, immagini o intervalli utilizzando sovrapposizioni colorate."
+      },
+      "feature_3": {
+        "title": "Cancella metadati",
+        "content": "Rimuovi informazioni sugli autori, date di creazione e altri dati di base."
+      }
+    },
+    "about": {
+      "title": "Perché Usare {{ProdFullName}}?",
+      "content": "{{ProdFullName}} offre agli sviluppatori {{ProgLang}} strumenti per pulire i file {{FileFormatUp}}. Riduci testo, metadati, immagini e altro con poche righe di codice."
+    },
+    "formats": {
+      "title": "Riduci Contenuti in {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Pulisci e proteggi file {{FileFormatUp}} utilizzando le funzionalità di {{EnvNameShort}} per la riduzione e la rimozione dei contenuti."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Rimuovi Testo Privato da {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Proteggi dettagli sensibili nelle tue presentazioni {{FileFormatUp}} con {{ProdFullName}} e {{ProgLang}}. Riduzione rapida e semplice con risultati immediati."
+    },
+    "header": {
+      "title": "Pulisci Testo nei File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Usa {{ProdFullName}} e {{ProgLang}} per nascondere o rimuovere contenuti nelle tue diapositive {{FileFormatUp}}. Ideale per uso commerciale, legale o personale.",
+      "subtitle": "Cosa Puoi Fare con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Come Ridurre i Contenuti nelle Presentazioni {{FileFormatCap}}",
+      "content": {
+        "title": "Con {{ProdFullName}}, puoi pulire le tue presentazioni {{EnvName}} in pochi passaggi.",
+        "step_1": "Crea un {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Seleziona le impostazioni di riduzione che soddisfano le tue esigenze.",
+        "step_3": "Imposta il termine di ricerca e il contenuto di sostituzione.",
+        "step_4": "Applica modifiche e salva il tuo file aggiornato."
+      }
+    },
+    "example_top": {
+      "comment_1": "Ridurre il testo in una presentazione {{FileFormatUp}}",
+      "comment_2": "Carica il tuo documento utilizzando {{textRedactor}}",
+      "comment_3": "Imposta le opzioni di riduzione",
+      "comment_4": "Scegli il testo da cercare e con cosa sostituirlo",
+      "comment_5": "Riduci e salva il file"
+    },
+    "example_bottom": {
+      "title": "Riduzione Basata su Regex",
+      "content": "Usa espressioni regolari per trovare e rimuovere modelli come email, numeri di telefono o codici.",
+      "comment_1": "Apri il tuo file",
+      "comment_2": "Aggiungi un modello EMAIL regex e sostituzione",
+      "comment_3": "Applica la riduzione in base al modello",
+      "comment_4": "Salva la versione pulita"
+    },
+    "more_features": {
+      "title": "Altri Strumenti di Riduzione",
+      "description": "{{ProdFullName}} semplifica la rimozione o l'occultamento di contenuti privati da una vasta gamma di file. Perfetto per mantenere i tuoi dati al sicuro prima della condivisione.",
+      "image_description": "Opzioni per rimuovere testo, immagini e metadati",
+      "feature_1": {
+        "title": "Sostituisci testo ovunque",
+        "content": "Cerca e sostituisci parole o frasi nelle diapositive. Funziona con testo esatto o modelli."
+      },
+      "feature_2": {
+        "title": "Nascondi contenuti visivi",
+        "content": "Copri parti di una diapositiva o immagine utilizzando caselle di sovrapposizione del colore desiderato."
+      },
+      "feature_3": {
+        "title": "Rimuovi metadati",
+        "content": "Elimina dati di base come autore, data di creazione o note che potrebbero contenere informazioni private."
+      }
+    },
+    "about": {
+      "title": "Incontra {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli sviluppatori {{ProgLang}} un modo efficace per modificare o nascondere contenuti nei file {{FileFormatUp}}. Lavora con testo, immagini, metadati e commenti con completo controllo."
+    },
+    "formats": {
+      "title": "Riduci Contenuti in {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Rimuovi dettagli privati o sensibili da documenti {{FileFormatUp}} utilizzando {{EnvNameShort}}. Un modo affidabile per mantenere i tuoi file sicuri."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Rimuovi Testo Privato da {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Mantieni i tuoi file {{FileFormatUp}} al sicuro riducendo dati sensibili con {{ProdFullName}} e {{ProgLang}}. Pulizia rapida e semplice."
+    },
+    "header": {
+      "title": "Modifica o Rimuovi Testo nei File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Proteggi contenuti importanti nei tuoi file {{FileFormatUp}} utilizzando {{ProdFullName}} e {{ProgLang}}. Riduci dati aziendali, legali o personali con fiducia.",
+      "subtitle": "Cosa Puoi Fare con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Passi per Ridurre Documenti {{FileFormatCap}}",
+      "content": {
+        "title": "Usa {{ProdFullName}} nei tuoi progetti {{EnvName}} per pulire i file prima della condivisione.",
+        "step_1": "Crea un {{textRedactor}} e carica il documento {{FileFormatCap}}.",
+        "step_2": "Imposta le tue opzioni di riduzione preferite.",
+        "step_3": "Scegli il testo che desideri trovare e sostituire.",
+        "step_4": "Applica la riduzione e salva il tuo file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Riducendo un documento {{FileFormatUp}}",
+      "comment_2": "Carica il file usando {{textRedactor}}",
+      "comment_3": "Scegli le tue regole di riduzione",
+      "comment_4": "Inserisci il testo di ricerca e sostituzione",
+      "comment_5": "Esegui la riduzione e salva il nuovo file"
+    },
+    "example_bottom": {
+      "title": "Riduzione con Modelli Regex",
+      "content": "Cerca testo utilizzando espressioni regolari per nascondere contenuti come numeri di telefono, date o ID.",
+      "comment_1": "Carica il documento",
+      "comment_2": "Imposta un modello EMAIL regex e valore di sostituzione",
+      "comment_3": "Applica la riduzione",
+      "comment_4": "Salva il documento aggiornato"
+    },
+    "more_features": {
+      "title": "Altre Funzionalità di Riduzione",
+      "description": "{{ProdFullName}} può aiutarti a liberarti di informazioni sensibili da diversi tipi di file. Rimuovi testo, immagini e metadati rapidamente.",
+      "image_description": "Riduci testo, immagini e metadati",
+      "feature_1": {
+        "title": "Cerca e sostituisci testo",
+        "content": "Trova contenuti specifici e sostituiscili o cancellali in tutto il file. Supporto regex incluso."
+      },
+      "feature_2": {
+        "title": "Copri parti delle pagine",
+        "content": "Usa sovrapposizioni per nascondere foto o sezioni del documento."
+      },
+      "feature_3": {
+        "title": "Cancella metadati",
+        "content": "Elimina informazioni extra come autore, timestamp o modifiche tracciate."
+      }
+    },
+    "about": {
+      "title": "Che Cos'è {{ProdFullName}}?",
+      "content": "{{ProdFullName}} offre agli sviluppatori {{ProgLang}} un modo affidabile per ridurre i file {{FileFormatUp}}. Pulisci testo, immagini, commenti e dettagli nascosti con poche righe di codice."
+    },
+    "formats": {
+      "title": "Riduci Contenuti in {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Nascondi o rimuovi contenuti personali e privati da documenti {{FileFormatUp}} utilizzando {{EnvNameShort}}. Un modo semplice per mantenere i tuoi file sicuri."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Rimuovi Testo Privato da {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Mantieni i tuoi fogli di calcolo {{FileFormatUp}} al sicuro rimuovendo contenuti sensibili con {{ProdFullName}} e {{ProgLang}}. Riduzione rapida e semplice."
+    },
+    "header": {
+      "title": "Modifica o Rimuovi Testo nei File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Pulisci i tuoi file {{FileFormatUp}} con {{ProdFullName}} e {{ProgLang}}. Ottimo per proteggere dati aziendali o personali.",
+      "subtitle": "Cosa Puoi Fare con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Come Ridurre Contenuti nei File {{FileFormatCap}}",
+      "content": {
+        "title": "Usa {{ProdFullName}} nei tuoi progetti {{EnvName}} per rimuovere o coprire il testo che non vuoi condividere.",
+        "step_1": "Crea un {{textRedactor}} e carica il file {{FileFormatCap}}.",
+        "step_2": "Scegli le impostazioni di riduzione.",
+        "step_3": "Definisci cosa trovare e cosa sostituire.",
+        "step_4": "Esegui la riduzione e salva il tuo file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Come ridurre testo in un file {{FileFormatUp}}",
+      "comment_2": "Carica il file con {{textRedactor}}",
+      "comment_3": "Imposta le tue regole di riduzione",
+      "comment_4": "Inserisci il testo di destinazione e la sostituzione",
+      "comment_5": "Applica e salva il file pulito"
+    },
+    "example_bottom": {
+      "title": "Riduci Modelli con Regex",
+      "content": "Usa espressioni regolari per trovare e nascondere modelli come indirizzi email o numeri di conto.",
+      "comment_1": "Apri il file che vuoi pulire",
+      "comment_2": "Crea un modello EMAIL regex e impostane il testo di sostituzione",
+      "comment_3": "Esegui il processo di riduzione",
+      "comment_4": "Salva la versione aggiornata"
+    },
+    "more_features": {
+      "title": "Altri Strumenti di Riduzione",
+      "description": "{{ProdFullName}} aiuta a liberarti di contenuti privati in molti tipi di documento. Ottimo per la privacy prima della condivisione.",
+      "image_description": "Caratteristiche di riduzione di testo, immagine e metadati",
+      "feature_1": {
+        "title": "Sostituisci testo privato",
+        "content": "Trova e cambia parole o numeri corrispondenti in tutto il file. Usando modelli di ricerca o corrispondenze esatte."
+      },
+      "feature_2": {
+        "title": "Nascondi parti delle immagini",
+        "content": "Aggiungi caselle di sovrapposizione per nascondere immagini o celle. Scegli colori, dimensioni e posizioni."
+      },
+      "feature_3": {
+        "title": "Rimuovi informazioni di base",
+        "content": "Cancella dati nascosti come paternità, timestamp o commenti di documento."
+      }
+    },
+    "about": {
+      "title": "Incontra {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli sviluppatori {{ProgLang}} tutto ciò di cui hanno bisogno per pulire i file {{FileFormatUp}}. Modifica o nascondi testo, immagini, metadati e note con precisione."
+    },
+    "formats": {
+      "title": "Riduci Contenuti in {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Pulisci dati privati da file {{FileFormatUp}} usando {{EnvNameShort}}. Un modo intelligente per mantenere i tuoi fogli di calcolo al sicuro."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Rimuovi Testo Privato da {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Proteggi dati sensibili nei tuoi file {{FileFormatUp}} utilizzando {{ProdFullName}} e {{ProgLang}}. Riduzione di testo veloce e semplice."
+    },
+    "header": {
+      "title": "Modifica o Nascondi Testo Sensibile nei Documenti {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Proteggi contenuti sensibili nei tuoi file {{FileFormatUp}} utilizzando {{ProgLang}} e {{ProdFullName}}. Personale o aziendale, i tuoi dati rimangono privati.",
+      "subtitle": "Cosa Puoi Fare con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Passi per Pulire Contenuti in Documenti {{FileFormatCap}}",
+      "content": {
+        "title": "Usa {{ProdFullName}} per rimuovere o coprire contenuti privati nelle tue app {{EnvName}}. Riduzione semplice e veloce.",
+        "step_1": "Inizializza un {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Imposta le opzioni di riduzione di cui hai bisogno.",
+        "step_3": "Specifica il testo da cercare e il testo di sostituzione.",
+        "step_4": "Esegui la riduzione e salva il file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Come ridurre testo in un file {{FileFormatUp}}",
+      "comment_2": "Carica il tuo file utilizzando il costruttore {{textRedactor}}",
+      "comment_3": "Imposta le tue preferenze di riduzione",
+      "comment_4": "Scegli ciò da cercare e con cosa sostituirlo",
+      "comment_5": "Applica riduzioni e salva il nuovo file {{FileFormatUp}}"
+    },
+    "example_bottom": {
+      "title": "Riduzione Basata su Modello con Regex",
+      "content": "Usa espressioni regolari per cercare e ridurre modelli di testo sensibili come email o ID.",
+      "comment_1": "Apri il documento che vuoi pulire",
+      "comment_2": "Definisci un modello EMAIL regex e il testo da usare come sostituzione",
+      "comment_3": "Applica le regole di riduzione",
+      "comment_4": "Salva il file finale ridotto"
+    },
+    "more_features": {
+      "title": "Strumenti di Riduzione Aggiuntivi",
+      "description": "{{ProdFullName}} aiuta a rimuovere o nascondere contenuti sensibili in più formati di file. Mantieni i documenti puliti e sicuri da condividere.",
+      "image_description": "Strumenti e opzioni per la riduzione",
+      "feature_1": {
+        "title": "Sostituisci testo riservato",
+        "content": "Trova e sostituisci testo corrispondente ovunque nel file. Supporta regex e opzioni di ricerca intelligenti."
+      },
+      "feature_2": {
+        "title": "Nascondi immagini sensibili",
+        "content": "Coprire immagini o aree specifiche con sovrapposizioni. Regola le impostazioni della pagina, i colori e altro."
+      },
+      "feature_3": {
+        "title": "Pulisci metadati nascosti",
+        "content": "Rimuovi dati nascosti come paternità, timestamp o commenti per proteggere la privacy."
+      }
+    },
+    "about": {
+      "title": "Incontra {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli sviluppatori {{ProgLang}} tutto ciò di cui hanno bisogno per ridurre contenuti {{FileFormatUp}}. Pulisci testo, immagini, annotazioni, commenti e metadati in formati di file popolari."
+    },
+    "formats": {
+      "title": "Riduci Contenuti in {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Proteggi dati ufficiali e personali riducendo testo in file {{FileFormatUp}} con gli strumenti di {{EnvNameShort}}. Un modo affidabile per mantenere i tuoi documenti sicuri e privati."
+    }
+  }
+}

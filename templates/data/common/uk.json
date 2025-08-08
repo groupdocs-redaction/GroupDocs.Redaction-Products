@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Редагувати Excel",
+        "description": "Таблиці MS Excel та Open Office"
+      },
+      "word": {
+        "name": "Редагувати Word",
+        "description": "Документи MS Word та Open Office"
+      },
+      "powerpoint": {
+        "name": "Редагувати PowerPoint",
+        "description": "Презентації MS PowerPoint та Open Office"
+      },
+      "image": {
+        "name": "Редагувати Зображення",
+        "description": "Популярні формати зображень"
+      },
+      "photo": {
+        "name": "Редагувати Фото",
+        "description": "Формати фото"
+      },
+      "pdf": {
+        "name": "Редагувати PDF",
+        "description": "Формат Adobe Portable Document"
+      },
+      "doc": {
+        "name": "Редагувати DOC",
+        "description": "Документ Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Редагувати DOCX",
+        "description": "Документ Microsoft Word Open XML"
+      },
+      "xls": {
+        "name": "Редагувати XLS",
+        "description": "Книга Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Редагувати XLSX",
+        "description": "Електронна таблиця Microsoft Excel Open XML"
+      },
+      "ppt": {
+        "name": "Редагувати PPT",
+        "description": "Презентація PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Редагувати PPTX",
+        "description": "Презентація PowerPoint Open XML"
+      },
+      "jpg": {
+        "name": "Редагувати JPEG",
+        "description": "Зображення JPEG"
+      },
+      "jpeg": {
+        "name": "Редагувати JPEG",
+        "description": "Зображення JPEG"
+      },
+      "png": {
+        "name": "Редагувати PNG",
+        "description": "Портативна мережна графіка"
+      },
+      "tiff": {
+        "name": "Редагувати TIFF",
+        "description": "Формат файлу тегованого зображення"
+      },
+      "webp": {
+        "name": "Редагувати WEBP",
+        "description": "WEB-зображення"
+      },
+      "rtf": {
+        "name": "Редагувати RTF",
+        "description": "Формат розширеного тексту"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копіювати",
+      "result_title": "Приклад редагувань",
+      "result_title_bottom": "Завантажити результат",
+      "copy_tip": "натисніть, щоб скопіювати",
+      "copy_done": "скопійовано",
+      "links": {
+        "title_1": "Більше прикладів",
+        "title_2": "Документація"
+      }
+    },
+    "format-actions": {
+      "title": "Готові почати?",
+      "description": "Спробуйте можливості {{ProdShortName}} безкоштовно або запитайте ліцензію",
+      "comment_1": "Завантаження {{PackageStoreName}}",
+      "comment_2": "Ліцензування"
+    },
+    "texts": {
+      "learn_more": "Дізнатися більше"
+    }
+  }
+}

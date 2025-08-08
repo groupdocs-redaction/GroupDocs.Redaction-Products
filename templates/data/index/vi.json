@@ -1,0 +1,385 @@
+{
+  "index-content": {
+    "head_title": "Giải pháp Xóa Dữ liệu Tài liệu. Chỉnh sửa hoặc xóa bất kỳ dữ liệu nhạy cảm nào.",
+    "head_description": "Xóa, ẩn hoặc che giấu văn bản, hình ảnh, hoặc siêu dữ liệu trong PDF, tài liệu Word, bảng tính Excel, bài thuyết trình PowerPoint, hình ảnh và nhiều hơn nữa. Sử dụng thư viện của chúng tôi trong các ứng dụng .NET, Java, Python hoặc ứng dụng trên đám mây.",
+    "title": "Thư viện Xóa Dữ liệu Tài liệu",
+    "description_0": "Ẩn hoặc xóa thông tin cá nhân từ các loại tệp khác nhau.",
+    "description_1": "Chỉnh sửa văn bản hoặc hình ảnh để loại bỏ nội dung nhạy cảm.",
+    "description_2": "Quản lý siêu dữ liệu tệp với các tính năng nâng cao của chúng tôi.",
+    "words_for": "cho",
+    "release_title": "Phiên bản {0} Được Phát Hành",
+    "release_notes": "Xem những gì mới",
+    "release_downloads": "Tải xuống",
+    "code_more": "Thêm ví dụ",
+    "overview_title": "{{ProdShortName}} Tóm Lược",
+    "formats_title": "Các Định Dạng Tệp Hỗ Trợ",
+    "platforms": {
+      "title": "Tính Độc Lập Nền Tảng",
+      "head_title": "Chọn Nền Tảng Của Bạn",
+      "description": "Thư viện {{ProdShortName}} hỗ trợ các hệ điều hành và frameworks sau:",
+      "learn_more": "Tìm hiểu thêm",
+      "any_other_text_editor": "Bất kỳ trình soạn thảo văn bản nào khác"
+    },
+    "features": {
+      "title": "{{ProdShortName}} Tóm Lược",
+      "description": "Giải pháp quản lý nội dung trong PDF, tài liệu Office, hình ảnh và các tệp kinh doanh khác.",
+      "feature_1": {
+        "title": "Xóa hoặc Chỉnh sửa Văn bản",
+        "content": "Tìm và xóa văn bản nhạy cảm trong tài liệu của bạn."
+      },
+      "feature_2": {
+        "title": "Xóa Hình ảnh",
+        "content": "Ẩn các khu vực hình ảnh trong tệp của bạn một cách hiệu quả."
+      },
+      "feature_3": {
+        "title": "Quản lý Siêu dữ liệu",
+        "content": "Xóa hoặc thay thế siêu dữ liệu như tác giả trong tài liệu Word hoặc dữ liệu EXIF trong hình ảnh."
+      },
+      "feature_4": {
+        "title": "Các Tính năng Nâng cao",
+        "content": "Tìm kiếm dữ liệu để xóa bằng cách sử dụng biểu thức chính quy hoặc tích hợp AI."
+      }
+    },
+    "formats": {
+      "title": "Hỗ Trợ Hơn 30 Định Dạng Tệp",
+      "description": "{{ProdShortName}} hỗ trợ các thao tác xóa trên tất cả các định dạng tệp kinh doanh phổ biến."
+    },
+    "code_samples": {
+      "title": "Mẫu Mã",
+      "index_title": "Mẫu Mã {{ProdShortName}}",
+      "index_description": "Các trường hợp sử dụng điển hình của các thao tác xóa dữ liệu trong {{ProdShortName}}.",
+      "more_examples": "Thêm ví dụ",
+      "sample_index": {
+        "title": "Cách Xóa Văn bản trong Tài liệu PDF",
+        "content": "{{ProdShortName}} là giải pháp tốt nhất để xóa văn bản trong tài liệu của bạn chỉ với vài bước.",
+        "comment_1": "Gửi đường dẫn tệp cần xóa cho một instance của {{textRedactor}}",
+        "comment_2": "Cung cấp các tùy chọn xóa",
+        "comment_3": "Xóa và lưu kết quả"
+      },
+      "sample_1": {
+        "code_title": "Xóa Tài liệu Word Sử dụng Biểu thức Chính quy",
+        "comment_1": "Tạo một instance của lớp {{textRedactor}}",
+        "comment_2": "Định nghĩa các quy tắc xóa bằng cách sử dụng biểu thức chính quy",
+        "comment_3": "Che phủ tất cả văn bản khớp với lớp phủ vuông màu xanh",
+        "comment_4": "Lưu tài liệu Word đã xóa"
+      },
+      "sample_2": {
+        "code_title": "Xóa Tất cả Siêu dữ liệu từ các Bài thuyết trình",
+        "comment_1": "Cung cấp đường dẫn của bài thuyết trình cho {{textRedactor}}",
+        "comment_2": "Cấu hình các tùy chọn xóa",
+        "comment_3": "Xóa tất cả siêu dữ liệu từ bài thuyết trình",
+        "comment_4": "Lưu tệp thuyết trình đã được sạch"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} Thành Tựu",
+      "description": "Khám Phá Các Chỉ Số Chính Nổi Bật Thành Công Của Thư Viện Chúng Tôi",
+      "item_1": {
+        "title": "Các Định Dạng Hỗ Trợ",
+        "description": "{{ProdShortName}} hỗ trợ các thao tác với hơn 30 định dạng tệp phổ biến."
+      },
+      "item_2": {
+        "title": "Tải Xuống NuGet",
+        "description": "{{ProdShortName}} cho .NET đã được tải xuống hơn 440.000 lần từ NuGet."
+      },
+      "item_3": {
+        "title": "Tải Xuống Maven",
+        "description": "{{ProdShortName}} có hơn 12.000 lượt tải xuống trên Maven, cung cấp các tính năng xóa dữ liệu mạnh mẽ cho Java."
+      },
+      "item_4": {
+        "title": "Khách Hàng Hài Lòng",
+        "description": "Cả các doanh nghiệp toàn cầu và các nhà phát triển cá nhân đều tin tưởng vào các sản phẩm của {{NameCompany}} để xây dựng các giải pháp đổi mới."
+      }
+    },
+    "customers": {
+      "title": "Các Khách Hàng Hài Lòng Của Chúng Tôi",
+      "description": "Các thư viện của {{NameCompany}} được tin dùng bởi những thương hiệu được công nhận và tôn trọng toàn cầu."
+    },
+    "actions": {
+      "alt": "Giấy phép",
+      "title": "Sẵn Sàng Bắt Đầu Chưa?",
+      "description": "Thử nghiệm các tính năng của {{ProdShortName}} miễn phí hoặc yêu cầu một giấy phép.",
+      "description_index": "Thử nghiệm các tính năng của {{ProdShortName}} miễn phí trên nền tảng của bạn."
+    },
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "description": "Các câu trả lời cho những câu hỏi thường gặp nhất.",
+      "item_1": {
+        "question": "Thư viện {{ProdShortName}} có cần bất kỳ phần mềm bên thứ ba nào để thao tác tài liệu không?",
+        "answer": "{{ProdShortName}} không yêu cầu phần mềm bên ngoài như Adobe Acrobat, Microsoft Office hoặc các phần mềm khác."
+      },
+      "item_2": {
+        "question": "Tôi có thể thử thư viện {{ProdShortName}} trước khi mua không?",
+        "answer": "Có, bạn có thể thử nghiệm {{ProdShortName}} mà không cần mua giấy phép. Nó hoạt động ở chế độ thử nghiệm, thêm vào dấu nhắc thử nghiệm và giới hạn đầu ra trên 3 trang đầu tiên. Để kiểm tra mà không bị giới hạn, yêu cầu một giấy phép tạm thời 30 ngày. Để biết thêm chi tiết, [xem]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Các tùy chọn giấy phép nào có sẵn?",
+        "answer": "Chúng tôi cung cấp một số loại giấy phép dựa trên nhu cầu phát triển và phân phối của bạn. Bao gồm giấy phép dựa trên nhà phát triển, giấy phép theo trang và giấy phép tính phí theo mức độ sử dụng. Tìm hiểu thêm [tại đây]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} APIs Không Mã",
+      "description": "Tích hợp việc xóa tài liệu vào bất kỳ ứng dụng nào bằng cách sử dụng API REST dựa trên đám mây của chúng tôi.",
+      "item_1": {
+        "content": "Sử dụng lệnh cURL với API đám mây RESTful của chúng tôi để xóa tài liệu trong một loạt các định dạng tệp được hỗ trợ."
+      },
+      "item_2": {
+        "content": "Trích xuất hình ảnh, văn bản và siêu dữ liệu hoặc xóa tài liệu bằng cách sử dụng các mẫu trong các ứng dụng .NET của Microsoft."
+      },
+      "item_3": {
+        "content": "SDK Java để xóa tài liệu và trích xuất dữ liệu trong các ứng dụng dựa trên Java của bạn."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Ứng Dụng Không Mã",
+      "description": "Một ứng dụng web cho phép bạn xóa hơn 30 định dạng tệp phổ biến ngay trong trình duyệt của bạn.",
+      "item_1": {
+        "content": "Công cụ trực tuyến miễn phí để xóa Word, Excel, PowerPoint, PDF và hơn 30 loại tệp khác."
+      },
+      "item_2": {
+        "content": "Xóa tài liệu Word trong trình duyệt của bạn và trích xuất hình ảnh, văn bản hoặc siêu dữ liệu."
+      },
+      "item_3": {
+        "content": "Công cụ xóa PDF miễn phí hoạt động trên bất kỳ thiết bị hoặc nền tảng nào mà không có giới hạn."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Các Định Dạng MS Office",
+      "title_2": "Các Định Dạng Văn Phòng Khác",
+      "title_3": "Các Định Dạng Khác",
+      "format_portable": "Di động",
+      "format_images": "Hình ảnh",
+      "format_other_office": "Các Định Dạng Văn bản",
+      "format_other_web": "Web",
+      "format_other_ebooks": "eBooks"
+    }
+  },
+  "index-content-net": {
+    "head_title": "Xóa dữ liệu nhạy cảm trong tài liệu của bạn bằng {{EnvNameShort}}",
+    "head_description": "Bảo vệ tài liệu kinh doanh của bạn với {{ProdFullName}}. Xóa, ẩn hoặc xóa các nội dung bí mật từ PDF, Word, Excel, PowerPoint và các tệp hình ảnh.",
+    "title": "Bảo Mật Nội Dung của Bạn với {{ProdShortName}}",
+    "description": "Xóa, ẩn hoặc loại bỏ vĩnh viễn thông tin nhạy cảm và siêu dữ liệu từ PDF, tài liệu Word, bảng tính, bài thuyết trình và hình ảnh bằng giải pháp {{EnvNameShort}} mạnh mẽ của chúng tôi.",
+    "actions_main": "Tải xuống {{PackageStoreName}}",
+    "code_title": "Cách Xóa Nội Dung Tệp",
+    "code_comment_1": "Gửi tệp đầu vào cho một instance của {{textRedactor}}",
+    "code_comment_2": "Cấu hình các tùy chọn xóa",
+    "code_comment_3": "Chạy quy trình xóa",
+    "code_comment_4": "Lưu tệp đã xóa",
+    "overview_description": "Thêm tính năng xóa nội dung cấp chuyên nghiệp vào các ứng dụng {{EnvNameShort}} của bạn",
+    "overview_feature_1": {
+      "title": "Xóa Nội Dung Văn bản",
+      "description": "{{ProdFullName}} cho phép bạn xác định và xóa văn bản nhạy cảm. Văn bản có thể được thay thế hoặc ẩn bằng cách sử dụng các lớp hình ảnh màu để tăng cường bảo mật. Hỗ trợ cho một loạt các định dạng bao gồm PDF và tài liệu Office, tính năng này giúp bảo vệ dữ liệu riêng tư và đảm bảo tuân thủ trong kinh doanh."
+    },
+    "overview_feature_2": {
+      "title": "Xóa Hình ảnh",
+      "description": "Tự động phát hiện và xóa hình ảnh—hoặc hoàn toàn hoặc một phần—trên các trang tài liệu. Xác định các tiêu chí tìm kiếm và các khu vực nhắm mục tiêu để che dấu nội dung hình ảnh nhạy cảm một cách hiệu quả."
+    },
+    "overview_feature_3": {
+      "title": "Quản lý Siêu dữ liệu Tệp",
+      "description": "Nhiều loại tệp chứa siêu dữ liệu ẩn, như tên tác giả trong tệp Word hoặc dữ liệu EXIF trong hình ảnh. {{ProdFullName}} giúp bạn tìm và xóa thông tin này một cách đơn giản để đảm bảo bảo mật dữ liệu toàn diện."
+    },
+    "overview_feature_4": {
+      "title": "Xóa Các Đối Tượng Tài Liệu",
+      "description": "Đảm bảo bảo vệ nội dung hoàn toàn bằng cách xóa các phần tử cụ thể của tài liệu như chú thích, bình luận và các đối tượng nhúng trong các định dạng như PDF."
+    },
+    "features": {
+      "title": "Các Tính Năng của {{ProdFullName}}",
+      "description": "Trích xuất và xóa dữ liệu từ PDF, tài liệu Office và hình ảnh với tốc độ và độ chính xác cao.",
+      "feature_1": {
+        "title": "Tìm Kiếm Linh Hoạt",
+        "content": "Thực hiện tìm kiếm phân biệt chữ hoa chữ thường hoặc không phân biệt để xóa các cụm từ hoặc từ đặc biệt."
+      },
+      "feature_2": {
+        "title": "Thay Thế hoặc Xóa Văn bản",
+        "content": "Tìm và thay thế hoặc xóa văn bản nhạy cảm trong tài liệu của bạn."
+      },
+      "feature_3": {
+        "title": "Ẩn Văn bản Bằng Hình ảnh",
+        "content": "Sử dụng các lớp hình ảnh màu để che giấu nội dung đã xóa một cách trực quan thay vì thay thế văn bản."
+      },
+      "feature_4": {
+        "title": "Khả Năng Tìm Kiếm Nâng cao",
+        "content": "Sử dụng biểu thức chính quy để xóa nội dung chính xác và linh hoạt trên các tập hợp dữ liệu phức tạp."
+      },
+      "feature_5": {
+        "title": "Xóa Có Định Nghĩa",
+        "content": "Nhắm đến các trang cụ thể hoặc các khu vực trang đã định để giới hạn việc xóa chỉ cho các phần liên quan."
+      },
+      "feature_6": {
+        "title": "Xóa Siêu dữ liệu",
+        "content": "Tìm và xóa các thuộc tính siêu dữ liệu để bảo vệ chi tiết sở hữu và tạo tài liệu."
+      },
+      "feature_7": {
+        "title": "Định Dạng Đầu Ra Linh Hoạt",
+        "content": "Xuất các tệp đã xóa sang PDF hoặc bất kỳ định dạng hỗ trợ nào trong khi vẫn giữ nguyên cấu trúc bố cục."
+      },
+      "feature_8": {
+        "title": "Xóa Hoàn Toàn Siêu dữ liệu",
+        "content": "Xóa tất cả siêu dữ liệu từ một tài liệu trong một hành động duy nhất để đảm bảo bảo mật tuyệt đối."
+      },
+      "feature_9": {
+        "title": "Các Quy Tắc Xóa Dựa Trên XML",
+        "content": "Định nghĩa các chính sách xóa trong định dạng XML để xử lý tự động và lặp lại qua nhiều tệp."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} tương thích với một loạt các hệ điều hành, frameworks phát triển và trình quản lý gói.",
+    "formats_description": "{{ProdFullName}} hỗ trợ các thao tác với các [định dạng tệp]({{SupportedFormatsUrl}}) sau.",
+    "code_samples_description": "Các ví dụ sử dụng điển hình của {{ProdFullName}} trong hành động",
+    "code_title_sample_1": "Xóa với Biểu thức Chính quy",
+    "code_samples_sample_1_content": "{{ProdFullName}} cho phép các nhà phát triển {{ProgLang}} xóa văn bản bằng cách sử dụng [biểu thức chính quy]({{Sample1Url}}) và che giấu nó bằng các lớp hình ảnh:",
+    "code_title_sample_2": "Dọn Dẹp Siêu dữ liệu",
+    "code_samples_sample_2_content": "Sử dụng API của chúng tôi để dễ dàng [xóa]({{Sample2Url}}) tất cả siêu dữ liệu từ các định dạng tệp được hỗ trợ:"
+  },
+  "index-content-java": {
+    "head_title": "Xóa dữ liệu bí mật từ tài liệu bằng {{EnvNameShort}}",
+    "head_description": "Bảo vệ thông tin nhạy cảm của bạn với {{ProdFullName}}. Nhanh chóng ẩn, xóa hoặc xóa nội dung bí mật trong PDF, tài liệu Office và hình ảnh.",
+    "title": "Bảo Vệ Dữ Liệu Bảo Mật với {{ProdShortName}}",
+    "description": "Dễ dàng xóa dữ liệu cá nhân, xóa văn bản và dọn dẹp siêu dữ liệu từ PDF, Word, Excel, PowerPoint và các định dạng hình ảnh bằng bộ công cụ {{EnvNameShort}} đáng tin cậy.",
+    "actions_main": "Tải xuống {{PackageStoreName}}",
+    "code_title": "Các Bước Xóa Nội Dung Tài Liệu",
+    "code_comment_1": "Tải tệp nguồn của bạn với một instance của {{textRedactor}}",
+    "code_comment_2": "Định nghĩa các tiêu chí và thiết lập xóa",
+    "code_comment_3": "Thực hiện thao tác xóa",
+    "code_comment_4": "Lưu tệp với các xóa đã được áp dụng",
+    "overview_description": "Nâng cao các ứng dụng {{EnvNameShort}} của bạn với các công cụ xóa chuyên nghiệp",
+    "overview_feature_1": {
+      "title": "Xóa Văn bản Nhạy cảm",
+      "description": "Với {{ProdFullName}}, bạn có thể tìm kiếm và ẩn văn bản bí mật bằng cách sử dụng các lớp che khuất hoặc thay thế tùy chỉnh. Tương thích với PDF, Word, Excel và nhiều định dạng khác, nó lý tưởng cho việc tuân thủ quy định và chia sẻ tài liệu an toàn."
+    },
+    "overview_feature_2": {
+      "title": "Ẩn Hình ảnh",
+      "description": "Xác định và che giấu hình ảnh hoàn toàn hoặc một phần dựa trên yêu cầu của bạn. Định nghĩa các quy tắc phát hiện và tọa độ khu vực để bảo vệ dữ liệu hình ảnh một cách hiệu quả."
+    },
+    "overview_feature_3": {
+      "title": "Dọn Dẹp Siêu dữ liệu Nhúng",
+      "description": "Các tệp có thể chứa thông tin ẩn như tên tác giả, công cụ tạo hoặc chi tiết thiết bị. {{ProdFullName}} cho phép bạn phát hiện và làm sạch siêu dữ liệu trong Word, Excel, hình ảnh và các định dạng khác."
+    },
+    "overview_feature_4": {
+      "title": "Xóa Các Đối Tượng Nhúng",
+      "description": "Làm sạch hoàn toàn các tài liệu bằng cách xóa các đối tượng như chú thích PDF, bình luận hoặc các mục khác nhúng để loại bỏ bất kỳ dấu vết nào của thông tin nhạy cảm."
+    },
+    "features": {
+      "title": "Những Gì Bạn Có Thể Làm với {{ProdShortName}}",
+      "description": "Nhanh chóng xác định và xóa nội dung từ PDF, tài liệu Office và hình ảnh với độ chính xác.",
+      "feature_1": {
+        "title": "Tìm Kiếm Chính Xác",
+        "content": "Sử dụng chế độ tìm kiếm phân biệt và không phân biệt chữ để tìm và xóa các sự phù hợp chính xác."
+      },
+      "feature_2": {
+        "title": "Tìm và Thay thế Văn bản",
+        "content": "Tự động phát hiện và thay thế hoặc xóa văn bản bí mật trên toàn bộ tài liệu."
+      },
+      "feature_3": {
+        "title": "Che Giấu Bằng Hình ảnh Tùy chỉnh",
+        "content": "Sử dụng các khối hình ảnh để che đậy văn bản đã xóa, bảo toàn bố cục trong khi ẩn chi tiết."
+      },
+      "feature_4": {
+        "title": "Sử Dụng Regex để Xóa Nâng cao",
+        "content": "Tận dụng biểu thức chính quy để phát hiện các mẫu phức tạp và xóa một cách thông minh."
+      },
+      "feature_5": {
+        "title": "Xóa Khu Vực Cụ thể",
+        "content": "Giới hạn việc xóa chỉ trên các trang đã chọn hoặc khu vực bằng cách định nghĩa các khu vực chính xác để nhắm mục tiêu."
+      },
+      "feature_6": {
+        "title": "Làm sạch Các Trường Siêu dữ liệu",
+        "content": "Xác định và làm sạch siêu dữ liệu tài liệu, bao gồm tác giả, công ty hoặc dữ liệu theo dõi."
+      },
+      "feature_7": {
+        "title": "Xuất ra Định dạng Mong Muốn",
+        "content": "Lưu các tệp đã xóa của bạn dưới dạng PDF hoặc định dạng hỗ trợ khác mà không làm mất tính nguyên vẹn của bố cục."
+      },
+      "feature_8": {
+        "title": "Xóa Tất cả Siêu dữ liệu",
+        "content": "Hoàn toàn xóa siêu dữ liệu khỏi các tệp hỗ trợ trong chỉ một lệnh."
+      },
+      "feature_9": {
+        "title": "Các Chính Sách Xóa Tự động",
+        "content": "Tạo các cấu hình xóa có thể tái sử dụng được lưu trữ trong XML để xóa theo nhóm đồng nhất."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} hoạt động trên các hệ điều hành chính, frameworks và nền tảng phát triển.",
+    "formats_description": "{{ProdFullName}} hỗ trợ làm việc với các [định dạng tệp]({{SupportedFormatsUrl}}) sau.",
+    "code_samples_description": "Các ví dụ về trường hợp sử dụng {{ProdFullName}} phổ biến",
+    "code_title_sample_1": "Xóa Sử Dụng Regex",
+    "code_samples_sample_1_content": "{{ProdFullName}} cho phép các nhà phát triển {{ProgLang}} áp dụng [xóa dựa trên regex]({{Sample1Url}}) với việc che giấu bằng hình ảnh tùy chọn:",
+    "code_title_sample_2": "Xóa Tất cả Siêu dữ liệu",
+    "code_samples_sample_2_content": "Với API của chúng tôi, bạn có thể [xóa siêu dữ liệu]({{Sample2Url}}) trên nhiều loại tệp chỉ trong một bước:"
+  },
+  "index-content-python": {
+    "head_title": "Xóa thông tin bí mật từ tài liệu với {{EnvNameShort}}",
+    "head_description": "Giữ cho các tệp của bạn an toàn bằng {{ProdFullName}}. Nhanh chóng xóa, ẩn hoặc loại bỏ nội dung nhạy cảm trong PDF, Word, Excel, PowerPoint và các tệp hình ảnh.",
+    "title": "Giữ Tài Liệu của Bạn An Toàn với {{ProdShortName}}",
+    "description": "Dễ dàng xóa dữ liệu cá nhân, xóa văn bản và làm sạch siêu dữ liệu ẩn từ PDF, tài liệu Office và hình ảnh bằng bộ công cụ {{EnvNameShort}} tiên tiến.",
+    "actions_main": "Tải xuống {{PackageStoreName}}",
+    "code_title": "Xóa Nội Dung Tài Liệu",
+    "code_comment_1": "Tải tệp của bạn vào instance của {{textRedactor}}",
+    "code_comment_2": "Điều chỉnh các tham số xóa",
+    "code_comment_3": "Bắt đầu quy trình xóa",
+    "code_comment_4": "Xuất tệp đã được làm sạch",
+    "overview_description": "Tích hợp các khả năng xóa mạnh mẽ vào các dự án {{EnvNameShort}} của bạn",
+    "overview_feature_1": {
+      "title": "Xóa Văn bản Nhạy cảm",
+      "description": "Với {{ProdFullName}}, bạn có thể tự động tìm và che giấu các từ hoặc cụm từ nhạy cảm. Thay thế hoặc che giấu văn bản bằng các hộp màu để tăng cường bảo vệ trong các PDF, tài liệu Word và các định dạng khác."
+    },
+    "overview_feature_2": {
+      "title": "Che Giấu Hình ảnh",
+      "description": "Công nghệ của chúng tôi có thể phát hiện các hình ảnh và làm mờ, ẩn hoặc chặn chúng dựa trên tiêu chí của bạn đã chọn. Định nghĩa các vùng cụ thể hoặc cho phép phát hiện tự động để hoàn toàn kiểm soát."
+    },
+    "overview_feature_3": {
+      "title": "Xóa Siêu dữ liệu Ẩn",
+      "description": "Loại bỏ các chi tiết cá nhân hoặc theo dõi ẩn trong siêu dữ liệu, như tác giả hoặc thông tin thiết bị. {{ProdFullName}} đảm bảo rằng các tài liệu của bạn được làm sạch hoàn toàn và an toàn để chia sẻ."
+    },
+    "overview_feature_4": {
+      "title": "Xóa Các Phần Tử Đặc Biệt",
+      "description": "Vượt ra ngoài văn bản bằng cách xóa các mục nhúng như bình luận, chú thích và các phần tử cụ thể khác của tệp để đạt được sự bảo mật hoàn toàn."
+    },
+    "features": {
+      "title": "Các Tính Năng Chính của {{ProdFullName}}",
+      "description": "Dễ dàng quét, xác định và xóa nội dung nhạy cảm trong PDF, hình ảnh và các tài liệu Office.",
+      "feature_1": {
+        "title": "Tìm Kiếm Tùy Chỉnh",
+        "content": "Sử dụng các chế độ tìm kiếm linh hoạt để tìm các sự phù hợp chính xác hoặc từ khóa để xóa."
+      },
+      "feature_2": {
+        "title": "Tìm, Thay thế hoặc Xóa Văn bản",
+        "content": "Xác định thông tin nhạy cảm và thay thế bằng văn bản an toàn hoặc xóa hoàn toàn."
+      },
+      "feature_3": {
+        "title": "Che Giấu Hình ảnh một Cách Trực Quan",
+        "content": "Đặt các hình dạng hoặc mẫu màu lên để che phủ các phần đã xóa một cách trực quan."
+      },
+      "feature_4": {
+        "title": "Phát hiện Dựa trên Regex",
+        "content": "Sử dụng biểu thức chính quy để đạt được độ chính xác tối đa trong tìm kiếm văn bản nâng cao."
+      },
+      "feature_5": {
+        "title": "Xóa Tập Trung",
+        "content": "Áp dụng xóa chỉ cho một số trang hoặc những khu vực xác định để tiết kiệm thời gian và tập trung vào các khu vực chính."
+      },
+      "feature_6": {
+        "title": "Làm sạch Siêu dữ liệu",
+        "content": "Dễ dàng xóa các trường siêu dữ liệu như tác giả, công ty hoặc thời gian trong các tệp của bạn."
+      },
+      "feature_7": {
+        "title": "Tùy chọn Xuất",
+        "content": "Lưu các tài liệu đã xử lý dưới dạng PDF hoặc định dạng tương thích khác mà không làm mất tính nguyên vẹn tình trạng."
+      },
+      "feature_8": {
+        "title": "Xóa Hoàn toàn Siêu dữ liệu",
+        "content": "Hoàn toàn xóa tất cả siêu dữ liệu với một cú nhấp chuột duy nhất để bảo vệ dữ liệu tối và."
+      },
+      "feature_9": {
+        "title": "Các Chính Sách XML Tái Sử dụng",
+        "content": "Lưu cấu hình xóa tùy chỉnh của bạn dưới dạng các mẫu XML để tự động hóa các tác vụ trong tương lai."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} hoạt động trên tất cả các hệ điều hành chính, hỗ trợ các frameworks phổ biến và tích hợp với các trình quản lý gói thông dụng.",
+    "formats_description": "{{ProdFullName}} hỗ trợ các [định dạng tệp]({{SupportedFormatsUrl}}) sau đây.",
+    "code_samples_description": "Khám phá cách {{ProdFullName}} đơn giản hóa các nhiệm vụ xóa",
+    "code_title_sample_1": "Xóa Văn bản Dựa trên Regex",
+    "code_samples_sample_1_content": "Các nhà phát triển sử dụng {{ProgLang}} có thể áp dụng [các quy tắc dựa trên regex]({{Sample1Url}}) để tìm và che giấu văn bản nhạy cảm bằng các lớp hình ảnh:",
+    "code_title_sample_2": "Xóa Siêu dữ liệu",
+    "code_samples_sample_2_content": "Sử dụng API để [xóa siêu dữ liệu]({{Sample2Url}}) trên nhiều loại tệp chỉ trong vài bước:"
+  }
+}

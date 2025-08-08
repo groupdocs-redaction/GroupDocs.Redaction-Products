@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}の機密テキストを削除する",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイルからプライベートデータを検索し、削除します。シンプルで迅速、信頼性の高いテキストの赤除。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使って{{FileFormatUp}}ファイルから機密データを削除する",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して{{FileFormatUp}}ファイルをクリーンアップします。個人、法的、またはビジネスコンテンツを削除します。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのテキストを赤除する方法",
+      "content": {
+        "title": "{{EnvName}}の開発者は、{{ProdFullName}}を使って機密コンテンツを数ステップで削除できます。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "希望する赤除設定を選択します。",
+        "step_3": "検索したいテキストとその置き換えを入力します。",
+        "step_4": "赤除を適用してファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルのクリーンアップ方法",
+      "comment_2": "{{textRedactor}}を作成し、ドキュメントを読み込みます。",
+      "comment_3": "赤除ルールを設定します。",
+      "comment_4": "削除するテキストと置き換え内容を追加します。",
+      "comment_5": "赤除を適用し、新しいファイルを保存します。"
+    },
+    "example_bottom": {
+      "title": "Regexを使ったテキストの赤除",
+      "content": "Regexを使用して、メールアドレスやID、カスタムフォーマットなどのパターンを見つけて隠します。",
+      "comment_1": "編集したいドキュメントを開きます。",
+      "comment_2": "EMAILのregexパターンと置き換えテキストを追加します。",
+      "comment_3": "一致するコンテンツに赤除を適用します。",
+      "comment_4": "赤除されたバージョンを保存します。"
+    },
+    "more_features": {
+      "title": "さらなる赤除機能",
+      "description": "{{ProdFullName}}は多くの形式で機密情報を削除します。テキスト、画像、およびメタデータを赤除しながら、ファイルを読みやすく保ちます。",
+      "image_description": "テキストおよび画像の赤除ツール",
+      "feature_1": {
+        "title": "テキストの検索と置換",
+        "content": "任意の単語やフレーズを検索し、置換します。プレーンテキストまたはregexと連携します。"
+      },
+      "feature_2": {
+        "title": "画像コンテンツを覆う",
+        "content": "カラフルなオーバーレイを使用して、画像や画像の一部を隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップ",
+        "content": "共有する前に、著者名、日付、その他の隠れた詳細を削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者に、{{FileFormatUp}}ファイルをクリーンアップするシンプルな方法を提供します。テキスト、画像、コメント、隠れたデータを削除または置換します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルを赤除する",
+      "description": "ツールを使用して{{EnvNameShort}}で{{FileFormatUp}}の内容を赤除し、個人またはビジネス情報を保護します。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内のコンテンツを保護します。テキスト、画像、メタデータの迅速で簡単な赤除。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使って{{FileFormatUp}}ドキュメント内のテキストを編集または削除する",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内の個人またはビジネスコンテンツを保護します。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルでコンテンツを赤除する方法",
+      "content": {
+        "title": "{{EnvName}}プロジェクトで{{ProdFullName}}を使用して、ファイルを共有する前にクリーンアップします。",
+        "step_1": "{{textRedactor}}を作成し、ファイルを読み込みます。",
+        "step_2": "赤除オプションを選択します。",
+        "step_3": "検索したいテキストとその置き換えを入力します。",
+        "step_4": "赤除を適用し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルのコンテンツを赤除する",
+      "comment_2": "{{textRedactor}}を使ってドキュメントを読み込みます。",
+      "comment_3": "赤除オプションを設定します。",
+      "comment_4": "検索して置換する内容を定義します。",
+      "comment_5": "赤除を適用し、保存します。"
+    },
+    "example_bottom": {
+      "title": "Regexを使用した赤除",
+      "content": "正規表現を使用して、電話番号やメールアドレスのパターンを検出して赤除します。",
+      "comment_1": "ドキュメントを読み込みます。",
+      "comment_2": "EMAILのregexパターンと置き換えテキストを設定します。",
+      "comment_3": "赤除を実行します。",
+      "comment_4": "クリーンファイルを保存します。"
+    },
+    "more_features": {
+      "title": "赤除オプション",
+      "description": "{{ProdFullName}}を使用すれば、多くのファイルタイプから機密コンテンツをクリーンアップできます。構造を損なうことなくドキュメントを安全に保ちます。",
+      "image_description": "コンテンツを削除するツール",
+      "feature_1": {
+        "title": "テキストを置換する",
+        "content": "特定のコンテンツを見つけて、文書全体で置換します。"
+      },
+      "feature_2": {
+        "title": "画像や部分を隠す",
+        "content": "敏感な視覚情報をカラフルなオーバーレイで隠します。"
+      },
+      "feature_3": {
+        "title": "隠れたデータを削除",
+        "content": "著者名、タイムスタンプ、ドキュメントプロパティなどのメタデータをクリアします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者が{{FileFormatUp}}ファイルをクリーンアップして赤除するのを支援します。テキスト、画像、コメント、隠れたデータを簡単に削除できます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルをクリーンアップする",
+      "description": "{{EnvNameShort}}が提供するツールを使用して、{{FileFormatUp}}ドキュメント内の機密コンテンツを赤除または置換します。"
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}データを安全に保ちます。テキストとメタデータを赤除するための迅速で効果的な保護。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルをクリーンアップする",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して{{FileFormatUp}}ファイルから機密コンテンツを削除します。スプレッドシートを安全に保ちます。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのデータを赤除する",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、{{EnvName}}アプリでファイルを共有する前にテキストや隠れたコンテンツを削除します。",
+        "step_1": "{{textRedactor}}インスタンスを作成し、ファイルを読み込みます。",
+        "step_2": "希望する赤除オプションを選択します。",
+        "step_3": "見つけるテキストとその置き換えを選択します。",
+        "step_4": "赤除を適用し、ドキュメントを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}スプレッドシートを赤除する方法",
+      "comment_2": "{{textRedactor}}を作成し、ファイルを読み込みます。",
+      "comment_3": "赤除設定を選択します。",
+      "comment_4": "検索と置換のテキストを入力します。",
+      "comment_5": "変更を適用し、保存します。"
+    },
+    "example_bottom": {
+      "title": "Regexを使用した赤除",
+      "content": "アカウント番号やパターンを検出するために正規表現を使用して赤除します。",
+      "comment_1": "処理するファイルを開きます。",
+      "comment_2": "EMAILのregexルールと置き換えを追加します。",
+      "comment_3": "赤除ルールを適用します。",
+      "comment_4": "更新されたファイルを保存します。"
+    },
+    "more_features": {
+      "title": "役立つ赤除ツール",
+      "description": "{{ProdFullName}}はさまざまなファイルからプライベートコンテンツを削除します。フォーマットを失わずにドキュメントをクリーンアップします。",
+      "image_description": "テキスト、画像、メタデータの赤除機能",
+      "feature_1": {
+        "title": "テキストを検索して置換",
+        "content": "セル内の敏感なデータを見つけて更新または非表示にします。"
+      },
+      "feature_2": {
+        "title": "ビジュアルを隠す",
+        "content": "カラフルなオーバーレイを使用して、チャートや画像、範囲を隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリア",
+        "content": "著者情報、作成日、その他のバックグラウンドデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}の利点は？",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者に、{{FileFormatUp}}ファイルをクリーンアップするためのツールを提供します。テキスト、メタデータ、画像を簡単に赤除します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のコンテンツを赤除する",
+      "description": "{{EnvNameShort}}の赤除およびコンテンツ削除機能を使用して、{{FileFormatUp}}ファイルをクリーンアップし、データを保護します。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}プレゼンテーション内の機密詳細を保護します。迅速な赤除で簡単に結果を得ることができます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のテキストをクリーンアップする",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}スライド内のコンテンツを隠したり削除したりします。ビジネス、法的、市販用途に最適です。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}プレゼンテーションのコンテンツを赤除する方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用すれば、{{EnvName}}プレゼンテーションを迅速なステップでクリーンアップできます。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "ニーズに合った赤除設定を選択します。",
+        "step_3": "検索するテキストと置き換えコンテンツを設定します。",
+        "step_4": "変更を適用して、更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}プレゼンテーションのテキストを赤除する",
+      "comment_2": "{{textRedactor}}を使用してドキュメントを読み込みます。",
+      "comment_3": "赤除オプションを設定します。",
+      "comment_4": "検索するテキストと置き換え内容を選択します。",
+      "comment_5": "赤除を実行し、ファイルを保存します。"
+    },
+    "example_bottom": {
+      "title": "Regexを使った赤除",
+      "content": "正規表現を使用して、メールや電話番号、コードなどのパターンを見つけて削除します。",
+      "comment_1": "ファイルを開きます。",
+      "comment_2": "EMAILのregexパターンと置き換え内容を追加します。",
+      "comment_3": "パターンに基づいて赤除を適用します。",
+      "comment_4": "クリーンバージョンを保存します。"
+    },
+    "more_features": {
+      "title": "さらなる赤除ツール",
+      "description": "{{ProdFullName}}は、さまざまなファイルから機密コンテンツを隠すまたは削除するのを簡単にします。データを共有する前に安全に保つために最適です。",
+      "image_description": "テキスト、画像、メタデータを削除するオプション",
+      "feature_1": {
+        "title": "どこでもテキストを置換",
+        "content": "スライド全体で単語やフレーズを検索して置換します。正確なテキストまたはパターンに対応します。"
+      },
+      "feature_2": {
+        "title": "視覚コンテンツを隠す",
+        "content": "スライドや画像の一部を、選択した色のオーバーレイを使用して覆います。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除",
+        "content": "著者情報、作成日、プライベート情報を含むかもしれないメモなど、バックグラウンドデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を紹介します",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者に、{{FileFormatUp}}ファイルのコンテンツを編集または隠すための堅実な方法を提供します。テキスト、画像、メタデータ、コメントを完全にコントロールできます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のコンテンツを赤除する",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルからプライベートまたは機密の詳細を削除します。ファイルを安全に維持するための信頼できる方法。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイルを安全に保ちます。機密データを赤除するための迅速でシンプルなクリーンアップ。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のテキストを編集または削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の重要なコンテンツを保護します。自信を持ってビジネス、法的、または個人データを赤除します。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ドキュメントの赤除手順",
+      "content": {
+        "title": "{{ProdFullName}}をあなたの{{EnvName}}プロジェクトで使用し、ファイルを共有する前にクリーンアップします。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ドキュメントを読み込みます。",
+        "step_2": "お気に入りの赤除オプションを設定します。",
+        "step_3": "検索したいテキストと置き換えるものを選択します。",
+        "step_4": "赤除を適用し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ドキュメントを赤除する",
+      "comment_2": "{{textRedactor}}を使用してファイルを読み込みます。",
+      "comment_3": "赤除ルールを選択します。",
+      "comment_4": "検索するテキストと置き換え内容を入力します。",
+      "comment_5": "赤除を実行し、新しいファイルを保存します。"
+    },
+    "example_bottom": {
+      "title": "Regexパターンによる赤除",
+      "content": "テキストを検索し、電話番号、日付、またはIDなどのコンテンツを隠すために正規表現を使用します。",
+      "comment_1": "ドキュメントを読み込みます。",
+      "comment_2": "EMAILのregexパターンと置き換え値を設定します。",
+      "comment_3": "赤除を適用します。",
+      "comment_4": "更新された文書を保存します。"
+    },
+    "more_features": {
+      "title": "さらなる赤除機能",
+      "description": "{{ProdFullName}}は異なるファイルタイプから機密情報をクリーンアップするのに役立ちます。テキスト、画像、コメント、隠れた詳細をスムーズに削除します。",
+      "image_description": "テキスト、画像、メタデータの赤除",
+      "feature_1": {
+        "title": "テキストの検索と置換",
+        "content": "特定のコンテンツを見つけて、全ファイルで置換または削除します。regexもサポートされます。"
+      },
+      "feature_2": {
+        "title": "ページの一部を覆う",
+        "content": "オーバーレイを使用して、写真や文書のセクションを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリア",
+        "content": "著者情報、タイムスタンプ、または追跡された編集を消去します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者に、{{FileFormatUp}}ファイルを赤除するための信頼性のある方法を提供します。数行のコードでテキスト、画像、コメント、隠れた詳細をクリーンアップできます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}のコンテンツを赤除する",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ドキュメント内の個人およびプライベートコンテンツを隠すまたは削除します。ファイルを安全に保つシンプルな方法。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}スプレッドシートを安全に保ちます。機密データの迅速でシンプルな赤除。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のテキストを編集または削除する",
+      "description": "{{ProdFullName}}を使用して{{FileFormatUp}}ファイルをクリーンにし、ビジネスや個人データを保護します。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルのコンテンツを赤除する方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、{{EnvName}}プロジェクトで共有したくないテキストを削除または覆います。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "あなたの赤除設定を選択します。",
+        "step_3": "検索したいテキストとそれに置き換えるものを定義します。",
+        "step_4": "赤除を実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイルのテキストを赤除する方法",
+      "comment_2": "ファイルを{{textRedactor}}で読み込みます。",
+      "comment_3": "赤除ルールを設定します。",
+      "comment_4": "ターゲットテキストと置き換えを入力します。",
+      "comment_5": "適用して、クリーンファイルを保存します。"
+    },
+    "example_bottom": {
+      "title": "Regexによるパターンの赤除",
+      "content": "正規表現を使用して、メールアドレスやアカウント番号のようなパターンを見つけて隠します。",
+      "comment_1": "クリーンにしたいファイルを開きます。",
+      "comment_2": "EMAIL regexパターンを作成し、置き換えテキストを設定します。",
+      "comment_3": "赤除プロセスを実行します。",
+      "comment_4": "更新されたバージョンを保存します。"
+    },
+    "more_features": {
+      "title": "より多くの赤除ツール",
+      "description": "{{ProdFullName}}はいくつかの文書タイプのプライベートコンテンツのクリーンアップを支援します。共有前のプライバシーに最適です。",
+      "image_description": "テキスト、画像、メタデータの赤除機能",
+      "feature_1": {
+        "title": "プライベートテキストを置換",
+        "content": "マッチする単語や数字をファイル全体で見つけて、変更します。検索パターンや正確な一致を使用できます。"
+      },
+      "feature_2": {
+        "title": "画像の一部を隠す",
+        "content": "画像やセルを隠すためにオーバーレイボックスを加えます。色、サイズ、位置を選択できます。"
+      },
+      "feature_3": {
+        "title": "背景情報を削除",
+        "content": "著作権、タイムスタンプ、またはドキュメントコメントのような隠れたデータをクリアします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を紹介します",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者が{{FileFormatUp}}ファイルをクリーンアップするために必要なすべてを提供します。テキストや画像、メタデータ、ノートを正確に編集または隠すことができます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを赤除する",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルからプライベートデータをクリーンアップします。安全に保管するための賢い方法。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除する",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の機密データを保護します。迅速かつ簡単なテキストの赤除。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ドキュメント内の機密テキストを編集または隠す",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して、{{FileFormatUp}}ファイル内の機密コンテンツを保護します。個人用でもビジネス用でも、データはプライベートのままです。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ドキュメント内のコンテンツをクリーンアップする手順",
+      "content": {
+        "title": "{{ProdFullName}}を使用して{{EnvName}}アプリでプライベートコンテンツを削除または隠す。シンプルで迅速な赤除。",
+        "step_1": "{{textRedactor}}を初期化し、{{FileFormatCap}}ファイルを読み込みます。",
+        "step_2": "必要な赤除オプションを設定します。",
+        "step_3": "検索するテキストと置き換えるテキストを指定します。",
+        "step_4": "赤除を実行し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内のテキストを赤除する方法",
+      "comment_2": "{{textRedactor}}コンストラクターを使ってファイルを読み込みます。",
+      "comment_3": "赤除の好みを設定します。",
+      "comment_4": "検索する内容と置き換えるものを選択します。",
+      "comment_5": "赤除を適用し、新しい{{FileFormatUp}}ファイルを保存します。"
+    },
+    "example_bottom": {
+      "title": "Regexを基にした赤除",
+      "content": "正規表現を使用して、メールやIDのような敏感なテキストパターンを検索し、赤除します。",
+      "comment_1": "クリーンにしたいドキュメントを開きます。",
+      "comment_2": "EMAILのregexパターンと置き換えに使用するテキストを定義します。",
+      "comment_3": "赤除ルールを適用します。",
+      "comment_4": "最終的な赤除ファイルを保存します。"
+    },
+    "more_features": {
+      "title": "さらなる赤除ツール",
+      "description": "{{ProdFullName}}はさまざまなファイル形式の機密コンテンツを削除または隠すのに役立ちます。ドキュメントをクリーンで安全に保つことができます。",
+      "image_description": "テキスト、画像、メタデータの赤除ツール",
+      "feature_1": {
+        "title": "機密テキストを置換",
+        "content": "ファイル内のどこでも一致するテキストを見つけて置き換えます。regexとスマート検索オプションをサポートしています。"
+      },
+      "feature_2": {
+        "title": "機密画像を隠す",
+        "content": "オーバーレイを使用して、画像や特定の領域を隠します。ページ設定や色を調整できます。"
+      },
+      "feature_3": {
+        "title": "隠れたメタデータを削除",
+        "content": "隠れたデータを削除します。著者名、タイムスタンプ、コメントなど、プライバシーを保護します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を紹介します",
+      "content": "{{ProdFullName}}は{{ProgLang}}開発者に、{{FileFormatUp}}コンテンツを赤除するために必要なすべてを提供します。テキスト、画像、注釈、コメント、およびメタデータを人気のあるファイルタイプでクリーンアップできます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを赤除する",
+      "description": "{{EnvNameShort}}ツールを使用して、{{FileFormatUp}}ファイルのテキストを赤除し、公式および個人的なデータを保護します。ドキュメントを安全でプライベートに保つための信頼できる方法。"
+    }
+  }
+}

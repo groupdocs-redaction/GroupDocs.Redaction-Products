@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Xóa siêu dữ liệu trong {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể xóa hoặc cập nhật siêu dữ liệu trong các tệp {{FileFormatUp}}. Dọn dẹp dữ liệu ẩn có thể tiết lộ thông tin cá nhân."
+    },
+    "header": {
+      "title": "Làm sạch siêu dữ liệu trong các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Bảo vệ thông tin nhạy cảm trong các tệp {{FileFormatUp}} bằng cách sử dụng {{ProgLang}}. Công cụ dễ sử dụng cho việc bảo vệ dữ liệu đáng tin cậy.",
+      "subtitle": "Các tính năng chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Xóa siêu dữ liệu khỏi tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdShortName}} để nhanh chóng bảo vệ siêu dữ liệu tài liệu trong các ứng dụng {{EnvName}} của bạn.",
+        "step_1": "Tạo một phiên bản {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Thiết lập các quy tắc xóa để loại bỏ tất cả siêu dữ liệu ẩn.",
+        "step_3": "Áp dụng việc chỉnh sửa để làm sạch tài liệu.",
+        "step_4": "Lưu tệp đã cập nhật."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa siêu dữ liệu từ các tệp {{FileFormatUp}}",
+      "comment_2": "Tải tệp bằng {{textRedactor}}",
+      "comment_3": "Cấu hình các quy tắc xóa siêu dữ liệu",
+      "comment_4": "Áp dụng thay đổi và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Xóa các mục siêu dữ liệu ẩn",
+      "content": "Ví dụ này cho thấy cách chỉnh sửa siêu dữ liệu trong một tệp {{FileFormatUp}}.",
+      "comment_1": "Tải tệp {{FileFormatUp}} vào bộ chỉnh sửa",
+      "comment_2": "Thiết lập xóa cho thuộc tính Tác giả",
+      "comment_3": "Thiết lập xóa cho thuộc tính Tiêu đề",
+      "comment_4": "Chạy quá trình chỉnh sửa trên tài liệu",
+      "comment_5": "Lưu tệp đã làm sạch"
+    },
+    "more_features": {
+      "title": "Xóa dữ liệu nhạy cảm trong tài liệu",
+      "description": "{{ProdFullName}} giúp bạn ẩn hoặc xóa nội dung bảo mật trong nhiều định dạng tệp khác nhau. Bảo vệ dữ liệu riêng tư trong khi giữ cho tài liệu rõ ràng và chuyên nghiệp.",
+      "image_description": "Tính năng chỉnh sửa mạnh mẽ",
+      "feature_1": {
+        "title": "Tìm và Thay thế văn bản",
+        "content": "Tìm kiếm văn bản nhạy cảm trong tài liệu của bạn và thay thế hoặc xóa để bảo vệ quyền riêng tư."
+      },
+      "feature_2": {
+        "title": "Ẩn nội dung hình ảnh",
+        "content": "Thêm lớp phủ cho hình ảnh hoặc các khu vực cụ thể để che chắn hình ảnh nhạy cảm."
+      },
+      "feature_3": {
+        "title": "Làm sạch siêu dữ liệu",
+        "content": "Xóa hoặc chỉnh sửa siêu dữ liệu ẩn để ngăn ngừa rò rỉ dữ liệu không mong muốn."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu {{ProdFullName}}",
+      "content": "{{ProdShortName}} cung cấp cho các nhà phát triển {{ProgLang}} các công cụ dễ sử dụng để chỉnh sửa nội dung trong các tệp {{FileFormatUp}}. Che khuất văn bản, hình ảnh và siêu dữ liệu trên nhiều định dạng khác nhau."
+    },
+    "formats": {
+      "title": "Bảo vệ các tệp {{FileFormatUp}} với việc chỉnh sửa siêu dữ liệu {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để xóa dữ liệu ẩn từ các tệp {{FileFormatUp}}. Một cách đơn giản và hiệu quả để bảo vệ thông tin nhạy cảm trong tài liệu của bạn."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Xóa siêu dữ liệu khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để xóa hoặc thay đổi siêu dữ liệu ẩn trong các tệp {{FileFormatUp}}. Bảo vệ tài liệu của bạn khỏi việc tiết lộ các chi tiết riêng tư."
+    },
+    "header": {
+      "title": "Xóa siêu dữ liệu trong các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{ProgLang}} để làm sạch siêu dữ liệu nhạy cảm từ các tệp {{FileFormatUp}}. Giữ thông tin doanh nghiệp và cá nhân của bạn được bảo vệ.",
+      "subtitle": "Các tính năng hàng đầu của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Làm sạch dữ liệu ẩn trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} giúp các dự án {{EnvName}} của bạn loại bỏ siêu dữ liệu không mong muốn nhanh chóng.",
+        "step_1": "Tạo một phiên bản {{textRedactor}} và mở tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Thiết lập quy tắc xóa cho các mục siêu dữ liệu.",
+        "step_3": "Áp dụng thay đổi để làm sạch tài liệu.",
+        "step_4": "Lưu tệp đã làm sạch."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa siêu dữ liệu từ các tài liệu {{FileFormatUp}}",
+      "comment_2": "Tải tệp bằng {{textRedactor}}",
+      "comment_3": "Thiết lập tùy chọn xóa siêu dữ liệu",
+      "comment_4": "Áp dụng và lưu các thay đổi"
+    },
+    "example_bottom": {
+      "title": "Làm sạch các trường siêu dữ liệu",
+      "content": "Ví dụ này trình bày cách xóa dữ liệu ẩn khỏi các tệp {{FileFormatUp}}.",
+      "comment_1": "Tải tệp {{FileFormatUp}} của bạn",
+      "comment_2": "Định hướng trường Tác giả để xóa",
+      "comment_3": "Định hướng trường Tiêu đề để xóa",
+      "comment_4": "Chạy quá trình chỉnh sửa",
+      "comment_5": "Lưu tệp đã cập nhật của bạn"
+    },
+    "more_features": {
+      "title": "Ẩn thông tin nhạy cảm trong bất kỳ tài liệu nào",
+      "description": "{{ProdFullName}} cho phép bạn làm sạch nội dung nhạy cảm trong nhiều loại tệp. Đảm bảo tài liệu của bạn an toàn khi chia sẻ hoặc lưu trữ.",
+      "image_description": "Tùy chọn chỉnh sửa thông minh",
+      "feature_1": {
+        "title": "Xóa văn bản riêng tư",
+        "content": "Tìm kiếm và xóa các văn bản cá nhân hoặc doanh nghiệp từ tệp của bạn."
+      },
+      "feature_2": {
+        "title": "Che khuất hình ảnh",
+        "content": "Che dấu hình ảnh hoặc các khu vực đã chọn để ẩn nội dung bảo mật."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Xóa các mục siêu dữ liệu ẩn để tránh việc rò rỉ thông tin chi tiết nền."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} là gì?",
+      "content": "{{ProdShortName}} cung cấp cho các nhà phát triển {{ProgLang}} các công cụ để ẩn hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Làm sạch văn bản, hình ảnh và siêu dữ liệu nhanh chóng."
+    },
+    "formats": {
+      "title": "Xóa siêu dữ liệu trong {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Xóa siêu dữ liệu không mong muốn trong các tệp {{FileFormatUp}} bằng cách sử dụng {{EnvNameShort}}. Một cách đơn giản để bảo vệ chi tiết ẩn của tệp của bạn."
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "Làm sạch siêu dữ liệu trong các tệp {{FileFormatUp}} với {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể an toàn xóa siêu dữ liệu từ các tệp {{FileFormatUp}}. Dọn dẹp thông tin ẩn có thể tiết lộ dữ liệu tư nhân."
+    },
+    "header": {
+      "title": "Xóa siêu dữ liệu khỏi các tệp {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Bảo vệ thông tin nhạy cảm trong các tệp {{FileFormatUp}} của bạn với {{ProgLang}}. Quy trình chỉnh sửa đơn giản cho tài liệu cá nhân và công việc.",
+      "subtitle": "Khám phá những gì {{ProdFullName}} có thể làm"
+    },
+    "steps": {
+      "title": "Làm sạch siêu dữ liệu trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Với {{ProdShortName}}, các ứng dụng {{EnvName}} của bạn có thể nhanh chóng loại bỏ dữ liệu ẩn.",
+        "step_1": "Thiết lập một {{textRedactor}} và mở tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Xác định các siêu dữ liệu bạn muốn xóa.",
+        "step_3": "Áp dụng các quy tắc chỉnh sửa.",
+        "step_4": "Lưu tệp cuối cùng."
+      }
+    },
+    "example_top": {
+      "comment_1": "Làm sạch siêu dữ liệu ẩn trong {{FileFormatUp}}",
+      "comment_2": "Mở tệp bằng {{textRedactor}}",
+      "comment_3": "Xác định các siêu dữ liệu cần xóa",
+      "comment_4": "Áp dụng việc chỉnh sửa và lưu"
+    },
+    "example_bottom": {
+      "title": "Cách xóa siêu dữ liệu",
+      "content": "Mã mẫu này xóa các thuộc tính siêu dữ liệu trong một tài liệu {{FileFormatUp}}.",
+      "comment_1": "Mở tài liệu",
+      "comment_2": "Nhắm đến siêu dữ liệu Tác giả",
+      "comment_3": "Nhắm đến siêu dữ liệu Tiêu đề",
+      "comment_4": "Chạy quá trình chỉnh sửa",
+      "comment_5": "Lưu tài liệu đã làm sạch"
+    },
+    "more_features": {
+      "title": "Bảo vệ thông tin nhạy cảm trong tài liệu",
+      "description": "Sử dụng {{ProdFullName}} để xóa hoặc ẩn nội dung trong nhiều định dạng tệp. Giữ tài liệu riêng tư và sẵn sàng chia sẻ.",
+      "image_description": "Tính năng chỉnh sửa tất cả trong một",
+      "feature_1": {
+        "title": "Thay thế hoặc xóa văn bản",
+        "content": "Bảo vệ dữ liệu cá nhân bằng cách tìm và xóa văn bản nhạy cảm."
+      },
+      "feature_2": {
+        "title": "Che khuất các phần hình ảnh",
+        "content": "Sử dụng lớp phủ để che vùng hình ảnh chứa thông tin riêng tư."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Dọn dẹp các trường siêu dữ liệu ẩn có thể chứa chi tiết cá nhân hoặc doanh nghiệp."
+      }
+    },
+    "about": {
+      "title": "Tìm hiểu về {{ProdFullName}}",
+      "content": "{{ProdShortName}} cung cấp cho các nhà phát triển {{ProgLang}} công cụ để làm sạch nội dung trong các tài liệu {{FileFormatUp}}. Che hoặc xóa văn bản, hình ảnh và siêu dữ liệu một cách nhanh chóng."
+    },
+    "formats": {
+      "title": "Xóa siêu dữ liệu trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "{{EnvNameShort}} giúp dễ dàng dọn dẹp siêu dữ liệu từ các tệp {{FileFormatUp}}. Giữ tài liệu của bạn sạch sẽ và an toàn."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Xóa siêu dữ liệu khỏi các tệp {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "{{ProdFullName}} giúp bạn xóa hoặc chỉnh sửa siêu dữ liệu trong các tệp {{FileFormatUp}}. Bảo vệ tài liệu của bạn bằng cách loại bỏ dữ liệu ẩn cá nhân."
+    },
+    "header": {
+      "title": "Xóa siêu dữ liệu trong {{FileFormatUp}} bằng các công cụ {{EnvNameShort}}",
+      "description": "Ẩn siêu dữ liệu nhạy cảm trong các tệp {{FileFormatUp}} bằng {{ProgLang}}. Lý tưởng cho sự riêng tư trong doanh nghiệp và cá nhân.",
+      "subtitle": "Chức năng cốt lõi của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Xóa siêu dữ liệu ẩn trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} giúp các giải pháp {{EnvName}} của bạn làm sạch dữ liệu ẩn một cách dễ dàng.",
+        "step_1": "Tạo một phiên bản {{textRedactor}} và tải tệp {{FileFormatCap}}.",
+        "step_2": "Cấu hình các quy tắc chỉnh sửa cho các trường siêu dữ liệu.",
+        "step_3": "Áp dụng việc chỉnh sửa để xóa dữ liệu.",
+        "step_4": "Lưu tệp đã chỉnh sửa của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa siêu dữ liệu trong {{FileFormatUp}}",
+      "comment_2": "Mở tệp bằng {{textRedactor}}",
+      "comment_3": "Thiết lập chỉnh sửa cho việc làm sạch siêu dữ liệu",
+      "comment_4": "Áp dụng và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Làm sạch các trường siêu dữ liệu",
+      "content": "Ví dụ này cho thấy cách xóa siêu dữ liệu khỏi một tệp {{FileFormatUp}} một cách an toàn.",
+      "comment_1": "Nhập tệp {{FileFormatUp}} của bạn",
+      "comment_2": "Chỉnh sửa trường Tác giả",
+      "comment_3": "Chỉnh sửa trường Tiêu đề",
+      "comment_4": "Chạy quá trình chỉnh sửa",
+      "comment_5": "Xuất tệp đã chỉnh sửa"
+    },
+    "more_features": {
+      "title": "Công cụ chỉnh sửa bổ sung cho bất kỳ tệp nào",
+      "description": "{{ProdFullName}} hỗ trợ việc chỉnh sửa nội dung trên nhiều định dạng khác nhau. Đảm bảo dữ liệu của bạn được bảo mật và các tệp sạch sẽ.",
+      "image_description": "Công cụ bảo mật tích hợp",
+      "feature_1": {
+        "title": "Tìm và Xóa văn bản",
+        "content": "Nhanh chóng xóa các định dạng văn bản cá nhân từ tệp của bạn."
+      },
+      "feature_2": {
+        "title": "Che khuất hình ảnh bằng lớp phủ",
+        "content": "Ẩn các vùng hình ảnh không nên nhìn thấy."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Làm sạch các trường siêu dữ liệu có thể chứa thông tin ẩn."
+      }
+    },
+    "about": {
+      "title": "Tìm hiểu về {{ProdFullName}}",
+      "content": "{{ProdShortName}} dành cho các nhà phát triển {{ProgLang}} cần xóa dữ liệu khỏi các tệp {{FileFormatUp}}. Làm sạch văn bản, hình ảnh và siêu dữ liệu nhanh chóng."
+    },
+    "formats": {
+      "title": "Làm sạch siêu dữ liệu trong các tệp {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Dễ dàng xóa siêu dữ liệu nền khỏi các tệp {{FileFormatUp}} bằng {{EnvNameShort}}. Hoàn hảo cho sự an toàn của tài liệu."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Xóa siêu dữ liệu trong {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để tìm và xóa siêu dữ liệu ẩn trong các tệp {{FileFormatUp}}. Giữ tài liệu của bạn riêng tư và an toàn khỏi sự rò rỉ không mong muốn."
+    },
+    "header": {
+      "title": "Xóa siêu dữ liệu trong các tệp {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Bảo vệ dữ liệu cá nhân và doanh nghiệp trong các tệp {{FileFormatUp}} bằng {{ProgLang}}. Công cụ đơn giản cho sự riêng tư đáng tin cậy.",
+      "subtitle": "Những gì bạn có thể làm với {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Xóa siêu dữ liệu khỏi các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Với {{ProdShortName}}, việc làm sạch siêu dữ liệu tài liệu trong môi trường {{EnvName}} của bạn trở nên dễ dàng.",
+        "step_1": "Khởi tạo một đối tượng {{textRedactor}} và mở tài liệu {{FileFormatCap}} của bạn.",
+        "step_2": "Thiết lập quy tắc để xóa tất cả siêu dữ liệu ẩn.",
+        "step_3": "Chạy quá trình chỉnh sửa để xóa các thẻ nhạy cảm.",
+        "step_4": "Lưu tài liệu đã làm sạch của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa siêu dữ liệu từ các tệp {{FileFormatUp}}",
+      "comment_2": "Mở tài liệu bằng {{textRedactor}}",
+      "comment_3": "Thiết lập tùy chọn xóa siêu dữ liệu",
+      "comment_4": "Chỉnh sửa và lưu tệp đã làm sạch"
+    },
+    "example_bottom": {
+      "title": "Chỉnh sửa hoặc xóa siêu dữ liệu ẩn",
+      "content": "Ví dụ này cho thấy cách nhắm mục tiêu và làm sạch các mục siêu dữ liệu trong một tài liệu {{FileFormatUp}}.",
+      "comment_1": "Tải tệp để chỉnh sửa",
+      "comment_2": "Xóa siêu dữ liệu Tác giả",
+      "comment_3": "Xóa siêu dữ liệu Tiêu đề",
+      "comment_4": "Chạy quá trình chỉnh sửa",
+      "comment_5": "Xuất tài liệu đã làm sạch"
+    },
+    "more_features": {
+      "title": "Chỉnh sửa dữ liệu bảo mật từ tài liệu",
+      "description": "Với {{ProdFullName}}, bạn có thể xóa nội dung cá nhân từ nhiều định dạng khác nhau. Giữ cho các tệp của bạn an toàn trong khi vẫn giữ cấu trúc của chúng.",
+      "image_description": "Công cụ chỉnh sửa siêu dữ liệu và nội dung",
+      "feature_1": {
+        "title": "Thay thế văn bản nhạy cảm",
+        "content": "Tìm văn bản trong tài liệu và xóa hoặc thay đổi chúng để bảo vệ thông tin cá nhân."
+      },
+      "feature_2": {
+        "title": "Che khuất hình ảnh",
+        "content": "Che khuất các khu vực nhạy cảm của hình ảnh bằng lớp phủ để ẩn dữ liệu trực quan."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Tìm và làm sạch thông tin ẩn để tránh bị rò rỉ thông tin."
+      }
+    },
+    "about": {
+      "title": "Về {{ProdFullName}}",
+      "content": "{{ProdShortName}} giúp các nhà phát triển {{ProgLang}} bảo vệ nội dung trong các tệp {{FileFormatUp}}. Làm sạch văn bản, hình ảnh và siêu dữ liệu nhanh chóng và đơn giản."
+    },
+    "formats": {
+      "title": "Chỉnh sửa siêu dữ liệu trong {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để làm sạch siêu dữ liệu ẩn từ các tệp {{FileFormatUp}}. Công cụ đơn giản để giữ thông tin nhạy cảm an toàn."
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "Chỉnh sửa và xóa siêu dữ liệu trong {{FileFormatUp}} qua {{ProgLang}}",
+      "description": "Bảo mật các tài liệu {{FileFormatUp}} của bạn bằng cách xóa siêu dữ liệu bằng {{ProdFullName}}. Loại bỏ dữ liệu ẩn có thể làm mất an toàn quyền riêng tư."
+    },
+    "header": {
+      "title": "Bảo vệ siêu dữ liệu trong các tệp {{FileFormatUp}} qua {{EnvNameShort}}",
+      "description": "Bằng cách sử dụng {{ProgLang}}, bạn có thể làm sạch dữ liệu nhạy cảm từ các tệp {{FileFormatUp}}. Công cụ được thiết kế để giữ thông tin của bạn được bảo vệ.",
+      "subtitle": "Các lợi ích hàng đầu của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Làm sạch siêu dữ liệu trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdShortName}} trong các dự án {{EnvName}} của bạn để xử lý siêu dữ liệu tài liệu một cách an toàn.",
+        "step_1": "Tạo một đối tượng {{textRedactor}} và tải tệp {{FileFormatCap}} mà bạn muốn.",
+        "step_2": "Cấu hình chỉnh sửa để xóa siêu dữ liệu ẩn.",
+        "step_3": "Chạy quá trình dọn dẹp.",
+        "step_4": "Lưu phiên bản cuối cùng."
+      }
+    },
+    "example_top": {
+      "comment_1": "Làm sạch siêu dữ liệu khỏi {{FileFormatUp}}",
+      "comment_2": "Khởi tạo bộ chỉnh sửa và tải tệp",
+      "comment_3": "Thiết lập tùy chọn cho việc xóa siêu dữ liệu",
+      "comment_4": "Chỉnh sửa và lưu kết quả"
+    },
+    "example_bottom": {
+      "title": "Nhắm mục tiêu siêu dữ liệu để chỉnh sửa",
+      "content": "Tìm hiểu cách xác định và xóa siêu dữ liệu như Tác giả hoặc Tiêu đề từ tài liệu {{FileFormatUp}}.",
+      "comment_1": "Nhập tài liệu vào bộ chỉnh sửa",
+      "comment_2": "Nhắm mục tiêu siêu dữ liệu Tác giả",
+      "comment_3": "Nhắm mục tiêu siêu dữ liệu Tiêu đề",
+      "comment_4": "Áp dụng thay đổi",
+      "comment_5": "Lưu tài liệu đã cập nhật"
+    },
+    "more_features": {
+      "title": "Xóa dữ liệu cá nhân khỏi tệp của bạn",
+      "description": "{{ProdFullName}} cho phép bạn làm sạch văn bản, hình ảnh và siêu dữ liệu trên nhiều định dạng. Lý tưởng cho tài liệu cá nhân, pháp lý và doanh nghiệp.",
+      "image_description": "Công cụ xóa siêu dữ liệu",
+      "feature_1": {
+        "title": "Tìm kiếm và xóa văn bản",
+        "content": "Tìm văn bản cá nhân hoặc bí mật trong tài liệu và xóa nó một cách an toàn."
+      },
+      "feature_2": {
+        "title": "Che khuất các phần hình ảnh",
+        "content": "Thêm lớp phủ lên các phần nhạy cảm của hình ảnh để ngăn chặn việc xem."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Xóa dữ liệu nhúng có thể rò rỉ thông tin nhạy cảm."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} là gì?",
+      "content": "{{ProdShortName}} cung cấp một cách đáng tin cậy cho các nhà phát triển {{ProgLang}} quản lý việc chỉnh sửa dữ liệu trong các tệp {{FileFormatUp}}. Nó hoạt động với văn bản, hình ảnh và siêu dữ liệu."
+    },
+    "formats": {
+      "title": "Xóa siêu dữ liệu trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Loại bỏ siêu dữ liệu riêng tư trong các tệp {{FileFormatUp}} với {{EnvNameShort}}. Giữ tài liệu của bạn sạch sẽ và an toàn."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Làm sạch siêu dữ liệu trong {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Xóa siêu dữ liệu không mong muốn từ các tệp {{FileFormatUp}} bằng {{ProdFullName}}. Bảo vệ quyền riêng tư của bạn bằng cách xóa dữ liệu ẩn."
+    },
+    "header": {
+      "title": "Xóa siêu dữ liệu trong {{FileFormatUp}} qua {{EnvNameShort}}",
+      "description": "Bảo vệ dữ liệu tài liệu trong các tệp {{FileFormatUp}} với các công cụ đơn giản được xây dựng cho {{ProgLang}}. Xóa siêu dữ liệu chỉ trong vài bước.",
+      "subtitle": "Các tính năng của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Làm sạch siêu dữ liệu từ tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "Với {{ProdShortName}}, các ứng dụng {{EnvName}} của bạn có thể dễ dàng loại bỏ siêu dữ liệu khỏi tài liệu.",
+        "step_1": "Bắt đầu với một đối tượng {{textRedactor}} và tải tệp của bạn.",
+        "step_2": "Chọn các trường siêu dữ liệu để loại bỏ.",
+        "step_3": "Áp dụng cài đặt chỉnh sửa.",
+        "step_4": "Xuất tài liệu cuối cùng đã làm sạch."
+      }
+    },
+    "example_top": {
+      "comment_1": "Loại bỏ siêu dữ liệu trong {{FileFormatUp}}",
+      "comment_2": "Mở tài liệu với bộ chỉnh sửa",
+      "comment_3": "Thiết lập tùy chọn làm sạch siêu dữ liệu",
+      "comment_4": "Áp dụng chỉnh sửa và lưu"
+    },
+    "example_bottom": {
+      "title": "Làm sạch các trường siêu dữ liệu ẩn",
+      "content": "Ví dụ này hướng dẫn bạn cách xóa dữ liệu nhúng như Tác giả và Tiêu đề khỏi một tệp {{FileFormatUp}}.",
+      "comment_1": "Nhập tệp vào bộ chỉnh sửa",
+      "comment_2": "Xóa dữ liệu Tác giả",
+      "comment_3": "Xóa dữ liệu Tiêu đề",
+      "comment_4": "Chạy quá trình chỉnh sửa",
+      "comment_5": "Lưu phiên bản đã làm sạch"
+    },
+    "more_features": {
+      "title": "Bảo vệ tài liệu bằng việc chỉnh sửa",
+      "description": "{{ProdFullName}} giúp xóa nội dung ẩn khỏi tài liệu để bạn có thể chia sẻ chúng một cách an toàn. Hoạt động với nhiều định dạng và các loại nội dung.",
+      "image_description": "Năng lực chỉnh sửa",
+      "feature_1": {
+        "title": "Xóa văn bản cá nhân",
+        "content": "Tìm các từ hoặc cụm từ nhạy cảm và loại bỏ chúng khỏi tài liệu."
+      },
+      "feature_2": {
+        "title": "Che khuất dữ liệu hình ảnh",
+        "content": "Sử dụng lớp phủ để che các khu vực trong hình ảnh cần giữ bí mật."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Làm sạch các trường siêu dữ liệu có thể chứa thông tin ẩn."
+      }
+    },
+    "about": {
+      "title": "Tìm hiểu thêm về {{ProdFullName}}",
+      "content": "{{ProdShortName}} là bộ công cụ chỉnh sửa dành cho các nhà phát triển {{ProgLang}}, giúp bạn làm việc với việc chỉnh sửa văn bản, hình ảnh và siêu dữ liệu trong các tệp {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Làm sạch các tệp {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để xóa dữ liệu ẩn trong các tệp {{FileFormatUp}}. Lý tưởng cho việc làm sạch tài liệu bí mật."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Chỉnh sửa siêu dữ liệu trong {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể làm sạch hoặc thay đổi siêu dữ liệu trong các tệp {{FileFormatUp}} của bạn. Loại bỏ các chi tiết ẩn có thể chứa dữ liệu cá nhân."
+    },
+    "header": {
+      "title": "Xóa siêu dữ liệu khỏi các tệp {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Bảo vệ các chi tiết riêng tư trong các tệp {{FileFormatUp}} của bạn bằng {{ProgLang}}. Công cụ đơn giản cho an toàn tài liệu tốt hơn.",
+      "subtitle": "Các tính năng hàng đầu của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Làm sạch siêu dữ liệu trong các tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} giúp bạn nhanh chóng xóa siêu dữ liệu trong các ứng dụng {{EnvName}} của bạn.",
+        "step_1": "Thiết lập một {{textRedactor}} và tải tệp {{FileFormatCap}} bạn muốn.",
+        "step_2": "Chọn các thiết lập để xóa tất cả siêu dữ liệu.",
+        "step_3": "Chạy quy trình chỉnh sửa để làm sạch tệp.",
+        "step_4": "Lưu tệp của bạn với siêu dữ liệu đã được làm sạch."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa siêu dữ liệu khỏi các tệp {{FileFormatUp}}",
+      "comment_2": "Sử dụng {{textRedactor}} để tải tệp",
+      "comment_3": "Cấu hình quy tắc chỉnh sửa siêu dữ liệu",
+      "comment_4": "Áp dụng và lưu"
+    },
+    "example_bottom": {
+      "title": "Làm sạch các trường siêu dữ liệu ẩn",
+      "content": "Ví dụ này cho thấy cách xóa hoặc chỉnh sửa các siêu dữ liệu ẩn trong các tài liệu {{FileFormatUp}}.",
+      "comment_1": "Mở tệp {{FileFormatUp}} với bộ chỉnh sửa",
+      "comment_2": "Thêm các quy tắc chỉnh sửa cho trường Tác giả",
+      "comment_3": "Thêm các quy tắc chỉnh sửa cho trường Tiêu đề",
+      "comment_4": "Chạy quá trình chỉnh sửa",
+      "comment_5": "Lưu tài liệu đã làm sạch"
+    },
+    "more_features": {
+      "title": "Xóa dữ liệu nhạy cảm khỏi tài liệu",
+      "description": "{{ProdFullName}} cho phép bạn ẩn hoặc làm sạch nội dung cá nhân qua nhiều định dạng. Bảo vệ dữ liệu nhạy cảm trong khi giữ cho các tệp của bạn hữu ích và rõ ràng.",
+      "image_description": "Các tính năng chỉnh sửa chính",
+      "feature_1": {
+        "title": "Tìm kiếm và xóa văn bản",
+        "content": "Tìm các từ hoặc cụm từ nhạy cảm trong tệp của bạn và xóa chúng."
+      },
+      "feature_2": {
+        "title": "Che khuất các khu vực hình ảnh",
+        "content": "Sử dụng lớp phủ để ẩn các phần riêng tư của hình ảnh."
+      },
+      "feature_3": {
+        "title": "Chỉnh sửa siêu dữ liệu",
+        "content": "Xóa hoặc chỉnh sửa siêu dữ liệu để tránh việc chia sẻ thông tin cá nhân."
+      }
+    },
+    "about": {
+      "title": "Về {{ProdFullName}}",
+      "content": "{{ProdShortName}} giúp các nhà phát triển {{ProgLang}} xóa văn bản, hình ảnh và siêu dữ liệu khỏi các tệp {{FileFormatUp}} bằng các công cụ đơn giản."
+    },
+    "formats": {
+      "title": "Làm sạch siêu dữ liệu {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để xóa dữ liệu ẩn từ các tài liệu {{FileFormatUp}} của bạn. Một cách tuyệt vời để bảo vệ các chi tiết nhạy cảm."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Xóa siêu dữ liệu ẩn trong {{FileFormatUp}} với {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để làm sạch siêu dữ liệu trong các tệp {{FileFormatUp}} của bạn. Đảm bảo các chi tiết cá nhân vẫn được bảo mật."
+    },
+    "header": {
+      "title": "Xóa siêu dữ liệu trong các tệp {{FileFormatUp}} qua {{EnvNameShort}}",
+      "description": "Giữ an toàn cho các tệp {{FileFormatUp}} của bạn bằng cách sử dụng {{ProgLang}}. Bảo vệ dữ liệu doanh nghiệp và cá nhân một cách dễ dàng.",
+      "subtitle": "Những gì bạn nhận được với {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Làm sạch siêu dữ liệu trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Bắt đầu với {{ProdShortName}} trong ứng dụng {{EnvName}} của bạn để làm sạch siêu dữ liệu tệp.",
+        "step_1": "Tạo một {{textRedactor}} và mở tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn các tùy chọn để xóa các mục siêu dữ liệu ẩn.",
+        "step_3": "Áp dụng cài đặt chỉnh sửa.",
+        "step_4": "Lưu kết quả."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa siêu dữ liệu ẩn từ các tệp {{FileFormatUp}}",
+      "comment_2": "Mở tệp bằng {{textRedactor}}",
+      "comment_3": "Thêm quy tắc chỉnh sửa cho siêu dữ liệu",
+      "comment_4": "Xử lý và lưu"
+    },
+    "example_bottom": {
+      "title": "Xóa siêu dữ liệu nhạy cảm",
+      "content": "Mẫu này giải thích cách xóa các trường siêu dữ liệu cụ thể trong một tài liệu {{FileFormatUp}}.",
+      "comment_1": "Mở {{FileFormatUp}} bằng bộ chỉnh sửa",
+      "comment_2": "Nhắm đến trường Tác giả",
+      "comment_3": "Nhắm đến trường Tiêu đề",
+      "comment_4": "Chỉnh sửa các trường",
+      "comment_5": "Lưu tài liệu của bạn"
+    },
+    "more_features": {
+      "title": "Làm sạch nội dung trong bất kỳ tài liệu nào",
+      "description": "{{ProdFullName}} loại bỏ văn bản riêng tư, các phần hình ảnh, hoặc các trường ẩn. Làm cho tài liệu an toàn để chia sẻ.",
+      "image_description": "Các tính năng chính",
+      "feature_1": {
+        "title": "Chỉnh sửa văn bản",
+        "content": "Tìm và xóa các từ và số cá nhân."
+      },
+      "feature_2": {
+        "title": "Che khuất hình ảnh",
+        "content": "Thêm lớp che lên các phần hình ảnh với thông tin riêng tư."
+      },
+      "feature_3": {
+        "title": "Chỉnh sửa siêu dữ liệu",
+        "content": "Làm sạch các trường siêu dữ liệu có thể rò rỉ thông tin."
+      }
+    },
+    "about": {
+      "title": "Về {{ProdFullName}}",
+      "content": "{{ProdShortName}} giúp người dùng {{ProgLang}} làm sạch tệp bằng cách xóa văn bản không mong muốn, hình ảnh, và siêu dữ liệu trong các tệp {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Xóa siêu dữ liệu khỏi {{FileFormatUp}} bằng cách sử dụng {{EnvNameShort}}",
+      "description": "Xóa dữ liệu nhạy cảm khỏi các tệp {{FileFormatUp}} với việc chỉnh sửa {{EnvNameShort}}. Giữ tài liệu của bạn an toàn để chia sẻ hoặc lưu trữ."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Xóa siêu dữ liệu trong {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "{{ProdFullName}} giúp bạn xóa dữ liệu ẩn trong các tệp {{FileFormatUp}} có thể tiết lộ thông tin cá nhân hoặc doanh nghiệp."
+    },
+    "header": {
+      "title": "Xóa siêu dữ liệu trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Bảo vệ tài liệu của bạn dễ dàng bằng cách xóa thông tin ẩn khỏi các tệp {{FileFormatUp}} bằng {{ProgLang}}.",
+      "subtitle": "Các điểm nổi bật của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Xóa siêu dữ liệu trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdShortName}} trong dự án {{EnvName}} của bạn để làm sạch siêu dữ liệu tài liệu.",
+        "step_1": "Bắt đầu một {{textRedactor}} và mở tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Đặt quy tắc để xóa siêu dữ liệu.",
+        "step_3": "Áp dụng chỉnh sửa và làm sạch tệp.",
+        "step_4": "Lưu tệp kết quả."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa siêu dữ liệu từ các tài liệu {{FileFormatUp}}",
+      "comment_2": "Sử dụng {{textRedactor}} để tải tài liệu",
+      "comment_3": "Đặt các trường siêu dữ liệu để xóa",
+      "comment_4": "Làm sạch tài liệu và lưu"
+    },
+    "example_bottom": {
+      "title": "Xóa các trường siêu dữ liệu ẩn",
+      "content": "Ví dụ này hướng dẫn bạn xóa siêu dữ liệu khỏi tài liệu {{FileFormatUp}}.",
+      "comment_1": "Tải tệp {{FileFormatUp}} vào bộ chỉnh sửa",
+      "comment_2": "Chỉnh sửa trường Tác giả",
+      "comment_3": "Chỉnh sửa trường Tiêu đề",
+      "comment_4": "Xử lý tài liệu",
+      "comment_5": "Lưu phiên bản đã làm sạch"
+    },
+    "more_features": {
+      "title": "Xóa thông tin cá nhân khỏi các tệp",
+      "description": "{{ProdFullName}} giúp bạn xóa dữ liệu cá nhân khỏi văn bản, hình ảnh và thông tin tệp. Hoàn hảo cho việc bảo mật dữ liệu.",
+      "image_description": "Các tính năng chỉnh sửa hữu ích",
+      "feature_1": {
+        "title": "Dọn dẹp văn bản",
+        "content": "Quét và xóa bất kỳ văn bản nào không nên được chia sẻ."
+      },
+      "feature_2": {
+        "title": "Che khuất các khu vực hình ảnh",
+        "content": "Thêm lớp phủ lên các phần hình ảnh có thông tin riêng tư."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Xóa dữ liệu ẩn trước khi chia sẻ hoặc xuất bản."
+      }
+    },
+    "about": {
+      "title": "Về {{ProdFullName}}",
+      "content": "{{ProdShortName}} hỗ trợ các nhà phát triển {{ProgLang}} ẩn thông tin cá nhân trong các tệp {{FileFormatUp}}, bao gồm cả văn bản, hình ảnh và siêu dữ liệu."
+    },
+    "formats": {
+      "title": "Sử dụng {{EnvNameShort}} để chỉnh sửa siêu dữ liệu {{FileFormatUp}}",
+      "description": "Giữ tài liệu {{FileFormatUp}} của bạn an toàn bằng cách làm sạch siêu dữ liệu với các công cụ {{EnvNameShort}}."
+    }
+  }
+}

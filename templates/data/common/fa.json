@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "رداکت اکسل",
+        "description": "صفحات گسترده MS Excel و Open Office"
+      },
+      "word": {
+        "name": "رداکت ورد",
+        "description": "اسناد MS Word و Open Office"
+      },
+      "powerpoint": {
+        "name": "رداکت پاورپوینت",
+        "description": "مجموعه‌های ارائه پاورپوینت و Open Office"
+      },
+      "image": {
+        "name": "رداکت تصویر",
+        "description": "فرمت‌های رایج تصویر"
+      },
+      "photo": {
+        "name": "رداکت عکس",
+        "description": "فرمت‌های عکاسی"
+      },
+      "pdf": {
+        "name": "رداکت PDF",
+        "description": "فرمت سند قابل حمل Adobe"
+      },
+      "doc": {
+        "name": "رداکت DOC",
+        "description": "سند Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "رداکت DOCX",
+        "description": "سند Microsoft Word Open XML"
+      },
+      "xls": {
+        "name": "رداکت XLS",
+        "description": "ورقه کاری Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "رداکت XLSX",
+        "description": "صفحه گسترده Microsoft Excel Open XML"
+      },
+      "ppt": {
+        "name": "رداکت PPT",
+        "description": "مجموعه ارائه پاورپوینت 97-2003"
+      },
+      "pptx": {
+        "name": "رداکت PPTX",
+        "description": "مجموعه ارائه پاورپوینت Open XML"
+      },
+      "jpg": {
+        "name": "رداکت JPEG",
+        "description": "تصویر JPEG"
+      },
+      "jpeg": {
+        "name": "رداکت JPEG",
+        "description": "تصویر JPEG"
+      },
+      "png": {
+        "name": "رداکت PNG",
+        "description": "گرافیک شبکه قابل حمل"
+      },
+      "tiff": {
+        "name": "رداکت TIFF",
+        "description": "فرمت پرونده تصویر"
+      },
+      "webp": {
+        "name": "رداکت WEBP",
+        "description": "تصویر WEB"
+      },
+      "rtf": {
+        "name": "رداکت RTF",
+        "description": "فرمت متن غنی"
+      }
+    },
+    "format-code": {
+      "copy_title": "کپی",
+      "result_title": "نمونه رداکت‌ها",
+      "result_title_bottom": "دانلود نتیجه",
+      "copy_tip": "برای کپی کردن کلیک کنید",
+      "copy_done": "کپی شد",
+      "links": {
+        "title_1": "نمونه‌های بیشتر",
+        "title_2": "مستندات"
+      }
+    },
+    "format-actions": {
+      "title": "آماده شروع هستید؟",
+      "description": "ویژگی‌های {{ProdShortName}} را رایگان امتحان کنید یا درخواست مجوز دهید",
+      "comment_1": "دانلود {{PackageStoreName}}",
+      "comment_2": "مجوزگیری"
+    },
+    "texts": {
+      "learn_more": "بیشتر بیاموزید"
+    }
+  }
+}

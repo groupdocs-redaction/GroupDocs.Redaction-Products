@@ -1,0 +1,385 @@
+{
+  "index-content": {
+    "head_title": "文書赤外線ソリューション。機密データを編集または削除する。",
+    "head_description": "PDF、Word文書、Excelスプレッドシート、PowerPointプレゼンテーション、画像などのテキスト、画像、またはメタデータを削除、赤外線処理、または隠します。私たちのライブラリをあなたの.NET、Java、Python、またはクラウドベースのアプリケーションで使用してください。",
+    "title": "文書赤外線ライブラリ",
+    "description_0": "さまざまなファイルタイプからプライベート情報を隠すか削除します。",
+    "description_1": "テキストや画像を編集して、機密コンテンツを排除します。",
+    "description_2": "当社の高度な機能を使用して、ファイルのメタデータを管理します。",
+    "words_for": "のために",
+    "release_title": "バージョン {0} 発表",
+    "release_notes": "新機能を見る",
+    "release_downloads": "ダウンロード",
+    "code_more": "さらなる例",
+    "overview_title": "{{ProdShortName}} 概要",
+    "formats_title": "サポートされているファイル形式",
+    "platforms": {
+      "title": "プラットフォーム独立性",
+      "head_title": "プラットフォームを選択してください",
+      "description": "{{ProdShortName}}ライブラリは、以下のオペレーティングシステムとフレームワークをサポートしています。",
+      "learn_more": "詳細はこちら",
+      "any_other_text_editor": "その他のテキストエディタ"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 概要",
+      "description": "PDF、Office文書、画像、その他のビジネスファイル内のコンテンツを管理するソリューションです。",
+      "feature_1": {
+        "title": "テキストの削除または編集",
+        "content": "あなたの文書内の機密テキストを見つけて赤外線処理します。"
+      },
+      "feature_2": {
+        "title": "画像の赤外線処理",
+        "content": "追加の努力なしにファイル内の画像エリアを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータの管理",
+        "content": "Word文書内の著者や画像内のEXIFデータなど、メタデータを削除または置き換えます。"
+      },
+      "feature_4": {
+        "title": "高度な機能",
+        "content": "正規表現やAI統合を使用して、赤外線処理するデータを検索します。"
+      }
+    },
+    "formats": {
+      "title": "30以上のファイル形式に対応",
+      "description": "{{ProdShortName}}は、すべての一般的なビジネスファイル形式で赤外線処理操作をサポートしています。"
+    },
+    "code_samples": {
+      "title": "コードサンプル",
+      "index_title": "{{ProdShortName}} コードサンプル",
+      "index_description": "{{ProdShortName}} 赤外線処理操作の典型的な使用例。",
+      "more_examples": "さらなる例",
+      "sample_index": {
+        "title": "PDF文書のテキストを赤外線処理する方法",
+        "content": "{{ProdShortName}}は、数ステップで文書内のテキストを赤外線処理するための最適なソリューションです。",
+        "comment_1": "赤外線処理するファイルパスを{{textRedactor}}インスタンスに渡します",
+        "comment_2": "赤外線処理オプションを提供します",
+        "comment_3": "赤外線処理を行い、結果を保存します"
+      },
+      "sample_1": {
+        "code_title": "正規表現を使用したWord文書の赤外線処理",
+        "comment_1": "{{textRedactor}}クラスのインスタンスを作成します",
+        "comment_2": "正規表現を使用して赤外線処理ルールを定義します",
+        "comment_3": "一致するすべてのテキストに青い正方形のオーバーレイをマスクします",
+        "comment_4": "赤外線処理されたWord文書を保存します"
+      },
+      "sample_2": {
+        "code_title": "プレゼンテーションからすべてのメタデータを削除します",
+        "comment_1": "{{textRedactor}}にプレゼンテーションのパスを提供します",
+        "comment_2": "赤外線処理オプションを設定します",
+        "comment_3": "プレゼンテーションからすべてのメタデータを削除します",
+        "comment_4": "清掃されたプレゼンテーションファイルを保存します"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}}の成果",
+      "description": "ライブラリの成功を際立たせる重要な指標を発見します",
+      "item_1": {
+        "title": "サポートされている形式",
+        "description": "{{ProdShortName}}は、30以上の一般的なファイル形式との操作をサポートしています。"
+      },
+      "item_2": {
+        "title": "NuGetダウンロード",
+        "description": "{{ProdShortName}} for .NETは、NuGetから440,000回以上ダウンロードされています。"
+      },
+      "item_3": {
+        "title": "Mavenダウンロード",
+        "description": "{{ProdShortName}}はMavenで12,000回以上ダウンロードされ、強力なJava赤外線処理機能を提供しています。"
+      },
+      "item_4": {
+        "title": "喜ばしい顧客",
+        "description": "グローバル企業から個々の開発者まで、{{NameCompany}}の製品は革新的なソリューションを構築するために利用されています。"
+      }
+    },
+    "customers": {
+      "title": "我々の喜ばしい顧客",
+      "description": "{{NameCompany}}のライブラリは、世界的に認知され、評判の高いブランドに信頼されています。"
+    },
+    "actions": {
+      "alt": "ライセンス",
+      "title": "始める準備はできましたか？",
+      "description": "{{ProdShortName}}の機能を無料で試すか、ライセンスをリクエストしてください。",
+      "description_index": "あなたのプラットフォームで{{ProdShortName}}の機能を無料で試してみてください。"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "最も一般的な質問への回答です。",
+      "item_1": {
+        "question": "{{ProdShortName}}ライブラリは、文書を操作するためにサードパーティのソフトウェアを必要としますか？",
+        "answer": "{{ProdShortName}}は、Adobe Acrobat、Microsoft Officeなどの外部ソフトウェアを必要としません。"
+      },
+      "item_2": {
+        "question": "購入前に{{ProdShortName}}ライブラリを試すことができますか？",
+        "answer": "はい、ライセンスを購入せずに{{ProdShortName}}を試すことができます。試用モードで動作し、試用バッジが追加され、最初の3ページに出力が制限されます。制限なしでテストするには、30日間の一時ライセンスをリクエストしてください。詳細については、[こちらを参照してください]({{LicensingUrl}})。"
+      },
+      "item_3": {
+        "question": "どのようなライセンスオプションが利用可能ですか？",
+        "answer": "開発および配布のニーズに基づいて、いくつかのライセンスタイプを提供しています。これには、使用量に応じた開発者ライセンス、サイトライセンス、およびメーター制ライセンスが含まれます。詳細は[こちら]({{PricingUrl}})でご覧ください。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}}ローコードAPI",
+      "description": "クラウドベースのREST APIを使用して、任意のアプリケーションに文書赤外線処理を統合します。",
+      "item_1": {
+        "content": "cURLコマンドを使用して、さまざまなサポートされているファイル形式の文書を赤外線処理します。"
+      },
+      "item_2": {
+        "content": "Microsoft .NETアプリケーション内で画像、テキスト、メタデータを抽出または文書を赤外線処理するためにテンプレートを使用します。"
+      },
+      "item_3": {
+        "content": "Java SDKを使用して、Javaベースのアプリケーション内で文書を赤外線処理し、データを抽出します。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}}ノーコードアプリ",
+      "description": "ウェブベースのアプリケーションを使用して、ブラウザで直接30以上の人気ファイル形式を赤外線処理できるようにします。",
+      "item_1": {
+        "content": "Word、Excel、PowerPoint、PDF、その他30以上のファイル形式を赤外線処理するための無料のオンラインツールです。"
+      },
+      "item_2": {
+        "content": "ブラウザでWord文書を赤外線処理し、画像、テキスト、またはメタデータを抽出します。"
+      },
+      "item_3": {
+        "content": "任意のデバイスまたはプラットフォームで動作し、制限なしの無料のPDF赤外線処理ツールです。"
+      }
+    },
+    "formats_groups": {
+      "title_1": "MS Office形式",
+      "title_2": "その他のOffice形式",
+      "title_3": "その他の形式",
+      "format_portable": "ポータブル",
+      "format_images": "画像",
+      "format_other_office": "テキスト形式",
+      "format_other_web": "ウェブ",
+      "format_other_ebooks": "電子書籍"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}}を使用して文書の機密データを赤外線処理する",
+    "head_description": "{{ProdFullName}}を使用してビジネス文書を保護します。PDF、Word、Excel、PowerPoint、および画像ファイルから機密コンテンツを簡単に赤外線処理、隠蔽、または削除します。",
+    "title": "{{ProdShortName}}でコンテンツを安全に保つ",
+    "description": "{{EnvNameShort}}ソリューションを使用して、PDF、Word文書、スプレッドシート、プレゼンテーション、および画像から機密情報やメタデータを赤外線処理、隠蔽または完全に削除します。",
+    "actions_main": "{{PackageStoreName}} ダウンロード",
+    "code_title": "ファイル内容を赤外線処理する方法",
+    "code_comment_1": "入力ファイルを{{textRedactor}}インスタンスに渡します",
+    "code_comment_2": "赤外線処理オプションを構成します",
+    "code_comment_3": "赤外線処理プロセスを実行します",
+    "code_comment_4": "赤外線処理されたファイルを保存します",
+    "overview_description": "{{EnvNameShort}}アプリケーションにプロフェッショナルな赤外線処理を追加します",
+    "overview_feature_1": {
+      "title": "テキストコンテンツを赤外線処理",
+      "description": "{{ProdFullName}}を使用して、機密のテキストを見つけて赤外線処理できます。テキストは、追加のセキュリティのために色付きの画像オーバーレイを使用して置き換えたり隠したりできます。PDFやOffice文書を含むさまざまな形式でサポートされており、この機能はプライベートデータを保護し、ビジネスのコンプライアンスを効率化します。"
+    },
+    "overview_feature_2": {
+      "title": "画像を赤外線処理",
+      "description": "文書ページ上で画像を完全にまたは部分的に自動的に検出して赤外線処理します。検索条件と対象領域を指定して、機密の視覚コンテンツを効率的にマスクします。"
+    },
+    "overview_feature_3": {
+      "title": "ファイルのメタデータを管理",
+      "description": "多くのファイルタイプには、Wordファイル内の著者名や画像のEXIFデータなどの隠れたメタデータが含まれています。{{ProdFullName}}は、この情報を見つけて赤外線処理し、完全なデータプライバシーを確保することを簡単にします。"
+    },
+    "overview_feature_4": {
+      "title": "文書オブジェクトを赤外線処理",
+      "description": "PDFなどの形式で、注釈、コメント、埋め込みオブジェクトのような文書特有の要素を赤外線処理することで、完全なコンテンツ保護を確保します。"
+    },
+    "features": {
+      "title": "{{ProdFullName}}の機能",
+      "description": "PDF、Officeファイル、および画像からデータを高速度かつ高精度で抽出および赤外線処理します。",
+      "feature_1": {
+        "title": "柔軟な検索",
+        "content": "特定のフレーズや用語を赤外線処理するために、大文字と小文字を区別するか、区別しない検索を実行します。"
+      },
+      "feature_2": {
+        "title": "テキストを置き換えるまたは削除する",
+        "content": "文書全体で機密テキストを見つけて、簡単に置き換えたり削除したりします。"
+      },
+      "feature_3": {
+        "title": "画像でテキストを隠す",
+        "content": "赤外線処理されたコンテンツを視覚的にマスクするために、テキストを置き換えるのではなく、色付きの画像オーバーレイを使用します。"
+      },
+      "feature_4": {
+        "title": "高度な検索機能",
+        "content": "複雑なデータセット全体で正確かつ柔軟なコンテンツ赤外線処理のために、正規表現を使用します。"
+      },
+      "feature_5": {
+        "title": "スコープ付き赤外線処理",
+        "content": "赤外線処理を関連するセクションのみに制限するために、特定のページや定義されたページ領域をターゲットにします。"
+      },
+      "feature_6": {
+        "title": "メタデータ赤外線処理",
+        "content": "ドキュメントの所有権や作成詳細を保護するために、メタデータプロパティを見つけて赤外線処理します。"
+      },
+      "feature_7": {
+        "title": "柔軟な出力形式",
+        "content": "レイアウトの整合性を保ちながら、赤外線処理されたファイルをPDFまたは任意のサポート形式にエクスポートします。"
+      },
+      "feature_8": {
+        "title": "完全なメタデータ抹消",
+        "content": "一度のアクションでドキュメントからすべてのメタデータを消去し、完全なプライバシーを確保します。"
+      },
+      "feature_9": {
+        "title": "XMLベースの赤外線処理ルール",
+        "content": "複数のファイルにわたって繰り返し使用できる自動化された処理のための赤外線処理ポリシーをXML形式で定義します。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}}は、広範なオペレーティングシステム、開発フレームワーク、パッケージマネージャーと互換性があります。",
+    "formats_description": "{{ProdFullName}}は、次の[ファイル形式]({{SupportedFormatsUrl}})で操作をサポートしています。",
+    "code_samples_description": "{{ProdFullName}}の典型的な使用例",
+    "code_title_sample_1": "正規表現を使用した赤外線処理",
+    "code_samples_sample_1_content": "{{ProdFullName}}は、{{ProgLang}}開発者が、[正規表現]({{Sample1Url}})を使用してテキストを赤外線処理し、画像オーバーレイで隠すことを可能にします。",
+    "code_title_sample_2": "メタデータのクリーンアップ",
+    "code_samples_sample_2_content": "APIを使用して、サポートされているファイル形式からすべてのメタデータを簡単に[削除]({{Sample2Url}})します。"
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}}を使用して文書から機密データを削除する",
+    "head_description": "{{ProdFullName}}を使用して機密情報を保護します。PDF、Officeファイル、および画像内のプライベートコンテンツを手間なく隠蔽、赤外線処理、または削除します。",
+    "title": "{{ProdShortName}}で機密データを保護する",
+    "description": "信頼性の高い{{EnvNameShort}}ツールキットを使用して、PDF、Word、Excel、PowerPoint、および画像形式からプライベートデータを削除し、テキストを赤外線処理し、メタデータをクリーンアップします。",
+    "actions_main": "{{PackageStoreName}} ダウンロード",
+    "code_title": "文書コンテンツを赤外線処理する手順",
+    "code_comment_1": "{{textRedactor}}インスタンスでソースファイルをロードします",
+    "code_comment_2": "赤外線処理の基準と設定を定義します",
+    "code_comment_3": "赤外線処理操作を実行します",
+    "code_comment_4": "赤外線処理を適用したファイルを保存します",
+    "overview_description": "{{EnvNameShort}}アプリケーションにプロフェッショナルな赤外線処理ツールを追加します。",
+    "overview_feature_1": {
+      "title": "機密テキストを削除",
+      "description": "{{ProdFullName}}を使用して、プライベートテキストを検索し、カスタマイズ可能なオーバーレイや置き換えを使用して隠すことができます。PDF、Word、Excelなどに対応しており、規制遵守や安全な文書の共有に最適です。"
+    },
+    "overview_feature_2": {
+      "title": "画像を隠す",
+      "description": "要件に基づいて画像を完全または部分的に特定し、マスクします。検出ルールと領域座標を定義して、視覚データを効率的に保護します。"
+    },
+    "overview_feature_3": {
+      "title": "埋め込みメタデータをクリーンアップ",
+      "description": "ファイルには、著者名、作成ツール、デバイスの詳細などの隠れた情報が含まれていることがあります。{{ProdFullName}}を使用すると、Word、Excel、画像および他の形式のメタデータを検出し、クリーンアップすることができます。"
+    },
+    "overview_feature_4": {
+      "title": "埋め込みオブジェクトを赤外線処理",
+      "description": "PDF注釈、コメント、または他の埋め込み項目のような要素を赤外線処理し、機密情報の痕跡を排除して文書を完全にクリーンアップします。"
+    },
+    "features": {
+      "title": "{{ProdShortName}}では何ができるか",
+      "description": "PDF、Office文書、および画像からコンテンツを迅速に特定して赤外線処理します。",
+      "feature_1": {
+        "title": "正確な検索",
+        "content": "大文字と小文字を区別した検索モードを使用して、正確な一致を見つけて赤外線処理します。"
+      },
+      "feature_2": {
+        "title": "テキストを見つけて置き換える",
+        "content": "文書全体で機密テキストを自動的に検出し、置き換えたり削除したりします。"
+      },
+      "feature_3": {
+        "title": "カスタム画像でオーバーレイ",
+        "content": "カスタム画像ブロックを使用して赤外線処理されたテキストを隠し、レイアウトを保持します。"
+      },
+      "feature_4": {
+        "title": "高度な赤外線処理に正規表現を使用",
+        "content": "正規表現を活用して、複雑なパターンを検出し、インテリジェントに赤外線処理します。"
+      },
+      "feature_5": {
+        "title": "特定の領域を赤外線処理",
+        "content": "選択したページまたはゾーンに赤外線処理を制限して、関連するセクションのみをターゲットにします。"
+      },
+      "feature_6": {
+        "title": "メタデータフィールドのクリーンアップ",
+        "content": "著者、会社、またはトラッキングデータなどの文書メタデータを特定し、クリーンアップします。"
+      },
+      "feature_7": {
+        "title": "希望の形式でエクスポート",
+        "content": "赤外線処理されたファイルをレイアウトの整合性を保ちながら、PDFまたは他のサポートされた形式で保存します。"
+      },
+      "feature_8": {
+        "title": "すべてのメタデータを消去",
+        "content": "一つのコマンドでサポートされているファイルからメタデータを完全に削除します。"
+      },
+      "feature_9": {
+        "title": "自動化された赤外線処理ポリシー",
+        "content": "再利用可能な赤外線処理設定をXML形式で作成し、一貫したバッチ赤外線処理を実現します。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}}は、主要なオペレーティングシステム、フレームワーク、開発プラットフォームで動作します。",
+    "formats_description": "{{ProdFullName}}は次の[ファイル形式]({{SupportedFormatsUrl}})での操作をサポートしています。",
+    "code_samples_description": "{{ProdFullName}}の一般的な使用例",
+    "code_title_sample_1": "正規表現を用いた赤外線処理",
+    "code_samples_sample_1_content": "{{ProdFullName}}は、{{ProgLang}}開発者が[正規表現に基づく赤外線処理]({{Sample1Url}})を適用できるようにします。",
+    "code_title_sample_2": "すべてのメタデータを削除",
+    "code_samples_sample_2_content": "APIを使用して、[メタデータを削除]({{Sample2Url}})することができます。"
+  },
+  "index-content-python": {
+    "head_title": "{{EnvNameShort}}を使用して文書から機密情報を消去する",
+    "head_description": "{{ProdFullName}}を使用してファイルを安全に保ちます。PDF、Word、Excel、PowerPoint、および画像ファイル内の機密コンテンツを迅速に赤外線処理、隠蔽、または削除します。",
+    "title": "{{ProdShortName}}で文書を安全に保つ",
+    "description": "{{EnvNameShort}}ツールキットを使用して、PDF、Officeファイル、画像からプライベートデータを簡単に削除し、テキストを赤外線処理し、隠れたメタデータをクリーンアップします。",
+    "actions_main": "{{PackageStoreName}} ダウンロード",
+    "code_title": "文書コンテンツを赤外線処理する",
+    "code_comment_1": "{{textRedactor}}インスタンスにファイルをロードします",
+    "code_comment_2": "赤外線処理パラメータを調整します",
+    "code_comment_3": "赤外線処理プロセスを開始します",
+    "code_comment_4": "清掃されたファイルをエクスポートします",
+    "overview_description": "{{EnvNameShort}}プロジェクトに強力な赤外線処理機能を統合します。",
+    "overview_feature_1": {
+      "title": "機密テキストを赤外線処理",
+      "description": "{{ProdFullName}}を使用すると、機密の単語やフレーズを自動的に検出してカバーすることができます。色付きのボックスで文字を置き換えたりマスクしたりして、PDF、Word文書、その他の形式全体で強化された保護を実現します。"
+    },
+    "overview_feature_2": {
+      "title": "画像をマスク",
+      "description": "当社の技術を使用して、指定した基準に基づいて画像を検出し、ぼかしたり、隠したり、ブロックしたりします。具体的な領域を定義するか、完全な制御のために自動検出を許可します。"
+    },
+    "overview_feature_3": {
+      "title": "隠れたメタデータを削除",
+      "description": "著者名や追跡データなど、メタデータに隠された個人情報を排除します。{{ProdFullName}}は、あなたの文書が完全にクリーンで、安心して共有できるようにします。"
+    },
+    "overview_feature_4": {
+      "title": "特殊要素を赤外線処理",
+      "description": "テキストを超えて、コメント、注釈、およびその他のファイル特有の要素を赤外線処理することで、完全な機密性を確保します。"
+    },
+    "features": {
+      "title": "{{ProdFullName}}の主な機能",
+      "description": "PDF、画像、およびOfficeファイル内の機密コンテンツを簡単にスキャン、特定、赤外線処理します。",
+      "feature_1": {
+        "title": "カスタマイズ可能な検索",
+        "content": "柔軟な検索モードを使用して、取り除くための正確な一致またはキーワードを見つけます。"
+      },
+      "feature_2": {
+        "title": "テキストを見つけて置き換えまたは削除",
+        "content": "機密データを見つけて、安全なテキストに置き換えるか、完全に消去します。"
+      },
+      "feature_3": {
+        "title": "視覚的マスキング",
+        "content": "赤外線処理されたセクションを視覚的に覆うために、色付きの形やパターンを重ねます。"
+      },
+      "feature_4": {
+        "title": "正規表現を活用した精密な検出",
+        "content": "高度なテキスト検索に正規表現を活用し、ピンポイント精度を実現します。"
+      },
+      "feature_5": {
+        "title": "ターゲットを絞った赤外線処理",
+        "content": "特定のページや定義された領域に赤外線処理を適用して、時間を節約し、重要なエリアに焦点を合わせます。"
+      },
+      "feature_6": {
+        "title": "メタデータのサニタイズ",
+        "content": "創作者、会社、またはタイムスタンプなどのメタデータフィールドを簡単にクリーンアップします。"
+      },
+      "feature_7": {
+        "title": "エクスポートオプション",
+        "content": "処理された文書をPDFまたは他の互換性のある形式で保存し、レイアウトの忠実度を損なうことなく行います。"
+      },
+      "feature_8": {
+        "title": "完全なメタデータ消去",
+        "content": "最大のデータ保護のために、一度のクリックですべての埋め込みメタデータを消去します。"
+      },
+      "feature_9": {
+        "title": "再利用可能なXMLポリシー",
+        "content": "カスタム赤外線処理設定をXMLテンプレートとして保存し、将来のタスクを自動化します。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}}はすべての主要なオペレーティングシステムで動作し、一般的なフレームワークをサポートし、一般的なパッケージマネージャーと統合します。",
+    "formats_description": "{{ProdFullName}}は、次の[ファイル形式]({{SupportedFormatsUrl}})をサポートしています。",
+    "code_samples_description": "{{ProdFullName}}がどのように赤外線処理タスクを簡素化するかを探ります。",
+    "code_title_sample_1": "正規表現に基づくテキスト赤外線処理",
+    "code_samples_sample_1_content": "{{ProdFullName}}は、{{ProgLang}}開発者が[正規表現に基づくルール]({{Sample1Url}})を適用して、画像マスクで機密テキストを見つけて隠すことができるようにします。",
+    "code_title_sample_2": "メタデータを削除",
+    "code_samples_sample_2_content": "APIを使用して、[メタデータを消去]({{Sample2Url}})し、複数のファイルタイプにわたって操作を行います。"
+  }
+}

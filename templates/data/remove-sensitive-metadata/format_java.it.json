@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Pulisci i Metadati in {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Utilizza {{ProdFullName}} per eliminare o aggiornare metadati nascosti nei file {{FileFormatUp}}. Rimuovi informazioni private prima di condividere i tuoi documenti."
+    },
+    "header": {
+      "title": "Rimuovi Metadati dai File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Mantieni sicure le informazioni personali e aziendali nei tuoi file {{FileFormatUp}} utilizzando {{ProgLang}}. Strumenti semplici che aiutano a proteggere i tuoi dati.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Pulisci i Metadati nei Documenti {{FileFormatCap}}",
+      "content": {
+        "title": "Inizia con {{ProdShortName}} per proteggere i metadati nei tuoi progetti {{EnvName}}.",
+        "step_1": "Configura un {{textRedactor}} e apri il tuo file {{FileFormatCap}}.",
+        "step_2": "Scegli di eliminare tutti i campi dei metadati.",
+        "step_3": "Esegui la redazione per cancellare i dati nascosti.",
+        "step_4": "Salva il file con i metadati rimossi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Pulisci i metadati nei file {{FileFormatUp}}",
+      "comment_2": "Utilizza {{textRedactor}} per aprire il file",
+      "comment_3": "Imposta le opzioni di redazione dei metadati",
+      "comment_4": "Applica e salva le modifiche"
+    },
+    "example_bottom": {
+      "title": "Pulire i Metadati Nascosti",
+      "content": "Questo esempio mostra come modificare o eliminare i metadati nei file {{FileFormatUp}}.",
+      "comment_1": "Apri il file {{FileFormatUp}} usando il redattore",
+      "comment_2": "Focalizzati sul campo dei metadati Autore",
+      "comment_3": "Focalizzati sul campo dei metadati Titolo",
+      "comment_4": "Esegui la pulizia dei metadati",
+      "comment_5": "Salva il file finale"
+    },
+    "more_features": {
+      "title": "Rimuovi Info Sensibili dai File",
+      "description": "{{ProdFullName}} ti consente di pulire contenuti privati in diversi formati di documento. Mantieni i tuoi file sicuri e facili da condividere.",
+      "image_description": "Caratteristiche Principali di Redazione",
+      "feature_1": {
+        "title": "Redazione Testo",
+        "content": "Trova ed elimina parole personali o sensibili nei tuoi documenti."
+      },
+      "feature_2": {
+        "title": "Copertura Immagini",
+        "content": "Posiziona sovrapposizioni sulle immagini per nascondere visivi privati."
+      },
+      "feature_3": {
+        "title": "Rimozione Metadati",
+        "content": "Cancella i metadati nascosti che potrebbero rivelare informazioni private."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdShortName}} fornisce agli sviluppatori {{ProgLang}} strumenti per nascondere testi, contenuti immagine e metadati nei documenti {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Sicurezza dei File {{FileFormatUp}} con la Redazione Metadati di {{EnvNameShort}}",
+      "description": "Cancella i campi nascosti nei tuoi file {{FileFormatUp}} usando {{EnvNameShort}}. Proteggi la privacy con un semplice strumento di pulizia dei metadati."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Elimina Metadati da {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza {{ProdFullName}} per pulire i metadati nascosti nei tuoi file {{FileFormatUp}}. Assicurati che i tuoi documenti non rivelino informazioni private."
+    },
+    "header": {
+      "title": "Pulisci i Metadati nei Documenti {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Rimuovi metadati indesiderati dai tuoi file {{FileFormatUp}} con {{ProgLang}}. Mantieni i tuoi file privati e sicuri per la condivisione o l'archiviazione.",
+      "subtitle": "Strumenti Chiave Inclusi in {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Elimina Info Nascoste dai File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} rende semplice eliminare i metadati nelle tue app {{EnvName}}.",
+        "step_1": "Inizializza {{textRedactor}} e carica il file {{FileFormatCap}}.",
+        "step_2": "Imposta lo strumento per rimuovere campi di metadati specifici.",
+        "step_3": "Applica la redazione per eliminare le info nascoste.",
+        "step_4": "Salva il file aggiornato."
+      }
+    },
+    "example_top": {
+      "comment_1": "Elimina metadati dai file {{FileFormatUp}}",
+      "comment_2": "Apri il file con {{textRedactor}}",
+      "comment_3": "Scegli quali metadati rimuovere",
+      "comment_4": "Applica e salva le modifiche"
+    },
+    "example_bottom": {
+      "title": "Come Rimuovere i Metadati",
+      "content": "Questo esempio mostra come eliminare proprietà nascoste come Autore e Titolo da un file {{FileFormatUp}}.",
+      "comment_1": "Apri il tuo documento {{FileFormatUp}}",
+      "comment_2": "Seleziona il campo Autore da ripulire",
+      "comment_3": "Seleziona il campo Titolo da ripulire",
+      "comment_4": "Esegui la redazione",
+      "comment_5": "Salva il file finale"
+    },
+    "more_features": {
+      "title": "Proteggi Dati Sensibili nei Documenti",
+      "description": "{{ProdFullName}} ti consente di nascondere contenuti privati da tutti i tipi di file. Assicurati che nessun dato nascosto venga condiviso.",
+      "image_description": "Strumenti di Redazione di Metadati, Testi e Immagini",
+      "feature_1": {
+        "title": "Redazione Testo",
+        "content": "Trova ed elimina testo sensibile in tutto il tuo documento."
+      },
+      "feature_2": {
+        "title": "Sovrapposizioni Immagini",
+        "content": "Copri parti delle immagini per nascondere visivi privati."
+      },
+      "feature_3": {
+        "title": "Pulizia Metadati",
+        "content": "Rimuovi metadati di sfondo che possono rivelare informazioni nascoste."
+      }
+    },
+    "about": {
+      "title": "Cos'è {{ProdFullName}}?",
+      "content": "{{ProdShortName}} aiuta gli sviluppatori {{ProgLang}} a rimuovere contenuti privati dai file {{FileFormatUp}}. Redigi facilmente testi, immagini e metadati."
+    },
+    "formats": {
+      "title": "Pulisci i Metadati da {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Utilizza {{EnvNameShort}} per rimuovere metadati nascosti dai documenti {{FileFormatUp}}. Ottimo per la privacy e la protezione dei dati."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Rimuovi Metadati da {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "{{ProdFullName}} aiuta a pulire i metadati nascosti dai file {{FileFormatUp}}. Mantieni i tuoi documenti privati e liberi da dettagli indesiderati."
+    },
+    "header": {
+      "title": "Pulisci i Metadati dai File {{FileFormatUp}} in {{EnvNameShort}}",
+      "description": "Utilizza {{ProgLang}} per liberarti di dettagli personali o nascosti nei tuoi documenti {{FileFormatUp}}. Ideale per uso lavorativo e personale.",
+      "subtitle": "Scopri Cosa Puoi Fare con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Elimina Metadati dai File {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} aiuta il tuo progetto {{EnvName}} a rimuovere rapidamente metadati sensibili.",
+        "step_1": "Avvia un {{textRedactor}} e apri il file {{FileFormatCap}}.",
+        "step_2": "Scegli quali campi di metadati rimuovere.",
+        "step_3": "Esegui la redazione per eliminarli dal file.",
+        "step_4": "Salva la versione pulita."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cancella i metadati nascosti nei file {{FileFormatUp}}",
+      "comment_2": "Apri il file usando {{textRedactor}}",
+      "comment_3": "Scegli i campi di metadati da rimuovere",
+      "comment_4": "Applica la redazione e salva il tuo file"
+    },
+    "example_bottom": {
+      "title": "Esempio di Rimozione Metadati",
+      "content": "Questo esempio mostra come eliminare metadati come Autore o Titolo da un file {{FileFormatUp}}.",
+      "comment_1": "Apri il tuo documento",
+      "comment_2": "Seleziona il campo Autore per la redazione",
+      "comment_3": "Seleziona il campo Titolo per la redazione",
+      "comment_4": "Esegui lo strumento di redazione",
+      "comment_5": "Salva il risultato"
+    },
+    "more_features": {
+      "title": "Sicurezza dei Tuoi File Nascondendo Informazioni Sensibili",
+      "description": "Con {{ProdFullName}}, puoi pulire dati personali da diversi tipi di documenti. Un modo semplice per mantenere i tuoi file sicuri.",
+      "image_description": "Caratteristiche per la Redazione dei Contenuti",
+      "feature_1": {
+        "title": "Rimuovi Testo",
+        "content": "Cerca ed elimina parole o frasi che contengono dati privati."
+      },
+      "feature_2": {
+        "title": "Copri Immagini",
+        "content": "Nascondi sezioni dell'immagine che contengono parti private o sensibili."
+      },
+      "feature_3": {
+        "title": "Rimuovi Metadati",
+        "content": "Cancella info di sfondo che potrebbero rivelare dettagli personali o aziendali."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdShortName}} offre agli sviluppatori {{ProgLang}} gli strumenti per controllare i contenuti nei file {{FileFormatUp}}. Rimuovi testi, metadati e immagini quando necessario."
+    },
+    "formats": {
+      "title": "Pulizia dei Metadati in {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Utilizza gli strumenti {{EnvNameShort}} per rimuovere dati nascosti dai file {{FileFormatUp}}. Condividi documenti puliti e sicuri."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Rimuovi Metadati dai File {{FileFormatUp}} Utilizzando {{ProgLang}}",
+      "description": "Utilizza {{ProdFullName}} per eliminare o modificare metadati nascosti nei tuoi file {{FileFormatUp}}. Proteggi il tuo contenuto e mantieni i tuoi documenti puliti."
+    },
+    "header": {
+      "title": "Pulisci i Metadati in {{FileFormatUp}} con gli Strumenti di {{EnvNameShort}}",
+      "description": "Elimina dettagli personali memorizzati nei metadati utilizzando {{ProgLang}}. Ottimo per documenti personali e aziendali.",
+      "subtitle": "Caratteristiche Chiave di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Rimuovi Metadati nei File {{FileFormatCap}}",
+      "content": {
+        "title": "Con {{ProdShortName}}, i tuoi progetti {{EnvName}} possono pulire i metadati nascosti in pochi passaggi.",
+        "step_1": "Imposta un {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Scegli quali campi di metadati rimuovere.",
+        "step_3": "Esegui il processo di redazione.",
+        "step_4": "Salva il file con i metadati rimossi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Rimuovi metadati dai file {{FileFormatUp}}",
+      "comment_2": "Utilizza {{textRedactor}} per aprire il file",
+      "comment_3": "Configura i campi di metadati da rimuovere",
+      "comment_4": "Applica le modifiche e salva"
+    },
+    "example_bottom": {
+      "title": "Esempio di Rimozione dei Campi Metadati",
+      "content": "Questo esempio mostra come è possibile eliminare metadati come autore e titolo da un file {{FileFormatUp}}.",
+      "comment_1": "Apri il tuo file {{FileFormatUp}}",
+      "comment_2": "Focalizzati sui metadati Autore",
+      "comment_3": "Focalizzati sui metadati Titolo",
+      "comment_4": "Applica le regole di redazione",
+      "comment_5": "Salva il file redatto"
+    },
+    "more_features": {
+      "title": "Altri Strumenti di Redazione che Puoi Usare",
+      "description": "{{ProdFullName}} ti aiuta a rimuovere informazioni sensibili da tutti i tipi di file. Mantieni i documenti puliti e pronti da condividere.",
+      "image_description": "Caratteristiche per la Privacy Incorporate",
+      "feature_1": {
+        "title": "Rimuovi Testo Sensibile",
+        "content": "Trova ed elimina nomi, email e altre informazioni personali dai tuoi file."
+      },
+      "feature_2": {
+        "title": "Nascondi Parti delle Immagini",
+        "content": "Aggiungi sovrapposizioni per coprire aree delle immagini che vuoi mantenere private."
+      },
+      "feature_3": {
+        "title": "Pulizia Metadati",
+        "content": "Cancella dati di sfondo come autore o titolo prima di condividere i tuoi file."
+      }
+    },
+    "about": {
+      "title": "Cosa è {{ProdFullName}}?",
+      "content": "{{ProdShortName}} offre agli sviluppatori {{ProgLang}} strumenti per rimuovere contenuti privati dai file {{FileFormatUp}}. Elimina metadati, nascondi immagini e pulisci testi."
+    },
+    "formats": {
+      "title": "Rimuovi Metadati da {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "{{EnvNameShort}} rende semplice eliminare dati nascosti nei file {{FileFormatUp}}. Ottimo per mantenere sicuri i documenti prima di condividerli."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Elimina Metadati da {{FileFormatUp}} Usando {{ProgLang}}",
+      "description": "Con {{ProdFullName}}, puoi rimuovere rapidamente metadati nascosti dai file {{FileFormatUp}}. Mantieni i tuoi documenti sicuri e privati."
+    },
+    "header": {
+      "title": "Pulisci i Metadati Nascosti nei File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Proteggi i tuoi file {{FileFormatUp}} rimuovendo informazioni private usando gli strumenti {{ProgLang}}. Ottimo per uso aziendale e personale.",
+      "subtitle": "Come {{ProdFullName}} Ti Aiuta"
+    },
+    "steps": {
+      "title": "Cancella Metadati nei File {{FileFormatCap}}",
+      "content": {
+        "title": "Utilizza {{ProdShortName}} per pulire i metadati dai documenti nelle tue app {{EnvName}}.",
+        "step_1": "Avvia un oggetto {{textRedactor}} e carica il file {{FileFormatCap}}.",
+        "step_2": "Definisci regole per eliminare i campi di metadati nascosti.",
+        "step_3": "Applica la redazione per cancellare i metadati.",
+        "step_4": "Salva il file aggiornato."
+      }
+    },
+    "example_top": {
+      "comment_1": "Rimuovi metadati nascosti da {{FileFormatUp}}",
+      "comment_2": "Carica il file con {{textRedactor}}",
+      "comment_3": "Configura le opzioni di redazione dei metadati",
+      "comment_4": "Esegui la redazione e salva"
+    },
+    "example_bottom": {
+      "title": "Pulisci i Campi Metadati nei Documenti",
+      "content": "Questo esempio spiega come rimuovere metadati come Autore e Titolo da un file {{FileFormatUp}}.",
+      "comment_1": "Carica il file per l'elaborazione",
+      "comment_2": "Rimuovi il campo Autore",
+      "comment_3": "Rimuovi il campo Titolo",
+      "comment_4": "Esegui la redazione",
+      "comment_5": "Salva il file pulito"
+    },
+    "more_features": {
+      "title": "Altri Strumenti per Rimuovere Info Private",
+      "description": "Utilizza {{ProdFullName}} per ripulire testi, immagini e metadati da molti formati di file. Condividi i tuoi file senza esporre dati sensibili.",
+      "image_description": "Caratteristiche di Redazione di Metadati e Contenuti",
+      "feature_1": {
+        "title": "Elimina Testo Privato",
+        "content": "Cerca contenuti sensibili nei file e rimuovili o modificati secondo necessità."
+      },
+      "feature_2": {
+        "title": "Copri Aree delle Immagini",
+        "content": "Nascondi parti specifiche delle immagini che possono contenere dettagli privati."
+      },
+      "feature_3": {
+        "title": "Rimuovi Campi Metadati",
+        "content": "Cancella etichette nascoste come autore e titolo per garantire la privacy."
+      }
+    },
+    "about": {
+      "title": "Scopri {{ProdFullName}}",
+      "content": "{{ProdShortName}} offre agli sviluppatori {{ProgLang}} tutto ciò di cui hanno bisogno per rimuovere dati dai file {{FileFormatUp}}. Pulisci metadati, testi e immagini."
+    },
+    "formats": {
+      "title": "Cancella Metadati in {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "{{EnvNameShort}} ti consente di pulire metadati nascosti dai file {{FileFormatUp}}. Un modo semplice per proteggere i tuoi documenti."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Rimuovi Metadati da {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Proteggi i tuoi documenti {{FileFormatUp}} eliminando metadati nascosti utilizzando {{ProdFullName}}. Mantieni dettagli privati lontano dalla vista."
+    },
+    "header": {
+      "title": "Pulisci i Metadati nei File {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Con {{ProgLang}}, rimuovi dati sensibili dai file {{FileFormatUp}}. Un modo intelligente per mantenere i tuoi documenti sicuri.",
+      "subtitle": "Perché Scegliere {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Come Rimuovere Metadati dai File {{FileFormatCap}}",
+      "content": {
+        "title": "In {{EnvName}}, {{ProdShortName}} rende semplice la pulizia dei metadati dei documenti.",
+        "step_1": "Crea un {{textRedactor}} e carica il file {{FileFormatCap}}.",
+        "step_2": "Imposta regole per rimuovere campi di dati nascosti.",
+        "step_3": "Esegui il processo di pulizia.",
+        "step_4": "Salva il documento pulito."
+      }
+    },
+    "example_top": {
+      "comment_1": "Elimina metadati nascosti da {{FileFormatUp}}",
+      "comment_2": "Avvia il redattore e apri il file",
+      "comment_3": "Imposta le opzioni per la rimozione dei metadati",
+      "comment_4": "Pulisci e salva il documento"
+    },
+    "example_bottom": {
+      "title": "Focalizzati su Campi di Metadati Specifici",
+      "content": "Questo esempio guida attraverso la rimozione di campi come Autore e Titolo da un file {{FileFormatUp}}.",
+      "comment_1": "Carica il file nel redattore",
+      "comment_2": "Seleziona il campo Autore",
+      "comment_3": "Seleziona il campo Titolo",
+      "comment_4": "Applica la redazione",
+      "comment_5": "Salva il file finale"
+    },
+    "more_features": {
+      "title": "Rimuovi Contenuti Sensibili dai File",
+      "description": "Con {{ProdFullName}}, puoi eliminare metadati, redigere testi e mascherare aree delle immagini in molti tipi di file. Ottimo per usi legali, personali o aziendali.",
+      "image_description": "Strumenti per Pulire Metadati e Contenuti",
+      "feature_1": {
+        "title": "Trova e Elimina Testo",
+        "content": "Cerca testo sensibile e rimuovilo per proteggere le informazioni."
+      },
+      "feature_2": {
+        "title": "Copri Contenuto Immagine",
+        "content": "Nascondi sezioni confidenziali delle immagini utilizzando sovrapposizioni."
+      },
+      "feature_3": {
+        "title": "Elimina Metadati",
+        "content": "Rimuovi dettagli incorporati che potrebbero contenere dati privati."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdShortName}} offre agli sviluppatori {{ProgLang}} gli strumenti per controllare i contenuti nei file {{FileFormatUp}}. Rimuovi testo, metadati e immagini secondo le necessità."
+    },
+    "formats": {
+      "title": "Pulizia dei Metadati in {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Utilizza gli strumenti {{EnvNameShort}} per rimuovere dati nascosti dai file {{FileFormatUp}}. Condividi documenti puliti e sicuri."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Rimuovi Metadati dai {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza {{ProdFullName}} per pulire metadati nascosti dai file {{FileFormatUp}} e mantenere i tuoi documenti privati e sicuri."
+    },
+    "header": {
+      "title": "Elimina Metadati in {{FileFormatUp}} usando {{EnvNameShort}}",
+      "description": "Proteggi i tuoi file con strumenti facili da usare progettati per {{ProgLang}}. Rimuovi metadati in pochi passaggi.",
+      "subtitle": "Cosa Ottieni con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Come Pulire i Metadati dai File {{FileFormatCap}}",
+      "content": {
+        "title": "Con {{ProdShortName}}, le tue app {{EnvName}} possono pulire rapidamente i metadati dai documenti.",
+        "step_1": "Crea un oggetto {{textRedactor}} e carica il documento.",
+        "step_2": "Seleziona i campi di metadati che desideri eliminare.",
+        "step_3": "Applica le impostazioni di redazione.",
+        "step_4": "Esporta il documento senza i dati nascosti."
+      }
+    },
+    "example_top": {
+      "comment_1": "Elimina metadati dai file {{FileFormatUp}}",
+      "comment_2": "Apri il tuo file con il redattore",
+      "comment_3": "Imposta quali metadati rimuovere",
+      "comment_4": "Pulisci e salva il file"
+    },
+    "example_bottom": {
+      "title": "Rimuovi i Campi Metadati Nascosti",
+      "content": "Questo campione mostra come pulire informazioni incorporate come Autore e Titolo da un documento {{FileFormatUp}}.",
+      "comment_1": "Apri il file con il redattore",
+      "comment_2": "Elimina il campo Autore",
+      "comment_3": "Elimina il campo Titolo",
+      "comment_4": "Applica redazione",
+      "comment_5": "Salva il documento aggiornato"
+    },
+    "more_features": {
+      "title": "Mantieni i Tuoi File Sicuri con la Redazione",
+      "description": "{{ProdFullName}} aiuta a pulire contenuti privati o nascosti, in modo che i documenti possano essere condivisi in sicurezza. Supporta molti tipi di file.",
+      "image_description": "Cosa Puoi Redigere",
+      "feature_1": {
+        "title": "Rimuovi Testo Sensibile",
+        "content": "Trova ed elimina parole personali o confidenziali dai tuoi file."
+      },
+      "feature_2": {
+        "title": "Nascondi Aree delle Immagini",
+        "content": "Coprire parti delle immagini che non dovrebbero essere viste."
+      },
+      "feature_3": {
+        "title": "Pulizia Metadati",
+        "content": "Elimina campi che potrebbero rivelare dettagli nascosti."
+      }
+    },
+    "about": {
+      "title": "Cos'è {{ProdFullName}}?",
+      "content": "{{ProdShortName}} è uno strumento di redazione per sviluppatori {{ProgLang}}. Ti aiuta a pulire testi, immagini e metadati nei file {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Pulisci i Metadati di {{FileFormatUp}} in {{EnvNameShort}}",
+      "description": "Utilizza {{EnvNameShort}} per rimuovere dati privati dai file {{FileFormatUp}}. Perfetto per pulire e condividere documenti sensibili."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Modifica i Metadati in {{FileFormatUp}} Utilizzando {{ProgLang}}",
+      "description": "Utilizza {{ProdFullName}} per pulire o cambiare i metadati nei file {{FileFormatUp}}. Proteggi la privacy rimuovendo i dati nascosti."
+    },
+    "header": {
+      "title": "Rimuovi Metadati dai File {{FileFormatUp}} Utilizzando {{EnvNameShort}}",
+      "description": "Mantieni sicuri i tuoi documenti {{FileFormatUp}} con semplici strumenti {{ProgLang}} che rimuovono dettagli privati.",
+      "subtitle": "Caratteristiche Principali di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Pulisci i Metadati nei Documenti {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} rende semplice eliminare i metadati nei tuoi progetti {{EnvName}}.",
+        "step_1": "Crea un {{textRedactor}} e carica il tuo file {{FileFormatCap}}.",
+        "step_2": "Seleziona le opzioni per rimuovere tutti i campi di metadati.",
+        "step_3": "Esegui la redazione per pulire il file.",
+        "step_4": "Salva il file aggiornato senza dati nascosti."
+      }
+    },
+    "example_top": {
+      "comment_1": "Svuota i metadati dai file {{FileFormatUp}}",
+      "comment_2": "Carica il file utilizzando {{textRedactor}}",
+      "comment_3": "Imposta la pulizia dei metadati",
+      "comment_4": "Esegui e salva le modifiche"
+    },
+    "example_bottom": {
+      "title": "Elimina Campi Metadati Nascosti",
+      "content": "Questo esempio mostra come rimuovere o modificare metadati come Autore e Titolo nei documenti {{FileFormatUp}}.",
+      "comment_1": "Apri il file {{FileFormatUp}} con il redattore",
+      "comment_2": "Focalizzati sui metadati Autore",
+      "comment_3": "Focalizzati sui metadati Titolo",
+      "comment_4": "Esegui la redazione",
+      "comment_5": "Salva il file ripulito"
+    },
+    "more_features": {
+      "title": "Proteggi i Tuoi Documenti",
+      "description": "{{ProdFullName}} aiuta a rimuovere contenuti privati da molti tipi di documenti. Mantieni le informazioni sensibili fuori dai file condivisi.",
+      "image_description": "Caratteristiche Chiave di Redazione",
+      "feature_1": {
+        "title": "Rimuovi Testo",
+        "content": "Trova ed elimina parole personali o frasi dai tuoi file."
+      },
+      "feature_2": {
+        "title": "Nascondi Contenuto Immagine",
+        "content": "Aggiungi sovrapposizioni per coprire aree delle immagini con informazioni sensibili."
+      },
+      "feature_3": {
+        "title": "Modifica i Metadati",
+        "content": "Pulisci o cambia i campi dei metadati per evitare di esporre informazioni private."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdShortName}} fornisce agli sviluppatori {{ProgLang}} gli strumenti per rimuovere testi, immagini e metadati indesiderati dai file {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Rimuovi Metadati da {{FileFormatUp}} Usando {{EnvNameShort}}",
+      "description": "Utilizza {{EnvNameShort}} per eliminare dati nascosti dai file {{FileFormatUp}} e proteggere informazioni sensibili."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Rimuovi Metadati Nascosti in {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza {{ProdFullName}} per ripulire i metadati nei file {{FileFormatUp}}. Assicurati che le informazioni private rimangano nascoste."
+    },
+    "header": {
+      "title": "Cancella Metadati dai File {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Mantieni sicuri i tuoi documenti {{FileFormatUp}} utilizzando strumenti progettati per {{ProgLang}}. Rimuovi dettagli sensibili con precisione.",
+      "subtitle": "Cosa Puoi Fare con {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Come Pulire i Metadati nei File {{FileFormatCap}}",
+      "content": {
+        "title": "Inizia ad utilizzare {{ProdShortName}} nella tua app {{EnvName}} per rimuovere rapidamente i metadati nascosti.",
+        "step_1": "Crea un {{textRedactor}} e apri il tuo documento {{FileFormatCap}}.",
+        "step_2": "Seleziona i campi di metadati da rimuovere.",
+        "step_3": "Applica le impostazioni di redazione.",
+        "step_4": "Salva il file pulito."
+      }
+    },
+    "example_top": {
+      "comment_1": "Pulisci i metadati nascosti da {{FileFormatUp}}",
+      "comment_2": "Carica il tuo file con {{textRedactor}}",
+      "comment_3": "Imposta i campi di metadati da cancellare",
+      "comment_4": "Applica le modifiche e salva"
+    },
+    "example_bottom": {
+      "title": "Elimina Metadati Sensibili",
+      "content": "Questa guida mostra come pulire campi come Autore e Titolo da un documento {{FileFormatUp}}.",
+      "comment_1": "Apri {{FileFormatUp}} nel redattore",
+      "comment_2": "Seleziona i metadati Autore",
+      "comment_3": "Seleziona i metadati Titolo",
+      "comment_4": "Applica la redazione",
+      "comment_5": "Salva il file finale"
+    },
+    "more_features": {
+      "title": "Pulisci i Contenuti in Qualsiasi File",
+      "description": "{{ProdFullName}} aiuta a rimuovere testo privato, dettagli nascosti delle immagini e metadati dai tuoi documenti prima della condivisione.",
+      "image_description": "Caratteristiche Principali",
+      "feature_1": {
+        "title": "Pulizia del Testo",
+        "content": "Cerca parole o numeri privati e rimuovili in sicurezza."
+      },
+      "feature_2": {
+        "title": "Copri Aree delle Immagini",
+        "content": "Nascondi parti sensibili delle immagini utilizzando sovrapposizioni."
+      },
+      "feature_3": {
+        "title": "Rimozione dei Metadati",
+        "content": "Pulisci i campi di metadati che potrebbero contenere informazioni private."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdShortName}} consente agli sviluppatori {{ProgLang}} di rimuovere contenuti sensibili — compresi testi, immagini e metadati — dai file {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Pulisci i Metadati in {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Utilizza {{EnvNameShort}} per cancellare dati nascosti nei file {{FileFormatUp}}. Ottimo per la pulizia dei documenti prima della condivisione o dell'archiviazione."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Elimina Metadati in {{FileFormatUp}} con {{ProgLang}}",
+      "description": "{{ProdFullName}} ti aiuta a rimuovere dati nascosti dai file {{FileFormatUp}} che potrebbero esporre dettagli personali o aziendali."
+    },
+    "header": {
+      "title": "Rimuovi Metadati da {{FileFormatUp}} con {{EnvNameShort}}",
+      "description": "Mantieni i tuoi file {{FileFormatUp}} sicuri eliminando metadati nascosti utilizzando gli strumenti {{ProgLang}}.",
+      "subtitle": "Punti Salienti di {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Come Rimuovere Metadati dai File {{FileFormatCap}}",
+      "content": {
+        "title": "Usa {{ProdShortName}} nella tua app {{EnvName}} per cancellare i metadati dai documenti.",
+        "step_1": "Avvia un {{textRedactor}} e apri il file {{FileFormatCap}}.",
+        "step_2": "Imposta le regole per cancellare i campi nascosti.",
+        "step_3": "Applica la redazione per pulire il file.",
+        "step_4": "Salva il file aggiornato."
+      }
+    },
+    "example_top": {
+      "comment_1": "Pulisci i metadati nei file {{FileFormatUp}}",
+      "comment_2": "Carica il file con {{textRedactor}}",
+      "comment_3": "Scegli i campi di metadati da redigere",
+      "comment_4": "Applica e salva il file"
+    },
+    "example_bottom": {
+      "title": "Elimina Campi Metadati Nascosti",
+      "content": "Questo esempio mostra come rimuovere campi come Autore e Titolo da un documento {{FileFormatUp}}.",
+      "comment_1": "Apri il file {{FileFormatUp}} nel redattore",
+      "comment_2": "Redigi il campo Autore",
+      "comment_3": "Redigi il campo Titolo",
+      "comment_4": "Esegui il processo",
+      "comment_5": "Salva il file ripulito"
+    },
+    "more_features": {
+      "title": "Rimuovi Info Private dai Documenti",
+      "description": "{{ProdFullName}} aiuta a pulire i file eliminando testo sensibile, contenuti di immagini e metadati. Ottimo per la privacy e la sicurezza.",
+      "image_description": "Utili Caratteristiche di Redazione",
+      "feature_1": {
+        "title": "Pulizia Testo",
+        "content": "Trova ed elimina parole o numeri che non dovrebbero essere condivisi."
+      },
+      "feature_2": {
+        "title": "Redazione Immagini",
+        "content": "Aggiungi coperture su parti delle immagini contenenti contenuti sensibili."
+      },
+      "feature_3": {
+        "title": "Eliminazione Metadati",
+        "content": "Pulisci dettagli file che possono contenere informazioni private."
+      }
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdShortName}} fornisce agli sviluppatori {{ProgLang}} gli strumenti per nascondere contenuti sensibili nei file {{FileFormatUp}}, inclusi testi, sezioni di immagini e metadati."
+    },
+    "formats": {
+      "title": "Utilizza {{EnvNameShort}} per Rimuovere i Metadati di {{FileFormatUp}}",
+      "description": "Proteggi i tuoi documenti {{FileFormatUp}} eliminando metadati utilizzando gli strumenti di {{EnvNameShort}}."
+    }
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Ẩn văn bản nhạy cảm trong {{FileFormatUp}} bằng cách sử dụng lớp phủ với {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể ẩn văn bản nhạy cảm trong các tệp {{FileFormatUp}} bằng cách đặt các lớp phủ vuông có màu. Bảo vệ dữ liệu riêng tư mà không làm thay đổi định dạng gốc."
+    },
+    "header": {
+      "title": "Ẩn văn bản nhạy cảm trong tài liệu {{FileFormatUp}} bằng lớp phủ sử dụng {{EnvNameShort}}",
+      "description": "Chiếm quyền kiểm soát nội dung tệp {{FileFormatUp}} bằng {{ProgLang}}. Sử dụng các quy định để bảo vệ thông tin pháp lý, tài chính và cá nhân.",
+      "subtitle": "Tính năng của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo vệ dữ liệu doanh nghiệp trong tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}}: được xây dựng để hỗ trợ các ứng dụng {{EnvName}} của bạn bảo vệ tài liệu. Xóa thông tin riêng tư một cách nhanh chóng.",
+        "step_1": "Tạo một instance của {{textRedactor}} và cung cấp đường dẫn đến tệp {{FileFormatCap}} mà bạn muốn xóa.",
+        "step_2": "Cấu hình các thiết lập xóa để đạt được kết quả bạn cần.",
+        "step_3": "Chỉ cần đặt mẫu văn bản để tìm kiếm và chọn màu cho lớp phủ.",
+        "step_4": "Xóa tài liệu và lưu thay đổi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Ẩn văn bản nhạy cảm trong {{FileFormatUp}} bằng hình ảnh lớp phủ",
+      "comment_2": "Truyền đường dẫn tệp vào constructor của {{textRedactor}}",
+      "comment_3": "Thiết lập các tùy chọn xóa",
+      "comment_4": "Xác định mẫu văn bản và màu sắc lớp phủ",
+      "comment_5": "Xóa và lưu tệp {{FileFormatUp}} đã cập nhật"
+    },
+    "example_bottom": {
+      "title": "Sử dụng biểu thức chính quy để ẩn văn bản",
+      "content": "Ví dụ này cho thấy cách tìm và ẩn văn bản bằng cách sử dụng biểu thức chính quy.",
+      "comment_1": "Tải tài liệu mà bạn muốn xóa",
+      "comment_2": "Xác định các thiết lập xóa: mẫu văn bản và màu sắc",
+      "comment_3": "Áp dụng xóa vào nội dung",
+      "comment_4": "Lưu phiên bản đã xóa"
+    },
+    "more_features": {
+      "title": "Xóa nội dung trong tài liệu",
+      "description": "Với {{ProdFullName}}, bạn có thể xóa hoặc ẩn nội dung trên nhiều loại tệp. Bảo vệ thông tin nhạy cảm trong khi giữ cho tài liệu của bạn dễ đọc và chia sẻ.",
+      "image_description": "Tùy chọn xóa nâng cao",
+      "feature_1": {
+        "title": "Chỉnh sửa văn bản ở bất kỳ đâu",
+        "content": "Tìm kiếm và thay thế bất kỳ văn bản nào phù hợp trong tài liệu của bạn để giúp bảo vệ dữ liệu bí mật."
+      },
+      "feature_2": {
+        "title": "Che hình ảnh",
+        "content": "Đặt lớp phủ lên toàn bộ hình ảnh hoặc các khu vực được chọn để ẩn các hình ảnh riêng tư."
+      },
+      "feature_3": {
+        "title": "Xử lý siêu dữ liệu",
+        "content": "Xóa hoặc thay đổi siêu dữ liệu ẩn để ngăn chặn các rò rỉ dữ liệu không mong muốn."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển {{ProgLang}} các công cụ để ẩn hoặc xóa nội dung từ các tệp {{FileFormatUp}}. Đây là cách đơn giản để giữ cho tài liệu an toàn. Bạn có thể che phủ văn bản, hình ảnh hoặc siêu dữ liệu trong nhiều loại tệp."
+    },
+    "formats": {
+      "title": "Bảo vệ nội dung {{FileFormatUp}} bằng các quy định của {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để che khuất hoặc xóa nội dung trong các tệp {{FileFormatUp}}. Đây là lựa chọn thông minh để bảo vệ tài liệu nhạy cảm hoặc chính thức."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Che văn bản nhạy cảm trong {{FileFormatUp}} bằng cách sử dụng lớp phủ và {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để bảo vệ văn bản riêng tư trong các tệp {{FileFormatUp}} với các lớp phủ vuông đơn giản. Giữ cho định dạng tài liệu của bạn không thay đổi và dữ liệu của bạn được ẩn."
+    },
+    "header": {
+      "title": "Che văn bản trong {{FileFormatUp}} bằng lớp phủ sử dụng {{EnvNameShort}}",
+      "description": "Ẩn nội dung nhạy cảm trong các tài liệu {{FileFormatUp}} của bạn bằng mã {{ProgLang}}. Tuyệt vời cho việc bảo vệ tài liệu pháp lý, kinh doanh hoặc cá nhân.",
+      "subtitle": "Tính năng của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Xóa dữ liệu riêng tư từ các tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các nhà phát triển {{EnvName}} dọn dẹp tài liệu chỉ với vài dòng mã.",
+        "step_1": "Tạo một {{textRedactor}} và cung cấp đường dẫn tệp của bạn.",
+        "step_2": "Xác định cách mà quy trình xóa sẽ hoạt động.",
+        "step_3": "Nhập văn bản để ẩn và chọn màu lớp phủ.",
+        "step_4": "Xóa tệp và lưu lại."
+      }
+    },
+    "example_top": {
+      "comment_1": "Ẩn văn bản trong {{FileFormatUp}} bằng các khối lớp phủ",
+      "comment_2": "Tạo một {{textRedactor}} và tải tệp",
+      "comment_3": "Thiết lập tùy chọn xóa của bạn",
+      "comment_4": "Nhập văn bản và xác định màu khối",
+      "comment_5": "Xóa và lưu tài liệu đã cập nhật"
+    },
+    "example_bottom": {
+      "title": "Biểu thức chính quy cho việc xóa nội dung",
+      "content": "Xem cách biểu thức chính quy có thể tìm và ẩn các từ nhạy cảm.",
+      "comment_1": "Mở tệp mục tiêu",
+      "comment_2": "Thiết lập mẫu và màu sắc",
+      "comment_3": "Áp dụng logic xóa",
+      "comment_4": "Xuất tài liệu đã xóa"
+    },
+    "more_features": {
+      "title": "Nhiều cách để dọn dẹp tài liệu",
+      "description": "Với {{ProdFullName}}, xóa nhiều loại tệp khác nhau để giữ cho nội dung của bạn luôn an toàn và chuyên nghiệp.",
+      "image_description": "Xóa thông minh được tích hợp",
+      "feature_1": {
+        "title": "Chỉnh sửa hoặc xóa văn bản",
+        "content": "Tìm các cụm từ cụ thể và ẩn hoặc thay thế chúng."
+      },
+      "feature_2": {
+        "title": "Ẩn khu vực hình ảnh",
+        "content": "Che khuất những điểm nhạy cảm trong hình ảnh hoặc các trang đã quét."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Xóa thông tin vô hình có thể tiết lộ dữ liệu người dùng hoặc hệ thống."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} là gì?",
+      "content": "{{ProdFullName}} giúp các nhà phát triển {{ProgLang}} ẩn hoặc xóa nội dung riêng tư trong các tệp {{FileFormatUp}}. Sử dụng nó để che khuất văn bản, hình ảnh và siêu dữ liệu trong các định dạng tệp khác nhau."
+    },
+    "formats": {
+      "title": "Ẩn nội dung trong {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Bảo vệ dữ liệu nhạy cảm trong tài liệu {{FileFormatUp}} bằng cách che khuất nó bằng lớp phủ hoặc loại bỏ hoàn toàn bằng cách sử dụng các công cụ của {{EnvNameShort}}."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Ẩn văn bản trong {{FileFormatUp}} bằng lớp phủ {{ProgLang}}",
+      "description": "{{ProdFullName}} giúp ẩn văn bản trong các tệp {{FileFormatUp}} bằng cách sử dụng các hộp màu. Giữ thông tin an toàn mà không làm thay đổi định dạng tài liệu của bạn."
+    },
+    "header": {
+      "title": "Che văn bản trong các tệp {{FileFormatUp}} bằng lớp phủ và {{EnvNameShort}}",
+      "description": "Sử dụng {{ProgLang}} và {{ProdFullName}} để thêm các lớp phủ đơn giản ngăn chặn văn bản nhạy cảm trong các tệp {{FileFormatUp}} của bạn.",
+      "subtitle": "Tính năng của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Giữ thông tin nhạy cảm an toàn trong các tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các nhà phát triển {{EnvName}} bảo vệ tệp. Ẩn nội dung riêng tư chỉ với vài dòng mã.",
+        "step_1": "Tạo một đối tượng {{textRedactor}} mới với đường dẫn tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Điều chỉnh các thiết lập xóa theo nhu cầu.",
+        "step_3": "Thêm một mẫu tìm kiếm và chọn màu cho khối lớp phủ.",
+        "step_4": "Chạy quá trình xóa và lưu tệp của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Che văn bản riêng tư trong {{FileFormatUp}} bằng lớp phủ",
+      "comment_2": "Tải tệp với {{textRedactor}}",
+      "comment_3": "Chọn cách mà quy trình xóa sẽ hoạt động",
+      "comment_4": "Nhập văn bản để ẩn và chọn màu lớp phủ",
+      "comment_5": "Xử lý tệp và lưu thay đổi"
+    },
+    "example_bottom": {
+      "title": "So khớp và ẩn với regex",
+      "content": "Tìm hiểu cách phát hiện và xóa nội dung bằng cách sử dụng biểu thức chính quy.",
+      "comment_1": "Mở tài liệu mục tiêu",
+      "comment_2": "Thiết lập mẫu và màu sắc lớp phủ",
+      "comment_3": "Áp dụng các quy tắc xóa",
+      "comment_4": "Xuất phiên bản đã xóa"
+    },
+    "more_features": {
+      "title": "Tính năng xóa thông minh",
+      "description": "Sử dụng {{ProdFullName}} để xóa hoặc ẩn nội dung trong nhiều loại tệp. Giữ thông tin riêng tư tránh xa sự chú ý công khai.",
+      "image_description": "Các công cụ xóa thiết thực",
+      "feature_1": {
+        "title": "Thay đổi bất kỳ văn bản nào",
+        "content": "Tìm kiếm và cập nhật bất kỳ chuỗi nào trong tài liệu để bảo vệ dữ liệu."
+      },
+      "feature_2": {
+        "title": "Ẩn nội dung hình ảnh",
+        "content": "Thêm các hình vuông hoặc hình chữ nhật để che khuất những phần nhạy cảm của hình ảnh."
+      },
+      "feature_3": {
+        "title": "Dọn dẹp siêu dữ liệu",
+        "content": "Xóa hoặc ghi đè các chi tiết tệp nền trước khi chia sẻ."
+      }
+    },
+    "about": {
+      "title": "Cách mà {{ProdFullName}} giúp",
+      "content": "{{ProdFullName}} cho phép các nhà phát triển sử dụng {{ProgLang}} ẩn nội dung không mong muốn trong các tệp {{FileFormatUp}}. Che đậy mọi thứ—từ từ ngữ đến hình ảnh—trong nhiều loại định dạng tệp khác nhau."
+    },
+    "formats": {
+      "title": "Sử dụng {{EnvNameShort}} để ẩn thông tin trong các tệp {{FileFormatUp}}",
+      "description": "Thêm lớp phủ hoặc xóa các phần trong tài liệu {{FileFormatUp}} của bạn để bảo vệ các chi tiết nhạy cảm với sự trợ giúp của {{EnvNameShort}}."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Xóa văn bản trong {{FileFormatUp}} bằng lớp phủ và {{ProgLang}}",
+      "description": "Ẩn nội dung riêng tư trong các tài liệu {{FileFormatUp}} bằng cách che nó bằng các hình vuông màu sắc sử dụng {{ProdFullName}}. Giữ cho bố cục của bạn y nguyên."
+    },
+    "header": {
+      "title": "Xóa văn bản trong {{FileFormatUp}} bằng lớp phủ sử dụng {{EnvNameShort}}",
+      "description": "Với {{ProgLang}} và {{ProdFullName}}, bảo vệ dữ liệu nhạy cảm trong các tệp {{FileFormatUp}} thật đơn giản bằng cách ẩn nó khỏi tầm nhìn.",
+      "subtitle": "Khám phá {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Ẩn nội dung riêng tư trong các tệp {{FileFormatCap}} của bạn",
+      "content": {
+        "title": "Với {{ProdFullName}}, các nhà phát triển {{EnvName}} có thể bảo vệ tài liệu chỉ với vài bước đơn giản.",
+        "step_1": "Khởi động một {{textRedactor}} với đường dẫn đến tệp mà bạn muốn dọn dẹp.",
+        "step_2": "Chọn các quy tắc xóa phù hợp với nhu cầu của bạn.",
+        "step_3": "Chọn một mẫu để khớp và một màu cho lớp phủ hình ảnh.",
+        "step_4": "Chạy quy trình xóa và lưu tệp đã được cập nhật của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sử dụng lớp phủ để che văn bản trong {{FileFormatUp}}",
+      "comment_2": "Khởi tạo {{textRedactor}} với tệp của bạn",
+      "comment_3": "Xác định cách xóa sẽ hoạt động",
+      "comment_4": "Đặt những gì cần che giấu và màu của lớp phủ",
+      "comment_5": "Chạy và lưu thay đổi"
+    },
+    "example_bottom": {
+      "title": "Xóa bằng biểu thức chính quy",
+      "content": "Ví dụ này cho thấy cách tìm kiếm và ẩn văn bản bằng cách sử dụng biểu thức chính quy.",
+      "comment_1": "Tải tệp cần xóa",
+      "comment_2": "Đặt quy tắc xóa: văn bản tìm kiếm và màu của khối",
+      "comment_3": "Áp dụng logic xóa",
+      "comment_4": "Lưu kết quả đã xóa"
+    },
+    "more_features": {
+      "title": "Nhiều cách hơn để bảo vệ các tài liệu của bạn",
+      "description": "{{ProdFullName}} cung cấp cho bạn các công cụ để ẩn dữ liệu trong nhiều định dạng mà không làm thay đổi bố cục.",
+      "image_description": "Các tính năng quan trọng",
+      "feature_1": {
+        "title": "Thay thế văn bản khi cần",
+        "content": "Thay thế văn bản để giữ thông tin chính khỏi người dùng không có quyền truy cập."
+      },
+      "feature_2": {
+        "title": "Che khuất các khu vực hình ảnh",
+        "content": "Che khuất các hình ảnh đầy đủ hoặc một số phần bằng cách vẽ các hộp lớp phủ."
+      },
+      "feature_3": {
+        "title": "Dọn dẹp dữ liệu ẩn",
+        "content": "Xóa siêu dữ liệu nhúng có thể tiết lộ các chi tiết riêng tư."
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} làm gì",
+      "content": "{{ProdFullName}} cung cấp cho bạn khả năng che hoặc xóa nội dung trong các tài liệu {{FileFormatUp}} bằng {{ProgLang}}. Ẩn mọi thứ từ tên đến ghi chú, chỉ với vài bước."
+    },
+    "formats": {
+      "title": "Bảo vệ văn bản {{FileFormatUp}} bằng công cụ của {{EnvNameShort}}",
+      "description": "Che khuất các khu vực riêng tư hoặc xóa dữ liệu ẩn trong các tệp {{FileFormatUp}} bằng các tính năng xóa của {{EnvNameShort}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Sử dụng lớp phủ để ẩn văn bản trong {{FileFormatUp}} qua {{ProgLang}}",
+      "description": "{{ProdFullName}} giúp che các văn bản nhạy cảm trong {{FileFormatUp}} với các khối màu. Giữ nguyên tài liệu trong khi ẩn đi những gì quan trọng."
+    },
+    "header": {
+      "title": "Xóa văn bản bằng lớp phủ trong các tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Bảo vệ thông tin quan trọng trong các tệp {{FileFormatUp}} bằng những lớp phủ vuông được lập trình bằng {{ProgLang}}. Lý tưởng cho an ninh và tuân thủ.",
+      "subtitle": "Xem những gì {{ProdFullName}} có thể làm"
+    },
+    "steps": {
+      "title": "Xóa dữ liệu riêng tư trong các tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} giúp các nhà phát triển {{EnvName}} nhanh chóng loại bỏ nội dung nhạy cảm. Làm theo những bước này để bảo vệ các tệp của bạn.",
+        "step_1": "Khởi tạo một {{textRedactor}} với đường dẫn đến tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Đặt các quy tắc cho việc xóa nội dung.",
+        "step_3": "Chọn mẫu văn bản và màu sắc để che khuất.",
+        "step_4": "Áp dụng quy trình xóa và lưu tệp đã xóa."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa văn bản trong {{FileFormatUp}} bằng các lớp phủ hình ảnh",
+      "comment_2": "Tải tệp của bạn với {{textRedactor}}",
+      "comment_3": "Xác định những gì cần được xóa",
+      "comment_4": "Thêm văn bản khớp và màu sắc cho lớp phủ",
+      "comment_5": "Chạy quy trình xóa và lưu tệp cuối cùng"
+    },
+    "example_bottom": {
+      "title": "Ẩn văn bản khớp với regex",
+      "content": "Ví dụ này cho thấy cách sử dụng biểu thức chính quy để tìm và che khuất nội dung nhạy cảm.",
+      "comment_1": "Mở tài liệu để xóa",
+      "comment_2": "Chọn mẫu và màu sắc",
+      "comment_3": "Chạy các quy tắc xóa",
+      "comment_4": "Lưu và xem xét bản sao đã xóa"
+    },
+    "more_features": {
+      "title": "Công cụ xóa phụ",
+      "description": "Với {{ProdFullName}}, bạn có thể giữ cho các tài liệu sạch sẽ bằng cách loại bỏ thông tin công khai và ẩn trong khi giữ nguyên bố cục.",
+      "image_description": "Kết quả sạch và an toàn",
+      "feature_1": {
+        "title": "Thay thế văn bản bị lộ",
+        "content": "Ẩn các từ hoặc cụm từ có thể rò rĩ thông tin quan trọng."
+      },
+      "feature_2": {
+        "title": "Che khuất hình ảnh",
+        "content": "Đánh dấu các hình ảnh nhạy cảm bằng các khối chắc chắn."
+      },
+      "feature_3": {
+        "title": "Xóa thông tin ẩn",
+        "content": "Xóa dữ liệu nền để giữ các tệp riêng tư."
+      }
+    },
+    "about": {
+      "title": "Gặp gỡ {{ProdFullName}}",
+      "content": "Các nhà phát triển làm việc với {{ProgLang}} có thể sử dụng {{ProdFullName}} để ẩn hoặc xóa các phần của tài liệu {{FileFormatUp}}. Che đậy tên, số hoặc dữ liệu khác chỉ với vài dòng mã."
+    },
+    "formats": {
+      "title": "Bảo vệ các tệp {{FileFormatUp}} của bạn bằng {{EnvNameShort}}",
+      "description": "Với {{EnvNameShort}}, bạn có thể ẩn văn bản hoặc xóa siêu dữ liệu trong các định dạng {{FileFormatUp}} mà không phá vỡ bố cục hoặc định dạng."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Ẩn nội dung trong {{FileFormatUp}} với xóa lớp phủ và {{ProgLang}}",
+      "description": "Che văn bản trong các tài liệu {{FileFormatUp}} bằng các khối màu chắc chắn với {{ProdFullName}}. Một cách dễ dàng để bảo vệ nội dung riêng tư."
+    },
+    "header": {
+      "title": "Xóa lớp phủ cho các tệp {{FileFormatUp}} trong {{EnvNameShort}}",
+      "description": "Sử dụng mã {{ProgLang}} để ẩn văn bản và bảo vệ dữ liệu bên trong các tệp {{FileFormatUp}} của bạn. Một giải pháp sạch sẽ cho an toàn tài liệu.",
+      "subtitle": "Những gì {{ProdFullName}} bao gồm"
+    },
+    "steps": {
+      "title": "Xóa thông tin nhạy cảm trong định dạng {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} là một công cụ đơn giản cho các nhà phát triển {{EnvName}} dọn dẹp tài liệu trước khi chia sẻ.",
+        "step_1": "Khởi động một {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Quyết định về các thiết lập xóa cho tác vụ của bạn.",
+        "step_3": "Thêm từ khóa hoặc cụm từ cần xóa và chọn màu sắc.",
+        "step_4": "Chạy công cụ và lưu các thay đổi."
+      }
+    },
+    "example_top": {
+      "comment_1": "Sử dụng lớp phủ để ẩn văn bản trong {{FileFormatUp}}",
+      "comment_2": "Tạo một {{textRedactor}} và tải tệp của bạn",
+      "comment_3": "Chọn quy tắc xóa",
+      "comment_4": "Nhập những gì cần che và chọn màu sắc",
+      "comment_5": "Thực hiện xóa và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Xóa văn bản bằng biểu thức chính quy",
+      "content": "Dưới đây là cách sử dụng regex để tìm và ẩn nội dung trong một tệp.",
+      "comment_1": "Tải tài liệu để xử lý",
+      "comment_2": "Thêm mẫu và thiết lập lớp phủ",
+      "comment_3": "Áp dụng các thay đổi",
+      "comment_4": "Lưu và đóng tài liệu đã xóa"
+    },
+    "more_features": {
+      "title": "Tính năng chính cho bảo vệ dữ liệu",
+      "description": "{{ProdFullName}} cho phép bạn ẩn hoặc xóa dữ liệu bên trong tài liệu mà không làm mất đi bố cục hoặc ý nghĩa.",
+      "image_description": "Xây dựng để bảo vệ tài liệu",
+      "feature_1": {
+        "title": "Thay đổi nội dung văn bản",
+        "content": "Thay thế hoặc ẩn các từ đã chọn trong toàn bộ tệp."
+      },
+      "feature_2": {
+        "title": "Xóa hình ảnh",
+        "content": "Che khuất ảnh hoặc các khu vực bằng các khối đơn giản."
+      },
+      "feature_3": {
+        "title": "Xóa siêu dữ liệu",
+        "content": "Gỡ bỏ dữ liệu nền như tên tác giả hoặc thời gian."
+      }
+    },
+    "about": {
+      "title": "Tại sao chọn {{ProdFullName}}",
+      "content": "{{ProdFullName}} được tạo ra dành cho các nhà phát triển {{ProgLang}} những người muốn xóa hoặc xóa các nội dung trong các tệp {{FileFormatUp}}. Sử dụng nó để làm việc với văn bản, siêu dữ liệu và hình ảnh."
+    },
+    "formats": {
+      "title": "Xóa các tệp {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Che khuất nội dung nhạy cảm trong {{FileFormatUp}} bằng cách sử dụng các lớp phủ vuông hoặc các quy định rõ ràng với các tính năng của {{EnvNameShort}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Ẩn văn bản nhạy cảm trong {{FileFormatUp}} bằng các lớp phủ {{ProgLang}}",
+      "description": "{{ProdFullName}} cho phép bạn ẩn các phần của các tệp {{FileFormatUp}} bằng cách sử dụng các lớp phủ xóa đơn giản. Giữ cho tài liệu an toàn mà không thay đổi cấu trúc."
+    },
+    "header": {
+      "title": "Xóa văn bản trong {{FileFormatUp}} bằng lớp phủ sử dụng {{EnvNameShort}}",
+      "description": "Bảo vệ nội dung trong các tệp {{FileFormatUp}} của bạn bằng cách đặt các khối lớp phủ với sự trợ giúp của {{ProgLang}} và {{ProdFullName}}.",
+      "subtitle": "Công cụ bên trong {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Bảo vệ nội dung trong các tài liệu {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdFullName}} trong ứng dụng {{EnvName}} của bạn để làm sạch các tệp trước khi phân phối.",
+        "step_1": "Truyền đường dẫn tệp vào một instance mới của {{textRedactor}}.",
+        "step_2": "Xác định điều bạn muốn xóa và cách bạn muốn xóa.",
+        "step_3": "Định nghĩa mẫu văn bản và đặt màu sắc của lớp phủ.",
+        "step_4": "Xóa và lưu tệp đã được cập nhật của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Overlay văn bản trong {{FileFormatUp}} để ẩn thông tin",
+      "comment_2": "Sử dụng {{textRedactor}} để mở tệp của bạn",
+      "comment_3": "Điều chỉnh cài đặt cho việc xóa",
+      "comment_4": "Chọn văn bản và màu xem để chặn lại",
+      "comment_5": "Chạy và lưu tệp đã xóa"
+    },
+    "example_bottom": {
+      "title": "Tìm & xóa với regex",
+      "content": "Ví dụ này cho thấy cách regex có thể giúp xác định và ẩn văn bản.",
+      "comment_1": "Mở tệp cần bị xóa",
+      "comment_2": "Cài đặt quy tắc của bạn bằng regex",
+      "comment_3": "Chạy quy trình xóa",
+      "comment_4": "Lưu phiên bản đã dọn dẹp"
+    },
+    "more_features": {
+      "title": "Ẩn dữ liệu nhạy cảm một cách dễ dàng",
+      "description": "Sử dụng {{ProdFullName}} để xóa hoặc che khuất nội dung trên các loại tài liệu — lý tưởng cho việc bảo vệ dữ liệu trong tài liệu pháp lý, kinh doanh hoặc cá nhân.",
+      "image_description": "Xóa tài liệu linh hoạt",
+      "feature_1": {
+        "title": "Thay thế văn bản",
+        "content": "Tìm kiếm các từ hoặc số và thay thế hoặc ẩn chúng."
+      },
+      "feature_2": {
+        "title": "Che khuất hình ảnh hoặc các phần",
+        "content": "Thêm lớp phủ vào hình ảnh hoặc những điểm lựa chọn trên trang."
+      },
+      "feature_3": {
+        "title": "Xóa dữ liệu thừa",
+        "content": "Làm sạch siêu dữ liệu có thể tiết lộ thông tin ẩn."
+      }
+    },
+    "about": {
+      "title": "Giới thiệu về công cụ này",
+      "content": "{{ProdFullName}} giúp người dùng {{ProgLang}} dọn dẹp các tài liệu {{FileFormatUp}} bằng cách che hoặc xóa văn bản, siêu dữ liệu hoặc hình ảnh theo yêu cầu."
+    },
+    "formats": {
+      "title": "Ẩn nội dung trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Thêm các lớp phủ hoặc xóa dữ liệu từ các tệp {{FileFormatUp}} của bạn để giữ nội dung nhạy cảm riêng tư bằng cách sử dụng {{EnvNameShort}}."
+    }
+  }
+}

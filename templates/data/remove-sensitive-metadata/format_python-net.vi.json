@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Xóa Metadata khỏi {{FileFormatUp}} Sử Dụng {{ProgLang}}",
+      "description": "{{ProdFullName}} giúp dọn dẹp dữ liệu ẩn trong các tệp {{FileFormatUp}}. Tránh chia sẻ thông tin cá nhân bằng cách chỉnh sửa hoặc xóa bỏ metadata."
+    },
+    "header": {
+      "title": "Xóa Metadata trong Các Tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{ProgLang}} và {{ProdFullName}} để dọn dẹp thông tin nhạy cảm từ tài liệu {{FileFormatUp}} của bạn. Giữ kiểm soát dữ liệu của bạn với các công cụ xóa bỏ đơn giản.",
+      "subtitle": "Những Gì {{ProdFullName}} Cung Cấp"
+    },
+    "steps": {
+      "title": "Xóa Metadata khỏi Tài Liệu {{FileFormatCap}}",
+      "content": {
+        "title": "Bắt đầu bảo vệ tệp của bạn bằng {{ProdShortName}} trong các ứng dụng {{EnvName}}.",
+        "step_1": "Tạo một {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Thêm quy tắc để xóa bỏ metadata ẩn.",
+        "step_3": "Chạy xóa bỏ để xóa các mục metadata.",
+        "step_4": "Lưu tệp mà không có dữ liệu ẩn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa metadata khỏi tài liệu {{FileFormatUp}}",
+      "comment_2": "Mở tệp bằng {{textRedactor}}",
+      "comment_3": "Chọn các trường metadata để xóa",
+      "comment_4": "Đánh dấu và lưu tài liệu của bạn"
+    },
+    "example_bottom": {
+      "title": "Chỉnh Sửa và Xóa Các Trường Metadata",
+      "content": "Ví dụ này giải thích cách làm sạch metadata ẩn trong một tệp {{FileFormatUp}}.",
+      "comment_1": "Mở tệp trong {{textRedactor}}",
+      "comment_2": "Xóa metadata Tác Giả",
+      "comment_3": "Xóa metadata Tiêu Đề",
+      "comment_4": "Chạy quy trình xóa bỏ",
+      "comment_5": "Lưu tệp đã cập nhật"
+    },
+    "more_features": {
+      "title": "Dọn Dẹp Nội Dung Ẩn trong Tài Liệu",
+      "description": "Với {{ProdFullName}}, bạn có thể xóa an toàn văn bản, hình ảnh và metadata. Giữ cho tệp của bạn riêng tư và bảo mật trước khi chia sẻ.",
+      "image_description": "Tùy Chọn Xóa Bỏ",
+      "feature_1": {
+        "title": "Xóa Văn Bản",
+        "content": "Tìm kiếm và xóa văn bản nhạy cảm trên toàn bộ tài liệu."
+      },
+      "feature_2": {
+        "title": "Che Bất Cứ Hình Ảnh Nào",
+        "content": "Ẩn các phần cụ thể của hình ảnh bằng các lớp đơn giản."
+      },
+      "feature_3": {
+        "title": "Dọn Dẹp Metadata",
+        "content": "Loại bỏ metadata không mong muốn mà có thể tiết lộ dữ liệu cá nhân."
+      }
+    },
+    "about": {
+      "title": "Giới Thiệu {{ProdFullName}}",
+      "content": "{{ProdShortName}} giúp các nhà phát triển {{ProgLang}} dọn dẹp các tài liệu {{FileFormatUp}} bằng cách xóa văn bản, nội dung hình ảnh và metadata."
+    },
+    "formats": {
+      "title": "Dọn Dẹp Metadata từ {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Xóa bỏ các trường dữ liệu ẩn trong {{FileFormatUp}} bằng {{EnvNameShort}}. Một cách thông minh để bảo vệ quyền riêng tư và giữ cho tệp của bạn sạch sẽ."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Xóa Metadata trong {{FileFormatUp}} Sử Dụng {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để xóa bỏ dữ liệu ẩn trong các tệp {{FileFormatUp}}. Bảo vệ dữ liệu của bạn bằng cách gỡ bỏ các mục metadata nhạy cảm."
+    },
+    "header": {
+      "title": "Xóa Metadata Ẩn từ Các Tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Với {{ProgLang}}, bạn có thể xóa metadata ẩn từ các tệp {{FileFormatUp}} bằng {{ProdFullName}}. Giữ cho tệp của bạn sạch và riêng tư.",
+      "subtitle": "Các Tính Năng Chính trong {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Xóa Metadata khỏi Các Tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} cung cấp các công cụ cho các ứng dụng {{EnvName}} của bạn để xóa metadata nhanh chóng.",
+        "step_1": "Bắt đầu một {{textRedactor}} và tải tài liệu {{FileFormatCap}} của bạn.",
+        "step_2": "Thiết lập các trường metadata để xóa.",
+        "step_3": "Áp dụng xóa bỏ để làm sạch nội dung ẩn.",
+        "step_4": "Lưu phiên bản cuối cùng của tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Làm sạch metadata trong các tệp {{FileFormatUp}}",
+      "comment_2": "Sử dụng {{textRedactor}} để mở tài liệu",
+      "comment_3": "Chọn các mục metadata để xóa",
+      "comment_4": "Áp dụng xóa bỏ và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Ví dụ: Xóa Metadata Ẩn",
+      "content": "Dưới đây là cách bạn có thể xóa các trường Tác Giả và Tiêu Đề từ một tài liệu {{FileFormatUp}} bằng cách xóa bỏ.",
+      "comment_1": "Mở tệp {{FileFormatUp}}",
+      "comment_2": "Chọn để xóa trường Tác Giả",
+      "comment_3": "Chọn để xóa trường Tiêu Đề",
+      "comment_4": "Chạy quy trình xóa metadata",
+      "comment_5": "Lưu tệp sạch"
+    },
+    "more_features": {
+      "title": "Bảo Vệ Mỗi Phần của Tài Liệu",
+      "description": "Với {{ProdFullName}}, bạn có thể làm sạch văn bản, hình ảnh và metadata ở nhiều định dạng tệp. Lý tưởng cho quyền riêng tư và bảo mật.",
+      "image_description": "Công Cụ Xóa Bỏ Tài Liệu Đang Hoạt Động",
+      "feature_1": {
+        "title": "Người Dọn Dẹp Văn Bản",
+        "content": "Tìm và xóa tên, thuật ngữ hoặc bất kỳ từ nào nhạy cảm."
+      },
+      "feature_2": {
+        "title": "Che Hình Ảnh",
+        "content": "Che khuất các phần của hình ảnh bằng một lớp màu."
+      },
+      "feature_3": {
+        "title": "Xóa Metadata",
+        "content": "Loại bỏ thông tin tài liệu ẩn như tác giả hoặc chi tiết phần mềm."
+      }
+    },
+    "about": {
+      "title": "Định Nghĩa {{ProdFullName}}",
+      "content": "{{ProdShortName}} cung cấp cho các nhà phát triển {{ProgLang}} khả năng xóa dữ liệu ẩn trong các tệp {{FileFormatUp}}. Làm sạch văn bản, hình ảnh và metadata từ tài liệu một cách nhanh chóng."
+    },
+    "formats": {
+      "title": "Xóa Metadata trong {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Xóa metadata ẩn trong các tệp {{FileFormatUp}} bằng {{EnvNameShort}}. Thích hợp để bảo vệ tệp của bạn trước khi chia sẻ hoặc lưu giữ."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Xóa Metadata khỏi {{FileFormatUp}} Sử Dụng {{ProgLang}}",
+      "description": "Loại bỏ metadata ẩn trong các tài liệu {{FileFormatUp}} của bạn bằng {{ProdFullName}}. Một cách làm sạch để bảo vệ quyền riêng tư của bạn."
+    },
+    "header": {
+      "title": "Xóa Metadata trong Các Tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Với {{ProgLang}}, bạn có thể an toàn xóa chi tiết cá nhân từ các tệp {{FileFormatUp}} của mình. Hoàn hảo cho cả sử dụng cá nhân và chuyên nghiệp.",
+      "subtitle": "Các Tính Năng Chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Xóa Metadata từ Các Tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} cho phép các dự án {{EnvName}} của bạn xóa dữ liệu tệp không mong muốn một cách nhanh chóng.",
+        "step_1": "Tạo một thể hiện {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn các mục metadata mà bạn muốn xóa.",
+        "step_3": "Chạy xóa để xóa các mục đó.",
+        "step_4": "Lưu tệp đã cập nhật."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa metadata ẩn trong tài liệu {{FileFormatUp}} của bạn",
+      "comment_2": "Mở tệp bằng {{textRedactor}}",
+      "comment_3": "Đặt các trường metadata nào sẽ bị xóa",
+      "comment_4": "Áp dụng và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Xóa Metadata từ Tài Liệu",
+      "content": "Dưới đây là cách xóa metadata khỏi tệp {{FileFormatUp}} của bạn bằng một vài dòng mã.",
+      "comment_1": "Mở tài liệu",
+      "comment_2": "Đánh dấu trường Tác Giả để xóa",
+      "comment_3": "Đánh dấu trường Tiêu Đề để xóa ",
+      "comment_4": "Chạy các quy tắc xóa",
+      "comment_5": "Lưu tệp sạch"
+    },
+    "more_features": {
+      "title": "Ẩn Nội Dung Nhạy Cảm Bất Kỳ ở Đâu Trong Tệp",
+      "description": "{{ProdFullName}} cho phép bạn làm sạch thông tin riêng tư từ nhiều định dạng tệp. Giữ cho nội dung của bạn sẵn sàng để chia sẻ.",
+      "image_description": "Xóa Metadata và Nội Dung",
+      "feature_1": {
+        "title": "Xóa Văn Bản Nhạy Cảm",
+        "content": "Tìm và gỡ bỏ tên, email hoặc các chi tiết riêng tư khác từ tài liệu."
+      },
+      "feature_2": {
+        "title": "Che Khu Vực Hình Ảnh",
+        "content": "Đặt lớp phủ để che khuất các vùng trong hình ảnh không nên được nhìn thấy."
+      },
+      "feature_3": {
+        "title": "Người Dọn Dẹp Metadata",
+        "content": "Xóa các trường ẩn như Tác Giả, Tiêu Đề hoặc ngày tạo."
+      }
+    },
+    "about": {
+      "title": "Định Nghĩa {{ProdFullName}}",
+      "content": "{{ProdShortName}} cung cấp cho các nhà phát triển {{ProgLang}} công cụ để xóa hoặc ẩn mọi nội dung nhạy cảm trong các tệp {{FileFormatUp}} — từ văn bản đến hình ảnh đến metadata."
+    },
+    "formats": {
+      "title": "Xóa Metadata trong {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để làm sạch metadata cá nhân trong các tệp {{FileFormatUp}} của bạn. Một cách tốt để chuẩn bị tệp cho việc chia sẻ hoặc xuất bản."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Xóa Metadata khỏi Các Tệp {{FileFormatUp}} Sử Dụng {{ProgLang}}",
+      "description": "{{ProdFullName}} giúp làm sạch dữ liệu ẩn trong các tệp {{FileFormatUp}}. Xóa bỏ các chi tiết có thể tiết lộ thông tin nhạy cảm."
+    },
+    "header": {
+      "title": "Xóa Metadata trong {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Xóa bỏ metadata cá nhân lưu trữ trong các tệp {{FileFormatUp}} bằng {{ProgLang}}. Một cách thông minh để bảo vệ thông tin của bạn.",
+      "subtitle": "Các Công Cụ Chính trong {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Làm sạch Metadata trong Các Tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdShortName}} để nhanh chóng xóa metadata khỏi ứng dụng {{EnvName}} của bạn.",
+        "step_1": "Tạo một {{textRedactor}} và mở tài liệu {{FileFormatCap}}.",
+        "step_2": "Chọn các metadata mà bạn muốn xóa.",
+        "step_3": "Áp dụng xóa để loại bỏ dữ liệu ẩn.",
+        "step_4": "Lưu tệp đã cập nhật."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa metadata trong {{FileFormatUp}}",
+      "comment_2": "Mở tệp với {{textRedactor}}",
+      "comment_3": "Chọn các trường để xóa",
+      "comment_4": "Chạy và lưu thay đổi"
+    },
+    "example_bottom": {
+      "title": "Ví dụ: Xóa Các Trường Metadata",
+      "content": "Theo dõi ví dụ này để xóa các trường metadata phổ biến từ một tệp {{FileFormatUp}} trước khi chia sẻ.",
+      "comment_1": "Tải tệp",
+      "comment_2": "Đánh dấu trường Tác Giả để xóa",
+      "comment_3": "Đánh dấu trường Tiêu Đề để xóa",
+      "comment_4": "Áp dụng xóa bỏ",
+      "comment_5": "Xuất tệp đã sạch"
+    },
+    "more_features": {
+      "title": "Các Cách Khác Để Ẩn Thông Tin Nhạy Cảm",
+      "description": "{{ProdFullName}} hỗ trợ xóa bỏ trên nhiều định dạng. Một cách nhanh chóng để gỡ bỏ nội dung cá nhân khỏi tài liệu.",
+      "image_description": "Công Cụ Xóa Bỏ Tệp",
+      "feature_1": {
+        "title": "Tìm và Xóa Văn Bản",
+        "content": "Xóa nhanh các từ hoặc cụm từ chứa thông tin cá nhân hoặc nhạy cảm."
+      },
+      "feature_2": {
+        "title": "Thêm Lớp Che Ảnh",
+        "content": "Che khuất các phần của hình ảnh không nên được chia sẻ."
+      },
+      "feature_3": {
+        "title": "Xóa Metadata Ẩn",
+        "content": "Loại bỏ tên tác giả, tiêu đề và các thẻ ẩn khác."
+      }
+    },
+    "about": {
+      "title": "Thêm Về {{ProdFullName}}",
+      "content": "{{ProdShortName}} được phát triển dành cho các nhà phát triển {{ProgLang}} muốn giữ cho tài liệu sạch sẽ. Sử dụng nó để xóa văn bản, che hình ảnh hoặc xóa metadata khỏi các tệp {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Sử Dụng {{EnvNameShort}} để Làm Sạch Metadata khỏi {{FileFormatUp}}",
+      "description": "Xóa bỏ dữ liệu nền khỏi {{FileFormatUp}} với {{EnvNameShort}}. Tốt cho quyền riêng tư và sự tuân thủ."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Làm Sạch Metadata từ Các Tệp {{FileFormatUp}} Với {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để xóa bỏ metadata ẩn trong các tệp {{FileFormatUp}}. Bảo vệ tài liệu khỏi việc tiết lộ thông tin cá nhân hoặc nội bộ."
+    },
+    "header": {
+      "title": "Xóa Metadata trong {{FileFormatUp}} Sử Dụng Các Công Cụ {{EnvNameShort}}",
+      "description": "Giữ an toàn cho tệp của bạn bằng cách xóa metadata không mong muốn bằng {{ProgLang}}. Hoàn hảo cho các công ty và người dùng cá nhân.",
+      "subtitle": "Các Tính Năng của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Xóa Metadata Ẩn trong {{FileFormatCap}}",
+      "content": {
+        "title": "Với {{ProdShortName}}, ứng dụng {{EnvName}} của bạn có thể nhanh chóng dọn dẹp metadata tài liệu.",
+        "step_1": "Tạo một đối tượng {{textRedactor}} và mở tệp {{FileFormatCap}}.",
+        "step_2": "Thiết lập các quy tắc xóa đối với các trường metadata.",
+        "step_3": "Chạy xóa để xóa dữ liệu đã chọn.",
+        "step_4": "Lưu phiên bản đã dọn dẹp của tệp."
+      }
+    },
+    "example_top": {
+      "comment_1": "Làm sạch metadata trong {{FileFormatUp}}",
+      "comment_2": "Mở tài liệu bằng {{textRedactor}}",
+      "comment_3": "Chọn metadata để xóa",
+      "comment_4": "Áp dụng xóa bỏ và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Xóa Metadata từ Các Tệp {{FileFormatUp}}",
+      "content": "Ví dụ này cho thấy cách xóa các trường như Tác Giả và Tiêu Đề khỏi một tài liệu {{FileFormatUp}}.",
+      "comment_1": "Nhập tài liệu của bạn",
+      "comment_2": "Chọn metadata Tác Giả",
+      "comment_3": "Chọn metadata Tiêu Đề",
+      "comment_4": "Chạy công cụ xóa bỏ",
+      "comment_5": "Lưu tệp đã cập nhật"
+    },
+    "more_features": {
+      "title": "Bảo Vệ Nhiều Hơn Chỉ Metadata",
+      "description": "Xóa văn bản, che hình ảnh và xóa metadata bằng {{ProdFullName}}. Giữ cho tài liệu của bạn sạch sẽ và riêng tư.",
+      "image_description": "Tùy Chọn Bảo Vệ Tài Liệu",
+      "feature_1": {
+        "title": "Tìm và Thay Thế Văn Bản",
+        "content": "Xóa hoặc thay thế các từ và cụm từ chứa dữ liệu riêng tư hoặc nhạy cảm."
+      },
+      "feature_2": {
+        "title": "Thêm Lớp Che Ảnh",
+        "content": "Đặt lớp phủ để che phần hình ảnh trong tài liệu của bạn."
+      },
+      "feature_3": {
+        "title": "Xóa Metadata",
+        "content": "Làm sạch tên tác giả, tiêu đề, ghi chú và thông tin ẩn khác."
+      }
+    },
+    "about": {
+      "title": "Giới Thiệu {{ProdFullName}}",
+      "content": "{{ProdShortName}} được chế tạo cho các nhà phát triển {{ProgLang}} muốn giữ cho các tệp {{FileFormatUp}} riêng tư. Nó cho phép bạn xóa văn bản, che các phần của hình ảnh và làm sạch metadata."
+    },
+    "formats": {
+      "title": "Xóa Metadata trong {{FileFormatUp}} bằng {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để làm sạch metadata ẩn khỏi {{FileFormatUp}}. Giữ cho tệp của bạn an toàn trước khi chia sẻ hoặc lưu giữ."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Làm Sạch Metadata khỏi {{FileFormatUp}} Sử Dụng {{ProgLang}}",
+      "description": "Sử dụng {{ProdFullName}} để xóa metadata từ các tài liệu {{FileFormatUp}}. Loại bỏ dữ liệu ẩn và bảo vệ thông tin nhạy cảm."
+    },
+    "header": {
+      "title": "Xóa Metadata Ẩn trong {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Kiểm soát các tệp {{FileFormatUp}} của bạn bằng {{ProgLang}}. Xóa bỏ dữ liệu không mong muốn để giữ cho tệp của bạn riêng tư.",
+      "subtitle": "Các Tính Năng Chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Các Bước Để Làm Sạch Metadata trong Các Tệp {{FileFormatCap}}",
+      "content": {
+        "title": "Trong các ứng dụng {{EnvName}}, {{ProdShortName}} giúp bạn loại bỏ metadata chỉ với vài bước.",
+        "step_1": "Bắt đầu một {{textRedactor}} và mở tệp {{FileFormatCap}}.",
+        "step_2": "Chọn các trường metadata sẽ bị xóa.",
+        "step_3": "Chạy quy trình xóa.",
+        "step_4": "Xuất tệp cuối cùng."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa dữ liệu ẩn trong {{FileFormatUp}}",
+      "comment_2": "Mở tệp của bạn bằng redactor",
+      "comment_3": "Chọn những metadata nào sẽ bị xóa",
+      "comment_4": "Xử lý và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Xóa Metadata Tác Giả và Tiêu Đề",
+      "content": "Xem cách {{ProdFullName}} xóa các trường metadata cụ thể khỏi các tài liệu {{FileFormatUp}}.",
+      "comment_1": "Mở tài liệu để xóa",
+      "comment_2": "Xóa thông tin Tác Giả",
+      "comment_3": "Xóa trường Tiêu Đề",
+      "comment_4": "Áp dụng thay đổi",
+      "comment_5": "Lưu tài liệu đã dọn dẹp"
+    },
+    "more_features": {
+      "title": "Làm sạch Tất Cả Các Loại Dữ Liệu Nhạy Cảm",
+      "description": "{{ProdFullName}} cung cấp cho bạn các công cụ để xóa metadata, văn bản và hình ảnh ở nhiều định dạng. Hoàn hảo cho việc chia sẻ tài liệu an toàn.",
+      "image_description": "Công Cụ Metadata và Quyền Riêng Tư",
+      "feature_1": {
+        "title": "Xóa Văn Bản Riêng Tư",
+        "content": "Phát hiện và xóa thông tin cá nhân hoặc dữ liệu ẩn từ tài liệu của bạn."
+      },
+      "feature_2": {
+        "title": "Đánh Dấu Chi Tiết Hình Ảnh",
+        "content": "Che khuất các phần của hình ảnh để chặn những điều hình ảnh riêng tư."
+      },
+      "feature_3": {
+        "title": "Xóa Metadata",
+        "content": "Loại bỏ các trường metadata ẩn có thể chứa dữ liệu nhạy cảm."
+      }
+    },
+    "about": {
+      "title": "Tìm Hiểu {{ProdFullName}}",
+      "content": "{{ProdShortName}} được thiết kế cho các lập trình viên {{ProgLang}} cần dọn sạch và bảo vệ các tệp {{FileFormatUp}}. Xóa bỏ metadata không mong muốn, văn bản và hình ảnh một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Xóa Metadata trong {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để loại bỏ metadata nhạy cảm khỏi các tệp {{FileFormatUp}} của bạn. Bảo mật nội dung trước khi chia sẻ."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Xóa Metadata trong {{FileFormatUp}} Sử Dụng {{ProgLang}}",
+      "description": "Bảo vệ các tài liệu {{FileFormatUp}} của bạn với {{ProdFullName}} bằng cách làm sạch metadata ẩn có thể chứa thông tin cá nhân."
+    },
+    "header": {
+      "title": "Làm Sạch Metadata từ {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Có kiểm soát tốt hơn trên các tệp của bạn khi sử dụng các công cụ {{ProgLang}} nhanh chóng xóa bỏ metadata ẩn.",
+      "subtitle": "Các Tính Năng Tốt Nhất của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Các Bước Để Xóa Metadata trong {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} cho phép ứng dụng {{EnvName}} của bạn dọn sạch metadata từ tài liệu chỉ với vài cú nhấp chuột.",
+        "step_1": "Tạo một thể hiện {{textRedactor}} và mở tài liệu của bạn.",
+        "step_2": "Chọn các trường metadata nào cần xóa.",
+        "step_3": "Cấu hình và áp dụng các thiết lập xóa.",
+        "step_4": "Lưu phiên bản cuối cùng mà không có dữ liệu ẩn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa metadata từ {{FileFormatUp}}",
+      "comment_2": "Tải tệp vào redactor",
+      "comment_3": "Chọn metadata để xóa",
+      "comment_4": "Làm sạch và lưu tài liệu"
+    },
+    "example_bottom": {
+      "title": "Cách Xóa Metadata Ẩn",
+      "content": "Mẫu này cho thấy cách làm sạch metadata được nhúng như Tác Giả và Tiêu Đề từ tài liệu {{FileFormatUp}} của bạn.",
+      "comment_1": "Mở tệp trong redactor",
+      "comment_2": "Xóa trường Tác Giả",
+      "comment_3": "Xóa trường Tiêu Đề",
+      "comment_4": "Thực hiện xóa bỏ",
+      "comment_5": "Lưu tệp đã cập nhật"
+    },
+    "more_features": {
+      "title": "Xóa Bỏ Metadata Nâng Cao cho {{FileFormatUp}}",
+      "description": "{{ProdFullName}} giúp dọn sạch các tệp bằng cách xóa bỏ nội dung nhạy cảm. Hoạt động với nhiều định dạng tệp và kiểu dữ liệu.",
+      "image_description": "Các Tùy Chọn Xóa Bỏ Chính",
+      "feature_1": {
+        "title": "Xóa Văn Bản Riêng Tư",
+        "content": "Tìm kiếm và xóa các từ hoặc cụm từ không nên được chia sẻ."
+      },
+      "feature_2": {
+        "title": "Che Khu Vực Ảnh",
+        "content": "Ẩn các phần của hình ảnh chứa nội dung nhạy cảm."
+      },
+      "feature_3": {
+        "title": "Xóa Bỏ Metadata",
+        "content": "Xóa các trường metadata như Tác Giả, Tiêu Đề, và Ghi Chú khỏi các tệp của bạn."
+      }
+    },
+    "about": {
+      "title": "Tìm Hiểu Về {{ProdFullName}}",
+      "content": "{{ProdShortName}} được thiết kế cho các lập trình viên {{ProgLang}} hỗ trợ việc xóa văn bản, hình ảnh và metadata trong các tệp {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Xóa Metadata cho {{FileFormatUp}} Sử Dụng {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để dọn sạch dữ liệu cá nhân từ {{FileFormatUp}}. Lý tưởng cho việc sử dụng hợp pháp, doanh nghiệp và cá nhân."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Chỉnh Sửa Metadata trong {{FileFormatUp}} Sử Dụng {{ProgLang}}",
+      "description": "{{ProdFullName}} giúp bạn làm sạch hoặc cập nhật metadata trong các tài liệu {{FileFormatUp}}. Xóa bỏ các trường ẩn có thể tiết lộ chi tiết cá nhân."
+    },
+    "header": {
+      "title": "Làm sạch Metadata trong {{FileFormatUp}} qua {{EnvNameShort}}",
+      "description": "Bảo vệ các tệp {{FileFormatUp}} của bạn bằng cách xóa bỏ metadata ẩn bằng các công cụ đơn giản dành cho {{ProgLang}}.",
+      "subtitle": "Các Tính Năng Cơ Bản của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Các Bước để Làm Sạch Metadata {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} giúp việc xóa metadata nhanh chóng và dễ dàng cho các ứng dụng {{EnvName}} của bạn.",
+        "step_1": "Thiết lập một {{textRedactor}} và mở tài liệu {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn tùy chọn để xóa các trường metadata.",
+        "step_3": "Chạy xóa để làm sạch tệp.",
+        "step_4": "Lưu phiên bản mới mà không có dữ liệu ẩn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Làm sạch metadata trong {{FileFormatUp}}",
+      "comment_2": "Mở tệp bằng {{textRedactor}}",
+      "comment_3": "Chọn các trường metadata để dọn dẹp",
+      "comment_4": "Áp dụng xóa và lưu tệp"
+    },
+    "example_bottom": {
+      "title": "Chỉnh Sửa Các Trường Metadata",
+      "content": "Ví dụ này chỉ rõ cách xóa hoặc sửa đổi các trường như Tác Giả và Tiêu Đề trong tài liệu {{FileFormatUp}}.",
+      "comment_1": "Mở tệp {{FileFormatUp}}",
+      "comment_2": "Chọn trường Tác Giả",
+      "comment_3": "Chọn trường Tiêu Đề",
+      "comment_4": "Chạy quy trình làm sạch",
+      "comment_5": "Lưu phiên bản mới"
+    },
+    "more_features": {
+      "title": "Bảo Vệ Quyền Riêng Tư Trong Mọi Tệp",
+      "description": "{{ProdFullName}} cho bạn quyền kiểm soát dữ liệu nhạy cảm trong tài liệu. Xóa bỏ nội dung ẩn trong văn bản, hình ảnh và metadata.",
+      "image_description": "Các Tính Năng Xóa Bỏ Metadata",
+      "feature_1": {
+        "title": "Tìm và Xóa Văn Bản",
+        "content": "Quét tìm từ khóa hoặc thông tin riêng tư và xóa chúng khỏi tài liệu."
+      },
+      "feature_2": {
+        "title": "Che Chi Tiết Ảnh",
+        "content": "Che khuất các khu vực của hình ảnh không nên được nhìn thấy bởi người khác."
+      },
+      "feature_3": {
+        "title": "Chỉnh Sửa Metadata Tệp",
+        "content": "Thay đổi hoặc xóa các trường metadata để bảo vệ thông tin tài liệu."
+      }
+    },
+    "about": {
+      "title": "Tìm Hiểu Về {{ProdFullName}}",
+      "content": "{{ProdShortName}} cung cấp cho các nhà phát triển {{ProgLang}} các công cụ đơn giản để xóa văn bản, hình ảnh và metadata khỏi các tài liệu {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Làm Sạch Metadata {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để loại bỏ dữ liệu ẩn và riêng tư từ các tài liệu {{FileFormatUp}} của bạn một cách nhanh chóng và dễ dàng."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Làm Sạch Metadata Ẩn Trong {{FileFormatUp}} Sử Dụng {{ProgLang}}",
+      "description": "{{ProdFullName}} giúp bạn xóa metadata cá nhân khỏi các tài liệu {{FileFormatUp}}. Giữ cho tệp luôn sạch và an toàn."
+    },
+    "header": {
+      "title": "Xóa Metadata khỏi Các Tệp {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng công cụ {{ProgLang}} để bảo vệ tài liệu {{FileFormatUp}}. Xóa bỏ thông tin ẩn trước khi chia sẻ hoặc xuất bản.",
+      "subtitle": "Các Tính Năng Chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cách Xóa Metadata khỏi Tệp {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdShortName}} giúp các nhà phát triển {{EnvName}} làm sạch metadata tài liệu chỉ với vài bước.",
+        "step_1": "Thiết lập một {{textRedactor}} và tải tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn các metadata bạn muốn xóa.",
+        "step_3": "Chạy quy trình xóa.",
+        "step_4": "Lưu tệp đã cập nhật của bạn."
+      }
+    },
+    "example_top": {
+      "comment_1": "Làm sạch các trường ẩn trong các tệp {{FileFormatUp}}",
+      "comment_2": "Sử dụng {{textRedactor}} để mở tệp",
+      "comment_3": "Chọn các trường metadata để xóa",
+      "comment_4": "Xử lý và xuất tệp"
+    },
+    "example_bottom": {
+      "title": "Xóa Các Trường Metadata",
+      "content": "Ví dụ này cho thấy cách xóa metadata như Tác Giả và Tiêu Đề trong các tệp {{FileFormatUp}}.",
+      "comment_1": "Mở tệp trong redactor",
+      "comment_2": "Chọn trường Tác Giả",
+      "comment_3": "Chọn trường Tiêu Đề",
+      "comment_4": "Chạy xóa bỏ",
+      "comment_5": "Lưu tài liệu cuối cùng"
+    },
+    "more_features": {
+      "title": "Làm Sạch Dữ Liệu Nhạy Cảm từ Bất Kỳ Tệp Nào",
+      "description": "{{ProdFullName}} xóa văn bản, hình ảnh và metadata không nên được chia sẻ. Hoạt động với nhiều định dạng.",
+      "image_description": "Các Công Cụ Xóa Bỏ Chính",
+      "feature_1": {
+        "title": "Xóa Văn Bản",
+        "content": "Xóa các từ hoặc mẫu khỏi tệp của bạn để bảo vệ thông tin nhạy cảm."
+      },
+      "feature_2": {
+        "title": "Che Ảnh",
+        "content": "Che khuất các phần của hình ảnh cần phải giữ bí mật."
+      },
+      "feature_3": {
+        "title": "Xóa Metadata",
+        "content": "Xóa bỏ dữ liệu ẩn từ các thuộc tính tệp như Tác Giả hoặc Tiêu Đề."
+      }
+    },
+    "about": {
+      "title": "Về {{ProdFullName}}",
+      "content": "{{ProdShortName}} cung cấp cho các nhà phát triển {{ProgLang}} các công cụ để loại bỏ dữ liệu nhạy cảm từ các tệp {{FileFormatUp}} bao gồm văn bản, hình ảnh và metadata."
+    },
+    "formats": {
+      "title": "Sử Dụng {{EnvNameShort}} để Xóa Metadata {{FileFormatUp}}",
+      "description": "Nhanh chóng làm sạch metadata trong các tệp {{FileFormatUp}} bằng {{EnvNameShort}}. Giữ cho tài liệu của bạn an toàn và riêng tư."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Xóa Metadata trong {{FileFormatUp}} với {{ProgLang}}",
+      "description": "Với {{ProdFullName}}, bạn có thể xóa dữ liệu ẩn khỏi các tệp {{FileFormatUp}} và tránh việc rò rỉ thông tin cá nhân."
+    },
+    "header": {
+      "title": "Làm Sạch Metadata từ {{FileFormatUp}} Sử Dụng {{EnvNameShort}}",
+      "description": "Bảo vệ các tài liệu {{FileFormatUp}} của bạn bằng cách xóa thông tin ẩn với các công cụ {{ProgLang}} dễ sử dụng.",
+      "subtitle": "Các Tính Năng Chính của {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Các Bước Để Xóa Metadata khỏi {{FileFormatCap}}",
+      "content": {
+        "title": "Sử dụng {{ProdShortName}} trong dự án {{EnvName}} của bạn để làm sạch metadata tài liệu chỉ với vài bước.",
+        "step_1": "Thiết lập một {{textRedactor}} và mở tệp {{FileFormatCap}} của bạn.",
+        "step_2": "Chọn các trường metadata nào cần xóa.",
+        "step_3": "Áp dụng quy trình xóa để làm sạch tệp.",
+        "step_4": "Lưu phiên bản cuối cùng."
+      }
+    },
+    "example_top": {
+      "comment_1": "Xóa metadata trong tài liệu {{FileFormatUp}}",
+      "comment_2": "Sử dụng {{textRedactor}} để mở tệp",
+      "comment_3": "Chọn các metadata cần xóa",
+      "comment_4": "Chạy và lưu"
+    },
+    "example_bottom": {
+      "title": "Xóa Metadata Cụ Thể",
+      "content": "Theo dõi ví dụ này để xóa các trường Tác Giả và Tiêu Đề trong tài liệu {{FileFormatUp}}.",
+      "comment_1": "Tải tệp vào redactor",
+      "comment_2": "Chọn trường Tác Giả",
+      "comment_3": "Chọn trường Tiêu Đề",
+      "comment_4": "Xóa metadata đã chọn",
+      "comment_5": "Lưu tệp đã cập nhật"
+    },
+    "more_features": {
+      "title": "Làm Sạch Các Tệp Trước Khi Chia Sẻ",
+      "description": "{{ProdFullName}} giúp loại bỏ dữ liệu không nên thấy. Xóa văn bản, hình ảnh và các chi tiết ẩn chỉ với vài cú nhấp chuột.",
+      "image_description": "Các Tính Năng Xóa Bỏ Hữu Ích",
+      "feature_1": {
+        "title": "Xóa Văn Bản",
+        "content": "Tìm và xóa các từ, số hoặc mẫu nhạy cảm."
+      },
+      "feature_2": {
+        "title": "Che Hình Ảnh",
+        "content": "Che khuất các phần của hình ảnh chứa thông tin cá nhân."
+      },
+      "feature_3": {
+        "title": "Dọn Dẹp Metadata",
+        "content": "Xóa bỏ các chi tiết như Tác Giả, Tiêu Đề hoặc Bình luận."
+      }
+    },
+    "about": {
+      "title": "Về {{ProdFullName}}",
+      "content": "{{ProdShortName}} cung cấp cho người dùng {{ProgLang}} một cách để làm sạch tài liệu bằng cách xóa nội dung ẩn từ văn bản, hình ảnh và metadata trong {{FileFormatUp}}."
+    },
+    "formats": {
+      "title": "Xóa Metadata khỏi {{FileFormatUp}} với {{EnvNameShort}}",
+      "description": "Sử dụng {{EnvNameShort}} để làm sạch metadata ẩn khỏi các tệp {{FileFormatUp}}. Giữ tài liệu sạch và an toàn."
+    }
+  }
+}

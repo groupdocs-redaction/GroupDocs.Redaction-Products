@@ -1,0 +1,632 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Cacher des images dans {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Avec {{ProdFullName}}, vous pouvez masquer des images privées dans des fichiers {{FileFormatUp}} en ajoutant des superpositions colorées. Protégez les visuels sensibles tout en préservant le design de votre document."
+    },
+    "header": {
+      "title": "Masquer des images confidentielles dans des fichiers {{FileFormatUp}} avec des superpositions en utilisant {{EnvNameShort}}",
+      "description": "Protégez les données personnelles et professionnelles dans des fichiers {{FileFormatUp}} avec {{ProgLang}}. Nos outils rendent la suppression d'images simple et efficace.",
+      "subtitle": "Fonctionnalités de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Protéger les informations professionnelles dans des fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aide vos applications {{EnvName}} à sécuriser les documents. Masquez les images privées en quelques étapes simples.",
+        "step_1": "Initialisez un {{textRedactor}} et définissez le chemin vers votre fichier {{FileFormatCap}}.",
+        "step_2": "Choisissez les paramètres de suppression pour de meilleurs résultats.",
+        "step_3": "Sélectionnez la zone d'image et choisissez une couleur de superposition.",
+        "step_4": "Traitez et enregistrez le fichier sécurisé."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer des images sensibles dans {{FileFormatUp}}",
+      "comment_2": "Chargez le fichier avec {{textRedactor}}",
+      "comment_3": "Définissez la couleur et les dimensions de la superposition",
+      "comment_4": "Sélectionnez la zone cible pour la suppression",
+      "comment_5": "Appliquez la superposition et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Masquer les données d'image avec des superpositions",
+      "content": "Cet exemple montre comment masquer des visuels confidentiels dans des documents en utilisant des superpositions.",
+      "comment_1": "Ouvrez le document pour modification",
+      "comment_2": "Définissez la taille, la couleur et la position de la superposition",
+      "comment_3": "Choisissez la zone d'image à masquer sur la première page",
+      "comment_4": "Ajoutez la superposition pour couvrir les données sensibles",
+      "comment_5": "Enregistrez le document mis à jour"
+    },
+    "more_features": {
+      "title": "Masquer du contenu dans les documents",
+      "description": "Avec {{ProdFullName}}, vous pouvez cacher ou supprimer des données sensibles dans divers formats de fichiers. Protégez les informations privées tout en maintenant vos fichiers faciles à lire et à distribuer.",
+      "image_description": "Options de suppression puissantes",
+      "feature_1": {
+        "title": "Modifier le texte partout",
+        "content": "Trouvez et remplacez des mots sensibles dans votre document pour sécuriser le contenu privé."
+      },
+      "feature_2": {
+        "title": "Masquer les images",
+        "content": "Ajoutez des superpositions aux images ou à des parties d'elles pour garder les visuels sensibles cachés."
+      },
+      "feature_3": {
+        "title": "Nettoyer les métadonnées",
+        "content": "Supprimez ou modifiez les métadonnées cachées pour empêcher les fuites d'informations non intentionnelles."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre aux développeurs {{ProgLang}} des outils efficaces pour cacher ou effacer du contenu dans des fichiers {{FileFormatUp}}. Couvrez le texte, les images et les métadonnées pour maintenir la sécurité de vos documents à travers plusieurs formats."
+    },
+    "formats": {
+      "title": "Protégez les fichiers {{FileFormatUp}} avec des suppressions {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour cacher ou supprimer des données sensibles dans des fichiers {{FileFormatUp}}. Idéal pour sécuriser des documents officiels et privés."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Masquer des images dans {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Avec {{ProdFullName}}, vous pouvez cacher facilement des images sensibles dans des fichiers {{FileFormatUp}} en appliquant des superpositions colorées. Protégez les informations privées sans changer la mise en page de votre document."
+    },
+    "header": {
+      "title": "Masquer des images confidentielles dans des documents {{FileFormatUp}} avec des superpositions en utilisant {{EnvNameShort}}",
+      "description": "Protégez les données personnelles et professionnelles dans des fichiers {{FileFormatUp}} en utilisant {{ProgLang}}. Nos outils vous aident à garder les informations sensibles en sécurité et vos documents propres.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sécuriser les données dans des documents {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} donne à vos applications {{EnvName}} le pouvoir de supprimer des documents. Couvrez le contenu privé rapidement et efficacement.",
+        "step_1": "Créez un {{textRedactor}} et définissez le chemin du fichier vers votre document {{FileFormatCap}}.",
+        "step_2": "Ajustez les paramètres de suppression selon vos besoins.",
+        "step_3": "Choisissez la zone d'image que vous souhaitez couvrir et sélectionnez une couleur de superposition.",
+        "step_4": "Exécutez le processus de suppression et enregistrez le fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer les sections d'image sensibles dans {{FileFormatUp}}",
+      "comment_2": "Chargez le document en utilisant {{textRedactor}}",
+      "comment_3": "Définissez la couleur et les dimensions de la superposition",
+      "comment_4": "Marquez la zone à masquer",
+      "comment_5": "Appliquez la superposition et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Superposez des images pour masquer des données sensibles",
+      "content": "Cet exemple montre comment appliquer des superpositions pour couvrir des zones d'image confidentielles dans des documents.",
+      "comment_1": "Ouvrez le document pour modification",
+      "comment_2": "Définissez la taille, la couleur et la position de la superposition",
+      "comment_3": "Sélectionnez une zone cible sur la première page",
+      "comment_4": "Appliquez la superposition pour couvrir l'image",
+      "comment_5": "Enregistrez le document supprimé"
+    },
+    "more_features": {
+      "title": "Masquer du contenu sensible dans les fichiers",
+      "description": "Avec {{ProdFullName}}, vous pouvez facilement supprimer ou supprimer du contenu de plusieurs types de fichiers. Gardez vos documents sécurisés et lisibles.",
+      "image_description": "Fonctionnalités de suppression pour les documents",
+      "feature_1": {
+        "title": "Modifier le contenu texte",
+        "content": "Trouvez et remplacez le texte sensible dans vos fichiers pour maintenir la confidentialité des données."
+      },
+      "feature_2": {
+        "title": "Superposer des images",
+        "content": "Couvrez des images entières ou des parties sélectionnées pour cacher des informations visuelles confidentielles."
+      },
+      "feature_3": {
+        "title": "Supprimer les métadonnées",
+        "content": "Nettoyez les métadonnées cachées des documents pour prévenir l'exposition des données."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre aux développeurs {{ProgLang}} des outils pour cacher ou effacer du contenu dans des fichiers {{FileFormatUp}}. Protégez le texte, les images et les métadonnées dans différents formats de documents."
+    },
+    "formats": {
+      "title": "Supprimez des fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour cacher ou supprimer des données privées dans des fichiers {{FileFormatUp}}. Parfait pour garder des documents d'affaires et confidentiels sécurisés."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Cacher des images dans des fichiers {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Utilisez {{ProdFullName}} pour couvrir des images sensibles dans des fichiers {{FileFormatUp}} en ajoutant des superpositions colorées. Protégez des données importantes tout en gardant la structure de votre document inchangée."
+    },
+    "header": {
+      "title": "Cacher des images privées dans des documents {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+      "description": "Gardez le contenu d'image sensible en sécurité dans des fichiers {{FileFormatUp}} avec {{ProgLang}}. Nos outils faciles à utiliser rendent la suppression d'images rapide et fiable.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Protégez vos données dans des documents {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aide vos applications {{EnvName}} à protéger des documents avec des étapes simples.",
+        "step_1": "Initialisez un {{textRedactor}} et chargez votre document {{FileFormatCap}}.",
+        "step_2": "Définissez les options de suppression pour correspondre à votre projet.",
+        "step_3": "Sélectionnez la section d'image et choisissez une couleur de superposition.",
+        "step_4": "Appliquez la suppression et enregistrez votre fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Couvrez les zones d'image sensibles dans {{FileFormatUp}}",
+      "comment_2": "Créez un {{textRedactor}} avec le chemin du fichier",
+      "comment_3": "Choisissez la dimension et la couleur de la superposition",
+      "comment_4": "Sélectionnez la zone à masquer",
+      "comment_5": "Appliquez la superposition et enregistrez le document"
+    },
+    "example_bottom": {
+      "title": "Masquez les détails de l'image en utilisant des superpositions",
+      "content": "Découvrez comment protéger des parties sensibles des images dans vos documents avec des superpositions.",
+      "comment_1": "Chargez le document à supprimer",
+      "comment_2": "Définissez la taille, la couleur et la position de la superposition",
+      "comment_3": "Sélectionnez une zone d'image spécifique",
+      "comment_4": "Appliquez la superposition pour masquer l'image",
+      "comment_5": "Enregistrez le fichier mis à jour"
+    },
+    "more_features": {
+      "title": "Fonctionnalités avancées de suppression",
+      "description": "Avec {{ProdFullName}}, vous pouvez cacher ou effacer du contenu sensible dans divers types de fichiers tout en gardant la mise en page du document nette et lisible.",
+      "image_description": "Outils de suppression puissants",
+      "feature_1": {
+        "title": "Trouver et remplacer du texte",
+        "content": "Recherchez du texte privé et supprimez-le pour sécuriser vos documents."
+      },
+      "feature_2": {
+        "title": "Cacher le contenu d'image",
+        "content": "Appliquez des superpositions pour cacher des images confidentielles ou des sections spécifiques."
+      },
+      "feature_3": {
+        "title": "Nettoyer les métadonnées cachées",
+        "content": "Supprimez ou mettez à jour des métadonnées pour éviter de partager des détails privés par accident."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit aux développeurs {{ProgLang}} des outils simples pour cacher ou supprimer des contenus sensibles de fichiers {{FileFormatUp}}. Masquez le texte, les images et les métadonnées à travers différents types de documents."
+    },
+    "formats": {
+      "title": "Couvrir le contenu {{FileFormatUp}} avec des suppressions {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour masquer ou effacer le contenu privé dans des fichiers {{FileFormatUp}}. Une solution intelligente pour sécuriser des documents professionnels et personnels."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Masquer des images dans {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Avec {{ProdFullName}}, vous pouvez masquer des images sensibles dans des fichiers {{FileFormatUp}} en ajoutant des superpositions colorées. Protégez les informations confidentielles tout en préservant la mise en page du document."
+    },
+    "header": {
+      "title": "Masquer des images sensibles dans des documents {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+      "description": "Protégez les données personnelles et professionnelles dans des fichiers {{FileFormatUp}} avec {{ProgLang}}. Nos outils rendent la suppression d'images rapide et simple.",
+      "subtitle": "Avantages clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Protéger des données privées dans des documents {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} facilite la sécurisation des documents pour les applications {{EnvName}} en masquant le contenu sensible.",
+        "step_1": "Initialisez un {{textRedactor}} et chargez le fichier {{FileFormatCap}}.",
+        "step_2": "Définissez les options de suppression selon vos besoins.",
+        "step_3": "Sélectionnez les zones d'image et définissez les couleurs des superpositions.",
+        "step_4": "Appliquez la suppression et enregistrez le fichier mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer des sections d'image sensibles dans {{FileFormatUp}}",
+      "comment_2": "Ouvrez le document en utilisant {{textRedactor}}",
+      "comment_3": "Choisissez la couleur et la taille de la superposition",
+      "comment_4": "Mettez en évidence la zone à cacher",
+      "comment_5": "Appliquez les modifications et enregistrez le document"
+    },
+    "example_bottom": {
+      "title": "Couvrir les données d'image avec des superpositions",
+      "content": "Cet exemple montre comment couvrir des images sensibles dans vos documents.",
+      "comment_1": "Chargez votre document",
+      "comment_2": "Définissez la taille, la couleur et la position de la superposition",
+      "comment_3": "Sélectionnez la zone d'image sur la première page",
+      "comment_4": "Appliquez la superposition pour la couvrir",
+      "comment_5": "Enregistrez le document supprimé"
+    },
+    "more_features": {
+      "title": "Outils de suppression de contenu",
+      "description": "{{ProdFullName}} vous aide à masquer ou supprimer des informations sensibles dans de nombreux formats de fichiers. Gardez les documents sécurisés tout en préservant un aspect professionnel.",
+      "image_description": "Fonctionnalités avancées de suppression",
+      "feature_1": {
+        "title": "Trouver et remplacer du texte",
+        "content": "Recherchez rapidement du texte privé et supprimez-le pour sécuriser les documents."
+      },
+      "feature_2": {
+        "title": "Couvrir les images avec des superpositions",
+        "content": "Masquez des images entières ou des zones sélectionnées en appliquant des superpositions."
+      },
+      "feature_3": {
+        "title": "Nettoyer les métadonnées",
+        "content": "Supprimez ou modifiez les métadonnées cachées pour prévenir le partage d'informations confidentielles."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit aux développeurs {{ProgLang}} des outils pratiques pour cacher ou supprimer du contenu dans des fichiers {{FileFormatUp}}. Protégez vos documents en masquant du texte, des images et des métadonnées."
+    },
+    "formats": {
+      "title": "Supprimez le contenu {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+      "description": "Appliquez {{EnvNameShort}} pour masquer ou supprimer des contenus sensibles dans des fichiers {{FileFormatUp}}. Une solution fiable pour la protection des documents."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Masquer des images dans {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Avec {{ProdFullName}}, vous pouvez couvrir des images sensibles dans des fichiers {{FileFormatUp}} en utilisant des superpositions colorées. Protégez vos données privées sans changer la mise en page du document."
+    },
+    "header": {
+      "title": "Protéger des images sensibles dans des fichiers {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+      "description": "Sécurisez les visuels personnels et commerciaux dans des documents {{FileFormatUp}} avec {{ProgLang}}. Suppression d'images rapide et fiable, simplifiée.",
+      "subtitle": "Fonctionnalités principales de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Gardez les données confidentielles en sécurité dans des fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} facilite aux applications {{EnvName}} la dissimulation d'informations privées à l'intérieur des documents.",
+        "step_1": "Initialisez un {{textRedactor}} et chargez le fichier {{FileFormatCap}}.",
+        "step_2": "Définissez les paramètres de suppression nécessaires.",
+        "step_3": "Mettez en évidence la zone d'image et sélectionnez une couleur de superposition.",
+        "step_4": "Exécutez la suppression et enregistrez votre document mis à jour."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer le contenu d'image sensible dans {{FileFormatUp}}",
+      "comment_2": "Chargez le fichier en utilisant {{textRedactor}}",
+      "comment_3": "Choisissez la couleur et la taille de la superposition",
+      "comment_4": "Marquez la zone d'image à couvrir",
+      "comment_5": "Appliquez la superposition et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Utilisez des superpositions pour cacher les données d'image",
+      "content": "Cet échantillon montre comment protéger le contenu d'image sensible dans des documents avec des superpositions.",
+      "comment_1": "Chargez le document",
+      "comment_2": "Définissez les propriétés de la superposition comme la taille, la position et la couleur",
+      "comment_3": "Marquez la zone d'image sur la première page",
+      "comment_4": "Couvrez la zone avec la superposition",
+      "comment_5": "Enregistrez le document supprimé"
+    },
+    "more_features": {
+      "title": "Outils pour cacher et supprimer du contenu",
+      "description": "{{ProdFullName}} vous aide à cacher ou effacer des données sensibles dans divers formats de fichiers. Gardez vos documents sécurisés et bien structurés.",
+      "image_description": "Fonctionnalités efficaces de suppression",
+      "feature_1": {
+        "title": "Trouver et remplacer du texte",
+        "content": "Recherchez du texte dans des documents et remplacez-le pour assurer la sécurité des données."
+      },
+      "feature_2": {
+        "title": "Couvrir des zones d'image",
+        "content": "Masquez des images entières ou des régions sélectionnées en appliquant des superpositions."
+      },
+      "feature_3": {
+        "title": "Effacer les métadonnées",
+        "content": "Supprimez ou modifiez les métadonnées cachées pour protéger des informations confidentielles."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit aux développeurs {{ProgLang}} des outils simples pour cacher ou effacer du contenu dans des fichiers {{FileFormatUp}}. Masquez le texte, les images et les métadonnées à travers divers formats."
+    },
+    "formats": {
+      "title": "Masquez du contenu dans des fichiers {{FileFormatUp}} avec {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour cacher ou supprimer des données sensibles dans des fichiers {{FileFormatUp}}. Une manière efficace de garder les documents sécurisés."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Masquer des images dans {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Utilisez {{ProdFullName}} pour couvrir des images sensibles dans des fichiers {{FileFormatUp}}. Ajoutez des superpositions colorées pour protéger des informations privées tout en maintenant le design du document intact."
+    },
+    "header": {
+      "title": "Masquer des images sensibles dans des fichiers {{FileFormatUp}} avec des superpositions en utilisant {{EnvNameShort}}",
+      "description": "Protégez les images personnelles et commerciales dans des fichiers {{FileFormatUp}} avec {{ProgLang}}. Outils simples conçus pour une protection rapide et efficace.",
+      "subtitle": "Découvrez les fonctionnalités de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sécurisez vos données dans des fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aide les applications {{EnvName}} à cacher du contenu sensible à l'intérieur des documents facilement.",
+        "step_1": "Créez un objet {{textRedactor}} et chargez votre fichier {{FileFormatCap}}.",
+        "step_2": "Définissez les options de suppression selon vos besoins.",
+        "step_3": "Choisissez la zone d'image à couvrir et sélectionnez une couleur de superposition.",
+        "step_4": "Appliquez la suppression et enregistrez votre document."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer le contenu d'image dans {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier avec {{textRedactor}}",
+      "comment_3": "Définissez la taille et la couleur de la superposition",
+      "comment_4": "Marquez la zone que vous souhaitez cacher",
+      "comment_5": "Appliquez les modifications et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Masquer les données d'image avec des superpositions",
+      "content": "Cet exemple montre comment cacher des zones d'image sensibles dans des documents en utilisant des superpositions.",
+      "comment_1": "Ouvrez le fichier pour modification",
+      "comment_2": "Définissez les dimensions de la superposition, la couleur et la position",
+      "comment_3": "Choisissez la section d'image sur la première page",
+      "comment_4": "Appliquez la superposition pour cacher les données",
+      "comment_5": "Enregistrez votre document supprimé"
+    },
+    "more_features": {
+      "title": "Masquer ou supprimer du contenu dans des documents",
+      "description": "{{ProdFullName}} vous permet de cacher ou d'effacer des données sensibles dans plusieurs types de fichiers. Gardez vos documents clairs et sécurisés.",
+      "image_description": "Fonctionnalités de suppression avancées",
+      "feature_1": {
+        "title": "Trouver et remplacer du texte",
+        "content": "Recherchez des documents pour du texte privé et remplacez-le afin de garder les données en sécurité."
+      },
+      "feature_2": {
+        "title": "Couvrir des zones d'image",
+        "content": "Masquez des parties d'images ou des visuels entiers avec des superpositions colorées."
+      },
+      "feature_3": {
+        "title": "Nettoyer les métadonnées",
+        "content": "Supprimez les métadonnées cachées pour éviter de partager des informations supplémentaires."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} permet aux développeurs {{ProgLang}} de cacher ou de supprimer du contenu dans des fichiers {{FileFormatUp}}. Couvrez le texte, les images et les métadonnées pour protéger des données sensibles."
+    },
+    "formats": {
+      "title": "Sécurisez les fichiers {{FileFormatUp}} avec la suppression {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour masquer ou effacer des informations privées dans des fichiers {{FileFormatUp}}. Une façon simple de garantir la confidentialité des documents."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Cacher des images sensibles dans {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Masquez le contenu d'images privées dans des fichiers {{FileFormatUp}} avec {{ProdFullName}}. Ajoutez des superpositions pour garder les documents sécurisés sans affecter la mise en page."
+    },
+    "header": {
+      "title": "Protéger des images privées dans des documents {{FileFormatUp}} avec des superpositions en utilisant {{EnvNameShort}}",
+      "description": "Gardez les images personnelles et commerciales en sécurité dans des fichiers {{FileFormatUp}} avec {{ProgLang}}. Outils faciles à utiliser pour une protection de la vie privée solide.",
+      "subtitle": "Fonctionnalités principales de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Masquer des données sensibles dans des documents {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} aide vos applications {{EnvName}} à masquer rapidement le contenu privé dans les documents.",
+        "step_1": "Créez un objet {{textRedactor}} et chargez le fichier {{FileFormatCap}}.",
+        "step_2": "Définissez les préférences de suppression pour la tâche.",
+        "step_3": "Choisissez la zone d'image et sélectionnez une couleur de superposition.",
+        "step_4": "Appliquez la suppression et enregistrez le fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer les données image dans des fichiers {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier avec {{textRedactor}}",
+      "comment_3": "Définissez la couleur et la taille de la superposition",
+      "comment_4": "Sélectionnez la zone à masquer",
+      "comment_5": "Appliquez la superposition et enregistrez les modifications"
+    },
+    "example_bottom": {
+      "title": "Masquer le contenu d'image avec des superpositions",
+      "content": "Cet exemple montre comment placer des superpositions sur des zones d'image sensibles dans des documents.",
+      "comment_1": "Chargez le fichier pour la suppression",
+      "comment_2": "Définissez la taille, la couleur et la position de la superposition",
+      "comment_3": "Marquez la section d'image sur la première page",
+      "comment_4": "Appliquez la superposition pour couvrir les données",
+      "comment_5": "Enregistrez le document mis à jour"
+    },
+    "more_features": {
+      "title": "Masquer des données sensibles dans des documents",
+      "description": "{{ProdFullName}} vous aide à couvrir ou supprimer du contenu privé dans différents formats de documents. Gardez vos fichiers sécurisés pour le partage et le stockage.",
+      "image_description": "Outils de suppression pour chaque besoin",
+      "feature_1": {
+        "title": "Rechercher et remplacer du texte",
+        "content": "Trouvez des mots sensibles et remplacez-les pour garantir la confidentialité des données."
+      },
+      "feature_2": {
+        "title": "Couvrir des zones d'image",
+        "content": "Appliquez des superpositions aux images ou à des parties d'images pour les garder privées."
+      },
+      "feature_3": {
+        "title": "Supprimer les métadonnées cachées",
+        "content": "Effacez les métadonnées invisibles pour éviter les fuites de données."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} permet aux développeurs {{ProgLang}} de cacher ou d'effacer du contenu dans des fichiers {{FileFormatUp}}. Sécurisez vos documents en masquant le texte, les images et les métadonnées."
+    },
+    "formats": {
+      "title": "Protégez les fichiers {{FileFormatUp}} avec des suppressions {{EnvNameShort}}",
+      "description": "Avec {{EnvNameShort}}, vous pouvez couvrir ou supprimer des données sensibles dans des fichiers {{FileFormatUp}}. Une solution fiable pour la sécurité des documents."
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "Cacher des images dans {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Gardez les images sensibles privées dans des fichiers {{FileFormatUp}} avec {{ProdFullName}}. Ajoutez des superpositions pour cacher des informations sans changer la mise en page de votre document."
+    },
+    "header": {
+      "title": "Masquer des images sensibles dans des fichiers {{FileFormatUp}} avec des superpositions en utilisant {{EnvNameShort}}",
+      "description": "Protégez les images personnelles et professionnelles dans des fichiers {{FileFormatUp}} avec {{ProgLang}}. Outils simples pour vous aider à sécuriser rapidement vos documents.",
+      "subtitle": "Fonctionnalités clés de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Masquer des données privées dans des fichiers {{FileFormatCap}}",
+      "content": {
+        "title": "{{ProdFullName}} rend rapide pour vos applications {{EnvName}} de couvrir du contenu privé.",
+        "step_1": "Initialisez un {{textRedactor}} et chargez votre fichier {{FileFormatCap}}.",
+        "step_2": "Ajustez les paramètres de suppression selon vos besoins.",
+        "step_3": "Sélectionnez la zone d'image et choisissez une couleur de superposition.",
+        "step_4": "Appliquez la suppression et enregistrez le fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer les données d'image dans des fichiers {{FileFormatUp}}",
+      "comment_2": "Ouvrez le fichier en utilisant {{textRedactor}}",
+      "comment_3": "Définissez la taille et la couleur de la superposition",
+      "comment_4": "Choisissez la zone à couvrir",
+      "comment_5": "Appliquez la superposition et enregistrez les modifications"
+    },
+    "example_bottom": {
+      "title": "Utilisez des superpositions pour cacher le contenu d'image",
+      "content": "Cet exemple montre comment protéger des zones d'image sensibles dans des documents en utilisant des superpositions.",
+      "comment_1": "Chargez le fichier pour la suppression",
+      "comment_2": "Définissez la taille, la couleur et la position de la superposition",
+      "comment_3": "Sélectionnez une zone d'image sur la première page",
+      "comment_4": "Appliquez la superposition pour cacher l'image",
+      "comment_5": "Enregistrez le fichier mis à jour"
+    },
+    "more_features": {
+      "title": "Masquer des données sensibles dans des documents",
+      "description": "{{ProdFullName}} vous aide à cacher ou à supprimer du contenu privé de plusieurs types de fichiers. Assurez-vous que vos documents restent propres et prêts à être partagés.",
+      "image_description": "Fonctionnalités de suppression tout-en-un",
+      "feature_1": {
+        "title": "Trouver et remplacer du texte",
+        "content": "Recherchez vos documents pour du texte privé et remplacez-le pour protéger les données sensibles."
+      },
+      "feature_2": {
+        "title": "Couvrir le contenu des images",
+        "content": "Utilisez des superpositions pour cacher des images entières ou des parties sélectionnées."
+      },
+      "feature_3": {
+        "title": "Supprimer les métadonnées",
+        "content": "Effacez les métadonnées cachées pour prévenir l'exposition accidentelle d'informations sensibles."
+      }
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}} ?",
+      "content": "{{ProdFullName}} fournit aux développeurs {{ProgLang}} des outils pour cacher ou supprimer du contenu dans des fichiers {{FileFormatUp}}. Sécurisez vos documents en couvrant facilement le texte, les images et les métadonnées."
+    },
+    "formats": {
+      "title": "Sécurisez des fichiers {{FileFormatUp}} avec les suppressions {{EnvNameShort}}",
+      "description": "Utilisez {{EnvNameShort}} pour cacher ou supprimer des données sensibles dans des fichiers {{FileFormatUp}}. Une solution de confiance pour protéger vos documents importants."
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "Masquer des images dans {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Utilisez {{ProdFullName}} pour masquer des zones d'image sensibles dans des fichiers {{FileFormatUp}} avec des superpositions colorées. Gardez les données importantes en sécurité sans changer la mise en page du document."
+    },
+    "header": {
+      "title": "Protéger des images privées dans des fichiers {{FileFormatUp}} en utilisant des superpositions avec {{EnvNameShort}}",
+      "description": "Sécurisez les images personnelles et commerciales dans des fichiers {{FileFormatUp}} avec {{ProgLang}}. Outils faciles pour une protection des données rapide et fiable.",
+      "subtitle": "Fonctionnalités principales de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Sécurisez le contenu dans des fichiers {{FileFormatCap}} en utilisant des superpositions",
+      "content": {
+        "title": "Couvrez rapidement les zones sensibles dans vos applications {{EnvName}} avec {{ProdFullName}}.",
+        "step_1": "Créez un objet {{textRedactor}} et spécifiez le chemin de votre fichier {{FileFormatCap}}.",
+        "step_2": "Définissez les options de suppression selon les besoins.",
+        "step_3": "Marquez les sections d'image et choisissez les couleurs de superposition.",
+        "step_4": "Traitez et enregistrez votre fichier supprimé."
+      }
+    },
+    "example_top": {
+      "comment_1": "Masquer le contenu d'image dans {{FileFormatUp}}",
+      "comment_2": "Chargez le fichier en utilisant {{textRedactor}}",
+      "comment_3": "Définissez les dimensions et les couleurs de la superposition",
+      "comment_4": "Choisissez la zone à protéger",
+      "comment_5": "Appliquez la superposition et enregistrez le fichier"
+    },
+    "example_bottom": {
+      "title": "Masquer les zones d'image avec des superpositions",
+      "content": "Cet exemple de code montre comment masquer des parties sensibles d'image en utilisant des superpositions.",
+      "comment_1": "Ouvrez le fichier pour modification",
+      "comment_2": "Définissez la taille, la couleur et la position de la superposition",
+      "comment_3": "Sélectionnez la zone d'image sur la première page",
+      "comment_4": "Appliquez la superposition pour masquer le contenu",
+      "comment_5": "Enregistrez le fichier modifié"
+    },
+    "more_features": {
+      "title": "Supprimez le contenu sensible dans n'importe quel document",
+      "description": "{{ProdFullName}} vous aide à cacher ou supprimer du contenu privé dans plusieurs formats de documents. Assurez-vous que les documents restent propres et sûrs pour la distribution.",
+      "image_description": "Outils de suppression avec un contrôle total",
+      "feature_1": {
+        "title": "Rechercher et remplacer du texte",
+        "content": "Trouvez le texte sensible dans les documents et remplacez-le pour protéger l'information."
+      },
+      "feature_2": {
+        "title": "Cacher les images avec des superpositions",
+        "content": "Utilisez des superpositions pour cacher des images entières ou des sections spécifiques."
+      },
+      "feature_3": {
+        "title": "Nettoyer les métadonnées",
+        "content": "Effacez ou éditez les métadonnées cachées pour prévenir les fuites de données."
+      }
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} donne aux développeurs {{ProgLang}} la capacité de cacher ou d'effacer du contenu dans des fichiers {{FileFormatUp}}. Protégez les documents en masquant du texte sensible, des images et des métadonnées."
+    },
+    "formats": {
+      "title": "Sécurisez des fichiers {{FileFormatUp}} avec des suppressions {{EnvNameShort}}",
+      "description": "Avec {{EnvNameShort}}, vous pouvez cacher ou supprimer des contenus sensibles dans des fichiers {{FileFormatUp}}. Une solution fiable pour garder vos documents officiels en sécurité."
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Masquer des images dans {{FileFormatUp}} avec des superpositions en utilisant {{ProgLang}}",
+      "description": "Utilisez {{ProdFullName}} pour masquer des zones d'image sensibles dans des fichiers {{FileFormatUp}} avec des superpositions. Protégez le contenu privé tout en conservant la mise en page du fichier inchangée."
+    },
+    "header": {
+      "title": "Protéger le contenu des images dans des fichiers {{FileFormatUp}} avec des superpositions en utilisant {{EnvNameShort}}",
+      "description": "Sécurisez les données d'image personnelles et professionnelles dans des fichiers {{FileFormatUp}} avec {{ProgLang}}. Outils simples conçus pour une protection rapide et efficace.",
+      "subtitle": "Fonctionnalités principales de {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Masquer le contenu dans des fichiers {{FileFormatCap}} avec des superpositions",
+      "content": {
+        "title": "{{ProdFullName}} facilite la dissimulation des zones sensibles dans vos applications {{EnvName}}.",
+        "step_1": "Initialisez un {{textRedactor}} et chargez votre fichier {{FileFormatCap}}.",
+        "step_2": "Définissez les préférences de suppression si nécessaire.",
+        "step_3": "Sélectionnez les régions d'image et choisissez des couleurs de superposition.",
+        "step_4": "Exécutez la suppression et enregistrez le fichier."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cacher les sections d'image dans {{FileFormatUp}} avec des superpositions",
+      "comment_2": "Chargez le fichier en utilisant {{textRedactor}}",
+      "comment_3": "Définissez la couleur et la taille de la superposition",
+      "comment_4": "Marquez la zone d'image à couvrir",
+      "comment_5": "Appliquez la superposition et enregistrez le résultat"
+    },
+    "example_bottom": {
+      "title": "Masquez les données d'image avec des superpositions",
+      "content": "Cet exemple montre comment couvrir le contenu d'image avec des superpositions dans un document.",
+      "comment_1": "Chargez le document pour modification",
+      "comment_2": "Définissez la taille, la couleur et la position de la superposition",
+      "comment_3": "Ciblez la section d'image sur la première page",
+      "comment_4": "Appliquez la superposition pour cacher le contenu",
+      "comment_5": "Enregistrez le fichier édité"
+    },
+    "more_features": {
+      "title": "Supprimez du contenu sensible facilement",
+      "description": "{{ProdFullName}} vous permet de cacher ou d'effacer des données privées dans de différents types de documents. Gardez vos fichiers propres et prêts à être partagés.",
+      "image_description": "Contrôle total sur les suppressions",
+      "feature_1": {
+        "title": "Rechercher et remplacer du texte",
+        "content": "Trouvez le texte sensible dans les documents et remplacez-le pour protéger l'information."
+      },
+      "feature_2": {
+        "title": "Recouvrir les zones d'image",
+        "content": "Utilisez des superpositions pour couvrir des images entières ou des sections sélectionnées."
+      },
+      "feature_3": {
+        "title": "Supprimer les métadonnées",
+        "content": "Nettoyez les métadonnées cachées pour prévenir l'exposition accidentelle."
+      }
+    },
+    "about": {
+      "title": "En savoir plus sur {{ProdFullName}}",
+      "content": "{{ProdFullName}} donne aux développeurs {{ProgLang}} des outils fiables pour cacher ou supprimer du contenu dans des fichiers {{FileFormatUp}}. Protégez vos documents en masquant du texte, des images et des métadonnées."
+    },
+    "formats": {
+      "title": "Sécurisez des fichiers {{FileFormatUp}} avec des suppressions {{EnvNameShort}}",
+      "description": "Avec {{EnvNameShort}}, vous pouvez cacher ou supprimer des données sensibles dans des fichiers {{FileFormatUp}}. Un moyen de confiance pour protéger des documents officiels."
+    }
+  }
+}

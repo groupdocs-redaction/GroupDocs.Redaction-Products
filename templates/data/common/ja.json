@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Excelのマスキング",
+        "description": "MS ExcelおよびOpen Officeのスプレッドシート"
+      },
+      "word": {
+        "name": "Wordのマスキング",
+        "description": "MS WordおよびOpen Officeの文書"
+      },
+      "powerpoint": {
+        "name": "PowerPointのマスキング",
+        "description": "MS PowerPointおよびOpen Officeのプレゼンテーション"
+      },
+      "image": {
+        "name": "画像のマスキング",
+        "description": "一般的な画像フォーマット"
+      },
+      "photo": {
+        "name": "写真のマスキング",
+        "description": "写真フォーマット"
+      },
+      "pdf": {
+        "name": "PDFのマスキング",
+        "description": "Adobeポータブル文書形式"
+      },
+      "doc": {
+        "name": "DOCのマスキング",
+        "description": "Microsoft Word 97 - 2007文書"
+      },
+      "docx": {
+        "name": "DOCXのマスキング",
+        "description": "Microsoft WordオープンXMLドキュメント"
+      },
+      "xls": {
+        "name": "XLSのマスキング",
+        "description": "Microsoft Excelワークブック97-2003"
+      },
+      "xlsx": {
+        "name": "XLSXのマスキング",
+        "description": "Microsoft ExcelオープンXMLスプレッドシート"
+      },
+      "ppt": {
+        "name": "PPTのマスキング",
+        "description": "PowerPointプレゼンテーション97-2003"
+      },
+      "pptx": {
+        "name": "PPTXのマスキング",
+        "description": "PowerPointオープンXMLプレゼンテーション"
+      },
+      "jpg": {
+        "name": "JPEGのマスキング",
+        "description": "JPEG画像"
+      },
+      "jpeg": {
+        "name": "JPEGのマスキング",
+        "description": "JPEG画像"
+      },
+      "png": {
+        "name": "PNGのマスキング",
+        "description": "ポータブルネットワークグラフィック"
+      },
+      "tiff": {
+        "name": "TIFFのマスキング",
+        "description": "タグ付き画像ファイル形式"
+      },
+      "webp": {
+        "name": "WEBPのマスキング",
+        "description": "WEB画像"
+      },
+      "rtf": {
+        "name": "RTFのマスキング",
+        "description": "リッチテキスト形式"
+      }
+    },
+    "format-code": {
+      "copy_title": "コピー",
+      "result_title": "サンプルのマスキング",
+      "result_title_bottom": "結果をダウンロード",
+      "copy_tip": "クリックしてコピー",
+      "copy_done": "コピーしました",
+      "links": {
+        "title_1": "さらに多くの例",
+        "title_2": "ドキュメンテーション"
+      }
+    },
+    "format-actions": {
+      "title": "始める準備はできましたか？",
+      "description": "{{ProdShortName}}の機能を無料で試すか、ライセンスをリクエストしてください",
+      "comment_1": "{{PackageStoreName}}をダウンロード",
+      "comment_2": "ライセンス"
+    },
+    "texts": {
+      "learn_more": "詳細を学ぶ"
+    }
+  }
+}

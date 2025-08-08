@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}} を使用して {{FileFormatUp}} のメタデータを修正する",
+      "description": "{{ProdFullName}} を使用すると、{{FileFormatUp}} ファイルのメタデータを削除または更新できます。プライベート情報が漏れる可能性のある隠れたデータをクリーンアップしません。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} を使って {{FileFormatUp}} ファイルのメタデータをクリーンアップする",
+      "description": "{{ProgLang}} を使用して {{FileFormatUp}} ファイルの機密ビジネス情報と個人情報を保護します。信頼できるデータ保護のための使いやすいツール。",
+      "subtitle": "{{ProdFullName}} の主な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ドキュメントのメタデータを削除する",
+      "content": {
+        "title": "{{ProdShortName}} を使用して、あなたの {{EnvName}} アプリにおけるドキュメントのメタデータを迅速に保護します。",
+        "step_1": "{{textRedactor}} インスタンスを作成し、{{FileFormatCap}} ファイルを読み込みます。",
+        "step_2": "すべての隠れたメタデータを削除するための修正を設定します。",
+        "step_3": "ドキュメントをクリーンアップするために修正を適用します。",
+        "step_4": "更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} ファイルからメタデータを消去する",
+      "comment_2": "{{textRedactor}} でファイルを読み込みます",
+      "comment_3": "メタデータ削除の修正を設定します",
+      "comment_4": "変更を適用してファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "隠れたメタデータエントリを削除する",
+      "content": "この例では、{{FileFormatUp}} ファイルのメタデータを変更する方法を示します。",
+      "comment_1": "修正ツールに {{FileFormatUp}} ファイルを読み込みます",
+      "comment_2": "Author プロパティの修正を設定します",
+      "comment_3": "Title プロパティの修正を設定します",
+      "comment_4": "ドキュメントで修正を実行します",
+      "comment_5": "クリーンしたファイルを保存します"
+    },
+    "more_features": {
+      "title": "ドキュメント内の機密データを修正する",
+      "description": "{{ProdFullName}} は、さまざまなファイル形式で機密コンテンツを隠すまたは消去するのに役立ちます。プライベートデータを安全に保ち、ドキュメントを明確かつプロフェッショナルに保ちます。",
+      "image_description": "強力な修正機能",
+      "feature_1": {
+        "title": "テキストの検索と置換",
+        "content": "ドキュメント内の機密テキストを検索し、プライバシーを保護するために置き換えたり削除したりします。"
+      },
+      "feature_2": {
+        "title": "画像コンテンツを隠す",
+        "content": "敏感なビジュアルをカバーするために、画像や特定の領域にオーバーレイを追加します。"
+      },
+      "feature_3": {
+        "title": "メタデータをクリーンアップする",
+        "content": "不要なデータ漏れを防ぐために、隠れたメタデータを削除または編集します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} について",
+      "content": "{{ProdShortName}} は、{{ProgLang}} 開発者に {{FileFormatUp}} ファイル内のコンテンツを修正するための使いやすいツールを提供します。テキスト、画像、メタデータを複数の形式にわたってマスクします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} メタデータ修正による {{FileFormatUp}} ファイルの保護",
+      "description": "{{EnvNameShort}} を使用して {{FileFormatUp}} ファイルから隠れたデータを消去します。ドキュメント内の機密情報を保護するためのシンプルで効果的な方法です。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}} を使用して {{FileFormatUp}} からメタデータを削除する",
+      "description": "{{ProdFullName}} を使って {{FileFormatUp}} ファイルの隠れたメタデータを削除または変更します。プライベートな詳細が漏れないようにドキュメントを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} を使用して {{FileFormatUp}} ファイル内のメタデータを削除する",
+      "description": "{{ProgLang}} を使用して {{FileFormatUp}} ファイルから機密メタデータをクリーンアップします。ビジネスおよび個人データを保護します。",
+      "subtitle": "{{ProdFullName}} の主な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ファイルの隠れたデータをクリーンアップする",
+      "content": {
+        "title": "{{ProdShortName}} は、あなたの {{EnvName}} プロジェクトが不要なメタデータを迅速に削除するのを支援します。",
+        "step_1": "{{textRedactor}} インスタンスを作成し、{{FileFormatCap}} ファイルを開きます。",
+        "step_2": "メタデータエントリをターゲットにした修正を設定します。",
+        "step_3": "ドキュメントをクリーンアップするために変更を適用します。",
+        "step_4": "クリーンしたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} ドキュメントからメタデータを消去する",
+      "comment_2": "{{textRedactor}} を使用してファイルを読み込みます",
+      "comment_3": "メタデータ削除の設定を行います",
+      "comment_4": "変更を適用してファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "メタデータフィールドをクリーンアップする",
+      "content": "この例では、{{FileFormatUp}} ファイルから隠れたデータを削除する方法を示します。",
+      "comment_1": "{{FileFormatUp}} ファイルを読み込みます",
+      "comment_2": "削除を対象とする Author フィールドを設定します",
+      "comment_3": "削除を対象とする Title フィールドを設定します",
+      "comment_4": "修正プロセスを実行します",
+      "comment_5": "更新されたファイルを保存します"
+    },
+    "more_features": {
+      "title": "任意のドキュメントで機密情報を隠す",
+      "description": "{{ProdFullName}} を使用して、さまざまなファイル形式で機密内容をクリーンアップします。文書を安全に共有または保存できるようにします。",
+      "image_description": "賢い修正オプション",
+      "feature_1": {
+        "title": "プライベートテキストを削除する",
+        "content": "ファイルから個人またはビジネスのテキストを探して消去します。"
+      },
+      "feature_2": {
+        "title": "画像にマスクをかける",
+        "content": "機密情報を隠すために画像または選択した領域を覆います。"
+      },
+      "feature_3": {
+        "title": "メタデータを消去する",
+        "content": "隠れたメタデータエントリをクリアして、背景の詳細が漏れないようにします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} とは？",
+      "content": "{{ProdShortName}} は、{{ProgLang}} 開発者が {{FileFormatUp}} ファイル内のコンテンツを隠すまたは削除するためのツールを提供します。テキスト、画像、およびメタデータを迅速にクリーンアップします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} を使用して {{FileFormatUp}} 内のメタデータを削除する",
+      "description": "{{EnvNameShort}} を使用して {{FileFormatUp}} ファイル内の不要なメタデータを削除します。ファイル内の隠れた詳細を保護するためのシンプルな方法です。"
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}} を使用して {{FileFormatUp}} ファイルのメタデータをクリーンアップする",
+      "description": "{{ProdFullName}} を使用すると、{{FileFormatUp}} ファイルからメタデータを安全に削除できます。プライベートデータが明らかになる可能性のある隠れた情報をクリアします。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} を使って {{FileFormatUp}} ファイルからメタデータを消去する",
+      "description": "{{ProgLang}} を使用して {{FileFormatUp}} ファイルの機密詳細を保護します。個人およびビジネス文書のための簡単な修正。",
+      "subtitle": "{{ProdFullName}} の機能を探る"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ファイルのメタデータをクリアする",
+      "content": {
+        "title": "{{ProdShortName}} を使用すれば、あなたの {{EnvName}} アプリは迅速に隠れたデータを削除できます。",
+        "step_1": "{{textRedactor}} を設定し、{{FileFormatCap}} ファイルを開きます。",
+        "step_2": "削除したいメタデータを定義します。",
+        "step_3": "修正ルールを適用します。",
+        "step_4": "最終ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} 内の隠れたメタデータをクリアします",
+      "comment_2": "{{textRedactor}} を使用してファイルを開きます",
+      "comment_3": "削除するメタデータを設定します",
+      "comment_4": "修正を適用して保存します"
+    },
+    "example_bottom": {
+      "title": "メタデータを削除する方法",
+      "content": "このサンプルコードは、{{FileFormatUp}} ドキュメント内のメタデータプロパティを削除します。",
+      "comment_1": "ドキュメントを開きます",
+      "comment_2": "Author メタデータをターゲットにします",
+      "comment_3": "Title メタデータをターゲットにします",
+      "comment_4": "修正プロセスを実行します",
+      "comment_5": "クリーンなドキュメントを保存します"
+    },
+    "more_features": {
+      "title": "文書内の機密情報を保護する",
+      "description": "{{ProdFullName}} を使用して、さまざまなファイル形式でコンテンツを消去または隠します。ファイルをプライベートのままにし、共有可能にします。",
+      "image_description": "すべてを一つにした修正機能",
+      "feature_1": {
+        "title": "テキストを置き換えるまたは削除する",
+        "content": "機密のテキストを見つけて削除し、個人データを保護します。"
+      },
+      "feature_2": {
+        "title": "画像セクションを隠す",
+        "content": "プライベートなビジュアルである必要のある画像エリアを覆うためにオーバーレイを使用します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除する",
+        "content": "個人情報やビジネスの詳細が含まれている可能性のある隠れたメタデータフィールドをクリアします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} について学ぶ",
+      "content": "{{ProdShortName}} は、{{ProgLang}} 開発者が {{FileFormatUp}} ドキュメント内のコンテンツをクリーンに保つためのツールを提供します。テキスト、画像、およびメタデータをマスクまたは削除します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} を使用して {{FileFormatUp}} のメタデータを削除する",
+      "description": "{{EnvNameShort}} を使用して {{FileFormatUp}} ファイルからプライベートメタデータを排除します。ドキュメントをクリーンで安全に保ちます。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}} を使用して {{FileFormatUp}} ファイルのメタデータを消去する",
+      "description": "{{ProdFullName}} は、{{FileFormatUp}} ファイルのメタデータを削除または編集するのに役立ちます。プライベートなバックグラウンドデータを削除することで、ドキュメントを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} ツールを使用して {{FileFormatUp}} のメタデータを削除する",
+      "description": "{{ProgLang}} を使用して {{FileFormatUp}} ファイル内の機密メタデータを隠します。ビジネスおよび個人のプライバシーに最適です。",
+      "subtitle": "{{ProdFullName}} のコア機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ファイル内の隠れたメタデータを消去する",
+      "content": {
+        "title": "{{ProdShortName}} はあなたの {{EnvName}} ソリューションを支援し、隠れたデータを簡単にクリーンアップします。",
+        "step_1": "{{textRedactor}} インスタンスを作成し、{{FileFormatCap}} ファイルを読み込みます。",
+        "step_2": "メタデータフィールドに対して修正ルールを設定します。",
+        "step_3": "データを削除するために修正を適用します。",
+        "step_4": "修正されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} からメタデータを削除する",
+      "comment_2": "{{textRedactor}} を使ってファイルを開きます",
+      "comment_3": "メタデータのクリーンアップに対する修正を設定します",
+      "comment_4": "変更を適用してファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "メタデータフィールドをクリーンアップする",
+      "content": "この例では、{{FileFormatUp}} ファイルからメタデータを安全に削除する方法を示します。",
+      "comment_1": "{{FileFormatUp}} ファイルをインポートします",
+      "comment_2": "Author フィールドを修正対象と設定します",
+      "comment_3": "Title フィールドを修正対象と設定します",
+      "comment_4": "修正プロセスを実行します",
+      "comment_5": "修正されたファイルをエクスポートします"
+    },
+    "more_features": {
+      "title": "任意のファイルのための追加の修正ツール",
+      "description": "{{ProdFullName}} は異なる形式でのコンテンツの修正をサポートします。データをプライベートに保ち、ファイルをクリーンに保ちます。",
+      "image_description": "組み込みのプライバシーツール",
+      "feature_1": {
+        "title": "テキストを見つけて削除する",
+        "content": "迅速に個人のテキストをファイルから削除します。"
+      },
+      "feature_2": {
+        "title": "オーバーレイで画像を覆う",
+        "content": "可視化されるべきでない画像セクションを隠します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除する",
+        "content": "作者、タイトルなどの隠れたフィールドを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} について",
+      "content": "{{ProdShortName}} は {{ProgLang}} 開発者のための修正ツールキットで、{{FileFormatUp}} ファイル内のデータを消去するお手伝いをします。テキスト、画像、メタデータを迅速にクリーンアップします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} を使用して {{FileFormatUp}} ファイルのメタデータをクリーンアップする",
+      "description": "{{EnvNameShort}} を使って {{FileFormatUp}} ファイルからバックグラウンドメタデータを簡単に削除します。ドキュメントの安全性に最適です。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}} を使用して {{FileFormatUp}} からメタデータを削除する",
+      "description": "{{ProdFullName}} を使用して、{{FileFormatUp}} ファイル内の隠れたメタデータを見つけて削除します。プライベートで機密なデータを明らかにさせないために、ドキュメントを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} を使用して {{FileFormatUp}} ファイル内のメタデータを削除する",
+      "description": "{{ProgLang}} を使用して {{FileFormatUp}} ファイル内の個人および企業データを保護します。信頼性の高いファイルプライバシーのためのシンプルなツール。",
+      "subtitle": "{{ProdFullName}} でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ファイルからメタデータを削除する",
+      "content": {
+        "title": "{{ProdShortName}} を用いれば、あなたの {{EnvName}} 環境で、ドキュメントのメタデータを簡単にクリーンアップすることができます。",
+        "step_1": "{{textRedactor}} オブジェクトを初期化し、{{FileFormatCap}} ドキュメントを開きます。",
+        "step_2": "すべての隠れたメタデータを消去するためのルールを設定します。",
+        "step_3": "敏感なタグを削除するために修正を実行します。",
+        "step_4": "クリーンされたドキュメントを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} ファイルからメタデータを消去する",
+      "comment_2": "{{textRedactor}} を使用してドキュメントを開きます",
+      "comment_3": "メタデータ削除のオプションを設定します",
+      "comment_4": "修正を適用してクリーンなファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "隠れたメタデータを編集または削除する",
+      "content": "この例では、{{FileFormatUp}} ドキュメント内のメタデータエントリをターゲットにしてクリーンアップする方法を示します。",
+      "comment_1": "修正のためにファイルを読み込みます",
+      "comment_2": "Author メタデータを削除します",
+      "comment_3": "Title メタデータを削除します",
+      "comment_4": "修正プロセスを実行します",
+      "comment_5": "クリーンなドキュメントをエクスポートします"
+    },
+    "more_features": {
+      "title": "文書から機密データを修正する",
+      "description": "{{ProdFullName}} を使用すれば、さまざまな形式からプライベートコンテンツを削除できます。ファイルの構造を維持しつつ、安全に保護します。",
+      "image_description": "メタデータとコンテンツ修正ツール",
+      "feature_1": {
+        "title": "機密テキストを置き換える",
+        "content": "ドキュメント内のテキストを見つけて安全に削除または変更し、プライベート情報を保護します。"
+      },
+      "feature_2": {
+        "title": "画像にマスクをかける",
+        "content": "視覚データを隠すために画像の敏感な領域を覆います。"
+      },
+      "feature_3": {
+        "title": "メタデータを消去する",
+        "content": "情報漏えいを避けるために隠れたデータを見つけてクリーンアップします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} について",
+      "content": "{{ProdShortName}} は {{ProgLang}} 開発者が {{FileFormatUp}} ファイル内の内容を保護するのを支援します。テキスト、画像、およびメタデータを迅速かつ容易にクリーンアップします。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} による {{FileFormatUp}} のメタデータ修正",
+      "description": "{{EnvNameShort}} を使用して {{FileFormatUp}} ファイルから隠れたメタデータをクリーンアップします。機密情報を安全に保ち、シンプルなツールで保護します。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}} による {{FileFormatUp}} でのメタデータの編集と削除",
+      "description": "{{ProdFullName}} を使用し、メタデータを削除することで {{FileFormatUp}} ドキュメントを保護します。プライバシーを損なう可能性のある隠れたデータを排除します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} による {{FileFormatUp}} ファイルのメタデータ保護",
+      "description": "{{ProgLang}} を使用して {{FileFormatUp}} ファイルから機密データをクリーンアップします。情報保護のために設計されたツール。",
+      "subtitle": "{{ProdFullName}} の主な利点"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ファイルのメタデータをクリアする",
+      "content": {
+        "title": "{{ProdShortName}} をあなたの {{EnvName}} プロジェクトで使用して、ドキュメントのメタデータを安全に処理します。",
+        "step_1": "{{textRedactor}} オブジェクトを作成し、対象の {{FileFormatCap}} ファイルを読み込みます。",
+        "step_2": "隠れたメタデータをクリアするために修正を設定します。",
+        "step_3": "クリーンアッププロセスを実行します。",
+        "step_4": "最終バージョンを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} からメタデータを消去する",
+      "comment_2": "修正ツールを初期化し、ファイルを読み込みます",
+      "comment_3": "メタデータの削除オプションを設定します",
+      "comment_4": "修正を行い、結果を保存します"
+    },
+    "example_bottom": {
+      "title": "修正対象のメタデータをターゲットにする",
+      "content": "{{FileFormatUp}} ドキュメント内の Author や Title などのメタデータを見つけて削除する方法を学びます。",
+      "comment_1": "ドキュメントを修正ツールにインポートします",
+      "comment_2": "Author メタデータをターゲットにします",
+      "comment_3": "Title メタデータをターゲットにします",
+      "comment_4": "変更を適用します",
+      "comment_5": "更新したドキュメントを保存します"
+    },
+    "more_features": {
+      "title": "あなたのファイル内のプライベートデータを消去する",
+      "description": "{{ProdFullName}} を使用すると、複数の形式でテキスト、画像、メタデータをクリーンアップできます。個人、法的、および企業文書に最適です。",
+      "image_description": "メタデータ除去ツール",
+      "feature_1": {
+        "title": "テキストを検索して削除する",
+        "content": "ドキュメント内の個人情報や機密テキストを見つけて安全に削除します。"
+      },
+      "feature_2": {
+        "title": "視覚要素を隠す",
+        "content": "可視化を防ぐために画像の敏感な部分にオーバーレイを追加します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除する",
+        "content": "漏洩する可能性のある埋め込まれたデータを消去します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} とは？",
+      "content": "{{ProdShortName}} は {{ProgLang}} 開発者に、{{FileFormatUp}} ファイルで修正を管理する信頼性の高い方法を提供します。テキスト、画像、そしてメタデータと連携します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} を使用して {{FileFormatUp}} 内のメタデータを削除する",
+      "description": "{{EnvNameShort}} を使用して {{FileFormatUp}} ファイルからプライベートメタデータを排除します。ドキュメントをクリーンで安全に保ちます。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}} を使用して {{FileFormatUp}} のメタデータをクリーンアップする",
+      "description": "{{ProdFullName}} を使用して {{FileFormatUp}} ファイルから不要なメタデータを削除します。隠れたデータを消去することでプライバシーを保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} を通じて {{FileFormatUp}} のメタデータを消去する",
+      "description": "{{ProgLang}} に特化したシンプルなツールを使用して、{{FileFormatUp}} ファイル内のデータを保護します。数ステップでメタデータを削除します。",
+      "subtitle": "{{ProdFullName}} の機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ドキュメントからメタデータを消去する",
+      "content": {
+        "title": "{{ProdShortName}} を使用すれば、あなたの {{EnvName}} アプリでドキュメントのメタデータを簡単に消去できます。",
+        "step_1": "{{textRedactor}} オブジェクトを開始し、ファイルを読み込みます。",
+        "step_2": "削除するメタデータフィールドを選択します。",
+        "step_3": "修正設定を適用します。",
+        "step_4": "最終的な、クリーンなドキュメントをエクスポートします。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} からメタデータを削除する",
+      "comment_2": "ドキュメントを修正ツールで開きます",
+      "comment_3": "メタデータクリーンアップオプションを設定します",
+      "comment_4": "修正を適用して保存します"
+    },
+    "example_bottom": {
+      "title": "隠れたメタデータフィールドを消去する",
+      "content": "この例では、{{FileFormatUp}} ファイルからAuthorやTitle のような埋め込まれたデータを削除する手順を示します。",
+      "comment_1": "リダクターにファイルをインポートします",
+      "comment_2": "Author データを削除します",
+      "comment_3": "Title データを削除します",
+      "comment_4": "修正を実行します",
+      "comment_5": "クリーン版を保存します"
+    },
+    "more_features": {
+      "title": "ドキュメントを修正して保護する",
+      "description": "{{ProdFullName}} を使用して、ドキュメントから隠れた内容を削除し、安全に共有できるようにします。多くの形式およびコンテンツタイプに対応しています。",
+      "image_description": "修正機能",
+      "feature_1": {
+        "title": "プライベートテキストを削除する",
+        "content": "センシティブな単語やフレーズを見つけてドキュメントから削除します。"
+      },
+      "feature_2": {
+        "title": "画像データをマスクする",
+        "content": "隠れる必要のある画像の領域を覆うためにオーバーレイを使用します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除する",
+        "content": "隠れた情報を持つ可能性のあるメタデータフィールドをクリーンアップします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} について",
+      "content": "{{ProdShortName}} は {{ProgLang}} 開発者のための修正ツールキットで、{{FileFormatUp}} ファイル内でテキスト、画像、メタデータを修正するのに役立ちます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} を使って {{FileFormatUp}} ファイルをクリーンアップする",
+      "description": "{{EnvNameShort}} を使用して、{{FileFormatUp}} ファイル内の隠れたデータを削除します。機密情報を安全に保つために最適です。"
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "{{ProgLang}} を使用して {{FileFormatUp}} のメタデータを編集する",
+      "description": "{{ProdFullName}} を使用すると、{{FileFormatUp}} ファイルのメタデータをクリーンまたは変更できます。プライベートデータが含まれている可能性のある隠れた詳細を削除します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} を使用して {{FileFormatUp}} ファイルからメタデータを削除する",
+      "description": "{{ProgLang}} を使用して、{{FileFormatUp}} ファイル内のプライベートな詳細を保護します。より良いドキュメントセキュリティのためのシンプルなツール。",
+      "subtitle": "{{ProdFullName}} の主な機能"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ドキュメントのメタデータをクリーンアップする",
+      "content": {
+        "title": "{{ProdShortName}} により、あなたの {{EnvName}} アプリケーション内でメタデータを削除することが容易になります。",
+        "step_1": "{{textRedactor}} を設定し、クリーンにしたい {{FileFormatCap}} ファイルを読み込みます。",
+        "step_2": "すべてのメタデータを消去する設定を選択します。",
+        "step_3": "ファイルをクリーンにするために修正を実行します。",
+        "step_4": "クリーンアップされたメタデータを持つファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} ファイルからメタデータを削除する",
+      "comment_2": "{{textRedactor}} を使ってファイルを読み込みます",
+      "comment_3": "メタデータの修正を設定します",
+      "comment_4": "適用して保存します"
+    },
+    "example_bottom": {
+      "title": "隠れたメタデータフィールドをクリーンアップする",
+      "content": "この例では、{{FileFormatUp}} ドキュメント内の隠れたメタデータを削除または編集する方法を示します。",
+      "comment_1": "修正ツールで {{FileFormatUp}} ファイルを開きます",
+      "comment_2": "Author フィールドに修正を追加します",
+      "comment_3": "Title フィールドに修正を追加します",
+      "comment_4": "修正プロセスを実行します",
+      "comment_5": "クリーンなドキュメントを保存します"
+    },
+    "more_features": {
+      "title": "ドキュメントから機密データを削除する",
+      "description": "{{ProdFullName}} は多くの形式にわたってプライベートなテキスト、画像部分、または隠れたフィールドを除去します。敏感なデータを保護しながら、ファイルを役立つ姿に保ちます。",
+      "image_description": "主要な修正機能",
+      "feature_1": {
+        "title": "テキストを検索して削除する",
+        "content": "ファイル内の敏感な言葉やフレーズを見つけて消去します。"
+      },
+      "feature_2": {
+        "title": "画像領域を覆う",
+        "content": "プライベートな部分を隠すためにオーバーレイを使用します。"
+      },
+      "feature_3": {
+        "title": "メタデータを編集する",
+        "content": "プライベートなデータを共有しないようにメタデータを削除または変更します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdShortName}} は {{ProgLang}} 開発者が {{FileFormatUp}} ファイル内のテキスト、画像、およびメタデータを削除するのを支援します。シンプルなツールで作業します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} による {{FileFormatUp}} メタデータのクリア",
+      "description": "{{EnvNameShort}} を使用して {{FileFormatUp}} ドキュメントから隠れたデータを削除します。敏感な詳細を保護するための素晴らしい方法です。"
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "{{ProgLang}} を使用して {{FileFormatUp}} 内の隠れたメタデータを削除する",
+      "description": "{{ProdFullName}} を使用して {{FileFormatUp}} ファイルのメタデータをクリーンアップします。プライベートな詳細が保持されるようにします。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} を通じて {{FileFormatUp}} ファイルのメタデータを消去する",
+      "description": "{{ProgLang}} を使用して {{FileFormatUp}} ファイルを安全に保ちます。ビジネスおよび個人のデータを容易に保護します。",
+      "subtitle": "{{ProdFullName}} による提供内容"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ファイルのメタデータをクリーンアップする",
+      "content": {
+        "title": "{{ProdShortName}} を使用して、あなたの {{EnvName}} アプリ内でファイルメタデータをクリーンにします。",
+        "step_1": "{{textRedactor}} を作成し、{{FileFormatCap}} ファイルを開きます。",
+        "step_2": "隠れたメタデータエントリを削除するオプションを選択します。",
+        "step_3": "修正設定を適用します。",
+        "step_4": "結果を保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} ファイルから隠れたメタデータを削除する",
+      "comment_2": "{{textRedactor}} でファイルを開きます",
+      "comment_3": "メタデータに対する修正ルールを追加します",
+      "comment_4": "処理し、保存します"
+    },
+    "example_bottom": {
+      "title": "センシティブデータを消去する",
+      "content": "このサンプルでは、{{FileFormatUp}} ドキュメントの特定のメタデータフィールドを削除する方法を説明します。",
+      "comment_1": "修正ツールで {{FileFormatUp}} をオープンします",
+      "comment_2": "Author フィールドをターゲットにします",
+      "comment_3": "Title フィールドをターゲットにします",
+      "comment_4": "フィールドを修正します",
+      "comment_5": "ドキュメントを保存します"
+    },
+    "more_features": {
+      "title": "任意のドキュメントでコンテンツをクリーンアップする",
+      "description": "{{ProdFullName}} はプライベートなテキスト、画像の部分、または隠れたフィールドを除去します。文書を安全に共有できるようにします。",
+      "image_description": "主要機能",
+      "feature_1": {
+        "title": "テキストの修正",
+        "content": "プライベートな単語や数値を見つけて削除します。"
+      },
+      "feature_2": {
+        "title": "画像を隠す",
+        "content": "視覚情報を隠すために画像マスクを追加します。"
+      },
+      "feature_3": {
+        "title": "メタデータの修正",
+        "content": "情報漏えいの可能性があるメタデータフィールドをクリアします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} について",
+      "content": "{{ProdShortName}} は {{ProgLang}} ユーザーが {{FileFormatUp}} ファイル内の不要なテキスト、画像部分、メタデータを削除するのを支援します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} を使用して {{FileFormatUp}} からメタデータを削除する",
+      "description": "{{EnvNameShort}} 修正を使って {{FileFormatUp}} ファイルの機密データを消去します。共有または保存するためにファイルを安全に保つための方法です。"
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "{{ProgLang}} を使用して {{FileFormatUp}} のメタデータを削除する",
+      "description": "{{ProdFullName}} を使って、個人またはビジネス情報が開示される可能性のある {{FileFormatUp}} ファイル内の隠れたデータを削除します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}} を使った {{FileFormatUp}} ファイルのメタデータ削除",
+      "description": "{{ProgLang}} を使用して、{{FileFormatUp}} ファイルから隠れた情報を簡単に保護します。",
+      "subtitle": "{{ProdFullName}} の特徴"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}} ファイルのメタデータを消去する",
+      "content": {
+        "title": "{{ProdShortName}} を使用して、あなたの {{EnvName}} プロジェクトにおいてドキュメントメタデータをクリーンアップします。",
+        "step_1": "{{textRedactor}} を開始し、{{FileFormatCap}} ファイルを開きます。",
+        "step_2": "メタデータを削除するルールを設定します。",
+        "step_3": "修正を適用してファイルをクリーンにします。",
+        "step_4": "結果ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}} ドキュメントからメタデータを削除する",
+      "comment_2": "{{textRedactor}} を使用してドキュメントをロードします",
+      "comment_3": "メタデータフィールドを修正するために設定します",
+      "comment_4": "ドキュメントをクリーンし、保存します"
+    },
+    "example_bottom": {
+      "title": "隠れたメタデータフィールドの削除",
+      "content": "この例では、{{FileFormatUp}} ドキュメントのメタデータを削除する手順を示します。",
+      "comment_1": "修正ツールで {{FileFormatUp}} ファイルを読み込みます",
+      "comment_2": "Author フィールドを修正します",
+      "comment_3": "Title フィールドを修正します",
+      "comment_4": "ドキュメントを処理します",
+      "comment_5": "クリーンバージョンを保存します"
+    },
+    "more_features": {
+      "title": "ファイルからプライベート情報を消去する",
+      "description": "{{ProdFullName}} によって、テキスト、画像、およびファイル詳細から個人データを消去できます。データセキュリティに最適です。",
+      "image_description": "便利な修正機能",
+      "feature_1": {
+        "title": "テキストをクリアする",
+        "content": "共有すべきでないテキストをスキャンして削除します。"
+      },
+      "feature_2": {
+        "title": "画像領域を覆う",
+        "content": "画像のプライベートな詳細を覆い隠すためにカバーを追加します。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除する",
+        "content": "公開や共有の前に隠れたファイルデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}} について",
+      "content": "{{ProdShortName}} は {{ProgLang}} 開発者が {{FileFormatUp}} ファイルのプライベートコンテンツを隠すのを支援します。テキスト、画像パーツ、メタデータを含めて、簡単に作業を行えます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}} による {{FileFormatUp}} メタデータの修正に使う",
+      "description": "{{EnvNameShort}} ツールを使用して、{{FileFormatUp}} ドキュメントの隠れたデータを排除します。機密的な情報を安全に保つために理想的です。"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Redaksi Excel",
+        "description": "Spreadsheet MS Excel dan Open Office"
+      },
+      "word": {
+        "name": "Redaksi Word",
+        "description": "Dokumen MS Word dan Open Office"
+      },
+      "powerpoint": {
+        "name": "Redaksi PowerPoint",
+        "description": "Presentasi MS PowerPoint dan Open Office"
+      },
+      "image": {
+        "name": "Redaksi Gambar",
+        "description": "Format gambar populer"
+      },
+      "photo": {
+        "name": "Redaksi Foto",
+        "description": "Format foto"
+      },
+      "pdf": {
+        "name": "Redaksi PDF",
+        "description": "Format Dokumen Portabel Adobe"
+      },
+      "doc": {
+        "name": "Redaksi DOC",
+        "description": "Dokumen Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Redaksi DOCX",
+        "description": "Dokumen Microsoft Word Open XML"
+      },
+      "xls": {
+        "name": "Redaksi XLS",
+        "description": "Workbook Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Redaksi XLSX",
+        "description": "Spreadsheet Microsoft Excel Open XML"
+      },
+      "ppt": {
+        "name": "Redaksi PPT",
+        "description": "Presentasi PowerPoint 97-2003"
+      },
+      "pptx": {
+        "name": "Redaksi PPTX",
+        "description": "Presentasi PowerPoint Open XML"
+      },
+      "jpg": {
+        "name": "Redaksi JPEG",
+        "description": "Gambar JPEG"
+      },
+      "jpeg": {
+        "name": "Redaksi JPEG",
+        "description": "Gambar JPEG"
+      },
+      "png": {
+        "name": "Redaksi PNG",
+        "description": "Grafik Jaringan Portabel"
+      },
+      "tiff": {
+        "name": "Redaksi TIFF",
+        "description": "Format File Gambar Tag"
+      },
+      "webp": {
+        "name": "Redaksi WEBP",
+        "description": "Gambar WEB"
+      },
+      "rtf": {
+        "name": "Redaksi RTF",
+        "description": "Format Teks Kaya"
+      }
+    },
+    "format-code": {
+      "copy_title": "Salin",
+      "result_title": "Contoh redaksi",
+      "result_title_bottom": "Unduh hasil",
+      "copy_tip": "klik untuk menyalin",
+      "copy_done": "disalin",
+      "links": {
+        "title_1": "Lebih banyak contoh",
+        "title_2": "Dokumentasi"
+      }
+    },
+    "format-actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "Unduh {{PackageStoreName}}",
+      "comment_2": "Lisensi"
+    },
+    "texts": {
+      "learn_more": "Pelajari lebih lanjut"
+    }
+  }
+}

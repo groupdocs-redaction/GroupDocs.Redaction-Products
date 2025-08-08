@@ -1,0 +1,385 @@
+{
+  "index-content": {
+    "head_title": "文档删除解决方案。编辑或移除任何敏感数据。",
+    "head_description": "在PDF、Word文档、Excel电子表格、PowerPoint演示文稿、图像等文件中删除、删除或隐藏文本、图像或元数据。在您的.NET、Java、Python或基于云的应用程序中使用我们的库。",
+    "title": "文档删除库",
+    "description_0": "从各种文件类型中隐藏或移除私人信息。",
+    "description_1": "编辑文本或图像以消除敏感内容。",
+    "description_2": "使用我们的高级功能管理文件元数据。",
+    "words_for": "用于",
+    "release_title": "版本 {0} 已发布",
+    "release_notes": "查看新功能",
+    "release_downloads": "下载",
+    "code_more": "更多示例",
+    "overview_title": "{{ProdShortName}} 一览",
+    "formats_title": "支持的文件格式",
+    "platforms": {
+      "title": "平台独立性",
+      "head_title": "选择您的平台",
+      "description": "{{ProdShortName}} 库支持以下操作系统和框架：",
+      "learn_more": "了解更多",
+      "any_other_text_editor": "任何其他文本编辑器"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 一览",
+      "description": "在PDF、Office文档、图像和其他商业文件中管理内容的解决方案。",
+      "feature_1": {
+        "title": "移除或编辑文本",
+        "content": "轻松查找并删除文档中的敏感文本。"
+      },
+      "feature_2": {
+        "title": "处理图像",
+        "content": "轻松隐藏文件中的图像区域，无需额外努力。"
+      },
+      "feature_3": {
+        "title": "管理元数据",
+        "content": "删除或替换如Word文档中的作者信息或图像中的EXIF数据等元数据。"
+      },
+      "feature_4": {
+        "title": "高级功能",
+        "content": "使用正则表达式或AI集成搜索需要删除的数据。"
+      }
+    },
+    "formats": {
+      "title": "支持30多种文件格式",
+      "description": "{{ProdShortName}} 支持所有常用商业文件格式的删除操作。"
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "index_title": "{{ProdShortName}} 代码示例",
+      "index_description": "{{ProdShortName}} 删除操作的典型用例。",
+      "more_examples": "更多示例",
+      "sample_index": {
+        "title": "如何在PDF文档中删除文本",
+        "content": "{{ProdShortName}} 是在文档中删除文本的最佳解决方案，只需几个步骤。",
+        "comment_1": "将要删除的文件路径传递给 {{textRedactor}} 实例",
+        "comment_2": "提供删除选项",
+        "comment_3": "删除并保存结果"
+      },
+      "sample_1": {
+        "code_title": "使用正则表达式删除Word文档",
+        "comment_1": "创建一个 {{textRedactor}} 类的实例",
+        "comment_2": "使用正则表达式定义删除规则",
+        "comment_3": "使用蓝色方框覆盖所有匹配文本",
+        "comment_4": "保存已删除的Word文档"
+      },
+      "sample_2": {
+        "code_title": "从演示文稿中删除所有元数据",
+        "comment_1": "将演示文稿的路径提供给 {{textRedactor}}",
+        "comment_2": "配置删除选项",
+        "comment_3": "从演示文稿中删除所有元数据",
+        "comment_4": "保存清理后的演示文件"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} 成就",
+      "description": "发现突出我们库成功的关键指标",
+      "item_1": {
+        "title": "支持的格式",
+        "description": "{{ProdShortName}} 支持超过30种广泛使用文件格式的操作。"
+      },
+      "item_2": {
+        "title": "NuGet 下载",
+        "description": "{{ProdShortName}} for .NET 在NuGet上下载次数超过440,000次。"
+      },
+      "item_3": {
+        "title": "Maven 下载",
+        "description": "{{ProdShortName}} 在Maven上有超过12,000次下载，提供强大的Java删除功能。"
+      },
+      "item_4": {
+        "title": "满意的客户",
+        "description": "全球企业和个人开发者依赖 {{NameCompany}} 的产品构建创新解决方案。"
+      }
+    },
+    "customers": {
+      "title": "我们的满意客户",
+      "description": "{{NameCompany}} 的库已被全球知名和受人尊敬的品牌所信任。"
+    },
+    "actions": {
+      "alt": "许可",
+      "title": "准备好开始了吗？",
+      "description": "免费试用 {{ProdShortName}} 的功能或请求许可证。",
+      "description_index": "在您的平台上免费试用 {{ProdShortName}} 的功能。"
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "对最常见问题的回答。",
+      "item_1": {
+        "question": "{{ProdShortName}} 库是否需要任何第三方软件来处理文档？",
+        "answer": "{{ProdShortName}} 不需要任何外部软件，如Adobe Acrobat、Microsoft Office等。"
+      },
+      "item_2": {
+        "question": "我可以在购买之前尝试 {{ProdShortName}} 库吗？",
+        "answer": "是的，您可以在不购买许可证的情况下尝试 {{ProdShortName}}。它以试用模式工作，添加试用标记并将输出限制在前3页。要测试无限制，请请求一个为期30天的临时许可证。有关更多信息，[请查看]({{LicensingUrl}})。"
+      },
+      "item_3": {
+        "question": "有哪些许可选项？",
+        "answer": "我们根据您的开发和分发需求提供多种许可类型。这些包括基于开发者、基于站点和按使用计费的许可证。了解更多信息 [这里]({{PricingUrl}})。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 低代码 API",
+      "description": "通过我们的基于云的REST API将文档删除集成到任何应用程序中。",
+      "item_1": {
+        "content": "使用我们的RESTful云API的cURL命令在广泛支持的文件格式中删除文档。"
+      },
+      "item_2": {
+        "content": "提取图像、文本和元数据，或使用Microsoft .NET应用程序中的模板删除文档。"
+      },
+      "item_3": {
+        "content": "Java SDK用于在您的Java应用程序中删除文档和提取数据。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 无代码应用",
+      "description": "一个基于Web的应用程序，使您能够直接在浏览器中删除30多种流行文件格式。",
+      "item_1": {
+        "content": "免费的在线工具，删除Word、Excel、PowerPoint、PDF和30多种其他类型的文件。"
+      },
+      "item_2": {
+        "content": "在浏览器中删除Word文档并提取图像、文本或元数据。"
+      },
+      "item_3": {
+        "content": "免费的PDF删除工具，在任何设备或平台上工作，没有限制。"
+      }
+    },
+    "formats_groups": {
+      "title_1": "MS Office 格式",
+      "title_2": "其他Office格式",
+      "title_3": "其他格式",
+      "format_portable": "可移植",
+      "format_images": "图像",
+      "format_other_office": "文本格式",
+      "format_other_web": "网络",
+      "format_other_ebooks": "电子书"
+    }
+  },
+  "index-content-net": {
+    "head_title": "使用 {{EnvNameShort}} 删除文档中的敏感数据",
+    "head_description": "使用 {{ProdFullName}} 保护您的业务文档。轻松删除、隐藏或移除PDF、Word、Excel、PowerPoint和图像文件中的机密内容。",
+    "title": "使用 {{ProdShortName}} 保护您的内容",
+    "description": "使用我们强大的 {{EnvNameShort}} 解决方案，从PDF、Word文档、电子表格、演示文稿和图像中删除、隐藏或永久移除敏感信息和元数据。",
+    "actions_main": "{{PackageStoreName}} 下载",
+    "code_title": "如何删除文件内容",
+    "code_comment_1": "将输入文件传递给 {{textRedactor}} 实例",
+    "code_comment_2": "配置删除选项",
+    "code_comment_3": "运行删除过程",
+    "code_comment_4": "保存已删除的文件",
+    "overview_description": "为您的 {{EnvNameShort}} 应用程序添加专业级内容删除",
+    "overview_feature_1": {
+      "title": "删除文本内容",
+      "description": "{{ProdFullName}} 允许您定位和删除敏感文本。可以使用彩色图像覆盖物替换或隐藏文本，以增强安全性。支持PDF和Office文档等多种格式，此功能有助于保护私密数据并简化业务合规。"
+    },
+    "overview_feature_2": {
+      "title": "处理图像",
+      "description": "自动在文档页面检测和删除图像——无论是部分还是完全。指定搜索条件和目标区域，以高效地掩盖敏感视觉内容。"
+    },
+    "overview_feature_3": {
+      "title": "管理文件元数据",
+      "description": "许多文件类型中包含隐藏元数据，例如Word文件中的作者名称或图像中的EXIF数据。{{ProdFullName}} 使查找和删除这些信息变得简单，以确保数据完全隐私。"
+    },
+    "overview_feature_4": {
+      "title": "删除文档对象",
+      "description": "通过删除文档特定元素（如注释、评论和嵌入对象）确保内容的完整保护，支持的格式包括PDF。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 特性",
+      "description": "快速高效地从PDF、Office文件和图像中提取和删除数据。",
+      "feature_1": {
+        "title": "灵活搜索",
+        "content": "执行区分大小写或不区分大小写的搜索以删除特定短语或术语。"
+      },
+      "feature_2": {
+        "title": "替换或删除文本",
+        "content": "轻松查找并在整个文档中替换或删除敏感文本。"
+      },
+      "feature_3": {
+        "title": "使用图像隐藏文本",
+        "content": "使用彩色图像覆盖物可视化掩盖删除内容，而不是替换文本。"
+      },
+      "feature_4": {
+        "title": "先进搜索能力",
+        "content": "使用正则表达式进行精确灵活的内容删除，跨复杂数据集。"
+      },
+      "feature_5": {
+        "title": "附加删除",
+        "content": "针对特定页面或定义的页面区域进行定位，以将删除限制在相关部分。"
+      },
+      "feature_6": {
+        "title": "元数据删除",
+        "content": "查找并删除元数据属性，以保护文档所有权和创建细节。"
+      },
+      "feature_7": {
+        "title": "灵活输出格式",
+        "content": "将删除后的文件导出为PDF或任何支持的格式，同时保持布局完整性。"
+      },
+      "feature_8": {
+        "title": "完全元数据擦除",
+        "content": "通过一次操作擦除文档中的所有元数据，以确保绝对隐私。"
+      },
+      "feature_9": {
+        "title": "基于XML的删除规则",
+        "content": "以XML格式定义删除策略，以便在多个文件中进行可重复的自动处理。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 兼容多种操作系统、开发框架和软件包管理器。",
+    "formats_description": "{{ProdFullName}} 支持与以下 [文件格式]({{SupportedFormatsUrl}}) 的操作。",
+    "code_samples_description": "{{ProdFullName}} 的典型用法示例",
+    "code_title_sample_1": "使用正则表达式进行删除",
+    "code_samples_sample_1_content": "{{ProdFullName}} 使得 {{ProgLang}} 开发者能够使用 [正则表达式]({{Sample1Url}}) 删除文本，并用图像覆盖物遮盖：",
+    "code_title_sample_2": "元数据清理",
+    "code_samples_sample_2_content": "使用我们的API轻松 [删除]({{Sample2Url}}) 所有支持的文件格式的元数据："
+  },
+  "index-content-java": {
+    "head_title": "使用 {{EnvNameShort}} 删除文档中的机密数据",
+    "head_description": "使用 {{ProdFullName}} 保护您的敏感信息。轻松隐藏、删除或删除PDF、Office文件和图像中的私人内容。",
+    "title": "使用 {{ProdShortName}} 保护机密数据",
+    "description": "轻松从PDF、Word、Excel、PowerPoint和图像格式中移除私有数据、删除文本和清理元数据，使用可靠的 {{EnvNameShort}} 工具包。",
+    "actions_main": "{{PackageStoreName}} 下载",
+    "code_title": "删除文档内容的步骤",
+    "code_comment_1": "加载带有 {{textRedactor}} 实例的源文件",
+    "code_comment_2": "定义删除标准和设置",
+    "code_comment_3": "执行删除操作",
+    "code_comment_4": "保存应用删除的文件",
+    "overview_description": "为您的 {{EnvNameShort}} 应用程序增强专业删除工具",
+    "overview_feature_1": {
+      "title": "删除敏感文本",
+      "description": "使用 {{ProdFullName}}，您可以通过可定制的覆盖层或替换搜索和隐藏私人文本。支持PDF、Word、Excel等格式，适合监管合规和安全文件共享。"
+    },
+    "overview_feature_2": {
+      "title": "隐藏图像",
+      "description": "根据需要识别和遮蔽图像，可以完全或部分。定义检测规则和区域坐标以高效保护视觉数据。"
+    },
+    "overview_feature_3": {
+      "title": "清理嵌入的元数据",
+      "description": "文件可能携带隐藏的信息，如作者名称、创建工具或设备详细信息。{{ProdFullName}} 使得您可以检测和清理Word、Excel、图像及其他格式的元数据。"
+    },
+    "overview_feature_4": {
+      "title": "删除嵌入对象",
+      "description": "通过删除注释、评论或其他嵌入项目等对象，彻底清理文档，以消除任何机密信息的痕迹。"
+    },
+    "features": {
+      "title": "您可以用 {{ProdShortName}} 做什么",
+      "description": "快速定位和删除PDF、Office文档和图像中的内容，精准无误。",
+      "feature_1": {
+        "title": "精准搜索",
+        "content": "使用区分大小写和不区分大小写的搜索模式查找并删除完全匹配。"
+      },
+      "feature_2": {
+        "title": "查找并替换文本",
+        "content": "自动检测并替换或删除机密文本。"
+      },
+      "feature_3": {
+        "title": "使用自定义图像覆盖",
+        "content": "使用图像块遮盖删除文本，保持布局的同时隐藏细节。"
+      },
+      "feature_4": {
+        "title": "使用正则表达式进行高级删除",
+        "content": "利用正则表达式检测复杂模式并智能删除。"
+      },
+      "feature_5": {
+        "title": "仅删除特定区域",
+        "content": "通过定义精确的区域来限制删除，使其仅适用于选定的页面或区域。"
+      },
+      "feature_6": {
+        "title": "清理元数据字段",
+        "content": "识别并清理文档元数据，包括作者、公司或跟踪数据。"
+      },
+      "feature_7": {
+        "title": "以所需格式导出",
+        "content": "在不损失布局完整性的情况下，保存您的删除文件为PDF或其他支持的格式。"
+      },
+      "feature_8": {
+        "title": "清除所有元数据",
+        "content": "仅需一个命令，就可以从支持的文件中完全删除元数据。"
+      },
+      "feature_9": {
+        "title": "自动化删除策略",
+        "content": "创建可重用的删除配置，存储为XML，以便在多个文件中进行一致的批量删除。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 适用于主要操作系统、框架和开发平台。",
+    "formats_description": "{{ProdFullName}} 支持与以下 [文件格式]({{SupportedFormatsUrl}}) 的操作。",
+    "code_samples_description": "常见 {{ProdFullName}} 使用案例示例",
+    "code_title_sample_1": "使用正则表达式进行删除",
+    "code_samples_sample_1_content": "{{ProdFullName}} 使 {{ProgLang}} 开发者能够应用 [基于正则表达式的删除]({{Sample1Url}})，并使用可选的图像遮盖：",
+    "code_title_sample_2": "删除所有元数据",
+    "code_samples_sample_2_content": "使用我们的API，您可以在一步中 [删除元数据]({{Sample2Url}}) 跨越多种文件类型："
+  },
+  "index-content-python": {
+    "head_title": "使用 {{EnvNameShort}} 擦除文档中的机密信息",
+    "head_description": "使用 {{ProdFullName}} 保持您的文件安全。快速删除、隐藏或删除PDF、Word、Excel、PowerPoint和图像文件中的敏感内容。",
+    "title": "使用 {{ProdShortName}} 保持您的文档安全",
+    "description": "轻松去除私有数据、删除文本，并清理PDF、Office文件和图像中的隐藏元数据，使用高级的 {{EnvNameShort}} 工具包。",
+    "actions_main": "{{PackageStoreName}} 下载",
+    "code_title": "删除文档内容",
+    "code_comment_1": "将文件加载到 {{textRedactor}} 实例中",
+    "code_comment_2": "调整删除参数",
+    "code_comment_3": "开始删除过程",
+    "code_comment_4": "导出清理后的文件",
+    "overview_description": "将强大的删除功能集成到您的 {{EnvNameShort}} 项目中",
+    "overview_feature_1": {
+      "title": "删除敏感文本",
+      "description": "使用 {{ProdFullName}}，您可以自动找到并覆盖敏感单词或短语。用彩色框替换或遮盖文本，以增强保护，适用于PDF、Word文档及其他格式。"
+    },
+    "overview_feature_2": {
+      "title": "遮罩图像",
+      "description": "我们的技术可以根据您选择的标准检测图像并模糊、隐藏或阻止它们。定义特定区域或允许自动检测以完全控制。"
+    },
+    "overview_feature_3": {
+      "title": "删除隐藏的元数据",
+      "description": "消除隐藏在元数据中的个人或跟踪详细信息，如作者信息或设备信息。{{ProdFullName}} 确保您的文档被全面清理，并且可以安全共享。"
+    },
+    "overview_feature_4": {
+      "title": "删除特殊元素",
+      "description": "通过删除嵌入项目，如评论、注释和其他文件特定元素，实现完全机密性。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 的关键特性",
+      "description": "轻松扫描、定位和删除PDF、图像和Office文件中的敏感内容。",
+      "feature_1": {
+        "title": "可定制搜索",
+        "content": "使用灵活的搜索模式查找精确匹配或关键字进行删除。"
+      },
+      "feature_2": {
+        "title": "查找、替换或删除文本",
+        "content": "查找敏感数据，可以将其替换为安全文本或彻底擦除。"
+      },
+      "feature_3": {
+        "title": "可视遮罩",
+        "content": "使用彩色形状或图案重叠以在可视上覆盖删除的部分。"
+      },
+      "feature_4": {
+        "title": "基于正则表达式的检测",
+        "content": "利用正则表达式，进行高级文本搜索时实现精确准确。"
+      },
+      "feature_5": {
+        "title": "有针对性地删除",
+        "content": "仅针对某些页面或定义的区域进行删除，以节省时间并关注重点区域。"
+      },
+      "feature_6": {
+        "title": "元数据清理",
+        "content": "轻松清除文件中的元数据字段，如创作者、公司或时间戳。"
+      },
+      "feature_7": {
+        "title": "导出选项",
+        "content": "以PDF或其他兼容格式保存处理后的文档，而不会损失布局保真度。"
+      },
+      "feature_8": {
+        "title": "完全的元数据擦除",
+        "content": "只需单击一下，即可完全擦除所有嵌入元数据，以确保数据保护的最大化。"
+      },
+      "feature_9": {
+        "title": "可重用的XML策略",
+        "content": "将自定义删除配置保存为XML模板，以自动化未来的任务。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 适用于所有主要操作系统，支持流行框架，并与常见软件包管理器集成。",
+    "formats_description": "{{ProdFullName}} 支持以下 [文件格式]({{SupportedFormatsUrl}}) 的操作。",
+    "code_samples_description": "探索 {{ProdFullName}} 如何简化删除任务",
+    "code_title_sample_1": "基于正则表达式的文本删除",
+    "code_samples_sample_1_content": "使用 {{ProgLang}} 的开发者可以应用 [基于正则表达式的规则]({{Sample1Url}}) 查找并覆盖敏感文本：",
+    "code_title_sample_2": "删除元数据",
+    "code_samples_sample_2_content": "使用API [擦除元数据]({{Sample2Url}}) 仅需几步即可覆盖多种文件类型："
+  }
+}

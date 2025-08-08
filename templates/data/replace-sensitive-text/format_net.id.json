@@ -1,0 +1,436 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "Redak Teks Sensitif di {{FileFormatUp}} dengan {{ProgLang}}",
+      "description": "Lindungi informasi pribadi dalam file {{FileFormatUp}} Anda menggunakan {{ProdFullName}}. Cari dan redak data sensitif dengan cepat."
+    },
+    "header": {
+      "title": "Hapus Teks Sensitif dari Dokumen {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+      "description": "Gunakan {{ProgLang}} dan {{ProdFullName}} untuk mengontrol penuh atas konten dalam file {{FileFormatUp}} Anda. Redak data pribadi, hukum, atau rahasia secara akurat.",
+      "subtitle": "Apa yang Bisa Anda Lakukan dengan {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cara Meredak Konten dalam File {{FileFormatCap}}",
+      "content": {
+        "title": "Lindungi dokumen Anda di aplikasi {{EnvName}} mana pun menggunakan {{ProdFullName}}. Redak teks sensitif dengan cepat dan tepat.",
+        "step_1": "Inisialisasi {{textRedactor}} dan muat file {{FileFormatCap}} Anda.",
+        "step_2": "Atur opsi redaksi yang Anda butuhkan.",
+        "step_3": "Tentukan teks yang dicari dan teks pengganti.",
+        "step_4": "Jalankan redaksi dan simpan file."
+      }
+    },
+    "example_top": {
+      "comment_1": "Cara meredak teks dalam file {{FileFormatUp}}",
+      "comment_2": "Muat file Anda menggunakan konstruktor {{textRedactor}}",
+      "comment_3": "Atur preferensi redaksi Anda",
+      "comment_4": "Pilih apa yang dicari dan apa yang akan diganti",
+      "comment_5": "Terapkan redaksi dan simpan file {{FileFormatUp}} baru"
+    },
+    "example_bottom": {
+      "title": "Redak Teks dengan Regex",
+      "content": "Gunakan ekspresi reguler untuk mencari dan meredak pola teks sensitif seperti email atau ID.",
+      "comment_1": "Buka dokumen yang ingin Anda bersihkan",
+      "comment_2": "Tentukan pola regex EMAIL dan teks yang akan digunakan sebagai pengganti",
+      "comment_3": "Terapkan aturan redaksi",
+      "comment_4": "Simpan file yang telah diredak"
+    },
+    "more_features": {
+      "title": "Lebih Banyak Cara untuk Meredak Dokumen",
+      "description": "{{ProdFullName}} membantu menghapus atau menyembunyikan konten sensitif dalam berbagai format file. Jaga dokumen tetap bersih dan aman untuk dibagikan.",
+      "image_description": "Alat dan opsi redaksi",
+      "feature_1": {
+        "title": "Ganti teks rahasia",
+        "content": "Temukan dan ganti teks yang cocok di mana saja dalam file Anda. Mendukung regex dan opsi pencarian cerdas."
+      },
+      "feature_2": {
+        "title": "Sembunyikan gambar sensitif",
+        "content": "Tutup gambar atau area tertentu dengan overlay. Sesuaikan pengaturan halaman, warna, dan lainnya."
+      },
+      "feature_3": {
+        "title": "Hapus metadata tersembunyi",
+        "content": "Hapus data tersembunyi seperti kepemilikan, cap waktu, atau komentar untuk melindungi privasi."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} memberikan kepada pengembang {{ProgLang}} semua yang mereka butuhkan untuk meredak konten {{FileFormatUp}}. Bersihkan teks, gambar, anotasi, komentar, dan metadata dalam jenis file populer."
+    },
+    "formats": {
+      "title": "Redak Konten dalam {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+      "description": "Lindungi data resmi dan pribadi dengan meredak teks dalam file {{FileFormatUp}} menggunakan alat {{EnvNameShort}}. Jaga dokumen tetap aman dan pribadi."
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "Hapus Teks Pribadi dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Lindungi konten pribadi di file {{FileFormatUp}} Anda dengan cepat menggunakan {{ProdFullName}} dan {{ProgLang}}. Mudah digunakan, cepat menghasilkan hasil."
+    },
+    "header": {
+      "title": "Temukan dan Sembunyikan Teks Sensitif dalam Dokumen {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Baik untuk penggunaan pribadi atau bisnis, {{ProdFullName}} dan {{ProgLang}} membantu menjaga informasi pribadi di luar pandangan.",
+      "subtitle": "Bagaimana {{ProdFullName}} Membantu Anda"
+    },
+    "steps": {
+      "title": "Cara Meredak Konten dalam File {{FileFormatCap}}",
+      "content": {
+        "title": "Ikuti langkah cepat ini dalam proyek {{EnvName}} Anda untuk membersihkan teks pribadi dengan {{ProdFullName}}.",
+        "step_1": "Mulai {{textRedactor}} baru dan muat file {{FileFormatCap}}.",
+        "step_2": "Pilih pengaturan redaksi yang Anda inginkan.",
+        "step_3": "Masukkan teks yang ingin dicari dan apa yang ingin Anda ganti.",
+        "step_4": "Jalankan redaksi dan simpan file Anda."
+      }
+    },
+    "example_top": {
+      "comment_1": "Meredak teks dalam file {{FileFormatUp}}",
+      "comment_2": "Muat file Anda menggunakan {{textRedactor}}",
+      "comment_3": "Pilih opsi redaksi yang sesuai dengan kebutuhan Anda",
+      "comment_4": "Tentukan apa yang dicari dan apa yang akan diganti",
+      "comment_5": "Jalankan alat dan simpan file yang telah diredak"
+    },
+    "example_bottom": {
+      "title": "Temukan dan Redak Pola dengan Regex",
+      "content": "Gunakan regex untuk mencari jenis data tertentu seperti alamat email atau nomor ID dan membersihkannya secara otomatis.",
+      "comment_1": "Buka file yang perlu dibersihkan",
+      "comment_2": "Buat aturan regex EMAIL dan string pengganti",
+      "comment_3": "Jalankan redaksi menggunakan pengaturan Anda",
+      "comment_4": "Simpan file yang diperbarui"
+    },
+    "more_features": {
+      "title": "Fitur Redaksi Lainnya",
+      "description": "Dengan {{ProdFullName}}, mudah untuk menghapus konten tersembunyi atau terlihat dari berbagai jenis file. Bagus untuk berbagi dengan aman.",
+      "image_description": "Ikhtisar alat redaksi",
+      "feature_1": {
+        "title": "Ganti teks pribadi",
+        "content": "Cari teks tertentu di mana saja dalam file dan ganti. Bekerja dengan teks biasa atau pola."
+      },
+      "feature_2": {
+        "title": "Tutup gambar sensitif",
+        "content": "Tutup bagian gambar atau seluruh halaman dengan overlay. Anda mengontrol warna, ukuran, dan posisi."
+      },
+      "feature_3": {
+        "title": "Hapus data tersembunyi",
+        "content": "Hapus metadata seperti nama, komentar, atau cap waktu untuk memastikan tidak ada yang tertinggal."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} memberikan kepada pengembang {{ProgLang}} alat untuk menemukan dan membersihkan konten sensitif dalam file {{FileFormatUp}}. Bekerja dengan teks, gambar, catatan, dan banyak lagi."
+    },
+    "formats": {
+      "title": "Redak Data dalam {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+      "description": "Lindungi informasi pribadi atau resmi dengan menyembunyikannya dalam dokumen {{FileFormatUp}} menggunakan {{EnvNameShort}}. Sederhana dan efektif."
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "Hapus Teks Pribadi dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Lindungi file {{FileFormatUp}} Anda menggunakan {{ProdFullName}} dan {{ProgLang}}. Redaksi cepat dan mudah."
+    },
+    "header": {
+      "title": "Edit atau Sembunyikan Teks Sensitif dalam Dokumen {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Dengan {{ProdFullName}} dan {{ProgLang}}, Anda dapat menghapus informasi pribadi atau bisnis dari file {{FileFormatUp}} Anda dan menjaga agar aman untuk dibagikan.",
+      "subtitle": "Apa yang Bisa Anda Lakukan dengan {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cara Meredak Teks dalam File {{FileFormatCap}}",
+      "content": {
+        "title": "Gunakan {{ProdFullName}} dalam proyek {{EnvName}} Anda untuk menyembunyikan atau menghapus informasi sensitif hanya dalam beberapa langkah.",
+        "step_1": "Buat {{textRedactor}} dan muat file {{FileFormatCap}}.",
+        "step_2": "Pilih pengaturan redaksi yang sesuai dengan kebutuhan Anda.",
+        "step_3": "Masukkan teks yang ingin dicari dan apa yang ingin diganti.",
+        "step_4": "Jalankan proses redaksi dan simpan file yang diperbarui."
+      }
+    },
+    "example_top": {
+      "comment_1": "Meredak teks dari file {{FileFormatUp}}",
+      "comment_2": "Gunakan {{textRedactor}} untuk membuka file",
+      "comment_3": "Pilih opsi redaksi Anda",
+      "comment_4": "Atur teks pencarian dan penggantinya",
+      "comment_5": "Terapkan redaksi dan simpan file yang telah dibersihkan"
+    },
+    "example_bottom": {
+      "title": "Redak dengan Aturan Regex",
+      "content": "Gunakan regex untuk mencari dan membersihkan pola seperti nomor telepon, email, atau rincian pribadi lainnya.",
+      "comment_1": "Buka file untuk mulai",
+      "comment_2": "Tulis aturan regex EMAIL dan pilih penggantian",
+      "comment_3": "Jalankan redaksi berdasarkan pola Anda",
+      "comment_4": "Simpan file yang telah diredak"
+    },
+    "more_features": {
+      "title": "Lebih Banyak Alat untuk Redaksi",
+      "description": "{{ProdFullName}} membantu membersihkan berbagai jenis konten—teks, gambar, atau metadata—agar file Anda siap untuk dibagikan dengan aman.",
+      "image_description": "Opsi redaksi ditampilkan",
+      "feature_1": {
+        "title": "Ganti teks sensitif",
+        "content": "Cari di dalam file dan ganti apa pun yang bersifat rahasia. Mendukung teks sederhana dan pola."
+      },
+      "feature_2": {
+        "title": "Tutup area gambar",
+        "content": "Gunakan overlay untuk menyembunyikan data visual. Pilih warna, ukuran area, dan tata letak halaman."
+      },
+      "feature_3": {
+        "title": "Hapus data tambahan",
+        "content": "Hapus metadata seperti nama penulis, cap waktu, atau catatan internal untuk menghindari kebocoran."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} memungkinkan pengembang {{ProgLang}} untuk mencari dan menghapus info sensitif dari file {{FileFormatUp}}. Ini bekerja dengan teks, gambar, catatan, dan data file."
+    },
+    "formats": {
+      "title": "Sembunyikan Info dalam {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Bersihkan dokumen {{FileFormatUp}} Anda dengan menghapus teks pribadi atau sensitif menggunakan alat {{EnvNameShort}}. Jaga data Anda tetap pribadi."
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "Hapus Teks Pribadi dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Segera sembunyikan konten pribadi dalam presentasi {{FileFormatUp}} Anda dengan {{ProdFullName}} dan {{ProgLang}}. Redaksi cepat, pengaturan sederhana."
+    },
+    "header": {
+      "title": "Edit atau Sembunyikan Teks Sensitif dalam Dokumen {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Jaga presentasi Anda tetap bersih dan pribadi. Gunakan {{ProdFullName}} dan {{ProgLang}} untuk menghapus apapun yang tidak ingin Anda bagikan.",
+      "subtitle": "Apa yang Bisa Anda Lakukan dengan {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Langkah untuk Membersihkan Presentasi {{FileFormatCap}}",
+      "content": {
+        "title": "Gunakan {{ProdFullName}} dalam aplikasi {{EnvName}} Anda untuk menghapus atau menutupi konten sensitif hanya dalam beberapa langkah.",
+        "step_1": "Mulai {{textRedactor}} baru dan muat file {{FileFormatCap}} Anda.",
+        "step_2": "Pilih aturan redaksi yang ingin Anda terapkan.",
+        "step_3": "Atur teks untuk dicari dan apa yang akan diganti.",
+        "step_4": "Jalankan redaksi dan simpan file Anda."
+      }
+    },
+    "example_top": {
+      "comment_1": "Meredak presentasi {{FileFormatUp}}",
+      "comment_2": "Buka file dengan {{textRedactor}}",
+      "comment_3": "Pilih pengaturan redaksi",
+      "comment_4": "Pilih teks untuk dicari dan diganti",
+      "comment_5": "Terapkan perubahan dan simpan file yang diperbarui"
+    },
+    "example_bottom": {
+      "title": "Redak Menggunakan Pola Regex",
+      "content": "Temukan dan bersihkan data seperti alamat email atau ID menggunakan regex. Bagus untuk redaksi yang dapat diulang.",
+      "comment_1": "Buka file Anda",
+      "comment_2": "Tulis pola regex EMAIL dan atur pengganti",
+      "comment_3": "Terapkan pengaturan redasi Anda",
+      "comment_4": "Simpan versi yang telah diredak"
+    },
+    "more_features": {
+      "title": "Fitur Redaksi yang Dapat Anda Gunakan",
+      "description": "{{ProdFullName}} membantu Anda menemukan dan menyembunyikan teks sensitif, gambar, dan data tersembunyi di berbagai jenis file. Sempurna untuk berbagi file dengan aman.",
+      "image_description": "Opsi redaksi yang tersedia",
+      "feature_1": {
+        "title": "Ganti teks tersembunyi",
+        "content": "Cari dan tukar kata atau frasa rahasia di mana saja dalam file. Regex juga didukung."
+      },
+      "feature_2": {
+        "title": "Tutup gambar",
+        "content": "Gunakan blok untuk menyembunyikan gambar atau area yang ingin Anda sembunyikan. Kontrol bentuk, ukuran, dan warna."
+      },
+      "feature_3": {
+        "title": "Hapus detail tersembunyi",
+        "content": "Bersihkan metadata seperti nama penulis, tanggal terakhir diedit, atau komentar untuk membuat file Anda bersih."
+      }
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} memberi pengembang {{ProgLang}} apa yang mereka perlukan untuk menghapus konten sensitif dari file {{FileFormatUp}}. Ini menangani teks, visual, komentar, dan metadata."
+    },
+    "formats": {
+      "title": "Bersihkan File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Jadikan dokumen {{FileFormatUp}} Anda lebih aman untuk dibagikan dengan menyembunyikan teks pribadi menggunakan {{EnvNameShort}}. Hasil yang cepat dan dapat diandalkan."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Hapus Teks Pribadi dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Jaga file {{FileFormatUp}} Anda tetap pribadi dengan {{ProdFullName}} dan {{ProgLang}}. Cara cepat dan mudah untuk meredak teks."
+    },
+    "header": {
+      "title": "Temukan dan Hapus Teks Sensitif dalam File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{ProgLang}} dan {{ProdFullName}} untuk melindungi file pribadi atau kerja Anda. Informasi pribadi Anda tetap tersembunyi.",
+      "subtitle": "Fitur Kunci dari {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cara Meredak File {{FileFormatCap}}",
+      "content": {
+        "title": "Dengan {{ProdFullName}}, mudah untuk menemukan dan mengganti konten pribadi dalam aplikasi {{EnvName}}.",
+        "step_1": "Buat {{textRedactor}} dan buka file {{FileFormatCap}} Anda.",
+        "step_2": "Pilih pengaturan redaksi Anda.",
+        "step_3": "Tentukan apa yang dicari dan teks pengganti yang ingin digunakan.",
+        "step_4": "Mulai redaksi dan simpan file yang diperbarui."
+      }
+    },
+    "example_top": {
+      "comment_1": "Langkah-langkah untuk meredak konten dalam dokumen {{FileFormatUp}}",
+      "comment_2": "Buka file dengan {{textRedactor}}",
+      "comment_3": "Sesuaikan pengaturan redaksi Anda",
+      "comment_4": "Pilih apa yang dicari dan apa yang akan diganti",
+      "comment_5": "Jalankan redaksi dan simpan file {{FileFormatUp}} baru Anda"
+    },
+    "example_bottom": {
+      "title": "Gunakan Regex untuk Redaksi yang Lebih Cerdas",
+      "content": "Temukan dan hapus pola data seperti email atau ID dengan ekspresi reguler.",
+      "comment_1": "Buka file yang ingin Anda bersihkan",
+      "comment_2": "Tetapkan pola regex EMAIL dan pilih teks pengganti",
+      "comment_3": "Jalankan proses redaksi",
+      "comment_4": "Simpan file akhir yang telah diredak"
+    },
+    "more_features": {
+      "title": "Lebih Banyak Alat Redaksi",
+      "description": "{{ProdFullName}} memberi Anda cara yang kuat untuk menyembunyikan atau menghapus informasi pribadi di berbagai jenis file. Bagus untuk berbagi dengan aman.",
+      "image_description": "Alat dan pengaturan redaksi yang tersedia",
+      "feature_1": {
+        "title": "Tukar teks pribadi",
+        "content": "Cari dan ganti kecocokan dengan opsi teks cerdas, termasuk dukungan regex."
+      },
+      "feature_2": {
+        "title": "Sembunyikan gambar pribadi",
+        "content": "Tutup gambar atau bagian dari halaman. Anda dapat menyesuaikan warna dan ukuran overlay."
+      },
+      "feature_3": {
+        "title": "Hapus metadata tersembunyi",
+        "content": "Hapus informasi seperti nama penulis, riwayat pengeditan, dan komentar untuk melindungi identitas Anda."
+      }
+    },
+    "about": {
+      "title": "Apa Itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} memberi pengguna {{ProgLang}} alat untuk membersihkan dokumen {{FileFormatUp}}. Redak teks, gambar, catatan, dan data latar belakang."
+    },
+    "formats": {
+      "title": "Cara Meredak {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk membersihkan file {{FileFormatUp}}. Jaga konten Anda tetap pribadi dan aman dari kebocoran."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Hapus Teks Pribadi dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Lindungi file {{FileFormatUp}} Anda dengan {{ProdFullName}} dan {{ProgLang}}. Cara cepat dan mudah untuk meredak teks."
+    },
+    "header": {
+      "title": "Temukan dan Hapus Teks Sensitif dalam File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{ProgLang}} dan {{ProdFullName}} untuk melindungi file pribadi atau kerja Anda. Informasi pribadi Anda tetap tersembunyi.",
+      "subtitle": "Fitur Kunci dari {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cara Meredak File {{FileFormatCap}}",
+      "content": {
+        "title": "Dengan {{ProdFullName}}, mudah untuk menemukan dan mengganti konten pribadi dalam aplikasi {{EnvName}}.",
+        "step_1": "Buat {{textRedactor}} dan buka file {{FileFormatCap}} Anda.",
+        "step_2": "Pilih pengaturan redaksi Anda.",
+        "step_3": "Tentukan apa yang dicari dan teks pengganti yang ingin digunakan.",
+        "step_4": "Mulai redaksi dan simpan file yang diperbarui."
+      }
+    },
+    "example_top": {
+      "comment_1": "Langkah-langkah untuk meredak konten dalam dokumen {{FileFormatUp}}",
+      "comment_2": "Buka file dengan {{textRedactor}}",
+      "comment_3": "Sesuaikan pengaturan redaksi Anda",
+      "comment_4": "Pilih apa yang dicari dan apa yang akan diganti",
+      "comment_5": "Jalankan redaksi dan simpan file {{FileFormatUp}} baru Anda"
+    },
+    "example_bottom": {
+      "title": "Gunakan Regex untuk Redaksi yang Lebih Cerdas",
+      "content": "Temukan dan hapus pola data seperti email atau ID dengan ekspresi reguler.",
+      "comment_1": "Buka file yang ingin Anda bersihkan",
+      "comment_2": "Tetapkan pola regex EMAIL dan pilih teks pengganti",
+      "comment_3": "Jalankan proses redaksi",
+      "comment_4": "Simpan file akhir yang telah diredak"
+    },
+    "more_features": {
+      "title": "Lebih Banyak Alat Redaksi",
+      "description": "{{ProdFullName}} memberi Anda cara yang kuat untuk menyembunyikan atau menghapus informasi pribadi di berbagai jenis file. Bagus untuk berbagi dengan aman.",
+      "image_description": "Alat dan pengaturan redaksi yang tersedia",
+      "feature_1": {
+        "title": "Tukar teks pribadi",
+        "content": "Cari dan ganti kecocokan dengan opsi teks cerdas, termasuk dukungan regex."
+      },
+      "feature_2": {
+        "title": "Sembunyikan gambar pribadi",
+        "content": "Tutup gambar atau bagian dari halaman. Anda dapat menyesuaikan warna dan ukuran overlay."
+      },
+      "feature_3": {
+        "title": "Hapus metadata tersembunyi",
+        "content": "Hapus informasi seperti nama penulis, riwayat pengeditan, dan komentar untuk melindungi identitas Anda."
+      }
+    },
+    "about": {
+      "title": "Apa Itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} memberi pengguna {{ProgLang}} alat untuk membersihkan dokumen {{FileFormatUp}}. Redak teks, gambar, catatan, dan data latar belakang."
+    },
+    "formats": {
+      "title": "Cara Meredak {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk membersihkan file {{FileFormatUp}}. Jaga konten Anda tetap pribadi dan aman dari kebocoran."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Hapus Teks Pribadi dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+      "description": "Lindungi file {{FileFormatUp}} Anda dengan {{ProdFullName}} dan {{ProgLang}}. Cara cepat dan mudah untuk meredak teks."
+    },
+    "header": {
+      "title": "Temukan dan Hapus Teks Sensitif dalam File {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{ProgLang}} dan {{ProdFullName}} untuk melindungi file pribadi atau kerja Anda. Informasi pribadi Anda tetap tersembunyi.",
+      "subtitle": "Fitur Kunci dari {{ProdFullName}}"
+    },
+    "steps": {
+      "title": "Cara Meredak File {{FileFormatCap}}",
+      "content": {
+        "title": "Dengan {{ProdFullName}}, mudah untuk menemukan dan mengganti konten pribadi dalam aplikasi {{EnvName}}.",
+        "step_1": "Buat {{textRedactor}} dan buka file {{FileFormatCap}} Anda.",
+        "step_2": "Pilih pengaturan redaksi Anda.",
+        "step_3": "Tentukan apa yang dicari dan teks pengganti yang ingin digunakan.",
+        "step_4": "Mulai redaksi dan simpan file yang diperbarui."
+      }
+    },
+    "example_top": {
+      "comment_1": "Langkah-langkah untuk meredak konten dalam dokumen {{FileFormatUp}}",
+      "comment_2": "Buka file dengan {{textRedactor}}",
+      "comment_3": "Sesuaikan pengaturan redaksi Anda",
+      "comment_4": "Pilih apa yang dicari dan apa yang akan diganti",
+      "comment_5": "Jalankan redaksi dan simpan file {{FileFormatUp}} baru Anda"
+    },
+    "example_bottom": {
+      "title": "Gunakan Regex untuk Redaksi yang Lebih Cerdas",
+      "content": "Temukan dan hapus pola data seperti email atau ID dengan ekspresi reguler.",
+      "comment_1": "Buka file yang ingin Anda bersihkan",
+      "comment_2": "Tetapkan pola regex EMAIL dan pilih teks pengganti",
+      "comment_3": "Jalankan proses redaksi",
+      "comment_4": "Simpan file akhir yang telah diredak"
+    },
+    "more_features": {
+      "title": "Lebih Banyak Alat Redaksi",
+      "description": "{{ProdFullName}} memberi Anda cara yang kuat untuk menyembunyikan atau menghapus informasi pribadi di berbagai jenis file. Bagus untuk berbagi dengan aman.",
+      "image_description": "Alat dan pengaturan redaksi yang tersedia",
+      "feature_1": {
+        "title": "Tukar teks pribadi",
+        "content": "Cari dan ganti kecocokan dengan opsi teks cerdas, termasuk dukungan regex."
+      },
+      "feature_2": {
+        "title": "Sembunyikan gambar pribadi",
+        "content": "Tutup gambar atau bagian dari halaman. Anda dapat menyesuaikan warna dan ukuran overlay."
+      },
+      "feature_3": {
+        "title": "Hapus metadata tersembunyi",
+        "content": "Hapus informasi seperti nama penulis, riwayat pengeditan, dan komentar untuk melindungi identitas Anda."
+      }
+    },
+    "about": {
+      "title": "Apa Itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} memberi pengguna {{ProgLang}} alat untuk membersihkan dokumen {{FileFormatUp}}. Redak teks, gambar, catatan, dan data latar belakang."
+    },
+    "formats": {
+      "title": "Cara Meredak {{FileFormatUp}} dengan {{EnvNameShort}}",
+      "description": "Gunakan {{EnvNameShort}} untuk membersihkan file {{FileFormatUp}}. Jaga konten Anda tetap pribadi dan aman dari kebocoran."
+    }
+  }
+}

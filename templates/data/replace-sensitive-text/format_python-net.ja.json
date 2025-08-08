@@ -1,0 +1,429 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}内の機密テキストを削除",
+      "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ドキュメント内のプライベートな詳細を安全に保つ。機密情報を迅速に見つけて隠すことができます。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルから機密テキストを消去",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して、{{FileFormatUp}}ファイルからプライベート、法的、または個人的なデータを検索して削除します。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルでのコンテンツの削除方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、どの{{EnvName}}アプリでもコンテンツを安全に保つことができます。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "希望する削除設定を選択します。",
+        "step_3": "検索するテキストとその置き換え内容を入力します。",
+        "step_4": "削除を適用し、ファイルを保存します。"
+      }
+    },
+    "example_bottom": {
+      "title": "正規表現を使用して削除",
+      "content": "メールアドレス、ID、または番号のようなパターンを見つけて削除するために正規表現を使用します。",
+      "comment_1": "クリーンアップしたいファイルを開きます",
+      "comment_2": "正規表現パターンと置き換えテキストを設定します",
+      "comment_3": "削除ルールを適用します",
+      "comment_4": "削除されたファイルを保存します"
+    },
+    "more_features": {
+      "title": "さらに多くの削除機能",
+      "description": "{{ProdFullName}}は、さまざまなファイルタイプでプライベートなコンテンツを隠すことができます。データを安全に保ち、共有の準備を整えます。",
+      "image_description": "テキスト、画像、メタデータ削除のためのツール",
+      "feature_1": {
+        "title": "プライベートテキストの検索と置換",
+        "content": "一致するテキストを検索して置き換えます。正規表現やキーワード検索と連携します。"
+      },
+      "feature_2": {
+        "title": "プライベート画像のカバー",
+        "content": "オーバーレイを使用して、完全な画像またはその一部を隠します。外観設定をカスタマイズできます。"
+      },
+      "feature_3": {
+        "title": "隠れたメタデータの消去",
+        "content": "著者名、タイムスタンプ、改訂ノートなどの隠れた情報を削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のコンテンツ（テキスト、画像、コメントなど）を削除するために必要なすべてのツールを提供します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを削除",
+      "description": "{{EnvNameShort}}ツールを使用して、{{FileFormatUp}}ファイル内のテキストを削除することで、個人情報やビジネスデータを安全に保ちます。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して機密コンテンツを削除することで、{{FileFormatUp}}ファイルを安全に保つ。迅速かつ簡潔な削除プロセス。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}で{{FileFormatUp}}ファイル内のプライベートテキストを編集または隠す",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}コンテンツを制御します。個人使用にもビジネス用途にも最適です。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のテキストをクリーンアップする方法",
+      "content": {
+        "title": "{{EnvName}}アプリ内で{{ProdFullName}}を使用して、プライベートテキストを削除または隠します。迅速で簡単な削除プロセス。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルをオープンします。",
+        "step_2": "必要な削除ルールを設定します。",
+        "step_3": "検索するテキストとその置き換え内容を選択します。",
+        "step_4": "削除を実行し、新しいファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内のテキストを削除する方法",
+      "comment_2": "{{textRedactor}}コンストラクタでファイルを開きます",
+      "comment_3": "削除設定を選択します",
+      "comment_4": "検索するテキストとその置き換え内容を入力します",
+      "comment_5": "変更を適用し、更新された{{FileFormatUp}}ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "パターンを削除するための正規表現を使用",
+      "content": "メール、ID、またはパターンを検索し、簡単に置き換えます。",
+      "comment_1": "クリーンアップしたいファイルを開きます",
+      "comment_2": "EMAIL正規表現パターンと置き換えテキストを設定します",
+      "comment_3": "削除設定を適用します",
+      "comment_4": "削除されたドキュメントを保存します"
+    },
+    "more_features": {
+      "title": "さらに多くの削除ツール",
+      "description": "{{ProdFullName}}を使用すると、さまざまなフォーマットで機密テキストを削除またはマスクできます。安心して清潔で安全なファイルを共有します。",
+      "image_description": "テキスト、画像、メタデータ削除のためのツール",
+      "feature_1": {
+        "title": "プライベートテキストの検出と置換",
+        "content": "特定の単語やパターンを検索して置き換えます。正規表現とキーワードオプションに対応しています。"
+      },
+      "feature_2": {
+        "title": "機密画像のカバー",
+        "content": "画像の領域をオーバーレイまたは非表示にします。色、透明度、サイズを必要に応じて変更します。"
+      },
+      "feature_3": {
+        "title": "メタデータの削除",
+        "content": "著者名、タイムスタンプ、内部ノートなどの隠れた情報を消去します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を紹介します",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイル内のコンテンツをクリーンアップするためのツールを提供します。テキスト、画像、コメント、メタデータを簡単に削除します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを削除",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルから機密テキストを削除します。個人および業務文書を保護します。"
+    }
+  },
+  "xlsx": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイルから機密データを隠すか削除します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のプライベートテキストを隠すまたは削除",
+      "description": "{{ProdFullName}}と{{ProgLang}}を利用して、{{FileFormatUp}}ドキュメントからプライベートテキストを削除できます。迅速で信頼性のあるプロセス。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルからコンテンツを削除する方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、{{EnvName}}アプリにおいて機密コンテンツをすぐにクリアまたは隠すことができます。",
+        "step_1": "{{textRedactor}}を開始し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "必要な削除設定を選択します。",
+        "step_3": "検索テキストと置き換え内容を設定します。",
+        "step_4": "削除を適用し、ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内のテキストを削除する方法",
+      "comment_2": "{{textRedactor}}コンストラクタを使用してファイルをロードします",
+      "comment_3": "削除の好みを選択します",
+      "comment_4": "検索の値と置き換えの値を設定します",
+      "comment_5": "変更を適用し、更新された{{FileFormatUp}}を保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使用して削除",
+      "content": "電話番号、ID、またはメールを正規表現で見つけて迅速に削除します。",
+      "comment_1": "清掃したいドキュメントを開きます",
+      "comment_2": "あなたのEMAIL正規表現パターンと置き換えるテキストを設定します",
+      "comment_3": "削除ルールを適用します",
+      "comment_4": "削除されたファイルを保存します"
+    },
+    "more_features": {
+      "title": "追加の削除機能",
+      "description": "{{ProdFullName}}を使用して、異なるファイル形式でプライベート情報を隠したり削除したりするのが簡単です。安全なファイルを自信を持って共有できます。",
+      "image_description": "テキスト、画像、メタデータ削除のための機能",
+      "feature_1": {
+        "title": "プライベートテキストを置き換える",
+        "content": "一致する単語やパターンを見つけて交換します。正規表現とキーワード検索に対応しています。"
+      },
+      "feature_2": {
+        "title": "機密画像を隠す",
+        "content": "オーバーレイでファイルの一部を隠します。見た目と隠す内容をカスタマイズできます。"
+      },
+      "feature_3": {
+        "title": "メタデータを削除する",
+        "content": "ドキュメント履歴、著者名、内部タグなどの隠れた情報を削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を紹介します",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルからプライベートデータを削除または隠すためのすべてのツールを提供します。テキスト、画像、メモ、メタデータを処理できます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを削除",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイルから機密テキストを削除します。データの安全性を保つために、個人情報を保護します。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイルを安全に保ちます。迅速に機密コンテンツを見つけて削除します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のプライベートテキストを編集または削除",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ドキュメント内の機密データを見つけてクリーンアップします。個人または仕事のファイルをプライベートに保ちます。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ドキュメント内のテキストを削除する方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、{{EnvName}}環境内で機密コンテンツをすぐに隠すか削除できます。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "削除設定を選択します。",
+        "step_3": "検索するテキストとその置き換え内容を入力します。",
+        "step_4": "削除を適用し、更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内のテキストを削除する方法",
+      "comment_2": "{{textRedactor}}コンストラクタを使用してファイルをロードします",
+      "comment_3": "削除オプションを選択します",
+      "comment_4": "検索するテキストとその置き換え内容を選択します",
+      "comment_5": "削除を実行し、更新された{{FileFormatUp}}を保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現によるパターン削除",
+      "content": "メールアドレス、電話番号、またはIDのようなテキストを見つけてクリーンアップするために正規表現を使用します。",
+      "comment_1": "編集したいファイルを開きます",
+      "comment_2": "EMAIL正規表現パターンと置き換えテキストを設定します",
+      "comment_3": "削除プロセスを実行します",
+      "comment_4": "クリーンなファイルを保存します"
+    },
+    "more_features": {
+      "title": "さらなる削除機能",
+      "description": "{{ProdFullName}}を使用すると、さまざまなフォーマットで機密データを削除または隠すことができます。安全に文書を共有します。",
+      "image_description": "削除機能の概要",
+      "feature_1": {
+        "title": "プライベートテキストの検出と置換",
+        "content": "特定の単語やフレーズを検索して置き換えます。正規表現とスマートフィルターに対応します。"
+      },
+      "feature_2": {
+        "title": "プライベート画像のカバー",
+        "content": "画像内の特定の領域をオーバーレイで隠します。設定を調整して、ニーズに合った外観を実現してください。"
+      },
+      "feature_3": {
+        "title": "隠れた情報の削除",
+        "content": "著者名、タイムスタンプ、または内部ノートのようなメタデータをクリーンアップします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を紹介します",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルに対する完全な管理を提供します。テキスト、画像、ノート、メタデータを簡単に削除できます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを削除",
+      "description": "{{EnvNameShort}}を使用して{{FileFormatUp}}ドキュメントから機密テキストを削除し、データを安全に保ちます。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内のプライベートデータを保護します。迅速かつ簡潔なテキスト削除。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}で{{FileFormatUp}}ファイル内のプライベートテキストを編集または隠す",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の機密コンテンツをクリーンアップします。個人または業務文書を安全に保ちます。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のテキストを削除する手順",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、{{EnvName}}アプリケーションで迅速に機密情報を削除または隠します。",
+        "step_1": "{{textRedactor}}を開始し、{{FileFormatCap}}ファイルをロードします。",
+        "step_2": "希望する削除設定を選択します。",
+        "step_3": "検索したいテキストとその置き換え内容を入力します。",
+        "step_4": "削除を実行し、ドキュメントを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内のテキストを削除する方法",
+      "comment_2": "{{textRedactor}}コンストラクタを使用してファイルを開きます",
+      "comment_3": "削除オプションを設定します",
+      "comment_4": "置き換えたいテキストとその新しい値を選択します",
+      "comment_5": "適用して、削除された{{FileFormatUp}}ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現によるパターンを削除",
+      "content": "メール、名前、またはIDのようなテキストパターンを見つけてクリーンアップします。",
+      "comment_1": "ドキュメントを開きます",
+      "comment_2": "EMAIL正規表現ルールと置き換えテキストを設定します",
+      "comment_3": "削除設定を適用します",
+      "comment_4": "最終版を保存します"
+    },
+    "more_features": {
+      "title": "さらなる削除ツール",
+      "description": "{{ProdFullName}}はさまざまなファイル形式の機密コンテンツをクリアするためのツールを提供します。文書の安全性を保ちながら共有できます。",
+      "image_description": "削除オプションの概要",
+      "feature_1": {
+        "title": "機密テキストを置き換える",
+        "content": "テキストやパターンを見つけて置き換えます。正規表現もサポートされています。"
+      },
+      "feature_2": {
+        "title": "プライベート画像のカバー",
+        "content": "部分的に隠すまたは重ね合わせます。外観やサイズを必要に応じて調整します。"
+      },
+      "feature_3": {
+        "title": "隠れたメタデータを削除",
+        "content": "著者名、作成日、コメントなどの隠れた詳細を消去します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を紹介します",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルを簡単にクリーンアップするためのツールを提供します。テキスト、画像、ノート、メタデータを数ステップで削除します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを削除",
+      "description": "{{EnvNameShort}}ツールを利用して{{FileFormatUp}}ドキュメントをクリーンアップし、機密テキストや詳細を削除します。"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイルから機密情報を迅速にクリーニングします。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内のプライベートテキストを見つけて削除",
+      "description": "{{ProgLang}}と{{ProdFullName}}を使用して、{{FileFormatUp}}ドキュメントから機密の詳細をクリアします。業務用でも個人用でも、あなたのコンテンツは安全に保たれます。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイルでのテキスト削除方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用すると、プロジェクト内でプライベートコンテンツを削除または隠すことができます。",
+        "step_1": "{{textRedactor}}を作成し、{{FileFormatCap}}ファイルを開きます。",
+        "step_2": "削除設定を選択します。",
+        "step_3": "検索するテキストとその置き換え内容を入力します。",
+        "step_4": "削除を実行し、更新されたファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内のテキストを削除する方法",
+      "comment_2": "{{textRedactor}}コンストラクタを使用してファイルを開きます",
+      "comment_3": "削除オプションを設定します",
+      "comment_4": "検索するテキストとその置き換え内容を選択します",
+      "comment_5": "削除を適用し、更新された{{FileFormatUp}}を保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使用してパターンを削除",
+      "content": "メール、電話番号、またはアカウント情報のようなテキストパターンを見つけてクリーニングします。",
+      "comment_1": "クリーンアップしたいファイルを開きます",
+      "comment_2": "EMAIL正規表現パターンと置き換えテキストを設定します",
+      "comment_3": "削除ルールを適用します",
+      "comment_4": "ファイルの最終版を保存します"
+    },
+    "more_features": {
+      "title": "さらなる削除機能",
+      "description": "{{ProdFullName}}は、さまざまなファイル形式でプライベートコンテンツをクリアするのに役立ちます。文書を安全に保ち、共有可能にします。",
+      "image_description": "削除ツールのアクション",
+      "feature_1": {
+        "title": "プライベートテキストを置き換える",
+        "content": "一致するテキストを検索して置き換えます。スマート検索や正規表現も対応しています。"
+      },
+      "feature_2": {
+        "title": "画像コンテンツをカバー",
+        "content": "オーバーレイで画像の一部を隠すことができます。ページ上での見た目をカスタマイズします。"
+      },
+      "feature_3": {
+        "title": "隠れた詳細を削除",
+        "content": "著者情報、コメント、タイムスタンプなどのメタデータを削除します。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を紹介します",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者に{{FileFormatUp}}ファイルをクリーンアップするために必要なすべてのツールを提供します。テキスト、画像、コメント、メタデータをシンプルなコードで削除します。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを削除",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイルからプライベートテキストを削除します。内容が保存または共有するのに安全であることを確認します。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}}を使用して{{FileFormatUp}}からプライベートテキストを削除",
+      "description": "{{ProdFullName}}と{{ProgLang}}を使用して、{{FileFormatUp}}ファイル内の機密データを迅速に保護します。"
+    },
+    "header": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}ファイル内の機密テキストを検索して隠す",
+      "description": "{{ProdFullName}}と{{ProgLang}}を利用して、{{FileFormatUp}}ファイル内のプライベートコンテンツを削除または隠すことができます。個人情報や仕事関連の情報を秘密に保ちます。",
+      "subtitle": "{{ProdFullName}}でできること"
+    },
+    "steps": {
+      "title": "{{FileFormatCap}}ファイル内のテキストをクリーンアップする方法",
+      "content": {
+        "title": "{{ProdFullName}}を使用して、{{EnvName}}アプリケーション内で機密データをすぐに削除または置き換えます。",
+        "step_1": "{{textRedactor}}を開始し、{{FileFormatCap}}ファイルをオープンします。",
+        "step_2": "必要な削除オプションを選択します。",
+        "step_3": "検索したいテキストとその置き換え内容を入力します。",
+        "step_4": "削除を適用し、最終ファイルを保存します。"
+      }
+    },
+    "example_top": {
+      "comment_1": "{{FileFormatUp}}ファイル内のテキストを削除する方法",
+      "comment_2": "{{textRedactor}}コンストラクタを使用してファイルをロードします",
+      "comment_3": "削除設定を選択します",
+      "comment_4": "検索テキストとその置き換え内容を選択します",
+      "comment_5": "削除を実行し、最終的な{{FileFormatUp}}ファイルを保存します"
+    },
+    "example_bottom": {
+      "title": "正規表現を使用したパターン削除",
+      "content": "正規表現を使用して、メールアドレス、連絡先情報、またはその他のプライベートな詳細を見つけて削除します。",
+      "comment_1": "クリーンアップするプレゼンテーションを開きます",
+      "comment_2": "EMAIL正規表現パターンと置き換え値を設定します",
+      "comment_3": "削除手順を適用します",
+      "comment_4": "最終的な削除されたファイルを保存します"
+    },
+    "more_features": {
+      "title": "プライベートデータを削除するためのさらに多くのツール",
+      "description": "{{ProdFullName}}を使用することで、さまざまなフォーマットでプライベートコンテンツを削除できます。安全な文書の共有やアーカイブに最適です。",
+      "image_description": "削除オプションとツール",
+      "feature_1": {
+        "title": "テキストを見つけて置き換える",
+        "content": "迅速に機密単語や数字を交換できます。正規表現やキーワード検索に対応しています。"
+      },
+      "feature_2": {
+        "title": "画像の一部を隠す",
+        "content": "特定の領域を図形やオーバーレイで隠します。ニーズに合わせてビジュアルを調整します。"
+      },
+      "feature_3": {
+        "title": "隠れた情報を削除",
+        "content": "ファイルを作成した人、コメント、変更履歴のようなメタデータをクリアします。"
+      }
+    },
+    "about": {
+      "title": "{{ProdFullName}}を紹介します",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者が{{FileFormatUp}}ファイルの内容を内外からクリーンアップするためのツールを提供します。コンテンツ、画像、ノート、メタデータを簡単に削除できます。"
+    },
+    "formats": {
+      "title": "{{EnvNameShort}}を使用して{{FileFormatUp}}内のコンテンツを削除",
+      "description": "{{EnvNameShort}}を使用して、{{FileFormatUp}}ファイルの機密テキストを削除してデータを安全に保ちます。"
+    }
+  }
+}

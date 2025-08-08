@@ -1,0 +1,622 @@
+{
+  "pdf": {
+    "ext": "pdf",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的元数据",
+      "description": "借助 {{ProdFullName}}，您可以移除或更新 {{FileFormatUp}} 文件中的元数据。清理可能暴露私人信息的隐藏数据。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 清理 {{FileFormatUp}} 文件中的元数据",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的敏感商业和个人信息。可靠的数据保护工具，易于使用。",
+      "subtitle": "{{ProdFullName}} 的主要功能"
+    },
+    "steps": {
+      "title": "从 {{FileFormatCap}} 文档中删除元数据",
+      "content": {
+        "title": "使用 {{ProdShortName}} 快速保护您 {{EnvName}} 应用中的文档元数据。",
+        "step_1": "创建 {{textRedactor}} 实例并加载您的 {{FileFormatCap}} 文件。",
+        "step_2": "设置审查以移除所有隐藏的元数据。",
+        "step_3": "应用审查以清理文档。",
+        "step_4": "保存更新后的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "从 {{FileFormatUp}} 文件中擦除元数据",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "配置元数据移除审查",
+      "comment_4": "应用更改并保存文件"
+    },
+    "example_bottom": {
+      "title": "去除隐藏的元数据条目",
+      "content": "本示例展示了如何修改 {{FileFormatUp}} 文件中的元数据。",
+      "comment_1": "将 {{FileFormatUp}} 文件加载到审查工具中",
+      "comment_2": "设置对作者属性的审查",
+      "comment_3": "设置对标题属性的审查",
+      "comment_4": "对文档执行审查",
+      "comment_5": "保存清理后的文件"
+    },
+    "more_features": {
+      "title": "在文档中审查敏感数据",
+      "description": "{{ProdFullName}} 帮助您在各种文件格式中隐藏或擦除机密内容。保护私人数据，同时保持文档清晰专业。",
+      "image_description": "强大的审查功能",
+      "feature_1": {
+        "title": "查找和替换文本",
+        "content": "搜索文档中的敏感文本，并替换或移除以保护隐私。"
+      },
+      "feature_2": {
+        "title": "隐藏图像内容",
+        "content": "对图像或特定区域添加覆盖层，以遮盖敏感视觉信息。"
+      },
+      "feature_3": {
+        "title": "清除元数据",
+        "content": "删除或编辑隐藏的元数据，以防止不必要的数据泄露。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdShortName}} 为 {{ProgLang}} 开发者提供易于使用的工具，以审查 {{FileFormatUp}} 文件中的内容。遮盖文本、图像和多种格式中的元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 元数据审查保护 {{FileFormatUp}} 文件",
+      "description": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文件中擦除隐藏数据。简单有效的方法来保护文档中的敏感信息。"
+    }
+  },
+  "docx": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的元数据",
+      "description": "使用 {{ProdFullName}} 删除或更改 {{FileFormatUp}} 文件中的隐藏元数据。保护您的文档不暴露私人细节。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 文件中的元数据",
+      "description": "使用 {{ProgLang}} 清除 {{FileFormatUp}} 文件中的敏感元数据。保护您的商业和个人数据。",
+      "subtitle": "{{ProdFullName}} 的顶级功能"
+    },
+    "steps": {
+      "title": "清理 {{FileFormatCap}} 文件中的隐藏数据",
+      "content": {
+        "title": "{{ProdShortName}} 帮助您的 {{EnvName}} 项目快速移除不需要的元数据。",
+        "step_1": "创建一个 {{textRedactor}} 实例并打开您的 {{FileFormatCap}} 文件。",
+        "step_2": "设置审查以定位元数据条目。",
+        "step_3": "应用更改以清理文档。",
+        "step_4": "保存清理后的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "从 {{FileFormatUp}} 文档中去除元数据",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "设置元数据移除选项",
+      "comment_4": "应用并保存更改"
+    },
+    "example_bottom": {
+      "title": "清理元数据字段",
+      "content": "本示例演示了如何删除 {{FileFormatUp}} 文件中的隐藏数据。",
+      "comment_1": "加载您的 {{FileFormatUp}} 文件",
+      "comment_2": "定位作者字段以移除",
+      "comment_3": "定位标题字段以移除",
+      "comment_4": "运行审查过程",
+      "comment_5": "保存更新后的文件"
+    },
+    "more_features": {
+      "title": "在任何文档中隐藏敏感信息",
+      "description": "{{ProdFullName}} 让您可以清理多种文件类型中的敏感内容。使您的文档更安全以便共享或存储。",
+      "image_description": "智能的审查选项",
+      "feature_1": {
+        "title": "删除私人文本",
+        "content": "搜索并擦除文件中的个人或商业文本。"
+      },
+      "feature_2": {
+        "title": "遮蔽图像",
+        "content": "覆盖图像或选择区域以隐藏机密内容。"
+      },
+      "feature_3": {
+        "title": "清除元数据",
+        "content": "清除隐藏的元数据条目，避免泄露背景细节。"
+      }
+    },
+    "about": {
+      "title": "什么是 {{ProdFullName}}？",
+      "content": "{{ProdShortName}} 为 {{ProgLang}} 开发者提供工具，以隐藏或删除 {{FileFormatUp}} 文件中的内容。快速清理文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 中的元数据",
+      "description": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 文件中的不必要元数据。这是保护您文件隐藏细节的简单方法。"
+    }
+  },
+  "xlsx": {
+    "ext": "xlsx",
+    "head": {
+      "title": "使用 {{ProgLang}} 清理 {{FileFormatUp}} 文件中的元数据",
+      "description": "借助 {{ProdFullName}}，您可以安全地移除 {{FileFormatUp}} 文件中的元数据。清除可能泄露私人数据的隐藏信息。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文件中擦除元数据",
+      "description": "使用 {{ProgLang}} 保护您 {{FileFormatUp}} 文件中的敏感细节。简单的审查适用于个人和工作文档。",
+      "subtitle": "探索 {{ProdFullName}} 能做什么"
+    },
+    "steps": {
+      "title": "清理 {{FileFormatCap}} 文件中的元数据",
+      "content": {
+        "title": "借助 {{ProdShortName}}，您的 {{EnvName}} 应用可以快速移除隐藏数据。",
+        "step_1": "设置一个 {{textRedactor}} 并打开您的 {{FileFormatCap}} 文件。",
+        "step_2": "定义要删除的元数据。",
+        "step_3": "应用审查规则。",
+        "step_4": "保存最终文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "清理 {{FileFormatUp}} 中的隐藏元数据",
+      "comment_2": "使用 {{textRedactor}} 打开文件",
+      "comment_3": "设置要移除的元数据",
+      "comment_4": "应用审查并保存"
+    },
+    "example_bottom": {
+      "title": "如何移除元数据",
+      "content": "此示例代码移除 {{FileFormatUp}} 文档中的元数据属性。",
+      "comment_1": "打开文档",
+      "comment_2": "定位作者元数据",
+      "comment_3": "定位标题元数据",
+      "comment_4": "运行审查过程",
+      "comment_5": "保存清理后的文档"
+    },
+    "more_features": {
+      "title": "保护文档中的敏感信息",
+      "description": "使用 {{ProdFullName}} 清除或隐藏多种文件格式中的内容。保持文件私密，随时可共享。",
+      "image_description": "集成的审查功能",
+      "feature_1": {
+        "title": "替换或移除文本",
+        "content": "通过查找和删除敏感文本来保护个人数据。"
+      },
+      "feature_2": {
+        "title": "隐藏图像部分",
+        "content": "使用覆盖层阻止带有私密视觉信息的图像区域的查看。"
+      },
+      "feature_3": {
+        "title": "移除元数据",
+        "content": "清除可能承载个人或商业信息的隐藏元数据字段。"
+      }
+    },
+    "about": {
+      "title": "了解 {{ProdFullName}}",
+      "content": "{{ProdShortName}} 为 {{ProgLang}} 开发者提供工具以清理 {{FileFormatUp}} 文档中的内容。快速遮盖或删除文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 中的元数据",
+      "description": "在 {{FileFormatUp}} 文件中使用 {{EnvNameShort}} 清除私人元数据。保持文档整洁和安全。"
+    }
+  },
+  "pptx": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 文件中擦除元数据",
+      "description": "{{ProdFullName}} 帮助您删除或编辑 {{FileFormatUp}} 文件中的元数据。通过移除私人背景数据来保护您的文档。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 工具从 {{FileFormatUp}} 中删除元数据",
+      "description": "使用 {{ProgLang}} 隐藏 {{FileFormatUp}} 文件中的敏感元数据。非常适合商业和个人隐私。",
+      "subtitle": "{{ProdFullName}} 核心功能"
+    },
+    "steps": {
+      "title": "擦除 {{FileFormatCap}} 文件中的隐藏元数据",
+      "content": {
+        "title": "{{ProdShortName}} 帮助您的 {{EnvName}} 解决方案轻松清理隐藏数据。",
+        "step_1": "创建一个 {{textRedactor}} 实例并加载 {{FileFormatCap}} 文件。",
+        "step_2": "针对元数据字段配置审查规则。",
+        "step_3": "应用审查以移除数据。",
+        "step_4": "保存您的审查文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "在 {{FileFormatUp}} 中删除元数据",
+      "comment_2": "使用 {{textRedactor}} 打开文件",
+      "comment_3": "设置元数据清理审查",
+      "comment_4": "应用并保存文件"
+    },
+    "example_bottom": {
+      "title": "清理元数据字段",
+      "content": "本示例展示了如何安全清除 {{FileFormatUp}} 文件中的元数据。",
+      "comment_1": "导入您的 {{FileFormatUp}} 文件",
+      "comment_2": "对作者字段进行审查",
+      "comment_3": "对标题字段进行审查",
+      "comment_4": "运行审查过程",
+      "comment_5": "导出审查后的文件"
+    },
+    "more_features": {
+      "title": "为任何文件提供额外的审查工具",
+      "description": "{{ProdFullName}} 支持在不同格式间进行内容审查。确保您的数据隐私，保持文件清洁。",
+      "image_description": "内置隐私工具",
+      "feature_1": {
+        "title": "查找并删除文本",
+        "content": "快速删除您文件中的个人文本条目。"
+      },
+      "feature_2": {
+        "title": "用覆盖层覆盖图像",
+        "content": "隐藏不应可见的图像区域。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "清理可能包含隐私信息的隐藏字段。"
+      }
+    },
+    "about": {
+      "title": "了解 {{ProdFullName}}",
+      "content": "{{ProdShortName}} 是面向 {{ProgLang}} 开发者的审查工具包，帮助您在 {{FileFormatUp}} 文件中处理文本、图像和元数据的审查。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 清理 {{FileFormatUp}} 文件中的元数据",
+      "description": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文件中轻松移除背景元数据。非常适合文档安全。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的元数据",
+      "description": "使用 {{ProdFullName}} 查找并删除 {{FileFormatUp}} 文件中的隐藏元数据。保持文档私密，安全，不受不必要曝光的影响。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 文件中的元数据",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的个人和企业数据。简单的工具用于可靠的文件隐私。",
+      "subtitle": "您可以使用 {{ProdFullName}} 做什么"
+    },
+    "steps": {
+      "title": "从 {{FileFormatCap}} 文件中删除元数据",
+      "content": {
+        "title": "使用 {{ProdShortName}}，在您的 {{EnvName}} 环境中轻松清理文档元数据。",
+        "step_1": "初始化一个 {{textRedactor}} 对象并打开您的 {{FileFormatCap}} 文档。",
+        "step_2": "设置规则以清除所有隐藏元数据。",
+        "step_3": "运行审查以移除敏感标签。",
+        "step_4": "保存清理后的文档。"
+      }
+    },
+    "example_top": {
+      "comment_1": "从 {{FileFormatUp}} 文件中擦除元数据",
+      "comment_2": "使用 {{textRedactor}} 打开文档",
+      "comment_3": "设置元数据移除选项",
+      "comment_4": "审查并保存清理后的文件"
+    },
+    "example_bottom": {
+      "title": "编辑或删除隐藏的元数据",
+      "content": "本示例展示了如何在 {{FileFormatUp}} 文档中定位并清理元数据条目。",
+      "comment_1": "加载文件以进行审查",
+      "comment_2": "移除作者元数据",
+      "comment_3": "移除标题元数据",
+      "comment_4": "执行审查过程",
+      "comment_5": "导出清理后的文档"
+    },
+    "more_features": {
+      "title": "从文档中审查机密数据",
+      "description": "借助 {{ProdFullName}}，您可以删除各种格式中的私人内容。保持文件安全，同时保持其结构。",
+      "image_description": "元数据与内容审查工具",
+      "feature_1": {
+        "title": "替换敏感文本",
+        "content": "在文档中查找文字并安全地删除或更改，以保护私人信息。"
+      },
+      "feature_2": {
+        "title": "遮蔽图像",
+        "content": "使用覆盖层遮挡图像的敏感区域。"
+      },
+      "feature_3": {
+        "title": "清除元数据",
+        "content": "查找并清除隐藏数据，避免泄露信息。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdShortName}} 帮助 {{ProgLang}} 开发者保护 {{FileFormatUp}} 文件中的内容。快速和轻松地清理文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中进行元数据审查",
+      "description": "使用 {{EnvNameShort}} 清理 {{FileFormatUp}} 文件中的隐藏元数据。简单的工具使敏感信息保持安全。"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "通过 {{ProgLang}} 编辑和删除 {{FileFormatUp}} 中的元数据",
+      "description": "通过使用 {{ProdFullName}} 移除元数据来保护您的 {{FileFormatUp}} 文档。消除可能危害隐私的隐藏数据。"
+    },
+    "header": {
+      "title": "通过 {{EnvNameShort}} 保护 {{FileFormatUp}} 文件中的元数据",
+      "description": "使用 {{ProgLang}}，您可以清理 {{FileFormatUp}} 文件中的敏感数据。工具旨在保护您的信息。",
+      "subtitle": "{{ProdFullName}} 的顶级好处"
+    },
+    "steps": {
+      "title": "清除 {{FileFormatCap}} 文件中的元数据",
+      "content": {
+        "title": "在您的 {{EnvName}} 项目中使用 {{ProdShortName}} 安全处理文档元数据。",
+        "step_1": "创建一个 {{textRedactor}} 对象并加载目标 {{FileFormatCap}} 文件。",
+        "step_2": "配置审查以清除隐藏元数据。",
+        "step_3": "运行清理过程。",
+        "step_4": "保存最终版本。"
+      }
+    },
+    "example_top": {
+      "comment_1": "从 {{FileFormatUp}} 中清除元数据",
+      "comment_2": "初始化审查工具并加载文件",
+      "comment_3": "为元数据设置移除选项",
+      "comment_4": "审查并保存结果"
+    },
+    "example_bottom": {
+      "title": "定位元数据进行审查",
+      "content": "学习如何定位并移除 {{FileFormatUp}} 文档中的元数据，像作者或标题。",
+      "comment_1": "将文档导入到审查工具",
+      "comment_2": "定位作者元数据",
+      "comment_3": "定位标题元数据",
+      "comment_4": "应用更改",
+      "comment_5": "保存更新的文档"
+    },
+    "more_features": {
+      "title": "擦除文件中的私人数据",
+      "description": "{{ProdFullName}} 允许您清理多种格式中的文本、图像和元数据。非常适用于个人、法律和企业文档。",
+      "image_description": "元数据移除工具",
+      "feature_1": {
+        "title": "搜索并移除文本",
+        "content": "查找文档中的个人或机密文本并安全移除。"
+      },
+      "feature_2": {
+        "title": "隐藏视觉元素",
+        "content": "覆盖图像的敏感部分以防止查看。"
+      },
+      "feature_3": {
+        "title": "移除元数据",
+        "content": "擦除可能泄漏敏感信息的嵌入数据。"
+      }
+    },
+    "about": {
+      "title": "什么是 {{ProdFullName}}？",
+      "content": "{{ProdShortName}} 为 {{ProgLang}} 开发者提供一种可靠的方法来管理 {{FileFormatUp}} 文件中的审查。它适用于文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 中删除元数据",
+      "description": "使用 {{EnvNameShort}} 清除 {{FileFormatUp}} 文件中的私人元数据。保持文档整洁和安全。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "通过 {{ProgLang}} 从 {{FileFormatUp}} 中清理元数据",
+      "description": "使用 {{ProdFullName}} 从 {{FileFormatUp}} 文件中删除不需要的元数据。通过擦除隐藏数据来保护您的隐私。"
+    },
+    "header": {
+      "title": "通过 {{EnvNameShort}} 从 {{FileFormatUp}} 文件中擦除元数据",
+      "description": "使用专为 {{ProgLang}} 设计的简单工具保护 {{FileFormatUp}} 文件中的文档数据。只需几个步骤即可移除元数据。",
+      "subtitle": "{{ProdFullName}} 的功能"
+    },
+    "steps": {
+      "title": "从 {{FileFormatCap}} 文档中清理元数据",
+      "content": {
+        "title": "使用 {{ProdShortName}}，您的 {{EnvName}} 应用可以轻松地从文档中移除元数据。",
+        "step_1": "启动 {{textRedactor}} 对象并加载文件。",
+        "step_2": "选择要移除的元数据字段。",
+        "step_3": "应用审查设置。",
+        "step_4": "导出最终的清理文档。"
+      }
+    },
+    "example_top": {
+      "comment_1": "去除 {{FileFormatUp}} 中的元数据",
+      "comment_2": "用审查工具打开文档",
+      "comment_3": "设置元数据清理选项",
+      "comment_4": "应用审查并保存"
+    },
+    "example_bottom": {
+      "title": "清除隐藏的元数据字段",
+      "content": "本示例指导您如何从 {{FileFormatUp}} 文件中删除嵌入的数据，例如作者和标题。",
+      "comment_1": "将文件导入审查工具",
+      "comment_2": "移除作者数据",
+      "comment_3": "移除标题数据",
+      "comment_4": "运行审查",
+      "comment_5": "保存清理后的版本"
+    },
+    "more_features": {
+      "title": "通过审查保护文档",
+      "description": "{{ProdFullName}} 帮助您从文档中移除隐蔽内容，以便安全共享。适用于多种格式和内容类型。",
+      "image_description": "审查能力",
+      "feature_1": {
+        "title": "删除私人文本",
+        "content": "找到敏感的词语或短语并将其删除。"
+      },
+      "feature_2": {
+        "title": "遮蔽图像数据",
+        "content": "使用覆盖层覆盖需要隐藏的图像区域。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "清理可能包含隐藏信息的元数据字段。"
+      }
+    },
+    "about": {
+      "title": "更多关于 {{ProdFullName}} 的信息",
+      "content": "{{ProdShortName}} 是为 {{ProgLang}} 开发者打造的审查工具包，帮助您在 {{FileFormatUp}} 文件中处理文本、图像和元数据的审查。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 清理 {{FileFormatUp}} 文件中的元数据",
+      "description": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 文件中的隐藏数据。非常适合清理机密文档。"
+    }
+  },
+  "jpeg": {
+    "ext": "jpg",
+    "head": {
+      "title": "使用 {{ProgLang}} 编辑 {{FileFormatUp}} 中的元数据",
+      "description": "使用 {{ProdFullName}} 可以清理或更改您的 {{FileFormatUp}} 文件中的元数据。移除可能包含私人数据的隐藏细节。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 文件中的元数据",
+      "description": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 文件中的私人细节。简单的工具提高文档安全性。",
+      "subtitle": "{{ProdFullName}} 的主要功能"
+    },
+    "steps": {
+      "title": "清理 {{FileFormatCap}} 文档中的元数据",
+      "content": {
+        "title": "{{ProdShortName}} 使您能轻松在 {{EnvName}} 应用中移除元数据。",
+        "step_1": "设置一个 {{textRedactor}} 并加载您想要清理的 {{FileFormatCap}} 文件。",
+        "step_2": "选择设置以清除所有元数据。",
+        "step_3": "运行审查以清理文件。",
+        "step_4": "保存清理后的文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "从 {{FileFormatUp}} 文件中移除元数据",
+      "comment_2": "使用 {{textRedactor}} 加载文件",
+      "comment_3": "配置元数据审查",
+      "comment_4": "应用并保存"
+    },
+    "example_bottom": {
+      "title": "清除隐藏的元数据字段",
+      "content": "本示例展示了如何删除或编辑 {{FileFormatUp}} 文档中的隐藏元数据。",
+      "comment_1": "使用审查工具打开 {{FileFormatUp}} 文件",
+      "comment_2": "为作者字段添加审查",
+      "comment_3": "为标题字段添加审查",
+      "comment_4": "运行审查过程",
+      "comment_5": "保存清理后的文档"
+    },
+    "more_features": {
+      "title": "从文档中删除敏感数据",
+      "description": "{{ProdFullName}} 使您可以在多种格式中隐藏或清理私人内容。保护敏感数据，同时保持文件的实用性和清晰性。",
+      "image_description": "关键审查功能",
+      "feature_1": {
+        "title": "搜索并移除文本",
+        "content": "在您的文件中找到敏感词语或短语并把它们清除。"
+      },
+      "feature_2": {
+        "title": "遮盖图像区域",
+        "content": "使用覆盖层隐藏图像的私密部分。"
+      },
+      "feature_3": {
+        "title": "编辑元数据",
+        "content": "删除或更改元数据以避免分享私人数据。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdShortName}} 帮助 {{ProgLang}} 开发者使用简单工具删除 {{FileFormatUp}} 文件中的文本、图像和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 清理 {{FileFormatUp}} 元数据",
+      "description": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 文档中删除隐藏数据。保护敏感细节的理想方法。"
+    }
+  },
+  "image": {
+    "ext": "png",
+    "head": {
+      "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中删除隐藏元数据",
+      "description": "使用 {{ProdFullName}} 清理您的 {{FileFormatUp}} 文件中的元数据。确保私人细节保持私密。"
+    },
+    "header": {
+      "title": "通过 {{EnvNameShort}} 删除 {{FileFormatUp}} 文件中的元数据",
+      "description": "使用 {{ProgLang}} 保护您的 {{FileFormatUp}} 文件。轻松保护商业和个人数据。",
+      "subtitle": "{{ProdFullName}} 的收获"
+    },
+    "steps": {
+      "title": "清理 {{FileFormatCap}} 文件中的元数据",
+      "content": {
+        "title": "开始使用 {{ProdShortName}} 在您的 {{EnvName}} 应用中清理文件元数据。",
+        "step_1": "创建一个 {{textRedactor}} 并打开您的 {{FileFormatCap}} 文件。",
+        "step_2": "选择要删除隐藏元数据条目的选项。",
+        "step_3": "应用审查设置。",
+        "step_4": "保存结果。"
+      }
+    },
+    "example_top": {
+      "comment_1": "从 {{FileFormatUp}} 文件中删除隐藏元数据",
+      "comment_2": "打开文件使用 {{textRedactor}}",
+      "comment_3": "为元数据添加审查规则",
+      "comment_4": "处理并保存"
+    },
+    "example_bottom": {
+      "title": "擦除敏感元数据",
+      "content": "本示例解释如何在 {{FileFormatUp}} 文档中删除特定的元数据字段。",
+      "comment_1": "使用审查工具打开 {{FileFormatUp}}",
+      "comment_2": "定位作者字段",
+      "comment_3": "定位标题字段",
+      "comment_4": "审查字段",
+      "comment_5": "保存您的文档"
+    },
+    "more_features": {
+      "title": "在任何文档中清理内容",
+      "description": "{{ProdFullName}} 移除私人文本、图像部分或隐藏字段。使文档适合安全共享。",
+      "image_description": "主要功能",
+      "feature_1": {
+        "title": "文本审查",
+        "content": "查找并删除不应共享的私人词语和数字。"
+      },
+      "feature_2": {
+        "title": "图像遮盖",
+        "content": "添加图像遮罩以覆盖视觉信息。"
+      },
+      "feature_3": {
+        "title": "元数据审查",
+        "content": "清除可能泄漏信息的元数据字段。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdShortName}} 帮助 {{ProgLang}} 用户通过删除不需要的文本、图像部分和 {{FileFormatUp}} 文件中的元数据来清理文件。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 从 {{FileFormatUp}} 中删除元数据",
+      "description": "使用 {{EnvNameShort}} 在 {{FileFormatUp}} 文件中擦除敏感数据。保持您的文件安全以供共享或存储。"
+    }
+  },
+  "photo": {
+    "ext": "jpeg",
+    "head": {
+      "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的元数据",
+      "description": "{{ProdFullName}} 帮助您移除可能泄露个人或商业信息的 {{FileFormatUp}} 文件中的隐藏数据。"
+    },
+    "header": {
+      "title": "使用 {{EnvNameShort}} 删除 {{FileFormatUp}} 中的元数据",
+      "description": "轻松保护您的文档，通过 {{ProgLang}} 移除 {{FileFormatUp}} 文件中的隐藏信息。",
+      "subtitle": "{{ProdFullName}} 的亮点"
+    },
+    "steps": {
+      "title": "擦除 {{FileFormatCap}} 文件中的元数据",
+      "content": {
+        "title": "在您的 {{EnvName}} 项目中使用 {{ProdShortName}} 清理文档元数据。",
+        "step_1": "启动一个 {{textRedactor}} 并打开您的 {{FileFormatCap}} 文件。",
+        "step_2": "设置删除元数据的规则。",
+        "step_3": "应用审查并清理文件。",
+        "step_4": "保存结果文件。"
+      }
+    },
+    "example_top": {
+      "comment_1": "从 {{FileFormatUp}} 文档中删除元数据",
+      "comment_2": "使用 {{textRedactor}} 加载文档",
+      "comment_3": "设置元数据字段进行审查",
+      "comment_4": "清理文档并保存"
+    },
+    "example_bottom": {
+      "title": "删除隐藏的元数据字段",
+      "content": "本示例指导您在 {{FileFormatUp}} 文档中删除元数据。",
+      "comment_1": "将 {{FileFormatUp}} 文件加载到审查工具中",
+      "comment_2": "对作者字段进行审查",
+      "comment_3": "对标题字段进行审查",
+      "comment_4": "处理文档",
+      "comment_5": "保存清理后的版本"
+    },
+    "more_features": {
+      "title": "删除文件中的私人信息",
+      "description": "{{ProdFullName}} 为您提供从文本、图像和文件详细信息中删除个人数据的方法。完美的数据安全性。",
+      "image_description": "有用的审查功能",
+      "feature_1": {
+        "title": "文本清理",
+        "content": "扫描并擦除任何不应共享的文本。"
+      },
+      "feature_2": {
+        "title": "覆盖图像区域",
+        "content": "在具有私密细节的图像部分添加覆盖。"
+      },
+      "feature_3": {
+        "title": "删除元数据",
+        "content": "在共享或发布之前删除隐藏文件数据。"
+      }
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdShortName}} 帮助 {{ProgLang}} 开发者在 {{FileFormatUp}} 文件中隐藏私人内容，包括文本、图像部分和元数据。"
+    },
+    "formats": {
+      "title": "使用 {{EnvNameShort}} 审查 {{FileFormatUp}} 中的元数据",
+      "description": "使用 {{EnvNameShort}} 工具清理 {{FileFormatUp}} 文档中的元数据。保护敏感细节。"
+    }
+  }
+}

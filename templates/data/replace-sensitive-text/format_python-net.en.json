@@ -62,7 +62,7 @@
     },
     "header": {
       "title": "Edit or Hide Private Text in {{FileFormatUp}} Files with {{EnvNameShort}}",
-      "description": "Take control of your {{FileFormatUp}] content using {{ProdFullName}} and {{ProgLang}}. Great for personal or business use.",
+      "description": "Take control of your {{FileFormatUp}} content using {{ProdFullName}} and {{ProgLang}}. Great for personal or business use.",
       "subtitle": "What You Can Do with {{ProdFullName}}"
     },
     "steps": {

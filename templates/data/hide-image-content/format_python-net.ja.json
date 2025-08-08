@@ -570,7 +570,7 @@
     "ext": "jpeg",
     "head": {
       "title": "{{ProgLang}}オーバーレイを使った{{FileFormatUp}}ファイル内の画像のカバー",
-      "description": "{{ ProdFullName }}を使用して{{FileFormatUp}}ファイル内の敏感な画像データをオーバーレイで隠します。文書のデザインを変更せずにプライベートデータを保護します。"
+      "description": "{{ProdFullName}}を使用して{{FileFormatUp}}ファイル内の敏感な画像データをオーバーレイで隠します。文書のデザインを変更せずにプライベートデータを保護します。"
     },
     "header": {
       "title": "{{EnvNameShort}}を使用した{{FileFormatUp}}ファイル内の敏感な画像を隠す",

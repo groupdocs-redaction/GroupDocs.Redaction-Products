@@ -565,7 +565,7 @@
     },
     "header": {
       "title": "{{EnvNameShort}}로 {{FileFormatUp}}에서 메타데이터 제거하기",
-      "description": "{{ProgFullName}} 도구를 사용하여 개인적인 메타데이터를 제거하고 {{FileFormatUp}} 파일을 안전하게 유지하세요.",
+      "description": "{{ProdFullName}} 도구를 사용하여 개인적인 메타데이터를 제거하고 {{FileFormatUp}} 파일을 안전하게 유지하세요.",
       "subtitle": "{{ProdFullName}}의 주요 기능"
     },
     "steps": {

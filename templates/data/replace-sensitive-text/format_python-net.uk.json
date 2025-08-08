@@ -124,7 +124,7 @@
     },
     "header": {
       "title": "Приховування або видалення приватного тексту у файлах {{FileFormatUp}} за допомогою {{EnvNameShort}}",
-      "description": "З {@ProdFullName} та {{ProgLang}} ви можете видаляти приватний текст з {{FileFormatUp}} документів — швидко та надійно.",
+      "description": "З {{ProdFullName}} та {{ProgLang}} ви можете видаляти приватний текст з {{FileFormatUp}} документів — швидко та надійно.",
       "subtitle": "Що ви можете зробити з {{ProdFullName}}"
     },
     "steps": {

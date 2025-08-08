@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-07-23T13:59:15
+date: 2025-08-08T14:47:02
 draft: false
 
 lang: en
@@ -222,7 +222,6 @@ code_samples:
         {{< landing/code title="Redact Word Documents Using Regular Expressions">}}
         ```python {style=abap}
         import groupdocs.redaction as gr
-        import groupdocs.redaction.options as gro
         import groupdocs.redaction.redactions as grr
         import groupdocs.pydrawing as grd
 
@@ -250,7 +249,6 @@ code_samples:
         {{< landing/code title="Remove All Metadata from Presentations">}}
         ```python {style=abap}   
         import groupdocs.redaction as gr
-        import groupdocs.redaction.options as gro
         import groupdocs.redaction.redactions as grr
 
         # Configure the redaction options

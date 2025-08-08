@@ -1,0 +1,246 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2025-08-08T14:47:00
+draft: false
+lang: en
+format: Jpeg
+product: "Redaction"
+product_tag: "redaction"
+platform: "Python via .NET"
+platform_tag: "python-net"
+
+############################# Head ############################
+head_title: "Edit Metadata in JPEG Using Python"
+head_description: "GroupDocs.Redaction for Python via .NET helps you clear or update metadata in JPEG documents. Remove hidden fields that may reveal private details."
+
+############################# Header ############################
+title: "Clean Metadata in JPEG via Python" 
+description: "Secure your JPEG files by removing hidden metadata using simple tools built for Python."
+subtitle: "Core Features of GroupDocs.Redaction for Python via .NET" 
+
+############################# About ############################
+about:
+    enable: true
+    title: "Learn About GroupDocs.Redaction for Python via .NET"
+    link: "/redaction/python-net/"
+    link_title: "Learn more"
+    picture: "about_redaction.svg" # 480 X 400
+    content: |
+       GroupDocs.Redaction gives Python developers simple tools to remove text, images, and metadata from JPEG documents.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "Steps to Clean Jpeg Metadata"
+    content: |
+      GroupDocs.Redaction makes metadata removal fast and easy for your Python via .NET apps.
+      
+      1. Set up a Redactor and open your Jpeg document.
+      2. Pick options to remove metadata fields.
+      3. Run redaction to clean up the file.
+      4. Save the new version with no hidden data.
+   
+    code:
+      platform: "python-net"
+      copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/redaction/redaction_all.pdf"
+      result_title: "Sample redactions"
+      install:
+        command: |
+        command: "pip install groupdocs-redaction-net"
+        copy_tip: "click to copy"
+        copy_done: "copied"
+      links:
+        #  loop
+        - title: "More examples"
+          link: "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/redaction/python-net/"
+          
+      content: |
+        ```python {style=abap}
+        import groupdocs.redaction as gr
+        import groupdocs.redaction.redactions as grr
+
+        # Clean up metadata in JPEG
+
+        # Choose metadata fields to clean
+        redaction = grr.EraseMetadataRedaction(grr.MetadataFilters.ALL)
+
+        # Open the file using Redactor
+        with gr.Redactor("input.jpg") as redactor:
+
+            # Apply redaction and save the file
+            result = redactor.apply(redaction)
+            redactor.save()
+        ```            
+
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Protect Privacy in Every File"
+  description: "GroupDocs.Redaction for Python via .NET gives you control over sensitive data in documents. Remove hidden content in text, images, and metadata."
+  image: "/img/redaction/features_metadata.webp" # 500x500 px
+  image_description: "Metadata Redaction Features"
+  features:
+    # feature loop
+    - title: "Find and Erase Text"
+      content: "Scan for keywords or private info and remove it from the document."
+
+    # feature loop
+    - title: "Hide Image Details"
+      content: "Cover image areas that shouldn’t be seen by others."
+
+    # feature loop
+    - title: "Edit File Metadata"
+      content: "Change or delete metadata fields to protect document info."
+      
+  code_samples_ext:
+    # code sample ext loop
+    - title: "Edit Metadata Fields"
+      content: |
+        This example walks through removing or modifying fields like Author and Title in a JPEG document.
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.redaction as gr
+          import groupdocs.redaction.options as gro
+          import groupdocs.redaction.redactions as grr
+          import groupdocs.pydrawing as grd
+
+          # Target the Author field
+          redaction_author = grr.MetadataSearchRedaction("[A-Za-z0-9 ]+", "GroupDocs Company")
+          redaction_author.filter = grr.MetadataFilters.AUTHOR
+
+          # Target the Title field
+          redaction_title = grr.MetadataSearchRedaction(@"[A-Za-z0-9 ]+", "GroupDocs.Redaction Usage")
+          redaction_title.filter = grr.MetadataFilters.TITLE
+
+          # Open the JPEG file
+          with gr.Redactor("source.jpg") as redactor:
+
+              # Run the cleanup process
+              redactions = [
+                redaction_author,
+                redaction_title
+              ]
+              result = redactor.apply(redactions)
+
+              # Save the new version
+              save_options = gro.SaveOptions()
+              save_options.add_suffix = True
+              save_options.rasterize_to_pdf = False
+              result_path = redactor.save(save_options)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-redaction-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/redaction/formats/remove-sensitive-metadata.pdf"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/redaction/python-net/"
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Redaction features for free or request a license"
+  items:
+    #  loop
+    - title: "PyPi download"
+      link: "https://releases.groupdocs.com/redaction/python-net/"
+      color: "red"
+        #  loop
+    - title: "Licensing"
+      link: "https://purchase.groupdocs.com/pricing/redaction/python-net/"
+      color: "light"
+
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "Clean JPEG Metadata with Python"
+    exclude: "JPEG"
+    description: "Use Python to remove hidden and private data from your JPEG documents quickly and easily."
+    items: 
+        # format loop 1
+        - name: "Redact PDF"
+          format: "PDF"
+          link: "/redaction/python-net/remove-sensitive-metadata//pdf/"
+          description: "Adobe Portable Document Format"
+
+        # format loop 2
+        - name: "Redact Word"
+          format: "WORD"
+          link: "/redaction/python-net/remove-sensitive-metadata//word/"
+          description: "MS Word and Open Office documents"
+          
+        # format loop 3
+        - name: "Redact Excel"
+          format: "EXCEL"
+          link: "/redaction/python-net/remove-sensitive-metadata//excel/"
+          description: "MS Excel and Open Office spreadsheets"
+
+        # format loop 4
+        - name: "Redact PowerPoint"
+          format: "POWERPOINT"
+          link: "/redaction/python-net/remove-sensitive-metadata//powerpoint/"
+          description: "MS PowerPoint and Open Office presentations"
+
+        # format loop 5
+        - name: "Redact Image"
+          format: "IMAGE"
+          link: "/redaction/python-net/remove-sensitive-metadata//image/"
+          description: "Popular image formats"
+
+        # format loop 6
+        - name: "Redact Photo"
+          format: "PHOTO"
+          link: "/redaction/python-net/remove-sensitive-metadata//photo/"
+          description: "Photo formats"
+
+        # format loop 7
+        - name: "Redact DOCX"
+          format: "DOCX"
+          link: "/redaction/python-net/remove-sensitive-metadata//docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 8
+        - name: "Redact XLSX"
+          format: "XLSX"
+          link: "/redaction/python-net/remove-sensitive-metadata//xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+          
+        # format loop 9
+        - name: "Redact PPTX"
+          format: "PPTX"
+          link: "/redaction/python-net/remove-sensitive-metadata//pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop 10
+        - name: "Redact JPEG"
+          format: "JPEG"
+          link: "/redaction/python-net/remove-sensitive-metadata//jpeg/"
+          description: "JPEG Image"
+
+
+---

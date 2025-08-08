@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-07-28T09:54:21
+date:  2025-08-08T14:46:58
 draft: false
 lang: en
 format: Excel
@@ -12,46 +12,42 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Generate Watermark for Excel Spreadsheets"
-head_description: "Automate image watermarking with .NET C# for consistent security. Handle large batches of images efficiently."
+head_title: "Hide Content in EXCEL with Overlay Redaction and C#"
+head_description: "Cover text in EXCEL documents using solid color blocks with GroupDocs.Redaction for .NET. An easy way to guard private content."
 
 ############################# Header ############################
-title: "Add Dynamic Watermarks in Excel Using .NET C#" 
-description: "Automate the application of dynamic text or image watermarks across your Excel files using C#. Our tutorials show you how to maintain consistency and professionalism, with minimal manual intervention required."
-subtitle: "GroupDocs.Redaction for .NET API" 
+title: "Overlay Redaction for EXCEL Files in .NET" 
+description: "Use C# code to hide text and protect data inside your EXCEL files. A clean solution for document safety."
+subtitle: "What GroupDocs.Redaction for .NET includes" 
 
-header_actions:
-  enable: true
-  items:
-    #  loop
-    - title: "Free Nuget download"
-      link: "https://releases.groupdocs.com/redaction/net/"
-      
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Redaction for .NET library"
+    title: "Why Choose GroupDocs.Redaction for .NET"
     link: "/redaction/net/"
     link_title: "Learn more"
     picture: "about_redaction.svg" # 480 X 400
     content: |
-       GroupDocs.Redaction for .NET enables seamless integration of watermarks into Excel spreadsheets, providing businesses with the tools necessary to secure and personalize their documents. This C# library supports a variety of watermark types and allows for detailed customization, including opacity, rotation, and alignment adjustments. Additionally, it comes equipped with advanced search capabilities to detect and manage existing watermarks, ensuring your spreadsheets are protected against tampering and unauthorized disclosures.
+       GroupDocs.Redaction for .NET is made for C# developers who want to redact or delete content in EXCEL files. Use it to work with text, metadata, and images.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Effortlessly Generate Watermarks for Excel Documents"
+    title: "Redact sensitive info in Excel format"
     content: |
-      **[GroupDocs.Redaction for .NET](https://products.groupdocs.com/redaction/net/):** Advanced Watermarking library for .NET applications. Empower your solution and secure documents with watermarks just in time.
+      GroupDocs.Redaction for .NET is a simple tool for .NET developers to clean up documents before sharing.
       
-      1. **Core Class: Watermarker.** The main class of our API is Redactor. You need to instantiate it before document processing. Do not forget to pass the Excel file to the constructor as a path or a stream object.
-      2. **Crafting Your Watermark.** The next step is constructing a Watermark object of the desired type. It can be placed not only on a specific document page but also in native document parts like images or headers.
-      3. **Fine-Tuning Appearance.** Set watermark properties such as height and width, top, left, central alignments, fonts and colors, etc.
-      4. **Applying and Saving.** Use the {{TextWatermarkerBold}} method to add a new watermark. Feel free to add as many watermarks as you need. You may save the watermarked document to any location.
+      1. Start a Redactor and load your Excel file.
+      2. Decide on the redaction settings for your task.
+      3. Add a keyword or phrase to redact and choose a color.
+      4. Run the tool and save the changes.
    
     code:
       platform: "net"
       copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/redaction/redaction_all.pdf"
+      result_title: "Sample redactions"
       install:
         command: |
         command: "dotnet add package GroupDocs.Redaction"
@@ -67,20 +63,20 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Generate image watermark in EXCEL file
+        // Use overlays to hide text in EXCEL
 
-        // Provide source file path to {{TextWatermarker}} constructor
-        using (Watermarker watermarker = new Watermarker("input.xslx"))
+        // Create a Redactor and load your file
+        using (Redactor redactor  = new Redactor("input.xslx"))
         {
-            // Generate image watermark instance with image file
-            Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
-            TextWatermark watermark = new TextWatermark("my watermark", font);
-            watermark.ForegroundColor = Color.Red;
-            watermark.BackgroundColor = Color.Blue;
-            watermarker.Add(watermark);
+            // Pick redaction rules
+            // Enter what to hide and choose a color
+            var opt = new ReplacementOptions(System.Drawing.Color.Red);
+            
+            var redaction = new ExactPhraseRedaction("Text to hide", opt);
 
-            // Save watermarked EXCEL result
-            watermarker.Save("output.xslx");
+            // Apply redaction and save the file
+            redactor.Apply(redaction);
+            redactor.Save();
         }
         
         ```            
@@ -89,58 +85,65 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Elevate Your Watermarking Game"
-  description: "Unlock advanced watermarking capabilities with our GroupDocs.Watermark API for .NET. This powerful tool allows for precise customization and application of watermarks across various document types to ensure maximum security and copyright adherence with minimal visual disruption."
-  image: "/img/redaction/features_add.webp" # 500x500 px
-  image_description: "Comprehensive Watermarking Solutions"
+  title: "Key features for data protection"
+  description: "GroupDocs.Redaction for .NET lets you hide or delete data inside your documents without losing layout or meaning."
+  image: "/img/redaction/features_text_hide.webp" # 500x500 px
+  image_description: "Built for document safety"
   features:
     # feature loop
-    - title: "Sophisticated Tiling Options"
-      content: "Extend your watermarks across entire documents seamlessly with our tiling options. This feature allows watermarks to cover the full document area, preventing removal and ensuring complete document protection without compromising on design or readability."
+    - title: "Change text content"
+      content: "Swap out or hide selected words across the file."
 
     # feature loop
-    - title: "Vibrant Color Customization"
-      content: "Add a splash of color to your watermarks! Our API enables full spectrum color customization, allowing you to apply watermarks that perfectly match your corporate branding or document style. Enhance visual appeal while maintaining robust security features."
+    - title: "Redact visuals"
+      content: "Hide photos or areas with simple blocks."
 
     # feature loop
-    - title: "Enhanced Security Settings"
-      content: "Take document security to the next level with advanced watermark settings. Configure multi-layer watermarks, incorporating both visible and invisible elements, to protect against unauthorized copying and ensure only intended recipients can access critical information."
+    - title: "Clear metadata"
+      content: "Get rid of background data like author names or timestamps."
       
-  code_samples:
-    # code sample loop
-    - title: "Generate PowerPoint watermark"
+  code_samples_ext:
+    # code sample ext loop
+    - title: "Regex text redaction"
       content: |
-        This example shows how to add watermark to the PPTX background images
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        
-            //  Load PPTX presentation
-            var loadOptions = new WordProcessingLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.xslx", loadOptions))
-            {
-                //  Set up watermark properties
-                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                {
-                    WordProcessingImageEffects effects = new WordProcessingImageEffects();
-                    effects.Brightness = 0.7;
-                    effects.Contrast = 0.6;
-                    effects.ChromaKey = Color.Red;
-                    effects.BorderLineFormat.Enabled = true;
-                    effects.BorderLineFormat.Weight = 1;
+        Here’s how to use regex to find and hide content in a file
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          //  Load the document to process
+          using (Redactor redactor  = new Redactor("source.xslx"))
+          {
+              // Add pattern and overlay settings
+              var repl_opt = new ReplacementOptions(System.Drawing.Color.Blue);
+              var redaction = new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", repl_opt);
 
-                    WordProcessingWatermarkSectionOptions options = new WordProcessingWatermarkSectionOptions();
-                    options.Effects = effects;
+              // Apply the changes
+              redactor.Apply(redaction);
 
-                    //  Watermark slides background
-                    watermarker.Add(watermark, options);
-                }
-
-                //  Save processed presentation
-                watermarker.save("result.docx");
-            }
-
-        ```
-        {{< /landing/code >}}
+              // Save and close the redacted document
+              var save_opt = new SaveOptions() { AddSuffix = true, RasterizeToPDF = false };
+              var outputPath = redactor.Save(save_opt);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Redaction"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/redaction/formats/hide-text-with-image-overlay.pdf"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/redaction/net/"
 
 
 ############################# Actions ############################
@@ -163,48 +166,48 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Embedding text and image Watermarks in Excel using C#"
+    title: "Redact EXCEL Files with .NET"
     exclude: "EXCEL"
-    description: "Utilize the GroupDocs.Watermark C# API to efficiently add custom watermarks to Excel spreadsheets. Enhance document security and corporate branding with tools designed for fast and flexible watermark integration."
+    description: "Cover sensitive content in EXCEL using square overlays or clear redactions with .NET features."
     items: 
         # format loop 1
-        - name: "Watermark PDF"
+        - name: "Redact PDF"
           format: "PDF"
           link: "/redaction/net/hide-text-with-image-overlay//pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop 2
-        - name: "Watermark Word"
+        - name: "Redact Word"
           format: "WORD"
           link: "/redaction/net/hide-text-with-image-overlay//word/"
           description: "MS Word and Open Office documents"
           
         # format loop 3
-        - name: "Watermark Excel"
+        - name: "Redact Excel"
           format: "EXCEL"
           link: "/redaction/net/hide-text-with-image-overlay//excel/"
           description: "MS Excel and Open Office spreadsheets"
 
         # format loop 4
-        - name: "Watermark PowerPoint"
+        - name: "Redact PowerPoint"
           format: "POWERPOINT"
           link: "/redaction/net/hide-text-with-image-overlay//powerpoint/"
           description: "MS PowerPoint and Open Office presentations"
 
         # format loop 5
-        - name: "Watermark DOCX"
+        - name: "Redact DOCX"
           format: "DOCX"
           link: "/redaction/net/hide-text-with-image-overlay//docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 6
-        - name: "Watermark XLSX"
+        - name: "Redact XLSX"
           format: "XLSX"
           link: "/redaction/net/hide-text-with-image-overlay//xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
           
         # format loop 7
-        - name: "Watermark PPTX"
+        - name: "Redact PPTX"
           format: "PPTX"
           link: "/redaction/net/hide-text-with-image-overlay//pptx/"
           description: "PowerPoint Open XML Presentation"

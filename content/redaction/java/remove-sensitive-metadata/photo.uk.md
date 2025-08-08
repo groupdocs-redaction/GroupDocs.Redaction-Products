@@ -1,0 +1,274 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2025-08-08T14:46:55
+draft: false
+lang: uk
+format: Photo
+product: "Redaction"
+product_tag: "redaction"
+platform: "Java"
+platform_tag: "java"
+
+############################# Head ############################
+head_title: "Видалення метаданих з PHOTO за допомогою Java"
+head_description: "GroupDocs.Redaction for Java допомагає видалити приховані дані з файлів PHOTO, які можуть розкрити особисті або бізнес-деталі."
+
+############################# Header ############################
+title: "Видалення метаданих з PHOTO з Java" 
+description: "Забезпечте свої файли PHOTO безпечними, видаляючи приховані метадані за допомогою інструментів Java."
+subtitle: "Основні особливості GroupDocs.Redaction for Java" 
+
+############################# About ############################
+about:
+    enable: true
+    title: "Про GroupDocs.Redaction for Java"
+    link: "/redaction/java/"
+    link_title: "Дізнатися більше"
+    picture: "about_redaction.svg" # 480 X 400
+    content: |
+       GroupDocs.Redaction надає розробникам Java інструменти для приховування чутливого вмісту у файлах PHOTO, включаючи текст, частини зображень та метадані.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "Як видалити метадані з файлів Photo"
+    content: |
+      Використовуйте GroupDocs.Redaction у вашому додатку Java для видалення метаданих з документів.
+      
+      1. Розпочніть Redactor та відкрийте файл Photo.
+      2. Встановіть правила для видалення прихованих полів.
+      3. Застосуйте редагування для очищення файлу.
+      4. Збережіть оновлений файл.
+   
+    code:
+      platform: "java"
+      copy_title: "Копіювати"
+      result_enable: true
+      result_link: "/examples/redaction/redaction_all.pdf"
+      result_title: "Приклад редагувань"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-redaction</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "натисніть, щоб скопіювати"
+        copy_done: "скопійовано"
+      links:
+        #  loop
+        - title: "Більше прикладів"
+          link: "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Java/"
+        #  loop
+        - title: "Документація"
+          link: "https://docs.groupdocs.com/redaction/java/"
+          
+      content: |
+        ```java {style=abap}
+        // Очистіть метадані у файлах PHOTO
+
+        // Завантажте файл за допомогою Redactor
+        final Redactor redactor = new Redactor("input.jpeg");
+        try
+        {
+            // Виберіть метадані для редагування
+            EraseMetadataRedaction redaction = new EraseMetadataRedaction(MetadataFilters.All);
+
+            // Застосуйте і збережіть файл
+            RedactorChangeLog result = redactor.apply(redaction);
+            redactor.save();
+        }
+        finally { redactor.close(); }
+        ```            
+
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Видалення приватної інформації з документів"
+  description: "GroupDocs.Redaction for Java дозволяє очищати файли, видаляючи чутливий текст, вміст зображень та метадані. Чудово для конфіденційності та безпеки."
+  image: "/img/redaction/features_metadata.webp" # 500x500 px
+  image_description: "Корисні функції редагування"
+  features:
+    # feature loop
+    - title: "Очищення тексту"
+      content: "Знайдіть і видаліть слова чи цифри, які не повинні бути поділені."
+
+    # feature loop
+    - title: "Редакція зображень"
+      content: "Додайте накриття над частинами зображень з чутливим вмістом."
+
+    # feature loop
+    - title: "Видалення метаданих"
+      content: "Очистіть деталі файлу, які можуть містити приватну інформацію."
+      
+  code_samples_ext:
+    # code sample ext loop
+    - title: "Видалення прихованих полів метаданих"
+      content: |
+        Цей приклад демонструє, як видалити поля, такі як Автор та Заголовок з документа PHOTO.
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          //  Відкрийте файл PHOTO в редакторі
+          final Redactor redactor = new Redactor("source.jpeg");
+          try
+          {
+              // Сховати поле автора
+              MetadataSearchRedaction redactionAuthor = 
+                  new MetadataSearchRedaction("[A-Za-z0-9 ]+", "GroupDocs Company");
+              redactionAuthor.setFilter(MetadataFilters.Author);
+
+              // Сховати поле заголовка
+              MetadataSearchRedaction redactionTitle = 
+                  new MetadataSearchRedaction("[A-Za-z0-9 ]+", "GroupDocs.Redaction Usage");
+              redactionTitle.setFilter(MetadataFilters.Title);
+
+              // Запустіть процес
+              Redaction[] redactions = new Redaction[]
+              {
+                  redactionAuthor, redactionTitle
+              };
+              redactor.apply(redactions);
+
+              // Збережіть очищений файл
+              SaveOptions saveOptions = new SaveOptions();
+              saveOptions.setAddSuffix(true);
+              saveOptions.setRasterizeToPDF(false);
+              redactor.save(saveOptions);
+          }
+          finally { redactor.close(); }
+          ```
+        platform: "net"
+        copy_title: "Копіювати"
+        install:
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-redaction</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "натисніть, щоб скопіювати"
+          copy_done: "скопійовано"
+        top_links:
+          #  loop
+          - title: "Завантажити результат"
+            icon: "download"
+            link: "/examples/redaction/formats/remove-sensitive-metadata.pdf"
+        links:
+          #  loop
+          - title: "Більше прикладів"
+            link: "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Java/"
+          #  loop
+          - title: "Документація"
+            link: "https://docs.groupdocs.com/redaction/java/"
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готові почати?"
+  description: "Спробуйте можливості GroupDocs.Redaction безкоштовно або запитайте ліцензію"
+  items:
+    #  loop
+    - title: "Завантаження Maven"
+      link: "https://releases.groupdocs.com/redaction/java/"
+      color: "red"
+        #  loop
+    - title: "Ліцензування"
+      link: "https://purchase.groupdocs.com/pricing/redaction/java/"
+      color: "light"
+
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "Використовуйте Java для видалення метаданих PHOTO"
+    exclude: "PHOTO"
+    description: "Захистіть свої документи PHOTO, видаляючи метадані, використовуючи інструменти Java."
+    items: 
+        # format loop 1
+        - name: "Редагувати PDF"
+          format: "PDF"
+          link: "/redaction/java/remove-sensitive-metadata//pdf/"
+          description: "Формат Adobe Portable Document"
+
+        # format loop 2
+        - name: "Редагувати Word"
+          format: "WORD"
+          link: "/redaction/java/remove-sensitive-metadata//word/"
+          description: "Документи MS Word та Open Office"
+          
+        # format loop 3
+        - name: "Редагувати Excel"
+          format: "EXCEL"
+          link: "/redaction/java/remove-sensitive-metadata//excel/"
+          description: "Таблиці MS Excel та Open Office"
+
+        # format loop 4
+        - name: "Редагувати PowerPoint"
+          format: "POWERPOINT"
+          link: "/redaction/java/remove-sensitive-metadata//powerpoint/"
+          description: "Презентації MS PowerPoint та Open Office"
+
+        # format loop 5
+        - name: "Редагувати Зображення"
+          format: "IMAGE"
+          link: "/redaction/java/remove-sensitive-metadata//image/"
+          description: "Популярні формати зображень"
+
+        # format loop 6
+        - name: "Редагувати Фото"
+          format: "PHOTO"
+          link: "/redaction/java/remove-sensitive-metadata//photo/"
+          description: "Формати фото"
+
+        # format loop 7
+        - name: "Редагувати DOCX"
+          format: "DOCX"
+          link: "/redaction/java/remove-sensitive-metadata//docx/"
+          description: "Документ Microsoft Word Open XML"
+          
+        # format loop 8
+        - name: "Редагувати XLSX"
+          format: "XLSX"
+          link: "/redaction/java/remove-sensitive-metadata//xlsx/"
+          description: "Електронна таблиця Microsoft Excel Open XML"
+          
+        # format loop 9
+        - name: "Редагувати PPTX"
+          format: "PPTX"
+          link: "/redaction/java/remove-sensitive-metadata//pptx/"
+          description: "Презентація PowerPoint Open XML"
+
+        # format loop 10
+        - name: "Редагувати JPEG"
+          format: "JPEG"
+          link: "/redaction/java/remove-sensitive-metadata//jpeg/"
+          description: "Зображення JPEG"
+
+
+---

@@ -1,0 +1,251 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2025-08-08T14:46:56
+draft: false
+lang: ru
+format: Pptx
+product: "Redaction"
+product_tag: "redaction"
+platform: "Java"
+platform_tag: "java"
+
+############################# Head ############################
+head_title: "Удалите личный текст из PPTX с помощью Java"
+head_description: "Защитите конфиденциальные данные в ваших презентациях PPTX с помощью GroupDocs.Redaction for Java и Java. Быстрая и простая обработка редактирования."
+
+############################# Header ############################
+title: "Очистите текст в файлах PPTX с помощью Java" 
+description: "Используйте GroupDocs.Redaction for Java и Java, чтобы скрыть или удалить содержимое в ваших слайдах PPTX. Отлично подходит для бизнеса, юриспруденции или личных нужд."
+subtitle: "Что вы можете сделать с GroupDocs.Redaction for Java" 
+
+############################# About ############################
+about:
+    enable: true
+    title: "Познакомьтесь с GroupDocs.Redaction for Java"
+    link: "/redaction/java/"
+    link_title: "Узнать больше"
+    picture: "about_redaction.svg" # 480 X 400
+    content: |
+       GroupDocs.Redaction for Java предоставляет разработчикам Java надежный способ редактирования или скрытия содержимого в файлах PPTX. Работайте с текстом, изображениями, метаданными и комментариями с полным контролем.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "Как удалить содержимое в презентациях Pptx"
+    content: |
+      С помощью GroupDocs.Redaction for Java вы можете очистить свои презентации Java всего за несколько быстрых шагов.
+      
+      1. Создайте экземпляр Redactor и загрузите файл Pptx.
+      2. Выберите параметры редактирования, соответствующие вашим нуждам.
+      3. Задайте искомый текст и текст замены.
+      4. Примените изменения и сохраните свой обновленный файл.
+   
+    code:
+      platform: "java"
+      copy_title: "Копировать"
+      result_enable: true
+      result_link: "/examples/redaction/redaction_all.pdf"
+      result_title: "Примеры редактирования"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-redaction</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "нажмите для копирования"
+        copy_done: "скопировано"
+      links:
+        #  loop
+        - title: "Больше примеров"
+          link: "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Java/"
+        #  loop
+        - title: "Документация"
+          link: "https://docs.groupdocs.com/redaction/java/"
+          
+      content: |
+        ```java {style=abap}
+        // Удаление текста в презентации PPTX
+
+        // Загрузите свой документ с помощью Redactor
+        final Redactor redactor = new Redactor("input.pptx");
+        try
+        {
+            // Настройте параметры редактирования
+            // Выберите текст для поиска и замените его
+            ReplacementOptions opt = new ReplacementOptions("[redacted]");
+            
+            ExactPhraseRedaction redaction = new ExactPhraseRedaction("Text to hide", opt);
+
+            // Редактируйте и сохраните файл
+            redactor.apply(redaction);
+            redactor.save();
+        }
+        finally { redactor.close(); }
+        ```            
+
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Дополнительные инструменты редактирования"
+  description: "GroupDocs.Redaction for Java упрощает скрытие или удаление конфиденциального содержимого из широкого диапазона файлов. Отлично подходит для защиты ваших данных перед обменом."
+  image: "/img/redaction/features_text_redact.webp" # 500x500 px
+  image_description: "Опции для удаления текста, изображений и метаданных"
+  features:
+    # feature loop
+    - title: "Замените текст в любом месте"
+      content: "Ищите и заменяйте слова или фразы в слайдах. Работает как с точным текстом, так и с шаблонами."
+
+    # feature loop
+    - title: "Скрыть визуальное содержимое"
+      content: "Закрывайте части слайда или изображения, используя перекрывающие прямоугольники выбранного цвета."
+
+    # feature loop
+    - title: "Удаление метаданных"
+      content: "Удалите фоновые данные, такие как автор, дата создания или примечания, которые могут содержать личную информацию."
+      
+  code_samples_ext:
+    # code sample ext loop
+    - title: "Редактирование на основе регулярных выражений"
+      content: |
+        Используйте регулярные выражения, чтобы находить и удалять такие шаблоны, как электронные адреса, номера телефонов или коды.
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          //  Откройте файл
+          final Redactor redactor = new Redactor("source.pptx");
+          try
+          {
+              // Добавьте регулярное выражение EMAIL и текст для замены
+              ReplacementOptions repl_opt = new ReplacementOptions("[redacted]");
+              String emailRegex = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}";
+
+              RegexRedaction redaction = new RegexRedaction(emailRegex, repl_opt);
+              
+              // Примените редактирование на основе шаблона
+              redactor.apply(redaction);
+
+              // Сохраните очищенную версию
+              SaveOptions saveOptions = new SaveOptions();
+              saveOptions.setAddSuffix(true);
+              saveOptions.setRasterizeToPDF(false);
+              redactor.save(saveOptions);
+          }
+          finally { redactor.close(); }
+          ```
+        platform: "net"
+        copy_title: "Копировать"
+        install:
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-redaction</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "нажмите для копирования"
+          copy_done: "скопировано"
+        top_links:
+          #  loop
+          - title: "Скачать результат"
+            icon: "download"
+            link: "/examples/redaction/formats/replace-sensitive-text.pdf"
+        links:
+          #  loop
+          - title: "Больше примеров"
+            link: "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Java/"
+          #  loop
+          - title: "Документация"
+            link: "https://docs.groupdocs.com/redaction/java/"
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Redaction бесплатно или запросите лицензию"
+  items:
+    #  loop
+    - title: "Скачать Maven"
+      link: "https://releases.groupdocs.com/redaction/java/"
+      color: "red"
+        #  loop
+    - title: "Лицензирование"
+      link: "https://purchase.groupdocs.com/pricing/redaction/java/"
+      color: "light"
+
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "Редактируйте содержимое в PPTX с помощью Java"
+    exclude: "PPTX"
+    description: "Удалите личные или конфиденциальные данные из документов PPTX с помощью Java. Надежный способ защитить ваши файлы."
+    items: 
+        # format loop 1
+        - name: "Редактировать PDF"
+          format: "PDF"
+          link: "/redaction/java/replace-sensitive-text//pdf/"
+          description: "Формат Adobe Portable Document"
+
+        # format loop 2
+        - name: "Редактировать Word"
+          format: "WORD"
+          link: "/redaction/java/replace-sensitive-text//word/"
+          description: "Документы MS Word и Open Office"
+          
+        # format loop 3
+        - name: "Редактировать Excel"
+          format: "EXCEL"
+          link: "/redaction/java/replace-sensitive-text//excel/"
+          description: "Таблицы MS Excel и Open Office"
+
+        # format loop 4
+        - name: "Редактировать PowerPoint"
+          format: "POWERPOINT"
+          link: "/redaction/java/replace-sensitive-text//powerpoint/"
+          description: "Презентации MS PowerPoint и Open Office"
+
+        # format loop 5
+        - name: "Редактировать DOCX"
+          format: "DOCX"
+          link: "/redaction/java/replace-sensitive-text//docx/"
+          description: "Документ Microsoft Word Open XML"
+          
+        # format loop 6
+        - name: "Редактировать XLSX"
+          format: "XLSX"
+          link: "/redaction/java/replace-sensitive-text//xlsx/"
+          description: "Электронная таблица Microsoft Excel Open XML"
+          
+        # format loop 7
+        - name: "Редактировать PPTX"
+          format: "PPTX"
+          link: "/redaction/java/replace-sensitive-text//pptx/"
+          description: "Презентация PowerPoint Open XML"
+
+
+---

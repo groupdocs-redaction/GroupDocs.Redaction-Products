@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "فرمت‌های پشتیبانی شده"
       content: "GroupDocs.Redaction از عملیات با بیش از ۳۰ فرمت فایل معمولی پشتیبانی می‌کند."
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "GroupDocs.Redaction API‌های بدون کد"
   description: "ادغام حذف اطلاعات مستند در هر برنامه‌ای با استفاده از API ابری RESTful ما."
   

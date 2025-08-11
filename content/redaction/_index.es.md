@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "Formatos Soportados"
       content: "GroupDocs.Redaction soporta operaciones con más de 30 formatos de archivo ampliamente utilizados."
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "APIs de Bajo Código GroupDocs.Redaction"
   description: "Integra la redacción de documentos en cualquier aplicación utilizando nuestra API REST basada en la nube."
   

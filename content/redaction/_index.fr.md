@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "Formats Pris en Charge"
       content: "GroupDocs.Redaction prend en charge des opérations avec plus de 30 formats de fichiers largement utilisés."
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "GroupDocs.Redaction APIs Low-Code"
   description: "Intégrez la censure de documents dans n'importe quelle application en utilisant notre API REST basée sur le cloud."
   

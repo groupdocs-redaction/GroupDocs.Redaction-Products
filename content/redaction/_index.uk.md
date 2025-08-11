@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "Підтримувані Формати"
       content: "GroupDocs.Redaction підтримує операції з більш ніж 30 широко використовуваними формами файлів."
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "GroupDocs.Redaction API з Низьким Кодом"
   description: "Інтегруйте редагування документів у будь-який додаток, використовуючи наш хмарний REST API."
   

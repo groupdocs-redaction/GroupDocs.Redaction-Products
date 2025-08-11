@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "지원되는 형식"
       content: "GroupDocs.Redaction는 30개 이상의 널리 사용되는 파일 형식에서 작업을 지원합니다."
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "GroupDocs.Redaction 로우 코드 API"
   description: "우리의 클라우드 기반 REST API를 사용하여 문서 레드랙션을 모든 애플리케이션에 통합하세요."
   

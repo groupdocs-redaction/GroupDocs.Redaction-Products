@@ -51,7 +51,7 @@ release:
 code:
   title: "<% "{index-content-python.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
-  more_link: "<% dict "products.python.more_link" %>"
+  more_link: "<% dict "products.python-net.more_link" %>"
   install: "pip install groupdocs-redaction-net"
   content: |
     ```python {style=abap}

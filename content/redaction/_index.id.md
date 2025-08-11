@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "Format yang Didukung"
       content: "GroupDocs.Redaction mendukung operasi dengan lebih dari 30 format file yang umum digunakan."
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "GroupDocs.Redaction API Low-Code"
   description: "Integrasikan redaksi dokumen ke dalam aplikasi apa pun menggunakan API REST berbasis cloud kami."
   

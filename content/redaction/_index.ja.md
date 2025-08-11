@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "サポートされている形式"
       content: "GroupDocs.Redactionは、30以上の一般的なファイル形式との操作をサポートしています。"
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "GroupDocs.RedactionローコードAPI"
   description: "クラウドベースのREST APIを使用して、任意のアプリケーションに文書赤外線処理を統合します。"
   

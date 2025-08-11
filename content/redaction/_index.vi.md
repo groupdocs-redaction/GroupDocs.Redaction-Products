@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "Các Định Dạng Hỗ Trợ"
       content: "GroupDocs.Redaction hỗ trợ các thao tác với hơn 30 định dạng tệp phổ biến."
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "GroupDocs.Redaction APIs Không Mã"
   description: "Tích hợp việc xóa tài liệu vào bất kỳ ứng dụng nào bằng cách sử dụng API REST dựa trên đám mây của chúng tôi."
   

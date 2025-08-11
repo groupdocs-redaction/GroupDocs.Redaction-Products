@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-08-08T14:47:02
+date: 2025-08-11T19:33:04
 draft: false
 
 lang: zh
@@ -49,7 +49,7 @@ release:
 code:
   title: "删除文档内容"
   more: "更多示例"
-  more_link: ""
+  more_link: "https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/"
   install: "pip install groupdocs-redaction-net"
   content: |
     ```python {style=abap}

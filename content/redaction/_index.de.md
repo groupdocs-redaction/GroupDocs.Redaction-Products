@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -14,7 +14,7 @@ head_title: "Dokumentenredaktion Lösung. Bearbeiten oder entfernen Sie sensible
 head_description: "Entfernen, redigieren oder verbergen Sie Text, Bilder oder Metadaten in PDFs, Word-Dokumenten, Excel-Tabellen, PowerPoint-Präsentationen, Bildern und mehr. Nutzen Sie unsere Bibliothek in Ihren .NET-, Java-, Python- oder cloudbasierten Anwendungen."
 
 ############################# Header ############################
-title: "Dokumentenredaktionsbibliothek"
+title: "Dokumenten-redaktionsbibliothek"
 description:  |
   Verbergen oder entfernen Sie persönliche Informationen aus verschiedenen Dateitypen.
 
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "Unterstützte Formate"
       content: "GroupDocs.Redaction unterstützt Operationen mit über 30 weit verbreiteten Dateiformaten."
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "GroupDocs.Redaction Low-Code APIs"
   description: "Integrieren Sie die Dokumentenredaktion in jede Anwendung mithilfe unserer cloudbasierten REST-API."
   

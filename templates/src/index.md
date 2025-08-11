@@ -230,7 +230,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "<% "{index-content.metrics.item_1.title}" %>"
       content: "<% "{index-content.metrics.item_1.description}" %>"
 
@@ -341,7 +341,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "<% "{index-content.cloud_links.title}" %>"
   description: "<% "{index-content.cloud_links.description}" %>"
   

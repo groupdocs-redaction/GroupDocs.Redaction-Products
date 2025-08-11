@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-08T14:47:02
+date:  2025-08-11T19:33:03
 draft: false
 
 product: "Redaction"
@@ -228,7 +228,7 @@ metrics:
 
   items:
     # items loop
-    - number: "40+"
+    - number: "30+"
       title: "รูปแบบที่รองรับ"
       content: "GroupDocs.Redaction รองรับการดำเนินการกับรูปแบบไฟล์ที่ใช้กันทั่วไปกว่า 30 รูปแบบ"
 
@@ -339,7 +339,7 @@ faq:
 
 ############################# Cloud Links ###############################
 cloud_links:
-  enable: true
+  enable: false
   title: "GroupDocs.Redaction API ที่ไม่ต้องเขียนโค้ด"
   description: "รวมการแก้ไขเอกสารเข้ากับแอปพลิเคชันใด ๆ โดยใช้ REST API ที่ทำงานบนคลาวด์ของเรา"
   

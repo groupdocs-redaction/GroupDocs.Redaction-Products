@@ -42,9 +42,9 @@ supported_platforms:
       features_link: "https://docs.groupdocs.com/redaction/net/system-requirements/"
       features:
           # features loop
-          - rows: "2"
+          - rows: "3"
             content: |
-                    .NET Framework 4.6.2 or higher <br> .NET Core 3.1 or higher
+                    NET 6.0+ <br> .NET Core 3.1 <br> .NET Framework 4.6.2+
       
           # features loop
           - rows: "4"
@@ -71,7 +71,7 @@ supported_platforms:
       features_link: "https://docs.groupdocs.com/redaction/java/system-requirements/"
       features:
           # features loop
-          - rows: "2"
+          - rows: "3"
             content: |
                     Java 8 or higher <br> Kotlin
       
@@ -99,7 +99,7 @@ supported_platforms:
       features_link: "https://docs.groupdocs.com/redaction/python-net/system-requirements/"
       features:
           # features loop
-          - rows: "2"
+          - rows: "3"
             content: |
                     Python 3.9+ and .Net 6+
       

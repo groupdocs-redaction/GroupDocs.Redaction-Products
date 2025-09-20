@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-09-19T19:29:16
+date:  2025-09-20T07:15:25
 draft: false
 
 product: "Redaction"
@@ -42,7 +42,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    NET 6.0+ <br> .NET Core 3.1 <br> .NET Framework 4.6.2+
+                    .NET 6.0+ <br> .NET Core 3.1 <br> .NET Framework 4.6.2+
       
           # features loop
           - rows: "4"
@@ -99,7 +99,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    Python 3.9+ and .Net 6+
+                    Python 3.9+ and .NET 6+
       
           # features loop
           - rows: "4"
